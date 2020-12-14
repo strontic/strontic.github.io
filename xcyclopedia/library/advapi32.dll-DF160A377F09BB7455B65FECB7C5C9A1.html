@@ -1,0 +1,4867 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>advapi32.dll | Advanced Windows 32 Base API &#124; STRONTIC</title>
+<meta name="description" content="What is advapi32.dll?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="advapi32.dll | Advanced Windows 32 Base API">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/advapi32.dll-DF160A377F09BB7455B65FECB7C5C9A1.html">
+
+
+  <meta property="og:description" content="What is advapi32.dll?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="advapi32.dll | Advanced Windows 32 Base API">
+  <meta name="twitter:description" content="What is advapi32.dll?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/advapi32.dll-DF160A377F09BB7455B65FECB7C5C9A1.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/advapi32.dll-DF160A377F09BB7455B65FECB7C5C9A1.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">advapi32.dll | Advanced Windows 32 Base API</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            advapi32.dll      Advanced Windows 32 Base API      ">
+    <meta itemprop="description" content="What is advapi32.dll?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="advapi32dll">advapi32.dll</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\system32\advapi32.dll</code></li>
+  <li>Description: Advanced Windows 32 Base API</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">DF160A377F09BB7455B65FECB7C5C9A1</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">90DE06803C52FAF5516DE5E1919ADA5BEFA61913</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">ACDB86CFE89489C7CB49873246F0B0C95D25A25139516070A2F4C7805109DD7C</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">0ED80564684BF7364AE247FCF57E2C379DCEF883723D2AAF0768DF186745F44E6D25745F02F34F8CF85C0EA2D0D4B42C</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">6246C79DC3F4F692E6ED233BE19515153DD107D1C4E98EA2E9670C4E0B3076F1B063DACCE0FC1503D9235331D6DEA0FF50BD64077857DE2809E2E154E2629A7E</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">12288:IFRHwACqLP61uYhU+dGeajBealV7KRDUp0uMLIaitXqewy1bZVlfoQg9J6hX:IFRHwACD1uYhU+dGem97KBWsIait6ewG</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">8D13C0445A188194671F79ABE271A80E</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">4DEE0A2254861779912DE48EC1DF3778B157E80D</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">4099C1839B161DF6D37F31C364C960C5EC7A715E2E93B9873E44BC9C29684744</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="dll-exports">DLL Exports:</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Function Name</th>
+      <th>Ordinal</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfStopProvider</code></td>
+      <td>1573</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfStartProviderEx</code></td>
+      <td>1572</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfStartProvider</code></td>
+      <td>1571</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PrivilegedServiceAuditAlarmW</code></td>
+      <td>1576</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PrivilegedServiceAuditAlarmA</code></td>
+      <td>1575</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PrivilegeCheck</code></td>
+      <td>1574</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfSetULongLongCounterValue</code></td>
+      <td>1570</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfRegSetValue</code></td>
+      <td>1566</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfRegQueryValue</code></td>
+      <td>1565</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfRegQueryInfoKey</code></td>
+      <td>1564</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfSetULongCounterValue</code></td>
+      <td>1569</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfSetCounterSetInfo</code></td>
+      <td>1568</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfSetCounterRefValue</code></td>
+      <td>1567</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryServiceConfig2W</code></td>
+      <td>1586</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryServiceConfig2A</code></td>
+      <td>1585</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QuerySecurityAccessMask</code></td>
+      <td>1584</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryServiceDynamicInformation</code></td>
+      <td>1589</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryServiceConfigW</code></td>
+      <td>1588</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryServiceConfigA</code></td>
+      <td>1587</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryRecoveryAgentsOnEncryptedFile</code></td>
+      <td>1583</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ProcessTrace</code></td>
+      <td>1579</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ProcessIdleTasksW</code></td>
+      <td>1578</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ProcessIdleTasks</code></td>
+      <td>1577</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryLocalUserServiceName</code></td>
+      <td>1582</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryAllTracesW</code></td>
+      <td>1581</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryAllTracesA</code></td>
+      <td>1580</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfRegEnumValue</code></td>
+      <td>1563</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfCloseQueryHandle</code></td>
+      <td>1546</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfAddCounters</code></td>
+      <td>1545</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OperationStart</code></td>
+      <td>1544</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfDecrementULongLongCounterValue</code></td>
+      <td>1549</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfDecrementULongCounterValue</code></td>
+      <td>1548</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfCreateInstance</code></td>
+      <td>1547</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OperationEnd</code></td>
+      <td>1543</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenThreadToken</code></td>
+      <td>1539</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenServiceW</code></td>
+      <td>1538</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenServiceA</code></td>
+      <td>1537</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenTraceW</code></td>
+      <td>1542</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenTraceA</code></td>
+      <td>1541</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenThreadWaitChainSession</code></td>
+      <td>1540</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfQueryCounterSetRegistrationInfo</code></td>
+      <td>1559</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfQueryCounterInfo</code></td>
+      <td>1558</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfQueryCounterData</code></td>
+      <td>1557</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfRegEnumKey</code></td>
+      <td>1562</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfRegCloseKey</code></td>
+      <td>1561</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfQueryInstance</code></td>
+      <td>1560</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfOpenQueryHandle</code></td>
+      <td>1556</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfEnumerateCounterSet</code></td>
+      <td>1552</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfDeleteInstance</code></td>
+      <td>1551</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfDeleteCounters</code></td>
+      <td>1550</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfIncrementULongLongCounterValue</code></td>
+      <td>1555</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfIncrementULongCounterValue</code></td>
+      <td>1554</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PerfEnumerateCounterSetInstances</code></td>
+      <td>1553</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryServiceLockStatusA</code></td>
+      <td>1590</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDeleteValueA</code></td>
+      <td>1627</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDeleteTreeW</code></td>
+      <td>1626</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDeleteTreeA</code></td>
+      <td>1625</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDisablePredefinedCacheEx</code></td>
+      <td>1630</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDisablePredefinedCache</code></td>
+      <td>1629</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDeleteValueW</code></td>
+      <td>1628</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDeleteKeyW</code></td>
+      <td>1624</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDeleteKeyTransactedA</code></td>
+      <td>1620</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDeleteKeyExW</code></td>
+      <td>1619</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDeleteKeyExA</code></td>
+      <td>1618</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDeleteKeyValueW</code></td>
+      <td>1623</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDeleteKeyValueA</code></td>
+      <td>1622</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDeleteKeyTransactedW</code></td>
+      <td>1621</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegGetKeySecurity</code></td>
+      <td>1640</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegFlushKey</code></td>
+      <td>1639</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegEnumValueW</code></td>
+      <td>1638</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegisterEventSourceA</code></td>
+      <td>1686</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegGetValueW</code></td>
+      <td>1642</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegGetValueA</code></td>
+      <td>1641</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegEnumValueA</code></td>
+      <td>1637</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegEnumKeyA</code></td>
+      <td>1633</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegEnableReflectionKey</code></td>
+      <td>1632</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDisableReflectionKey</code></td>
+      <td>1631</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegEnumKeyW</code></td>
+      <td>1636</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegEnumKeyExW</code></td>
+      <td>1635</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegEnumKeyExA</code></td>
+      <td>1634</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegDeleteKeyA</code></td>
+      <td>1617</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryUsersOnEncryptedFile</code></td>
+      <td>1600</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryUserServiceNameForContext</code></td>
+      <td>1599</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryUserServiceName</code></td>
+      <td>1598</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ReadEventLogW</code></td>
+      <td>1603</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ReadEventLogA</code></td>
+      <td>1602</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ReadEncryptedFileRaw</code></td>
+      <td>1601</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryTraceW</code></td>
+      <td>1597</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryServiceStatus</code></td>
+      <td>1593</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryServiceObjectSecurity</code></td>
+      <td>1592</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryServiceLockStatusW</code></td>
+      <td>1591</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryTraceProcessingHandle</code></td>
+      <td>1596</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryTraceA</code></td>
+      <td>1595</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QueryServiceStatusEx</code></td>
+      <td>1594</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegCreateKeyExW</code></td>
+      <td>1613</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegCreateKeyExA</code></td>
+      <td>1612</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegCreateKeyA</code></td>
+      <td>1611</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegCreateKeyW</code></td>
+      <td>1616</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegCreateKeyTransactedW</code></td>
+      <td>1615</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegCreateKeyTransactedA</code></td>
+      <td>1614</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegCopyTreeW</code></td>
+      <td>1610</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegConnectRegistryExA</code></td>
+      <td>1606</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegConnectRegistryA</code></td>
+      <td>1605</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegCloseKey</code></td>
+      <td>1604</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegCopyTreeA</code></td>
+      <td>1609</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegConnectRegistryW</code></td>
+      <td>1608</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegConnectRegistryExW</code></td>
+      <td>1607</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaLookupPrivilegeValue</code></td>
+      <td>1466</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaLookupPrivilegeName</code></td>
+      <td>1465</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaLookupPrivilegeDisplayName</code></td>
+      <td>1464</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaManageSidNameMapping</code></td>
+      <td>1469</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaLookupSids2</code></td>
+      <td>1468</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaLookupSids</code></td>
+      <td>1467</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaLookupNames2</code></td>
+      <td>1463</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaICLookupNamesWithCreds</code></td>
+      <td>1459</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaICLookupNames</code></td>
+      <td>1458</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaGetUserName</code></td>
+      <td>1457</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaLookupNames</code></td>
+      <td>1462</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaICLookupSidsWithCreds</code></td>
+      <td>1461</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaICLookupSids</code></td>
+      <td>1460</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaQueryForestTrustInformation</code></td>
+      <td>1479</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaQueryDomainInformationPolicy</code></td>
+      <td>1478</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaQueryCAPs</code></td>
+      <td>1477</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaQuerySecret</code></td>
+      <td>1482</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaQueryInfoTrustedDomain</code></td>
+      <td>1480</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaQueryInformationPolicy</code></td>
+      <td>1481</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaOpenTrustedDomainByName</code></td>
+      <td>1476</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaOpenPolicy</code></td>
+      <td>1472</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaOpenAccount</code></td>
+      <td>1471</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaNtStatusToWinError</code></td>
+      <td>1470</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaOpenTrustedDomain</code></td>
+      <td>1475</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaOpenSecret</code></td>
+      <td>1474</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaOpenPolicySce</code></td>
+      <td>1473</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaGetSystemAccessAccount</code></td>
+      <td>1456</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaCreateAccount</code></td>
+      <td>1439</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaClose</code></td>
+      <td>1438</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaClearAuditLog</code></td>
+      <td>1437</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaCreateTrustedDomainEx</code></td>
+      <td>1442</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaCreateTrustedDomain</code></td>
+      <td>1441</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaCreateSecret</code></td>
+      <td>1440</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaAddPrivilegesToAccount</code></td>
+      <td>1436</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LookupPrivilegeValueW</code></td>
+      <td>1432</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LookupPrivilegeValueA</code></td>
+      <td>1431</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LookupPrivilegeNameW</code></td>
+      <td>1430</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaAddAccountRights</code></td>
+      <td>1435</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LookupSecurityDescriptorPartsW</code></td>
+      <td>1434</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LookupSecurityDescriptorPartsA</code></td>
+      <td>1433</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaFreeMemory</code></td>
+      <td>1452</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaEnumerateTrustedDomainsEx</code></td>
+      <td>1451</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaEnumerateTrustedDomains</code></td>
+      <td>1450</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaGetRemoteUserName</code></td>
+      <td>1455</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaGetQuotasForAccount</code></td>
+      <td>1454</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaGetAppliedCAPIDs</code></td>
+      <td>1453</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaEnumeratePrivilegesOfAccount</code></td>
+      <td>1449</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaEnumerateAccountRights</code></td>
+      <td>1445</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaDeleteTrustedDomain</code></td>
+      <td>1444</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaDelete</code></td>
+      <td>1443</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaEnumeratePrivileges</code></td>
+      <td>1448</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaEnumerateAccountsWithUserRight</code></td>
+      <td>1447</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaEnumerateAccounts</code></td>
+      <td>1446</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaQuerySecurityObject</code></td>
+      <td>1483</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ObjectCloseAuditAlarmA</code></td>
+      <td>1520</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NpGetUserName</code></td>
+      <td>1519</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NotifyServiceStatusChangeW</code></td>
+      <td>1518</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ObjectDeleteAuditAlarmW</code></td>
+      <td>1523</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ObjectDeleteAuditAlarmA</code></td>
+      <td>1522</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ObjectCloseAuditAlarmW</code></td>
+      <td>1521</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NotifyServiceStatusChangeA</code></td>
+      <td>1517</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MSChapSrvChangePassword2</code></td>
+      <td>1509</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MSChapSrvChangePassword</code></td>
+      <td>1508</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MIDL_user_free_Ext</code></td>
+      <td>1507</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NotifyServiceStatusChange</code></td>
+      <td>1516</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NotifyChangeEventLog</code></td>
+      <td>1515</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NotifyBootConfigStatus</code></td>
+      <td>1514</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenEventLogW</code></td>
+      <td>1533</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenEventLogA</code></td>
+      <td>1532</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenEncryptedFileRawW</code></td>
+      <td>1531</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenSCManagerW</code></td>
+      <td>1536</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenSCManagerA</code></td>
+      <td>1535</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenProcessToken</code></td>
+      <td>1534</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenEncryptedFileRawA</code></td>
+      <td>1530</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ObjectPrivilegeAuditAlarmA</code></td>
+      <td>1526</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ObjectOpenAuditAlarmW</code></td>
+      <td>1525</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ObjectOpenAuditAlarmA</code></td>
+      <td>1524</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenBackupEventLogW</code></td>
+      <td>1529</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OpenBackupEventLogA</code></td>
+      <td>1528</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ObjectPrivilegeAuditAlarmW</code></td>
+      <td>1527</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MD5Update</code></td>
+      <td>1506</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaSetInformationTrustedDomain</code></td>
+      <td>1493</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaSetInformationPolicy</code></td>
+      <td>1492</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaSetForestTrustInformation</code></td>
+      <td>1491</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaSetSecurityObject</code></td>
+      <td>1496</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaSetSecret</code></td>
+      <td>1495</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaSetQuotasForAccount</code></td>
+      <td>1494</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaSetDomainInformationPolicy</code></td>
+      <td>1490</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaRemoveAccountRights</code></td>
+      <td>1486</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaQueryTrustedDomainInfoByName</code></td>
+      <td>1485</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaQueryTrustedDomainInfo</code></td>
+      <td>1484</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaSetCAPs</code></td>
+      <td>1489</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaRetrievePrivateData</code></td>
+      <td>1488</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaRemovePrivilegesFromAccount</code></td>
+      <td>1487</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MD4Init</code></td>
+      <td>1502</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MD4Final</code></td>
+      <td>1501</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MapGenericMask</code></td>
+      <td>1513</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MD5Init</code></td>
+      <td>1505</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MD5Final</code></td>
+      <td>1504</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MD4Update</code></td>
+      <td>1503</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MakeSelfRelativeSD</code></td>
+      <td>1512</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaSetTrustedDomainInformation</code></td>
+      <td>1499</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaSetTrustedDomainInfoByName</code></td>
+      <td>1498</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaSetSystemAccessAccount</code></td>
+      <td>1497</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MakeAbsoluteSD2</code></td>
+      <td>1511</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MakeAbsoluteSD</code></td>
+      <td>1510</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LsaStorePrivateData</code></td>
+      <td>1500</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction019</code></td>
+      <td>1787</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction018</code></td>
+      <td>1786</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction017</code></td>
+      <td>1785</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction022</code></td>
+      <td>1790</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction021</code></td>
+      <td>1789</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction020</code></td>
+      <td>1788</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction016</code></td>
+      <td>1784</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction012</code></td>
+      <td>1780</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction011</code></td>
+      <td>1779</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction010</code></td>
+      <td>1778</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction015</code></td>
+      <td>1783</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction014</code></td>
+      <td>1782</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction013</code></td>
+      <td>1781</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction032</code></td>
+      <td>1800</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction031</code></td>
+      <td>1799</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction030</code></td>
+      <td>1798</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction035</code></td>
+      <td>1803</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction034</code></td>
+      <td>1802</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction033</code></td>
+      <td>1801</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction029</code></td>
+      <td>1797</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction025</code></td>
+      <td>1793</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction024</code></td>
+      <td>1792</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction023</code></td>
+      <td>1791</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction028</code></td>
+      <td>1796</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction027</code></td>
+      <td>1795</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction026</code></td>
+      <td>1794</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction009</code></td>
+      <td>1777</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetUserFileEncryptionKeyEx</code></td>
+      <td>1760</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetUserFileEncryptionKey</code></td>
+      <td>1759</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetTraceCallback</code></td>
+      <td>1758</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StartServiceCtrlDispatcherW</code></td>
+      <td>1763</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StartServiceCtrlDispatcherA</code></td>
+      <td>1762</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StartServiceA</code></td>
+      <td>1761</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetTokenInformation</code></td>
+      <td>1757</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetServiceBits</code></td>
+      <td>1753</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetSecurityInfoExW</code></td>
+      <td>1752</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetSecurityInfoExA</code></td>
+      <td>1751</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetThreadToken</code></td>
+      <td>1756</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetServiceStatus</code></td>
+      <td>1755</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetServiceObjectSecurity</code></td>
+      <td>1754</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction005</code></td>
+      <td>1773</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction004</code></td>
+      <td>1772</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction003</code></td>
+      <td>1771</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction008</code></td>
+      <td>1776</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction007</code></td>
+      <td>1775</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction006</code></td>
+      <td>1774</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction002</code></td>
+      <td>1770</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StartTraceW</code></td>
+      <td>1766</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StartTraceA</code></td>
+      <td>1765</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StartServiceW</code></td>
+      <td>1764</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction001</code></td>
+      <td>1769</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StopTraceW</code></td>
+      <td>1768</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StopTraceA</code></td>
+      <td>1767</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction036</code></td>
+      <td>1804</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiOpenBlock</code></td>
+      <td>1841</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiNotificationRegistrationW</code></td>
+      <td>1840</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiNotificationRegistrationA</code></td>
+      <td>1839</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiQueryAllDataMultipleW</code></td>
+      <td>1844</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiQueryAllDataMultipleA</code></td>
+      <td>1843</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiQueryAllDataA</code></td>
+      <td>1842</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiMofEnumerateResourcesW</code></td>
+      <td>1838</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiFileHandleToInstanceNameA</code></td>
+      <td>1834</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiExecuteMethodW</code></td>
+      <td>1833</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiExecuteMethodA</code></td>
+      <td>1832</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiMofEnumerateResourcesA</code></td>
+      <td>1837</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiFreeBuffer</code></td>
+      <td>1836</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiFileHandleToInstanceNameW</code></td>
+      <td>1835</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiSetSingleInstanceW</code></td>
+      <td>1854</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiSetSingleInstanceA</code></td>
+      <td>1853</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiReceiveNotificationsW</code></td>
+      <td>1852</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WriteEncryptedFileRaw</code></td>
+      <td>1857</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiSetSingleItemW</code></td>
+      <td>1856</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiSetSingleItemA</code></td>
+      <td>1855</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiReceiveNotificationsA</code></td>
+      <td>1851</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiQuerySingleInstanceA</code></td>
+      <td>1847</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiQueryGuidInformation</code></td>
+      <td>1846</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiQueryAllDataW</code></td>
+      <td>1845</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiQuerySingleInstanceW</code></td>
+      <td>1850</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiQuerySingleInstanceMultipleW</code></td>
+      <td>1849</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiQuerySingleInstanceMultipleA</code></td>
+      <td>1848</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiEnumerateGuids</code></td>
+      <td>1831</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TreeResetNamedSecurityInfoW</code></td>
+      <td>1814</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TreeResetNamedSecurityInfoA</code></td>
+      <td>1813</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TraceSetInformation</code></td>
+      <td>1812</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TrusteeAccessToObjectA</code></td>
+      <td>1817</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TreeSetNamedSecurityInfoW</code></td>
+      <td>1816</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TreeSetNamedSecurityInfoA</code></td>
+      <td>1815</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TraceQueryInformation</code></td>
+      <td>1811</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TraceEvent</code></td>
+      <td>1807</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction041</code></td>
+      <td>1806</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SystemFunction040</code></td>
+      <td>1805</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TraceMessageVa</code></td>
+      <td>1810</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TraceMessage</code></td>
+      <td>1809</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TraceEventInstance</code></td>
+      <td>1808</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WaitServiceState</code></td>
+      <td>1827</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UsePinForEncryptedFilesW</code></td>
+      <td>1826</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UsePinForEncryptedFilesA</code></td>
+      <td>1825</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiDevInstToInstanceNameW</code></td>
+      <td>1830</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiDevInstToInstanceNameA</code></td>
+      <td>1829</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WmiCloseBlock</code></td>
+      <td>1828</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UpdateTraceW</code></td>
+      <td>1824</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UnlockServiceDatabase</code></td>
+      <td>1820</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UninstallApplication</code></td>
+      <td>1819</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TrusteeAccessToObjectW</code></td>
+      <td>1818</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UpdateTraceA</code></td>
+      <td>1823</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UnregisterTraceGuids</code></td>
+      <td>1822</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UnregisterIdleTask</code></td>
+      <td>1821</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegReplaceKeyW</code></td>
+      <td>1670</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegReplaceKeyA</code></td>
+      <td>1669</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegRenameKey</code></td>
+      <td>1668</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegSaveKeyA</code></td>
+      <td>1673</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegRestoreKeyW</code></td>
+      <td>1672</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegRestoreKeyA</code></td>
+      <td>1671</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegQueryValueW</code></td>
+      <td>1667</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegQueryReflectionKey</code></td>
+      <td>1663</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegQueryMultipleValuesW</code></td>
+      <td>1662</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegQueryMultipleValuesA</code></td>
+      <td>1661</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegQueryValueExW</code></td>
+      <td>1666</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegQueryValueExA</code></td>
+      <td>1665</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegQueryValueA</code></td>
+      <td>1664</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegSetValueW</code></td>
+      <td>1683</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegSetValueExW</code></td>
+      <td>1682</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegSetValueExA</code></td>
+      <td>1681</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RemoteRegEnumKeyWrapper</code></td>
+      <td>1696</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegUnLoadKeyW</code></td>
+      <td>1685</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegUnLoadKeyA</code></td>
+      <td>1684</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegSetValueA</code></td>
+      <td>1680</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegSaveKeyW</code></td>
+      <td>1676</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegSaveKeyExW</code></td>
+      <td>1675</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegSaveKeyExA</code></td>
+      <td>1674</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegSetKeyValueW</code></td>
+      <td>1679</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegSetKeyValueA</code></td>
+      <td>1678</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegSetKeySecurity</code></td>
+      <td>1677</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegQueryInfoKeyW</code></td>
+      <td>1660</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegLoadAppKeyA</code></td>
+      <td>1643</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegisterWaitChainCOMCallback</code></td>
+      <td>1695</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegisterTraceGuidsW</code></td>
+      <td>1694</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegLoadKeyW</code></td>
+      <td>1646</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegLoadKeyA</code></td>
+      <td>1645</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegLoadAppKeyW</code></td>
+      <td>1644</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegisterTraceGuidsA</code></td>
+      <td>1693</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegisterServiceCtrlHandlerA</code></td>
+      <td>1689</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegisterIdleTask</code></td>
+      <td>1688</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegisterEventSourceW</code></td>
+      <td>1687</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegisterServiceCtrlHandlerW</code></td>
+      <td>1692</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegisterServiceCtrlHandlerExW</code></td>
+      <td>1691</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegisterServiceCtrlHandlerExA</code></td>
+      <td>1690</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegOpenKeyW</code></td>
+      <td>1656</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegOpenKeyTransactedW</code></td>
+      <td>1655</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegOpenKeyTransactedA</code></td>
+      <td>1654</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegQueryInfoKeyA</code></td>
+      <td>1659</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegOverridePredefKey</code></td>
+      <td>1658</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegOpenUserClassesRoot</code></td>
+      <td>1657</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegOpenKeyExW</code></td>
+      <td>1653</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegNotifyChangeKeyValue</code></td>
+      <td>1649</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegLoadMUIStringW</code></td>
+      <td>1648</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegLoadMUIStringA</code></td>
+      <td>1647</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegOpenKeyExA</code></td>
+      <td>1652</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegOpenKeyA</code></td>
+      <td>1651</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RegOpenCurrentUser</code></td>
+      <td>1650</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RemoteRegEnumValueWrapper</code></td>
+      <td>1697</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetInformationCodeAuthzLevelW</code></td>
+      <td>1734</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetFileSecurityW</code></td>
+      <td>1733</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetFileSecurityA</code></td>
+      <td>1732</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetNamedSecurityInfoA</code></td>
+      <td>1737</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetKernelObjectSecurity</code></td>
+      <td>1736</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetInformationCodeAuthzPolicyW</code></td>
+      <td>1735</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetEntriesInAuditListW</code></td>
+      <td>1731</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetEntriesInAccessListW</code></td>
+      <td>1727</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetEntriesInAccessListA</code></td>
+      <td>1726</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetEncryptedFileMetadata</code></td>
+      <td>1725</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetEntriesInAuditListA</code></td>
+      <td>1730</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetEntriesInAclW</code></td>
+      <td>1729</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetEntriesInAclA</code></td>
+      <td>1728</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetSecurityDescriptorOwner</code></td>
+      <td>1747</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetSecurityDescriptorGroup</code></td>
+      <td>1746</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetSecurityDescriptorDacl</code></td>
+      <td>1745</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetSecurityInfo</code></td>
+      <td>1750</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetSecurityDescriptorSacl</code></td>
+      <td>1749</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetSecurityDescriptorRMControl</code></td>
+      <td>1748</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetSecurityDescriptorControl</code></td>
+      <td>1744</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetNamedSecurityInfoW</code></td>
+      <td>1740</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetNamedSecurityInfoExW</code></td>
+      <td>1739</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetNamedSecurityInfoExA</code></td>
+      <td>1738</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetSecurityAccessMask</code></td>
+      <td>1743</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetPrivateObjectSecurityEx</code></td>
+      <td>1742</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetPrivateObjectSecurity</code></td>
+      <td>1741</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetAclInformation</code></td>
+      <td>1724</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SafeBaseRegGetKeySecurity</code></td>
+      <td>1707</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RevertToSelf</code></td>
+      <td>1706</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ReportEventW</code></td>
+      <td>1705</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferCreateLevel</code></td>
+      <td>1710</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferComputeTokenFromLevel</code></td>
+      <td>1709</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferCloseLevel</code></td>
+      <td>1708</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ReportEventA</code></td>
+      <td>1704</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RemoteRegQueryMultipleValuesWrapper</code></td>
+      <td>1700</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RemoteRegQueryMultipleValues2Wrapper</code></td>
+      <td>1699</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RemoteRegQueryInfoKeyWrapper</code></td>
+      <td>1698</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RemoveUsersFromEncryptedFile</code></td>
+      <td>1703</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RemoveTraceCallback</code></td>
+      <td>1702</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">RemoteRegQueryValueWrapper</code></td>
+      <td>1701</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferiSearchMatchingHashRules</code></td>
+      <td>1723</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferiRecordEventLogEntry</code></td>
+      <td>1722</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferiPopulateDefaultsInRegistry</code></td>
+      <td>1721</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferSetPolicyInformation</code></td>
+      <td>1716</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferSetLevelInformation</code></td>
+      <td>1715</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferRecordEventLogEntry</code></td>
+      <td>1714</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferiIsExecutableFileType</code></td>
+      <td>1720</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferiChangeRegistryScope</code></td>
+      <td>1717</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferGetPolicyInformation</code></td>
+      <td>1712</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferGetLevelInformation</code></td>
+      <td>1711</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferiIsDllAllowed</code></td>
+      <td>1719</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferIdentifyLevel</code></td>
+      <td>1713</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SaferiCompareTokenLevels</code></td>
+      <td>1718</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LookupPrivilegeNameA</code></td>
+      <td>1429</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreateServiceA</code></td>
+      <td>1145</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreateRestrictedToken</code></td>
+      <td>1144</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreateProcessWithTokenW</code></td>
+      <td>1143</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreateTraceInstanceId</code></td>
+      <td>1148</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreateServiceW</code></td>
+      <td>1147</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreateServiceEx</code></td>
+      <td>1146</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreateProcessWithLogonW</code></td>
+      <td>1142</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreatePrivateObjectSecurityEx</code></td>
+      <td>1138</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreatePrivateObjectSecurity</code></td>
+      <td>1137</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreateCodeAuthzLevel</code></td>
+      <td>1136</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreateProcessAsUserW</code></td>
+      <td>1141</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreateProcessAsUserA</code></td>
+      <td>1140</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreatePrivateObjectSecurityWithMultipleInheritance</code></td>
+      <td>1139</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredFree</code></td>
+      <td>1158</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredFindBestCredentialW</code></td>
+      <td>1157</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredFindBestCredentialA</code></td>
+      <td>1156</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredGetTargetInfoW</code></td>
+      <td>1161</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredGetTargetInfoA</code></td>
+      <td>1160</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredGetSessionTypes</code></td>
+      <td>1159</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredEnumerateW</code></td>
+      <td>1155</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredDeleteA</code></td>
+      <td>1151</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredBackupCredentials</code></td>
+      <td>1150</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CreateWellKnownSid</code></td>
+      <td>1149</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredEnumerateA</code></td>
+      <td>1154</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredEncryptAndMarshalBinaryBlob</code></td>
+      <td>1153</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredDeleteW</code></td>
+      <td>1152</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CopySid</code></td>
+      <td>1135</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertSecurityDescriptorToAccessA</code></td>
+      <td>1118</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertSDToStringSDRootDomainW</code></td>
+      <td>1117</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertSDToStringSDRootDomainA</code></td>
+      <td>1116</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertSecurityDescriptorToAccessW</code></td>
+      <td>1121</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertSecurityDescriptorToAccessNamedW</code></td>
+      <td>1120</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertSecurityDescriptorToAccessNamedA</code></td>
+      <td>1119</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertSDToStringSDDomainW</code></td>
+      <td>1115</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ControlTraceA</code></td>
+      <td>1111</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ControlServiceExW</code></td>
+      <td>1110</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ControlServiceExA</code></td>
+      <td>1109</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertAccessToSecurityDescriptorW</code></td>
+      <td>1114</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertAccessToSecurityDescriptorA</code></td>
+      <td>1113</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ControlTraceW</code></td>
+      <td>1112</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertStringSecurityDescriptorToSecurityDescriptorW</code></td>
+      <td>1131</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertStringSecurityDescriptorToSecurityDescriptorA</code></td>
+      <td>1130</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertStringSDToSDRootDomainW</code></td>
+      <td>1129</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertToAutoInheritPrivateObjectSecurity</code></td>
+      <td>1134</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertStringSidToSidW</code></td>
+      <td>1133</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertStringSidToSidA</code></td>
+      <td>1132</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertStringSDToSDRootDomainA</code></td>
+      <td>1128</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertSidToStringSidA</code></td>
+      <td>1124</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertSecurityDescriptorToStringSecurityDescriptorW</code></td>
+      <td>1123</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertSecurityDescriptorToStringSecurityDescriptorA</code></td>
+      <td>1122</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertStringSDToSDDomainW</code></td>
+      <td>1127</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertStringSDToSDDomainA</code></td>
+      <td>1126</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConvertSidToStringSidW</code></td>
+      <td>1125</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredIsMarshaledCredentialA</code></td>
+      <td>1162</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptDecrypt</code></td>
+      <td>1199</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptCreateHash</code></td>
+      <td>1198</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptContextAddRef</code></td>
+      <td>1197</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptDestroyKey</code></td>
+      <td>1202</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptDestroyHash</code></td>
+      <td>1201</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptDeriveKey</code></td>
+      <td>1200</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptAcquireContextW</code></td>
+      <td>1196</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredWriteDomainCredentialsA</code></td>
+      <td>1186</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredWriteA</code></td>
+      <td>1185</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredUnprotectW</code></td>
+      <td>1184</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptAcquireContextA</code></td>
+      <td>1195</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredWriteW</code></td>
+      <td>1188</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredWriteDomainCredentialsW</code></td>
+      <td>1187</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptGenRandom</code></td>
+      <td>1212</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptGenKey</code></td>
+      <td>1211</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptExportKey</code></td>
+      <td>1210</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptGetHashParam</code></td>
+      <td>1215</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptGetDefaultProviderW</code></td>
+      <td>1214</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptGetDefaultProviderA</code></td>
+      <td>1213</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptEnumProviderTypesW</code></td>
+      <td>1207</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptEncrypt</code></td>
+      <td>1205</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptDuplicateKey</code></td>
+      <td>1204</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptDuplicateHash</code></td>
+      <td>1203</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptEnumProviderTypesA</code></td>
+      <td>1206</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptEnumProvidersW</code></td>
+      <td>1209</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptEnumProvidersA</code></td>
+      <td>1208</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredUnprotectA</code></td>
+      <td>1183</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredpEncodeCredential</code></td>
+      <td>1193</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredpDecodeCredential</code></td>
+      <td>1192</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredpConvertTargetInfo</code></td>
+      <td>1191</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredProfileLoadedEx</code></td>
+      <td>1169</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredProfileLoaded</code></td>
+      <td>1168</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredpEncodeSecret</code></td>
+      <td>1194</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredpConvertOneCredentialSize</code></td>
+      <td>1190</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredIsProtectedW</code></td>
+      <td>1165</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredIsProtectedA</code></td>
+      <td>1164</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredIsMarshaledCredentialW</code></td>
+      <td>1163</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredpConvertCredential</code></td>
+      <td>1189</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredMarshalCredentialW</code></td>
+      <td>1167</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredMarshalCredentialA</code></td>
+      <td>1166</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredRenameW</code></td>
+      <td>1179</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredRenameA</code></td>
+      <td>1178</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredReadW</code></td>
+      <td>1177</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredUnmarshalCredentialW</code></td>
+      <td>1182</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredUnmarshalCredentialA</code></td>
+      <td>1181</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredRestoreCredentials</code></td>
+      <td>1180</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredReadDomainCredentialsW</code></td>
+      <td>1176</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredProtectW</code></td>
+      <td>1172</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredProtectA</code></td>
+      <td>1171</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredProfileUnloaded</code></td>
+      <td>1170</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredReadDomainCredentialsA</code></td>
+      <td>1175</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredReadByTokenHandle</code></td>
+      <td>1174</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CredReadA</code></td>
+      <td>1173</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditComputeEffectivePolicyBySid</code></td>
+      <td>1038</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AreAnyAccessesGranted</code></td>
+      <td>1037</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AreAllAccessesGranted</code></td>
+      <td>1036</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditEnumeratePerUserPolicy</code></td>
+      <td>1041</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditEnumerateCategories</code></td>
+      <td>1040</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditComputeEffectivePolicyByToken</code></td>
+      <td>1039</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AllocateLocallyUniqueId</code></td>
+      <td>1035</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddUsersToEncryptedFileEx</code></td>
+      <td>1031</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddUsersToEncryptedFile</code></td>
+      <td>1030</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddMandatoryAce</code></td>
+      <td>1029</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AllocateAndInitializeSid</code></td>
+      <td>1034</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AdjustTokenPrivileges</code></td>
+      <td>1033</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AdjustTokenGroups</code></td>
+      <td>1032</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditQueryGlobalSaclW</code></td>
+      <td>1051</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditQueryGlobalSaclA</code></td>
+      <td>1050</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditLookupSubCategoryNameW</code></td>
+      <td>1049</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditQuerySystemPolicy</code></td>
+      <td>1054</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditQuerySecurity</code></td>
+      <td>1053</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditQueryPerUserPolicy</code></td>
+      <td>1052</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditLookupSubCategoryNameA</code></td>
+      <td>1048</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditLookupCategoryGuidFromCategoryId</code></td>
+      <td>1044</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditFree</code></td>
+      <td>1043</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditEnumerateSubCategories</code></td>
+      <td>1042</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditLookupCategoryNameW</code></td>
+      <td>1047</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditLookupCategoryNameA</code></td>
+      <td>1046</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditLookupCategoryIdFromCategoryGuid</code></td>
+      <td>1045</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddConditionalAce</code></td>
+      <td>1028</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AccessCheckByTypeAndAuditAlarmA</code></td>
+      <td>1011</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AccessCheckByType</code></td>
+      <td>1010</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AccessCheckAndAuditAlarmW</code></td>
+      <td>1009</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AccessCheckByTypeResultListAndAuditAlarmA</code></td>
+      <td>1014</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AccessCheckByTypeResultList</code></td>
+      <td>1013</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AccessCheckByTypeAndAuditAlarmW</code></td>
+      <td>1012</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AccessCheckAndAuditAlarmA</code></td>
+      <td>1008</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">A_SHAUpdate</code></td>
+      <td>1004</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">A_SHAInit</code></td>
+      <td>1003</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">A_SHAFinal</code></td>
+      <td>1002</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AccessCheck</code></td>
+      <td>1007</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AbortSystemShutdownW</code></td>
+      <td>1006</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AbortSystemShutdownA</code></td>
+      <td>1005</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddAce</code></td>
+      <td>1024</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddAccessDeniedObjectAce</code></td>
+      <td>1023</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddAccessDeniedAceEx</code></td>
+      <td>1022</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddAuditAccessObjectAce</code></td>
+      <td>1027</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddAuditAccessAceEx</code></td>
+      <td>1026</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddAuditAccessAce</code></td>
+      <td>1025</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddAccessDeniedAce</code></td>
+      <td>1021</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AccessCheckByTypeResultListAndAuditAlarmW</code></td>
+      <td>1017</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AccessCheckByTypeResultListAndAuditAlarmByHandleW</code></td>
+      <td>1016</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AccessCheckByTypeResultListAndAuditAlarmByHandleA</code></td>
+      <td>1015</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddAccessAllowedObjectAce</code></td>
+      <td>1020</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddAccessAllowedAceEx</code></td>
+      <td>1019</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AddAccessAllowedAce</code></td>
+      <td>1018</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditSetGlobalSaclA</code></td>
+      <td>1055</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ChangeServiceConfig2A</code></td>
+      <td>1092</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CancelOverlappedAccess</code></td>
+      <td>1091</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildTrusteeWithSidW</code></td>
+      <td>1090</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ChangeServiceConfigW</code></td>
+      <td>1095</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ChangeServiceConfigA</code></td>
+      <td>1094</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ChangeServiceConfig2W</code></td>
+      <td>1093</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildTrusteeWithSidA</code></td>
+      <td>1089</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildTrusteeWithObjectsAndNameA</code></td>
+      <td>1085</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildTrusteeWithNameW</code></td>
+      <td>1084</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildTrusteeWithNameA</code></td>
+      <td>1083</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildTrusteeWithObjectsAndSidW</code></td>
+      <td>1088</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildTrusteeWithObjectsAndSidA</code></td>
+      <td>1087</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildTrusteeWithObjectsAndNameW</code></td>
+      <td>1086</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CloseTrace</code></td>
+      <td>1105</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CloseThreadWaitChainSession</code></td>
+      <td>1104</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CloseServiceHandle</code></td>
+      <td>1103</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ControlService</code></td>
+      <td>1108</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ComputeAccessTokenFromCodeAuthzLevel</code></td>
+      <td>1107</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CommandLineFromMsiDescriptor</code></td>
+      <td>1106</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CloseEventLog</code></td>
+      <td>1102</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ClearEventLogA</code></td>
+      <td>1098</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CheckTokenMembership</code></td>
+      <td>1097</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CheckForHiberboot</code></td>
+      <td>1096</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CloseEncryptedFileRaw</code></td>
+      <td>1101</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CloseCodeAuthzLevel</code></td>
+      <td>1100</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ClearEventLogW</code></td>
+      <td>1099</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildSecurityDescriptorW</code></td>
+      <td>1082</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BaseRegDeleteValue</code></td>
+      <td>1065</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BaseRegDeleteKeyEx</code></td>
+      <td>1064</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BaseRegCreateKey</code></td>
+      <td>1063</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BaseRegLoadKey</code></td>
+      <td>1068</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BaseRegGetVersion</code></td>
+      <td>1067</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BaseRegFlushKey</code></td>
+      <td>1066</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BaseRegCloseKey</code></td>
+      <td>1062</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditSetSecurity</code></td>
+      <td>1058</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditSetPerUserPolicy</code></td>
+      <td>1057</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditSetGlobalSaclW</code></td>
+      <td>1056</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BackupEventLogW</code></td>
+      <td>1061</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BackupEventLogA</code></td>
+      <td>1060</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AuditSetSystemPolicy</code></td>
+      <td>1059</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildImpersonateExplicitAccessWithNameW</code></td>
+      <td>1078</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildImpersonateExplicitAccessWithNameA</code></td>
+      <td>1077</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildExplicitAccessWithNameW</code></td>
+      <td>1076</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildSecurityDescriptorA</code></td>
+      <td>1081</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildImpersonateTrusteeW</code></td>
+      <td>1080</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildImpersonateTrusteeA</code></td>
+      <td>1079</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BuildExplicitAccessWithNameA</code></td>
+      <td>1075</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BaseRegSaveKeyEx</code></td>
+      <td>1071</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BaseRegRestoreKey</code></td>
+      <td>1070</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BaseRegOpenKey</code></td>
+      <td>1069</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BaseRegUnLoadKey</code></td>
+      <td>1074</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BaseRegSetValue</code></td>
+      <td>1073</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BaseRegSetKeySecurity</code></td>
+      <td>1072</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSecurityInfoExW</code></td>
+      <td>1359</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSecurityInfoExA</code></td>
+      <td>1358</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSecurityInfo</code></td>
+      <td>1357</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetServiceKeyNameA</code></td>
+      <td>1362</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetServiceDisplayNameW</code></td>
+      <td>1361</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetServiceDisplayNameA</code></td>
+      <td>1360</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSecurityDescriptorSacl</code></td>
+      <td>1356</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSecurityDescriptorGroup</code></td>
+      <td>1352</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSecurityDescriptorDacl</code></td>
+      <td>1351</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSecurityDescriptorControl</code></td>
+      <td>1350</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSecurityDescriptorRMControl</code></td>
+      <td>1355</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSecurityDescriptorOwner</code></td>
+      <td>1354</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSecurityDescriptorLength</code></td>
+      <td>1353</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetTraceEnableLevel</code></td>
+      <td>1372</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetTraceEnableFlags</code></td>
+      <td>1371</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetTokenInformation</code></td>
+      <td>1370</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetTrusteeFormW</code></td>
+      <td>1375</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetTrusteeFormA</code></td>
+      <td>1374</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetTraceLoggerHandle</code></td>
+      <td>1373</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetThreadWaitChain</code></td>
+      <td>1369</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSidLengthRequired</code></td>
+      <td>1365</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSidIdentifierAuthority</code></td>
+      <td>1364</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetServiceKeyNameW</code></td>
+      <td>1363</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetStringConditionFromBinary</code></td>
+      <td>1368</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSidSubAuthorityCount</code></td>
+      <td>1367</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetSidSubAuthority</code></td>
+      <td>1366</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetPrivateObjectSecurity</code></td>
+      <td>1349</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetKernelObjectSecurity</code></td>
+      <td>1332</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetInheritanceSourceW</code></td>
+      <td>1331</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetInheritanceSourceA</code></td>
+      <td>1330</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetLocalManagedApplications</code></td>
+      <td>1335</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetLocalManagedApplicationData</code></td>
+      <td>1334</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetLengthSid</code></td>
+      <td>1333</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetInformationCodeAuthzPolicyW</code></td>
+      <td>1329</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetExplicitEntriesFromAclW</code></td>
+      <td>1325</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetExplicitEntriesFromAclA</code></td>
+      <td>1324</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetEventLogInformation</code></td>
+      <td>1323</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetInformationCodeAuthzLevelW</code></td>
+      <td>1328</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetFileSecurityW</code></td>
+      <td>1327</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetFileSecurityA</code></td>
+      <td>1326</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetNamedSecurityInfoW</code></td>
+      <td>1345</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetNamedSecurityInfoExW</code></td>
+      <td>1344</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetNamedSecurityInfoExA</code></td>
+      <td>1343</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetOverlappedAccessResults</code></td>
+      <td>1348</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetOldestEventLogRecord</code></td>
+      <td>1347</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetNumberOfEventLogRecords</code></td>
+      <td>1346</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetNamedSecurityInfoA</code></td>
+      <td>1342</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetMultipleTrusteeA</code></td>
+      <td>1338</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetManagedApplications</code></td>
+      <td>1337</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetManagedApplicationCategories</code></td>
+      <td>1336</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetMultipleTrusteeW</code></td>
+      <td>1341</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetMultipleTrusteeOperationW</code></td>
+      <td>1340</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetMultipleTrusteeOperationA</code></td>
+      <td>1339</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetTrusteeNameA</code></td>
+      <td>1376</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IsValidAcl</code></td>
+      <td>1412</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IsTokenUntrusted</code></td>
+      <td>1411</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IsTokenRestricted</code></td>
+      <td>1410</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IsValidSid</code></td>
+      <td>1415</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IsValidSecurityDescriptor</code></td>
+      <td>1414</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IsValidRelativeSecurityDescriptor</code></td>
+      <td>1413</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IsTextUnicode</code></td>
+      <td>1409</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InitiateSystemShutdownExA</code></td>
+      <td>1405</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InitiateSystemShutdownA</code></td>
+      <td>1404</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InitiateShutdownW</code></td>
+      <td>1403</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InstallApplication</code></td>
+      <td>1408</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InitiateSystemShutdownW</code></td>
+      <td>1407</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InitiateSystemShutdownExW</code></td>
+      <td>1406</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LookupAccountSidA</code></td>
+      <td>1425</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LookupAccountNameW</code></td>
+      <td>1424</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LookupAccountNameA</code></td>
+      <td>1423</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LookupPrivilegeDisplayNameW</code></td>
+      <td>1428</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LookupPrivilegeDisplayNameA</code></td>
+      <td>1427</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LookupAccountSidW</code></td>
+      <td>1426</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LogonUserW</code></td>
+      <td>1422</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LogonUserA</code></td>
+      <td>1418</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LockServiceDatabase</code></td>
+      <td>1417</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IsWellKnownSid</code></td>
+      <td>1416</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LogonUserExW</code></td>
+      <td>1421</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LogonUserExExW</code></td>
+      <td>1420</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LogonUserExA</code></td>
+      <td>1419</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InitiateShutdownA</code></td>
+      <td>1402</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">I_ScPnPGetServiceName</code></td>
+      <td>1385</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">I_ScIsSecurityProcess</code></td>
+      <td>1384</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">I_ScGetCurrentGroupStateW</code></td>
+      <td>1001</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">I_ScReparseServiceDatabase</code></td>
+      <td>1388</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">I_ScRegisterPreshutdownRestart</code></td>
+      <td>1387</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">I_ScQueryServiceConfig</code></td>
+      <td>1386</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">I_QueryTagInformation</code></td>
+      <td>1383</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetTrusteeTypeW</code></td>
+      <td>1379</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetTrusteeTypeA</code></td>
+      <td>1378</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetTrusteeNameW</code></td>
+      <td>1377</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetWindowsAccountDomainSid</code></td>
+      <td>1382</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetUserNameW</code></td>
+      <td>1381</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetUserNameA</code></td>
+      <td>1380</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ImpersonateSelf</code></td>
+      <td>1398</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ImpersonateNamedPipeClient</code></td>
+      <td>1397</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ImpersonateLoggedOnUser</code></td>
+      <td>1396</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InitializeSid</code></td>
+      <td>1401</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InitializeSecurityDescriptor</code></td>
+      <td>1400</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InitializeAcl</code></td>
+      <td>1399</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ImpersonateAnonymousToken</code></td>
+      <td>1395</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">I_ScSetServiceBitsA</code></td>
+      <td>1391</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">I_ScSendTSMessage</code></td>
+      <td>1390</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">I_ScSendPnPMessage</code></td>
+      <td>1389</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IdentifyCodeAuthzLevelW</code></td>
+      <td>1394</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">I_ScValidatePnPService</code></td>
+      <td>1393</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">I_ScSetServiceBitsW</code></td>
+      <td>1392</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfNumberOfRecords</code></td>
+      <td>1252</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfFlushEventLog</code></td>
+      <td>1251</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfDeregisterEventSource</code></td>
+      <td>1250</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfOpenBackupEventLogW</code></td>
+      <td>1255</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfOpenBackupEventLogA</code></td>
+      <td>1254</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfOldestRecord</code></td>
+      <td>1253</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfCloseEventLog</code></td>
+      <td>1249</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfBackupEventLogFileW</code></td>
+      <td>1245</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfBackupEventLogFileA</code></td>
+      <td>1244</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DuplicateTokenEx</code></td>
+      <td>1243</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfClearEventLogFileW</code></td>
+      <td>1248</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfClearEventLogFileA</code></td>
+      <td>1247</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfChangeNotify</code></td>
+      <td>1246</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EnableTrace</code></td>
+      <td>1265</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfReportEventW</code></td>
+      <td>1264</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfReportEventAndSourceW</code></td>
+      <td>1263</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EncryptedFileKeyInfo</code></td>
+      <td>1270</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EnableTraceEx2</code></td>
+      <td>1267</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EnableTraceEx</code></td>
+      <td>1266</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfReportEventA</code></td>
+      <td>1262</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfReadEventLogA</code></td>
+      <td>1258</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfOpenEventLogW</code></td>
+      <td>1257</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfOpenEventLogA</code></td>
+      <td>1256</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfRegisterEventSourceW</code></td>
+      <td>1261</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfRegisterEventSourceA</code></td>
+      <td>1260</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ElfReadEventLogW</code></td>
+      <td>1259</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DuplicateToken</code></td>
+      <td>1242</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptSetProviderA</code></td>
+      <td>1226</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptSetKeyParam</code></td>
+      <td>1224</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptSetHashParam</code></td>
+      <td>1223</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptSetProviderW</code></td>
+      <td>1229</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptSetProviderExW</code></td>
+      <td>1228</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptSetProviderExA</code></td>
+      <td>1227</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptReleaseContext</code></td>
+      <td>1222</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptGetUserKey</code></td>
+      <td>1218</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptGetProvParam</code></td>
+      <td>1217</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptGetKeyParam</code></td>
+      <td>1216</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptImportKey</code></td>
+      <td>1221</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptHashSessionKey</code></td>
+      <td>1220</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptHashData</code></td>
+      <td>1219</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DeleteService</code></td>
+      <td>1238</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DeleteAce</code></td>
+      <td>1237</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DecryptFileW</code></td>
+      <td>1236</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DuplicateEncryptionInfoFile</code></td>
+      <td>1241</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DestroyPrivateObjectSecurity</code></td>
+      <td>1240</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DeregisterEventSource</code></td>
+      <td>1239</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DecryptFileA</code></td>
+      <td>1235</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptSignHashW</code></td>
+      <td>1231</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptSignHashA</code></td>
+      <td>1230</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptSetProvParam</code></td>
+      <td>1225</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CveEventWrite</code></td>
+      <td>1234</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptVerifySignatureW</code></td>
+      <td>1233</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CryptVerifySignatureA</code></td>
+      <td>1232</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EncryptFileA</code></td>
+      <td>1268</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FreeEncryptedFileKeyInfo</code></td>
+      <td>1306</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FlushTraceW</code></td>
+      <td>1305</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FlushTraceA</code></td>
+      <td>1304</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FreeInheritedFromArray</code></td>
+      <td>1309</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FreeEncryptionCertificateHashList</code></td>
+      <td>1308</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FreeEncryptedFileMetadata</code></td>
+      <td>1307</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FlushEfsCache</code></td>
+      <td>1303</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventWriteTransfer</code></td>
+      <td>1299</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventWriteString</code></td>
+      <td>1298</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventWriteStartScenario</code></td>
+      <td>1297</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FindFirstFreeAce</code></td>
+      <td>1302</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FileEncryptionStatusW</code></td>
+      <td>1301</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FileEncryptionStatusA</code></td>
+      <td>1300</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetDynamicTimeZoneInformationEffectiveYears</code></td>
+      <td>1319</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetCurrentHwProfileW</code></td>
+      <td>1318</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetCurrentHwProfileA</code></td>
+      <td>1317</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetEncryptedFileMetadata</code></td>
+      <td>1322</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetEffectiveRightsFromAclW</code></td>
+      <td>1321</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetEffectiveRightsFromAclA</code></td>
+      <td>1320</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetAuditedPermissionsFromAclW</code></td>
+      <td>1316</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetAccessPermissionsForObjectW</code></td>
+      <td>1312</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetAccessPermissionsForObjectA</code></td>
+      <td>1311</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FreeSid</code></td>
+      <td>1310</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetAuditedPermissionsFromAclA</code></td>
+      <td>1315</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetAclInformation</code></td>
+      <td>1314</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetAce</code></td>
+      <td>1313</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventWriteEx</code></td>
+      <td>1296</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EnumServicesStatusExA</code></td>
+      <td>1277</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EnumServicesStatusA</code></td>
+      <td>1276</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EnumServiceGroupW</code></td>
+      <td>1275</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EqualDomainSid</code></td>
+      <td>1282</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EnumServicesStatusW</code></td>
+      <td>1279</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EnumServicesStatusExW</code></td>
+      <td>1278</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EnumerateTraceGuidsEx</code></td>
+      <td>1281</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EnumDependentServicesA</code></td>
+      <td>1272</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EncryptionDisable</code></td>
+      <td>1271</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EncryptFileW</code></td>
+      <td>1269</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EnumerateTraceGuids</code></td>
+      <td>1280</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EnumDynamicTimeZoneInformation</code></td>
+      <td>1274</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EnumDependentServicesW</code></td>
+      <td>1273</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventSetInformation</code></td>
+      <td>1292</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventRegister</code></td>
+      <td>1291</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventProviderEnabled</code></td>
+      <td>1290</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventWriteEndScenario</code></td>
+      <td>1295</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventWrite</code></td>
+      <td>1294</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventUnregister</code></td>
+      <td>1293</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventEnabled</code></td>
+      <td>1289</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventAccessControl</code></td>
+      <td>1285</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EqualSid</code></td>
+      <td>1284</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EqualPrefixSid</code></td>
+      <td>1283</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventActivityIdControl</code></td>
+      <td>1288</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventAccessRemove</code></td>
+      <td>1287</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">EventAccessQuery</code></td>
+      <td>1286</td>
+      <td>Exported Function</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">330000026551AE1BBD005CBFBD000000000265</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">E168609353F30FF2373157B4EB8CD519D07A2BFF</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: advapi32.dll.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.19041.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.19041.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/69</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/acdb86cfe89489c7cb49873246f0b0c95d25a25139516070a2f4c7805109dd7c/detection/</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">advapi32.dll</code> being misused. While <code class="language-plaintext highlighter-rouge">advapi32.dll</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt15.yar">apt_apt15.yar</a></td>
+      <td>( pe.imports(“advapi32.dll”, “CryptDecrypt”) and pe.imports(“advapi32.dll”, “CryptEncrypt”) and</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_poisonivy.yar">apt_poisonivy.yar</a></td>
+      <td>$s12 = “advAPI32” fullword ascii /* score: ‘6.015’ */</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_turla_png_dropper_nov18.yar">apt_turla_png_dropper_nov18.yar</a></td>
+      <td>pe.imports(“advapi32.dll”, “StartServiceCtrlDispatcherA”) and</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_turla_png_dropper_nov18.yar">apt_turla_png_dropper_nov18.yar</a></td>
+      <td>pe.imports(“advapi32.dll”, “RegEnumValueA”) and</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_turla_png_dropper_nov18.yar">apt_turla_png_dropper_nov18.yar</a></td>
+      <td>pe.imports(“advapi32.dll”, “RegEnumKeyExA”) and</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_uac_elevators.yar">exploit_uac_elevators.yar</a></td>
+      <td>$g13 = “ADVAPI32.dll”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktools.yar">gen_cn_hacktools.yar</a></td>
+      <td>$s3 = “ADVAPI32.DLL” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_empire.yar">gen_empire.yar</a></td>
+      <td>$x1 = “[DllImport("Advapi32.dll", SetLastError = true, EntryPoint = "CredReadW"” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_excel_xll_addin_suspicious.yar">gen_excel_xll_addin_suspicious.yar</a></td>
+      <td>or (pe.imports(“ADVAPI32.dll”, “CryptDecrypt”)</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_excel_xll_addin_suspicious.yar">gen_excel_xll_addin_suspicious.yar</a></td>
+      <td>and pe.imports(“ADVAPI32.dll”, “CryptImportKey”))</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_suite.yar">gen_powershell_suite.yar</a></td>
+      <td>$ = “[&gt;] Calling Advapi32::LookupPrivilegeValue –&gt; SeDebugPrivilege” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_suite.yar">gen_powershell_suite.yar</a></td>
+      <td>$ = “Calling Advapi32::OpenProcessToken –&gt; LSASS” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_toolkit.yar">gen_powershell_toolkit.yar</a></td>
+      <td>$s4 = “Get-ProcAddress Advapi32.dll AdjustTokenPrivileges” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_toolkit.yar">gen_powershell_toolkit.yar</a></td>
+      <td>$x3 = “} = Get-ProcAddress Advapi32.dll OpenThreadToken” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_toolkit.yar">gen_powershell_toolkit.yar</a></td>
+      <td>$s6 = “= Get-ProcAddress Advapi32.dll AdjustTokenPrivileges” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar">thor-hacktools.yar</a></td>
+      <td>$x1 = “ADVAPI32.DLL” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar">thor-hacktools.yar</a></td>
+      <td>$z1 = “ADVAPI32.DLL” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a></td>
+      <td>$s5 = “[DllImport("Advapi32.dll", SetLastError = true)]” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

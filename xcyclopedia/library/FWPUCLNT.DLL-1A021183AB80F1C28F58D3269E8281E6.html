@@ -1,0 +1,1837 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>FWPUCLNT.DLL | FWP/IPsec User-Mode API &#124; STRONTIC</title>
+<meta name="description" content="What is FWPUCLNT.DLL?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="FWPUCLNT.DLL | FWP/IPsec User-Mode API">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/FWPUCLNT.DLL-1A021183AB80F1C28F58D3269E8281E6.html">
+
+
+  <meta property="og:description" content="What is FWPUCLNT.DLL?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="FWPUCLNT.DLL | FWP/IPsec User-Mode API">
+  <meta name="twitter:description" content="What is FWPUCLNT.DLL?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/FWPUCLNT.DLL-1A021183AB80F1C28F58D3269E8281E6.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/FWPUCLNT.DLL-1A021183AB80F1C28F58D3269E8281E6.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">FWPUCLNT.DLL | FWP/IPsec User-Mode API</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            FWPUCLNT.DLL      FWP/IPsec User-Mode API      ">
+    <meta itemprop="description" content="What is FWPUCLNT.DLL?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="fwpuclntdll">FWPUCLNT.DLL</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\SysWOW64\FWPUCLNT.DLL</code></li>
+  <li>Description: FWP/IPsec User-Mode API</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">1A021183AB80F1C28F58D3269E8281E6</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">9FCD0A7536EE85F97DDDE3BF8CC00CB217E4C53D</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">18F9F1459130E7E8A69D3F876BA5996CD336BBF19D80AAF5E832876906B0194E</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">EE1DC6A3C5D418D338407D0DB8700D6A614B05AF0D7C7AAC7F58D48872D43559A54446B92070B06714D5A2E89A1FCB42</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">88C8F6A0D4FA039B2E26A61133246336AE6D288962C10DF072C9DC167B5ACE0D20CD16EB3F244CECFECE189B8897502719461ED2595891677620E2C4BA0BDEF9</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">6144:+vzds9MlBjgpRq+qZbSwU2iU+/KcFLEziNkg3u3dg9uKQR21pRfkJp5G/w2jIQm:+vriUCEziNKdgMKQR21LfVM7</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">ADBAADAD2C59B76E0BE704FADDE97662</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">965A5E8ACACC8ADE254B2C7B6E22EB9FFA370956</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">55C57F307D9C0FD370398926FFAE2F36CCA070A70560E47DC5042A4BBA2C18D5</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="dll-exports">DLL Exports:</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Function Name</th>
+      <th>Ordinal</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetUnifiedTraceHandle</code></td>
+      <td>185</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextGetConfigParameters0</code></td>
+      <td>235</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsQueryIPsecDosFWUsed0</code></td>
+      <td>183</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsQueryIPsecOffloadDone0</code></td>
+      <td>184</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSaCreateEnumHandle0</code></td>
+      <td>238</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSaDbGetSecurityInfo0</code></td>
+      <td>239</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextGetStatistics0</code></td>
+      <td>236</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextGetStatistics1</code></td>
+      <td>237</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsOpenToken0</code></td>
+      <td>182</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsAleGetPortStatus0</code></td>
+      <td>176</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsClassifyUser0</code></td>
+      <td>177</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsAleEndpointSetSecurityInfo0</code></td>
+      <td>174</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsAleExplicitCredentialsQuery0</code></td>
+      <td>175</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsLayerCreateInProcReplica0</code></td>
+      <td>180</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsLayerReleaseInProcReplica0</code></td>
+      <td>181</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsFreeMemory0</code></td>
+      <td>178</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsGetInProcReplicaOffset0</code></td>
+      <td>179</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSetConfigParameters0</code></td>
+      <td>251</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecDospGetSecurityInfo0</code></td>
+      <td>186</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSaUpdateAdditionalAddressesByTunnelId0</code></td>
+      <td>249</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSaUpdatePreferredAddressesByTunnelId0</code></td>
+      <td>250</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecDospStateCreateEnumHandle0</code></td>
+      <td>189</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecDospStateDestroyEnumHandle0</code></td>
+      <td>190</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecDospGetStatistics0</code></td>
+      <td>187</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecDospSetSecurityInfo0</code></td>
+      <td>188</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSaGetById2</code></td>
+      <td>248</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSaDestroyEnumHandle0</code></td>
+      <td>242</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSaEnum0</code></td>
+      <td>243</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSaDbSetSecurityInfo0</code></td>
+      <td>240</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSaDeleteById0</code></td>
+      <td>241</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSaGetById0</code></td>
+      <td>246</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSaGetById1</code></td>
+      <td>247</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSaEnum1</code></td>
+      <td>244</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IkeextSaEnum2</code></td>
+      <td>245</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsAleEndpointGetSecurityInfo0</code></td>
+      <td>173</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSubLayerSubscribeChanges0</code></td>
+      <td>150</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSubLayerSubscriptionsGet0</code></td>
+      <td>151</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSubLayerGetSecurityInfoByKey0</code></td>
+      <td>148</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSubLayerSetSecurityInfoByKey0</code></td>
+      <td>149</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSystemPortsSubscribe0</code></td>
+      <td>154</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSystemPortsUnsubscribe0</code></td>
+      <td>155</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSubLayerUnsubscribeChanges0</code></td>
+      <td>152</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSystemPortsGet0</code></td>
+      <td>153</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSubLayerGetByKey0</code></td>
+      <td>147</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSessionEnum0</code></td>
+      <td>141</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSubLayerAdd0</code></td>
+      <td>142</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSessionCreateEnumHandle0</code></td>
+      <td>139</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSessionDestroyEnumHandle0</code></td>
+      <td>140</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSubLayerDestroyEnumHandle0</code></td>
+      <td>145</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSubLayerEnum0</code></td>
+      <td>146</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSubLayerCreateEnumHandle0</code></td>
+      <td>143</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmSubLayerDeleteByKey0</code></td>
+      <td>144</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwppGetMD5HashBytes</code></td>
+      <td>167</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwppIPsecSaContextCreate</code></td>
+      <td>168</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwppConnectionGetByS2STunnelId</code></td>
+      <td>165</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwppConnectionGetS2STunnelId</code></td>
+      <td>166</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsAleEndpointEnum0</code></td>
+      <td>171</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsAleEndpointGetById0</code></td>
+      <td>172</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsAleEndpointCreateEnumHandle0</code></td>
+      <td>169</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpsAleEndpointDestroyEnumHandle0</code></td>
+      <td>170</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwppConnectionGetByIPsecInfo</code></td>
+      <td>164</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmTransactionBegin0</code></td>
+      <td>158</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmTransactionCommit0</code></td>
+      <td>159</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmTraceRestoreDefaults0</code></td>
+      <td>156</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmTransactionAbort0</code></td>
+      <td>157</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmvSwitchEventSubscribe0</code></td>
+      <td>160</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmvSwitchEventUnsubscribe0</code></td>
+      <td>161</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmvSwitchEventsGetSecurityInfo0</code></td>
+      <td>162</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmvSwitchEventsSetSecurityInfo0</code></td>
+      <td>163</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpConfigureDPSecurityDescriptor</code></td>
+      <td>261</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpCreateDPConfigureHandle</code></td>
+      <td>262</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">NamespaceCallout</code></td>
+      <td>252</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpCloseDPConfigureHandle</code></td>
+      <td>260</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIOCloseCompletionQueue</code></td>
+      <td>265</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIOCreateChannel</code></td>
+      <td>266</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIOChannelClose</code></td>
+      <td>263</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIOCleanupRequestQueue</code></td>
+      <td>264</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaInitiateAsync0</code></td>
+      <td>234</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaCreateEnumHandle0</code></td>
+      <td>228</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaDbGetSecurityInfo0</code></td>
+      <td>229</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextUnsubscribe0</code></td>
+      <td>226</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextUpdate0</code></td>
+      <td>227</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaEnum0</code></td>
+      <td>232</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaEnum1</code></td>
+      <td>233</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaDbSetSecurityInfo0</code></td>
+      <td>230</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaDestroyEnumHandle0</code></td>
+      <td>231</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSADeleteSocketPeerTargetName</code></td>
+      <td>254</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSAImpersonateSocketPeer</code></td>
+      <td>255</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIOSend</code></td>
+      <td>275</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIOSuspend</code></td>
+      <td>276</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSASetSocketPeerTargetName</code></td>
+      <td>258</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSASetSocketSecurity</code></td>
+      <td>259</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSAQuerySocketSecurity</code></td>
+      <td>256</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSARevertImpersonation</code></td>
+      <td>257</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIOResume</code></td>
+      <td>274</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WFPRIODequeueCompletion</code></td>
+      <td>253</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIODeregisterBuffer</code></td>
+      <td>269</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIOCreateCompletionQueue</code></td>
+      <td>267</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIOCreateRequestQueue</code></td>
+      <td>268</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIOReceive</code></td>
+      <td>272</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIORegisterBuffer</code></td>
+      <td>273</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIOIndicateActivityThreshold</code></td>
+      <td>270</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WfpRIONotify</code></td>
+      <td>271</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextSubscriptionsGet0</code></td>
+      <td>225</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecKeyModuleDelete0</code></td>
+      <td>202</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecKeyModuleUpdateAcquire0</code></td>
+      <td>203</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecKeyManagerUnregisterAndDelete0</code></td>
+      <td>199</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecKeyModuleAdd0</code></td>
+      <td>201</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextAddInbound1</code></td>
+      <td>206</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextAddInboundAndTrackConnection</code></td>
+      <td>207</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecKeyNotification0</code></td>
+      <td>204</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextAddInbound0</code></td>
+      <td>205</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecKeyManagersGet0</code></td>
+      <td>200</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecGetStatistics0</code></td>
+      <td>193</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecGetStatistics1</code></td>
+      <td>194</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecDospStateEnum0</code></td>
+      <td>191</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecGetKeyFromDictator0</code></td>
+      <td>192</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecKeyManagerGetSecurityInfoByKey0</code></td>
+      <td>197</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecKeyManagerSetSecurityInfoByKey0</code></td>
+      <td>198</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecKeyDictationCheck0</code></td>
+      <td>195</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecKeyManagerAddAndRegister0</code></td>
+      <td>196</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextGetById0</code></td>
+      <td>219</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextGetById1</code></td>
+      <td>220</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextEnum1</code></td>
+      <td>217</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextExpire0</code></td>
+      <td>218</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextSetSpi0</code></td>
+      <td>223</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextSubscribe0</code></td>
+      <td>224</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextGetSpi0</code></td>
+      <td>221</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextGetSpi1</code></td>
+      <td>222</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextEnum0</code></td>
+      <td>216</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextAddOutboundAndTrackConnection</code></td>
+      <td>210</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextCreate0</code></td>
+      <td>211</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextAddOutbound0</code></td>
+      <td>208</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextAddOutbound1</code></td>
+      <td>209</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextDeleteById0</code></td>
+      <td>214</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextDestroyEnumHandle0</code></td>
+      <td>215</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextCreate1</code></td>
+      <td>212</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IPsecSaContextCreateEnumHandle0</code></td>
+      <td>213</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmEventProviderDestroy0</code></td>
+      <td>47</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmEventProviderFireNetEvent0</code></td>
+      <td>48</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmEngineSetSecurityInfo0</code></td>
+      <td>45</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmEventProviderCreate0</code></td>
+      <td>46</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFilterCreateEnumHandle0</code></td>
+      <td>51</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFilterDeleteById0</code></td>
+      <td>52</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmEventProviderIsNetEventTypeEnabled0</code></td>
+      <td>49</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFilterAdd0</code></td>
+      <td>50</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmEngineSetOption0</code></td>
+      <td>44</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmConnectionUnsubscribe0</code></td>
+      <td>38</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmDiagnoseNetFailure0</code></td>
+      <td>39</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmConnectionSetSecurityInfo0</code></td>
+      <td>36</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmConnectionSubscribe0</code></td>
+      <td>37</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmEngineGetSecurityInfo0</code></td>
+      <td>42</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmEngineOpen0</code></td>
+      <td>43</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmEngineClose0</code></td>
+      <td>40</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmEngineGetOption0</code></td>
+      <td>41</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmGetAppIdFromFileName0</code></td>
+      <td>64</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmGetSidFromOnlineId0</code></td>
+      <td>65</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFilterUnsubscribeChanges0</code></td>
+      <td>62</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFreeMemory0</code></td>
+      <td>63</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmIPsecS2STunnelGetInterfaceForCompartment0</code></td>
+      <td>68</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmIPsecS2STunnelRemoveConditions0</code></td>
+      <td>69</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmIPsecS2STunnelAddConditions0</code></td>
+      <td>66</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmIPsecS2STunnelAddInterfaceToCompartment0</code></td>
+      <td>67</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFilterSubscriptionsGet0</code></td>
+      <td>61</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFilterEnum0</code></td>
+      <td>55</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFilterGetById0</code></td>
+      <td>56</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFilterDeleteByKey0</code></td>
+      <td>53</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFilterDestroyEnumHandle0</code></td>
+      <td>54</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFilterSetSecurityInfoByKey0</code></td>
+      <td>59</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFilterSubscribeChanges0</code></td>
+      <td>60</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFilterGetByKey0</code></td>
+      <td>57</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmFilterGetSecurityInfoByKey0</code></td>
+      <td>58</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmConnectionGetSecurityInfo0</code></td>
+      <td>35</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiVpnTriggerRemoveSecurityDescriptor</code></td>
+      <td>12</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiVpnTriggerResetNrptTriggering</code></td>
+      <td>13</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiVpnTriggerRemoveAppSids</code></td>
+      <td>10</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiVpnTriggerRemoveFilePaths</code></td>
+      <td>11</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmBitmapIndexFree0</code></td>
+      <td>16</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmBitmapIndexGet0</code></td>
+      <td>17</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiVpnTriggerSetStateDisconnected</code></td>
+      <td>14</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiVpnTriggerUninitializeNrptTriggering</code></td>
+      <td>15</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiVpnTriggerInitializeNrptTriggering</code></td>
+      <td>9</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiVpnTriggerAddAppSids</code></td>
+      <td>3</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiVpnTriggerAddFilePaths</code></td>
+      <td>4</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiExpandCriteria0</code></td>
+      <td>1</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiFreeCriteria0</code></td>
+      <td>2</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiVpnTriggerEventSubscribe0</code></td>
+      <td>7</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiVpnTriggerEventUnsubscribe0</code></td>
+      <td>8</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiVpnTriggerAddSecurityDescriptor</code></td>
+      <td>5</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpiVpnTriggerConfigureParameters</code></td>
+      <td>6</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmCalloutSubscriptionsGet0</code></td>
+      <td>29</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmCalloutUnsubscribeChanges0</code></td>
+      <td>30</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmCalloutSetSecurityInfoByKey0</code></td>
+      <td>27</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmCalloutSubscribeChanges0</code></td>
+      <td>28</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmConnectionEnum0</code></td>
+      <td>33</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmConnectionGetById0</code></td>
+      <td>34</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmConnectionCreateEnumHandle0</code></td>
+      <td>31</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmConnectionDestroyEnumHandle0</code></td>
+      <td>32</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmCalloutGetSecurityInfoByKey0</code></td>
+      <td>26</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmCalloutDeleteById0</code></td>
+      <td>20</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmCalloutDeleteByKey0</code></td>
+      <td>21</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmCalloutAdd0</code></td>
+      <td>18</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmCalloutCreateEnumHandle0</code></td>
+      <td>19</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmCalloutGetById0</code></td>
+      <td>24</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmCalloutGetByKey0</code></td>
+      <td>25</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmCalloutDestroyEnumHandle0</code></td>
+      <td>22</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmCalloutEnum0</code></td>
+      <td>23</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextGetById0</code></td>
+      <td>116</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextGetById1</code></td>
+      <td>117</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextEnum2</code></td>
+      <td>114</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextEnum3</code></td>
+      <td>115</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextGetByKey0</code></td>
+      <td>120</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextGetByKey1</code></td>
+      <td>121</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextGetById2</code></td>
+      <td>118</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextGetById3</code></td>
+      <td>119</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextEnum1</code></td>
+      <td>113</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextAdd3</code></td>
+      <td>107</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextCreateEnumHandle0</code></td>
+      <td>108</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextAdd1</code></td>
+      <td>105</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextAdd2</code></td>
+      <td>106</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextDestroyEnumHandle0</code></td>
+      <td>111</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextEnum0</code></td>
+      <td>112</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextDeleteById0</code></td>
+      <td>109</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextDeleteByKey0</code></td>
+      <td>110</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderGetByKey0</code></td>
+      <td>133</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderGetSecurityInfoByKey0</code></td>
+      <td>134</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderDestroyEnumHandle0</code></td>
+      <td>131</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderEnum0</code></td>
+      <td>132</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderSubscriptionsGet0</code></td>
+      <td>137</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderUnsubscribeChanges0</code></td>
+      <td>138</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderSetSecurityInfoByKey0</code></td>
+      <td>135</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderSubscribeChanges0</code></td>
+      <td>136</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderDeleteByKey0</code></td>
+      <td>130</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextGetSecurityInfoByKey0</code></td>
+      <td>124</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextSetSecurityInfoByKey0</code></td>
+      <td>125</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextGetByKey2</code></td>
+      <td>122</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextGetByKey3</code></td>
+      <td>123</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextUnsubscribeChanges0</code></td>
+      <td>128</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderCreateEnumHandle0</code></td>
+      <td>129</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextSubscribeChanges0</code></td>
+      <td>126</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextSubscriptionsGet0</code></td>
+      <td>127</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderContextAdd0</code></td>
+      <td>104</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmLayerGetByKey0</code></td>
+      <td>81</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmLayerGetSecurityInfoByKey0</code></td>
+      <td>82</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmLayerEnum0</code></td>
+      <td>79</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmLayerGetById0</code></td>
+      <td>80</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventDestroyEnumHandle0</code></td>
+      <td>85</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventEnum0</code></td>
+      <td>86</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmLayerSetSecurityInfoByKey0</code></td>
+      <td>83</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventCreateEnumHandle0</code></td>
+      <td>84</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmLayerDestroyEnumHandle0</code></td>
+      <td>78</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmIPsecTunnelAdd1</code></td>
+      <td>72</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmIPsecTunnelAdd2</code></td>
+      <td>73</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmIPsecS2STunnelRemoveInterfaceFromCompartment0</code></td>
+      <td>70</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmIPsecTunnelAdd0</code></td>
+      <td>71</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmIPsecTunnelDeleteByKey0</code></td>
+      <td>76</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmLayerCreateEnumHandle0</code></td>
+      <td>77</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmIPsecTunnelAdd3</code></td>
+      <td>74</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmIPsecTunnelAddConditions0</code></td>
+      <td>75</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventSubscribe3</code></td>
+      <td>95</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventSubscribe4</code></td>
+      <td>96</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventSubscribe1</code></td>
+      <td>93</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventSubscribe2</code></td>
+      <td>94</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProcessNameResolutionEvent0</code></td>
+      <td>102</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmProviderAdd0</code></td>
+      <td>103</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventSubscriptionsGet0</code></td>
+      <td>97</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventUnsubscribe0</code></td>
+      <td>98</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventSubscribe0</code></td>
+      <td>92</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventEnum3</code></td>
+      <td>89</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventEnum4</code></td>
+      <td>90</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventEnum1</code></td>
+      <td>87</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventEnum2</code></td>
+      <td>88</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventsLost0</code></td>
+      <td>100</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventsSetSecurityInfo0</code></td>
+      <td>101</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventEnum5</code></td>
+      <td>91</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FwpmNetEventsGetSecurityInfo0</code></td>
+      <td>99</td>
+      <td>Exported Function</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">330000026551AE1BBD005CBFBD000000000265</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">E168609353F30FF2373157B4EB8CD519D07A2BFF</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: fwpuclnt.dll.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.19041.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.19041.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 32-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/69</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/18f9f1459130e7e8a69d3f876ba5996cd336bbf19d80aaf5e832876906b0194e/detection/</li>
+</ul>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

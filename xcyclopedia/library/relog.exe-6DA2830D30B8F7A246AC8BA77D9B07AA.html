@@ -1,0 +1,670 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>relog.exe | Performance Relogging Utility &#124; STRONTIC</title>
+<meta name="description" content="What is relog.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="relog.exe | Performance Relogging Utility">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/relog.exe-6DA2830D30B8F7A246AC8BA77D9B07AA.html">
+
+
+  <meta property="og:description" content="What is relog.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="relog.exe | Performance Relogging Utility">
+  <meta name="twitter:description" content="What is relog.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/relog.exe-6DA2830D30B8F7A246AC8BA77D9B07AA.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/relog.exe-6DA2830D30B8F7A246AC8BA77D9B07AA.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">relog.exe | Performance Relogging Utility</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            relog.exe      Performance Relogging Utility      ">
+    <meta itemprop="description" content="What is relog.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="relogexe">relog.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\SysWOW64\relog.exe</code></li>
+  <li>Description: Performance Relogging Utility</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">6DA2830D30B8F7A246AC8BA77D9B07AA</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">602CB7D2DDE90F80AB0A22213DB1AA1588AE5D8B</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">74F5B521D214D9DBBDFBB46F2124B87B9585098AC68A23C6FF101055E7A1C3B3</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">7B41025DFB4CE2162E35AF118401B18582668734329290D15014BE04E1DB021217286E01F3F1F7F73DD3E48643CF2D95</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">9EE647451ADEF60323531941C863654A9C4D05E803B680BFC7CFB16D4AADF86BB97E507CF0E46ECFC9D1F3F7A27ACD28E798C7801DC6933B2218C49431E43F59</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">768:vzdUhTX4I/Y8bPgtS1S4Y+SH5KiNdiDNVbtpFGPm+v6E22MkiQXtn:vzeB4m4OY+SEpD9pFGPF6E2MiQXh</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">5712881CA4CBAAD4AB8F619CFA1616DF</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">24EBADDDA5FBFE670F1A8F53C7C501B9A15BB450</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">ADC19BEDC70262136C254E6A740607AC7777CA991A1B63C0340F2856F8092D59</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="ni">Microsoft</span> <span class="err">r</span> <span class="ni">Relog</span><span class="err">.</span><span class="ni">exe</span> <span class="p">(</span><span class="m">10</span><span class="err">.</span><span class="m">0</span><span class="err">.</span><span class="m">17763</span><span class="err">.</span><span class="m">1</span><span class="p">)</span>
+
+<span class="ni">Relog</span>
+<span class="ni">creates</span>
+<span class="ni">new</span>
+<span class="ni">performance</span> <span class="ni">logs</span> <span class="ni">from</span> <span class="ni">data</span> <span class="ni">in</span> <span class="ni">existing</span> <span class="ni">performance</span> <span class="ni">logs</span> <span class="ni">by</span> <span class="ni">changing</span> <span class="ni">the</span> <span class="ni">sampling</span> <span class="ni">rate</span> <span class="ni">and</span><span class="p">/</span><span class="ni">or</span> <span class="ni">converting</span> <span class="ni">the</span> <span class="ni">file</span> <span class="ni">format</span><span class="err">.</span> <span class="ni">Supports</span> <span class="ni">all</span> <span class="ni">performance</span> <span class="ni">log</span> <span class="ni">formats</span><span class="p">,</span> <span class="ni">including</span> <span class="ni">Windows</span> <span class="ni">NT</span> <span class="m">4</span><span class="err">.</span><span class="m">0</span> <span class="ni">compressed</span> <span class="ni">logs</span><span class="err">.</span>
+
+<span class="ni">Usage</span><span class="err">:</span>
+<span class="err">C:\</span><span class="ni">Windows</span><span class="err">\</span><span class="ni">SysWOW64</span><span class="err">\</span><span class="ni">relog</span><span class="err">.</span><span class="ni">exe</span> <span class="err">&lt;</span><span class="ni">filename</span> <span class="err">[</span><span class="ni">filename</span> <span class="err">...]&gt;</span> 
+                                <span class="err">[</span><span class="ni">options</span><span class="err">]</span>
+
+<span class="ni">Parameters</span><span class="err">:</span>
+  <span class="err">&lt;</span><span class="ni">filename</span> <span class="err">[</span><span class="ni">filename</span> <span class="err">...]&gt;</span>     <span class="ni">Performance</span> <span class="ni">file</span> <span class="ni">to</span> <span class="ni">relog</span><span class="err">.</span>
+
+<span class="ni">Options</span><span class="err">:</span>
+  <span class="err">-?</span>                            <span class="ni">Displays</span> <span class="ni">context</span> <span class="ni">sensitive</span> <span class="ni">help</span><span class="err">.</span>
+  <span class="err">-a</span>                            <span class="ni">Append</span> <span class="ni">output</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">existing</span> <span class="ni">binary</span> <span class="ni">file</span><span class="err">.</span>
+  <span class="err">-c</span> <span class="err">&lt;</span><span class="ni">path</span> <span class="err">[</span><span class="ni">path</span> <span class="err">...]&gt;</span>          <span class="ni">Counters</span> <span class="ni">to</span> <span class="ni">filter</span> <span class="ni">from</span> <span class="ni">the</span> <span class="ni">input</span> <span class="ni">log</span><span class="err">.</span>
+  <span class="err">-</span><span class="ni">cf</span> <span class="err">&lt;</span><span class="ni">filename</span><span class="err">&gt;</span>                <span class="ni">File</span> <span class="ni">listing</span> <span class="ni">performance</span> <span class="ni">counters</span> <span class="ni">to</span> <span class="ni">filter</span>
+                                <span class="ni">from</span> <span class="ni">the</span> <span class="ni">input</span> <span class="ni">log</span><span class="err">.</span> <span class="ni">Default</span> <span class="ni">is</span> <span class="ni">all</span> <span class="ni">counters</span>
+                                <span class="ni">in</span> <span class="ni">the</span> <span class="ni">original</span> <span class="ni">log</span> <span class="ni">file</span><span class="err">.</span>
+  <span class="err">-f</span> <span class="err">&lt;</span><span class="ni">CSV</span><span class="err">|</span><span class="ni">TSV</span><span class="err">|</span><span class="ni">BIN</span><span class="err">|</span><span class="ni">SQL</span><span class="err">&gt;</span>          <span class="ni">Output</span> <span class="ni">file</span> <span class="ni">format</span><span class="err">.</span>
+  <span class="err">-t</span> <span class="err">&lt;</span><span class="ni">value</span><span class="err">&gt;</span>                    <span class="ni">Only</span> <span class="ni">write</span> <span class="ni">every</span> <span class="ni">nth</span> <span class="ni">record</span> <span class="ni">into</span> <span class="ni">the</span> <span class="ni">output</span>
+                                <span class="ni">file</span><span class="err">.</span> <span class="ni">Default</span> <span class="ni">is</span> <span class="ni">to</span> <span class="ni">write</span> <span class="ni">every</span> <span class="ni">record</span><span class="err">.</span>
+  <span class="err">-o</span>                            <span class="ni">Output</span> <span class="ni">file</span> <span class="ni">path</span> <span class="ni">or</span> <span class="ni">SQL</span> <span class="ni">database</span><span class="err">.</span>
+  <span class="err">-b</span> <span class="err">&lt;M</span><span class="p">/</span><span class="err">d</span><span class="p">/</span><span class="ni">yyyy</span> <span class="kd">h:mm:</span><span class="ni">ss</span><span class="err">[</span><span class="ni">AM</span><span class="err">|</span><span class="ni">PM</span><span class="err">]&gt;</span>  <span class="ni">Begin</span> <span class="ni">time</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">first</span> <span class="ni">record</span> <span class="ni">to</span> <span class="ni">write</span> <span class="ni">into</span>
+                                <span class="ni">the</span> <span class="ni">output</span> <span class="ni">file</span><span class="err">.</span>
+  <span class="err">-e</span> <span class="err">&lt;M</span><span class="p">/</span><span class="err">d</span><span class="p">/</span><span class="ni">yyyy</span> <span class="kd">h:mm:</span><span class="ni">ss</span><span class="err">[</span><span class="ni">AM</span><span class="err">|</span><span class="ni">PM</span><span class="err">]&gt;</span>  <span class="ni">End</span> <span class="ni">time</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">last</span> <span class="ni">record</span> <span class="ni">to</span> <span class="ni">write</span> <span class="ni">into</span>
+                                <span class="ni">the</span> <span class="ni">output</span> <span class="ni">file</span><span class="err">.</span>
+  <span class="err">-</span><span class="ni">config</span> <span class="err">&lt;</span><span class="ni">filename</span><span class="err">&gt;</span>            <span class="ni">Settings</span> <span class="ni">file</span> <span class="ni">containing</span> <span class="ni">command</span> <span class="ni">options</span><span class="err">.</span>
+  <span class="err">-q</span>                            <span class="ni">List</span> <span class="ni">performance</span> <span class="ni">counters</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">input</span> <span class="ni">file</span><span class="err">.</span>
+  <span class="err">-y</span>                            <span class="ni">Answer</span> <span class="ni">yes</span> <span class="ni">to</span> <span class="ni">all</span> <span class="ni">questions</span> <span class="ni">without</span> <span class="ni">prompting</span><span class="err">.</span>
+
+<span class="ni">Examples</span><span class="err">:</span>
+  <span class="ni">relog</span> <span class="ni">logfile</span><span class="err">.</span><span class="ni">csv</span> <span class="err">-c</span> <span class="s">"\Processor(_Total)\% Processor Time"</span> <span class="err">-o</span> <span class="ni">logfile</span><span class="err">.</span><span class="ni">blg</span>
+  <span class="ni">relog</span> <span class="ni">logfile</span><span class="err">.</span><span class="ni">blg</span> <span class="err">-</span><span class="ni">cf</span> <span class="ni">counters</span><span class="err">.</span><span class="ni">txt</span> <span class="err">-f</span> <span class="ni">bin</span>
+  <span class="ni">relog</span> <span class="ni">logfile</span><span class="err">.</span><span class="ni">blg</span> <span class="err">-f</span> <span class="ni">csv</span> <span class="err">-o</span> <span class="ni">logfile</span><span class="err">.</span><span class="ni">csv</span> <span class="err">-t</span> <span class="m">2</span>
+  <span class="ni">relog</span> <span class="ni">logfile</span><span class="err">.</span><span class="ni">blg</span> <span class="err">-q</span> <span class="err">-o</span> <span class="ni">counters</span><span class="err">.</span><span class="ni">txt</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64cpu.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64win.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SysWOW64\relog.exe</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">3300000266BD1580EFA75CD6D3000000000266</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">A4341B9FD50FB9964283220A36A1EF6F6FAA7840</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: Relog.exe</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.17763.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.17763.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 32-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/70</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/74f5b521d214d9dbbdfbb46f2124b87b9585098ac68a23c6ff101055e7a1c3b3/detection/</li>
+</ul>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="relog">relog</h2>
+
+<blockquote>
+  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
+</blockquote>
+
+<p>Extracts performance counters from performance counter logs into other formats, such as text-TSV (for tab-delimited text), text-CSV (for comma-delimited text), binary-BIN, or SQL.</p>
+
+<blockquote>
+  <p>[!NOTE]
+For more information about incorporating <strong>relog</strong> into your Windows Management Instrumentation (WMI) scripts, see the <a href="https://devblogs.microsoft.com/scripting/">Scripting blog</a>.</p>
+</blockquote>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>relog [&lt;filename&gt; [&lt;filename&gt; ...]] [/a] [/c &lt;path&gt; [&lt;path&gt; ...]] [/cf &lt;filename&gt;] [/f  {bin|csv|tsv|SQL}] [/t &lt;value&gt;] [/o {outputfile|DSN!CounterLog}] [/b &lt;M/D/YYYY&gt; [[&lt;HH&gt;:] &lt;MM&gt;:] &lt;SS&gt;] [/e &lt;M/D/YYYY&gt; [[&lt;HH&gt;:] &lt;MM&gt;:] &lt;SS&gt;] [/config {&lt;filename&gt;|i}] [/q]
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">filename [filename ...]</code></td>
+      <td>Specifies the pathname of an existing performance counter log. You can specify multiple input files.</td>
+    </tr>
+    <tr>
+      <td>-a</td>
+      <td>Appends output file instead of overwriting. This option does not apply to SQL format where the default is always to append.</td>
+    </tr>
+    <tr>
+      <td>-c <code class="language-plaintext highlighter-rouge">path [path ...]</code></td>
+      <td>Specifies the performance counter path to log. To specify multiple counter paths, separate them with a space and enclose the counter paths in quotation marks (for example, <code class="language-plaintext highlighter-rouge">"path1 path2"</code>).</td>
+    </tr>
+    <tr>
+      <td>-cf filename</td>
+      <td>Specifies the pathname of the text file that lists the performance counters to be included in a relog file. Use this option to list counter paths in an input file, one per line. Default setting is all counters in the original log file are relogged.</td>
+    </tr>
+    <tr>
+      <td>-f <code class="language-plaintext highlighter-rouge">{bin | csv | tsv | SQL}</code></td>
+      <td>Specifies the pathname of the output file format. The default format is <strong>bin</strong>. For a SQL database, the output file specifies the <code class="language-plaintext highlighter-rouge">DSN!CounterLog</code>. You can specify the database location by using the ODBC manager to configure the DSN (Database System Name).</td>
+    </tr>
+    <tr>
+      <td>-t value</td>
+      <td>Specifies sample intervals in <em>n</em> records. Includes every nth data point in the relog file. Default is every data point.</td>
+    </tr>
+    <tr>
+      <td>-o <code class="language-plaintext highlighter-rouge">{Outputfile | SQL:DSN!Counter_Log}</code></td>
+      <td>Specifies the pathname of the output file or SQL database where the counters will be written. &lt;P&gt;<strong>Note:</strong> For the 64-bit and 32-bit versions of relog.exe, you must define a DSN in the ODBC Data Source (64-bit and 32-bit respectively) on the system. Use the “SQL Server” ODBC driver to define a DSN.</td>
+    </tr>
+    <tr>
+      <td>-b <code class="language-plaintext highlighter-rouge">&lt;M/D/YYYY&gt; [[&lt;HH&gt;:]&lt;MM&gt;:]&lt;SS&gt;]</code></td>
+      <td>Specifies the beginning time to copy the first record from the input file. Date and time must be in this exact format M/D/YYYYHH:MM:SS.</td>
+    </tr>
+    <tr>
+      <td>-e <code class="language-plaintext highlighter-rouge">&lt;M/D/YYYY&gt; [[&lt;HH&gt;:]&lt;MM&gt;:]&lt;SS&gt;]</code></td>
+      <td>Specifies the end time to copy the last record from the input file. Date and time must be in this exact format M/D/YYYYHH:MM:SS.</td>
+    </tr>
+    <tr>
+      <td>-config <code class="language-plaintext highlighter-rouge">{filename | i}</code></td>
+      <td>Specifies the pathname of the settings file that contains command-line parameters. If you’re using a configuration file, you can use <strong>-i</strong> as a placeholder for a list of input files that can be placed on the command line. If you’re using the command line, don’t use <strong>-i</strong>. You can also use wildcards, such as <code class="language-plaintext highlighter-rouge">*.blg</code> to specify several input file names at once.</td>
+    </tr>
+    <tr>
+      <td>-q</td>
+      <td>Displays the performance counters and time ranges of log files specified in the input file.</td>
+    </tr>
+    <tr>
+      <td>-y</td>
+      <td>Bypasses prompting by answering “yes” to all questions.</td>
+    </tr>
+    <tr>
+      <td>/?</td>
+      <td>Displays help at the command prompt.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="remarks">Remarks</h5>
+
+<ul>
+  <li>
+    <p>The general format for counter paths is as follows: <code class="language-plaintext highlighter-rouge">[\&lt;computer&gt;] \&lt;object&gt;[&lt;parent&gt;\&lt;instance#index&gt;] \&lt;counter&gt;]</code> where the parent, instance, index, and counter components of the format may contain either a valid name or a wildcard character. The computer, parent, instance, and index components aren’t necessary for all counters.</p>
+  </li>
+  <li>
+    <p>You determine the counter paths to use based on the counter itself. For example, the <strong>LogicalDisk</strong> object has an instance <code class="language-plaintext highlighter-rouge">&lt;index&gt;</code>, so you must provide the <code class="language-plaintext highlighter-rouge">&lt;#index&gt;</code> or a wildcard. Therefore, you could use the following format: <code class="language-plaintext highlighter-rouge">\LogicalDisk(*/*#*)\\*</code>.</p>
+  </li>
+  <li>
+    <p>In comparison, the <strong>Process</strong> object doesn’t require an instance <code class="language-plaintext highlighter-rouge">&lt;index&gt;</code>. Therefore, you can use the following format: <code class="language-plaintext highlighter-rouge">\Process(*)\ID Process</code>.</p>
+  </li>
+  <li>
+    <p>If a wildcard character is specified in the <strong>Parent</strong> name, all instances of the specified object that match the specified instance and counter fields will be returned.</p>
+  </li>
+  <li>
+    <p>If a wildcard character is specified in the <strong>Instance</strong> name, all instances of the specified object and parent object will be returned if all instance names corresponding to the specified index match the wildcard character.</p>
+  </li>
+  <li>
+    <p>If a wildcard character is specified in the <strong>Counter</strong> name, all counters of the specified object are returned.</p>
+  </li>
+  <li>
+    <p>Partial counter path string matches (for example, pro*) aren’t supported.</p>
+  </li>
+  <li>
+    <p>Counter files are text files that list one or more of the performance counters in the existing log. Copy the full counter name from the log or the <strong>/q</strong> output in <code class="language-plaintext highlighter-rouge">&lt;computer&gt;\&lt;object&gt;\&lt;instance&gt;\&lt;counter&gt;</code> format. List one counter path on each line.</p>
+  </li>
+  <li>
+    <p>When run, the <strong>relog</strong> command copies specified counters from every record in the input file, converting the format if necessary. Wildcard paths are allowed in the counter file.</p>
+  </li>
+  <li>
+    <p>Use the <strong>/t</strong> parameter to specify that input files are inserted into output files at intervals of every <code class="language-plaintext highlighter-rouge">nth</code> record. By default, data is relogged from every record.</p>
+  </li>
+  <li>
+    <p>You can specify that your output logs include records from before the beginning time (that is, <strong>/b</strong>) to provide data for counters that require computation values of the formatted value. The output file will have the last records from input files with timestamps less than the <strong>/e</strong> (that is, end time) parameter.</p>
+  </li>
+  <li>
+    <p>The contents of the setting file used with the <strong>/config</strong> option should have the following format: <code class="language-plaintext highlighter-rouge">&lt;commandoption&gt;\&lt;value&gt;</code>, where <code class="language-plaintext highlighter-rouge">&lt;commandoption&gt;</code> is a command line option and <code class="language-plaintext highlighter-rouge">&lt;value&gt;</code> specifies its value.</p>
+  </li>
+</ul>
+
+<p>###Q# Examples</p>
+
+<p>To resample existing trace logs at fixed intervals of 30, list counter paths, output files, and formats, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>relog c:\perflogs\daily_trace_log.blg /cf counter_file.txt /o c:\perflogs\reduced_log.csv /t 30 /f csv
+</code></pre></div></div>
+
+<p>To resample existing trace logs at fixed intervals of 30, list counter paths, and output file, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>relog c:\perflogs\daily_trace_log.blg /cf counter_file.txt /o c:\perflogs\reduced_log.blg /t 30
+</code></pre></div></div>
+
+<p>To resample existing trace logs into a database, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>relog "c:\perflogs\daily_trace_log.blg" -f sql -o "SQL:sql2016x64odbc!counter_log"
+</code></pre></div></div>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

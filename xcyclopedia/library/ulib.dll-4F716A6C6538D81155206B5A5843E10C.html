@@ -1,0 +1,2772 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>ulib.dll | File Utilities Support DLL &#124; STRONTIC</title>
+<meta name="description" content="What is ulib.dll?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="ulib.dll | File Utilities Support DLL">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/ulib.dll-4F716A6C6538D81155206B5A5843E10C.html">
+
+
+  <meta property="og:description" content="What is ulib.dll?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="ulib.dll | File Utilities Support DLL">
+  <meta name="twitter:description" content="What is ulib.dll?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/ulib.dll-4F716A6C6538D81155206B5A5843E10C.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/ulib.dll-4F716A6C6538D81155206B5A5843E10C.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">ulib.dll | File Utilities Support DLL</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            ulib.dll      File Utilities Support DLL      ">
+    <meta itemprop="description" content="What is ulib.dll?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="ulibdll">ulib.dll</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\system32\ulib.dll</code></li>
+  <li>Description: File Utilities Support DLL</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">4F716A6C6538D81155206B5A5843E10C</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">E6D9BC20A1967E482646DC1CCD577CCE8C309A25</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">3C96BB53730A6436B90AB11431260A23D4E4BDC04C276181821EB09AEB88BDD8</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">10AFCF97062A339A51D2C31B52B4F1AE845B18B70F00D4FEE89A6421C5A24457EBEB46D88F508ACF4C50962AAC78CAA9</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">A50F605E308EE3A85BE553BCF43209BC1E4137AA61E1B531104576ECFB46046A3B74E25005CF88DE2344E6AB31B53CAF842CA0DD5EADF7D574E3D4099446D086</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">3072:D1zgWKRUo7slmqqNqaSYmnCoEn5/zixD3oRvsM+twzIOI:D1zgPUoHlmCoE5/zT5Z+twQ</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">5F19B1B09CB26FCF002CD2571753774F</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">B93040A02347983FB02B10F649D81876B33458CD</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">F91AD789115162F967E5C2C63175E3542E29014A50C03023D367AB770D6630EB</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="dll-exports">DLL Exports:</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Function Name</th>
+      <th>Ordinal</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TIMEINFO_ARGUMENT::Initialize</code></td>
+      <td>231</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Initialize</code></td>
+      <td>233</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Initialize</code></td>
+      <td>235</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TIMEINFO::QueryTime</code></td>
+      <td>337</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TIMEINFO::operator</code></td>
+      <td>95</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TIMEINFO::operator</code></td>
+      <td>98</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TIMEINFO::QueryDate</code></td>
+      <td>299</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::operator</code></td>
+      <td>94</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::operator</code></td>
+      <td>96</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::operator</code></td>
+      <td>97</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::InsertString</code></td>
+      <td>239</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Initialize</code></td>
+      <td>232</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Initialize</code></td>
+      <td>234</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Initialize</code></td>
+      <td>236</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STRING_ARRAY::Initialize</code></td>
+      <td>226</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SVILOGFILES::DeleteOldest</code></td>
+      <td>144</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SVILOGFILES::GetHandleNewLogFile</code></td>
+      <td>179</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STRING_ARGUMENT::Initialize</code></td>
+      <td>225</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STREAM::ReadWLine</code></td>
+      <td>346</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STREAM::WriteByte</code></td>
+      <td>452</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STREAM_MESSAGE::Initialize</code></td>
+      <td>224</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TIMEINFO::ConvertToUTC</code></td>
+      <td>132</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TIMEINFO::Initialize</code></td>
+      <td>228</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TIMEINFO::Initialize</code></td>
+      <td>229</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TIMEINFO::ConvertToLocal</code></td>
+      <td>131</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SVILOGFILES::Initialize</code></td>
+      <td>227</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SVILOGFILES::NewLogFileName</code></td>
+      <td>272</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SVILOGFILES::ShiftLogs</code></td>
+      <td>403</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::operator</code></td>
+      <td>93</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strspn</code></td>
+      <td>433</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strstr</code></td>
+      <td>435</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::SyncLength</code></td>
+      <td>438</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strrchr</code></td>
+      <td>432</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::QueryChCount</code></td>
+      <td>294</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strchr</code></td>
+      <td>415</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strcspn</code></td>
+      <td>424</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::SetChAt</code></td>
+      <td>377</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::GetWSTR</code></td>
+      <td>188</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl ARGUMENT_LEXEMIZER::~ARGUMENT_LEXEMIZER(void) __ptr64</code></td>
+      <td>52</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::QueryChAt</code></td>
+      <td>292</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Truncate</code></td>
+      <td>441</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::GetWSTRNonConst</code></td>
+      <td>189</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::QueryWSTR</code></td>
+      <td>341</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::ReplaceWithChars</code></td>
+      <td>352</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Split</code></td>
+      <td>408</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strcat</code></td>
+      <td>413</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Replace</code></td>
+      <td>350</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::operator</code></td>
+      <td>99</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::operator</code></td>
+      <td>100</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::QueryNumber</code></td>
+      <td>322</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::Strchr</code></td>
+      <td>414</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SCREEN::QueryCodePage</code></td>
+      <td>296</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::QueryByteCount</code></td>
+      <td>291</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::QueryChCount</code></td>
+      <td>293</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strcat</code></td>
+      <td>412</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BITVECTOR::SetSize</code></td>
+      <td>398</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::NextChar</code></td>
+      <td>273</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STREAM::ReadMbLine</code></td>
+      <td>345</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::Log</code></td>
+      <td>258</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::LogMessage</code></td>
+      <td>259</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::LogMsg</code></td>
+      <td>260</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::IsLoggingEnabled</code></td>
+      <td>248</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::DisplayMsg</code></td>
+      <td>153</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::DumpDataToLog</code></td>
+      <td>158</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::Initialize</code></td>
+      <td>213</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::SetLogOnly</code></td>
+      <td>388</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MULTIPLE_PATH_ARGUMENT::Initialize</code></td>
+      <td>214</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OBJECT::IsSameClass</code></td>
+      <td>249</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::QueryPackedLog</code></td>
+      <td>323</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::LogMsg</code></td>
+      <td>261</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::LogOnly</code></td>
+      <td>262</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::QueryNextLoggedMessage</code></td>
+      <td>321</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LIST::Initialize</code></td>
+      <td>209</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LIST::Insert</code></td>
+      <td>238</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LONG_ARGUMENT::Initialize</code></td>
+      <td>210</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">KEYBOARD::IsKeyAvailable</code></td>
+      <td>246</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">KEYBOARD::EnableLineMode</code></td>
+      <td>160</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">KEYBOARD::Flush</code></td>
+      <td>172</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">KEYBOARD::Initialize</code></td>
+      <td>208</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::DisplayMsg</code></td>
+      <td>150</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::DisplayMsg</code></td>
+      <td>151</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::DisplayMsg</code></td>
+      <td>152</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::Display</code></td>
+      <td>147</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MEM_ALLOCATOR::Initialize</code></td>
+      <td>211</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MEM_BLOCK_MGR::Free</code></td>
+      <td>173</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MEM_BLOCK_MGR::Initialize</code></td>
+      <td>212</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OBJECT::IsSameObject</code></td>
+      <td>250</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">REST_OF_LINE_ARGUMENT::Initialize</code></td>
+      <td>221</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SCREEN::ChangeScreenSize</code></td>
+      <td>119</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SCREEN::EraseScreen</code></td>
+      <td>163</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PROGRAM::Initialize</code></td>
+      <td>220</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::TruncateBase</code></td>
+      <td>442</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH_ARGUMENT::Initialize</code></td>
+      <td>218</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PRINT_STREAM::Initialize</code></td>
+      <td>219</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SCREEN::SetOutputCodePage</code></td>
+      <td>395</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SORTED_LIST::Initialize</code></td>
+      <td>223</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STREAM::ReadLine</code></td>
+      <td>344</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SCREEN::SetCodePage</code></td>
+      <td>379</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SCREEN::EraseScreenAndResetAttribute</code></td>
+      <td>164</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SCREEN::Initialize</code></td>
+      <td>222</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SCREEN::MoveCursorTo</code></td>
+      <td>268</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::HasWildCard</code></td>
+      <td>191</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::Initialize</code></td>
+      <td>216</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::Initialize</code></td>
+      <td>217</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::EndsWithDelimiter</code></td>
+      <td>162</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::AppendBase</code></td>
+      <td>113</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::AppendDelimiter</code></td>
+      <td>114</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::AppendString</code></td>
+      <td>115</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::PathWasTooBig</code></td>
+      <td>276</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::SetDevice</code></td>
+      <td>382</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::SetName</code></td>
+      <td>390</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::ModifyName</code></td>
+      <td>267</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::Initialize</code></td>
+      <td>215</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::IsDrive</code></td>
+      <td>241</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::IsGuidVolName</code></td>
+      <td>243</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl ARRAY::~ARRAY(void) __ptr64</code></td>
+      <td>53</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::SelectResponse</code></td>
+      <td>367</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SORTED_LIST::QueryMemberCount</code></td>
+      <td>317</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CONT_MEM::Acquire</code></td>
+      <td>108</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LIST::QueryMemberCount</code></td>
+      <td>316</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STREAM_MESSAGE::Set</code></td>
+      <td>369</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STRING_ARRAY::Sort</code></td>
+      <td>407</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::QueryMemberCount</code></td>
+      <td>315</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PROGRAM::Fatal</code></td>
+      <td>167</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PROGRAM::Usage</code></td>
+      <td>447</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PROGRAM::ValidateVersion</code></td>
+      <td>449</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PROGRAM::Fatal</code></td>
+      <td>166</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">HMEM::Acquire</code></td>
+      <td>109</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">KEYBOARD::DoNotRestoreConsoleMode</code></td>
+      <td>155</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OBJECT::DebugDump</code></td>
+      <td>136</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::IsYesResponse</code></td>
+      <td>255</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::QueryStringInput</code></td>
+      <td>335</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::SetDotsOnly</code></td>
+      <td>383</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::IsSuppressedMessage</code></td>
+      <td>252</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::IsInAutoChk</code></td>
+      <td>244</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::IsInSetup</code></td>
+      <td>245</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::IsKeyPressed</code></td>
+      <td>247</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SORTED_LIST::DeleteAllMembers</code></td>
+      <td>140</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SORTED_LIST::Put</code></td>
+      <td>280</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STREAM_MESSAGE::IsYesResponse</code></td>
+      <td>256</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SEQUENTIAL_CONTAINER::DeleteAllMembers</code></td>
+      <td>139</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::WaitForUserSignal</code></td>
+      <td>450</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PROGRAM::DisplayMessage</code></td>
+      <td>148</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PROGRAM::DisplayMessage</code></td>
+      <td>149</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MEM_ALLOCATOR::Allocate</code></td>
+      <td>111</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::Unlock</code></td>
+      <td>445</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::TrimTrailingDelimeters</code></td>
+      <td>440</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::TruncateDelimiter</code></td>
+      <td>443</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::SetLoggingEnabled</code></td>
+      <td>389</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::DeleteChAt</code></td>
+      <td>141</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::Lock</code></td>
+      <td>257</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::ResetLoggingIterator</code></td>
+      <td>355</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TrackMsgId</code></td>
+      <td>462</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UlibRealloc</code></td>
+      <td>463</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">void * __ptr64 __cdecl FindFirstFileW(class PATH const * __ptr64,struct _WIN32_FIND_DATAW * __ptr64)</code></td>
+      <td>170</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::DeleteChAt</code></td>
+      <td>142</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::TruncateNameAtColon</code></td>
+      <td>444</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SCREEN::QueryScreenSize</code></td>
+      <td>331</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TIMEINFO::Initialize</code></td>
+      <td>230</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::PutMultipleSwitch</code></td>
+      <td>284</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::PutSeparators</code></td>
+      <td>285</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::PutSwitches</code></td>
+      <td>289</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::PutMultipleSwitch</code></td>
+      <td>283</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MEM_BLOCK_MGR::Alloc</code></td>
+      <td>110</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::PutMultiCharSwitch</code></td>
+      <td>281</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::PutMultiCharSwitch</code></td>
+      <td>282</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BITVECTOR::Initialize</code></td>
+      <td>195</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BITVECTOR::ResetBit</code></td>
+      <td>353</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BITVECTOR::SetBit</code></td>
+      <td>375</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::SetNoSpcBetweenDstAndSwitch</code></td>
+      <td>391</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::PutSwitches</code></td>
+      <td>290</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::SetAllowSwitchGlomming</code></td>
+      <td>370</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::SetCaseSensitive</code></td>
+      <td>376</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LIST::Put</code></td>
+      <td>279</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl PATH::~PATH(void) __ptr64</code></td>
+      <td>72</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl PATH_ARGUMENT::~PATH_ARGUMENT(void) __ptr64</code></td>
+      <td>73</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl PRINT_STREAM::~PRINT_STREAM(void) __ptr64</code></td>
+      <td>74</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl OBJECT::~OBJECT(void) __ptr64</code></td>
+      <td>71</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl MESSAGE::~MESSAGE(void) __ptr64</code></td>
+      <td>68</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl MESSAGE_ID_COUNT::~MESSAGE_ID_COUNT(void) __ptr64</code></td>
+      <td>69</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl MULTIPLE_PATH_ARGUMENT::~MULTIPLE_PATH_ARGUMENT(void) __ptr64</code></td>
+      <td>70</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl STREAM_MESSAGE::~STREAM_MESSAGE(void) __ptr64</code></td>
+      <td>79</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl STRING_ARGUMENT::~STRING_ARGUMENT(void) __ptr64</code></td>
+      <td>80</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl TIMEINFO_ARGUMENT::~TIMEINFO_ARGUMENT(void) __ptr64</code></td>
+      <td>81</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl STACK::~STACK(void) __ptr64</code></td>
+      <td>78</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl PROGRAM::~PROGRAM(void) __ptr64</code></td>
+      <td>75</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl SCREEN::~SCREEN(void) __ptr64</code></td>
+      <td>76</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl SORTED_LIST::~SORTED_LIST(void) __ptr64</code></td>
+      <td>77</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl CHKDSK_MESSAGE::~CHKDSK_MESSAGE(void) __ptr64</code></td>
+      <td>58</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl COMM_DEVICE::~COMM_DEVICE(void) __ptr64</code></td>
+      <td>59</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl DSTRING::~DSTRING(void) __ptr64</code></td>
+      <td>60</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl BYTE_STREAM::~BYTE_STREAM(void) __ptr64</code></td>
+      <td>57</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl BDSTRING::~BDSTRING(void) __ptr64</code></td>
+      <td>54</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl BITVECTOR::~BITVECTOR(void) __ptr64</code></td>
+      <td>55</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl BSTRING::~BSTRING(void) __ptr64</code></td>
+      <td>56</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl LIST::~LIST(void) __ptr64</code></td>
+      <td>65</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl MEM_ALLOCATOR::~MEM_ALLOCATOR(void) __ptr64</code></td>
+      <td>66</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl MEM_BLOCK_MGR::~MEM_BLOCK_MGR(void) __ptr64</code></td>
+      <td>67</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl ITERATOR::~ITERATOR(void) __ptr64</code></td>
+      <td>64</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl FSN_FILTER::~FSN_FILTER(void) __ptr64</code></td>
+      <td>61</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl FSTRING::~FSTRING(void) __ptr64</code></td>
+      <td>62</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl HMEM::~HMEM(void) __ptr64</code></td>
+      <td>63</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: virtual __cdecl WSTRING::~WSTRING(void) __ptr64</code></td>
+      <td>82</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CHKDSK_MESSAGE::Set</code></td>
+      <td>368</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CHKDSK_MESSAGE::SqmExport</code></td>
+      <td>409</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DSTRING::NewBuf</code></td>
+      <td>270</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CHKDSK_MESSAGE::IsYesResponse</code></td>
+      <td>254</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::Sort</code></td>
+      <td>405</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BDSTRING::NewBuf</code></td>
+      <td>269</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BDSTRING::Resize</code></td>
+      <td>356</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSTRING::Resize</code></td>
+      <td>358</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSTRING::SPrintf</code></td>
+      <td>362</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSTRING::SPrintfAppend</code></td>
+      <td>364</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSTRING::NewBuf</code></td>
+      <td>271</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DSTRING::Resize</code></td>
+      <td>357</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DSTRING::SPrintf</code></td>
+      <td>361</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DSTRING::SPrintfAppend</code></td>
+      <td>363</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::Remove</code></td>
+      <td>347</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::RemoveAt</code></td>
+      <td>348</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ITERATOR::FindNext</code></td>
+      <td>171</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::GetAt</code></td>
+      <td>175</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::QueryIterator</code></td>
+      <td>310</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LIST::QueryIterator</code></td>
+      <td>311</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SORTED_LIST::QueryIterator</code></td>
+      <td>312</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::DeleteAllMembers</code></td>
+      <td>138</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::Put</code></td>
+      <td>278</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::Sort</code></td>
+      <td>406</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OBJECT::Compare</code></td>
+      <td>123</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PROGRAM::GetStandardError</code></td>
+      <td>185</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PROGRAM::GetStandardInput</code></td>
+      <td>186</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PROGRAM::GetStandardOutput</code></td>
+      <td>187</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">KEYBOARD::DisableLineMode</code></td>
+      <td>146</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STRING_ARGUMENT::STRING_ARGUMENT</code></td>
+      <td>44</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STRING_ARRAY::STRING_ARRAY</code></td>
+      <td>45</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TIMEINFO::TIMEINFO</code></td>
+      <td>46</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STREAM_MESSAGE::STREAM_MESSAGE</code></td>
+      <td>43</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SCREEN::SCREEN</code></td>
+      <td>40</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SORTED_LIST::SORTED_LIST</code></td>
+      <td>41</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">STACK::STACK</code></td>
+      <td>42</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::QuerySTR</code></td>
+      <td>330</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OBJECT::DebugGetClassName</code></td>
+      <td>137</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_DIRECTORY::QueryFsnodeArray</code></td>
+      <td>305</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::QuerySTR</code></td>
+      <td>329</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">TIMEINFO_ARGUMENT::TIMEINFO_ARGUMENT</code></td>
+      <td>47</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::WSTRING</code></td>
+      <td>49</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::WSTRING</code></td>
+      <td>50</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MEM_ALLOCATOR::MEM_ALLOCATOR</code></td>
+      <td>28</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MEM_BLOCK_MGR::MEM_BLOCK_MGR</code></td>
+      <td>29</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::MESSAGE</code></td>
+      <td>30</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LONG_ARGUMENT::LONG_ARGUMENT</code></td>
+      <td>27</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ITERATOR::ITERATOR</code></td>
+      <td>24</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">KEYBOARD::KEYBOARD</code></td>
+      <td>25</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">LIST::LIST</code></td>
+      <td>26</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH_ARGUMENT::PATH_ARGUMENT</code></td>
+      <td>36</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PRINT_STREAM::PRINT_STREAM</code></td>
+      <td>37</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">REST_OF_LINE_ARGUMENT::REST_OF_LINE_ARGUMENT</code></td>
+      <td>39</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::PATH</code></td>
+      <td>35</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE_ID_COUNT::MESSAGE_ID_COUNT</code></td>
+      <td>31</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MULTIPLE_PATH_ARGUMENT::MULTIPLE_PATH_ARGUMENT</code></td>
+      <td>32</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OBJECT::OBJECT</code></td>
+      <td>34</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::QueryComponentArray</code></td>
+      <td>297</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::operator</code></td>
+      <td>92</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT::GetLexeme</code></td>
+      <td>180</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT::GetPattern</code></td>
+      <td>184</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::operator</code></td>
+      <td>91</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::QueryMountPointPath</code></td>
+      <td>318</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::QueryPath</code></td>
+      <td>324</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::QueryWCExpansion</code></td>
+      <td>340</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::QueryGuidString</code></td>
+      <td>308</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::QueryRoot</code></td>
+      <td>328</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::QueryString</code></td>
+      <td>334</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::QueryFullPathString</code></td>
+      <td>307</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::GetLexemeAt</code></td>
+      <td>181</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::QueryInvalidArgument</code></td>
+      <td>309</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSTRING::Initialize</code></td>
+      <td>206</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DSTRING::operator</code></td>
+      <td>86</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_FILE::QueryStream</code></td>
+      <td>333</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_DIRECTORY::CreateDirectoryPath</code></td>
+      <td>135</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OBJECT::GetClassDescriptor</code></td>
+      <td>176</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BDSTRING::operator</code></td>
+      <td>83</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::operator</code></td>
+      <td>84</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::operator</code></td>
+      <td>85</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OBJECT::operator</code></td>
+      <td>90</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::OrderedSearch</code></td>
+      <td>275</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::QueryFullPath</code></td>
+      <td>306</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ITERATOR::operator</code></td>
+      <td>89</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_DIRECTORY::GetNext</code></td>
+      <td>182</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSTRING::operator</code></td>
+      <td>87</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSTRING::operator</code></td>
+      <td>88</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">HMEM::HMEM</code></td>
+      <td>22</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::_UseConsoleConversionsPrev</code></td>
+      <td>456</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BYTE_STREAM::FillAndReadByte</code></td>
+      <td>169</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DSTRING::SPrintfWorker</code></td>
+      <td>365</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::_UseConsoleConversions</code></td>
+      <td>455</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::ConvertUnicodeToOemN</code></td>
+      <td>133</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::_UseAnsiConversions</code></td>
+      <td>453</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::_UseAnsiConversionsPrev</code></td>
+      <td>454</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ITERATOR::ITERATOR</code></td>
+      <td>23</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OBJECT::OBJECT</code></td>
+      <td>33</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PROGRAM::PROGRAM</code></td>
+      <td>38</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::BSTRING</code></td>
+      <td>7</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BITVECTOR::ComputeCountSet</code></td>
+      <td>124</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BDSTRING::Construct</code></td>
+      <td>125</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DSTRING::Construct</code></td>
+      <td>127</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">const ITERATOR::</code><code class="language-plaintext highlighter-rouge">vftable'</code></td>
+      <td>105</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">const OBJECT::</code><code class="language-plaintext highlighter-rouge">vftable'</code></td>
+      <td>106</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">const WSTRING::</code><code class="language-plaintext highlighter-rouge">vftable'</code></td>
+      <td>107</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">const FSTRING::</code><code class="language-plaintext highlighter-rouge">vftable'</code></td>
+      <td>104</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">const BDSTRING::</code><code class="language-plaintext highlighter-rouge">vftable'</code></td>
+      <td>101</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">const BSTRING::</code><code class="language-plaintext highlighter-rouge">vftable'</code></td>
+      <td>102</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">const DSTRING::</code><code class="language-plaintext highlighter-rouge">vftable'</code></td>
+      <td>103</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Get_Standard_Output_Stream</code></td>
+      <td>461</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::CheckSpace</code></td>
+      <td>121</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::ConvertOemToUnicodeN</code></td>
+      <td>130</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Get_Standard_Input_Stream</code></td>
+      <td>460</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DebugPrintfReal</code></td>
+      <td>457</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Export</code></td>
+      <td>458</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Get_Standard_Error_Stream</code></td>
+      <td>459</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::WSTRING</code></td>
+      <td>48</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CLASS_DESCRIPTOR::CLASS_DESCRIPTOR</code></td>
+      <td>12</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::COMM_DEVICE</code></td>
+      <td>13</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CONT_MEM::CONT_MEM</code></td>
+      <td>14</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CHKDSK_MESSAGE::CHKDSK_MESSAGE</code></td>
+      <td>11</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::BSTRING</code></td>
+      <td>8</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::BSTRING</code></td>
+      <td>9</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BYTE_STREAM::BYTE_STREAM</code></td>
+      <td>10</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSTRING::FSTRING</code></td>
+      <td>19</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSTRING::FSTRING</code></td>
+      <td>20</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSTRING::FSTRING</code></td>
+      <td>21</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_FILTER::FSN_FILTER</code></td>
+      <td>18</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DSTRING::DSTRING</code></td>
+      <td>15</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DSTRING::DSTRING</code></td>
+      <td>16</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FLAG_ARGUMENT::FLAG_ARGUMENT</code></td>
+      <td>17</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Construct</code></td>
+      <td>129</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::PutString</code></td>
+      <td>287</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::PutString</code></td>
+      <td>288</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OBJECT::SetClassDescriptor</code></td>
+      <td>378</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::Construct</code></td>
+      <td>126</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::PutString</code></td>
+      <td>286</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OBJECT::Construct</code></td>
+      <td>128</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BDSTRING::BDSTRING</code></td>
+      <td>4</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BDSTRING::BDSTRING</code></td>
+      <td>5</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BITVECTOR::BITVECTOR</code></td>
+      <td>6</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::ARRAY</code></td>
+      <td>3</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ADMINFILEPRIVS::ADMINFILEPRIVS</code></td>
+      <td>1</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">public: __cdecl ADMINFILEPRIVS::~ADMINFILEPRIVS(void) __ptr64</code></td>
+      <td>51</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::ARGUMENT_LEXEMIZER</code></td>
+      <td>2</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strlwr</code></td>
+      <td>430</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::Initialize</code></td>
+      <td>196</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::Initialize</code></td>
+      <td>197</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BSTRING::ReplaceWithChars</code></td>
+      <td>351</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BITVECTOR::QuerySetBit</code></td>
+      <td>332</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::OrderedInsert</code></td>
+      <td>274</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BITVECTOR::Initialize</code></td>
+      <td>194</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BITVECTOR::QueryResetBit</code></td>
+      <td>325</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::Initialize</code></td>
+      <td>201</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::QueryTimeOut</code></td>
+      <td>338</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::SetBaudRate</code></td>
+      <td>374</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::CommitState</code></td>
+      <td>122</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BYTE_STREAM::Initialize</code></td>
+      <td>198</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CHKDSK_MESSAGE::Initialize</code></td>
+      <td>199</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CLASS_DESCRIPTOR::Initialize</code></td>
+      <td>200</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::SetConsoleConversions</code></td>
+      <td>380</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::SetOemConversions</code></td>
+      <td>394</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">OBJECT::QueryClassId</code></td>
+      <td>295</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::SetAnsiConversions</code></td>
+      <td>371</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::DisplaySystemError</code></td>
+      <td>154</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::FreeLibraryHandle</code></td>
+      <td>174</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::ResetConversions</code></td>
+      <td>354</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::QueryMultiCharSwitch</code></td>
+      <td>319</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::Initialize</code></td>
+      <td>193</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::Insert</code></td>
+      <td>237</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::PrepareToParse</code></td>
+      <td>277</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT::IsValueSet</code></td>
+      <td>253</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::DoParsing</code></td>
+      <td>156</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARGUMENT_LEXEMIZER::Initialize</code></td>
+      <td>192</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::SetDataBits</code></td>
+      <td>381</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_FILTER::Initialize</code></td>
+      <td>205</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_FILTER::SetAttributes</code></td>
+      <td>373</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_FILTER::SetFileName</code></td>
+      <td>385</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_FILTER::DoesNodeMatch</code></td>
+      <td>157</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_DIRECTORY::IsEmpty</code></td>
+      <td>242</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_DIRECTORY::Traverse</code></td>
+      <td>439</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_FILE::Copy</code></td>
+      <td>134</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSNODE::WorkOnReparsePoint</code></td>
+      <td>451</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">HMEM::Initialize</code></td>
+      <td>207</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">HMEM::Resize</code></td>
+      <td>359</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSNODE::UseAlternateName</code></td>
+      <td>448</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_FILTER::SetFileName</code></td>
+      <td>386</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_FILTER::SetTimeInfo</code></td>
+      <td>400</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSNODE::SetAttributes</code></td>
+      <td>372</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::SetParity</code></td>
+      <td>396</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::SetRtsControl</code></td>
+      <td>397</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::SetStopBits</code></td>
+      <td>399</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::SetOdsr</code></td>
+      <td>393</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::SetDtrControl</code></td>
+      <td>384</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::SetIdsr</code></td>
+      <td>387</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::SetOcts</code></td>
+      <td>392</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FLAG_ARGUMENT::Initialize</code></td>
+      <td>203</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FLAG_ARGUMENT::Initialize</code></td>
+      <td>204</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FSN_DIRECTORY::DeleteDirectory</code></td>
+      <td>143</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FILE_STREAM::ReadAt</code></td>
+      <td>343</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::SetTimeOut</code></td>
+      <td>401</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">COMM_DEVICE::SetXon</code></td>
+      <td>402</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CONT_MEM::Initialize</code></td>
+      <td>202</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SQMEXPORT::SqmExportOnError</code></td>
+      <td>411</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::MakeDirectory</code></td>
+      <td>263</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::QueryDirectory</code></td>
+      <td>300</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::MakeFile</code></td>
+      <td>264</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">FILE_STREAM::Cast</code></td>
+      <td>116</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::QueryNextLibraryEntryPoint</code></td>
+      <td>320</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MBSTR::CharNextW</code></td>
+      <td>120</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MBSTR::Strstr</code></td>
+      <td>434</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::QuerySystemDirectory</code></td>
+      <td>336</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::SearchPathW</code></td>
+      <td>366</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SCREEN::Cast</code></td>
+      <td>118</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ARRAY::GetCompareArgument</code></td>
+      <td>177</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::MakeTemporaryFile</code></td>
+      <td>266</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::QueryFile</code></td>
+      <td>303</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">KEYBOARD::Cast</code></td>
+      <td>117</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">KEYBOARD::GetPFlagBreak</code></td>
+      <td>183</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ADMINFILEPRIVS::EnablePrivileges</code></td>
+      <td>161</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ADMINFILEPRIVS::RestorePrivileges</code></td>
+      <td>360</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PATH::AnalyzePath</code></td>
+      <td>112</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strlwr</code></td>
+      <td>431</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strupr</code></td>
+      <td>436</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strupr</code></td>
+      <td>437</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Stricmp</code></td>
+      <td>427</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Stricmp</code></td>
+      <td>428</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::QueryLibraryEntryPoint</code></td>
+      <td>313</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Stricmp</code></td>
+      <td>426</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strcmp</code></td>
+      <td>416</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strcmp</code></td>
+      <td>417</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strcmp</code></td>
+      <td>418</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::QueryEnvironmentVariable</code></td>
+      <td>302</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SQMEXPORT::UploadSqmFromFile</code></td>
+      <td>446</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::GetFileSecurityBackup</code></td>
+      <td>178</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::IsCorrectVersion</code></td>
+      <td>240</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SQMEXPORT::SqmExport</code></td>
+      <td>410</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">KEYBOARD::EnableBreakHandling</code></td>
+      <td>159</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">KEYBOARD::GotABreak</code></td>
+      <td>190</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SQMEXPORT::FileExport</code></td>
+      <td>168</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::RemoveNode</code></td>
+      <td>349</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::SkipWhite</code></td>
+      <td>404</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PROGRAM::ExitProgram</code></td>
+      <td>165</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::QueryWindowsErrorMessage</code></td>
+      <td>342</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::IsStorageDaxCapable</code></td>
+      <td>251</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::QueryCurrentDosDriveName</code></td>
+      <td>298</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::QueryLocalTimeFromUTime</code></td>
+      <td>314</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MBSTR::Strcmps</code></td>
+      <td>422</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MBSTR::Stricmp</code></td>
+      <td>425</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strcmp</code></td>
+      <td>419</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MBSTR::Strcmpis</code></td>
+      <td>420</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::QueryVolumeLabel</code></td>
+      <td>339</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::QueryDriveType</code></td>
+      <td>301</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SYSTEM::QueryFileType</code></td>
+      <td>304</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BASE_SYSTEM::QueryResourceString</code></td>
+      <td>326</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">BASE_SYSTEM::QueryResourceStringV</code></td>
+      <td>327</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">KEYBOARD::DisableBreakHandling</code></td>
+      <td>145</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MESSAGE::MakeFileToken</code></td>
+      <td>265</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strcmpis</code></td>
+      <td>421</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Strcmps</code></td>
+      <td>423</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WSTRING::Stricmp</code></td>
+      <td>429</td>
+      <td>Exported Function</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">3300000266BD1580EFA75CD6D3000000000266</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">A4341B9FD50FB9964283220A36A1EF6F6FAA7840</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: ulib.dll.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.19041.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.19041.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/71</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/3c96bb53730a6436b90ab11431260a23d4e4bdc04c276181821eb09aeb88bdd8/detection/</li>
+</ul>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

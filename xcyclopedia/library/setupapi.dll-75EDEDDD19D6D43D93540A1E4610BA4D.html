@@ -1,0 +1,3958 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>setupapi.dll | Windows Setup API &#124; STRONTIC</title>
+<meta name="description" content="What is setupapi.dll?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="setupapi.dll | Windows Setup API">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/setupapi.dll-75EDEDDD19D6D43D93540A1E4610BA4D.html">
+
+
+  <meta property="og:description" content="What is setupapi.dll?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="setupapi.dll | Windows Setup API">
+  <meta name="twitter:description" content="What is setupapi.dll?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/setupapi.dll-75EDEDDD19D6D43D93540A1E4610BA4D.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/setupapi.dll-75EDEDDD19D6D43D93540A1E4610BA4D.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">setupapi.dll | Windows Setup API</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            setupapi.dll      Windows Setup API      ">
+    <meta itemprop="description" content="What is setupapi.dll?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="setupapidll">setupapi.dll</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\SysWOW64\setupapi.dll</code></li>
+  <li>Description: Windows Setup API</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">75EDEDDD19D6D43D93540A1E4610BA4D</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">3B60B2E44FE8D1D940A34EC4D5A657BFA57EACBF</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">D6EA01758BBF399176AA36047B8438758A96B82F1E9CB1E5643FDA798982C78A</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">69E98C239CCBF798690D4266F22F5042B5D60C134AF25B6907F9890C9E49C159A6B4D0EF283C2275031759A06BCB3096</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">F7924B9B07F624E0E5F5CE7E941B8145914FC262AC9054DD6B3CF7B50110721CD38A6E0388AEA49CECFC0897870095A1A81DAC6E7527C371301F94FFEC85E582</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">49152:UosozzxCX5ECjsVbWmQ1W3MZk0caulCdTQ3SDJ2oGW8IdctHle7M4HP1YUKIT+Nk:1soRkECjsUWrkU3SDJpTOuXVRWxSqAqk</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">EDA3227FFCC07F94FCCAA9F21FC3C51D</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">81EB46F4DE46CA204163194A6C82538B0A124E70</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">DCB892B44E0104AC1DF5A0C075EE12E094121EF4CFE91E339E85943CA99810AC</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="dll-exports">DLL Exports:</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Function Name</th>
+      <th>Ordinal</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDriverInfoDetailW</code></td>
+      <td>373</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDriverInfoDetailA</code></td>
+      <td>372</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDriverInstallParamsA</code></td>
+      <td>374</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetHwProfileFriendlyNameA</code></td>
+      <td>376</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDriverInstallParamsW</code></td>
+      <td>375</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDevicePropertyKeys</code></td>
+      <td>368</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceInterfacePropertyW</code></td>
+      <td>367</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDevicePropertyW</code></td>
+      <td>369</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceRegistryPropertyW</code></td>
+      <td>371</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceRegistryPropertyA</code></td>
+      <td>370</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetHwProfileFriendlyNameExA</code></td>
+      <td>377</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetINFClassW</code></td>
+      <td>384</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetINFClassA</code></td>
+      <td>383</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetSelectedDevice</code></td>
+      <td>385</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetSelectedDriverW</code></td>
+      <td>387</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetSelectedDriverA</code></td>
+      <td>386</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetHwProfileFriendlyNameW</code></td>
+      <td>379</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetHwProfileFriendlyNameExW</code></td>
+      <td>378</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetHwProfileList</code></td>
+      <td>380</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetHwProfileListExW</code></td>
+      <td>382</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetHwProfileListExA</code></td>
+      <td>381</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassRegistryPropertyA</code></td>
+      <td>352</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassPropertyW</code></td>
+      <td>351</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassRegistryPropertyW</code></td>
+      <td>353</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetCustomDevicePropertyW</code></td>
+      <td>355</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetCustomDevicePropertyA</code></td>
+      <td>354</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassInstallParamsW</code></td>
+      <td>347</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassInstallParamsA</code></td>
+      <td>346</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassPropertyExW</code></td>
+      <td>348</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassPropertyKeysExW</code></td>
+      <td>350</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassPropertyKeys</code></td>
+      <td>349</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceInfoListClass</code></td>
+      <td>356</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceInterfaceAlias</code></td>
+      <td>363</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceInstanceIdW</code></td>
+      <td>362</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceInterfaceDetailA</code></td>
+      <td>364</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceInterfacePropertyKeys</code></td>
+      <td>366</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceInterfaceDetailW</code></td>
+      <td>365</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceInfoListDetailW</code></td>
+      <td>358</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceInfoListDetailA</code></td>
+      <td>357</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceInstallParamsA</code></td>
+      <td>359</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceInstanceIdA</code></td>
+      <td>361</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetDeviceInstallParamsW</code></td>
+      <td>360</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiReportDriverPackageImportationError</code></td>
+      <td>415</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiReportDriverNotFoundError</code></td>
+      <td>414</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiReportGenericDriverInstalled</code></td>
+      <td>416</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiRestartDevices</code></td>
+      <td>418</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiReportPnPDeviceProblem</code></td>
+      <td>417</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiRemoveDevice</code></td>
+      <td>410</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiRegisterDeviceInfo</code></td>
+      <td>409</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiRemoveDeviceInterface</code></td>
+      <td>411</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiReportDeviceInstallError</code></td>
+      <td>413</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiReportAdditionalSoftwareRequested</code></td>
+      <td>412</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSelectBestCompatDrv</code></td>
+      <td>419</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetClassRegistryPropertyA</code></td>
+      <td>426</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetClassPropertyW</code></td>
+      <td>425</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetClassRegistryPropertyW</code></td>
+      <td>427</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetDeviceInstallParamsW</code></td>
+      <td>429</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetDeviceInstallParamsA</code></td>
+      <td>428</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSelectOEMDrv</code></td>
+      <td>421</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSelectDevice</code></td>
+      <td>420</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetClassInstallParamsA</code></td>
+      <td>422</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetClassPropertyExW</code></td>
+      <td>424</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetClassInstallParamsW</code></td>
+      <td>423</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiInstallDeviceInterfaces</code></td>
+      <td>394</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiInstallDevice</code></td>
+      <td>393</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiInstallDriverFiles</code></td>
+      <td>395</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiLoadDeviceIcon</code></td>
+      <td>397</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiLoadClassIcon</code></td>
+      <td>396</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiInstallClassA</code></td>
+      <td>389</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetWizardPage</code></td>
+      <td>388</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiInstallClassExA</code></td>
+      <td>390</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiInstallClassW</code></td>
+      <td>392</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiInstallClassExW</code></td>
+      <td>391</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiMoveDuplicateDevice</code></td>
+      <td>398</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiOpenDeviceInterfaceRegKey</code></td>
+      <td>406</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiOpenDeviceInterfaceA</code></td>
+      <td>405</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiOpenDeviceInterfaceW</code></td>
+      <td>407</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiRegisterCoDeviceInstallers</code></td>
+      <td>408</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiOpenDevRegKey</code></td>
+      <td>402</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiOpenClassRegKeyExA</code></td>
+      <td>400</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiOpenClassRegKey</code></td>
+      <td>399</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiOpenClassRegKeyExW</code></td>
+      <td>401</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiOpenDeviceInfoW</code></td>
+      <td>404</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiOpenDeviceInfoA</code></td>
+      <td>403</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassImageListExW</code></td>
+      <td>345</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiBuildClassInfoListExA</code></td>
+      <td>288</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiBuildClassInfoList</code></td>
+      <td>287</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiBuildClassInfoListExW</code></td>
+      <td>289</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiCallClassInstaller</code></td>
+      <td>291</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiBuildDriverInfoList</code></td>
+      <td>290</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDeleteErrorW</code></td>
+      <td>283</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDeleteErrorA</code></td>
+      <td>282</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDestroyDiskSpaceList</code></td>
+      <td>284</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiAskForOEMDisk</code></td>
+      <td>286</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiApplyPowerScheme</code></td>
+      <td>285</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiCancelDriverInfoSearch</code></td>
+      <td>292</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiClassNameFromGuidExA</code></td>
+      <td>299</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiClassNameFromGuidA</code></td>
+      <td>298</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiClassNameFromGuidExW</code></td>
+      <td>300</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiCreateDeviceInfoA</code></td>
+      <td>304</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiClassNameFromGuidW</code></td>
+      <td>301</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiClassGuidsFromNameA</code></td>
+      <td>294</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiChangeState</code></td>
+      <td>293</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiClassGuidsFromNameExA</code></td>
+      <td>295</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiClassGuidsFromNameW</code></td>
+      <td>297</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiClassGuidsFromNameExW</code></td>
+      <td>296</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupCommitFileQueueA</code></td>
+      <td>267</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupCommitFileQueue</code></td>
+      <td>266</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupCommitFileQueueW</code></td>
+      <td>268</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupConfigureWmiFromInfSectionW</code></td>
+      <td>270</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupConfigureWmiFromInfSectionA</code></td>
+      <td>269</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupCancelTemporarySourceList</code></td>
+      <td>262</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupBackupErrorW</code></td>
+      <td>261</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupCloseFileQueue</code></td>
+      <td>263</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupCloseLog</code></td>
+      <td>265</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupCloseInfFile</code></td>
+      <td>264</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupCopyErrorA</code></td>
+      <td>271</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDecompressOrCopyFileW</code></td>
+      <td>278</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDecompressOrCopyFileA</code></td>
+      <td>277</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDefaultQueueCallback</code></td>
+      <td>279</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDefaultQueueCallbackW</code></td>
+      <td>281</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDefaultQueueCallbackA</code></td>
+      <td>280</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupCopyOEMInfA</code></td>
+      <td>273</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupCopyErrorW</code></td>
+      <td>272</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupCopyOEMInfW</code></td>
+      <td>274</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupCreateDiskSpaceListW</code></td>
+      <td>276</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupCreateDiskSpaceListA</code></td>
+      <td>275</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetActualSectionToInstallW</code></td>
+      <td>330</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetActualSectionToInstallExW</code></td>
+      <td>329</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassBitmapIndex</code></td>
+      <td>331</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassDescriptionExA</code></td>
+      <td>333</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassDescriptionA</code></td>
+      <td>332</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetActualModelsSectionA</code></td>
+      <td>325</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiEnumDriverInfoW</code></td>
+      <td>324</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetActualModelsSectionW</code></td>
+      <td>326</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetActualSectionToInstallExA</code></td>
+      <td>328</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetActualSectionToInstallA</code></td>
+      <td>327</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassDescriptionExW</code></td>
+      <td>334</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassDevsW</code></td>
+      <td>341</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassDevsExW</code></td>
+      <td>340</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassImageIndex</code></td>
+      <td>342</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassImageListExA</code></td>
+      <td>344</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassImageList</code></td>
+      <td>343</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassDevPropertySheetsA</code></td>
+      <td>336</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassDescriptionW</code></td>
+      <td>335</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassDevPropertySheetsW</code></td>
+      <td>337</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassDevsExA</code></td>
+      <td>339</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiGetClassDevsA</code></td>
+      <td>338</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiCreateDeviceInterfaceRegKeyW</code></td>
+      <td>311</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiCreateDeviceInterfaceRegKeyA</code></td>
+      <td>310</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiCreateDeviceInterfaceW</code></td>
+      <td>312</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiCreateDevRegKeyW</code></td>
+      <td>303</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiCreateDevRegKeyA</code></td>
+      <td>302</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiCreateDeviceInfoListExA</code></td>
+      <td>306</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiCreateDeviceInfoList</code></td>
+      <td>305</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiCreateDeviceInfoListExW</code></td>
+      <td>307</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiCreateDeviceInterfaceA</code></td>
+      <td>309</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiCreateDeviceInfoW</code></td>
+      <td>308</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiDeleteDeviceInfo</code></td>
+      <td>314</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiDrawMiniIcon</code></td>
+      <td>320</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiDestroyDriverInfoList</code></td>
+      <td>319</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiEnumDeviceInfo</code></td>
+      <td>321</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiEnumDriverInfoA</code></td>
+      <td>323</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiEnumDeviceInterfaces</code></td>
+      <td>322</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiDeleteDeviceInterfaceRegKey</code></td>
+      <td>316</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiDeleteDeviceInterfaceData</code></td>
+      <td>315</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiDeleteDevRegKey</code></td>
+      <td>313</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiDestroyDeviceInfoList</code></td>
+      <td>318</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiDestroyClassImageList</code></td>
+      <td>317</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetDeviceInterfaceDefault</code></td>
+      <td>430</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQuerySpaceRequiredOnDriveW</code></td>
+      <td>543</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQuerySpaceRequiredOnDriveA</code></td>
+      <td>542</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueCopyA</code></td>
+      <td>544</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueCopyIndirectW</code></td>
+      <td>546</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueCopyIndirectA</code></td>
+      <td>545</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueryInfVersionInformationA</code></td>
+      <td>538</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueryInfOriginalFileInformationW</code></td>
+      <td>537</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueryInfVersionInformationW</code></td>
+      <td>539</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQuerySourceListW</code></td>
+      <td>541</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQuerySourceListA</code></td>
+      <td>540</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueCopySectionA</code></td>
+      <td>547</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueDeleteSectionW</code></td>
+      <td>554</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueDeleteSectionA</code></td>
+      <td>553</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueDeleteW</code></td>
+      <td>555</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueRenameSectionA</code></td>
+      <td>557</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueRenameA</code></td>
+      <td>556</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueCopyW</code></td>
+      <td>549</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueCopySectionW</code></td>
+      <td>548</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueDefaultCopyA</code></td>
+      <td>550</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueDeleteA</code></td>
+      <td>552</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueDefaultCopyW</code></td>
+      <td>551</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupOpenInfFileW</code></td>
+      <td>522</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupOpenInfFileA</code></td>
+      <td>521</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupOpenLog</code></td>
+      <td>523</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupPrepareQueueForRestoreA</code></td>
+      <td>525</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupOpenMasterInf</code></td>
+      <td>524</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupLogFileW</code></td>
+      <td>517</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupLogFileA</code></td>
+      <td>516</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupOpenAppendInfFileA</code></td>
+      <td>518</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupOpenFileQueue</code></td>
+      <td>520</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupOpenAppendInfFileW</code></td>
+      <td>519</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupPrepareQueueForRestoreW</code></td>
+      <td>526</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueryFileLogW</code></td>
+      <td>533</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueryFileLogA</code></td>
+      <td>532</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueryInfFileInformationA</code></td>
+      <td>534</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueryInfOriginalFileInformationA</code></td>
+      <td>536</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueryInfFileInformationW</code></td>
+      <td>535</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupPromptForDiskW</code></td>
+      <td>528</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupPromptForDiskA</code></td>
+      <td>527</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupPromptReboot</code></td>
+      <td>529</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueryDrivesInDiskSpaceListW</code></td>
+      <td>531</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueryDrivesInDiskSpaceListA</code></td>
+      <td>530</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupSetSourceListA</code></td>
+      <td>585</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupSetPlatformPathOverrideW</code></td>
+      <td>584</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupSetSourceListW</code></td>
+      <td>586</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupTermDefaultQueueCallback</code></td>
+      <td>588</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupSetThreadLogToken</code></td>
+      <td>587</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupSetFileQueueAlternatePlatformW</code></td>
+      <td>580</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupSetFileQueueAlternatePlatformA</code></td>
+      <td>579</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupSetFileQueueFlags</code></td>
+      <td>581</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupSetPlatformPathOverrideA</code></td>
+      <td>583</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupSetNonInteractiveMode</code></td>
+      <td>582</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupTerminateFileLog</code></td>
+      <td>589</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupWriteTextLogError</code></td>
+      <td>596</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupWriteTextLog</code></td>
+      <td>595</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupWriteTextLogInfLine</code></td>
+      <td>597</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">VerifyCatalogFile</code></td>
+      <td>599</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UnicodeToMultiByte</code></td>
+      <td>598</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupUninstallOEMInfA</code></td>
+      <td>591</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupUninstallNewlyCopiedInfs</code></td>
+      <td>590</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupUninstallOEMInfW</code></td>
+      <td>592</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupVerifyInfFileW</code></td>
+      <td>594</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupVerifyInfFileA</code></td>
+      <td>593</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupRemoveFromSourceListA</code></td>
+      <td>564</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupRemoveFromDiskSpaceListW</code></td>
+      <td>563</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupRemoveFromSourceListW</code></td>
+      <td>565</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupRemoveInstallSectionFromDiskSpaceListW</code></td>
+      <td>567</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupRemoveInstallSectionFromDiskSpaceListA</code></td>
+      <td>566</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueRenameW</code></td>
+      <td>559</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupQueueRenameSectionW</code></td>
+      <td>558</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupRemoveFileLogEntryA</code></td>
+      <td>560</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupRemoveFromDiskSpaceListA</code></td>
+      <td>562</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupRemoveFileLogEntryW</code></td>
+      <td>561</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupRemoveSectionFromDiskSpaceListA</code></td>
+      <td>568</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupSetDirectoryIdA</code></td>
+      <td>575</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupScanFileQueueW</code></td>
+      <td>574</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupSetDirectoryIdExA</code></td>
+      <td>576</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupSetDirectoryIdW</code></td>
+      <td>578</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupSetDirectoryIdExW</code></td>
+      <td>577</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupRenameErrorA</code></td>
+      <td>570</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupRemoveSectionFromDiskSpaceListW</code></td>
+      <td>569</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupRenameErrorW</code></td>
+      <td>571</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupScanFileQueueA</code></td>
+      <td>573</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupScanFileQueue</code></td>
+      <td>572</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupLogErrorW</code></td>
+      <td>515</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetFileCompressionInfoA</code></td>
+      <td>458</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetFieldCount</code></td>
+      <td>457</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetFileCompressionInfoExA</code></td>
+      <td>459</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetFileCompressionInfoW</code></td>
+      <td>461</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetFileCompressionInfoExW</code></td>
+      <td>460</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupFreeSourceListW</code></td>
+      <td>453</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupFreeSourceListA</code></td>
+      <td>452</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetBackupInformationA</code></td>
+      <td>454</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetBinaryField</code></td>
+      <td>456</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetBackupInformationW</code></td>
+      <td>455</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetFileQueueCount</code></td>
+      <td>462</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetInfInformationW</code></td>
+      <td>469</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetInfInformationA</code></td>
+      <td>468</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetInfPublishedNameA</code></td>
+      <td>470</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetInfSections</code></td>
+      <td>472</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetInfPublishedNameW</code></td>
+      <td>471</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetInfDriverStoreLocationA</code></td>
+      <td>464</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetFileQueueFlags</code></td>
+      <td>463</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetInfDriverStoreLocationW</code></td>
+      <td>465</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetInfFileListW</code></td>
+      <td>467</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetInfFileListA</code></td>
+      <td>466</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetSelectedDevice</code></td>
+      <td>437</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetDriverInstallParamsW</code></td>
+      <td>436</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetSelectedDriverA</code></td>
+      <td>438</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiUnremoveDevice</code></td>
+      <td>440</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetSelectedDriverW</code></td>
+      <td>439</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetDevicePropertyW</code></td>
+      <td>432</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetDeviceInterfacePropertyW</code></td>
+      <td>431</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetDeviceRegistryPropertyA</code></td>
+      <td>433</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetDriverInstallParamsA</code></td>
+      <td>435</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDiSetDeviceRegistryPropertyW</code></td>
+      <td>434</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDuplicateDiskSpaceListA</code></td>
+      <td>441</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupFindFirstLineW</code></td>
+      <td>448</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupFindFirstLineA</code></td>
+      <td>447</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupFindNextLine</code></td>
+      <td>449</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupFindNextMatchLineW</code></td>
+      <td>451</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupFindNextMatchLineA</code></td>
+      <td>450</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupEnumInfSectionsA</code></td>
+      <td>443</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupDuplicateDiskSpaceListW</code></td>
+      <td>442</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupEnumInfSectionsW</code></td>
+      <td>444</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupEnumPublishedInfW</code></td>
+      <td>446</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupEnumPublishedInfA</code></td>
+      <td>445</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallFileExW</code></td>
+      <td>500</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallFileExA</code></td>
+      <td>499</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallFilesFromInfSectionA</code></td>
+      <td>502</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallFileW</code></td>
+      <td>501</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallFilesFromInfSectionW</code></td>
+      <td>503</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInitDefaultQueueCallbackEx</code></td>
+      <td>495</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInitDefaultQueueCallback</code></td>
+      <td>494</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInitializeFileLogA</code></td>
+      <td>496</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallFileA</code></td>
+      <td>498</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInitializeFileLogW</code></td>
+      <td>497</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallFromInfSectionA</code></td>
+      <td>504</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallServicesFromInfSectionW</code></td>
+      <td>511</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallServicesFromInfSectionExW</code></td>
+      <td>510</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupIterateCabinetA</code></td>
+      <td>512</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupLogErrorA</code></td>
+      <td>514</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupIterateCabinetW</code></td>
+      <td>513</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallLogCloseEventGroup</code></td>
+      <td>506</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallFromInfSectionW</code></td>
+      <td>505</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallLogCreateEventGroup</code></td>
+      <td>507</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallServicesFromInfSectionExA</code></td>
+      <td>509</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupInstallServicesFromInfSectionA</code></td>
+      <td>508</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetLineTextW</code></td>
+      <td>479</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetLineTextA</code></td>
+      <td>478</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetMultiSzFieldA</code></td>
+      <td>480</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetNonInteractiveMode</code></td>
+      <td>482</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetMultiSzFieldW</code></td>
+      <td>481</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetLineByIndexA</code></td>
+      <td>474</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetIntField</code></td>
+      <td>473</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetLineByIndexW</code></td>
+      <td>475</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetLineCountW</code></td>
+      <td>477</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetLineCountA</code></td>
+      <td>476</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetSourceFileLocationA</code></td>
+      <td>483</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetStringFieldW</code></td>
+      <td>490</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetStringFieldA</code></td>
+      <td>489</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetTargetPathA</code></td>
+      <td>491</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetThreadLogToken</code></td>
+      <td>493</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetTargetPathW</code></td>
+      <td>492</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetSourceFileSizeA</code></td>
+      <td>485</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetSourceFileLocationW</code></td>
+      <td>484</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetSourceFileSizeW</code></td>
+      <td>486</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetSourceInfoW</code></td>
+      <td>488</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupGetSourceInfoA</code></td>
+      <td>487</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupBackupErrorA</code></td>
+      <td>260</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_HW_Prof_Flags_ExA</code></td>
+      <td>117</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Hardware_Profile_InfoW</code></td>
+      <td>120</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_HW_Prof_Flags_ExW</code></td>
+      <td>118</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_HW_Prof_FlagsW</code></td>
+      <td>116</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_HW_Prof_FlagsA</code></td>
+      <td>115</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Global_State_Ex</code></td>
+      <td>114</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Global_State</code></td>
+      <td>113</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Hardware_Profile_Info_ExA</code></td>
+      <td>121</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Hardware_Profile_InfoA</code></td>
+      <td>119</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Hardware_Profile_Info_ExW</code></td>
+      <td>122</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Log_Conf_Priority</code></td>
+      <td>123</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Parent_Ex</code></td>
+      <td>130</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Parent</code></td>
+      <td>129</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Res_Des_Data</code></td>
+      <td>131</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Res_Des_Data_Size</code></td>
+      <td>133</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Res_Des_Data_Ex</code></td>
+      <td>132</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Next_Log_Conf</code></td>
+      <td>125</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Log_Conf_Priority_Ex</code></td>
+      <td>124</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Next_Log_Conf_Ex</code></td>
+      <td>126</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Next_Res_Des_Ex</code></td>
+      <td>128</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Next_Res_Des</code></td>
+      <td>127</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_Interface_List_SizeW</code></td>
+      <td>108</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_Interface_List_SizeA</code></td>
+      <td>107</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_Interface_ListA</code></td>
+      <td>103</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_DevNode_Custom_Property_ExA</code></td>
+      <td>77</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_Interface_ListW</code></td>
+      <td>104</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_Interface_List_ExA</code></td>
+      <td>105</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_Interface_AliasW</code></td>
+      <td>100</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_Interface_List_ExW</code></td>
+      <td>106</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_Interface_List_Size_ExW</code></td>
+      <td>110</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_Interface_List_Size_ExA</code></td>
+      <td>109</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_DevNode_Custom_Property_ExW</code></td>
+      <td>78</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_DevNode_Status</code></td>
+      <td>83</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_DevNode_Registry_PropertyW</code></td>
+      <td>80</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_DevNode_Status_Ex</code></td>
+      <td>84</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_First_Log_Conf_Ex</code></td>
+      <td>112</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_First_Log_Conf</code></td>
+      <td>111</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_DevNode_Custom_PropertyW</code></td>
+      <td>76</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_DevNode_Custom_PropertyA</code></td>
+      <td>75</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_DevNode_Registry_Property_ExA</code></td>
+      <td>81</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_DevNode_Registry_PropertyA</code></td>
+      <td>79</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_DevNode_Registry_Property_ExW</code></td>
+      <td>82</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Open_Class_Key_ExA</code></td>
+      <td>163</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Next_Range</code></td>
+      <td>160</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Open_Class_Key_ExW</code></td>
+      <td>164</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Open_Class_KeyW</code></td>
+      <td>162</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Open_Class_KeyA</code></td>
+      <td>161</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Modify_Res_Des</code></td>
+      <td>156</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Merge_Range_List</code></td>
+      <td>155</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Modify_Res_Des_Ex</code></td>
+      <td>157</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Move_DevNode_Ex</code></td>
+      <td>159</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Move_DevNode</code></td>
+      <td>158</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Open_Device_Interface_Key_ExA</code></td>
+      <td>169</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Query_And_Remove_SubTree_ExW</code></td>
+      <td>174</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Query_And_Remove_SubTree_ExA</code></td>
+      <td>173</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Query_And_Remove_SubTreeA</code></td>
+      <td>171</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Query_Arbitrator_Free_Data</code></td>
+      <td>175</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Query_And_Remove_SubTreeW</code></td>
+      <td>172</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Open_Device_Interface_KeyA</code></td>
+      <td>167</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Open_Device_Interface_Key_ExW</code></td>
+      <td>170</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Open_Device_Interface_KeyW</code></td>
+      <td>168</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Open_DevNode_Key_Ex</code></td>
+      <td>166</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Open_DevNode_Key</code></td>
+      <td>165</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Version</code></td>
+      <td>140</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Sibling_Ex</code></td>
+      <td>139</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Version_Ex</code></td>
+      <td>141</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Install_DevNode_ExW</code></td>
+      <td>144</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Import_PowerScheme</code></td>
+      <td>142</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Resource_Conflict_Count</code></td>
+      <td>135</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Res_Des_Data_Size_Ex</code></td>
+      <td>134</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Resource_Conflict_DetailsA</code></td>
+      <td>136</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Sibling</code></td>
+      <td>138</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Resource_Conflict_DetailsW</code></td>
+      <td>137</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Install_DevNodeW</code></td>
+      <td>143</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Locate_DevNode_ExA</code></td>
+      <td>153</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Is_Version_Available_Ex</code></td>
+      <td>150</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Locate_DevNode_ExW</code></td>
+      <td>154</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Locate_DevNodeW</code></td>
+      <td>152</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Locate_DevNodeA</code></td>
+      <td>151</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Invert_Range_List</code></td>
+      <td>146</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Intersect_Range_List</code></td>
+      <td>145</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Is_Dock_Station_Present</code></td>
+      <td>147</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Is_Version_Available</code></td>
+      <td>149</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Is_Dock_Station_Present_Ex</code></td>
+      <td>148</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_Interface_AliasA</code></td>
+      <td>99</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Delete_PowerScheme</code></td>
+      <td>34</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Delete_Driver_PackageW</code></td>
+      <td>33</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Delete_Range</code></td>
+      <td>35</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Detect_Resource_Conflict_Ex</code></td>
+      <td>37</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Detect_Resource_Conflict</code></td>
+      <td>36</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Delete_Device_Interface_KeyA</code></td>
+      <td>29</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Delete_Device_Interface_Key_ExW</code></td>
+      <td>32</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Delete_Device_Interface_KeyW</code></td>
+      <td>30</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Delete_DevNode_Key_Ex</code></td>
+      <td>28</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Delete_DevNode_Key</code></td>
+      <td>27</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Disable_DevNode</code></td>
+      <td>38</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Enumerate_Classes</code></td>
+      <td>45</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Enable_DevNode_Ex</code></td>
+      <td>44</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Enumerate_Classes_Ex</code></td>
+      <td>46</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Enumerate_Enumerators_ExW</code></td>
+      <td>50</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Enumerate_Enumerators_ExA</code></td>
+      <td>49</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Disconnect_Machine</code></td>
+      <td>40</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Disable_DevNode_Ex</code></td>
+      <td>39</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Dup_Range_List</code></td>
+      <td>41</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Enable_DevNode</code></td>
+      <td>43</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Duplicate_PowerScheme</code></td>
+      <td>42</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Add_IDW</code></td>
+      <td>11</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Add_IDA</code></td>
+      <td>10</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Add_Range</code></td>
+      <td>14</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Add_Res_Des_Ex</code></td>
+      <td>16</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Add_Res_Des</code></td>
+      <td>15</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Add_Empty_Log_Conf</code></td>
+      <td>8</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Add_Driver_PackageW</code></td>
+      <td>7</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Add_Empty_Log_Conf_Ex</code></td>
+      <td>9</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Add_ID_ExW</code></td>
+      <td>13</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Add_ID_ExA</code></td>
+      <td>12</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Apply_PowerScheme</code></td>
+      <td>17</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Create_Range_List</code></td>
+      <td>24</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Create_DevNodeW</code></td>
+      <td>21</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Delete_Class_Key</code></td>
+      <td>25</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Delete_Device_Interface_Key_ExA</code></td>
+      <td>31</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Delete_Class_Key_Ex</code></td>
+      <td>26</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Connect_MachineW</code></td>
+      <td>19</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Connect_MachineA</code></td>
+      <td>18</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Create_DevNode_ExA</code></td>
+      <td>22</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Create_DevNodeA</code></td>
+      <td>20</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Create_DevNode_ExW</code></td>
+      <td>23</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_ID_ExW</code></td>
+      <td>88</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_ID_ExA</code></td>
+      <td>87</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_ID_List_ExA</code></td>
+      <td>91</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_ID_List_Size_ExA</code></td>
+      <td>95</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_ID_List_ExW</code></td>
+      <td>92</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Class_Registry_PropertyA</code></td>
+      <td>71</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Class_NameW</code></td>
+      <td>68</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Class_Registry_PropertyW</code></td>
+      <td>72</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Depth_Ex</code></td>
+      <td>74</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Depth</code></td>
+      <td>73</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_ID_List_Size_ExW</code></td>
+      <td>96</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_IDA</code></td>
+      <td>85</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_ID_Size_Ex</code></td>
+      <td>98</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_IDW</code></td>
+      <td>86</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_Interface_Alias_ExW</code></td>
+      <td>102</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_Interface_Alias_ExA</code></td>
+      <td>101</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_ID_List_SizeW</code></td>
+      <td>94</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_ID_List_SizeA</code></td>
+      <td>93</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_ID_ListA</code></td>
+      <td>89</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_ID_Size</code></td>
+      <td>97</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Device_ID_ListW</code></td>
+      <td>90</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Free_Log_Conf_Handle</code></td>
+      <td>55</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Free_Log_Conf_Ex</code></td>
+      <td>54</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Free_Range_List</code></td>
+      <td>56</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Free_Res_Des_Ex</code></td>
+      <td>58</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Free_Res_Des</code></td>
+      <td>57</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Enumerate_EnumeratorsW</code></td>
+      <td>48</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Enumerate_EnumeratorsA</code></td>
+      <td>47</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Find_Range</code></td>
+      <td>51</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Free_Log_Conf</code></td>
+      <td>53</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_First_Range</code></td>
+      <td>52</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Free_Res_Des_Handle</code></td>
+      <td>59</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Class_Key_NameW</code></td>
+      <td>64</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Class_Key_NameA</code></td>
+      <td>63</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Class_Name_ExA</code></td>
+      <td>69</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Class_NameA</code></td>
+      <td>67</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Class_Name_ExW</code></td>
+      <td>70</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Child</code></td>
+      <td>61</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Free_Resource_Conflict_Handle</code></td>
+      <td>60</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Child_Ex</code></td>
+      <td>62</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Class_Key_Name_ExW</code></td>
+      <td>66</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Get_Class_Key_Name_ExA</code></td>
+      <td>65</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Query_Arbitrator_Free_Data_Ex</code></td>
+      <td>176</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupGuidFromString</code></td>
+      <td>633</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupGetRealSystemTime</code></td>
+      <td>632</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupHandleFailedVerification</code></td>
+      <td>634</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupInfIsInbox</code></td>
+      <td>636</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupInfGetDigitalSignatureInfo</code></td>
+      <td>635</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupGetGlobalFlags</code></td>
+      <td>628</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupGetFileTitle</code></td>
+      <td>627</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupGetIndirectStringsFromDriverInfo</code></td>
+      <td>629</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupGetQueueFlags</code></td>
+      <td>631</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupGetInfSections</code></td>
+      <td>630</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupInfSetDigitalSignatureInfo</code></td>
+      <td>637</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupLoadIndirectString</code></td>
+      <td>644</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupIsUserTrustedInstaller</code></td>
+      <td>643</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupMakeSurePathExists</code></td>
+      <td>645</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupModifyGlobalFlags</code></td>
+      <td>647</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupMalloc</code></td>
+      <td>646</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupIsBiDiLocalizedSystemEx</code></td>
+      <td>639</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupInstallCatalog</code></td>
+      <td>638</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupIsGuidNull</code></td>
+      <td>640</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupIsUserAdmin</code></td>
+      <td>642</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupIsLocalSystem</code></td>
+      <td>641</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupDiBuildInfoDataFromStrongName</code></td>
+      <td>612</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupDestroyRunOnceNodeList</code></td>
+      <td>611</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupDiCrimsonLogDeviceInstall</code></td>
+      <td>613</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupDiGetDriverInfoExtensionId</code></td>
+      <td>615</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupDiEnumSelectedDrivers</code></td>
+      <td>614</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupCloseTextLogSection</code></td>
+      <td>607</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupCenterWindowRelativeToParent</code></td>
+      <td>606</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupConcatenatePaths</code></td>
+      <td>608</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupCreateTextLogSectionW</code></td>
+      <td>610</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupCreateTextLogSectionA</code></td>
+      <td>609</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupDiGetStrongNameForDriverNode</code></td>
+      <td>616</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupGetCurrentDriverSigningPolicy</code></td>
+      <td>623</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupFree</code></td>
+      <td>622</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupGetDriverDate</code></td>
+      <td>624</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupGetField</code></td>
+      <td>626</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupGetDriverVersion</code></td>
+      <td>625</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupDoesUserHavePrivilege</code></td>
+      <td>619</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupDiInvalidateHelperModules</code></td>
+      <td>617</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupDoLastKnownGoodBackup</code></td>
+      <td>618</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupEnablePrivilege</code></td>
+      <td>621</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupDuplicateString</code></td>
+      <td>620</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupUnmapAndCloseFile</code></td>
+      <td>675</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupUninstallCatalog</code></td>
+      <td>674</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupVerifyCatalogFile</code></td>
+      <td>676</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupWriteLogEntry</code></td>
+      <td>678</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupVerifyQueuedCatalogs</code></td>
+      <td>677</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringTableSetExtraData</code></td>
+      <td>670</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringTableLookUpStringEx</code></td>
+      <td>669</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringTableStringFromId</code></td>
+      <td>671</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupUnicodeToMultiByte</code></td>
+      <td>673</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringTableStringFromIdEx</code></td>
+      <td>672</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupWriteLogError</code></td>
+      <td>679</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupAddToSourceListA</code></td>
+      <td>256</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupAddToDiskSpaceListW</code></td>
+      <td>255</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupAddToSourceListW</code></td>
+      <td>257</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupAdjustDiskSpaceListW</code></td>
+      <td>259</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupAdjustDiskSpaceListA</code></td>
+      <td>258</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupAddInstallSectionToDiskSpaceListW</code></td>
+      <td>251</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupAddInstallSectionToDiskSpaceListA</code></td>
+      <td>250</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupAddSectionToDiskSpaceListA</code></td>
+      <td>252</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupAddToDiskSpaceListA</code></td>
+      <td>254</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SetupAddSectionToDiskSpaceListW</code></td>
+      <td>253</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupRetrieveServiceConfig</code></td>
+      <td>654</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupRegistryDelnode</code></td>
+      <td>653</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupSetArrayToMultiSzValue</code></td>
+      <td>655</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupSetQueueFlags</code></td>
+      <td>657</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupSetGlobalFlags</code></td>
+      <td>656</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupOpenAndMapFileForRead</code></td>
+      <td>649</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupMultiByteToUnicode</code></td>
+      <td>648</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupOutOfMemory</code></td>
+      <td>650</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupRealloc</code></td>
+      <td>652</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupQueryMultiSzValueToArray</code></td>
+      <td>651</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupShouldDeviceBeExcluded</code></td>
+      <td>658</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringTableGetExtraData</code></td>
+      <td>665</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringTableEnum</code></td>
+      <td>664</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringTableInitialize</code></td>
+      <td>666</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringTableLookUpString</code></td>
+      <td>668</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringTableInitializeEx</code></td>
+      <td>667</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringTableAddString</code></td>
+      <td>660</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringFromGuid</code></td>
+      <td>659</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringTableAddStringEx</code></td>
+      <td>661</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringTableDuplicate</code></td>
+      <td>663</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupStringTableDestroy</code></td>
+      <td>662</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupCaptureAndConvertAnsiArg</code></td>
+      <td>605</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_Class_Registry_PropertyW</code></td>
+      <td>204</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_Class_Registry_PropertyA</code></td>
+      <td>203</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_DevNode_Problem</code></td>
+      <td>205</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_DevNode_Registry_Property_ExA</code></td>
+      <td>209</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_DevNode_Problem_Ex</code></td>
+      <td>206</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_RestoreAll_DefaultPowerSchemes</code></td>
+      <td>198</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Restore_DefaultPowerScheme</code></td>
+      <td>199</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Run_Detection</code></td>
+      <td>200</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_ActiveScheme</code></td>
+      <td>202</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Run_Detection_Ex</code></td>
+      <td>201</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_DevNode_Registry_Property_ExW</code></td>
+      <td>210</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_HW_Prof_FlagsA</code></td>
+      <td>213</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_HW_Prof_Flags_ExW</code></td>
+      <td>216</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_HW_Prof_FlagsW</code></td>
+      <td>214</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Setup_DevNode_Ex</code></td>
+      <td>218</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Setup_DevNode</code></td>
+      <td>217</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_DevNode_Registry_PropertyW</code></td>
+      <td>208</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_DevNode_Registry_PropertyA</code></td>
+      <td>207</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_HW_Prof</code></td>
+      <td>211</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_HW_Prof_Flags_ExA</code></td>
+      <td>215</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Set_HW_Prof_Ex</code></td>
+      <td>212</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Reenumerate_DevNode_Ex</code></td>
+      <td>183</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Reenumerate_DevNode</code></td>
+      <td>182</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Register_Device_Driver</code></td>
+      <td>184</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Register_Device_Interface_ExA</code></td>
+      <td>188</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Register_Device_Driver_Ex</code></td>
+      <td>185</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Query_Arbitrator_Free_Size_Ex</code></td>
+      <td>178</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Query_Arbitrator_Free_Size</code></td>
+      <td>177</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Query_Remove_SubTree</code></td>
+      <td>179</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Query_Resource_Conflict_List</code></td>
+      <td>181</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Query_Remove_SubTree_Ex</code></td>
+      <td>180</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Register_Device_Interface_ExW</code></td>
+      <td>189</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Request_Device_EjectA</code></td>
+      <td>192</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Request_Device_Eject_ExW</code></td>
+      <td>195</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Request_Device_EjectW</code></td>
+      <td>193</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Request_Eject_PC_Ex</code></td>
+      <td>197</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Request_Eject_PC</code></td>
+      <td>196</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Register_Device_InterfaceW</code></td>
+      <td>187</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Register_Device_InterfaceA</code></td>
+      <td>186</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Remove_SubTree</code></td>
+      <td>190</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Request_Device_Eject_ExA</code></td>
+      <td>194</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Remove_SubTree_Ex</code></td>
+      <td>191</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InstallHinfSectionW</code></td>
+      <td>240</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InstallHinfSectionA</code></td>
+      <td>239</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IsUserAdmin</code></td>
+      <td>241</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MyMalloc</code></td>
+      <td>243</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MyFree</code></td>
+      <td>242</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DriverStoreFindDriverPackageW</code></td>
+      <td>235</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DriverStoreFindDriverPackageA</code></td>
+      <td>234</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ExtensionPropSheetPageProc</code></td>
+      <td>236</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InstallHinfSection</code></td>
+      <td>238</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">InstallCatalog</code></td>
+      <td>237</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MyRealloc</code></td>
+      <td>244</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupAccessRunOnceNodeList</code></td>
+      <td>601</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PnpRepairWindowsProtectedDriver</code></td>
+      <td>249</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupAddMiniIconToList</code></td>
+      <td>602</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupAppendPath</code></td>
+      <td>604</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pSetupAddTagToGroupOrderListEntry</code></td>
+      <td>603</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PnpEnumDrpFile</code></td>
+      <td>245</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pGetDriverPackageHash</code></td>
+      <td>600</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PnpIsFileAclIntact</code></td>
+      <td>246</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PnpIsFilePnpDriver</code></td>
+      <td>248</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PnpIsFileContentIntact</code></td>
+      <td>247</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Unregister_Device_InterfaceW</code></td>
+      <td>223</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Unregister_Device_InterfaceA</code></td>
+      <td>222</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Write_UserPowerKey</code></td>
+      <td>226</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CMP_GetServerSideDeviceInstallFlags</code></td>
+      <td>2</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CMP_GetBlockedDriverInfo</code></td>
+      <td>1</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Uninstall_DevNode</code></td>
+      <td>220</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Test_Range_Available</code></td>
+      <td>219</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Uninstall_DevNode_Ex</code></td>
+      <td>221</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Unregister_Device_Interface_ExW</code></td>
+      <td>225</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CM_Unregister_Device_Interface_ExA</code></td>
+      <td>224</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CMP_Init_Detection</code></td>
+      <td>3</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DriverStoreDeleteDriverPackageA</code></td>
+      <td>230</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DriverStoreAddDriverPackageW</code></td>
+      <td>229</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DriverStoreDeleteDriverPackageW</code></td>
+      <td>231</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DriverStoreEnumDriverPackageW</code></td>
+      <td>233</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DriverStoreEnumDriverPackageA</code></td>
+      <td>232</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CMP_WaitNoPendingInstallEvents</code></td>
+      <td>5</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CMP_Report_LogOn</code></td>
+      <td>4</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">CMP_WaitServicesAvailable</code></td>
+      <td>6</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DriverStoreAddDriverPackageA</code></td>
+      <td>228</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DoesUserHavePrivilege</code></td>
+      <td>227</td>
+      <td>Exported Function</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">3300000266BD1580EFA75CD6D3000000000266</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">A4341B9FD50FB9964283220A36A1EF6F6FAA7840</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: SETUPAPI.DLL</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.19041.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.19041.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 32-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/66</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/d6ea01758bbf399176aa36047b8438758a96b82f1e9cb1e5643fda798982c78a/detection/</li>
+</ul>
+
+<h2 id="file-similarity-ssdeep-match">File Similarity (ssdeep match)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/xcyclopedia/library/setupapi.dll-D98CE37BF09893DE26E0662B4C388E50.html">C:\Windows\system32\setupapi.dll</a></td>
+      <td>61</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">setupapi.dll</code> being misused. While <code class="language-plaintext highlighter-rouge">setupapi.dll</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Setupapi.yml">Setupapi.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Name: Setupapi.dll</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Setupapi.yml">Setupapi.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: rundll32.exe setupapi.dll,InstallHinfSection DefaultInstall 128 C:\Tools\shady.inf</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Setupapi.yml">Setupapi.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: rundll32.exe setupapi.dll,InstallHinfSection DefaultInstall 128 C:\\Tools\\calc_exe.inf</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Setupapi.yml">Setupapi.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: c:\windows\system32\setupapi.dll</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Setupapi.yml">Setupapi.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: c:\windows\syswow64\setupapi.dll</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #6: Rundll32 setupapi.dll Execution [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- Atomic Test #6: Rundll32 setupapi.dll Execution [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.011/T1218.011.md">T1218.011.md</a></td>
+      <td>- <a href="#atomic-test-6---rundll32-setupapidll-execution">Atomic Test #6 - Rundll32 setupapi.dll Execution</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.011/T1218.011.md">T1218.011.md</a></td>
+      <td>## Atomic Test #6 - Rundll32 setupapi.dll Execution</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.011/T1218.011.md">T1218.011.md</a></td>
+      <td>Test execution of a command using rundll32.exe with setupapi.dll. Upon execution, a windows saying “installation failed” will be opened</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.011/T1218.011.md">T1218.011.md</a></td>
+      <td>Reference: https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Setupapi.yml</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.011/T1218.011.md">T1218.011.md</a></td>
+      <td>rundll32.exe setupapi.dll,InstallHinfSection DefaultInstall 128 .#{inf_to_execute}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

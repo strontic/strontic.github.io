@@ -1,0 +1,540 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>psftp.exe | Command-line interactive SFTP client &#124; STRONTIC</title>
+<meta name="description" content="What is psftp.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="psftp.exe | Command-line interactive SFTP client">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/psftp.exe-0B7562BA4692D92C553D034477863DB2.html">
+
+
+  <meta property="og:description" content="What is psftp.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="psftp.exe | Command-line interactive SFTP client">
+  <meta name="twitter:description" content="What is psftp.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/psftp.exe-0B7562BA4692D92C553D034477863DB2.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/psftp.exe-0B7562BA4692D92C553D034477863DB2.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">psftp.exe | Command-line interactive SFTP client</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            psftp.exe      Command-line interactive SFTP client      ">
+    <meta itemprop="description" content="What is psftp.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="psftpexe">psftp.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Program Files\PuTTY\psftp.exe</code></li>
+  <li>Description: Command-line interactive SFTP client</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">0B7562BA4692D92C553D034477863DB2</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">ED18FE77DCF3CD512F448A0865D7368B1CDC1DF5</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">04991D8689840DA842A38CF47A184908D679C85120ED642633112840428008DB</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">806F41B87AEA4B7A04F0BCF5E8B9B225245CF5315B887F777890A08746A88FE8A3FB959A302C113ECA4F2EAB87040462</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">B55F1DDA7FB2E610909BCFAB1007BBCFB0CDD99E87CD47360B1CB3458B07A0406C7579FB6C9A1B9F78B06005B3FB1C93D3E07D502375151B09343FCCD3B7BA10</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">12288:3RqFQ6UPONcezHgNcGpRrQIf+62sX4NZs1YzY4K:0FQ6UqzAyKg62ZNZs1YW</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">470AD2D172B4461A335182DF8B98A31A</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">9626A0C11400D33EF11F6AF6C22E18186E476B7F</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">80288B7E9DCCC759F69A8D4B9CF9B2E921957662B317DA14235DD657A26CE67F</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">PuTTY</span> <span class="ni">Secure</span> <span class="ni">File</span> <span class="ni">Transfer</span> <span class="p">(</span><span class="ni">SFTP</span><span class="p">)</span> <span class="ni">client</span>
+<span class="ni">Release</span> <span class="m">0</span><span class="err">.</span><span class="m">74</span>
+<span class="ni">Usage</span><span class="err">:</span> <span class="ni">psftp</span> <span class="err">[</span><span class="ni">options</span><span class="err">]</span> <span class="err">[</span><span class="ni">user</span><span class="err">@]</span><span class="ni">host</span>
+<span class="ni">Options</span><span class="err">:</span>
+  <span class="err">-V</span>        <span class="ni">print</span> <span class="ni">version</span> <span class="ni">information</span> <span class="ni">and</span> <span class="ni">exit</span>
+  <span class="err">-</span><span class="ni">pgpfp</span>    <span class="ni">print</span> <span class="ni">PGP</span> <span class="ni">key</span> <span class="ni">fingerprints</span> <span class="ni">and</span> <span class="ni">exit</span>
+  <span class="err">-b</span> <span class="ni">file</span>   <span class="ni">use</span> <span class="ni">specified</span> <span class="ni">batchfile</span>
+  <span class="err">-</span><span class="ni">bc</span>       <span class="ni">output</span> <span class="ni">batchfile</span> <span class="ni">commands</span>
+  <span class="err">-</span><span class="ni">be</span>       <span class="ni">don</span><span class="err">'t</span> <span class="ni">stop</span> <span class="ni">batchfile</span> <span class="ni">processing</span> <span class="ni">if</span> <span class="ni">errors</span>
+  <span class="err">-v</span>        <span class="ni">show</span> <span class="ni">verbose</span> <span class="ni">messages</span>
+  <span class="err">-</span><span class="ni">load</span> <span class="ni">sessname</span>  <span class="ni">Load</span> <span class="ni">settings</span> <span class="ni">from</span> <span class="ni">saved</span> <span class="ni">session</span>
+  <span class="err">-l</span> <span class="ni">user</span>   <span class="ni">connect</span> <span class="ni">with</span> <span class="ni">specified</span> <span class="ni">username</span>
+  <span class="err">-P</span> <span class="ni">port</span>   <span class="ni">connect</span> <span class="ni">to</span> <span class="ni">specified</span> <span class="ni">port</span>
+  <span class="err">-</span><span class="ni">pw</span> <span class="ni">passw</span> <span class="ni">login</span> <span class="ni">with</span> <span class="ni">specified</span> <span class="ni">password</span>
+  <span class="err">-</span><span class="m">1</span> <span class="err">-</span><span class="m">2</span>     <span class="ni">force</span> <span class="ni">use</span> <span class="ni">of</span> <span class="ni">particular</span> <span class="ni">SSH</span> <span class="ni">protocol</span> <span class="ni">version</span>
+  <span class="err">-</span><span class="m">4</span> <span class="err">-</span><span class="m">6</span>     <span class="ni">force</span> <span class="ni">use</span> <span class="ni">of</span> <span class="ni">IPv4</span> <span class="ni">or</span> <span class="ni">IPv6</span>
+  <span class="err">-C</span>        <span class="ni">enable</span> <span class="ni">compression</span>
+  <span class="err">-i</span> <span class="ni">key</span>    <span class="ni">private</span> <span class="ni">key</span> <span class="ni">file</span> <span class="ni">for</span> <span class="ni">user</span> <span class="ni">authentication</span>
+  <span class="err">-</span><span class="ni">noagent</span>  <span class="ni">disable</span> <span class="ni">use</span> <span class="ni">of</span> <span class="ni">Pageant</span>
+  <span class="err">-</span><span class="ni">agent</span>    <span class="ni">enable</span> <span class="ni">use</span> <span class="ni">of</span> <span class="ni">Pageant</span>
+  <span class="err">-</span><span class="ni">hostkey</span> <span class="kd">aa:bb:cc:</span><span class="err">...</span>
+            <span class="ni">manually</span> <span class="ni">specify</span> <span class="err">a</span> <span class="ni">host</span> <span class="ni">key</span> <span class="p">(</span><span class="ni">may</span> <span class="ni">be</span> <span class="ni">repeated</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">batch</span>    <span class="ni">disable</span> <span class="ni">all</span> <span class="ni">interactive</span> <span class="ni">prompts</span>
+  <span class="err">-</span><span class="ni">no</span><span class="err">-</span><span class="ni">sanitise</span><span class="err">-</span><span class="ni">stderr</span>  <span class="ni">don</span><span class="err">'t</span> <span class="ni">strip</span> <span class="ni">control</span> <span class="ni">chars</span> <span class="ni">from</span> <span class="ni">standard</span> <span class="ni">error</span>
+  <span class="err">-</span><span class="ni">proxycmd</span> <span class="ni">command</span>
+            <span class="ni">use</span> <span class="err">'</span><span class="ni">command</span><span class="err">'</span> <span class="ni">as</span> <span class="ni">local</span> <span class="ni">proxy</span>
+  <span class="err">-</span><span class="ni">sshlog</span> <span class="ni">file</span>
+  <span class="err">-</span><span class="ni">sshrawlog</span> <span class="ni">file</span>
+            <span class="ni">log</span> <span class="ni">protocol</span> <span class="ni">details</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">file</span>
+
+</code></pre></div></div>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">psftp:</span> <span class="ni">unknown</span> <span class="ni">option</span> <span class="s">"-help"</span>
+       <span class="ni">try</span> <span class="ni">typing</span> <span class="s">"psftp -h"</span> <span class="ni">for</span> <span class="ni">help</span>
+
+</code></pre></div></div>
+
+<h3 id="child-processes">Child Processes:</h3>
+<p>conhost.exe</p>
+
+<h3 id="open-handles">Open Handles:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>(RW-)   C:\Users\user\Documents</td>
+      <td>File</td>
+    </tr>
+    <tr>
+      <td>\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0</td>
+      <td>Section</td>
+    </tr>
+    <tr>
+      <td>\BaseNamedObjects\NLS_CodePage_437_3_2_0_0</td>
+      <td>Section</td>
+    </tr>
+    <tr>
+      <td>\Sessions\1\BaseNamedObjects\windows_shell_global_counters</td>
+      <td>Section</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Program Files\PuTTY\psftp.exe</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNEL32.DLL</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNELBASE.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">7C1118CBBADC95DA3752C46E47A27438</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">5B9E273CF11941FD8C6BE3F038C4797BBE884268</code></li>
+  <li>Issuer: CN=COMODO RSA Code Signing CA, O=COMODO CA Limited, L=Salford, S=Greater Manchester, C=GB</li>
+  <li>Subject: CN=Simon Tatham, O=Simon Tatham, L=Cambridge, S=Cambridgeshire, C=GB</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: PSFTP</li>
+  <li>Product Name: PuTTY suite</li>
+  <li>Company Name: Simon Tatham</li>
+  <li>File Version: Release 0.74</li>
+  <li>Product Version: Release 0.74</li>
+  <li>Language: English (United Kingdom)</li>
+  <li>Legal Copyright: Copyright  1997-2020 Simon Tatham.</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/71</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/04991d8689840da842a38cf47a184908d679c85120ed642633112840428008db/detection/</li>
+</ul>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

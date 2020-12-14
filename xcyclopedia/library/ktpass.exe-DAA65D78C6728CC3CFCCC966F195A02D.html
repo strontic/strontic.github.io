@@ -1,0 +1,692 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>ktpass.exe | Kerberos keytab tool &#124; STRONTIC</title>
+<meta name="description" content="What is ktpass.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="ktpass.exe | Kerberos keytab tool">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/ktpass.exe-DAA65D78C6728CC3CFCCC966F195A02D.html">
+
+
+  <meta property="og:description" content="What is ktpass.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="ktpass.exe | Kerberos keytab tool">
+  <meta name="twitter:description" content="What is ktpass.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/ktpass.exe-DAA65D78C6728CC3CFCCC966F195A02D.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/ktpass.exe-DAA65D78C6728CC3CFCCC966F195A02D.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">ktpass.exe | Kerberos keytab tool</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            ktpass.exe      Kerberos keytab tool      ">
+    <meta itemprop="description" content="What is ktpass.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="ktpassexe">ktpass.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\SysWOW64\ktpass.exe</code></li>
+  <li>Description: Kerberos keytab tool</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">DAA65D78C6728CC3CFCCC966F195A02D</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">534EF57DF649229E1633F0B91AC7F97E79A425D8</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">48B30EAFC82DC388DFE5BBD55C26C863FC3EC53ABEF16B2B8BB42BC7AD471885</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">5D93B853E7586D72831859D96CBE69F8A5FC617BB592AE3DA1F2186782C50B261A12DFAABCA50CDA1B688E346EABA29C</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">FC1AD93270F72E36FD06E6811E8335AD06EB4ED85C0BCA64232540A9DF3409C61B514936843C6D06513A176F6E1759D601DCA17747BF3644D7A732F2E38BD7D9</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">1536:gRYcEn5C+md8bsCBjaQCQ1zITn9Gu/DD4:zvCHi1f0T9Gu/</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">6B4DAF16B8CA0A105FADE9AD3A440777</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">F4F064B1528D3CAA4381F41E219CB36618C727A8</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">04E5700505CD7F20F481B59D383535C4A889D024C9CFACF545BBFA4209ABDFD5</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">unknown</span> <span class="ni">option</span> <span class="err">'--</span><span class="ni">help</span><span class="err">'.</span>
+<span class="ni">Command</span> <span class="ni">line</span> <span class="kd">options:</span>
+
+<span class="err">---------------------</span><span class="ni">most</span> <span class="ni">useful</span> <span class="ni">args</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>          <span class="ni">out</span> <span class="err">:</span> <span class="ni">Keytab</span> <span class="ni">to</span> <span class="ni">produce</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>        <span class="ni">princ</span> <span class="err">:</span> <span class="ni">Principal</span> <span class="ni">name</span> <span class="p">(</span><span class="ni">user</span><span class="err">@</span><span class="ni">REALM</span><span class="p">)</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>         <span class="ni">pass</span> <span class="err">:</span> <span class="ni">password</span> <span class="ni">to</span> <span class="ni">use</span>
+                     <span class="ni">use</span> <span class="err">'*'</span> <span class="ni">to</span> <span class="ni">prompt</span> <span class="ni">for</span> <span class="ni">password</span><span class="err">.</span>
+<span class="err">[-</span> <span class="err">+]</span>      <span class="ni">rndPass</span> <span class="err">:</span> <span class="err">...</span> <span class="ni">or</span> <span class="ni">use</span> <span class="err">+</span><span class="ni">rndPass</span> <span class="ni">to</span> <span class="ni">generate</span> <span class="err">a</span> <span class="ni">random</span> <span class="ni">password</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>      <span class="ni">minPass</span> <span class="err">:</span> <span class="ni">minimum</span> <span class="ni">length</span> <span class="ni">for</span> <span class="ni">random</span> <span class="ni">password</span> <span class="p">(</span><span class="kd">def:</span><span class="m">15</span><span class="p">)</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>      <span class="ni">maxPass</span> <span class="err">:</span> <span class="ni">maximum</span> <span class="ni">length</span> <span class="ni">for</span> <span class="ni">random</span> <span class="ni">password</span> <span class="p">(</span><span class="kd">def:</span><span class="m">256</span><span class="p">)</span>
+<span class="err">---------------------</span><span class="ni">less</span> <span class="ni">useful</span> <span class="ni">stuff</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>      <span class="ni">mapuser</span> <span class="err">:</span> <span class="ni">map</span> <span class="ni">princ</span> <span class="p">(</span><span class="ni">above</span><span class="p">)</span> <span class="ni">to</span> <span class="ni">this</span> <span class="ni">user</span> <span class="ni">account</span> <span class="p">(</span><span class="kd">default:</span> <span class="ni">don</span><span class="err">'t</span><span class="p">)</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>        <span class="ni">mapOp</span> <span class="err">:</span> <span class="ni">how</span> <span class="ni">to</span> <span class="ni">set</span> <span class="ni">the</span> <span class="ni">mapping</span> <span class="ni">attribute</span> <span class="p">(</span><span class="kd">default:</span> <span class="ni">add</span> <span class="ni">it</span><span class="p">)</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>        <span class="ni">mapOp</span> <span class="err">:</span>  <span class="ni">is</span> <span class="ni">one</span> <span class="kd">of:</span> 
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>        <span class="ni">mapOp</span> <span class="err">:</span>        <span class="ni">add</span> <span class="err">:</span> <span class="ni">add</span> <span class="ni">value</span> <span class="p">(</span><span class="ni">default</span><span class="p">)</span> 
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>        <span class="ni">mapOp</span> <span class="err">:</span>        <span class="ni">set</span> <span class="err">:</span> <span class="ni">set</span> <span class="ni">value</span> 
+<span class="err">[-</span> <span class="err">+]</span>      <span class="ni">DesOnly</span> <span class="err">:</span> <span class="ni">Set</span> <span class="ni">account</span> <span class="ni">for</span> <span class="ni">des</span><span class="err">-</span><span class="ni">only</span> <span class="ni">encryption</span> <span class="p">(</span><span class="kd">default:</span><span class="ni">don</span><span class="err">'t</span><span class="p">)</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>           <span class="ni">in</span> <span class="err">:</span> <span class="ni">Keytab</span> <span class="ni">to</span> <span class="ni">read</span><span class="p">/</span><span class="ni">digest</span>
+<span class="err">---------------------</span><span class="ni">options</span> <span class="ni">for</span> <span class="ni">key</span> <span class="ni">generation</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>       <span class="ni">crypto</span> <span class="err">:</span> <span class="ni">Cryptosystem</span> <span class="ni">to</span> <span class="ni">use</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>       <span class="ni">crypto</span> <span class="err">:</span>  <span class="ni">is</span> <span class="ni">one</span> <span class="kd">of:</span> 
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>       <span class="ni">crypto</span> <span class="err">:</span> <span class="ni">DES</span><span class="err">-</span><span class="ni">CBC</span><span class="err">-</span><span class="ni">CRC</span> <span class="err">:</span> <span class="ni">for</span> <span class="ni">compatibility</span> 
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>       <span class="ni">crypto</span> <span class="err">:</span> <span class="ni">DES</span><span class="err">-</span><span class="ni">CBC</span><span class="err">-</span><span class="ni">MD5</span> <span class="err">:</span> <span class="ni">for</span> <span class="ni">compatibility</span> 
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>       <span class="ni">crypto</span> <span class="err">:</span> <span class="ni">RC4</span><span class="err">-</span><span class="ni">HMAC</span><span class="err">-</span><span class="ni">NT</span> <span class="err">:</span> <span class="ni">default</span> <span class="m">128</span><span class="err">-</span><span class="ni">bit</span> <span class="ni">encryption</span> 
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>       <span class="ni">crypto</span> <span class="err">:</span> <span class="ni">AES256</span><span class="err">-</span><span class="ni">SHA1</span> <span class="err">:</span> <span class="ni">AES256</span><span class="err">-</span><span class="ni">CTS</span><span class="err">-</span><span class="ni">HMAC</span><span class="err">-</span><span class="ni">SHA1</span><span class="err">-</span><span class="m">96</span> 
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>       <span class="ni">crypto</span> <span class="err">:</span> <span class="ni">AES128</span><span class="err">-</span><span class="ni">SHA1</span> <span class="err">:</span> <span class="ni">AES128</span><span class="err">-</span><span class="ni">CTS</span><span class="err">-</span><span class="ni">HMAC</span><span class="err">-</span><span class="ni">SHA1</span><span class="err">-</span><span class="m">96</span> 
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>       <span class="ni">crypto</span> <span class="err">:</span>        <span class="ni">All</span> <span class="err">:</span> <span class="ni">All</span> <span class="ni">supported</span> <span class="ni">types</span> 
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>    <span class="ni">IterCount</span> <span class="err">:</span> <span class="ni">Iteration</span> <span class="ni">Count</span> <span class="ni">used</span> <span class="ni">for</span> <span class="ni">AES</span> <span class="ni">encryption</span>
+                     <span class="ni">Default</span><span class="err">:</span> <span class="ni">ignored</span> <span class="ni">for</span> <span class="ni">non</span><span class="err">-</span><span class="ni">AES</span><span class="p">,</span> <span class="m">4096</span> <span class="ni">for</span> <span class="ni">AES</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>        <span class="ni">ptype</span> <span class="err">:</span> <span class="ni">principal</span> <span class="ni">type</span> <span class="ni">in</span> <span class="ni">question</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>        <span class="ni">ptype</span> <span class="err">:</span>  <span class="ni">is</span> <span class="ni">one</span> <span class="kd">of:</span> 
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>        <span class="ni">ptype</span> <span class="err">:</span> <span class="ni">KRB5_NT_PRINCIPAL</span> <span class="err">:</span> <span class="ni">The</span> <span class="ni">general</span> <span class="ni">ptype</span><span class="err">--</span> <span class="ni">recommended</span> 
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>        <span class="ni">ptype</span> <span class="err">:</span> <span class="ni">KRB5_NT_SRV_INST</span> <span class="err">:</span> <span class="ni">user</span> <span class="ni">service</span> <span class="ni">instance</span> 
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>        <span class="ni">ptype</span> <span class="err">:</span> <span class="ni">KRB5_NT_SRV_HST</span> <span class="err">:</span> <span class="ni">host</span> <span class="ni">service</span> <span class="ni">instance</span> 
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>        <span class="ni">ptype</span> <span class="err">:</span> <span class="ni">KRB5_NT_SRV_XHST</span> <span class="err">:</span>   
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>         <span class="ni">kvno</span> <span class="err">:</span> <span class="ni">Override</span> <span class="ni">Key</span> <span class="ni">Version</span> <span class="ni">Number</span>
+                     <span class="ni">Default</span><span class="err">:</span> <span class="ni">query</span> <span class="ni">DC</span> <span class="ni">for</span> <span class="ni">kvno</span><span class="err">.</span> <span class="ni">Use</span> <span class="p">/</span><span class="ni">kvno</span> <span class="m">1</span> <span class="ni">for</span> <span class="ni">Win2K</span> <span class="ni">compat</span><span class="err">.</span>
+<span class="err">[-</span> <span class="err">+]</span>       <span class="ni">Answer</span> <span class="err">:</span> <span class="err">+</span><span class="ni">Answer</span> <span class="ni">answers</span> <span class="ni">YES</span> <span class="ni">to</span> <span class="ni">prompts</span><span class="err">.</span> <span class="err">-</span><span class="ni">Answer</span> <span class="ni">answers</span> <span class="ni">NO</span><span class="err">.</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>       <span class="ni">Target</span> <span class="err">:</span> <span class="ni">Which</span> <span class="ni">DC</span> <span class="ni">to</span> <span class="ni">use</span><span class="err">.</span> <span class="ni">Default</span><span class="err">:</span><span class="ni">detect</span>
+<span class="err">[-</span> <span class="p">/</span><span class="err">]</span>      <span class="ni">RawSalt</span> <span class="err">:</span> <span class="ni">raw</span> <span class="ni">salt</span> <span class="ni">to</span> <span class="ni">use</span> <span class="ni">when</span> <span class="ni">generating</span> <span class="ni">key</span> <span class="p">(</span><span class="ni">not</span> <span class="ni">needed</span><span class="p">)</span>
+<span class="err">[-</span> <span class="err">+]</span>     <span class="ni">DumpSalt</span> <span class="err">:</span> <span class="ni">show</span> <span class="ni">us</span> <span class="ni">the</span> <span class="ni">MIT</span> <span class="ni">salt</span> <span class="ni">being</span> <span class="ni">used</span> <span class="ni">to</span> <span class="ni">generate</span> <span class="ni">the</span> <span class="ni">key</span>
+<span class="err">[-</span> <span class="err">+]</span>       <span class="ni">SetUpn</span> <span class="err">:</span> <span class="ni">Set</span> <span class="ni">the</span> <span class="ni">UPN</span> <span class="ni">in</span> <span class="ni">addition</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">SPN</span><span class="err">.</span> <span class="ni">Default</span> <span class="ni">DO</span><span class="err">.</span>
+<span class="err">[-</span> <span class="err">+]</span>      <span class="ni">SetPass</span> <span class="err">:</span> <span class="ni">Set</span> <span class="ni">the</span> <span class="ni">user</span><span class="err">'s</span> <span class="ni">password</span> <span class="ni">if</span> <span class="ni">supplied</span><span class="err">.</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64cpu.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64win.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SysWOW64\ktpass.exe</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">3300000266BD1580EFA75CD6D3000000000266</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">A4341B9FD50FB9964283220A36A1EF6F6FAA7840</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: ktpass.exe</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.17763.652 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.17763.652</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 32-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/73</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/48b30eafc82dc388dfe5bbd55c26c863fc3ec53abef16b2b8bb42bc7ad471885/detection/</li>
+</ul>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="ktpass">ktpass</h2>
+
+<blockquote>
+  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
+</blockquote>
+
+<p>Configures the server principal name for the host or service in Active Directory Domain Services (AD DS) and generates a .keytab file that contains the shared secret key of the service. The .keytab file is based on the Massachusetts Institute of Technology (MIT) implementation of the Kerberos authentication protocol. The ktpass command-line tool allows non-Windows services that support Kerberos authentication to use the interoperability features provided by the Kerberos Key Distribution Center (KDC) service.</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ktpass
+[/out &lt;filename&gt;]
+[/princ &lt;principalname&gt;]
+[/mapuser &lt;useraccount&gt;]
+[/mapop {add|set}] [{-|+}desonly] [/in &lt;filename&gt;]
+[/pass {password|*|{-|+}rndpass}]
+[/minpass]
+[/maxpass]
+[/crypto {DES-CBC-CRC|DES-CBC-MD5|RC4-HMAC-NT|AES256-SHA1|AES128-SHA1|All}]
+[/itercount]
+[/ptype {KRB5_NT_PRINCIPAL|KRB5_NT_SRV_INST|KRB5_NT_SRV_HST}]
+[/kvno &lt;keyversionnum&gt;]
+[/answer {-|+}]
+[/target]
+[/rawsalt] [{-|+}dumpsalt] [{-|+}setupn] [{-|+}setpass &lt;password&gt;]  [/?|/h|/help]
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/out <code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></td>
+      <td>Specifies the name of the Kerberos version 5 .keytab file to generate. <strong>Note:</strong> This is the .keytab file you transfer to a computer that isn’t running the Windows operating system, and then replace or merge with your existing .keytab file, <em>/Etc/Krb5.keytab</em>.</td>
+    </tr>
+    <tr>
+      <td>/princ <code class="language-plaintext highlighter-rouge">&lt;principalname&gt;</code></td>
+      <td>Specifies the principal name in the form host/computer.contoso.com@CONTOSO.COM. <strong>Warning:</strong> This parameter is case-sensitive.</td>
+    </tr>
+    <tr>
+      <td>/mapuser <code class="language-plaintext highlighter-rouge">&lt;useraccount&gt;</code></td>
+      <td>Maps the name of the Kerberos principal, which is specified by the <strong>princ</strong> parameter, to the specified domain account.</td>
+    </tr>
+    <tr>
+      <td>/mapop <code class="language-plaintext highlighter-rouge">{add|set}</code></td>
+      <td>Specifies how the mapping attribute is set.&lt;ul&gt;&lt;li&gt;<strong>Add</strong> - Adds the value of the specified local user name. This is the default.&lt;/li&gt;&lt;li&gt;<strong>Set</strong> - Sets the value for Data Encryption Standard (DES)-only encryption for the specified local user name.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">{-|+}</code>desonly</td>
+      <td>DES-only encryption is set by default.&lt;ul&gt;&lt;li&gt;<strong>+</strong> Sets an account for DES-only encryption.&lt;/li&gt;&lt;li&gt;<strong>-</strong> Releases restriction on an account for DES-only encryption. <strong>Important:</strong> Windows doesn’t support DES by default.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/in <code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></td>
+      <td>Specifies the .keytab file to read from a host computer that is not running the Windows operating system.</td>
+    </tr>
+    <tr>
+      <td>/pass <code class="language-plaintext highlighter-rouge">{password|*|{-|+}rndpass}</code></td>
+      <td>Specifies a password for the principal user name that is specified by the <strong>princ</strong> parameter. Use <code class="language-plaintext highlighter-rouge">*</code> to prompt for a password.</td>
+    </tr>
+    <tr>
+      <td>/minpass</td>
+      <td>Sets the minimum length of the random password to 15 characters.</td>
+    </tr>
+    <tr>
+      <td>/maxpass</td>
+      <td>Sets the maximum length of the random password to 256 characters.</td>
+    </tr>
+    <tr>
+      <td>/crypto <code class="language-plaintext highlighter-rouge">{DES-CBC-CRC|DES-CBC-MD5|RC4-HMAC-NT|AES256-SHA1|AES128-SHA1|All}</code></td>
+      <td>Specifies the keys that are generated in the keytab file:&lt;ul&gt;&lt;li&gt;<strong>DES-CBC-CRC</strong> - Used for compatibility.&lt;/li&gt;&lt;li&gt;<strong>DES-CBC-MD5</strong> - Adheres more closely to the MIT implementation and is used for compatibility.&lt;/li&gt;&lt;li&gt;<strong>RC4-HMAC-NT</strong> - Employs 128-bit encryption.&lt;/li&gt;&lt;li&gt;<strong>AES256-SHA1</strong> - Employs AES256-CTS-HMAC-SHA1-96 encryption.&lt;/li&gt;&lt;li&gt;   <strong>AES128-SHA1</strong> - Employs AES128-CTS-HMAC-SHA1-96 encryption.&lt;/li&gt;&lt;li&gt;<strong>All</strong> - States that all supported cryptographic types can be used.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;<strong>Note:</strong> Because the default settings are based on older MIT versions, you should always use the <code class="language-plaintext highlighter-rouge">/crypto</code> parameter.</td>
+    </tr>
+    <tr>
+      <td>/itercount</td>
+      <td>Specifies the iteration count that is used for AES encryption. The default ignores <strong>itercount</strong> for non-AES encryption and sets AES encryption to 4,096.</td>
+    </tr>
+    <tr>
+      <td>/ptype <code class="language-plaintext highlighter-rouge">{KRB5_NT_PRINCIPAL|KRB5_NT_SRV_INST|KRB5_NT_SRV_HST}</code></td>
+      <td>Specifies the principal type.&lt;ul&gt;&lt;li&gt;<strong>KRB5_NT_PRINCIPAL</strong> - The general principal type (recommended).&lt;/li&gt;&lt;li&gt;<strong>KRB5_NT_SRV_INST</strong> - The user service instance&lt;/li&gt;&lt;li&gt;  <strong>KRB5_NT_SRV_HST</strong> - The host service instance&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/kvno <code class="language-plaintext highlighter-rouge">&lt;keyversionnum&gt;</code></td>
+      <td>Specifies the key version number. The default value is 1.</td>
+    </tr>
+    <tr>
+      <td>/answer <code class="language-plaintext highlighter-rouge">{-|+}</code></td>
+      <td>Sets the background answer mode:&lt;ul&gt;&lt;li&gt;<strong>-</strong> Answers reset password prompts automatically with <strong>NO</strong>.&lt;/li&gt;&lt;li&gt;<strong>+</strong> Answers reset password prompts automatically with <strong>YES</strong>.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/target</td>
+      <td>Sets which domain controller to use. The default is for the domain controller to be detected, based on the principal name. If the domain controller name doesn’t resolve, a dialog box will prompt for a valid domain controller.</td>
+    </tr>
+    <tr>
+      <td>/rawsalt</td>
+      <td>forces ktpass to use the rawsalt algorithm when generating the key. This parameter is optional.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">{-|+}dumpsalt</code></td>
+      <td>The output of this parameter shows the MIT salt algorithm that is being used to generate the key.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">{-|+}setupn</code></td>
+      <td>Sets the user principal name (UPN) in addition to the service principal name (SPN). The default is to set both in the .keytab file.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">{-|+}setpass &lt;password&gt;</code></td>
+      <td>Sets the user’s password when supplied. If rndpass is used, a random password is generated instead.</td>
+    </tr>
+    <tr>
+      <td>/?</td>
+      <td>Displays Help for this command.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="remarks">Remarks</h5>
+
+<ul>
+  <li>
+    <p>Services running on systems that aren’t running the Windows operating system can be configured with service instance accounts in AD DS. This allows any Kerberos client to authenticate to services that are not running the Windows operating system by using Windows KDCs.</p>
+  </li>
+  <li>
+    <p>The <strong>/princ</strong> parameter isn’t evaluated by ktpass and is used as provided. There’s no check to see if the parameter matches the exact case of the <strong>userPrincipalName</strong> attribute value when generating the Keytab file. Case-sensitive Kerberos distributions using this Keytab file might have problems if there’s no exact case match, and could even fail during pre-authentication. To check and retrieve the correct <strong>userPrincipalName</strong> attribute value from a LDifDE export file. For example:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ldifde /f keytab_user.ldf /d CN=Keytab User,OU=UserAccounts,DC=contoso,DC=corp,DC=microsoft,DC=com /p base /l samaccountname,userprincipalname
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h4 id="examples">Examples</h4>
+
+<p>To create a Kerberos .keytab file for a host computer that isn’t running the Windows operating system, you must map the principal to the account and set the host principal password.</p>
+
+<ol>
+  <li>
+    <p>Use the active directory <strong>User and computers</strong> snap-in to create a user account for a service on a computer that is not running the Windows operating system. For example, create an account with the name <em>User1</em>.</p>
+  </li>
+  <li>
+    <p>Use the <strong>ktpass</strong> command to set up an identity mapping for the user account by typing:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ktpass /princ host/User1.contoso.com@CONTOSO.COM /mapuser User1 /pass MyPas$w0rd /out machine.keytab /crypto all /ptype KRB5_NT_PRINCIPAL /mapop set
+</code></pre></div>    </div>
+
+    <blockquote>
+      <p>[!NOTE]
+You cannot map multiple service instances to the same user account.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>Merge the .keytab file with the <em>/Etc/Krb5.keytab</em> file on a host computer that isn’t running the Windows operating system.</p>
+  </li>
+</ol>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

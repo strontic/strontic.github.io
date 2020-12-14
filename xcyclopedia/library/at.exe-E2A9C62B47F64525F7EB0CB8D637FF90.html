@@ -1,0 +1,830 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>at.exe | Schedule service command line interface &#124; STRONTIC</title>
+<meta name="description" content="What is at.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="at.exe | Schedule service command line interface">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/at.exe-E2A9C62B47F64525F7EB0CB8D637FF90.html">
+
+
+  <meta property="og:description" content="What is at.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="at.exe | Schedule service command line interface">
+  <meta name="twitter:description" content="What is at.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/at.exe-E2A9C62B47F64525F7EB0CB8D637FF90.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/at.exe-E2A9C62B47F64525F7EB0CB8D637FF90.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">at.exe | Schedule service command line interface</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            at.exe      Schedule service command line interface      ">
+    <meta itemprop="description" content="What is at.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="atexe">at.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\WINDOWS\system32\at.exe</code></li>
+  <li>Description: Schedule service command line interface</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">E2A9C62B47F64525F7EB0CB8D637FF90</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">82897C9427D84261E578DE8B3DC89ABBA51D218B</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">3375D519FB68BC608AB444D5A367DF55F3B2353AF9BE3E88462F08006FB846BC</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">59D85696370D204747A0A2A679F4A44F6A422B06C5473DD6707A7F3D9745DCB92D973EDDB821ABB954E08FACD2387FBE</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">06226759E7841D0631C5F74817AF675862004DF72DBF71B75824C93B2BF5853AD45A1D53C155AF9D5566C09C4B0E12DE14AB04CFA0C9AAFE5AD4B11BEBA16E33</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">384:TEFmkSTH3NBvyGi8JOewh8y6vl7LShugR4iZspBJvYA7v3WxwW2:TEFvgH9BvvJHwKftmt4iqBJvj7m</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">The</span> <span class="ni">AT</span> <span class="ni">command</span> <span class="ni">has</span> <span class="ni">been</span> <span class="ni">deprecated</span><span class="err">.</span> <span class="ni">Please</span> <span class="ni">use</span> <span class="ni">schtasks</span><span class="err">.</span><span class="ni">exe</span> <span class="ni">instead</span><span class="err">.</span>
+
+<span class="ni">Invalid</span> <span class="ni">command</span><span class="err">.</span>
+
+<span class="ni">The</span> <span class="ni">AT</span> <span class="ni">command</span> <span class="ni">schedules</span> <span class="ni">commands</span> <span class="ni">and</span> <span class="ni">programs</span> <span class="ni">to</span> <span class="ni">run</span> <span class="ni">on</span> <span class="err">a</span> <span class="ni">computer</span> <span class="ni">at</span>      
+<span class="err">a</span> <span class="ni">specified</span> <span class="ni">time</span> <span class="ni">and</span> <span class="ni">date</span><span class="err">.</span> <span class="ni">The</span> <span class="ni">Schedule</span> <span class="ni">service</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">running</span> <span class="ni">to</span> <span class="ni">use</span>      
+<span class="ni">the</span> <span class="ni">AT</span> <span class="ni">command</span><span class="err">.</span>
+                                                           
+<span class="ni">AT</span> <span class="err">[\\</span><span class="ni">computername</span><span class="err">]</span> <span class="err">[</span> <span class="err">[</span><span class="ni">id</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="ni">DELETE</span><span class="err">]</span> <span class="err">|</span> <span class="p">/</span><span class="ni">DELETE</span> <span class="err">[</span><span class="p">/</span><span class="ni">YES</span><span class="err">]]</span>                    
+<span class="ni">AT</span> <span class="err">[\\</span><span class="ni">computername</span><span class="err">]</span> <span class="ni">time</span> <span class="err">[</span><span class="p">/</span><span class="ni">INTERACTIVE</span><span class="err">]</span>
+    <span class="err">[</span> <span class="p">/</span><span class="ni">EVERY</span><span class="err">:</span><span class="ni">date</span><span class="err">[</span><span class="p">,</span><span class="err">...]</span> <span class="err">|</span> <span class="p">/</span><span class="ni">NEXT</span><span class="err">:</span><span class="ni">date</span><span class="err">[</span><span class="p">,</span><span class="err">...]]</span> <span class="s">"command"</span>
+
+<span class="err">\\</span><span class="ni">computername</span>     <span class="ni">Specifies</span> <span class="err">a</span> <span class="ni">remote</span> <span class="ni">computer</span><span class="err">.</span> <span class="ni">Commands</span> <span class="ni">are</span> <span class="ni">scheduled</span> <span class="ni">on</span> <span class="ni">the</span>
+                   <span class="ni">local</span> <span class="ni">computer</span> <span class="ni">if</span> <span class="ni">this</span> <span class="ni">parameter</span> <span class="ni">is</span> <span class="ni">omitted</span><span class="err">.</span>             
+<span class="ni">id</span>                 <span class="ni">Is</span> <span class="ni">an</span> <span class="ni">identification</span> <span class="ni">number</span> <span class="ni">assigned</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">scheduled</span>      
+                   <span class="ni">command</span><span class="err">.</span>                                                 
+<span class="p">/</span><span class="ni">delete</span>            <span class="ni">Cancels</span> <span class="err">a</span> <span class="ni">scheduled</span> <span class="ni">command</span><span class="err">.</span> <span class="ni">If</span> <span class="ni">id</span> <span class="ni">is</span> <span class="ni">omitted</span><span class="p">,</span> <span class="ni">all</span> <span class="ni">the</span>
+                   <span class="ni">scheduled</span> <span class="ni">commands</span> <span class="ni">on</span> <span class="ni">the</span> <span class="ni">computer</span> <span class="ni">are</span> <span class="ni">canceled</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">yes</span>               <span class="ni">Used</span> <span class="ni">with</span> <span class="ni">cancel</span> <span class="ni">all</span> <span class="ni">jobs</span> <span class="ni">command</span> <span class="ni">when</span> <span class="ni">no</span> <span class="ni">further</span>
+                   <span class="ni">confirmation</span> <span class="ni">is</span> <span class="ni">desired</span><span class="err">.</span>
+<span class="ni">time</span>               <span class="ni">Specifies</span> <span class="ni">the</span> <span class="ni">time</span> <span class="ni">when</span> <span class="ni">command</span> <span class="ni">is</span> <span class="ni">to</span> <span class="ni">run</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">interactive</span>       <span class="ni">Allows</span> <span class="ni">the</span> <span class="ni">job</span> <span class="ni">to</span> <span class="ni">interact</span> <span class="ni">with</span> <span class="ni">the</span> <span class="ni">desktop</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">user</span>   
+                   <span class="ni">who</span> <span class="ni">is</span> <span class="ni">logged</span> <span class="ni">on</span> <span class="ni">at</span> <span class="ni">the</span> <span class="ni">time</span> <span class="ni">the</span> <span class="ni">job</span> <span class="ni">runs</span><span class="err">.</span>
+<span class="p">/</span><span class="kd">every:</span><span class="ni">date</span><span class="err">[</span><span class="p">,</span><span class="err">...]</span>  <span class="ni">Runs</span> <span class="ni">the</span> <span class="ni">command</span> <span class="ni">on</span> <span class="ni">each</span> <span class="ni">specified</span> <span class="ni">day</span><span class="p">(</span><span class="err">s</span><span class="p">)</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">week</span> <span class="ni">or</span>
+                   <span class="ni">month</span><span class="err">.</span> <span class="ni">If</span> <span class="ni">date</span> <span class="ni">is</span> <span class="ni">omitted</span><span class="p">,</span> <span class="ni">the</span> <span class="ni">current</span> <span class="ni">day</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">month</span>
+                   <span class="ni">is</span> <span class="ni">assumed</span><span class="err">.</span>                                              
+<span class="p">/</span><span class="kd">next:</span><span class="ni">date</span><span class="err">[</span><span class="p">,</span><span class="err">...]</span>   <span class="ni">Runs</span> <span class="ni">the</span> <span class="ni">specified</span> <span class="ni">command</span> <span class="ni">on</span> <span class="ni">the</span> <span class="ni">next</span> <span class="ni">occurrence</span> <span class="ni">of</span> <span class="ni">the</span>
+                   <span class="ni">day</span> <span class="p">(</span><span class="ni">for</span> <span class="ni">example</span><span class="p">,</span> <span class="ni">next</span> <span class="ni">Thursday</span><span class="p">)</span><span class="err">.</span>  <span class="ni">If</span> <span class="ni">date</span> <span class="ni">is</span> <span class="ni">omitted</span><span class="p">,</span> <span class="ni">the</span>
+                   <span class="ni">current</span> <span class="ni">day</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">month</span> <span class="ni">is</span> <span class="ni">assumed</span><span class="err">.</span>
+<span class="s">"command"</span>          <span class="ni">Is</span> <span class="ni">the</span> <span class="ni">Windows</span> <span class="ni">NT</span> <span class="ni">command</span><span class="p">,</span> <span class="ni">or</span> <span class="ni">batch</span> <span class="ni">program</span> <span class="ni">to</span> <span class="ni">be</span> <span class="ni">run</span><span class="err">.</span>
+
+
+</code></pre></div></div>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">3300000266BD1580EFA75CD6D3000000000266</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">A4341B9FD50FB9964283220A36A1EF6F6FAA7840</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: AT.EXE.MUI</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.18362.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.18362.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+</ul>
+
+<h2 id="file-similarity-ssdeep-match">File Similarity (ssdeep match)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/xcyclopedia/library/at.exe-E7FC6E9DF9F175B7FCA6434655AA1C3A.html">C:\WINDOWS\SysWOW64\at.exe</a></td>
+      <td>30</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">at.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">at.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/network/zeek/zeek_smb_converted_win_atsvc_task.yml">zeek_smb_converted_win_atsvc_task.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects remote task creation via at.exe or API interacting with ATSVC namedpipe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_atsvc_task.yml">win_atsvc_task.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects remote task creation via at.exe or API interacting with ATSVC namedpipe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_interactive_at.yml">win_interactive_at.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\at.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_interactive_at.yml">win_interactive_at.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Unlikely (at.exe deprecated as of Windows 8)</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml">win_multiple_suspicious_cli.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- at.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml">At.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Name: At.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml">At.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: C:\Windows\System32\at.exe at 09:00 /interactive /every:m,t,w,th,f,s,su C:\Windows\System32\revshell.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml">At.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: C:\WINDOWS\System32\At.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml">At.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: C:\WINDOWS\SysWOW64\At.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml">At.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Link: https://www.secureworks.com/blog/where-you-at-indicators-of-lateral-movement-using-at-exe-on-windows-7-systems</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #1: At.exe Scheduled task [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- Atomic Test #1: At.exe Scheduled task [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md">T1053.002.md</a></td>
+      <td>&lt;blockquote&gt;Adversaries may abuse the <code>at.exe</code> utility to perform task scheduling for initial or recurring execution of malicious code. The <a href="https://attack.mitre.org/software/S0110">at</a> utility exists as an executable within Windows for scheduling tasks at a specified time and date. Using <a href="https://attack.mitre.org/software/S0110">at</a> requires that the Task Scheduler service be running, and the user to be logged on as a member of the local Administrators group.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md">T1053.002.md</a></td>
+      <td>An adversary may use <code>at.exe</code> in Windows environments to execute programs at system startup or on a scheduled basis for persistence. <a href="https://attack.mitre.org/software/S0110">at</a> can also be abused to conduct remote Execution as part of Lateral Movement and or to run a process under the context of a specified account (such as SYSTEM).</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md">T1053.002.md</a></td>
+      <td>Note: The <code>at.exe</code> command line utility has been deprecated in current versions of Windows in favor of <code>schtasks</code>.&lt;/blockquote&gt;</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md">T1053.002.md</a></td>
+      <td>- <a href="#atomic-test-1---atexe-scheduled-task">Atomic Test #1 - At.exe Scheduled task</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md">T1053.002.md</a></td>
+      <td>## Atomic Test #1 - At.exe Scheduled task</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.002/T1053.002.md">T1053.002.md</a></td>
+      <td>Upon successful execution, cmd.exe will spawn at.exe and create a scheduled task that will spawn cmd at a specific time.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md">T1053.005.md</a></td>
+      <td>The deprecated <a href="https://attack.mitre.org/software/S0110">at</a> utility could also be abused by adversaries (ex: <a href="https://attack.mitre.org/techniques/T1053/002">At (Windows)</a>), though <code>at.exe</code> can not access tasks created with <code>schtasks</code> or the Control Panel.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="at">at</h2>
+
+<blockquote>
+  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
+</blockquote>
+
+<p>Schedules commands and programs to run on a computer at a specified time and date. You can use <strong>at</strong> only when the Schedule service is running. Used without parameters, <strong>at</strong> lists scheduled commands. You must be a member of the local Administrators group to run this command.</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>at [\computername] [[id] [/delete] | /delete [/yes]]
+at [\computername] &lt;time&gt; [/interactive] [/every:date[,...] | /next:date[,...]] &lt;command&gt;
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">\&lt;computername\&gt;</code></td>
+      <td>Specifies a remote computer. If you omit this parameter, <strong>at</strong> schedules the commands and programs on the local computer.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;id&gt;</code></td>
+      <td>Specifies the identification number assigned to a scheduled command.</td>
+    </tr>
+    <tr>
+      <td>/delete</td>
+      <td>Cancels a scheduled command. If you omit <em>ID</em>, all of the scheduled commands on the computer are canceled.</td>
+    </tr>
+    <tr>
+      <td>/yes</td>
+      <td>Answers yes to all queries from the system when you delete scheduled events.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;time&gt;</code></td>
+      <td>Specifies the time when you want to run the command. time is expressed as Hours:Minutes in 24-hour notation (that is, 00:00 (midnight) through 23:59).</td>
+    </tr>
+    <tr>
+      <td>interactive</td>
+      <td>Allows <em>command</em> to interact with the desktop of the user who is logged on at the time <em>Command</em> runs.</td>
+    </tr>
+    <tr>
+      <td>every:</td>
+      <td>Runs <em>command</em> on every specified day or days of the week or month (for example, every Thursday, or the third day of every month).</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;date&gt;</code></td>
+      <td>Specifies the date when you want to run the command. You can specify one or more days of the week (that is, type <strong>M</strong>,<strong>T</strong>,<strong>W</strong>,<strong>Th</strong>,<strong>F</strong>,<strong>S</strong>,<strong>Su</strong>) or one or more days of the month (that is, type 1 through 31). Separate multiple date entries with commas. If you omit <em>date</em>, <strong>at</strong> uses the current day of the month.</td>
+    </tr>
+    <tr>
+      <td>next:</td>
+      <td>Runs <em>command</em>  on the next occurrence of the day (for example, next Thursday).</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;command&gt;</code></td>
+      <td>Specifies the Windows command, program (that is, .exe or .com file), or batch program (that is, .bat or .cmd file) that you want to run. When the command requires a path as an argument, use the absolute path (that is, the entire path beginning with the drive letter). If the command is on a remote computer, specify Universal Naming Convention (UNC) notation for the server and share name, rather than a remote drive letter.</td>
+    </tr>
+    <tr>
+      <td>/?</td>
+      <td>Displays help at the command prompt.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="remarks">Remarks</h4>
+
+<ul>
+  <li>
+    <p>This command doesn’t automatically load cmd.exe before running commands. If you’re not running an executable (.exe) file, you must explicitly load cmd.exe at the beginning of the command as follows:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  cmd /c dir &gt; c:\test.out
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>If using this command without command-line options, scheduled tasks appear in a table formatted similar to the following:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Status  ID   Day        time        Command Line
+  OK      1    Each F     4:30 PM     net send group leads status due
+  OK      2    Each M     12:00 AM    chkstor &gt; check.file
+  OK      3    Each F     11:59 PM    backup2.bat
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>If including an identification number (<em>ID</em>) with this command, only information for a single entry appears in a format similar to the following:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Task ID: 1
+  Status: OK
+  Schedule: Each  F
+  Time of Day: 4:30 PM
+  Command: net send group leads status due
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>After you schedule a command, especially a command that has command-line options, check that the command syntax is correct by typing <strong>at</strong> without any command-line options. If the information in the <strong>Command Line</strong> column is wrong, delete the command and retype it. If it’s still incorrect, retype the command using fewer command-line options.</p>
+  </li>
+  <li>
+    <p>Commands scheduled with <strong>at</strong> run as background processes. Output is not displayed on the computer screen. To redirect output to a file, use the redirection symbol <code class="language-plaintext highlighter-rouge">&gt;</code>. If you redirect output to a file, you need to use the escape symbol <code class="language-plaintext highlighter-rouge">^</code> before the redirection symbol, whether you are using <strong>at</strong> at the command line or in a batch file. For example, to redirect output to <em>output.txt</em>, type:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  at 14:45 c:\test.bat ^&gt;c:\output.txt
+</code></pre></div>    </div>
+
+    <p>The current directory for the executing command is the systemroot folder.</p>
+  </li>
+  <li>
+    <p>If you change the system time after you schedule a command to run, synchronize the <strong>at</strong> scheduler with the revised system time by typing <strong>at</strong> without command-line options.</p>
+  </li>
+  <li>
+    <p>Scheduled commands are stored in the registry. As a result, you don’t lose scheduled tasks if you restart the Schedule service.</p>
+  </li>
+  <li>
+    <p>Do not use a redirected drive for scheduled jobs that access the network. The Schedule service might not be able to access the redirected drive, or the redirected drive might not be present if a different user is logged on at the time the scheduled task runs. Instead, use UNC paths for scheduled jobs. For example:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  at 1:00pm my_backup \\server\share
+</code></pre></div>    </div>
+
+    <p>Do not use the following syntax, where <strong>x:</strong> is a connection made by the user:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  at 1:00pm my_backup x:
+</code></pre></div>    </div>
+
+    <p>If you schedule an <strong>at</strong> command that uses a drive letter to connect to a shared directory, include an <strong>at</strong> command to disconnect the drive when you are finished using the drive. If the drive is not disconnected, the assigned drive letter won’t be available at the command prompt.</p>
+  </li>
+  <li>
+    <p>By default, tasks scheduled using this command will stop after 72 hours. You can modify the registry to change this default value.</p>
+
+    <p><strong>To modify the registry</strong></p>
+
+    <blockquote>
+      <p>[!Caution]
+Incorrectly editing the registry may severely damage your system. Before making changes to the registry, you should back up any valued data on the computer.</p>
+    </blockquote>
+
+    <ol>
+      <li>
+        <p>Start the registry editor (regedit.exe).</p>
+      </li>
+      <li>
+        <p>Locate and click the following key in the registry: <code class="language-plaintext highlighter-rouge">HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Schedule</code></p>
+      </li>
+      <li>
+        <p>On the <strong>Edit</strong> menu, click <strong>Add Value</strong>, and then add the following registry values:</p>
+
+        <ul>
+          <li>
+            <p><strong>Value Name.</strong> atTaskMaxHours</p>
+          </li>
+          <li>
+            <p><strong>Data type.</strong> reg_DWOrd</p>
+          </li>
+          <li>
+            <p><strong>Radix.</strong> Decimal</p>
+          </li>
+          <li>
+            <p><strong>Value Data:</strong> 0. A value of <strong>0</strong> in the <strong>Value Data</strong> field indicates no limit and doesn’t not stop. Values from 1 through 99 indicates the number of hours.</p>
+          </li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>You can use the Scheduled Tasks folder to view or modify the settings of a task that was created by using this command. When you schedule a task using this command, the task is listed in the Scheduled Tasks folder, with a name such as the following:<strong>at3478</strong>. However, if you modify a task through the Scheduled Tasks folder, it’s upgraded to a normal scheduled task. The task is no longer visible to the <strong>at</strong> command, and the at account setting no longer applies to it. You must explicitly enter a user account and password for the task.</p>
+  </li>
+</ul>
+
+<h3 id="examples">Examples</h3>
+
+<p>To display a list of commands scheduled on the Marketing server, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>at \\marketing
+</code></pre></div></div>
+
+<p>To learn more about a command with the identification number 3 on the Corp server, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>at \\corp 3
+</code></pre></div></div>
+
+<p>To schedule a net share command to run on the Corp server at 8:00 A.M. and redirect the listing to the Maintenance server, in the Reports shared directory, and the Corp.txt file, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>at \\corp 08:00 cmd /c net share reports=d:\marketing\reports &gt;&gt; \\maintenance\reports\corp.txt
+</code></pre></div></div>
+
+<p>To back up the hard drive of the Marketing server to a tape drive at midnight every five days, create a batch program called Archive.cmd, which contains the backup commands, and then schedule the batch program to run, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>at \\marketing 00:00 /every:5,10,15,20,25,30 archive
+</code></pre></div></div>
+
+<p>To cancel all commands scheduled on the current server, clear the <strong>at</strong> schedule information as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>at /delete
+</code></pre></div></div>
+
+<p>To run a command that is not an executable (.exe) file, precede the command with <strong>cmd /c</strong> to load cmd.exe as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cmd /c dir &gt; c:\test.out
+</code></pre></div></div>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li>
+    <p><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/schtasks.md">schtasks</a>. Another command-line scheduling tool.</p>
+  </li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

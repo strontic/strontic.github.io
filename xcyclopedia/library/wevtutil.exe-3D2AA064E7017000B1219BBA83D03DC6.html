@@ -1,0 +1,910 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>wevtutil.exe | Eventing Command Line Utility &#124; STRONTIC</title>
+<meta name="description" content="What is wevtutil.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="wevtutil.exe | Eventing Command Line Utility">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/wevtutil.exe-3D2AA064E7017000B1219BBA83D03DC6.html">
+
+
+  <meta property="og:description" content="What is wevtutil.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="wevtutil.exe | Eventing Command Line Utility">
+  <meta name="twitter:description" content="What is wevtutil.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/wevtutil.exe-3D2AA064E7017000B1219BBA83D03DC6.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/wevtutil.exe-3D2AA064E7017000B1219BBA83D03DC6.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">wevtutil.exe | Eventing Command Line Utility</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            wevtutil.exe      Eventing Command Line Utility      ">
+    <meta itemprop="description" content="What is wevtutil.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="wevtutilexe">wevtutil.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\system32\wevtutil.exe</code></li>
+  <li>Description: Eventing Command Line Utility</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">3D2AA064E7017000B1219BBA83D03DC6</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">B8CD8BE1CD2D5F4C0F60F217D517454BDB3EB43E</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">CCFFE548D686EB10FD825171D9C6D1C20AA59E639130AC8A9098776369E77B99</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">B64263574BFB651EEB2B38184E80ED86A2EEACCCEC5D56BF4BE1E28B98654438D1DA25C5EDB1F073619001923D47A0C3</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">83C2779F0E36B4342D06C22028F188C41D043E66E179E0CF71E02AFDFAB68F85BFAD49F0976C00D15E43390AAC0CD26EE2AC440E7C48691C8F4D385213F8F37A</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">6144:KPdbXe7TVkB6MxYDjHtSVH4keBbGLRtE:KPdbO7mRijcVm6dt</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">05EF63632ADCBF76EE5EE8705934B349</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">C407AE78981B2D3C24E8E1CBC7F9B97380D2FA23</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">FBDB0D6D74B0AAC621169625B908082FFF2DB4CEEBF8D57CD6C4D193C75BEE62</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">Windows</span> <span class="ni">Events</span> <span class="ni">Command</span> <span class="ni">Line</span> <span class="ni">Utility</span><span class="err">.</span>
+
+<span class="ni">Enables</span> <span class="ni">you</span> <span class="ni">to</span> <span class="ni">retrieve</span> <span class="ni">information</span> <span class="ni">about</span> <span class="ni">event</span> <span class="ni">logs</span> <span class="ni">and</span> <span class="ni">publishers</span><span class="p">,</span> <span class="ni">install</span>
+<span class="ni">and</span> <span class="ni">uninstall</span> <span class="ni">event</span> <span class="ni">manifests</span><span class="p">,</span> <span class="ni">run</span> <span class="ni">queries</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">export</span><span class="p">,</span> <span class="ni">archive</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">clear</span> <span class="ni">logs</span><span class="err">.</span>
+
+<span class="ni">Usage</span><span class="err">:</span>
+
+<span class="ni">You</span> <span class="ni">can</span> <span class="ni">use</span> <span class="ni">either</span> <span class="ni">the</span> <span class="ni">short</span> <span class="p">(</span><span class="ni">for</span> <span class="ni">example</span><span class="p">,</span> <span class="ni">ep</span> <span class="p">/</span><span class="ni">uni</span><span class="p">)</span> <span class="ni">or</span> <span class="ni">long</span> <span class="p">(</span><span class="ni">for</span> <span class="ni">example</span><span class="p">,</span> 
+<span class="ni">enum</span><span class="err">-</span><span class="ni">publishers</span> <span class="p">/</span><span class="ni">unicode</span><span class="p">)</span> <span class="ni">version</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">command</span> <span class="ni">and</span> <span class="ni">option</span> <span class="ni">names</span><span class="err">.</span> <span class="ni">Commands</span><span class="p">,</span> 
+<span class="ni">options</span> <span class="ni">and</span> <span class="ni">option</span> <span class="ni">values</span> <span class="ni">are</span> <span class="ni">not</span> <span class="ni">case</span><span class="err">-</span><span class="ni">sensitive</span><span class="err">.</span>
+
+<span class="ni">Variables</span> <span class="ni">are</span> <span class="ni">noted</span> <span class="ni">in</span> <span class="ni">all</span> <span class="ni">upper</span><span class="err">-</span><span class="ni">case</span><span class="err">.</span>
+
+<span class="ni">wevtutil</span> <span class="ni">COMMAND</span> <span class="err">[</span><span class="ni">ARGUMENT</span> <span class="err">[</span><span class="ni">ARGUMENT</span><span class="err">]</span> <span class="err">...]</span> <span class="err">[</span><span class="p">/</span><span class="ni">OPTION</span><span class="err">:</span><span class="ni">VALUE</span> <span class="err">[</span><span class="p">/</span><span class="ni">OPTION</span><span class="err">:</span><span class="ni">VALUE</span><span class="err">]</span> <span class="err">...]</span>
+
+<span class="ni">Commands</span><span class="err">:</span>
+
+<span class="ni">el</span> <span class="err">|</span> <span class="ni">enum</span><span class="err">-</span><span class="ni">logs</span>          <span class="ni">List</span> <span class="ni">log</span> <span class="ni">names</span><span class="err">.</span>
+<span class="ni">gl</span> <span class="err">|</span> <span class="ni">get</span><span class="err">-</span><span class="ni">log</span>            <span class="ni">Get</span> <span class="ni">log</span> <span class="ni">configuration</span> <span class="ni">information</span><span class="err">.</span>
+<span class="ni">sl</span> <span class="err">|</span> <span class="ni">set</span><span class="err">-</span><span class="ni">log</span>            <span class="ni">Modify</span> <span class="ni">configuration</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">log</span><span class="err">.</span>
+<span class="ni">ep</span> <span class="err">|</span> <span class="ni">enum</span><span class="err">-</span><span class="ni">publishers</span>    <span class="ni">List</span> <span class="ni">event</span> <span class="ni">publishers</span><span class="err">.</span>
+<span class="ni">gp</span> <span class="err">|</span> <span class="ni">get</span><span class="err">-</span><span class="ni">publisher</span>      <span class="ni">Get</span> <span class="ni">publisher</span> <span class="ni">configuration</span> <span class="ni">information</span><span class="err">.</span>
+<span class="ni">im</span> <span class="err">|</span> <span class="ni">install</span><span class="err">-</span><span class="ni">manifest</span>   <span class="ni">Install</span> <span class="ni">event</span> <span class="ni">publishers</span> <span class="ni">and</span> <span class="ni">logs</span> <span class="ni">from</span> <span class="ni">manifest</span><span class="err">.</span>
+<span class="ni">um</span> <span class="err">|</span> <span class="ni">uninstall</span><span class="err">-</span><span class="ni">manifest</span> <span class="ni">Uninstall</span> <span class="ni">event</span> <span class="ni">publishers</span> <span class="ni">and</span> <span class="ni">logs</span> <span class="ni">from</span> <span class="ni">manifest</span><span class="err">.</span>
+<span class="ni">qe</span> <span class="err">|</span> <span class="ni">query</span><span class="err">-</span><span class="ni">events</span>       <span class="ni">Query</span> <span class="ni">events</span> <span class="ni">from</span> <span class="err">a</span> <span class="ni">log</span> <span class="ni">or</span> <span class="ni">log</span> <span class="ni">file</span><span class="err">.</span>
+<span class="ni">gli</span> <span class="err">|</span> <span class="ni">get</span><span class="err">-</span><span class="ni">log</span><span class="err">-</span><span class="ni">info</span>      <span class="ni">Get</span> <span class="ni">log</span> <span class="ni">status</span> <span class="ni">information</span><span class="err">.</span>
+<span class="ni">epl</span> <span class="err">|</span> <span class="ni">export</span><span class="err">-</span><span class="ni">log</span>        <span class="ni">Export</span> <span class="err">a</span> <span class="ni">log</span><span class="err">.</span>
+<span class="ni">al</span> <span class="err">|</span> <span class="ni">archive</span><span class="err">-</span><span class="ni">log</span>        <span class="ni">Archive</span> <span class="ni">an</span> <span class="ni">exported</span> <span class="ni">log</span><span class="err">.</span>
+<span class="ni">cl</span> <span class="err">|</span> <span class="ni">clear</span><span class="err">-</span><span class="ni">log</span>          <span class="ni">Clear</span> <span class="err">a</span> <span class="ni">log</span><span class="err">.</span>
+
+<span class="ni">Common</span> <span class="kd">options:</span>
+
+<span class="p">/</span><span class="err">{r</span> <span class="err">|</span> <span class="ni">remote</span><span class="err">}:</span><span class="ni">VALUE</span>
+<span class="ni">If</span> <span class="ni">specified</span><span class="p">,</span> <span class="ni">run</span> <span class="ni">the</span> <span class="ni">command</span> <span class="ni">on</span> <span class="err">a</span> <span class="ni">remote</span> <span class="ni">computer</span><span class="err">.</span> <span class="ni">VALUE</span> <span class="ni">is</span> <span class="ni">the</span> <span class="ni">remote</span> <span class="ni">computer</span> 
+<span class="ni">name</span><span class="err">.</span> <span class="ni">Options</span> <span class="p">/</span><span class="ni">im</span> <span class="ni">and</span> <span class="p">/</span><span class="ni">um</span> <span class="ni">do</span> <span class="ni">not</span> <span class="ni">support</span> <span class="ni">remote</span> <span class="ni">operations</span><span class="err">.</span>
+
+<span class="p">/</span><span class="err">{u</span> <span class="err">|</span> <span class="ni">username</span><span class="err">}:</span><span class="ni">VALUE</span>
+<span class="ni">Specify</span> <span class="err">a</span> <span class="ni">different</span> <span class="ni">user</span> <span class="ni">to</span> <span class="ni">log</span> <span class="ni">on</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">remote</span> <span class="ni">computer</span><span class="err">.</span> <span class="ni">VALUE</span> <span class="ni">is</span> <span class="err">a</span> <span class="ni">user</span> <span class="ni">name</span>
+<span class="ni">in</span> <span class="ni">the</span> <span class="ni">form</span> <span class="ni">domain</span><span class="err">\</span><span class="ni">user</span> <span class="ni">or</span> <span class="ni">user</span><span class="err">.</span> <span class="ni">Only</span> <span class="ni">applicable</span> <span class="ni">when</span> <span class="ni">option</span> <span class="p">/</span><span class="err">r</span> <span class="ni">is</span> <span class="ni">specified</span><span class="err">.</span>
+
+<span class="p">/</span><span class="err">{p</span> <span class="err">|</span> <span class="ni">password</span><span class="err">}:</span><span class="ni">VALUE</span>
+<span class="ni">Password</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">specified</span> <span class="ni">user</span><span class="err">.</span> <span class="ni">If</span> <span class="ni">not</span> <span class="ni">specified</span><span class="p">,</span> <span class="ni">or</span> <span class="ni">if</span> <span class="ni">VALUE</span> <span class="ni">is</span> <span class="s">"*"</span><span class="p">,</span> <span class="ni">the</span> <span class="ni">user</span> 
+<span class="ni">will</span> <span class="ni">be</span> <span class="ni">prompted</span> <span class="ni">to</span> <span class="ni">enter</span> <span class="err">a</span> <span class="ni">password</span><span class="err">.</span> <span class="ni">Only</span> <span class="ni">applicable</span> <span class="ni">when</span> <span class="ni">the</span> <span class="p">/</span><span class="err">u</span> <span class="ni">option</span> <span class="ni">is</span>
+<span class="ni">specified</span><span class="err">.</span>
+
+<span class="p">/</span><span class="err">{a</span> <span class="err">|</span> <span class="ni">authentication</span><span class="err">}:[</span><span class="ni">Default</span><span class="err">|</span><span class="ni">Negotiate</span><span class="err">|</span><span class="ni">Kerberos</span><span class="err">|</span><span class="ni">NTLM</span><span class="err">]</span>
+<span class="ni">Authentication</span> <span class="ni">type</span> <span class="ni">for</span> <span class="ni">connecting</span> <span class="ni">to</span> <span class="ni">remote</span> <span class="ni">computer</span><span class="err">.</span> <span class="ni">The</span> <span class="ni">default</span> <span class="ni">is</span> <span class="ni">Negotiate</span><span class="err">.</span>
+
+<span class="p">/</span><span class="err">{</span><span class="ni">uni</span> <span class="err">|</span> <span class="ni">unicode</span><span class="err">}:[</span><span class="ni">true</span><span class="err">|</span><span class="ni">false</span><span class="err">]</span>
+<span class="ni">Display</span> <span class="ni">output</span> <span class="ni">in</span> <span class="ni">Unicode</span><span class="err">.</span> <span class="ni">If</span> <span class="ni">true</span><span class="p">,</span> <span class="ni">then</span> <span class="ni">output</span> <span class="ni">is</span> <span class="ni">in</span> <span class="ni">Unicode</span><span class="err">.</span> 
+
+<span class="ni">To</span> <span class="ni">learn</span> <span class="ni">more</span> <span class="ni">about</span> <span class="err">a</span> <span class="ni">specific</span> <span class="ni">command</span><span class="p">,</span> <span class="ni">type</span> <span class="ni">the</span> <span class="kd">following:</span>
+
+<span class="ni">wevtutil</span> <span class="ni">COMMAND</span> <span class="p">/</span><span class="err">?</span>
+
+</code></pre></div></div>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">Command</span> <span class="ni">help</span> <span class="ni">is</span> <span class="ni">not</span> <span class="ni">supported</span><span class="err">.</span>
+<span class="ni">The</span> <span class="ni">parameter</span> <span class="ni">is</span> <span class="ni">incorrect</span><span class="err">.</span>
+
+</code></pre></div></div>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">33000001C422B2F79B793DACB20000000001C4</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">AE9C1AE54763822EEC42474983D8B635116C8452</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: wevtutil.exe.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.17763.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.17763.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/71</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/ccffe548d686eb10fd825171d9c6d1c20aa59e639130ac8a9098776369e77b99/detection/</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">wevtutil.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">wevtutil.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_susp_eventlog_cleared.yml">win_susp_eventlog_cleared.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: One of the Windows Eventlogs has been cleared. e.g. caused by "wevtutil cl" command execution</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_etw_trace_evasion.yml">win_etw_trace_evasion.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/wevtutil</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_notpetya.yml">win_malware_notpetya.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects NotPetya ransomware activity in which the extracted passwords are passed back to the main module via named pipe, the file system journal of drive C is deleted and windows eventlogs are cleared using wevtutil</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml">win_multiple_suspicious_cli.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- wevtutil.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml">win_renamed_binary.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'wevtutil.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml">win_renamed_binary.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\wevtutil.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_eventlog_clear.yml">win_susp_eventlog_clear.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">title: Suspicious Eventlog Clear or Configuration Using Wevtutil</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_eventlog_clear.yml">win_susp_eventlog_clear.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects clearing or configuration of eventlogs uwing wevtutil, powershell and wmic. Might be used by ransomwares during the attack (seen by NotPetya and others)</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_eventlog_clear.yml">win_susp_eventlog_clear.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\wevtutil.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.001/T1070.001.md">T1070.001.md</a></td>
+      <td>* <code>wevtutil cl system</code></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.001/T1070.001.md">T1070.001.md</a></td>
+      <td>* <code>wevtutil cl application</code></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.001/T1070.001.md">T1070.001.md</a></td>
+      <td>* <code>wevtutil cl security</code></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.001/T1070.001.md">T1070.001.md</a></td>
+      <td>wevtutil cl #{log_name}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_grizzlybear_uscert.yar">apt_grizzlybear_uscert.yar</a></td>
+      <td>$a = “wevtutil clear-log” ascii wide nocase</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wilted_tulip.yar">apt_wilted_tulip.yar</a></td>
+      <td>$s1 = “(‘wevtutil.exe el’) DO (call :do_clear” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wilted_tulip.yar">apt_wilted_tulip.yar</a></td>
+      <td>$s2 = “wevtutil.exe cl %1” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_nopetya_jun17.yar">crime_nopetya_jun17.yar</a></td>
+      <td>$x6 = “wevtutil cl Setup &amp; wevtutil cl System” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_recon_indicators.yar">gen_recon_indicators.yar</a></td>
+      <td>$s18 = “wevtutil cl “ ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="wevtutil">wevtutil</h2>
+
+<p>Enables you to retrieve information about event logs and publishers. You can also use this command to install and uninstall event manifests, to run queries, and to export, archive, and clear logs.</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wevtutil [{el | enum-logs}] [{gl | get-log} &lt;Logname&gt; [/f:&lt;Format&gt;]]
+[{sl | set-log} &lt;Logname&gt; [/e:&lt;Enabled&gt;] [/i:&lt;Isolation&gt;] [/lfn:&lt;Logpath&gt;] [/rt:&lt;Retention&gt;] [/ab:&lt;Auto&gt;] [/ms:&lt;MaxSize&gt;] [/l:&lt;Level&gt;] [/k:&lt;Keywords&gt;] [/ca:&lt;Channel&gt;] [/c:&lt;Config&gt;]]
+[{ep | enum-publishers}]
+[{gp | get-publisher} &lt;Publishername&gt; [/ge:&lt;Metadata&gt;] [/gm:&lt;Message&gt;] [/f:&lt;Format&gt;]] [{im | install-manifest} &lt;Manifest&gt;]
+[{um | uninstall-manifest} &lt;Manifest&gt;] [{qe | query-events} &lt;Path&gt; [/lf:&lt;Logfile&gt;] [/sq:&lt;Structquery&gt;] [/q:&lt;Query&gt;] [/bm:&lt;Bookmark&gt;] [/sbm:&lt;Savebm&gt;] [/rd:&lt;Direction&gt;] [/f:&lt;Format&gt;] [/l:&lt;Locale&gt;] [/c:&lt;Count&gt;] [/e:&lt;Element&gt;]]
+[{gli | get-loginfo} &lt;Logname&gt; [/lf:&lt;Logfile&gt;]]
+[{epl | export-log} &lt;Path&gt; &lt;Exportfile&gt; [/lf:&lt;Logfile&gt;] [/sq:&lt;Structquery&gt;] [/q:&lt;Query&gt;] [/ow:&lt;Overwrite&gt;]]
+[{al | archive-log} &lt;Logpath&gt; [/l:&lt;Locale&gt;]]
+[{cl | clear-log} &lt;Logname&gt; [/bu:&lt;Backup&gt;]] [/r:&lt;Remote&gt;] [/u:&lt;Username&gt;] [/p:&lt;Password&gt;] [/a:&lt;Auth&gt;] [/uni:&lt;Unicode&gt;]
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{el | enum-logs}</td>
+      <td>Displays the names of all logs.</td>
+    </tr>
+    <tr>
+      <td>{gl | get-log} &lt;Logname&gt; [/f:&lt;Format&gt;]</td>
+      <td>Displays configuration information for the specified log, which includes whether the log is enabled or not, the current maximum size limit of the log, and the path to the file where the log is stored.</td>
+    </tr>
+    <tr>
+      <td>{sl | set-log} &lt;Logname&gt; [/e:&lt;Enabled&gt;] [/i:&lt;Isolation&gt;] [/lfn:&lt;Logpath&gt;] [/rt:&lt;Retention&gt;] [/ab:&lt;Auto&gt;] [/ms:&lt;MaxSize&gt;] [/l:&lt;Level&gt;] [/k:&lt;Keywords&gt;] [/ca:&lt;Channel&gt;] [/c:&lt;Config&gt;]</td>
+      <td>Modifies the configuration of the specified log.</td>
+    </tr>
+    <tr>
+      <td>{ep | enum-publishers}</td>
+      <td>Displays the event publishers on the local computer.</td>
+    </tr>
+    <tr>
+      <td>{gp | get-publisher} &lt;Publishername&gt; [/ge:&lt;Metadata&gt;] [/gm:&lt;Message&gt;] [/f:&lt;Format&gt;]]</td>
+      <td>Displays the configuration information for the specified event publisher.</td>
+    </tr>
+    <tr>
+      <td>{im | install-manifest} &lt;Manifest&gt;</td>
+      <td>Installs event publishers and logs from a manifest. For more information about event manifests and using this parameter, see the Windows Event Log SDK at the Microsoft Developers Network (MSDN) Web site (<a href="../../index.yml">https://msdn.microsoft.com</a>).</td>
+    </tr>
+    <tr>
+      <td>{um | uninstall-manifest} &lt;Manifest&gt;</td>
+      <td>Uninstalls all publishers and logs from a manifest. For more information about event manifests and using this parameter, see the Windows Event Log SDK at the Microsoft Developers Network (MSDN) Web site (<a href="../../index.yml">https://msdn.microsoft.com</a>).</td>
+    </tr>
+    <tr>
+      <td>{qe | query-events} &lt;Path&gt; [/lf:&lt;Logfile&gt;] [/sq:&lt;Structquery&gt;] [/q:&lt;Query&gt;] [/bm:&lt;Bookmark&gt;] [/sbm:&lt;Savebm&gt;] [/rd:&lt;Direction&gt;] [/f:&lt;Format&gt;] [/l:&lt;Locale&gt;] [/c:&lt;Count&gt;] [/e:&lt;Element&gt;]</td>
+      <td>Reads events from an event log, from a log file, or using a structured query. By default, you provide a log name for &lt;Path&gt;. However, if you use the <strong>/lf</strong> option, then &lt;Path&gt; must be a path to a log file. If you use the <strong>/sq</strong> parameter, &lt;Path&gt; must be a path to a file that contains a structured query.</td>
+    </tr>
+    <tr>
+      <td>{gli | get-loginfo} &lt;Logname&gt; [/lf:&lt;Logfile&gt;]</td>
+      <td>Displays status information about an event log or log file. If the <strong>/lf</strong> option is used, &lt;Logname&gt; is a path to a log file. You can run <strong>wevtutil el</strong> to obtain a list of log names.</td>
+    </tr>
+    <tr>
+      <td>{epl | export-log} &lt;Path&gt; &lt;Exportfile&gt; [/lf:&lt;Logfile&gt;] [/sq:&lt;Structquery&gt;] [/q:&lt;Query&gt;] [/ow:&lt;Overwrite&gt;]</td>
+      <td>Exports events from an event log, from a log file, or using a structured query to the specified file. By default, you provide a log name for &lt;Path&gt;. However, if you use the <strong>/lf</strong> option, then &lt;Path&gt; must be a path to a log file. If you use the <strong>/sq</strong> option, &lt;Path&gt; must be a path to a file that contains a structured query. &lt;Exportfile&gt; is a path to the file where the exported events will be stored.</td>
+    </tr>
+    <tr>
+      <td>{al | archive-log} &lt;Logpath&gt; [/l:&lt;Locale&gt;]</td>
+      <td>Archives the specified log file in a self-contained format. A subdirectory with the name of the locale is created and all locale-specific information is saved in that subdirectory. After the directory and log file are created by running <strong>wevtutil al</strong>, events in the file can be read whether the publisher is installed or not.</td>
+    </tr>
+    <tr>
+      <td>{cl | clear-log} &lt;Logname&gt; [/bu:&lt;Backup&gt;]</td>
+      <td>Clears events from the specified event log. The <strong>/bu</strong> option can be used to back up the cleared events.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="options">Options</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Option</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/f:&lt;Format&gt;</td>
+      <td>Specifies that the output should be either XML or text format. If &lt;Format&gt; is XML, the output is displayed in XML format. If &lt;Format&gt; is Text, the output is displayed without XML tags. The default is Text.</td>
+    </tr>
+    <tr>
+      <td>/e:&lt;Enabled&gt;</td>
+      <td>Enables or disables a log. &lt;Enabled&gt; can be true or false.</td>
+    </tr>
+    <tr>
+      <td>/i:&lt;Isolation&gt;</td>
+      <td>Sets the log isolation mode. &lt;Isolation&gt; can be system, application or custom. The isolation mode of a log determines whether a log shares a session with other logs in the same isolation class. If you specify system isolation, the target log will share at least write permissions with the System log. If you specify application isolation, the target log will share at least write permissions with the Application log. If you specify custom isolation, you must also provide a security descriptor by using the <strong>/ca</strong> option.</td>
+    </tr>
+    <tr>
+      <td>/lfn:&lt;Logpath&gt;</td>
+      <td>Defines the log file name. &lt;Logpath&gt; is a full path to the file where the Event Log service stores events for this log.</td>
+    </tr>
+    <tr>
+      <td>/rt:&lt;Retention&gt;</td>
+      <td>Sets the log retention mode. &lt;Retention&gt; can be true or false. The log retention mode determines the behavior of the Event Log service when a log reaches its maximum size. If an event log reaches its maximum size and the log retention mode is true, existing events are retained and incoming events are discarded. If the log retention mode is false, incoming events overwrite the oldest events in the log.</td>
+    </tr>
+    <tr>
+      <td>/ab:&lt;Auto&gt;</td>
+      <td>Specifies the log auto-backup policy. &lt;Auto&gt; can be true or false. If this value is true, the log will be backed up automatically when it reaches the maximum size. If this value is true, the retention (specified with the <strong>/rt</strong> option) must also be set to true.</td>
+    </tr>
+    <tr>
+      <td>/ms:&lt;MaxSize&gt;</td>
+      <td>Sets the maximum size of the log in bytes. The minimum log size is 1048576 bytes (1024KB) and log files are always multiples of 64KB, so the value you enter will be rounded off accordingly.</td>
+    </tr>
+    <tr>
+      <td>/l:&lt;Level&gt;</td>
+      <td>Defines the level filter of the log. &lt;Level&gt; can be any valid level value. This option is only applicable to logs with a dedicated session. You can remove a level filter by setting <Level> to 0.</Level></td>
+    </tr>
+    <tr>
+      <td>/k:&lt;Keywords&gt;</td>
+      <td>Specifies the keywords filter of the log. &lt;Keywords&gt; can be any valid 64 bit keyword mask. This option is only applicable to logs with a dedicated session.</td>
+    </tr>
+    <tr>
+      <td>/ca:&lt;Channel&gt;</td>
+      <td>Sets the access permission for an event log. &lt;Channel&gt; is a security descriptor that uses the Security Descriptor Definition Language (SDDL). For more information about SDDL format, see the Microsoft Developers Network (MSDN) Web site (<a href="../../index.yml">https://msdn.microsoft.com</a>).</td>
+    </tr>
+    <tr>
+      <td>/c:&lt;Config&gt;</td>
+      <td>Specifies the path to a configuration file. This option will cause log properties to be read from the configuration file defined in &lt;Config&gt;. If you use this option, you must not specify a <Logname> parameter. The log name will be read from the configuration file.</Logname></td>
+    </tr>
+    <tr>
+      <td>/ge:&lt;Metadata&gt;</td>
+      <td>Gets metadata information for events that can be raised by this publisher. &lt;Metadata&gt; can be true or false.</td>
+    </tr>
+    <tr>
+      <td>/gm:&lt;Message&gt;</td>
+      <td>Displays the actual message instead of the numeric message ID. &lt;Message&gt; can be true or false.</td>
+    </tr>
+    <tr>
+      <td>/lf:&lt;Logfile&gt;</td>
+      <td>Specifies that the events should be read from a log or from a log file. &lt;Logfile&gt; can be true or false. If true, the parameter to the command is the path to a log file.</td>
+    </tr>
+    <tr>
+      <td>/sq:&lt;Structquery&gt;</td>
+      <td>Specifies that events should be obtained with a structured query. &lt;Structquery&gt; can be true or false. If true, <Path> is the path to a file that contains a structured query.</Path></td>
+    </tr>
+    <tr>
+      <td>/q:&lt;Query&gt;</td>
+      <td>Defines the XPath query to filter the events that are read or exported. If this option is not specified, all events will be returned or exported. This option is not available when <strong>/sq</strong> is true.</td>
+    </tr>
+    <tr>
+      <td>/bm:&lt;Bookmark&gt;</td>
+      <td>Specifies the path to a file that contains a bookmark from a previous query.</td>
+    </tr>
+    <tr>
+      <td>/sbm:&lt;Savebm&gt;</td>
+      <td>Specifies the path to a file that is used to save a bookmark of this query. The file name extension should be .xml.</td>
+    </tr>
+    <tr>
+      <td>/rd:&lt;Direction&gt;</td>
+      <td>Specifies the direction in which events are read. &lt;Direction&gt; can be true or false. If true, the most recent events are returned first.</td>
+    </tr>
+    <tr>
+      <td>/l:&lt;Locale&gt;</td>
+      <td>Defines a locale string that is used to print event text in a specific locale. Only available when printing events in text format using the <strong>/f</strong> option.</td>
+    </tr>
+    <tr>
+      <td>/c:&lt;Count&gt;</td>
+      <td>Sets the maximum number of events to read.</td>
+    </tr>
+    <tr>
+      <td>/e:&lt;Element&gt;</td>
+      <td>Includes a root element when displaying events in XML. &lt;Element&gt; is the string that you want within the root element. For example, <strong>/e:root</strong> would result in XML that contains the root element pair &lt;root&gt;&lt;/root&gt;.</td>
+    </tr>
+    <tr>
+      <td>/ow:&lt;Overwrite&gt;</td>
+      <td>Specifies that the export file should be overwritten. &lt;Overwrite&gt; can be true or false. If true, and the export file specified in <Exportfile> already exists, it will be overwritten without confirmation.</Exportfile></td>
+    </tr>
+    <tr>
+      <td>/bu:&lt;Backup&gt;</td>
+      <td>Specifies the path to a file where the cleared events will be stored. Include the .evtx extension in the name of the backup file.</td>
+    </tr>
+    <tr>
+      <td>/r:&lt;Remote&gt;</td>
+      <td>Runs the command on a remote computer. &lt;Remote&gt; is the name of the remote computer. The <strong>im</strong> and <strong>um</strong> parameters do not support remote operation.</td>
+    </tr>
+    <tr>
+      <td>/u:&lt;Username&gt;</td>
+      <td>Specifies a different user to log on to a remote computer. &lt;Username&gt; is a user name in the form domain\user or user. This option is only applicable when the <strong>/r</strong> option is specified.</td>
+    </tr>
+    <tr>
+      <td>/p:&lt;Password&gt;</td>
+      <td>Specifies the password for the user. If the <strong>/u</strong> option is used and this option is not specified or &lt;Password&gt; is <em>, the user will be prompted to enter a password. This option is only applicable when the **/u</em>* option is specified.</td>
+    </tr>
+    <tr>
+      <td>/a:&lt;Auth&gt;</td>
+      <td>Defines the authentication type for connecting to a remote computer. &lt;Auth&gt; can be Default, Negotiate, Kerberos or NTLM. The default is Negotiate.</td>
+    </tr>
+    <tr>
+      <td>/uni:&lt;Unicode&gt;</td>
+      <td>Displays the output in Unicode. &lt;Unicode&gt; can be true or false. If <Unicode> is true then the output is in Unicode.</Unicode></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="remarks">Remarks</h3>
+
+<ul>
+  <li>
+    <p>Using a configuration file with the sl parameter</p>
+
+    <p>The configuration file is an XML file with the same format as the output of wevtutil gl &lt;Logname&gt; /f:xml. To shows the format of a configuration file that enables retention, enables autobackup, and sets the maximum log size on the Application log:</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;?xml version=1.0 encoding=UTF-8?&gt;
+&lt;channel name=Application isolation=Application
+xmlns=https://schemas.microsoft.com/win/2004/08/events&gt;
+&lt;logging&gt;
+&lt;retention&gt;true&lt;/retention&gt;
+&lt;autoBackup&gt;true&lt;/autoBackup&gt;
+&lt;maxSize&gt;9000000&lt;/maxSize&gt;
+&lt;/logging&gt;
+&lt;publishing&gt;
+&lt;/publishing&gt;
+&lt;/channel&gt;
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="examples">Examples</h3>
+
+<p>List the names of all logs:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wevtutil el
+</code></pre></div></div>
+<p>Display configuration information about the System log on the local computer in XML format:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wevtutil gl System /f:xml
+</code></pre></div></div>
+<p>Use a configuration file to set event log attributes (see Remarks for an example of a configuration file):</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wevtutil sl /c:config.xml
+</code></pre></div></div>
+<p>Display information about the Microsoft-Windows-Eventlog event publisher, including metadata about the events that the publisher can raise:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wevtutil gp Microsoft-Windows-Eventlog /ge:true
+</code></pre></div></div>
+<p>Install publishers and logs from the myManifest.xml manifest file:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wevtutil im myManifest.xml
+</code></pre></div></div>
+<p>Uninstall publishers and logs from the myManifest.xml manifest file:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wevtutil um myManifest.xml
+</code></pre></div></div>
+<p>Display the three most recent events from the Application log in textual format:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wevtutil qe Application /c:3 /rd:true /f:text
+</code></pre></div></div>
+<p>Display the status of the Application log:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wevtutil gli Application
+</code></pre></div></div>
+<p>Export events from System log to C:\backup\system0506.evtx:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wevtutil epl System C:\backup\system0506.evtx
+</code></pre></div></div>
+<p>Clear all of the events from the Application log after saving them to C:\admin\backups\a10306.evtx:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wevtutil cl Application /bu:C:\admin\backups\a10306.evtx
+</code></pre></div></div>
+
+<h5 id="additional-references">Additional References</h5>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

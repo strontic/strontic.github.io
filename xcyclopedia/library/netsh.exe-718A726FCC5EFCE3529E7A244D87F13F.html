@@ -1,0 +1,1151 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>netsh.exe | Network Command Shell &#124; STRONTIC</title>
+<meta name="description" content="What is netsh.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="netsh.exe | Network Command Shell">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/netsh.exe-718A726FCC5EFCE3529E7A244D87F13F.html">
+
+
+  <meta property="og:description" content="What is netsh.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="netsh.exe | Network Command Shell">
+  <meta name="twitter:description" content="What is netsh.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/netsh.exe-718A726FCC5EFCE3529E7A244D87F13F.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/netsh.exe-718A726FCC5EFCE3529E7A244D87F13F.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">netsh.exe | Network Command Shell</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            netsh.exe      Network Command Shell      ">
+    <meta itemprop="description" content="What is netsh.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="netshexe">netsh.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\WINDOWS\SysWOW64\netsh.exe</code></li>
+  <li>Description: Network Command Shell</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">718A726FCC5EFCE3529E7A244D87F13F</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">1A8BB2F6DB96145903FB2F5BD5996C3142DC1DDE</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">E04FB93A81C7C469BA16CEFD9B5B1FC355E86465FF24EA7B9C3FAB5C52AB2F7D</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">C2C2ED932EA04DC85E15446D2CFE2AD7EC2E855A57182858F0F0DC9D9866AC8AE972AC767BD1A961CEA74049444BF7F0</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">B98565EEBD8EE5447D26349DB283672DA8078A6B057732918FDD1EC63D7B024F13405C7F81953712D558D04070DDF1DB0E8FD69650FCDD50DD8119429F93DF67</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">768:nf3D7Aw4dIfZIa0vm8mlY1FGiAZu3EQ6lj3bGcI3o4t:nf3oLsZIa0vR1pAY3JG3bGcI3</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="ni">Usage</span><span class="err">:</span> <span class="err">C:\</span><span class="ni">WINDOWS</span><span class="err">\</span><span class="ni">SysWOW64</span><span class="err">\</span><span class="ni">netsh</span><span class="err">.</span><span class="ni">exe</span> <span class="err">[-a</span> <span class="ni">AliasFile</span><span class="err">]</span> <span class="err">[-c</span> <span class="ni">Context</span><span class="err">]</span> <span class="err">[-r</span> <span class="ni">RemoteMachine</span><span class="err">]</span> <span class="err">[-u</span> <span class="err">[</span><span class="ni">DomainName</span><span class="err">\]</span><span class="ni">UserName</span><span class="err">]</span> <span class="err">[-p</span> <span class="ni">Password</span> <span class="err">|</span> <span class="err">*]</span>
+             <span class="err">[</span><span class="ni">Command</span> <span class="err">|</span> <span class="err">-f</span> <span class="ni">ScriptFile</span><span class="err">]</span>
+
+<span class="ni">The</span> <span class="ni">following</span> <span class="ni">commands</span> <span class="ni">are</span> <span class="kd">available:</span>
+
+<span class="ni">Commands</span> <span class="ni">in</span> <span class="ni">this</span> <span class="kd">context:</span>
+<span class="err">?</span>              <span class="err">-</span> <span class="ni">Displays</span> <span class="err">a</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">commands</span><span class="err">.</span>
+<span class="ni">add</span>            <span class="err">-</span> <span class="ni">Adds</span> <span class="err">a</span> <span class="ni">configuration</span> <span class="ni">entry</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">entries</span><span class="err">.</span>
+<span class="ni">advfirewall</span>    <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">advfirewall</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">branchcache</span>    <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">branchcache</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">bridge</span>         <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">bridge</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">delete</span>         <span class="err">-</span> <span class="ni">Deletes</span> <span class="err">a</span> <span class="ni">configuration</span> <span class="ni">entry</span> <span class="ni">from</span> <span class="err">a</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">entries</span><span class="err">.</span>
+<span class="ni">dhcpclient</span>     <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">dhcpclient</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">dnsclient</span>      <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">dnsclient</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">dump</span>           <span class="err">-</span> <span class="ni">Displays</span> <span class="err">a</span> <span class="ni">configuration</span> <span class="ni">script</span><span class="err">.</span>
+<span class="ni">exec</span>           <span class="err">-</span> <span class="ni">Runs</span> <span class="err">a</span> <span class="ni">script</span> <span class="ni">file</span><span class="err">.</span>
+<span class="ni">firewall</span>       <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">firewall</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">help</span>           <span class="err">-</span> <span class="ni">Displays</span> <span class="err">a</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">commands</span><span class="err">.</span>
+<span class="ni">http</span>           <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">http</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">interface</span>      <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">interface</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">ipsec</span>          <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">ipsec</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">lan</span>            <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">lan</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">namespace</span>      <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">namespace</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">netio</span>          <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">netio</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">p2p</span>            <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">p2p</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">ras</span>            <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">ras</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">rpc</span>            <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">rpc</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">set</span>            <span class="err">-</span> <span class="ni">Updates</span> <span class="ni">configuration</span> <span class="ni">settings</span><span class="err">.</span>
+<span class="ni">show</span>           <span class="err">-</span> <span class="ni">Displays</span> <span class="ni">information</span><span class="err">.</span>
+<span class="ni">wfp</span>            <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">wfp</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">winhttp</span>        <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">winhttp</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">winsock</span>        <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">winsock</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+<span class="ni">wlan</span>           <span class="err">-</span> <span class="ni">Changes</span> <span class="ni">to</span> <span class="ni">the</span> <span class="err">`</span><span class="ni">netsh</span> <span class="ni">wlan</span><span class="err">'</span> <span class="ni">context</span><span class="err">.</span>
+
+<span class="ni">The</span> <span class="ni">following</span> <span class="ni">sub</span><span class="err">-</span><span class="ni">contexts</span> <span class="ni">are</span> <span class="kd">available:</span>
+ <span class="ni">advfirewall</span> <span class="ni">branchcache</span> <span class="ni">bridge</span> <span class="ni">dhcpclient</span> <span class="ni">dnsclient</span> <span class="ni">firewall</span> <span class="ni">http</span> <span class="ni">interface</span> <span class="ni">ipsec</span> <span class="ni">lan</span> <span class="ni">namespace</span> <span class="ni">netio</span> <span class="ni">p2p</span> <span class="ni">ras</span> <span class="ni">rpc</span> <span class="ni">wfp</span> <span class="ni">winhttp</span> <span class="ni">winsock</span> <span class="ni">wlan</span>
+
+<span class="ni">To</span> <span class="ni">view</span> <span class="ni">help</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">command</span><span class="p">,</span> <span class="ni">type</span> <span class="ni">the</span> <span class="ni">command</span><span class="p">,</span> <span class="ni">followed</span> <span class="ni">by</span> <span class="err">a</span> <span class="ni">space</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">then</span>
+ <span class="ni">type</span> <span class="err">?.</span>
+
+</code></pre></div></div>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">330000023241FB59996DCC4DFF000000000232</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">FF82BC38E1DA5E596DF374C53E3617F7EDA36B06</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: netsh.exe.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.18362.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.18362.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">netsh.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">netsh.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_wocao.yml">win_apt_wocao.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'netsh advfirewall firewall add rule name=powershell dir=in'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml">win_multiple_suspicious_cli.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- netsh.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_allow_port_rdp.yml">win_netsh_allow_port_rdp.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">title: Netsh RDP Port Opening</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_allow_port_rdp.yml">win_netsh_allow_port_rdp.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects netsh commands that opens the port 3389 used for RDP, used in Sarwent Malware</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_allow_port_rdp.yml">win_netsh_allow_port_rdp.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- netsh</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_fw_add.yml">win_netsh_fw_add.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">title: Netsh Port or Application Allowed</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_fw_add.yml">win_netsh_fw_add.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*netsh*'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_fw_add_susp_image.yml">win_netsh_fw_add_susp_image.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">title: Netsh Program Allowed with Suspcious Location</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_fw_add_susp_image.yml">win_netsh_fw_add_susp_image.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects Netsh commands that allows a suspcious application location on Windows Firewall</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_fw_add_susp_image.yml">win_netsh_fw_add_susp_image.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'netsh'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_fw_add_susp_image.yml">win_netsh_fw_add_susp_image.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- netsh</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_packet_capture.yml">win_netsh_packet_capture.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">title: Capture a Network Trace with netsh.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_packet_capture.yml">win_netsh_packet_capture.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects capture a network trace via netsh.exe trace functionality</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_packet_capture.yml">win_netsh_packet_capture.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- netsh</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_packet_capture.yml">win_netsh_packet_capture.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Legitimate administrator or user uses netsh.exe trace functionality for legitimate reason</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_port_fwd.yml">win_netsh_port_fwd.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">title: Netsh Port Forwarding</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_port_fwd.yml">win_netsh_port_fwd.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects netsh commands that configure a port forwarding</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_port_fwd.yml">win_netsh_port_fwd.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- netsh interface portproxy add v4tov4 *</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_port_fwd_3389.yml">win_netsh_port_fwd_3389.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">title: Netsh RDP Port Forwarding</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_port_fwd_3389.yml">win_netsh_port_fwd_3389.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects netsh commands that configure a port forwarding of port 3389 used for RDP</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_port_fwd_3389.yml">win_netsh_port_fwd_3389.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- netsh i* p*=3389 c*</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_wifi_credential_harvesting.yml">win_netsh_wifi_credential_harvesting.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">title: Harvesting of Wifi Credentials Using netsh.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_wifi_credential_harvesting.yml">win_netsh_wifi_credential_harvesting.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detect the harvesting of wifi credentials using netsh.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_wifi_credential_harvesting.yml">win_netsh_wifi_credential_harvesting.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'netsh wlan s* p* k*=clear'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_wifi_credential_harvesting.yml">win_netsh_wifi_credential_harvesting.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Legitimate administrator or user uses netsh.exe wlan functionality for legitimate reason</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml">win_renamed_binary.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'netsh.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml">win_renamed_binary.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\netsh.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_firewall_disable.yml">win_susp_firewall_disable.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">title: Firewall Disabled via Netsh</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_firewall_disable.yml">win_susp_firewall_disable.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects netsh commands that turns off the Windows firewall</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_firewall_disable.yml">win_susp_firewall_disable.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- netsh firewall set opmode mode=disable</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_firewall_disable.yml">win_susp_firewall_disable.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- netsh advfirewall set * state off</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_netsh_dll_persistence.yml">win_susp_netsh_dll_persistence.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">title: Suspicious Netsh DLL Persistence</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_netsh_dll_persistence.yml">win_susp_netsh_dll_persistence.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects persitence via netsh helper</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_netsh_dll_persistence.yml">win_susp_netsh_dll_persistence.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\netsh.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Name: Netsh.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">netsh.exe trace start capture=yes filemode=append persistent=yes tracefile=\\server\share\file.etl IPv4.Address=!(&lt;IPofRemoteFileShare&gt;)</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">netsh.exe trace show status</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: netsh.exe add helper C:\Path\file.dll</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Description: Load (execute) NetSh.exe helper DLL file.</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: netsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=8000 connectaddress=192.168.1.1</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Name: Netsh.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Description: Netsh is a Windows tool used to manipulate network interface settings.</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: netsh.exe add helper C:\Users\User\file.dll</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Description: Use Netsh in order to execute a .dll file and also gain persistence, every time the netsh command is called</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: C:\WINDOWS\System32\Netsh.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: C:\WINDOWS\SysWOW64\Netsh.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- IOC: Netsh initiating a network connection</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/misp_invisimole.json">misp_invisimole.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"description": "Adversaries may attempt to get a listing of security software, configurations, defensive tools, and sensors that are installed on the system. This may include things such as local firewall rules and anti-virus. Adversaries may use the information from [Security Software Discovery](https://attack.mitre.org/techniques/T1063) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\n\n### Windows\n\nExample commands that can be used to obtain security software information are [netsh](https://attack.mitre.org/software/S0108), &lt;code&gt;reg query&lt;/code&gt; with [Reg](https://attack.mitre.org/software/S0075), &lt;code&gt;dir&lt;/code&gt; with [cmd](https://attack.mitre.org/software/S0106), and [Tasklist](https://attack.mitre.org/software/S0057), but other indicators of discovery behavior may be more specific to the type of software or security system the adversary is looking for.\n\n### Mac\n\nIt's becoming more common to see macOS malware perform checks for LittleSnitch and KnockKnock software.",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- <a href="../../T1546.007/T1546.007.md">T1546.007 Netsh Helper DLL</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #1: Netsh Helper DLL Registration [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- <a href="../../T1546.007/T1546.007.md">T1546.007 Netsh Helper DLL</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- Atomic Test #1: Netsh Helper DLL Registration [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
+      <td>|  |  | <a href="../../T1543.004/T1543.004.md">Launch Daemon</a> | <a href="../../T1546.007/T1546.007.md">Netsh Helper DLL</a> | Hidden File System <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |  |</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
+      <td>|  |  | <a href="../../T1546.007/T1546.007.md">Netsh Helper DLL</a> | <a href="../../T1574.009/T1574.009.md">Path Interception by Unquoted Path</a> | Impair Defenses <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |  |</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
+      <td>|  |  | <a href="../../T1136.001/T1136.001.md">Local Account</a> | <a href="../../T1546.007/T1546.007.md">Netsh Helper DLL</a> | File and Directory Permissions Modification <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Steal Web Session Cookie <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  | <a href="../../T1219/T1219.md">Remote Access Software</a> |  |</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
+      <td>|  |  | <a href="../../T1546.007/T1546.007.md">Netsh Helper DLL</a> | Path Interception <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1564.001/T1564.001.md">Hidden Files and Directories</a> | Unsecured Credentials <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  | Symmetric Cryptography <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1016/T1016.md">T1016.md</a></td>
+      <td>netsh interface show interface</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1016/T1016.md">T1016.md</a></td>
+      <td>Enumerates Windows Firewall Rules using netsh.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1016/T1016.md">T1016.md</a></td>
+      <td>Upon successful execution, cmd.exe will spawn netsh.exe to list firewall rules. Output will be via stdout.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1016/T1016.md">T1016.md</a></td>
+      <td>netsh advfirewall firewall show rule name=all</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>netsh trace start capture=yes tracefile=%temp%\trace.etl maxsize=10</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>netsh trace stop</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.001/T1090.001.md">T1090.001.md</a></td>
+      <td>Upon execution there will be a new proxy entry in netsh</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.001/T1090.001.md">T1090.001.md</a></td>
+      <td>netsh interface portproxy show all</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.001/T1090.001.md">T1090.001.md</a></td>
+      <td>netsh interface portproxy add v4tov4 listenport=#{listenport} connectport=#{connectport} connectaddress=#{connectaddress}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.001/T1090.001.md">T1090.001.md</a></td>
+      <td>netsh interface portproxy delete v4tov4 listenport=#{listenport} -ErrorAction Ignore | Out-Null</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md">T1518.001.md</a></td>
+      <td>Example commands that can be used to obtain security software information are <a href="https://attack.mitre.org/software/S0108">netsh</a>, <code>reg query</code> with <a href="https://attack.mitre.org/software/S0075">Reg</a>, <code>dir</code> with <a href="https://attack.mitre.org/software/S0106">cmd</a>, and <a href="https://attack.mitre.org/software/S0057">Tasklist</a>, but other indicators of discovery behavior may be more specific to the type of software or security system the adversary is looking for. It is becoming more common to see macOS malware perform checks for LittleSnitch and KnockKnock software.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md">T1518.001.md</a></td>
+      <td>netsh.exe advfirewall  show allprofiles</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.007/T1546.007.md">T1546.007.md</a></td>
+      <td># T1546.007 - Netsh Helper DLL</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.007/T1546.007.md">T1546.007.md</a></td>
+      <td>&lt;blockquote&gt;Adversaries may establish persistence by executing malicious content triggered by Netsh Helper DLLs. Netsh.exe (also referred to as Netshell) is a command-line scripting utility used to interact with the network configuration of a system. It contains functionality to add helper DLLs for extending functionality of the utility. (Citation: TechNet Netsh) The paths to registered netsh.exe helper DLLs are entered into the Windows Registry at <code>HKLM\SOFTWARE\Microsoft\Netsh</code>.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.007/T1546.007.md">T1546.007.md</a></td>
+      <td>Adversaries can use netsh.exe helper DLLs to trigger execution of arbitrary code in a persistent manner. This execution would take place anytime netsh.exe is executed, which could happen automatically, with another persistence technique, or if other software (ex: VPN) is present on the system that executes netsh.exe as part of its normal functionality. (Citation: Github Netsh Helper CS Beacon)(Citation: Demaske Netsh Persistence)&lt;/blockquote&gt;</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.007/T1546.007.md">T1546.007.md</a></td>
+      <td>- <a href="#atomic-test-1---netsh-helper-dll-registration">Atomic Test #1 - Netsh Helper DLL Registration</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.007/T1546.007.md">T1546.007.md</a></td>
+      <td>## Atomic Test #1 - Netsh Helper DLL Registration</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.007/T1546.007.md">T1546.007.md</a></td>
+      <td>Netsh interacts with other operating system components using dynamic-link library (DLL) files</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.007/T1546.007.md">T1546.007.md</a></td>
+      <td>netsh.exe add helper #{helper_file}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md">T1562.004.md</a></td>
+      <td>netsh advfirewall set currentprofile state off</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md">T1562.004.md</a></td>
+      <td>netsh advfirewall set currentprofile state on &gt;nul 2&gt;&amp;1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md">T1562.004.md</a></td>
+      <td>netsh advfirewall firewall set rule group=”remote desktop” new enable=Yes</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md">T1562.004.md</a></td>
+      <td>netsh advfirewall firewall set rule group=”file and printer sharing” new enable=Yes</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md">T1562.004.md</a></td>
+      <td>netsh advfirewall reset &gt;nul 2&gt;&amp;1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md">T1562.004.md</a></td>
+      <td>netsh advfirewall firewall add rule name=”atomic testing” action=allow dir=in protocol=TCP localport=450</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md">T1562.004.md</a></td>
+      <td>netsh advfirewall firewall delete rule name=”atomic testing” protocol=TCP localport=450 &gt;nul 2&gt;&amp;1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md">T1562.004.md</a></td>
+      <td>netsh advfirewall firewall add rule name=”Open Port to Any” dir=in protocol=tcp localport=#{local_port} action=allow profile=any</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md">T1562.004.md</a></td>
+      <td>netsh advfirewall firewall delete rule name=”Open Port to Any” | Out-Null</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md">T1562.004.md</a></td>
+      <td>netsh advfirewall firewall add rule name=”Atomic Test” dir=in action=allow program=”C:\Users$env:UserName\AtomicTest.exe” enable=yes</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md">T1562.004.md</a></td>
+      <td>netsh advfirewall firewall delete rule name=”Atomic Test” | Out-Null</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_ar18_165a.yar">apt_ar18_165a.yar</a></td>
+      <td>$s1 = “netsh.exe advfirewall firewall add rule name="PortOpenning" dir=in protocol=tcp localport=%d action=allow enable=yes” fullword wide</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_ar18_165a.yar">apt_ar18_165a.yar</a></td>
+      <td>$s2 = “netsh.exe firewall add portopening TCP %d "PortOpenning" enable” fullword wide</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_lazarus_aug20.yar">apt_lazarus_aug20.yar</a></td>
+      <td>$str_netsh_1 = “netsh firewall add portopening TCP %d” ascii wide nocase</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_lazarus_aug20.yar">apt_lazarus_aug20.yar</a></td>
+      <td>$str_netsh_2 = “netsh firewall delete portopening TCP %d” ascii wide nocase</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_phish_gina_dec15.yar">crime_phish_gina_dec15.yar</a></td>
+      <td>$s1 = “netsh.exe” fullword wide</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_malware_set_qa.yar">gen_malware_set_qa.yar</a></td>
+      <td>$s6 = “netsh firewall delete allowedprogram” fullword wide</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_mal_backnet.yar">gen_mal_backnet.yar</a></td>
+      <td>$s3 = “/C netsh wlan show profile” wide</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_rats_malwareconfig.yar">gen_rats_malwareconfig.yar</a></td>
+      <td>$s2 = “netsh firewall add allowedprogram” wide</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_suspicious_strings.yar">gen_suspicious_strings.yar</a></td>
+      <td>description = “Detects a suspicious command line with netsh and the portproxy command”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_suspicious_strings.yar">gen_suspicious_strings.yar</a></td>
+      <td>reference = “https://docs.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-interface-portproxy”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_suspicious_strings.yar">gen_suspicious_strings.yar</a></td>
+      <td>$x1 = “netsh interface portproxy add v4tov4 listenport=” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="netsh">netsh</h2>
+
+<blockquote>
+  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2016</p>
+</blockquote>
+
+<p>The Network Shell command-line scripting utility that allows you to, either locally or remotely, display or modify the network configuration of a currently running computer. You can start this utility at the command prompt or in Windows PowerShell.</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>netsh [-a &lt;Aliasfile&gt;][-c &lt;Context&gt;][-r &lt;Remotecomputer&gt;][-u [&lt;domainname&gt;\&lt;username&gt;][-p &lt;Password&gt; | [{&lt;NetshCommand&gt; | -f &lt;scriptfile&gt;}]
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-a <code class="language-plaintext highlighter-rouge">&lt;Aliasfile&gt;</code></td>
+      <td>Specifies that you are returned to the netsh prompt after running Aliasfile and the name of the text file that contains one or more netsh commands.</td>
+    </tr>
+    <tr>
+      <td>-c <code class="language-plaintext highlighter-rouge">&lt;Context&gt;</code></td>
+      <td>Specifies that netsh enters the specified netsh context and the netsh context to enter.</td>
+    </tr>
+    <tr>
+      <td>-r <code class="language-plaintext highlighter-rouge">&lt;Remotecomputer&gt;</code></td>
+      <td>Specifies the remote computer to configure.&lt;p&gt;<strong>Important:</strong> If you use this parameter, you must make sure the Remote Registry service is running on the remote computer. If it isn’t running, Windows displays a â€œNetwork Path Not Foundâ€ error message.</td>
+    </tr>
+    <tr>
+      <td>-u <code class="language-plaintext highlighter-rouge">&lt;domainname&gt;\&lt;username&gt;</code></td>
+      <td>Specifies the domain and user account name to use while running the netsh command under a user account. If you omit the domain, the local domain is used by default.</td>
+    </tr>
+    <tr>
+      <td>-p <code class="language-plaintext highlighter-rouge">&lt;Password&gt;</code></td>
+      <td>Specifies the password for the user account specified by the <code class="language-plaintext highlighter-rouge">-u &lt;username&gt;</code> parameter.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;NetshCommand&gt;</code></td>
+      <td>Specifies the netsh command to run.</td>
+    </tr>
+    <tr>
+      <td>-f <code class="language-plaintext highlighter-rouge">&lt;scriptfile&gt;</code></td>
+      <td>Exits the netsh command after running the specified script file.</td>
+    </tr>
+    <tr>
+      <td>/?</td>
+      <td>Displays help at the command prompt.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="remarks">Remarks</h5>
+
+<ul>
+  <li>
+    <p>If you specify <strong>-r</strong> followed by another command, netsh runs the command on the remote computer and then returns to the Cmd.exe command prompt. If you specify <strong>-r</strong> without another command, netsh opens in remote mode. The process is similar to using <strong>set machine</strong> at the Netsh command prompt. When you use <strong>-r</strong>, you set the target computer for the current instance of netsh only. After you exit and reenter netsh, the target computer is reset as the local computer. You can run netsh commands on a remote computer by specifying a computer name stored in WINS, a UNC name, an Internet name to be resolved by the DNS server, or an IP address.</p>
+  </li>
+  <li>
+    <p>If your string value contains spaces between characters, you must enclose the string value in quotation marks. For example, <code class="language-plaintext highlighter-rouge">-r "contoso remote device"</code></p>
+  </li>
+</ul>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

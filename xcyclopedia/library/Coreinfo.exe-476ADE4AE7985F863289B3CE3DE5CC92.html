@@ -1,0 +1,618 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Coreinfo.exe | Dump information on system CPU and memory topology &#124; STRONTIC</title>
+<meta name="description" content="What is Coreinfo.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="Coreinfo.exe | Dump information on system CPU and memory topology">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/Coreinfo.exe-476ADE4AE7985F863289B3CE3DE5CC92.html">
+
+
+  <meta property="og:description" content="What is Coreinfo.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="Coreinfo.exe | Dump information on system CPU and memory topology">
+  <meta name="twitter:description" content="What is Coreinfo.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/Coreinfo.exe-476ADE4AE7985F863289B3CE3DE5CC92.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/Coreinfo.exe-476ADE4AE7985F863289B3CE3DE5CC92.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">Coreinfo.exe | Dump information on system CPU and memory topology</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            Coreinfo.exe      Dump information on system CPU and memory topology      ">
+    <meta itemprop="description" content="What is Coreinfo.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="coreinfoexe">Coreinfo.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\SysinternalsSuite\Coreinfo.exe</code></li>
+  <li>Description: Dump information on system CPU and memory topology</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">476ADE4AE7985F863289B3CE3DE5CC92</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">16EDC8C4A717EBBE074075A413E576610070DA92</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">D93E8067C68AC71928FB963FCBA332E91004CBAC8B85763E8C6CF19E2AB29895</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">40DBF9F5DBD4FBE94084077E395F3A489682D7A8A74E97AE15AF443408877853D62FCA44937079BB36CDE97F30F8E9B3</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">AF730294C9B6CF0D46F3EADED0B452934424193EA6804EEE1CF85BB7549E0C8C19CC421E9FDBAD8AA1957C0AFC4804349080D8C59765E0AD6804EDA8DB07F684</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">12288:PYnTks8zVM/y/Rlgbz8YgXdG729dgWQqq:PoTZ4lgb4tdG729dgdq</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">7C78CBC09CC5E1EA3BD973E23E82523A</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">CDA84A73B25B807669B8EC9FD0D4589AEF48184B</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">924B573616EECF95CFCC83B93BB2146F2567767EAFDD26E9B61C01B9646D2551</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="ni">Coreinfo</span> <span class="ni">v3</span><span class="err">.</span><span class="m">5</span> <span class="err">-</span> <span class="ni">Dump</span> <span class="ni">information</span> <span class="ni">on</span> <span class="ni">system</span> <span class="ni">CPU</span> <span class="ni">and</span> <span class="ni">memory</span> <span class="ni">topology</span>
+<span class="ni">Copyright</span> <span class="p">(</span><span class="err">C</span><span class="p">)</span> <span class="m">2008</span><span class="err">-</span><span class="m">2020</span> <span class="ni">Mark</span> <span class="ni">Russinovich</span>
+<span class="ni">Sysinternals</span> <span class="err">-</span> <span class="ni">www</span><span class="err">.</span><span class="ni">sysinternals</span><span class="err">.</span><span class="ni">com</span>
+
+
+<span class="ni">Intel</span><span class="p">(</span><span class="err">R</span><span class="p">)</span> <span class="ni">Core</span><span class="p">(</span><span class="ni">TM</span><span class="p">)</span> <span class="ni">i7</span><span class="err">-</span><span class="m">4700</span><span class="ni">MQ</span> <span class="ni">CPU</span> <span class="err">@</span> <span class="m">2</span><span class="err">.</span><span class="m">40</span><span class="ni">GHz</span>
+<span class="ni">Intel64</span> <span class="ni">Family</span> <span class="m">6</span> <span class="ni">Model</span> <span class="m">60</span> <span class="ni">Stepping</span> <span class="m">3</span><span class="p">,</span> <span class="ni">GenuineIntel</span>
+<span class="ni">Microcode</span> <span class="kd">signature:</span> <span class="ni">FFFFFFFF</span>
+<span class="ni">HTT</span>       	<span class="err">*</span>	<span class="ni">Hyperthreading</span> <span class="ni">enabled</span>
+<span class="ni">HYPERVISOR</span>	<span class="err">*</span>	<span class="ni">Hypervisor</span> <span class="ni">is</span> <span class="ni">present</span>
+<span class="ni">VMX</span>       	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">Intel</span> <span class="ni">hardware</span><span class="err">-</span><span class="ni">assisted</span> <span class="ni">virtualization</span>
+<span class="ni">SVM</span>       	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">AMD</span> <span class="ni">hardware</span><span class="err">-</span><span class="ni">assisted</span> <span class="ni">virtualization</span>
+<span class="ni">X64</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="m">64</span><span class="err">-</span><span class="ni">bit</span> <span class="ni">mode</span>
+
+<span class="ni">SMX</span>       	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">Intel</span> <span class="ni">trusted</span> <span class="ni">execution</span>
+<span class="ni">SKINIT</span>    	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">AMD</span> <span class="ni">SKINIT</span>
+
+<span class="ni">NX</span>        	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">no</span><span class="err">-</span><span class="ni">execute</span> <span class="ni">page</span> <span class="ni">protection</span>
+<span class="ni">SMEP</span>      	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">Supervisor</span> <span class="ni">Mode</span> <span class="ni">Execution</span> <span class="ni">Prevention</span>
+<span class="ni">SMAP</span>      	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">Supervisor</span> <span class="ni">Mode</span> <span class="ni">Access</span> <span class="ni">Prevention</span>
+<span class="ni">PAGE1GB</span>   	<span class="err">*</span>	<span class="ni">Supports</span> <span class="m">1</span> <span class="ni">GB</span> <span class="ni">large</span> <span class="ni">pages</span>
+<span class="ni">PAE</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="err">&gt;</span> <span class="m">32</span><span class="err">-</span><span class="ni">bit</span> <span class="ni">physical</span> <span class="ni">addresses</span>
+<span class="ni">PAT</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">Page</span> <span class="ni">Attribute</span> <span class="ni">Table</span>
+<span class="ni">PSE</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="m">4</span> <span class="ni">MB</span> <span class="ni">pages</span>
+<span class="ni">PSE36</span>     	<span class="err">*</span>	<span class="ni">Supports</span> <span class="err">&gt;</span> <span class="m">32</span><span class="err">-</span><span class="ni">bit</span> <span class="ni">address</span> <span class="m">4</span> <span class="ni">MB</span> <span class="ni">pages</span>
+<span class="ni">PGE</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">global</span> <span class="ni">bit</span> <span class="ni">in</span> <span class="ni">page</span> <span class="ni">tables</span>
+<span class="ni">SS</span>        	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">bus</span> <span class="ni">snooping</span> <span class="ni">for</span> <span class="ni">cache</span> <span class="ni">operations</span>
+<span class="ni">VME</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">Virtual</span><span class="err">-</span><span class="m">8086</span> <span class="ni">mode</span>
+<span class="ni">RDWRFSGSBASE</span>	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">direct</span> <span class="ni">GS</span><span class="p">/</span><span class="ni">FS</span> <span class="ni">base</span> <span class="ni">access</span>
+
+<span class="ni">FPU</span>       	<span class="err">*</span>	<span class="ni">Implements</span> <span class="ni">i387</span> <span class="ni">floating</span> <span class="ni">point</span> <span class="ni">instructions</span>
+<span class="ni">MMX</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">MMX</span> <span class="ni">instruction</span> <span class="ni">set</span>
+<span class="ni">MMXEXT</span>    	<span class="err">-</span>	<span class="ni">Implements</span> <span class="ni">AMD</span> <span class="ni">MMX</span> <span class="ni">extensions</span>
+<span class="m">3</span><span class="ni">DNOW</span>     	<span class="err">-</span>	<span class="ni">Supports</span> <span class="m">3</span><span class="ni">DNow</span><span class="err">!</span> <span class="ni">instructions</span>
+<span class="m">3</span><span class="ni">DNOWEXT</span>  	<span class="err">-</span>	<span class="ni">Supports</span> <span class="m">3</span><span class="ni">DNow</span><span class="err">!</span> <span class="ni">extension</span> <span class="ni">instructions</span>
+<span class="ni">SSE</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">Streaming</span> <span class="ni">SIMD</span> <span class="ni">Extensions</span>
+<span class="ni">SSE2</span>      	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">Streaming</span> <span class="ni">SIMD</span> <span class="ni">Extensions</span> <span class="m">2</span>
+<span class="ni">SSE3</span>      	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">Streaming</span> <span class="ni">SIMD</span> <span class="ni">Extensions</span> <span class="m">3</span>
+<span class="ni">SSSE3</span>     	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">Supplemental</span> <span class="ni">SIMD</span> <span class="ni">Extensions</span> <span class="m">3</span>
+<span class="ni">SSE4a</span>     	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">Streaming</span> <span class="ni">SIMDR</span> <span class="ni">Extensions</span> <span class="m">4</span><span class="err">a</span>
+<span class="ni">SSE4</span><span class="err">.</span><span class="m">1</span>    	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">Streaming</span> <span class="ni">SIMD</span> <span class="ni">Extensions</span> <span class="m">4</span><span class="err">.</span><span class="m">1</span>
+<span class="ni">SSE4</span><span class="err">.</span><span class="m">2</span>    	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">Streaming</span> <span class="ni">SIMD</span> <span class="ni">Extensions</span> <span class="m">4</span><span class="err">.</span><span class="m">2</span>
+
+<span class="ni">AES</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">AES</span> <span class="ni">extensions</span>
+<span class="ni">AVX</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">AVX</span> <span class="ni">instruction</span> <span class="ni">extensions</span>
+<span class="ni">FMA</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">FMA</span> <span class="ni">extensions</span> <span class="ni">using</span> <span class="ni">YMM</span> <span class="ni">state</span>
+<span class="ni">MSR</span>       	<span class="err">*</span>	<span class="ni">Implements</span> <span class="ni">RDMSR</span><span class="p">/</span><span class="ni">WRMSR</span> <span class="ni">instructions</span>
+<span class="ni">MTRR</span>      	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">Memory</span> <span class="ni">Type</span> <span class="ni">Range</span> <span class="ni">Registers</span>
+<span class="ni">XSAVE</span>     	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">XSAVE</span><span class="p">/</span><span class="ni">XRSTOR</span> <span class="ni">instructions</span>
+<span class="ni">OSXSAVE</span>   	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">XSETBV</span><span class="p">/</span><span class="ni">XGETBV</span> <span class="ni">instructions</span>
+<span class="ni">RDRAND</span>    	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">RDRAND</span> <span class="ni">instruction</span>
+<span class="ni">RDSEED</span>    	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">RDSEED</span> <span class="ni">instruction</span>
+
+<span class="ni">CMOV</span>      	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">CMOVcc</span> <span class="ni">instruction</span>
+<span class="ni">CLFSH</span>     	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">CLFLUSH</span> <span class="ni">instruction</span>
+<span class="ni">CX8</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">compare</span> <span class="ni">and</span> <span class="ni">exchange</span> <span class="m">8</span><span class="err">-</span><span class="ni">byte</span> <span class="ni">instructions</span>
+<span class="ni">CX16</span>      	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">CMPXCHG16B</span> <span class="ni">instruction</span>
+<span class="ni">BMI1</span>      	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">bit</span> <span class="ni">manipulation</span> <span class="ni">extensions</span> <span class="m">1</span>
+<span class="ni">BMI2</span>      	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">bit</span> <span class="ni">manipulation</span> <span class="ni">extensions</span> <span class="m">2</span>
+<span class="ni">ADX</span>       	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">ADCX</span><span class="p">/</span><span class="ni">ADOX</span> <span class="ni">instructions</span>
+<span class="ni">DCA</span>       	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">prefetch</span> <span class="ni">from</span> <span class="ni">memory</span><span class="err">-</span><span class="ni">mapped</span> <span class="ni">device</span>
+<span class="ni">F16C</span>      	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">half</span><span class="err">-</span><span class="ni">precision</span> <span class="ni">instruction</span>
+<span class="ni">FXSR</span>      	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">FXSAVE</span><span class="p">/</span><span class="ni">FXSTOR</span> <span class="ni">instructions</span>
+<span class="ni">FFXSR</span>     	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">optimized</span> <span class="ni">FXSAVE</span><span class="p">/</span><span class="ni">FSRSTOR</span> <span class="ni">instruction</span>
+<span class="ni">MONITOR</span>   	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">MONITOR</span> <span class="ni">and</span> <span class="ni">MWAIT</span> <span class="ni">instructions</span>
+<span class="ni">MOVBE</span>     	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">MOVBE</span> <span class="ni">instruction</span>
+<span class="ni">ERMSB</span>     	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">Enhanced</span> <span class="ni">REP</span> <span class="ni">MOVSB</span><span class="p">/</span><span class="ni">STOSB</span>
+<span class="ni">PCLMULDQ</span>  	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">PCLMULDQ</span> <span class="ni">instruction</span>
+<span class="ni">POPCNT</span>    	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">POPCNT</span> <span class="ni">instruction</span>
+<span class="ni">LZCNT</span>     	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">LZCNT</span> <span class="ni">instruction</span>
+<span class="ni">SEP</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">fast</span> <span class="ni">system</span> <span class="ni">call</span> <span class="ni">instructions</span>
+<span class="ni">LAHF</span><span class="err">-</span><span class="ni">SAHF</span> 	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">LAHF</span><span class="p">/</span><span class="ni">SAHF</span> <span class="ni">instructions</span> <span class="ni">in</span> <span class="m">64</span><span class="err">-</span><span class="ni">bit</span> <span class="ni">mode</span>
+<span class="ni">HLE</span>       	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">Hardware</span> <span class="ni">Lock</span> <span class="ni">Elision</span> <span class="ni">instructions</span>
+<span class="ni">RTM</span>       	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">Restricted</span> <span class="ni">Transactional</span> <span class="ni">Memory</span> <span class="ni">instructions</span>
+
+<span class="ni">DE</span>        	<span class="err">*</span>	<span class="ni">Supports</span> <span class="err">I</span><span class="p">/</span><span class="err">O</span> <span class="ni">breakpoints</span> <span class="ni">including</span> <span class="ni">CR4</span><span class="err">.</span><span class="ni">DE</span>
+<span class="ni">DTES64</span>    	<span class="err">-</span>	<span class="ni">Can</span> <span class="ni">write</span> <span class="ni">history</span> <span class="ni">of</span> <span class="m">64</span><span class="err">-</span><span class="ni">bit</span> <span class="ni">branch</span> <span class="ni">addresses</span>
+<span class="ni">DS</span>        	<span class="err">-</span>	<span class="ni">Implements</span> <span class="ni">memory</span><span class="err">-</span><span class="ni">resident</span> <span class="ni">debug</span> <span class="ni">buffer</span>
+<span class="ni">DS</span><span class="err">-</span><span class="ni">CPL</span>    	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">Debug</span> <span class="ni">Store</span> <span class="ni">feature</span> <span class="ni">with</span> <span class="ni">CPL</span>
+<span class="ni">PCID</span>      	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">PCIDs</span> <span class="ni">and</span> <span class="ni">settable</span> <span class="ni">CR4</span><span class="err">.</span><span class="ni">PCIDE</span>
+<span class="ni">INVPCID</span>   	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">INVPCID</span> <span class="ni">instruction</span>
+<span class="ni">PDCM</span>      	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">Performance</span> <span class="ni">Capabilities</span> <span class="ni">MSR</span>
+<span class="ni">RDTSCP</span>    	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">RDTSCP</span> <span class="ni">instruction</span>
+<span class="ni">TSC</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">RDTSC</span> <span class="ni">instruction</span>
+<span class="ni">TSC</span><span class="err">-</span><span class="ni">DEADLINE</span>	<span class="err">-</span>	<span class="ni">Local</span> <span class="ni">APIC</span> <span class="ni">supports</span> <span class="ni">one</span><span class="err">-</span><span class="ni">shot</span> <span class="ni">deadline</span> <span class="ni">timer</span>
+<span class="ni">TSC</span><span class="err">-</span><span class="ni">INVARIANT</span>	<span class="err">-</span>	<span class="ni">TSC</span> <span class="ni">runs</span> <span class="ni">at</span> <span class="ni">constant</span> <span class="ni">rate</span>
+<span class="ni">xTPR</span>      	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">disabling</span> <span class="ni">task</span> <span class="ni">priority</span> <span class="ni">messages</span>
+
+<span class="ni">EIST</span>      	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">Enhanced</span> <span class="ni">Intel</span> <span class="ni">Speedstep</span>
+<span class="ni">ACPI</span>      	<span class="err">-</span>	<span class="ni">Implements</span> <span class="ni">MSR</span> <span class="ni">for</span> <span class="ni">power</span> <span class="ni">management</span>
+<span class="ni">TM</span>        	<span class="err">-</span>	<span class="ni">Implements</span> <span class="ni">thermal</span> <span class="ni">monitor</span> <span class="ni">circuitry</span>
+<span class="ni">TM2</span>       	<span class="err">-</span>	<span class="ni">Implements</span> <span class="ni">Thermal</span> <span class="ni">Monitor</span> <span class="m">2</span> <span class="ni">control</span>
+<span class="ni">APIC</span>      	<span class="err">*</span>	<span class="ni">Implements</span> <span class="ni">software</span><span class="err">-</span><span class="ni">accessible</span> <span class="ni">local</span> <span class="ni">APIC</span>
+<span class="ni">x2APIC</span>    	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">x2APIC</span>
+
+<span class="ni">CNXT</span><span class="err">-</span><span class="ni">ID</span>   	<span class="err">-</span>	<span class="ni">L1</span> <span class="ni">data</span> <span class="ni">cache</span> <span class="ni">mode</span> <span class="ni">adaptive</span> <span class="ni">or</span> <span class="ni">BIOS</span>
+
+<span class="ni">MCE</span>       	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">Machine</span> <span class="ni">Check</span><span class="p">,</span> <span class="ni">INT18</span> <span class="ni">and</span> <span class="ni">CR4</span><span class="err">.</span><span class="ni">MCE</span>
+<span class="ni">MCA</span>       	<span class="err">*</span>	<span class="ni">Implements</span> <span class="ni">Machine</span> <span class="ni">Check</span> <span class="ni">Architecture</span>
+<span class="ni">PBE</span>       	<span class="err">-</span>	<span class="ni">Supports</span> <span class="ni">use</span> <span class="ni">of</span> <span class="ni">FERR</span><span class="err">#</span><span class="p">/</span><span class="ni">PBE</span><span class="err">#</span> <span class="ni">pin</span>
+
+<span class="ni">PSN</span>       	<span class="err">-</span>	<span class="ni">Implements</span> <span class="m">96</span><span class="err">-</span><span class="ni">bit</span> <span class="ni">processor</span> <span class="ni">serial</span> <span class="ni">number</span>
+
+<span class="ni">PREFETCHW</span> 	<span class="err">*</span>	<span class="ni">Supports</span> <span class="ni">PREFETCHW</span> <span class="ni">instruction</span>
+
+<span class="ni">Maximum</span> <span class="ni">implemented</span> <span class="ni">CPUID</span> <span class="kd">leaves:</span> <span class="m">0000000</span><span class="err">D</span> <span class="p">(</span><span class="ni">Basic</span><span class="p">),</span> <span class="m">80000008</span> <span class="p">(</span><span class="ni">Extended</span><span class="p">)</span><span class="err">.</span>
+<span class="ni">Maximum</span> <span class="ni">implemented</span> <span class="ni">address</span> <span class="kd">width:</span> <span class="m">48</span> <span class="ni">bits</span> <span class="p">(</span><span class="ni">virtual</span><span class="p">),</span> <span class="m">39</span> <span class="ni">bits</span> <span class="p">(</span><span class="ni">physical</span><span class="p">)</span><span class="err">.</span>
+
+<span class="ni">Processor</span> <span class="kd">signature:</span> <span class="m">000306</span><span class="ni">C3</span>
+
+<span class="ni">Logical</span> <span class="ni">to</span> <span class="ni">Physical</span> <span class="ni">Processor</span> <span class="ni">Map</span><span class="err">:</span>
+<span class="err">**------</span>  <span class="ni">Physical</span> <span class="ni">Processor</span> <span class="m">0</span> <span class="p">(</span><span class="ni">Hyperthreaded</span><span class="p">)</span>
+<span class="err">--**----</span>  <span class="ni">Physical</span> <span class="ni">Processor</span> <span class="m">1</span> <span class="p">(</span><span class="ni">Hyperthreaded</span><span class="p">)</span>
+<span class="err">----**--</span>  <span class="ni">Physical</span> <span class="ni">Processor</span> <span class="m">2</span> <span class="p">(</span><span class="ni">Hyperthreaded</span><span class="p">)</span>
+<span class="err">------**</span>  <span class="ni">Physical</span> <span class="ni">Processor</span> <span class="m">3</span> <span class="p">(</span><span class="ni">Hyperthreaded</span><span class="p">)</span>
+
+<span class="ni">Logical</span> <span class="ni">Processor</span> <span class="ni">to</span> <span class="ni">Socket</span> <span class="ni">Map</span><span class="err">:</span>
+<span class="err">********</span>  <span class="ni">Socket</span> <span class="m">0</span>
+
+<span class="ni">Logical</span> <span class="ni">Processor</span> <span class="ni">to</span> <span class="ni">NUMA</span> <span class="ni">Node</span> <span class="ni">Map</span><span class="err">:</span>
+<span class="err">********</span>  <span class="ni">NUMA</span> <span class="ni">Node</span> <span class="m">0</span>
+
+<span class="ni">No</span> <span class="ni">NUMA</span> <span class="ni">nodes</span><span class="err">.</span>
+
+<span class="ni">Logical</span> <span class="ni">Processor</span> <span class="ni">to</span> <span class="ni">Cache</span> <span class="ni">Map</span><span class="err">:</span>
+<span class="err">**------</span>  <span class="ni">Data</span> <span class="ni">Cache</span>          <span class="m">0</span><span class="p">,</span> <span class="ni">Level</span> <span class="m">1</span><span class="p">,</span>   <span class="m">32</span> <span class="ni">KB</span><span class="p">,</span> <span class="ni">Assoc</span>   <span class="m">8</span><span class="p">,</span> <span class="ni">LineSize</span>  <span class="m">64</span>
+<span class="err">**------</span>  <span class="ni">Instruction</span> <span class="ni">Cache</span>   <span class="m">0</span><span class="p">,</span> <span class="ni">Level</span> <span class="m">1</span><span class="p">,</span>   <span class="m">32</span> <span class="ni">KB</span><span class="p">,</span> <span class="ni">Assoc</span>   <span class="m">8</span><span class="p">,</span> <span class="ni">LineSize</span>  <span class="m">64</span>
+<span class="err">**------</span>  <span class="ni">Unified</span> <span class="ni">Cache</span>       <span class="m">0</span><span class="p">,</span> <span class="ni">Level</span> <span class="m">2</span><span class="p">,</span>  <span class="m">256</span> <span class="ni">KB</span><span class="p">,</span> <span class="ni">Assoc</span>   <span class="m">8</span><span class="p">,</span> <span class="ni">LineSize</span>  <span class="m">64</span>
+<span class="err">********</span>  <span class="ni">Unified</span> <span class="ni">Cache</span>       <span class="m">1</span><span class="p">,</span> <span class="ni">Level</span> <span class="m">3</span><span class="p">,</span>    <span class="m">6</span> <span class="ni">MB</span><span class="p">,</span> <span class="ni">Assoc</span>  <span class="m">12</span><span class="p">,</span> <span class="ni">LineSize</span>  <span class="m">64</span>
+<span class="err">--**----</span>  <span class="ni">Data</span> <span class="ni">Cache</span>          <span class="m">1</span><span class="p">,</span> <span class="ni">Level</span> <span class="m">1</span><span class="p">,</span>   <span class="m">32</span> <span class="ni">KB</span><span class="p">,</span> <span class="ni">Assoc</span>   <span class="m">8</span><span class="p">,</span> <span class="ni">LineSize</span>  <span class="m">64</span>
+<span class="err">--**----</span>  <span class="ni">Instruction</span> <span class="ni">Cache</span>   <span class="m">1</span><span class="p">,</span> <span class="ni">Level</span> <span class="m">1</span><span class="p">,</span>   <span class="m">32</span> <span class="ni">KB</span><span class="p">,</span> <span class="ni">Assoc</span>   <span class="m">8</span><span class="p">,</span> <span class="ni">LineSize</span>  <span class="m">64</span>
+<span class="err">--**----</span>  <span class="ni">Unified</span> <span class="ni">Cache</span>       <span class="m">2</span><span class="p">,</span> <span class="ni">Level</span> <span class="m">2</span><span class="p">,</span>  <span class="m">256</span> <span class="ni">KB</span><span class="p">,</span> <span class="ni">Assoc</span>   <span class="m">8</span><span class="p">,</span> <span class="ni">LineSize</span>  <span class="m">64</span>
+<span class="err">----**--</span>  <span class="ni">Data</span> <span class="ni">Cache</span>          <span class="m">2</span><span class="p">,</span> <span class="ni">Level</span> <span class="m">1</span><span class="p">,</span>   <span class="m">32</span> <span class="ni">KB</span><span class="p">,</span> <span class="ni">Assoc</span>   <span class="m">8</span><span class="p">,</span> <span class="ni">LineSize</span>  <span class="m">64</span>
+<span class="err">----**--</span>  <span class="ni">Instruction</span> <span class="ni">Cache</span>   <span class="m">2</span><span class="p">,</span> <span class="ni">Level</span> <span class="m">1</span><span class="p">,</span>   <span class="m">32</span> <span class="ni">KB</span><span class="p">,</span> <span class="ni">Assoc</span>   <span class="m">8</span><span class="p">,</span> <span class="ni">LineSize</span>  <span class="m">64</span>
+<span class="err">----**--</span>  <span class="ni">Unified</span> <span class="ni">Cache</span>       <span class="m">3</span><span class="p">,</span> <span class="ni">Level</span> <span class="m">2</span><span class="p">,</span>  <span class="m">256</span> <span class="ni">KB</span><span class="p">,</span> <span class="ni">Assoc</span>   <span class="m">8</span><span class="p">,</span> <span class="ni">LineSize</span>  <span class="m">64</span>
+<span class="err">------**</span>  <span class="ni">Data</span> <span class="ni">Cache</span>          <span class="m">3</span><span class="p">,</span> <span class="ni">Level</span> <span class="m">1</span><span class="p">,</span>   <span class="m">32</span> <span class="ni">KB</span><span class="p">,</span> <span class="ni">Assoc</span>   <span class="m">8</span><span class="p">,</span> <span class="ni">LineSize</span>  <span class="m">64</span>
+<span class="err">------**</span>  <span class="ni">Instruction</span> <span class="ni">Cache</span>   <span class="m">3</span><span class="p">,</span> <span class="ni">Level</span> <span class="m">1</span><span class="p">,</span>   <span class="m">32</span> <span class="ni">KB</span><span class="p">,</span> <span class="ni">Assoc</span>   <span class="m">8</span><span class="p">,</span> <span class="ni">LineSize</span>  <span class="m">64</span>
+<span class="err">------**</span>  <span class="ni">Unified</span> <span class="ni">Cache</span>       <span class="m">4</span><span class="p">,</span> <span class="ni">Level</span> <span class="m">2</span><span class="p">,</span>  <span class="m">256</span> <span class="ni">KB</span><span class="p">,</span> <span class="ni">Assoc</span>   <span class="m">8</span><span class="p">,</span> <span class="ni">LineSize</span>  <span class="m">64</span>
+
+<span class="ni">Logical</span> <span class="ni">Processor</span> <span class="ni">to</span> <span class="ni">Group</span> <span class="ni">Map</span><span class="err">:</span>
+<span class="err">********</span>  <span class="ni">Group</span> <span class="m">0</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\SysinternalsSuite\Coreinfo.exe</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64cpu.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64win.dll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">3300000187721772155940C709000000000187</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">2485A7AFA98E178CB8F30C9838346B514AEA4769</code></li>
+  <li>Issuer: CN=Microsoft Code Signing PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: coreinfo</li>
+  <li>Product Name: coreinfo</li>
+  <li>Company Name: Sysinternals - www.sysinternals.com</li>
+  <li>File Version: 3.5</li>
+  <li>Product Version: 3.5</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright: Copyright (C) 2008-2020 Mark Russinovich</li>
+  <li>Machine Type: 32-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/68</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/d93e8067c68ac71928fb963fcba332e91004cbac8b85763e8c6cf19e2ab29895/detection/</li>
+</ul>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

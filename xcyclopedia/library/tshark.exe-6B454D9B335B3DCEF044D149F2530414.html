@@ -1,0 +1,742 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>tshark.exe | TShark &#124; STRONTIC</title>
+<meta name="description" content="What is tshark.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="tshark.exe | TShark">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/tshark.exe-6B454D9B335B3DCEF044D149F2530414.html">
+
+
+  <meta property="og:description" content="What is tshark.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="tshark.exe | TShark">
+  <meta name="twitter:description" content="What is tshark.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/tshark.exe-6B454D9B335B3DCEF044D149F2530414.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/tshark.exe-6B454D9B335B3DCEF044D149F2530414.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">tshark.exe | TShark</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            tshark.exe      TShark      ">
+    <meta itemprop="description" content="What is tshark.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="tsharkexe">tshark.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Program Files\Wireshark\tshark.exe</code></li>
+  <li>Description: TShark</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">6B454D9B335B3DCEF044D149F2530414</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">405DF9F404A95120883A29F3227DF5E6AB68EE80</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">2530BC472F4C73B19C6A2D99C5879C6943279F7C18E37F89F1E58AEC32701625</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">DCBB0DBD67179BA1F0F183C3851131DADFC46435A9EC63313F77ECD594EAF9AFDAFF4D5D9C8A15993D7C1DDFB1EB9A22</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">1B67B69D232656D0B4B5289B17CF3AEDDAAE5BF365DAF7A00D6BFCDD3D5A2E8897A8B32D393BF3E7D9C3DDDD0CEDDF39F30447DF7B88ED4BB951DEE146869F20</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">12288:BrfPDdVGB5eqK+DLFrLf/tapF920CjFP9Jf:BDJVU4qjrLQ8zBzf</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">5F0C45A1AB2F3DB2CD9092350CAF8ACB</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">4C41EC27730F81D1DEF33F5F61D1816D025C4790</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">0DEEF85CB52982A51BA6E8DF862646F608435F53080732C1C6D6C0609379BBF6</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">TShark</span> <span class="p">(</span><span class="ni">Wireshark</span><span class="p">)</span> <span class="m">3</span><span class="err">.</span><span class="m">2</span><span class="err">.</span><span class="m">7</span> <span class="p">(</span><span class="ni">v3</span><span class="err">.</span><span class="m">2</span><span class="err">.</span><span class="m">7</span><span class="err">-</span><span class="m">0</span><span class="err">-</span><span class="ni">gfb6522d84a3a</span><span class="p">)</span>
+<span class="ni">Dump</span> <span class="ni">and</span> <span class="ni">analyze</span> <span class="ni">network</span> <span class="ni">traffic</span><span class="err">.</span>
+<span class="ni">See</span> <span class="kd">https:</span><span class="p">//</span><span class="ni">www</span><span class="err">.</span><span class="ni">wireshark</span><span class="err">.</span><span class="ni">org</span> <span class="ni">for</span> <span class="ni">more</span> <span class="ni">information</span><span class="err">.</span>
+
+<span class="ni">Usage</span><span class="err">:</span> <span class="ni">tshark</span> <span class="err">[</span><span class="ni">options</span><span class="err">]</span> <span class="err">...</span>
+
+<span class="ni">Capture</span> <span class="kd">interface:</span>
+  <span class="err">-i</span> <span class="err">&lt;</span><span class="ni">interface</span><span class="err">&gt;</span><span class="p">,</span> <span class="err">--</span><span class="ni">interface</span> <span class="err">&lt;</span><span class="ni">interface</span><span class="err">&gt;</span>
+                           <span class="ni">name</span> <span class="ni">or</span> <span class="ni">idx</span> <span class="ni">of</span> <span class="ni">interface</span> <span class="p">(</span><span class="kd">def:</span> <span class="ni">first</span> <span class="ni">non</span><span class="err">-</span><span class="ni">loopback</span><span class="p">)</span>
+  <span class="err">-f</span> <span class="err">&lt;</span><span class="ni">capture</span> <span class="ni">filter</span><span class="err">&gt;</span>      <span class="ni">packet</span> <span class="ni">filter</span> <span class="ni">in</span> <span class="ni">libpcap</span> <span class="ni">filter</span> <span class="ni">syntax</span>
+  <span class="err">-s</span> <span class="err">&lt;</span><span class="ni">snaplen</span><span class="err">&gt;</span><span class="p">,</span> <span class="err">--</span><span class="ni">snapshot</span><span class="err">-</span><span class="ni">length</span> <span class="err">&lt;</span><span class="ni">snaplen</span><span class="err">&gt;</span>
+                           <span class="ni">packet</span> <span class="ni">snapshot</span> <span class="ni">length</span> <span class="p">(</span><span class="kd">def:</span> <span class="ni">appropriate</span> <span class="ni">maximum</span><span class="p">)</span>
+  <span class="err">-p</span><span class="p">,</span> <span class="err">--</span><span class="ni">no</span><span class="err">-</span><span class="ni">promiscuous</span><span class="err">-</span><span class="ni">mode</span>
+                           <span class="ni">don</span><span class="err">'t</span> <span class="ni">capture</span> <span class="ni">in</span> <span class="ni">promiscuous</span> <span class="ni">mode</span>
+  <span class="err">-I</span><span class="p">,</span> <span class="err">--</span><span class="ni">monitor</span><span class="err">-</span><span class="ni">mode</span>       <span class="ni">capture</span> <span class="ni">in</span> <span class="ni">monitor</span> <span class="ni">mode</span><span class="p">,</span> <span class="ni">if</span> <span class="ni">available</span>
+  <span class="err">-B</span> <span class="err">&lt;</span><span class="ni">buffer</span> <span class="ni">size</span><span class="err">&gt;</span><span class="p">,</span> <span class="err">--</span><span class="ni">buffer</span><span class="err">-</span><span class="ni">size</span> <span class="err">&lt;</span><span class="ni">buffer</span> <span class="ni">size</span><span class="err">&gt;</span>
+                           <span class="ni">size</span> <span class="ni">of</span> <span class="ni">kernel</span> <span class="ni">buffer</span> <span class="p">(</span><span class="kd">def:</span> <span class="m">2</span><span class="ni">MB</span><span class="p">)</span>
+  <span class="err">-y</span> <span class="err">&lt;</span><span class="ni">link</span> <span class="ni">type</span><span class="err">&gt;</span><span class="p">,</span> <span class="err">--</span><span class="ni">linktype</span> <span class="err">&lt;</span><span class="ni">link</span> <span class="ni">type</span><span class="err">&gt;</span>
+                           <span class="ni">link</span> <span class="ni">layer</span> <span class="ni">type</span> <span class="p">(</span><span class="kd">def:</span> <span class="ni">first</span> <span class="ni">appropriate</span><span class="p">)</span>
+  <span class="err">--</span><span class="ni">time</span><span class="err">-</span><span class="ni">stamp</span><span class="err">-</span><span class="ni">type</span> <span class="err">&lt;</span><span class="ni">type</span><span class="err">&gt;</span> <span class="ni">timestamp</span> <span class="ni">method</span> <span class="ni">for</span> <span class="ni">interface</span>
+  <span class="err">-D</span><span class="p">,</span> <span class="err">--</span><span class="ni">list</span><span class="err">-</span><span class="ni">interfaces</span>    <span class="ni">print</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">interfaces</span> <span class="ni">and</span> <span class="ni">exit</span>
+  <span class="err">-L</span><span class="p">,</span> <span class="err">--</span><span class="ni">list</span><span class="err">-</span><span class="ni">data</span><span class="err">-</span><span class="ni">link</span><span class="err">-</span><span class="ni">types</span>
+                           <span class="ni">print</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">link</span><span class="err">-</span><span class="ni">layer</span> <span class="ni">types</span> <span class="ni">of</span> <span class="ni">iface</span> <span class="ni">and</span> <span class="ni">exit</span>
+  <span class="err">--</span><span class="ni">list</span><span class="err">-</span><span class="ni">time</span><span class="err">-</span><span class="ni">stamp</span><span class="err">-</span><span class="ni">types</span>  <span class="ni">print</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">timestamp</span> <span class="ni">types</span> <span class="ni">for</span> <span class="ni">iface</span> <span class="ni">and</span> <span class="ni">exit</span>
+
+<span class="ni">Capture</span> <span class="ni">stop</span> <span class="kd">conditions:</span>
+  <span class="err">-c</span> <span class="err">&lt;</span><span class="ni">packet</span> <span class="ni">count</span><span class="err">&gt;</span>        <span class="ni">stop</span> <span class="ni">after</span> <span class="err">n</span> <span class="ni">packets</span> <span class="p">(</span><span class="kd">def:</span> <span class="ni">infinite</span><span class="p">)</span>
+  <span class="err">-a</span> <span class="err">&lt;</span><span class="ni">autostop</span> <span class="ni">cond</span><span class="err">.&gt;</span> <span class="err">...</span><span class="p">,</span> <span class="err">--</span><span class="ni">autostop</span> <span class="err">&lt;</span><span class="ni">autostop</span> <span class="ni">cond</span><span class="err">.&gt;</span> <span class="err">...</span>
+                           <span class="kd">duration:</span><span class="ni">NUM</span> <span class="err">-</span> <span class="ni">stop</span> <span class="ni">after</span> <span class="ni">NUM</span> <span class="ni">seconds</span>
+                           <span class="kd">filesize:</span><span class="ni">NUM</span> <span class="err">-</span> <span class="ni">stop</span> <span class="ni">this</span> <span class="ni">file</span> <span class="ni">after</span> <span class="ni">NUM</span> <span class="ni">KB</span>
+                              <span class="kd">files:</span><span class="ni">NUM</span> <span class="err">-</span> <span class="ni">stop</span> <span class="ni">after</span> <span class="ni">NUM</span> <span class="ni">files</span>
+                            <span class="kd">packets:</span><span class="ni">NUM</span> <span class="err">-</span> <span class="ni">stop</span> <span class="ni">after</span> <span class="ni">NUM</span> <span class="ni">packets</span>
+<span class="ni">Capture</span> <span class="kd">output:</span>
+  <span class="err">-b</span> <span class="err">&lt;</span><span class="ni">ringbuffer</span> <span class="ni">opt</span><span class="err">.&gt;</span> <span class="err">...</span><span class="p">,</span> <span class="err">--</span><span class="ni">ring</span><span class="err">-</span><span class="ni">buffer</span> <span class="err">&lt;</span><span class="ni">ringbuffer</span> <span class="ni">opt</span><span class="err">.&gt;</span>
+                           <span class="kd">duration:</span><span class="ni">NUM</span> <span class="err">-</span> <span class="ni">switch</span> <span class="ni">to</span> <span class="ni">next</span> <span class="ni">file</span> <span class="ni">after</span> <span class="ni">NUM</span> <span class="ni">secs</span>
+                           <span class="kd">filesize:</span><span class="ni">NUM</span> <span class="err">-</span> <span class="ni">switch</span> <span class="ni">to</span> <span class="ni">next</span> <span class="ni">file</span> <span class="ni">after</span> <span class="ni">NUM</span> <span class="ni">KB</span>
+                              <span class="kd">files:</span><span class="ni">NUM</span> <span class="err">-</span> <span class="kd">ringbuffer:</span> <span class="ni">replace</span> <span class="ni">after</span> <span class="ni">NUM</span> <span class="ni">files</span>
+                            <span class="kd">packets:</span><span class="ni">NUM</span> <span class="err">-</span> <span class="ni">switch</span> <span class="ni">to</span> <span class="ni">next</span> <span class="ni">file</span> <span class="ni">after</span> <span class="ni">NUM</span> <span class="ni">packets</span>
+                           <span class="kd">interval:</span><span class="ni">NUM</span> <span class="err">-</span> <span class="ni">switch</span> <span class="ni">to</span> <span class="ni">next</span> <span class="ni">file</span> <span class="ni">when</span> <span class="ni">the</span> <span class="ni">time</span> <span class="ni">is</span>
+                                          <span class="ni">an</span> <span class="ni">exact</span> <span class="ni">multiple</span> <span class="ni">of</span> <span class="ni">NUM</span> <span class="ni">secs</span>
+<span class="ni">RPCAP</span> <span class="kd">options:</span>
+  <span class="err">-A</span> <span class="err">&lt;</span><span class="ni">user</span><span class="err">&gt;:&lt;</span><span class="ni">password</span><span class="err">&gt;</span>     <span class="ni">use</span> <span class="ni">RPCAP</span> <span class="ni">password</span> <span class="ni">authentication</span>
+<span class="ni">Input</span> <span class="kd">file:</span>
+  <span class="err">-r</span> <span class="err">&lt;</span><span class="ni">infile</span><span class="err">&gt;</span><span class="p">,</span> <span class="err">--</span><span class="ni">read</span><span class="err">-</span><span class="ni">file</span> <span class="err">&lt;</span><span class="ni">infile</span><span class="err">&gt;</span>
+                           <span class="ni">set</span> <span class="ni">the</span> <span class="ni">filename</span> <span class="ni">to</span> <span class="ni">read</span> <span class="ni">from</span> <span class="p">(</span><span class="ni">or</span> <span class="err">'-'</span> <span class="ni">for</span> <span class="ni">stdin</span><span class="p">)</span>
+
+<span class="ni">Processing</span><span class="err">:</span>
+  <span class="err">-</span><span class="m">2</span>                       <span class="ni">perform</span> <span class="err">a</span> <span class="ni">two</span><span class="err">-</span><span class="ni">pass</span> <span class="ni">analysis</span>
+  <span class="err">-M</span> <span class="err">&lt;</span><span class="ni">packet</span> <span class="ni">count</span><span class="err">&gt;</span>        <span class="ni">perform</span> <span class="ni">session</span> <span class="ni">auto</span> <span class="ni">reset</span>
+  <span class="err">-R</span> <span class="err">&lt;</span><span class="ni">read</span> <span class="ni">filter</span><span class="err">&gt;</span><span class="p">,</span> <span class="err">--</span><span class="ni">read</span><span class="err">-</span><span class="ni">filter</span> <span class="err">&lt;</span><span class="ni">read</span> <span class="ni">filter</span><span class="err">&gt;</span>
+                           <span class="ni">packet</span> <span class="ni">Read</span> <span class="ni">filter</span> <span class="ni">in</span> <span class="ni">Wireshark</span> <span class="ni">display</span> <span class="ni">filter</span> <span class="ni">syntax</span>
+                           <span class="p">(</span><span class="ni">requires</span> <span class="err">-</span><span class="m">2</span><span class="p">)</span>
+  <span class="err">-Y</span> <span class="err">&lt;</span><span class="ni">display</span> <span class="ni">filter</span><span class="err">&gt;</span><span class="p">,</span> <span class="err">--</span><span class="ni">display</span><span class="err">-</span><span class="ni">filter</span> <span class="err">&lt;</span><span class="ni">display</span> <span class="ni">filter</span><span class="err">&gt;</span>
+                           <span class="ni">packet</span> <span class="ni">displaY</span> <span class="ni">filter</span> <span class="ni">in</span> <span class="ni">Wireshark</span> <span class="ni">display</span> <span class="ni">filter</span>
+                           <span class="ni">syntax</span>
+  <span class="err">-n</span>                       <span class="ni">disable</span> <span class="ni">all</span> <span class="ni">name</span> <span class="ni">resolutions</span> <span class="p">(</span><span class="kd">def:</span> <span class="ni">all</span> <span class="ni">enabled</span><span class="p">)</span>
+  <span class="err">-N</span> <span class="err">&lt;</span><span class="ni">name</span> <span class="ni">resolve</span> <span class="ni">flags</span><span class="err">&gt;</span>  <span class="ni">enable</span> <span class="ni">specific</span> <span class="ni">name</span> <span class="ni">resolution</span><span class="p">(</span><span class="err">s</span><span class="p">)</span><span class="err">:</span> <span class="s">"mnNtdv"</span>
+  <span class="err">-d</span> <span class="err">&lt;</span><span class="ni">layer_type</span><span class="err">&gt;==&lt;</span><span class="ni">selector</span><span class="err">&gt;</span><span class="p">,</span><span class="err">&lt;</span><span class="ni">decode_as_protocol</span><span class="err">&gt;</span> <span class="err">...</span>
+                           <span class="s">"Decode As"</span><span class="p">,</span> <span class="ni">see</span> <span class="ni">the</span> <span class="ni">man</span> <span class="ni">page</span> <span class="ni">for</span> <span class="ni">details</span>
+                           <span class="ni">Example</span><span class="err">:</span> <span class="ni">tcp</span><span class="err">.</span><span class="ni">port</span><span class="err">==</span><span class="m">8888</span><span class="p">,</span><span class="ni">http</span>
+  <span class="err">-H</span> <span class="err">&lt;</span><span class="ni">hosts</span> <span class="ni">file</span><span class="err">&gt;</span>          <span class="ni">read</span> <span class="err">a</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">entries</span> <span class="ni">from</span> <span class="err">a</span> <span class="ni">hosts</span> <span class="ni">file</span><span class="p">,</span> <span class="ni">which</span> <span class="ni">will</span>
+                           <span class="ni">then</span> <span class="ni">be</span> <span class="ni">written</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">capture</span> <span class="ni">file</span><span class="err">.</span> <span class="p">(</span><span class="ni">Implies</span> <span class="err">-W</span> <span class="err">n</span><span class="p">)</span>
+  <span class="err">--</span><span class="ni">enable</span><span class="err">-</span><span class="ni">protocol</span> <span class="err">&lt;</span><span class="ni">proto_name</span><span class="err">&gt;</span>
+                           <span class="ni">enable</span> <span class="ni">dissection</span> <span class="ni">of</span> <span class="ni">proto_name</span>
+  <span class="err">--</span><span class="ni">disable</span><span class="err">-</span><span class="ni">protocol</span> <span class="err">&lt;</span><span class="ni">proto_name</span><span class="err">&gt;</span>
+                           <span class="ni">disable</span> <span class="ni">dissection</span> <span class="ni">of</span> <span class="ni">proto_name</span>
+  <span class="err">--</span><span class="ni">enable</span><span class="err">-</span><span class="ni">heuristic</span> <span class="err">&lt;</span><span class="ni">short_name</span><span class="err">&gt;</span>
+                           <span class="ni">enable</span> <span class="ni">dissection</span> <span class="ni">of</span> <span class="ni">heuristic</span> <span class="ni">protocol</span>
+  <span class="err">--</span><span class="ni">disable</span><span class="err">-</span><span class="ni">heuristic</span> <span class="err">&lt;</span><span class="ni">short_name</span><span class="err">&gt;</span>
+                           <span class="ni">disable</span> <span class="ni">dissection</span> <span class="ni">of</span> <span class="ni">heuristic</span> <span class="ni">protocol</span>
+<span class="ni">Output</span><span class="err">:</span>
+  <span class="err">-w</span> <span class="err">&lt;</span><span class="ni">outfile</span><span class="err">|-&gt;</span>           <span class="ni">write</span> <span class="ni">packets</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">pcapng</span><span class="err">-</span><span class="ni">format</span> <span class="ni">file</span> <span class="ni">named</span> <span class="s">"outfile"</span>
+                           <span class="p">(</span><span class="ni">or</span> <span class="err">'-'</span> <span class="ni">for</span> <span class="ni">stdout</span><span class="p">)</span>
+  <span class="err">--</span><span class="ni">capture</span><span class="err">-</span><span class="ni">comment</span> <span class="err">&lt;</span><span class="ni">comment</span><span class="err">&gt;</span>
+                           <span class="ni">set</span> <span class="ni">the</span> <span class="ni">capture</span> <span class="ni">file</span> <span class="ni">comment</span><span class="p">,</span> <span class="ni">if</span> <span class="ni">supported</span>
+  <span class="err">-C</span> <span class="err">&lt;</span><span class="ni">config</span> <span class="ni">profile</span><span class="err">&gt;</span>      <span class="ni">start</span> <span class="ni">with</span> <span class="ni">specified</span> <span class="ni">configuration</span> <span class="ni">profile</span>
+  <span class="err">-F</span> <span class="err">&lt;</span><span class="ni">output</span> <span class="ni">file</span> <span class="ni">type</span><span class="err">&gt;</span>    <span class="ni">set</span> <span class="ni">the</span> <span class="ni">output</span> <span class="ni">file</span> <span class="ni">type</span><span class="p">,</span> <span class="ni">default</span> <span class="ni">is</span> <span class="ni">pcapng</span>
+                           <span class="ni">an</span> <span class="ni">empty</span> <span class="s">"-F"</span> <span class="ni">option</span> <span class="ni">will</span> <span class="ni">list</span> <span class="ni">the</span> <span class="ni">file</span> <span class="ni">types</span>
+  <span class="err">-V</span>                       <span class="ni">add</span> <span class="ni">output</span> <span class="ni">of</span> <span class="ni">packet</span> <span class="ni">tree</span>        <span class="p">(</span><span class="ni">Packet</span> <span class="ni">Details</span><span class="p">)</span>
+  <span class="err">-O</span> <span class="err">&lt;</span><span class="ni">protocols</span><span class="err">&gt;</span>           <span class="ni">Only</span> <span class="ni">show</span> <span class="ni">packet</span> <span class="ni">details</span> <span class="ni">of</span> <span class="ni">these</span> <span class="ni">protocols</span><span class="p">,</span> <span class="ni">comma</span>
+                           <span class="ni">separated</span>
+  <span class="err">-P</span><span class="p">,</span> <span class="err">--</span><span class="ni">print</span>              <span class="ni">print</span> <span class="ni">packet</span> <span class="ni">summary</span> <span class="ni">even</span> <span class="ni">when</span> <span class="ni">writing</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">file</span>
+  <span class="err">-S</span> <span class="err">&lt;</span><span class="ni">separator</span><span class="err">&gt;</span>           <span class="ni">the</span> <span class="ni">line</span> <span class="ni">separator</span> <span class="ni">to</span> <span class="ni">print</span> <span class="ni">between</span> <span class="ni">packets</span>
+  <span class="err">-x</span>                       <span class="ni">add</span> <span class="ni">output</span> <span class="ni">of</span> <span class="ni">hex</span> <span class="ni">and</span> <span class="ni">ASCII</span> <span class="ni">dump</span> <span class="p">(</span><span class="ni">Packet</span> <span class="ni">Bytes</span><span class="p">)</span>
+  <span class="err">-T</span> <span class="ni">pdml</span><span class="err">|</span><span class="ni">ps</span><span class="err">|</span><span class="ni">psml</span><span class="err">|</span><span class="ni">json</span><span class="err">|</span><span class="ni">jsonraw</span><span class="err">|</span><span class="ni">ek</span><span class="err">|</span><span class="ni">tabs</span><span class="err">|</span><span class="ni">text</span><span class="err">|</span><span class="ni">fields</span><span class="err">|?</span>
+                           <span class="ni">format</span> <span class="ni">of</span> <span class="ni">text</span> <span class="ni">output</span> <span class="p">(</span><span class="kd">def:</span> <span class="ni">text</span><span class="p">)</span>
+  <span class="err">-j</span> <span class="err">&lt;</span><span class="ni">protocolfilter</span><span class="err">&gt;</span>      <span class="ni">protocols</span> <span class="ni">layers</span> <span class="ni">filter</span> <span class="ni">if</span> <span class="err">-T</span> <span class="ni">ek</span><span class="err">|</span><span class="ni">pdml</span><span class="err">|</span><span class="ni">json</span> <span class="ni">selected</span>
+                           <span class="p">(</span><span class="err">e.g.</span> <span class="s">"ip ip.flags text"</span><span class="p">,</span> <span class="ni">filter</span> <span class="ni">does</span> <span class="ni">not</span> <span class="ni">expand</span> <span class="ni">child</span>
+                           <span class="ni">nodes</span><span class="p">,</span> <span class="ni">unless</span> <span class="ni">child</span> <span class="ni">is</span> <span class="ni">specified</span> <span class="ni">also</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">filter</span><span class="p">)</span>
+  <span class="err">-J</span> <span class="err">&lt;</span><span class="ni">protocolfilter</span><span class="err">&gt;</span>      <span class="ni">top</span> <span class="ni">level</span> <span class="ni">protocol</span> <span class="ni">filter</span> <span class="ni">if</span> <span class="err">-T</span> <span class="ni">ek</span><span class="err">|</span><span class="ni">pdml</span><span class="err">|</span><span class="ni">json</span> <span class="ni">selected</span>
+                           <span class="p">(</span><span class="err">e.g.</span> <span class="s">"http tcp"</span><span class="p">,</span> <span class="ni">filter</span> <span class="ni">which</span> <span class="ni">expands</span> <span class="ni">all</span> <span class="ni">child</span> <span class="ni">nodes</span><span class="p">)</span>
+  <span class="err">-e</span> <span class="err">&lt;</span><span class="ni">field</span><span class="err">&gt;</span>               <span class="ni">field</span> <span class="ni">to</span> <span class="ni">print</span> <span class="ni">if</span> <span class="err">-</span><span class="ni">Tfields</span> <span class="ni">selected</span> <span class="p">(</span><span class="err">e.g.</span> <span class="ni">tcp</span><span class="err">.</span><span class="ni">port</span><span class="p">,</span>
+                           <span class="ni">_ws</span><span class="err">.</span><span class="ni">col</span><span class="err">.</span><span class="ni">Info</span><span class="p">)</span>
+                           <span class="ni">this</span> <span class="ni">option</span> <span class="ni">can</span> <span class="ni">be</span> <span class="ni">repeated</span> <span class="ni">to</span> <span class="ni">print</span> <span class="ni">multiple</span> <span class="ni">fields</span>
+  <span class="err">-E&lt;</span><span class="ni">fieldsoption</span><span class="err">&gt;=&lt;</span><span class="ni">value</span><span class="err">&gt;</span> <span class="ni">set</span> <span class="ni">options</span> <span class="ni">for</span> <span class="ni">output</span> <span class="ni">when</span> <span class="err">-</span><span class="ni">Tfields</span> <span class="kd">selected:</span>
+     <span class="ni">bom</span><span class="err">=y|n</span>               <span class="ni">print</span> <span class="err">a</span> <span class="ni">UTF</span><span class="err">-</span><span class="m">8</span> <span class="ni">BOM</span>
+     <span class="ni">header</span><span class="err">=y|n</span>            <span class="ni">switch</span> <span class="ni">headers</span> <span class="ni">on</span> <span class="ni">and</span> <span class="ni">off</span>
+     <span class="ni">separator</span><span class="err">=</span><span class="p">/</span><span class="err">t|</span><span class="p">/</span><span class="err">s|&lt;</span><span class="ni">char</span><span class="err">&gt;</span> <span class="ni">select</span> <span class="ni">tab</span><span class="p">,</span> <span class="ni">space</span><span class="p">,</span> <span class="ni">printable</span> <span class="ni">character</span> <span class="ni">as</span> <span class="ni">separator</span>
+     <span class="ni">occurrence</span><span class="err">=f|l|a</span>      <span class="ni">print</span> <span class="ni">first</span><span class="p">,</span> <span class="ni">last</span> <span class="ni">or</span> <span class="ni">all</span> <span class="ni">occurrences</span> <span class="ni">of</span> <span class="ni">each</span> <span class="ni">field</span>
+     <span class="ni">aggregator</span><span class="err">=</span><span class="p">,</span><span class="err">|</span><span class="p">/</span><span class="err">s|&lt;</span><span class="ni">char</span><span class="err">&gt;</span> <span class="ni">select</span> <span class="ni">comma</span><span class="p">,</span> <span class="ni">space</span><span class="p">,</span> <span class="ni">printable</span> <span class="ni">character</span> <span class="ni">as</span>
+                           <span class="ni">aggregator</span>
+     <span class="ni">quote</span><span class="err">=d|s|n</span>           <span class="ni">select</span> <span class="ni">double</span><span class="p">,</span> <span class="ni">single</span><span class="p">,</span> <span class="ni">no</span> <span class="ni">quotes</span> <span class="ni">for</span> <span class="ni">values</span>
+  <span class="err">-t</span> <span class="err">a|</span><span class="ni">ad</span><span class="err">|</span><span class="ni">adoy</span><span class="err">|d|</span><span class="ni">dd</span><span class="err">|e|r|u|</span><span class="ni">ud</span><span class="err">|</span><span class="ni">udoy</span>
+                           <span class="ni">output</span> <span class="ni">format</span> <span class="ni">of</span> <span class="ni">time</span> <span class="ni">stamps</span> <span class="p">(</span><span class="kd">def:</span> <span class="kd">r:</span> <span class="ni">rel</span><span class="err">.</span> <span class="ni">to</span> <span class="ni">first</span><span class="p">)</span>
+  <span class="err">-u</span> <span class="err">s|</span><span class="ni">hms</span>                 <span class="ni">output</span> <span class="ni">format</span> <span class="ni">of</span> <span class="ni">seconds</span> <span class="p">(</span><span class="kd">def:</span> <span class="kd">s:</span> <span class="ni">seconds</span><span class="p">)</span>
+  <span class="err">-l</span>                       <span class="ni">flush</span> <span class="ni">standard</span> <span class="ni">output</span> <span class="ni">after</span> <span class="ni">each</span> <span class="ni">packet</span>
+  <span class="err">-q</span>                       <span class="ni">be</span> <span class="ni">more</span> <span class="ni">quiet</span> <span class="ni">on</span> <span class="ni">stdout</span> <span class="p">(</span><span class="err">e.g.</span> <span class="ni">when</span> <span class="ni">using</span> <span class="ni">statistics</span><span class="p">)</span>
+  <span class="err">-Q</span>                       <span class="ni">only</span> <span class="ni">log</span> <span class="ni">true</span> <span class="ni">errors</span> <span class="ni">to</span> <span class="ni">stderr</span> <span class="p">(</span><span class="ni">quieter</span> <span class="ni">than</span> <span class="err">-q</span><span class="p">)</span>
+  <span class="err">-g</span>                       <span class="ni">enable</span> <span class="ni">group</span> <span class="ni">read</span> <span class="ni">access</span> <span class="ni">on</span> <span class="ni">the</span> <span class="ni">output</span> <span class="ni">file</span><span class="p">(</span><span class="err">s</span><span class="p">)</span>
+  <span class="err">-W</span> <span class="err">n</span>                     <span class="ni">Save</span> <span class="ni">extra</span> <span class="ni">information</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">file</span><span class="p">,</span> <span class="ni">if</span> <span class="ni">supported</span><span class="err">.</span>
+                           <span class="err">n</span> <span class="err">=</span> <span class="ni">write</span> <span class="ni">network</span> <span class="ni">address</span> <span class="ni">resolution</span> <span class="ni">information</span>
+  <span class="err">-X</span> <span class="err">&lt;</span><span class="ni">key</span><span class="err">&gt;:&lt;</span><span class="ni">value</span><span class="err">&gt;</span>         <span class="ni">eXtension</span> <span class="ni">options</span><span class="p">,</span> <span class="ni">see</span> <span class="ni">the</span> <span class="ni">man</span> <span class="ni">page</span> <span class="ni">for</span> <span class="ni">details</span>
+  <span class="err">-U</span> <span class="ni">tap_name</span>              <span class="ni">PDUs</span> <span class="ni">export</span> <span class="ni">mode</span><span class="p">,</span> <span class="ni">see</span> <span class="ni">the</span> <span class="ni">man</span> <span class="ni">page</span> <span class="ni">for</span> <span class="ni">details</span>
+  <span class="err">-z</span> <span class="err">&lt;</span><span class="ni">statistics</span><span class="err">&gt;</span>          <span class="ni">various</span> <span class="ni">statistics</span><span class="p">,</span> <span class="ni">see</span> <span class="ni">the</span> <span class="ni">man</span> <span class="ni">page</span> <span class="ni">for</span> <span class="ni">details</span>
+  <span class="err">--</span><span class="ni">export</span><span class="err">-</span><span class="ni">objects</span> <span class="err">&lt;</span><span class="ni">protocol</span><span class="err">&gt;</span><span class="p">,</span><span class="err">&lt;</span><span class="ni">destdir</span><span class="err">&gt;</span>
+                           <span class="ni">save</span> <span class="ni">exported</span> <span class="ni">objects</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">protocol</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">directory</span>
+                           <span class="ni">named</span> <span class="s">"destdir"</span>
+  <span class="err">--</span><span class="ni">color</span>                  <span class="ni">color</span> <span class="ni">output</span> <span class="ni">text</span> <span class="ni">similarly</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">Wireshark</span> <span class="ni">GUI</span><span class="p">,</span>
+                           <span class="ni">requires</span> <span class="err">a</span> <span class="ni">terminal</span> <span class="ni">with</span> <span class="m">24</span><span class="err">-</span><span class="ni">bit</span> <span class="ni">color</span> <span class="ni">support</span>
+                           <span class="ni">Also</span> <span class="ni">supplies</span> <span class="ni">color</span> <span class="ni">attributes</span> <span class="ni">to</span> <span class="ni">pdml</span> <span class="ni">and</span> <span class="ni">psml</span> <span class="ni">formats</span>
+                           <span class="p">(</span><span class="ni">Note</span> <span class="ni">that</span> <span class="ni">attributes</span> <span class="ni">are</span> <span class="ni">nonstandard</span><span class="p">)</span>
+  <span class="err">--</span><span class="ni">no</span><span class="err">-</span><span class="ni">duplicate</span><span class="err">-</span><span class="ni">keys</span>      <span class="ni">If</span> <span class="err">-T</span> <span class="ni">json</span> <span class="ni">is</span> <span class="ni">specified</span><span class="p">,</span> <span class="ni">merge</span> <span class="ni">duplicate</span> <span class="ni">keys</span> <span class="ni">in</span> <span class="ni">an</span> <span class="ni">object</span>
+                           <span class="ni">into</span> <span class="err">a</span> <span class="ni">single</span> <span class="ni">key</span> <span class="ni">with</span> <span class="ni">as</span> <span class="ni">value</span> <span class="err">a</span> <span class="ni">json</span> <span class="ni">array</span> <span class="ni">containing</span> <span class="ni">all</span>
+                           <span class="ni">values</span>
+  <span class="err">--</span><span class="ni">elastic</span><span class="err">-</span><span class="ni">mapping</span><span class="err">-</span><span class="ni">filter</span> <span class="err">&lt;</span><span class="ni">protocols</span><span class="err">&gt;</span> <span class="ni">If</span> <span class="err">-G</span> <span class="ni">elastic</span><span class="err">-</span><span class="ni">mapping</span> <span class="ni">is</span> <span class="ni">specified</span><span class="p">,</span> <span class="ni">put</span> <span class="ni">only</span> <span class="ni">the</span>
+                           <span class="ni">specified</span> <span class="ni">protocols</span> <span class="ni">within</span> <span class="ni">the</span> <span class="ni">mapping</span> <span class="ni">file</span>
+
+<span class="ni">Miscellaneous</span><span class="err">:</span>
+  <span class="err">-h</span><span class="p">,</span> <span class="err">--</span><span class="ni">help</span>               <span class="ni">display</span> <span class="ni">this</span> <span class="ni">help</span> <span class="ni">and</span> <span class="ni">exit</span>
+  <span class="err">-v</span><span class="p">,</span> <span class="err">--</span><span class="ni">version</span>            <span class="ni">display</span> <span class="ni">version</span> <span class="ni">info</span> <span class="ni">and</span> <span class="ni">exit</span>
+  <span class="err">-o</span> <span class="err">&lt;</span><span class="ni">name</span><span class="err">&gt;:&lt;</span><span class="ni">value</span><span class="err">&gt;</span> <span class="err">...</span>    <span class="ni">override</span> <span class="ni">preference</span> <span class="ni">setting</span>
+  <span class="err">-K</span> <span class="err">&lt;</span><span class="ni">keytab</span><span class="err">&gt;</span>              <span class="ni">keytab</span> <span class="ni">file</span> <span class="ni">to</span> <span class="ni">use</span> <span class="ni">for</span> <span class="ni">kerberos</span> <span class="ni">decryption</span>
+  <span class="err">-G</span> <span class="err">[</span><span class="ni">report</span><span class="err">]</span>              <span class="ni">dump</span> <span class="ni">one</span> <span class="ni">of</span> <span class="ni">several</span> <span class="ni">available</span> <span class="ni">reports</span> <span class="ni">and</span> <span class="ni">exit</span>
+                           <span class="ni">default</span> <span class="ni">report</span><span class="err">=</span><span class="s">"fields"</span>
+                           <span class="ni">use</span> <span class="s">"-G help"</span> <span class="ni">for</span> <span class="ni">more</span> <span class="ni">help</span>
+
+</code></pre></div></div>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">The</span> <span class="ni">NPF</span> <span class="ni">driver</span> <span class="ni">isn</span><span class="err">'t</span> <span class="ni">running</span><span class="err">.</span>  <span class="ni">You</span> <span class="ni">may</span> <span class="ni">have</span> <span class="ni">trouble</span> <span class="ni">capturing</span> <span class="ni">or</span>
+<span class="ni">listing</span> <span class="ni">interfaces</span><span class="err">.</span>
+<span class="kd">tshark:</span> <span class="ni">Unable</span> <span class="ni">to</span> <span class="ni">load</span> <span class="ni">Npcap</span> <span class="ni">or</span> <span class="ni">WinPcap</span> <span class="p">(</span><span class="ni">wpcap</span><span class="err">.</span><span class="ni">dll</span><span class="p">)</span><span class="c">; you will not be able to</span>
+<span class="ni">capture</span> <span class="ni">packets</span><span class="err">.</span>
+
+<span class="ni">In</span> <span class="ni">order</span> <span class="ni">to</span> <span class="ni">capture</span> <span class="ni">packets</span> <span class="ni">Npcap</span> <span class="ni">or</span> <span class="ni">WinPcap</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">installed</span><span class="err">.</span> <span class="ni">See</span>
+
+        <span class="kd">https:</span><span class="p">//</span><span class="ni">nmap</span><span class="err">.</span><span class="ni">org</span><span class="p">/</span><span class="ni">npcap</span><span class="p">/</span>
+
+<span class="ni">for</span> <span class="err">a</span> <span class="ni">downloadable</span> <span class="ni">version</span> <span class="ni">of</span> <span class="ni">Npcap</span> <span class="ni">and</span> <span class="ni">for</span> <span class="ni">instructions</span> <span class="ni">on</span> <span class="ni">how</span> <span class="ni">to</span>
+<span class="ni">install</span> <span class="ni">it</span><span class="err">.</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Program Files\Wireshark\tshark.exe</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNEL32.DLL</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNELBASE.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">02CCD99F7D556C13CE8710C69D09B31A</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">E8EF7325044D018B0C0DCD8CBA4190B155857F3B</code></li>
+  <li>Issuer: CN=Sectigo RSA Code Signing CA, O=Sectigo Limited, L=Salford, S=Greater Manchester, C=GB</li>
+  <li>Subject: CN=”Wireshark Foundation, Inc.”, O=”Wireshark Foundation, Inc.”, STREET=711 4th street, L=Davis, S=CA, PostalCode=95616, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: TShark.exe</li>
+  <li>Product Name: TShark</li>
+  <li>Company Name: The Wireshark developer community</li>
+  <li>File Version: 3.2.7</li>
+  <li>Product Version: 3.2.7</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright: Copyright  2000 Gerald Combs <a href="mailto:gerald@wireshark.org">gerald@wireshark.org</a>, Gilbert Ramirez <a href="mailto:gram@alumni.rice.edu">gram@alumni.rice.edu</a> and others</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/71</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/2530bc472f4c73b19c6a2d99c5879c6943279f7c18e37f89f1e58aec32701625/detection/</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">tshark.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">tshark.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/auditd/lnx_network_sniffing.yml">lnx_network_sniffing.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">a0: 'tshark'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_network_sniffing.yml">win_network_sniffing.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Image\|endswith: '\tshark.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>Perform a PCAP. Wireshark will be required for tshark. TCPdump may already be installed.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>Upon successful execution, tshark or tcpdump will execute and capture 5 packets on interface ens33.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>tshark -c 5 -i #{interface}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>if [ ! -x “$(command -v tcpdump)” ] &amp;&amp; [ ! -x “$(command -v tshark)” ]; then exit 1; else exit 0; fi;</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>echo “Install tcpdump and/or tshark for the test to run.”; exit 1;</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>Perform a PCAP on macOS. This will require Wireshark/tshark to be installed. TCPdump may already be installed.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>Upon successful execution, tshark or tcpdump will execute and capture 5 packets on interface en0A.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>if [ -x “$(command -v tshark)” ]; then sudo tshark -c 5 -i #{interface}; fi;</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>Perform a packet capture using the windows command prompt. This will require a host that has Wireshark/Tshark</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>Upon successful execution, tshark will execute and capture 5 packets on interface “Ethernet”.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>| tshark_path | path to tshark.exe | path | c:\program files\wireshark\tshark.exe|</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>“c:\Program Files\Wireshark\tshark.exe” -i #{interface} -c 5</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
+      <td>##### Description: tshark must be installed and in the default path of “c:\Program Files\Wireshark\Tshark.exe”.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1048.003/T1048.003.md">T1048.003.md</a></td>
+      <td>tshark -f “udp port 53” -Y “dns.qry.type == 1 and dns.flags.response == 0 and dns.qry.name matches “.domain”” » received_data.txt</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_fin7_backdoor.yar">apt_fin7_backdoor.yar</a></td>
+      <td>$a3 = “tshark.exe” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

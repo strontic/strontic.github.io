@@ -1,0 +1,667 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>w32tm.exe | Windows Time Service Diagnostic Tool &#124; STRONTIC</title>
+<meta name="description" content="What is w32tm.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="w32tm.exe | Windows Time Service Diagnostic Tool">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/w32tm.exe-EB05B99953C30E25B4CA97F903A0DEA9.html">
+
+
+  <meta property="og:description" content="What is w32tm.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="w32tm.exe | Windows Time Service Diagnostic Tool">
+  <meta name="twitter:description" content="What is w32tm.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/w32tm.exe-EB05B99953C30E25B4CA97F903A0DEA9.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/w32tm.exe-EB05B99953C30E25B4CA97F903A0DEA9.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">w32tm.exe | Windows Time Service Diagnostic Tool</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            w32tm.exe      Windows Time Service Diagnostic Tool      ">
+    <meta itemprop="description" content="What is w32tm.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="w32tmexe">w32tm.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\system32\w32tm.exe</code></li>
+  <li>Description: Windows Time Service Diagnostic Tool</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">EB05B99953C30E25B4CA97F903A0DEA9</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">2EB828994FA91E61376917496D87972EB116F6AE</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">A6068FDD06A779798BE73420AE7E91544C23B96EB01D75A1BE86EAD8C0413E6B</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">1A20536290E92B4F2CEB9FCA1E601A98D41A73AF28F991209BA8876CE9245D2A58FA953ACBBFF959CDBC9E7BA439F18E</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">F8AEF1FC53B8A3E8AFBD881959CAEC65E7BFB6C8BFA2723223A94AFF93466BAF8657809100E0B1F3BAE517F1DCDB2D773BD81EFC0770F71E334F3912D8A23C6F</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">3072:eaze49f0cro8wkY0hWbmemIcTQX1WRfWvxv+RhUZ4JmQGKbUCyUXpn7cIW5exIs7:eaqVkTATcI1WRk+RhU2hZPWodZJuhz</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">386119C6C0099E2C065ADCD2AA770E11</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">EEE5E0ABF6067EEB771FC0590159C977543C2D82</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">D05C714B751B78B901282399AD8DA7328BD9E5C5AFBC64FD193FAA58B89C928C</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">w32tm</span> <span class="err">[</span><span class="p">/</span><span class="err">?</span> <span class="err">|</span> <span class="p">/</span><span class="ni">register</span> <span class="err">|</span> <span class="p">/</span><span class="ni">unregister</span> <span class="err">]</span>
+  <span class="err">?</span> <span class="err">-</span> <span class="ni">this</span> <span class="ni">help</span> <span class="ni">screen</span><span class="err">.</span>
+  <span class="ni">register</span> <span class="err">-</span> <span class="ni">register</span> <span class="ni">to</span> <span class="ni">run</span> <span class="ni">as</span> <span class="err">a</span> <span class="ni">service</span> <span class="ni">and</span> <span class="ni">add</span> <span class="ni">default</span>
+    <span class="ni">configuration</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">registry</span><span class="err">.</span>
+  <span class="ni">unregister</span> <span class="err">-</span> <span class="ni">unregister</span> <span class="ni">service</span> <span class="ni">and</span> <span class="ni">remove</span> <span class="ni">all</span> <span class="ni">configuration</span>
+    <span class="ni">information</span> <span class="ni">from</span> <span class="ni">the</span> <span class="ni">registry</span><span class="err">.</span>
+
+<span class="ni">w32tm</span> <span class="p">/</span><span class="ni">monitor</span> <span class="err">[</span><span class="p">/</span><span class="kd">domain:</span><span class="err">&lt;</span><span class="ni">domain</span> <span class="ni">name</span><span class="err">&gt;]</span>
+               <span class="err">[</span><span class="p">/</span><span class="kd">computers:</span><span class="err">&lt;</span><span class="ni">name</span><span class="err">&gt;[</span><span class="p">,</span><span class="err">&lt;</span><span class="ni">name</span><span class="err">&gt;[</span><span class="p">,</span><span class="err">&lt;</span><span class="ni">name</span><span class="err">&gt;...]]]</span>
+               <span class="err">[</span><span class="p">/</span><span class="kd">threads:</span><span class="err">&lt;</span><span class="ni">num</span><span class="err">&gt;]</span> <span class="err">[</span><span class="p">/</span><span class="kd">ipprotocol:</span><span class="err">&lt;</span><span class="m">4</span><span class="err">|</span><span class="m">6</span><span class="err">&gt;]</span> <span class="err">[</span><span class="p">/</span><span class="ni">nowarn</span><span class="err">]</span>
+  <span class="ni">domain</span> <span class="err">-</span> <span class="ni">specifies</span> <span class="ni">which</span> <span class="ni">domain</span> <span class="ni">to</span> <span class="ni">monitor</span><span class="err">.</span> <span class="ni">If</span> <span class="ni">no</span> <span class="ni">domain</span> <span class="ni">name</span>
+    <span class="ni">is</span> <span class="ni">given</span><span class="p">,</span> <span class="ni">or</span> <span class="ni">neither</span> <span class="ni">the</span> <span class="ni">domain</span> <span class="ni">nor</span> <span class="ni">computers</span> <span class="ni">option</span> <span class="ni">is</span>
+    <span class="ni">specified</span><span class="p">,</span> <span class="ni">the</span> <span class="ni">default</span> <span class="ni">domain</span> <span class="ni">is</span> <span class="ni">used</span><span class="err">.</span> <span class="ni">This</span> <span class="ni">option</span> <span class="ni">may</span> <span class="ni">be</span>
+    <span class="ni">used</span> <span class="ni">more</span> <span class="ni">than</span> <span class="ni">once</span><span class="err">.</span>
+  <span class="ni">computers</span> <span class="err">-</span> <span class="ni">monitors</span> <span class="ni">the</span> <span class="ni">given</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">computers</span><span class="err">.</span> <span class="ni">Computer</span>
+   <span class="ni">names</span> <span class="ni">are</span> <span class="ni">separated</span> <span class="ni">by</span> <span class="ni">commas</span><span class="p">,</span> <span class="ni">with</span> <span class="ni">no</span> <span class="ni">spaces</span><span class="err">.</span> <span class="ni">If</span> <span class="err">a</span> <span class="ni">name</span> <span class="ni">is</span>
+    <span class="ni">prefixed</span> <span class="ni">with</span> <span class="err">a</span> <span class="err">'*'</span><span class="p">,</span> <span class="ni">it</span> <span class="ni">is</span> <span class="ni">treated</span> <span class="ni">as</span> <span class="ni">an</span> <span class="ni">AD</span> <span class="ni">PDC</span><span class="err">.</span> <span class="ni">This</span> <span class="ni">option</span>
+    <span class="ni">may</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">more</span> <span class="ni">than</span> <span class="ni">once</span><span class="err">.</span>
+  <span class="ni">threads</span> <span class="err">-</span> <span class="ni">how</span> <span class="ni">many</span> <span class="ni">computers</span> <span class="ni">to</span> <span class="ni">analyze</span> <span class="ni">simultaneously</span><span class="err">.</span> <span class="ni">The</span>
+    <span class="ni">default</span> <span class="ni">value</span> <span class="ni">is</span> <span class="m">3</span><span class="err">.</span> <span class="ni">Allowed</span> <span class="ni">range</span> <span class="ni">is</span> <span class="m">1</span><span class="err">-</span><span class="m">50</span><span class="err">.</span>
+  <span class="ni">ipprotocol</span> <span class="err">-</span> <span class="ni">specify</span> <span class="ni">the</span> <span class="ni">IP</span> <span class="ni">protocol</span> <span class="ni">to</span> <span class="ni">use</span><span class="err">.</span> <span class="ni">The</span> <span class="ni">default</span> <span class="ni">is</span>
+    <span class="ni">to</span> <span class="ni">use</span> <span class="ni">whatever</span> <span class="ni">is</span> <span class="ni">available</span><span class="err">.</span>
+  <span class="ni">nowarn</span> <span class="err">-</span> <span class="ni">skip</span> <span class="ni">warning</span> <span class="ni">message</span><span class="err">.</span>
+
+<span class="ni">w32tm</span> <span class="p">/</span><span class="ni">ntte</span> <span class="err">&lt;</span><span class="ni">NT</span> <span class="ni">time</span> <span class="ni">epoch</span><span class="err">&gt;</span>
+  <span class="ni">Convert</span> <span class="err">a</span> <span class="ni">NT</span> <span class="ni">system</span> <span class="ni">time</span><span class="p">,</span> <span class="ni">in</span> <span class="p">(</span><span class="m">10</span><span class="err">^-</span><span class="m">7</span><span class="p">)</span><span class="err">s</span> <span class="ni">intervals</span> <span class="ni">from</span> <span class="m">0</span><span class="err">h</span> <span class="m">1</span><span class="err">-</span><span class="ni">Jan</span> <span class="m">1601</span><span class="p">,</span>
+  <span class="ni">into</span> <span class="err">a</span> <span class="ni">readable</span> <span class="ni">format</span><span class="err">.</span>
+
+<span class="ni">w32tm</span> <span class="p">/</span><span class="ni">ntpte</span> <span class="err">&lt;</span><span class="ni">NTP</span> <span class="ni">time</span> <span class="ni">epoch</span><span class="err">&gt;</span>
+  <span class="ni">Convert</span> <span class="ni">an</span> <span class="ni">NTP</span> <span class="ni">time</span><span class="p">,</span> <span class="ni">in</span> <span class="p">(</span><span class="m">2</span><span class="err">^-</span><span class="m">32</span><span class="p">)</span><span class="err">s</span> <span class="ni">intervals</span> <span class="ni">from</span> <span class="m">0</span><span class="err">h</span> <span class="m">1</span><span class="err">-</span><span class="ni">Jan</span> <span class="m">1900</span><span class="p">,</span> <span class="ni">into</span>
+  <span class="err">a</span> <span class="ni">readable</span> <span class="ni">format</span><span class="err">.</span>
+
+<span class="ni">w32tm</span> <span class="p">/</span><span class="ni">resync</span> <span class="err">[</span><span class="p">/</span><span class="kd">computer:</span><span class="err">&lt;</span><span class="ni">computer</span><span class="err">&gt;]</span> <span class="err">[</span><span class="p">/</span><span class="ni">nowait</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="ni">rediscover</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="ni">soft</span><span class="err">]</span>
+  <span class="ni">Tell</span> <span class="err">a</span> <span class="ni">computer</span> <span class="ni">that</span> <span class="ni">it</span> <span class="ni">should</span> <span class="ni">resynchronize</span> <span class="ni">its</span> <span class="ni">clock</span> <span class="ni">as</span> <span class="ni">soon</span>
+  <span class="ni">as</span> <span class="ni">possible</span><span class="p">,</span> <span class="ni">throwing</span> <span class="ni">out</span> <span class="ni">all</span> <span class="ni">accumulated</span> <span class="ni">error</span> <span class="ni">statistics</span><span class="err">.</span>
+  <span class="kd">computer:</span><span class="err">&lt;</span><span class="ni">computer</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">computer</span> <span class="ni">that</span> <span class="ni">should</span> <span class="ni">resync</span><span class="err">.</span> <span class="ni">If</span> <span class="ni">not</span>
+    <span class="ni">specified</span><span class="p">,</span> <span class="ni">the</span> <span class="ni">local</span> <span class="ni">computer</span> <span class="ni">will</span> <span class="ni">resync</span><span class="err">.</span>
+  <span class="ni">nowait</span> <span class="err">-</span> <span class="ni">do</span> <span class="ni">not</span> <span class="ni">wait</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">resync</span> <span class="ni">to</span> <span class="ni">occur</span><span class="c">;</span>
+    <span class="ni">return</span> <span class="ni">immediately</span><span class="err">.</span> <span class="ni">Otherwise</span><span class="p">,</span> <span class="ni">wait</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">resync</span> <span class="ni">to</span>
+    <span class="ni">complete</span> <span class="ni">before</span> <span class="ni">returning</span><span class="err">.</span>
+  <span class="ni">rediscover</span> <span class="err">-</span> <span class="ni">redetect</span> <span class="ni">the</span> <span class="ni">network</span> <span class="ni">configuration</span> <span class="ni">and</span> <span class="ni">rediscover</span>
+    <span class="ni">network</span> <span class="ni">sources</span><span class="p">,</span> <span class="ni">then</span> <span class="ni">resynchronize</span><span class="err">.</span>
+  <span class="ni">soft</span> <span class="err">-</span> <span class="ni">resync</span> <span class="ni">utilizing</span> <span class="ni">existing</span> <span class="ni">error</span> <span class="ni">statistics</span><span class="err">.</span> <span class="ni">Not</span> <span class="ni">useful</span><span class="p">,</span>
+    <span class="ni">provided</span> <span class="ni">for</span> <span class="ni">compatibility</span><span class="err">.</span>
+
+<span class="ni">w32tm</span> <span class="p">/</span><span class="ni">stripchart</span> <span class="p">/</span><span class="kd">computer:</span><span class="err">&lt;</span><span class="ni">target</span><span class="err">&gt;</span> <span class="err">[</span><span class="p">/</span><span class="kd">period:</span><span class="err">&lt;</span><span class="ni">refresh</span><span class="err">&gt;]</span>
+    <span class="err">[</span><span class="p">/</span><span class="ni">dataonly</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="kd">samples:</span><span class="err">&lt;</span><span class="ni">count</span><span class="err">&gt;]</span> <span class="err">[</span><span class="p">/</span><span class="ni">packetinfo</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="kd">ipprotocol:</span><span class="err">&lt;</span><span class="m">4</span><span class="err">|</span><span class="m">6</span><span class="err">&gt;]</span> <span class="err">[</span><span class="p">/</span><span class="ni">rdtsc</span><span class="err">]</span>
+  <span class="ni">Display</span> <span class="err">a</span> <span class="ni">strip</span> <span class="ni">chart</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">offset</span> <span class="ni">between</span> <span class="ni">this</span> <span class="ni">computer</span> <span class="ni">and</span>
+  <span class="ni">another</span> <span class="ni">computer</span><span class="err">.</span>
+  <span class="kd">computer:</span><span class="err">&lt;</span><span class="ni">target</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">the</span> <span class="ni">computer</span> <span class="ni">to</span> <span class="ni">measure</span> <span class="ni">the</span> <span class="ni">offset</span> <span class="ni">against</span><span class="err">.</span>
+  <span class="kd">period:</span><span class="err">&lt;</span><span class="ni">refresh</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">the</span> <span class="ni">time</span> <span class="ni">between</span> <span class="ni">samples</span><span class="p">,</span> <span class="ni">in</span> <span class="ni">seconds</span><span class="err">.</span> <span class="ni">The</span>
+    <span class="ni">default</span> <span class="ni">is</span> <span class="m">2</span><span class="err">s</span>
+  <span class="ni">dataonly</span> <span class="err">-</span> <span class="ni">display</span> <span class="ni">only</span> <span class="ni">the</span> <span class="ni">data</span><span class="p">,</span> <span class="ni">no</span> <span class="ni">graphics</span><span class="err">.</span>
+  <span class="kd">samples:</span><span class="err">&lt;</span><span class="ni">count</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">collect</span> <span class="err">&lt;</span><span class="ni">count</span><span class="err">&gt;</span> <span class="ni">samples</span><span class="p">,</span> <span class="ni">then</span> <span class="ni">stop</span><span class="err">.</span> <span class="ni">If</span> <span class="ni">not</span>
+    <span class="ni">specified</span><span class="p">,</span> <span class="ni">samples</span> <span class="ni">will</span> <span class="ni">be</span> <span class="ni">collected</span> <span class="ni">until</span> <span class="ni">Ctrl</span><span class="err">-C</span> <span class="ni">is</span> <span class="ni">pressed</span><span class="err">.</span>
+  <span class="ni">packetinfo</span> <span class="err">-</span> <span class="ni">print</span> <span class="ni">out</span> <span class="ni">NTP</span> <span class="ni">packet</span> <span class="ni">response</span> <span class="ni">message</span><span class="err">.</span>
+  <span class="ni">ipprotocol</span> <span class="err">-</span> <span class="ni">specify</span> <span class="ni">the</span> <span class="ni">IP</span> <span class="ni">protocol</span> <span class="ni">to</span> <span class="ni">use</span><span class="err">.</span> <span class="ni">The</span> <span class="ni">default</span> <span class="ni">is</span> 
+    <span class="ni">to</span> <span class="ni">use</span> <span class="ni">whatever</span> <span class="ni">is</span> <span class="ni">available</span><span class="err">.</span>
+  <span class="ni">rdtsc</span> <span class="err">-</span> <span class="ni">display</span> <span class="ni">the</span> <span class="ni">TSC</span> <span class="ni">values</span> <span class="ni">and</span> <span class="ni">time</span> <span class="ni">offset</span> <span class="ni">data</span> <span class="ni">in</span> <span class="ni">CSV</span> <span class="ni">format</span><span class="err">.</span>
+    <span class="ni">The</span> <span class="ni">output</span> <span class="ni">displays</span> <span class="ni">TSC</span> <span class="ni">and</span> <span class="ni">FILETIME</span> <span class="ni">values</span> <span class="ni">captured</span> <span class="ni">before</span> <span class="ni">the</span> 
+    <span class="ni">NTP</span> <span class="ni">request</span> <span class="ni">is</span> <span class="ni">sent</span><span class="p">,</span> <span class="ni">TSC</span> <span class="ni">value</span> <span class="ni">after</span> <span class="ni">an</span> <span class="ni">NTP</span> <span class="ni">response</span> <span class="ni">is</span> <span class="ni">received</span>
+    <span class="ni">along</span> <span class="ni">with</span> <span class="ni">NTP</span> <span class="ni">roundtrip</span> <span class="ni">and</span> <span class="ni">time</span> <span class="ni">offset</span> <span class="ni">values</span><span class="err">.</span>
+
+
+<span class="ni">w32tm</span> <span class="p">/</span><span class="ni">config</span> <span class="err">[</span><span class="p">/</span><span class="kd">computer:</span><span class="err">&lt;</span><span class="ni">target</span><span class="err">&gt;]</span> <span class="err">[</span><span class="p">/</span><span class="ni">update</span><span class="err">]</span>
+    <span class="err">[</span><span class="p">/</span><span class="kd">manualpeerlist:</span><span class="err">&lt;</span><span class="ni">peers</span><span class="err">&gt;]</span> <span class="err">[</span><span class="p">/</span><span class="kd">syncfromflags:</span><span class="err">&lt;</span><span class="ni">source</span><span class="err">&gt;]</span>
+    <span class="err">[</span><span class="p">/</span><span class="ni">LocalClockDispersion</span><span class="err">:&lt;</span><span class="ni">seconds</span><span class="err">&gt;]</span>
+    <span class="err">[</span><span class="p">/</span><span class="kd">reliable:</span><span class="p">(</span><span class="ni">YES</span><span class="err">|</span><span class="ni">NO</span><span class="p">)</span><span class="err">]</span>
+    <span class="err">[</span><span class="p">/</span><span class="kd">largephaseoffset:</span><span class="err">&lt;</span><span class="ni">milliseconds</span><span class="err">&gt;]</span>
+  <span class="kd">computer:</span><span class="err">&lt;</span><span class="ni">target</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">adjusts</span> <span class="ni">the</span> <span class="ni">configuration</span> <span class="ni">of</span> <span class="err">&lt;</span><span class="ni">target</span><span class="err">&gt;.</span> <span class="ni">If</span> <span class="ni">not</span>
+    <span class="ni">specified</span><span class="p">,</span> <span class="ni">the</span> <span class="ni">default</span> <span class="ni">is</span> <span class="ni">the</span> <span class="ni">local</span> <span class="ni">computer</span><span class="err">.</span>
+  <span class="ni">update</span> <span class="err">-</span> <span class="ni">notifies</span> <span class="ni">the</span> <span class="ni">time</span> <span class="ni">service</span> <span class="ni">that</span> <span class="ni">the</span> <span class="ni">configuration</span> <span class="ni">has</span>
+    <span class="ni">changed</span><span class="p">,</span> <span class="ni">causing</span> <span class="ni">the</span> <span class="ni">changes</span> <span class="ni">to</span> <span class="ni">take</span> <span class="ni">effect</span><span class="err">.</span>
+  <span class="kd">manualpeerlist:</span><span class="err">&lt;</span><span class="ni">peers</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">sets</span> <span class="ni">the</span> <span class="ni">manual</span> <span class="ni">peer</span> <span class="ni">list</span> <span class="ni">to</span> <span class="err">&lt;</span><span class="ni">peers</span><span class="err">&gt;</span><span class="p">,</span>
+    <span class="ni">which</span> <span class="ni">is</span> <span class="err">a</span> <span class="ni">space</span><span class="err">-</span><span class="ni">delimited</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">DNS</span> <span class="ni">and</span><span class="p">/</span><span class="ni">or</span> <span class="ni">IP</span> <span class="ni">addresses</span><span class="err">.</span>
+    <span class="ni">When</span> <span class="ni">specifying</span> <span class="ni">multiple</span> <span class="ni">peers</span><span class="p">,</span> <span class="ni">this</span> <span class="ni">switch</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">enclosed</span> <span class="ni">in</span>
+    <span class="ni">quotes</span><span class="err">.</span>
+  <span class="kd">syncfromflags:</span><span class="err">&lt;</span><span class="ni">source</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">sets</span> <span class="ni">what</span> <span class="ni">sources</span> <span class="ni">the</span> <span class="ni">NTP</span> <span class="ni">client</span> <span class="ni">should</span>
+    <span class="ni">sync</span> <span class="ni">from</span><span class="err">.</span> <span class="err">&lt;</span><span class="ni">source</span><span class="err">&gt;</span> <span class="ni">should</span> <span class="ni">be</span> <span class="err">a</span> <span class="ni">comma</span> <span class="ni">separated</span> <span class="ni">list</span> <span class="ni">of</span>
+    <span class="ni">these</span> <span class="ni">keywords</span> <span class="p">(</span><span class="ni">not</span> <span class="ni">case</span> <span class="ni">sensitive</span><span class="p">)</span><span class="err">:</span>
+      <span class="ni">MANUAL</span> <span class="err">-</span> <span class="ni">sync</span> <span class="ni">from</span> <span class="ni">peers</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">manual</span> <span class="ni">peer</span> <span class="ni">list</span>
+      <span class="ni">DOMHIER</span> <span class="err">-</span> <span class="ni">sync</span> <span class="ni">from</span> <span class="ni">an</span> <span class="ni">AD</span> <span class="ni">DC</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">domain</span> <span class="ni">hierarchy</span>
+      <span class="ni">NO</span> <span class="err">-</span> <span class="ni">sync</span> <span class="ni">from</span> <span class="ni">none</span>
+      <span class="ni">ALL</span> <span class="err">-</span> <span class="ni">sync</span> <span class="ni">from</span> <span class="ni">both</span> <span class="ni">manual</span> <span class="ni">and</span> <span class="ni">domain</span> <span class="ni">peers</span> 
+  <span class="ni">LocalClockDispersion</span><span class="err">:&lt;</span><span class="ni">seconds</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">configures</span> <span class="ni">the</span> <span class="ni">accuracy</span> <span class="ni">of</span> <span class="ni">the</span>
+    <span class="ni">internal</span> <span class="ni">clock</span> <span class="ni">that</span> <span class="ni">w32time</span> <span class="ni">will</span> <span class="ni">assume</span> <span class="ni">when</span> <span class="ni">it</span> <span class="ni">can</span><span class="err">'t</span> <span class="ni">acquire</span> 
+    <span class="ni">time</span> <span class="ni">from</span> <span class="ni">its</span> <span class="ni">configured</span> <span class="ni">sources</span><span class="err">.</span>  
+  <span class="kd">reliable:</span><span class="p">(</span><span class="ni">YES</span><span class="err">|</span><span class="ni">NO</span><span class="p">)</span> <span class="err">-</span> <span class="ni">set</span> <span class="ni">whether</span> <span class="ni">this</span> <span class="ni">machine</span> <span class="ni">is</span> <span class="err">a</span> <span class="ni">reliable</span> <span class="ni">time</span> <span class="ni">source</span><span class="err">.</span>
+    <span class="ni">This</span> <span class="ni">setting</span> <span class="ni">is</span> <span class="ni">only</span> <span class="ni">meaningful</span> <span class="ni">on</span> <span class="ni">domain</span> <span class="ni">controllers</span><span class="err">.</span>  
+      <span class="ni">YES</span> <span class="err">-</span> <span class="ni">this</span> <span class="ni">machine</span> <span class="ni">is</span> <span class="err">a</span> <span class="ni">reliable</span> <span class="ni">time</span> <span class="ni">service</span>
+      <span class="ni">NO</span> <span class="err">-</span> <span class="ni">this</span> <span class="ni">machine</span> <span class="ni">is</span> <span class="ni">not</span> <span class="err">a</span> <span class="ni">reliable</span> <span class="ni">time</span> <span class="ni">service</span>
+  <span class="kd">largephaseoffset:</span><span class="err">&lt;</span><span class="ni">milliseconds</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">sets</span> <span class="ni">the</span> <span class="ni">time</span> <span class="ni">difference</span> <span class="ni">between</span> 
+    <span class="ni">local</span> <span class="ni">and</span> <span class="ni">network</span> <span class="ni">time</span> <span class="ni">which</span> <span class="ni">w32time</span> <span class="ni">will</span> <span class="ni">consider</span> <span class="err">a</span> <span class="ni">spike</span><span class="err">.</span>  
+
+<span class="ni">w32tm</span> <span class="p">/</span><span class="ni">tz</span>
+  <span class="ni">Display</span> <span class="ni">the</span> <span class="ni">current</span> <span class="ni">time</span> <span class="ni">zone</span> <span class="ni">settings</span><span class="err">.</span>
+
+<span class="ni">w32tm</span> <span class="p">/</span><span class="ni">dumpreg</span> <span class="err">[</span><span class="p">/</span><span class="kd">subkey:</span><span class="err">&lt;</span><span class="ni">key</span><span class="err">&gt;]</span> <span class="err">[</span><span class="p">/</span><span class="kd">computer:</span><span class="err">&lt;</span><span class="ni">target</span><span class="err">&gt;]</span>
+  <span class="ni">Display</span> <span class="ni">the</span> <span class="ni">values</span> <span class="ni">associated</span> <span class="ni">with</span> <span class="err">a</span> <span class="ni">given</span> <span class="ni">registry</span> <span class="ni">key</span><span class="err">.</span>
+  <span class="ni">The</span> <span class="ni">default</span> <span class="ni">key</span> <span class="ni">is</span> <span class="ni">HKLM</span><span class="err">\</span><span class="ni">System</span><span class="err">\</span><span class="ni">CurrentControlSet</span><span class="err">\</span><span class="ni">Services</span><span class="err">\</span><span class="ni">W32Time</span>
+    <span class="p">(</span><span class="ni">the</span> <span class="ni">root</span> <span class="ni">key</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">time</span> <span class="ni">service</span><span class="p">)</span><span class="err">.</span>
+  <span class="kd">subkey:</span><span class="err">&lt;</span><span class="ni">key</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">displays</span> <span class="ni">the</span> <span class="ni">values</span> <span class="ni">associated</span> <span class="ni">with</span> <span class="ni">subkey</span> <span class="err">&lt;</span><span class="ni">key</span><span class="err">&gt;</span> 
+    <span class="ni">of</span> <span class="ni">the</span> <span class="ni">default</span> <span class="ni">key</span><span class="err">.</span>
+  <span class="kd">computer:</span><span class="err">&lt;</span><span class="ni">target</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">queries</span> <span class="ni">registry</span> <span class="ni">settings</span> <span class="ni">for</span> <span class="ni">computer</span> <span class="err">&lt;</span><span class="ni">target</span><span class="err">&gt;.</span>
+
+<span class="ni">w32tm</span> <span class="p">/</span><span class="ni">query</span> <span class="err">[</span><span class="p">/</span><span class="kd">computer:</span><span class="err">&lt;</span><span class="ni">target</span><span class="err">&gt;]</span> 
+    <span class="err">{</span><span class="p">/</span><span class="ni">source</span> <span class="err">|</span> <span class="p">/</span><span class="ni">configuration</span> <span class="err">|</span> <span class="p">/</span><span class="ni">peers</span> <span class="err">|</span> <span class="p">/</span><span class="ni">status</span><span class="err">}</span> 
+    <span class="err">[</span><span class="p">/</span><span class="ni">verbose</span><span class="err">]</span>
+  <span class="ni">Display</span> <span class="err">a</span> <span class="ni">computer</span><span class="err">'s</span> <span class="ni">windows</span> <span class="ni">time</span> <span class="ni">service</span> <span class="ni">information</span><span class="err">.</span>
+  <span class="kd">computer:</span><span class="err">&lt;</span><span class="ni">target</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">query</span> <span class="ni">the</span> <span class="ni">information</span> <span class="ni">of</span> <span class="err">&lt;</span><span class="ni">target</span><span class="err">&gt;.</span> <span class="ni">If</span> <span class="ni">not</span>
+    <span class="ni">specified</span><span class="p">,</span> <span class="ni">the</span> <span class="ni">default</span> <span class="ni">is</span> <span class="ni">the</span> <span class="ni">local</span> <span class="ni">computer</span><span class="err">.</span>
+  <span class="kd">source:</span> <span class="ni">display</span> <span class="ni">the</span> <span class="ni">time</span> <span class="ni">source</span><span class="err">.</span>
+  <span class="kd">configuration:</span> <span class="ni">display</span> <span class="ni">the</span> <span class="ni">configuration</span> <span class="ni">of</span> <span class="ni">run</span><span class="err">-</span><span class="ni">time</span> <span class="ni">and</span> <span class="ni">where</span> 
+    <span class="ni">the</span> <span class="ni">setting</span> <span class="ni">comes</span> <span class="ni">from</span><span class="err">.</span> <span class="ni">In</span> <span class="ni">verbose</span> <span class="ni">mode</span><span class="p">,</span> <span class="ni">display</span> <span class="ni">the</span> <span class="ni">undefined</span> 
+    <span class="ni">or</span> <span class="ni">unused</span> <span class="ni">setting</span> <span class="ni">too</span><span class="err">.</span>
+  <span class="kd">peers:</span> <span class="ni">display</span> <span class="err">a</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">peers</span> <span class="ni">and</span> <span class="ni">their</span> <span class="ni">status</span><span class="err">.</span>
+  <span class="kd">status:</span> <span class="ni">display</span> <span class="ni">windows</span> <span class="ni">time</span> <span class="ni">service</span> <span class="ni">status</span><span class="err">.</span>
+  <span class="kd">verbose:</span> <span class="ni">set</span> <span class="ni">the</span> <span class="ni">verbose</span> <span class="ni">mode</span> <span class="ni">to</span> <span class="ni">display</span> <span class="ni">more</span> <span class="ni">information</span><span class="err">.</span>
+
+<span class="ni">w32tm</span> <span class="p">/</span><span class="ni">debug</span> <span class="err">{</span><span class="p">/</span><span class="ni">disable</span> <span class="err">|</span> <span class="err">{</span><span class="p">/</span><span class="ni">enable</span> <span class="p">/</span><span class="kd">file:</span><span class="err">&lt;</span><span class="ni">name</span><span class="err">&gt;</span> <span class="p">/</span><span class="kd">size:</span><span class="err">&lt;</span><span class="ni">bytes</span><span class="err">&gt;</span> <span class="p">/</span><span class="kd">entries:</span><span class="err">&lt;</span><span class="ni">value</span><span class="err">&gt;</span>
+    <span class="err">[</span><span class="p">/</span><span class="ni">truncate</span><span class="err">]}</span> <span class="err">}</span>  
+  <span class="ni">Enable</span> <span class="ni">or</span> <span class="ni">disable</span> <span class="ni">local</span> <span class="ni">computer</span> <span class="ni">windows</span> <span class="ni">time</span> <span class="ni">service</span> <span class="ni">private</span> <span class="ni">log</span><span class="err">.</span>
+  <span class="kd">disable:</span> <span class="ni">disable</span> <span class="ni">the</span> <span class="ni">private</span> <span class="ni">log</span><span class="err">.</span>
+  <span class="kd">enable:</span> <span class="ni">enable</span> <span class="ni">the</span> <span class="ni">private</span> <span class="ni">log</span><span class="err">.</span>
+    <span class="kd">file:</span><span class="err">&lt;</span><span class="ni">name</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">specify</span> <span class="ni">the</span> <span class="ni">absolute</span> <span class="ni">filename</span><span class="err">.</span>
+    <span class="kd">size:</span><span class="err">&lt;</span><span class="ni">bytes</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">specify</span> <span class="ni">the</span> <span class="ni">maximum</span> <span class="ni">size</span> <span class="ni">for</span> <span class="ni">circular</span> <span class="ni">logging</span><span class="err">.</span>
+    <span class="kd">entries:</span><span class="err">&lt;</span><span class="ni">value</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">contains</span> <span class="err">a</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">flags</span><span class="p">,</span> <span class="ni">specified</span> <span class="ni">by</span> <span class="ni">number</span> <span class="ni">and</span>
+      <span class="ni">separated</span> <span class="ni">by</span> <span class="ni">commas</span><span class="p">,</span> <span class="ni">that</span> <span class="ni">specify</span> <span class="ni">the</span> <span class="ni">types</span> <span class="ni">of</span> <span class="ni">information</span> <span class="ni">that</span> 
+      <span class="ni">should</span> <span class="ni">be</span> <span class="ni">logged</span><span class="err">.</span> <span class="ni">Valid</span> <span class="ni">numbers</span> <span class="ni">are</span> <span class="m">0</span> <span class="ni">to</span> <span class="m">300</span><span class="err">.</span> <span class="err">A</span> <span class="ni">range</span> <span class="ni">of</span> <span class="ni">numbers</span> 
+      <span class="ni">is</span> <span class="ni">valid</span><span class="p">,</span> <span class="ni">in</span> <span class="ni">addition</span> <span class="ni">to</span> <span class="ni">single</span> <span class="ni">numbers</span><span class="p">,</span> <span class="ni">such</span> <span class="ni">as</span> <span class="m">0</span><span class="err">-</span><span class="m">100</span><span class="p">,</span><span class="m">103</span><span class="p">,</span><span class="m">106</span><span class="err">.</span> 
+      <span class="ni">Value</span> <span class="m">0</span><span class="err">-</span><span class="m">300</span> <span class="ni">is</span> <span class="ni">for</span> <span class="ni">logging</span> <span class="ni">all</span> <span class="ni">information</span><span class="err">.</span>
+  <span class="kd">truncate:</span> <span class="ni">truncate</span> <span class="ni">the</span> <span class="ni">file</span> <span class="ni">if</span> <span class="ni">it</span> <span class="ni">exists</span><span class="err">.</span>
+
+<span class="ni">w32tm</span> <span class="p">/</span><span class="ni">leapseconds</span> <span class="p">/</span><span class="ni">getstatus</span> <span class="err">[</span><span class="p">/</span><span class="ni">verbose</span><span class="err">]</span>
+  <span class="ni">Display</span> <span class="ni">the</span> <span class="ni">status</span> <span class="ni">of</span> <span class="ni">leap</span> <span class="ni">seconds</span> <span class="ni">on</span> <span class="ni">the</span> <span class="ni">local</span> <span class="ni">machine</span><span class="err">.</span>
+  <span class="kd">verbose:</span> <span class="ni">Set</span> <span class="ni">the</span> <span class="ni">verbose</span> <span class="ni">mode</span> <span class="ni">to</span> <span class="ni">display</span> <span class="ni">more</span> <span class="ni">information</span><span class="err">.</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Windows\System32\KERNEL32.DLL</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNELBASE.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\system32\w32tm.exe</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">3300000266BD1580EFA75CD6D3000000000266</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">A4341B9FD50FB9964283220A36A1EF6F6FAA7840</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: w32time.dll.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.17763.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.17763.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/70</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/a6068fdd06a779798be73420ae7e91544c23b96eb01d75a1be86ead8c0413e6b/detection/</li>
+</ul>
+
+<h2 id="file-similarity-ssdeep-match">File Similarity (ssdeep match)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/xcyclopedia/library/w32tm.exe-4BAECAA6C7C44238CE281F4FC8384A00.html">C:\Windows\system32\w32tm.exe</a></td>
+      <td>30</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">w32tm.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">w32tm.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_remote_time_discovery.yml">win_remote_time_discovery.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Image\|endswith: '\w32tm.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/misp_invisimole.json">misp_invisimole.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"description": "The system time is set and stored by the Windows Time Service within a domain to maintain time synchronization between systems and services in an enterprise network. (Citation: MSDN System Time) (Citation: Technet Windows Time Service)\n\nAn adversary may gather the system time and/or time zone from a local or remote system. This information may be gathered in a number of ways, such as with [Net](https://attack.mitre.org/software/S0039) on Windows by performing &lt;code&gt;net time \\\\hostname&lt;/code&gt; to gather the system time on a remote system. The victim's time zone may also be inferred from the current system time or gathered by using &lt;code&gt;w32tm /tz&lt;/code&gt;. (Citation: Technet Windows Time Service) The information could be useful for performing other techniques, such as executing a file with a [Scheduled Task](https://attack.mitre.org/techniques/T1053) (Citation: RSA EU12 They're Inside), or to discover locality information based on time zone to assist in victim targeting.",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1124/T1124.md">T1124.md</a></td>
+      <td>System time information may be gathered in a number of ways, such as with <a href="https://attack.mitre.org/software/S0039">Net</a> on Windows by performing <code>net time \\hostname</code> to gather the system time on a remote system. The victim’s time zone may also be inferred from the current system time or gathered by using <code>w32tm /tz</code>. (Citation: Technet Windows Time Service) The information could be useful for performing other techniques, such as executing a file with a <a href="https://attack.mitre.org/techniques/T1053">Scheduled Task/Job</a> (Citation: RSA EU12 They’re Inside), or to discover locality information based on time zone to assist in victim targeting.&lt;/blockquote&gt;</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1124/T1124.md">T1124.md</a></td>
+      <td>w32tm /tz</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

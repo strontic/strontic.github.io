@@ -1,0 +1,851 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>NETSTAT.EXE | TCP/IP Netstat Command &#124; STRONTIC</title>
+<meta name="description" content="What is NETSTAT.EXE?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="NETSTAT.EXE | TCP/IP Netstat Command">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/NETSTAT.EXE-9DB170ED520A6DD57B5AC92EC537368A.html">
+
+
+  <meta property="og:description" content="What is NETSTAT.EXE?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="NETSTAT.EXE | TCP/IP Netstat Command">
+  <meta name="twitter:description" content="What is NETSTAT.EXE?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/NETSTAT.EXE-9DB170ED520A6DD57B5AC92EC537368A.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/NETSTAT.EXE-9DB170ED520A6DD57B5AC92EC537368A.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">NETSTAT.EXE | TCP/IP Netstat Command</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            NETSTAT.EXE      TCP/IP Netstat Command      ">
+    <meta itemprop="description" content="What is NETSTAT.EXE?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="netstatexe">NETSTAT.EXE</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\SysWOW64\NETSTAT.EXE</code></li>
+  <li>Description: TCP/IP Netstat Command</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">9DB170ED520A6DD57B5AC92EC537368A</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">58439037BD6BABFA0EB32E2C1F331D8E715A8B62</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">5B0C639E4B9916D7EE58A75587CF5BB8D6136BDF2DEC95537C1765720C7B7CCC</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">4D3A4A5A706F0215D50C55617BD4EA8E213040348797DB5B3F03044E1E26C1456FA73E4458260B6D4E83DEFEE1E2199B</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">3BB75B0438A19507D09E7C0D0BCA703342CC33A3ED04A4B835749BE585B689F0C4A2320FF53253FE4EE98A5B7D3E4B04C7671C822E196E1EA5793D724C23C9D6</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">384:jWBE/Nh40Em/4jC7vARslC/2IiAtLV6tdGVt0bJ6hQTqiwMI3NoCh52Mi99FWKQX:jWWf40ESjzIlc8MJpLwMeHiPnH</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">4A124D4C214DBB24BCE7F0447B727173</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">7BBE86223CC2765EC2A96A8A44723F8E9D4372FD</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">EFA43159298444F5A6B45F8D8908357F140BFF36A372F96B9B5B60042FA58A8C</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="ni">Displays</span> <span class="ni">protocol</span> <span class="ni">statistics</span> <span class="ni">and</span> <span class="ni">current</span> <span class="ni">TCP</span><span class="p">/</span><span class="ni">IP</span> <span class="ni">network</span> <span class="ni">connections</span><span class="err">.</span>
+
+<span class="ni">NETSTAT</span> <span class="err">[-a]</span> <span class="err">[-b]</span> <span class="err">[-e]</span> <span class="err">[-f]</span> <span class="err">[-n]</span> <span class="err">[-o]</span> <span class="err">[-p</span> <span class="ni">proto</span><span class="err">]</span> <span class="err">[-r]</span> <span class="err">[-s]</span> <span class="err">[-t]</span> <span class="err">[-x]</span> <span class="err">[-y]</span> <span class="err">[</span><span class="ni">interval</span><span class="err">]</span>
+
+  <span class="err">-a</span>            <span class="ni">Displays</span> <span class="ni">all</span> <span class="ni">connections</span> <span class="ni">and</span> <span class="ni">listening</span> <span class="ni">ports</span><span class="err">.</span>
+  <span class="err">-b</span>            <span class="ni">Displays</span> <span class="ni">the</span> <span class="ni">executable</span> <span class="ni">involved</span> <span class="ni">in</span> <span class="ni">creating</span> <span class="ni">each</span> <span class="ni">connection</span> <span class="ni">or</span>
+                <span class="ni">listening</span> <span class="ni">port</span><span class="err">.</span> <span class="ni">In</span> <span class="ni">some</span> <span class="ni">cases</span> <span class="ni">well</span><span class="err">-</span><span class="ni">known</span> <span class="ni">executables</span> <span class="ni">host</span>
+                <span class="ni">multiple</span> <span class="ni">independent</span> <span class="ni">components</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">in</span> <span class="ni">these</span> <span class="ni">cases</span> <span class="ni">the</span>
+                <span class="ni">sequence</span> <span class="ni">of</span> <span class="ni">components</span> <span class="ni">involved</span> <span class="ni">in</span> <span class="ni">creating</span> <span class="ni">the</span> <span class="ni">connection</span>
+                <span class="ni">or</span> <span class="ni">listening</span> <span class="ni">port</span> <span class="ni">is</span> <span class="ni">displayed</span><span class="err">.</span> <span class="ni">In</span> <span class="ni">this</span> <span class="ni">case</span> <span class="ni">the</span> <span class="ni">executable</span>
+                <span class="ni">name</span> <span class="ni">is</span> <span class="ni">in</span> <span class="err">[]</span> <span class="ni">at</span> <span class="ni">the</span> <span class="ni">bottom</span><span class="p">,</span> <span class="ni">on</span> <span class="ni">top</span> <span class="ni">is</span> <span class="ni">the</span> <span class="ni">component</span> <span class="ni">it</span> <span class="ni">called</span><span class="p">,</span>
+                <span class="ni">and</span> <span class="ni">so</span> <span class="ni">forth</span> <span class="ni">until</span> <span class="ni">TCP</span><span class="p">/</span><span class="ni">IP</span> <span class="ni">was</span> <span class="ni">reached</span><span class="err">.</span> <span class="ni">Note</span> <span class="ni">that</span> <span class="ni">this</span> <span class="ni">option</span>
+                <span class="ni">can</span> <span class="ni">be</span> <span class="ni">time</span><span class="err">-</span><span class="ni">consuming</span> <span class="ni">and</span> <span class="ni">will</span> <span class="ni">fail</span> <span class="ni">unless</span> <span class="ni">you</span> <span class="ni">have</span> <span class="ni">sufficient</span>
+                <span class="ni">permissions</span><span class="err">.</span>
+  <span class="err">-e</span>            <span class="ni">Displays</span> <span class="ni">Ethernet</span> <span class="ni">statistics</span><span class="err">.</span> <span class="ni">This</span> <span class="ni">may</span> <span class="ni">be</span> <span class="ni">combined</span> <span class="ni">with</span> <span class="ni">the</span> <span class="err">-s</span>
+                <span class="ni">option</span><span class="err">.</span>
+  <span class="err">-f</span>            <span class="ni">Displays</span> <span class="ni">Fully</span> <span class="ni">Qualified</span> <span class="ni">Domain</span> <span class="ni">Names</span> <span class="p">(</span><span class="ni">FQDN</span><span class="p">)</span> <span class="ni">for</span> <span class="ni">foreign</span>
+                <span class="ni">addresses</span><span class="err">.</span>
+  <span class="err">-n</span>            <span class="ni">Displays</span> <span class="ni">addresses</span> <span class="ni">and</span> <span class="ni">port</span> <span class="ni">numbers</span> <span class="ni">in</span> <span class="ni">numerical</span> <span class="ni">form</span><span class="err">.</span>
+  <span class="err">-o</span>            <span class="ni">Displays</span> <span class="ni">the</span> <span class="ni">owning</span> <span class="ni">process</span> <span class="ni">ID</span> <span class="ni">associated</span> <span class="ni">with</span> <span class="ni">each</span> <span class="ni">connection</span><span class="err">.</span>
+  <span class="err">-p</span> <span class="ni">proto</span>      <span class="ni">Shows</span> <span class="ni">connections</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">protocol</span> <span class="ni">specified</span> <span class="ni">by</span> <span class="ni">proto</span><span class="c">; proto</span>
+                <span class="ni">may</span> <span class="ni">be</span> <span class="ni">any</span> <span class="kd">of:</span> <span class="ni">TCP</span><span class="p">,</span> <span class="ni">UDP</span><span class="p">,</span> <span class="ni">TCPv6</span><span class="p">,</span> <span class="ni">or</span> <span class="ni">UDPv6</span><span class="err">.</span>  <span class="ni">If</span> <span class="ni">used</span> <span class="ni">with</span> <span class="ni">the</span> <span class="err">-s</span>
+                <span class="ni">option</span> <span class="ni">to</span> <span class="ni">display</span> <span class="ni">per</span><span class="err">-</span><span class="ni">protocol</span> <span class="ni">statistics</span><span class="p">,</span> <span class="ni">proto</span> <span class="ni">may</span> <span class="ni">be</span> <span class="ni">any</span> <span class="kd">of:</span>
+                <span class="ni">IP</span><span class="p">,</span> <span class="ni">IPv6</span><span class="p">,</span> <span class="ni">ICMP</span><span class="p">,</span> <span class="ni">ICMPv6</span><span class="p">,</span> <span class="ni">TCP</span><span class="p">,</span> <span class="ni">TCPv6</span><span class="p">,</span> <span class="ni">UDP</span><span class="p">,</span> <span class="ni">or</span> <span class="ni">UDPv6</span><span class="err">.</span>
+  <span class="err">-q</span>            <span class="ni">Displays</span> <span class="ni">all</span> <span class="ni">connections</span><span class="p">,</span> <span class="ni">listening</span> <span class="ni">ports</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">bound</span>
+                <span class="ni">nonlistening</span> <span class="ni">TCP</span> <span class="ni">ports</span><span class="err">.</span> <span class="ni">Bound</span> <span class="ni">nonlistening</span> <span class="ni">ports</span> <span class="ni">may</span> <span class="ni">or</span> <span class="ni">may</span> <span class="ni">not</span>
+                <span class="ni">be</span> <span class="ni">associated</span> <span class="ni">with</span> <span class="ni">an</span> <span class="ni">active</span> <span class="ni">connection</span><span class="err">.</span>
+  <span class="err">-r</span>            <span class="ni">Displays</span> <span class="ni">the</span> <span class="ni">routing</span> <span class="ni">table</span><span class="err">.</span>
+  <span class="err">-s</span>            <span class="ni">Displays</span> <span class="ni">per</span><span class="err">-</span><span class="ni">protocol</span> <span class="ni">statistics</span><span class="err">.</span>  <span class="ni">By</span> <span class="ni">default</span><span class="p">,</span> <span class="ni">statistics</span> <span class="ni">are</span>
+                <span class="ni">shown</span> <span class="ni">for</span> <span class="ni">IP</span><span class="p">,</span> <span class="ni">IPv6</span><span class="p">,</span> <span class="ni">ICMP</span><span class="p">,</span> <span class="ni">ICMPv6</span><span class="p">,</span> <span class="ni">TCP</span><span class="p">,</span> <span class="ni">TCPv6</span><span class="p">,</span> <span class="ni">UDP</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">UDPv6</span><span class="c">;</span>
+                <span class="ni">the</span> <span class="err">-p</span> <span class="ni">option</span> <span class="ni">may</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">to</span> <span class="ni">specify</span> <span class="err">a</span> <span class="ni">subset</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">default</span><span class="err">.</span>
+  <span class="err">-t</span>            <span class="ni">Displays</span> <span class="ni">the</span> <span class="ni">current</span> <span class="ni">connection</span> <span class="ni">offload</span> <span class="ni">state</span><span class="err">.</span>
+  <span class="err">-x</span>            <span class="ni">Displays</span> <span class="ni">NetworkDirect</span> <span class="ni">connections</span><span class="p">,</span> <span class="ni">listeners</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">shared</span>
+                <span class="ni">endpoints</span><span class="err">.</span>
+  <span class="err">-y</span>            <span class="ni">Displays</span> <span class="ni">the</span> <span class="ni">TCP</span> <span class="ni">connection</span> <span class="ni">template</span> <span class="ni">for</span> <span class="ni">all</span> <span class="ni">connections</span><span class="err">.</span>
+                <span class="ni">Cannot</span> <span class="ni">be</span> <span class="ni">combined</span> <span class="ni">with</span> <span class="ni">the</span> <span class="ni">other</span> <span class="ni">options</span><span class="err">.</span>
+  <span class="ni">interval</span>      <span class="ni">Redisplays</span> <span class="ni">selected</span> <span class="ni">statistics</span><span class="p">,</span> <span class="ni">pausing</span> <span class="ni">interval</span> <span class="ni">seconds</span>
+                <span class="ni">between</span> <span class="ni">each</span> <span class="ni">display</span><span class="err">.</span>  <span class="ni">Press</span> <span class="ni">CTRL</span><span class="err">+C</span> <span class="ni">to</span> <span class="ni">stop</span> <span class="ni">redisplaying</span>
+                <span class="ni">statistics</span><span class="err">.</span>  <span class="ni">If</span> <span class="ni">omitted</span><span class="p">,</span> <span class="ni">netstat</span> <span class="ni">will</span> <span class="ni">print</span> <span class="ni">the</span> <span class="ni">current</span>
+                <span class="ni">configuration</span> <span class="ni">information</span> <span class="ni">once</span><span class="err">.</span>
+
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64cpu.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64win.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SysWOW64\NETSTAT.EXE</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">3300000266BD1580EFA75CD6D3000000000266</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">A4341B9FD50FB9964283220A36A1EF6F6FAA7840</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: netstat.exe</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.19041.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.19041.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 32-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/76</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/5b0c639e4b9916d7ee58a75587cf5bb8d6136bdf2dec95537c1765720c7b7ccc/detection</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">NETSTAT.EXE</code> being misused. While <code class="language-plaintext highlighter-rouge">NETSTAT.EXE</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/lnx_apt_equationgroup_lnx.yml">lnx_apt_equationgroup_lnx.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'chmod 700 jp&amp;&amp;netstat -an\|grep'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/lnx_shell_priv_esc_prep.yml">lnx_shell_priv_esc_prep.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'netstat -antup'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/lnx_shell_priv_esc_prep.yml">lnx_shell_priv_esc_prep.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'netstat -antpx'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/lnx_shell_priv_esc_prep.yml">lnx_shell_priv_esc_prep.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'netstat -tulpn'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_greenbug_may20.yml">win_apt_greenbug_may20.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '-noninteractive -executionpolicy bypass netstat -a'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_commands_recon_activity.yml">win_susp_commands_recon_activity.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- netstat -an</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/dukes/misp-dukes-operation-ghost-event.json">misp-dukes-operation-ghost-event.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"description": "Adversaries may attempt to get a listing of network connections to or from the compromised system they are currently accessing or from remote systems by querying for information over the network. \n\n### Windows\n\nUtilities and commands that acquire this information include [netstat](https://attack.mitre.org/software/S0104), \"net use,\" and \"net session\" with [Net](https://attack.mitre.org/software/S0039).\n\n### Mac and Linux \n\nIn Mac and Linux, &lt;code&gt;netstat&lt;/code&gt; and &lt;code&gt;lsof&lt;/code&gt; can be used to list current connections. &lt;code&gt;who -a&lt;/code&gt; and &lt;code&gt;w&lt;/code&gt; can be used to show which users are currently logged in, similar to \"net session\".",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/moose/README.adoc">moose</a></td>
+      <td><code class="language-plaintext highlighter-rouge">This last indicator can be verified using </code>netstat -anp<code class="language-plaintext highlighter-rouge">. Depending on system</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/moose/README.adoc">moose</a></td>
+      <td><code class="language-plaintext highlighter-rouge">https://serverfault.com/questions/219984/busybox-netstat-no-p[explained here].</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/rakos/vf_ioc_linux_rakos.py">vf_ioc_linux_rakos.py</a></td>
+      <td><code class="language-plaintext highlighter-rouge">LINUX_RAKOS_A_FILTER = [ ['netstat', '127.0.0.1', '61314'] ]</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/rakos/vf_ioc_linux_rakos.py">vf_ioc_linux_rakos.py</a></td>
+      <td><code class="language-plaintext highlighter-rouge">if c_plug == 'netstat':</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/rakos/vf_ioc_linux_rakos.py">vf_ioc_linux_rakos.py</a></td>
+      <td><code class="language-plaintext highlighter-rouge">for ents in task.netstat():</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1016/T1016.md">T1016.md</a></td>
+      <td>if [ -x “$(command -v netstat)” ]; then netstat -ant | awk ‘{print $NF}’ | grep -v ‘[a-z]’ | sort | uniq -c; else echo “netstat is missing from the machine. skipping…”; fi;</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md">T1049.md</a></td>
+      <td>Utilities and commands that acquire this information include <a href="https://attack.mitre.org/software/S0104">netstat</a>, “net use,” and “net session” with <a href="https://attack.mitre.org/software/S0039">Net</a>. In Mac and Linux, <a href="https://attack.mitre.org/software/S0104">netstat</a> and <code>lsof</code> can be used to list current connections. <code>who -a</code> and <code>w</code> can be used to show which users are currently logged in, similar to “net session”.&lt;/blockquote&gt;</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md">T1049.md</a></td>
+      <td>Upon successful execution, cmd.exe will execute <code class="language-plaintext highlighter-rouge">netstat</code>, <code class="language-plaintext highlighter-rouge">net use</code> and <code class="language-plaintext highlighter-rouge">net sessions</code>. Results will output via stdout.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md">T1049.md</a></td>
+      <td>netstat</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md">T1049.md</a></td>
+      <td>Upon successful execution, sh will execute <code class="language-plaintext highlighter-rouge">netstat</code> and <code class="language-plaintext highlighter-rouge">who -a</code>. Results will output via stdout.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md">T1049.md</a></td>
+      <td>##### Description: Check if netstat command exists on the machine</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md">T1049.md</a></td>
+      <td>if [ -x “$(command -v netstat)” ]; then exit 0; else exit 1; fi;</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md">T1049.md</a></td>
+      <td>echo “Install netstat on the machine.”; exit 1;</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_greenbug.yar">apt_greenbug.yar</a></td>
+      <td>$x3 = “cmd /a /c netstat -ant »"%localappdata%\Microsoft\” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_ta17_293A.yar">apt_ta17_293A.yar</a></td>
+      <td>$x4 = “ps.exe -accepteula \%ws% -u %user% -p %pass% -s cmd /c netstat”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktools.yar">gen_cn_hacktools.yar</a></td>
+      <td>description = “Chinese Hacktool Set - file netstat.exe”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_recon_indicators.yar">gen_recon_indicators.yar</a></td>
+      <td>$s1 = “netstat -an” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_recon_indicators.yar">gen_recon_indicators.yar</a></td>
+      <td>/* netstat */</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar">thor-hacktools.yar</a></td>
+      <td>$s0 = “for /f "skip=4 tokens=2,5" %%a in (‘netstat -ano -p TCP’) do (“ ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a></td>
+      <td>$s5 = “//——- [netstat -an] and [ipconfig] and [tasklist] ————” fullword</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a></td>
+      <td>$s4 = “‘Open ports’ =&gt; "runcommand(‘netstat -an | grep -i listen’,’GET’)",” fullword</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a></td>
+      <td>$s6 = “netstat -atup | grep IST”  ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="netstat">netstat</h2>
+
+<blockquote>
+  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
+</blockquote>
+
+<p>Displays active TCP connections, ports on which the computer is listening, Ethernet statistics, the IP routing table, IPv4 statistics (for the IP, ICMP, TCP, and UDP protocols), and IPv6 statistics (for the IPv6, ICMPv6, TCP over IPv6, and UDP over IPv6 protocols). Used without parameters, this command displays active TCP connections.</p>
+
+<blockquote>
+  <p>[!IMPORTANT]
+This command is available only if the Internet Protocol (TCP/IP) protocol is installed as a component in the properties of a network adapter in Network Connections.</p>
+</blockquote>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>netstat [-a] [-b] [-e] [-n] [-o] [-p &lt;Protocol&gt;] [-r] [-s] [&lt;interval&gt;]
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-a</td>
+      <td>Displays all active TCP connections and the TCP and UDP ports on which the computer is listening.</td>
+    </tr>
+    <tr>
+      <td>-b</td>
+      <td>Displays the executable involved in creating each connection or listening port. In some cases well-known executables host multiple independent components, and in these cases the sequence of components involved in creating the connection or listening port is displayed. In this case the executable name is in [] at the bottom, on top is the component it called, and so forth until TCP/IP was reached. Note that this option can be time-consuming and will fail unless you have sufficient permissions.</td>
+    </tr>
+    <tr>
+      <td>-e</td>
+      <td>Displays Ethernet statistics, such as the number of bytes and packets sent and received. This parameter can be combined with <strong>-s</strong>.</td>
+    </tr>
+    <tr>
+      <td>-n</td>
+      <td>Displays active TCP connections, however, addresses and port numbers are expressed numerically and no attempt is made to determine names.</td>
+    </tr>
+    <tr>
+      <td>-o</td>
+      <td>Displays active TCP connections and includes the process ID (PID) for each connection. You can find the application based on the PID on the Processes tab in Windows Task Manager. This parameter can be combined with <strong>-a</strong>, <strong>-n</strong>, and <strong>-p</strong>.</td>
+    </tr>
+    <tr>
+      <td>-p <code class="language-plaintext highlighter-rouge">&lt;Protocol&gt;</code></td>
+      <td>Shows connections for the protocol specified by <em>Protocol</em>. In this case, the <em>Protocol</em> can be tcp, udp, tcpv6, or udpv6. If this parameter is used with <strong>-s</strong> to display statistics by protocol, <em>Protocol</em> can be tcp, udp, icmp, ip, tcpv6, udpv6, icmpv6, or ipv6.</td>
+    </tr>
+    <tr>
+      <td>-s</td>
+      <td>Displays statistics by protocol. By default, statistics are shown for the TCP, UDP, ICMP, and IP protocols. If the IPv6 protocol is installed, statistics are shown for the TCP over IPv6, UDP over IPv6, ICMPv6, and IPv6 protocols. The <strong>-p</strong> parameter can be used to specify a set of protocols.</td>
+    </tr>
+    <tr>
+      <td>-r</td>
+      <td>Displays the contents of the IP routing table. This is equivalent to the route print command.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;interval&gt;</code></td>
+      <td>Redisplays the selected information every <em>interval</em> seconds. Press CTRL+C to stop the redisplay. If this parameter is omitted, this command prints the selected information only once.</td>
+    </tr>
+    <tr>
+      <td>/?</td>
+      <td>Displays help at the command prompt.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="remarks">Remarks</h5>
+
+<ul>
+  <li>
+    <p>The <strong>netstat</strong> command provides statistics for the following:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Parameter</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Proto</td>
+          <td>The name of the protocol (TCP or UDP).</td>
+        </tr>
+        <tr>
+          <td>Local address</td>
+          <td>The IP address of the local computer and the port number being used. The name of the local computer that corresponds to the IP address and the name of the port is shown unless the <strong>-n</strong> parameter is specified. If the port is not yet established, the port number is shown as an asterisk (*).</td>
+        </tr>
+        <tr>
+          <td>Foreign address</td>
+          <td>The IP address and port number of the remote computer to which the socket is connected. The names that corresponds to the IP address and the port are shown unless the <strong>-n</strong> parameter is specified. If the port is not yet established, the port number is shown as an asterisk (*).</td>
+        </tr>
+        <tr>
+          <td>State</td>
+          <td>Indicates the state of a TCP connection, including:&lt;ul&gt;&lt;li&gt;CLOSE_WAIT&lt;/li&gt;&lt;li&gt;CLOSED&lt;/li&gt;&lt;li&gt;ESTABLISHED&lt;/li&gt;&lt;li&gt;FIN_WAIT_1&lt;/li&gt;&lt;li&gt;FIN_WAIT_2&lt;/li&gt;&lt;li&gt;LAST_ACK&lt;/li&gt;&lt;li&gt;LISTEN&lt;/li&gt;&lt;li&gt;SYN_RECEIVED&lt;/li&gt;&lt;li&gt;SYN_SEND&lt;/li&gt;&lt;li&gt;TIMED_WAIT&lt;/li&gt;&lt;/ul&gt;</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<h4 id="examples">Examples</h4>
+
+<p>To display both the Ethernet statistics and the statistics for all protocols, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>netstat -e -s
+</code></pre></div></div>
+
+<p>To display the statistics for only the TCP and UDP protocols, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>netstat -s -p tcp udp
+</code></pre></div></div>
+
+<p>To display active TCP connections and the process IDs every 5 seconds, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>netstat -o 5
+</code></pre></div></div>
+
+<p>To display active TCP connections and the process IDs using numerical form, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>netstat -n -o
+</code></pre></div></div>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

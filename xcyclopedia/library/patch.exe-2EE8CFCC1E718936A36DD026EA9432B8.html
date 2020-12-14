@@ -1,0 +1,768 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>patch.exe | Patch- apply a diff file to an original &#124; STRONTIC</title>
+<meta name="description" content="What is patch.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="patch.exe | Patch- apply a diff file to an original">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/patch.exe-2EE8CFCC1E718936A36DD026EA9432B8.html">
+
+
+  <meta property="og:description" content="What is patch.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="patch.exe | Patch- apply a diff file to an original">
+  <meta name="twitter:description" content="What is patch.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/patch.exe-2EE8CFCC1E718936A36DD026EA9432B8.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/patch.exe-2EE8CFCC1E718936A36DD026EA9432B8.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">patch.exe | Patch- apply a diff file to an original</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            patch.exe      Patch- apply a diff file to an original      ">
+    <meta itemprop="description" content="What is patch.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="patchexe">patch.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Program Files\WinMerge\GnuWin32\bin\patch.exe</code></li>
+  <li>Description: Patch: apply a diff file to an original</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">2EE8CFCC1E718936A36DD026EA9432B8</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">253D9CC5FD3E3B6F04A4ADD0D255D45A51ACF6FC</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">EFC277FE48CADD8F5014D499F2B9484F668BD917DB47A699BAACE407F0A52F13</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">D0213C6E054029304F2DCF35DE2CC7B1CDE8ACEA476795BA8AAB044E2CE1CB1151075E535D0D57EF75E278951A8B1EBB</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">BBE2E4F246015BB52C4CDCB7787D6D5D828B52CC3199C8B4FD7BE3E1F0BE1F39A376005E319E4384D421FDAA4BFCDEBDA4381466D0D27C861EBBCAA667F00130</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">1536:i6IMVcXXBjkSvfF1mukXUf7SB2w6X7Hmp624RkdCId/jB9YJD5WLRajptgOMwD:5IlX/11v+v6C62aktjgJlWLQjpeOMwD</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">5902F4C16F29B0D4B5A876CDF14A33BE</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">1FBF0EAA35B611B9416B73C0DAA90BF32C188B0B</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">C6610CCF17B16D92C0E777632B17A3D5F57A84E93A00926840C6AA3AE7493DAC</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">Usage</span><span class="err">:</span> <span class="err">C:\</span><span class="ni">Program</span> <span class="ni">Files</span><span class="err">\</span><span class="ni">WinMerge</span><span class="err">\</span><span class="ni">GnuWin32</span><span class="err">\</span><span class="ni">bin</span><span class="err">\</span><span class="ni">patch</span><span class="err">.</span><span class="ni">exe</span> <span class="err">[</span><span class="ni">OPTION</span><span class="err">]...</span> <span class="err">[</span><span class="ni">ORIGFILE</span> <span class="err">[</span><span class="ni">PATCHFILE</span><span class="err">]]</span>
+
+<span class="ni">Input</span> <span class="kd">options:</span>
+
+  <span class="err">-p</span> <span class="ni">NUM</span>  <span class="err">--</span><span class="ni">strip</span><span class="err">=</span><span class="ni">NUM</span>  <span class="ni">Strip</span> <span class="ni">NUM</span> <span class="ni">leading</span> <span class="ni">components</span> <span class="ni">from</span> <span class="ni">file</span> <span class="ni">names</span><span class="err">.</span>
+  <span class="err">-F</span> <span class="ni">LINES</span>  <span class="err">--</span><span class="ni">fuzz</span> <span class="ni">LINES</span>  <span class="ni">Set</span> <span class="ni">the</span> <span class="ni">fuzz</span> <span class="ni">factor</span> <span class="ni">to</span> <span class="ni">LINES</span> <span class="ni">for</span> <span class="ni">inexact</span> <span class="ni">matching</span><span class="err">.</span>
+  <span class="err">-l</span>  <span class="err">--</span><span class="ni">ignore</span><span class="err">-</span><span class="ni">whitespace</span>  <span class="ni">Ignore</span> <span class="ni">white</span> <span class="ni">space</span> <span class="ni">changes</span> <span class="ni">between</span> <span class="ni">patch</span> <span class="ni">and</span> <span class="ni">input</span><span class="err">.</span>
+
+  <span class="err">-c</span>  <span class="err">--</span><span class="ni">context</span>  <span class="ni">Interpret</span> <span class="ni">the</span> <span class="ni">patch</span> <span class="ni">as</span> <span class="err">a</span> <span class="ni">context</span> <span class="ni">difference</span><span class="err">.</span>
+  <span class="err">-e</span>  <span class="err">--</span><span class="ni">ed</span>  <span class="ni">Interpret</span> <span class="ni">the</span> <span class="ni">patch</span> <span class="ni">as</span> <span class="ni">an</span> <span class="ni">ed</span> <span class="ni">script</span><span class="err">.</span>
+  <span class="err">-n</span>  <span class="err">--</span><span class="ni">normal</span>  <span class="ni">Interpret</span> <span class="ni">the</span> <span class="ni">patch</span> <span class="ni">as</span> <span class="err">a</span> <span class="ni">normal</span> <span class="ni">difference</span><span class="err">.</span>
+  <span class="err">-u</span>  <span class="err">--</span><span class="ni">unified</span>  <span class="ni">Interpret</span> <span class="ni">the</span> <span class="ni">patch</span> <span class="ni">as</span> <span class="err">a</span> <span class="ni">unified</span> <span class="ni">difference</span><span class="err">.</span>
+
+  <span class="err">-N</span>  <span class="err">--</span><span class="ni">forward</span>  <span class="ni">Ignore</span> <span class="ni">patches</span> <span class="ni">that</span> <span class="ni">appear</span> <span class="ni">to</span> <span class="ni">be</span> <span class="ni">reversed</span> <span class="ni">or</span> <span class="ni">already</span> <span class="ni">applied</span><span class="err">.</span>
+  <span class="err">-R</span>  <span class="err">--</span><span class="ni">reverse</span>  <span class="ni">Assume</span> <span class="ni">patches</span> <span class="ni">were</span> <span class="ni">created</span> <span class="ni">with</span> <span class="ni">old</span> <span class="ni">and</span> <span class="ni">new</span> <span class="ni">files</span> <span class="ni">swapped</span><span class="err">.</span>
+
+  <span class="err">-i</span> <span class="ni">PATCHFILE</span>  <span class="err">--</span><span class="ni">input</span><span class="err">=</span><span class="ni">PATCHFILE</span>  <span class="ni">Read</span> <span class="ni">patch</span> <span class="ni">from</span> <span class="ni">PATCHFILE</span> <span class="ni">instead</span> <span class="ni">of</span> <span class="ni">stdin</span><span class="err">.</span>
+
+<span class="ni">Output</span> <span class="kd">options:</span>
+
+  <span class="err">-o</span> <span class="ni">FILE</span>  <span class="err">--</span><span class="ni">output</span><span class="err">=</span><span class="ni">FILE</span>  <span class="ni">Output</span> <span class="ni">patched</span> <span class="ni">files</span> <span class="ni">to</span> <span class="ni">FILE</span><span class="err">.</span>
+  <span class="err">-r</span> <span class="ni">FILE</span>  <span class="err">--</span><span class="ni">reject</span><span class="err">-</span><span class="ni">file</span><span class="err">=</span><span class="ni">FILE</span>  <span class="ni">Output</span> <span class="ni">rejects</span> <span class="ni">to</span> <span class="ni">FILE</span><span class="err">.</span>
+
+  <span class="err">-D</span> <span class="ni">NAME</span>  <span class="err">--</span><span class="ni">ifdef</span><span class="err">=</span><span class="ni">NAME</span>  <span class="ni">Make</span> <span class="ni">merged</span> <span class="ni">if</span><span class="err">-</span><span class="ni">then</span><span class="err">-</span><span class="ni">else</span> <span class="ni">output</span> <span class="ni">using</span> <span class="ni">NAME</span><span class="err">.</span>
+  <span class="err">-E</span>  <span class="err">--</span><span class="ni">remove</span><span class="err">-</span><span class="ni">empty</span><span class="err">-</span><span class="ni">files</span>  <span class="ni">Remove</span> <span class="ni">output</span> <span class="ni">files</span> <span class="ni">that</span> <span class="ni">are</span> <span class="ni">empty</span> <span class="ni">after</span> <span class="ni">patching</span><span class="err">.</span>
+
+  <span class="err">-Z</span>  <span class="err">--</span><span class="ni">set</span><span class="err">-</span><span class="ni">utc</span>  <span class="ni">Set</span> <span class="ni">times</span> <span class="ni">of</span> <span class="ni">patched</span> <span class="ni">files</span><span class="p">,</span> <span class="ni">assuming</span> <span class="ni">diff</span> <span class="ni">uses</span> <span class="ni">UTC</span> <span class="p">(</span><span class="ni">GMT</span><span class="p">)</span><span class="err">.</span>
+  <span class="err">-T</span>  <span class="err">--</span><span class="ni">set</span><span class="err">-</span><span class="ni">time</span>  <span class="ni">Likewise</span><span class="p">,</span> <span class="ni">assuming</span> <span class="ni">local</span> <span class="ni">time</span><span class="err">.</span>
+
+  <span class="err">--</span><span class="ni">quoting</span><span class="err">-</span><span class="ni">style</span><span class="err">=</span><span class="ni">WORD</span>   <span class="ni">output</span> <span class="ni">file</span> <span class="ni">names</span> <span class="ni">using</span> <span class="ni">quoting</span> <span class="ni">style</span> <span class="ni">WORD</span><span class="err">.</span>
+    <span class="ni">Valid</span> <span class="ni">WORDs</span> <span class="kd">are:</span> <span class="ni">literal</span><span class="p">,</span> <span class="ni">shell</span><span class="p">,</span> <span class="ni">shell</span><span class="err">-</span><span class="ni">always</span><span class="p">,</span> <span class="err">c</span><span class="p">,</span> <span class="ni">escape</span><span class="err">.</span>
+    <span class="ni">Default</span> <span class="ni">is</span> <span class="ni">taken</span> <span class="ni">from</span> <span class="ni">QUOTING_STYLE</span> <span class="ni">env</span> <span class="ni">variable</span><span class="p">,</span> <span class="ni">or</span> <span class="err">'</span><span class="ni">shell</span><span class="err">'</span> <span class="ni">if</span> <span class="ni">unset</span><span class="err">.</span>
+
+<span class="ni">Backup</span> <span class="ni">and</span> <span class="ni">version</span> <span class="ni">control</span> <span class="kd">options:</span>
+
+  <span class="err">-b</span>  <span class="err">--</span><span class="ni">backup</span>  <span class="ni">Back</span> <span class="ni">up</span> <span class="ni">the</span> <span class="ni">original</span> <span class="ni">contents</span> <span class="ni">of</span> <span class="ni">each</span> <span class="ni">file</span><span class="err">.</span>
+  <span class="err">--</span><span class="ni">backup</span><span class="err">-</span><span class="ni">if</span><span class="err">-</span><span class="ni">mismatch</span>  <span class="ni">Back</span> <span class="ni">up</span> <span class="ni">if</span> <span class="ni">the</span> <span class="ni">patch</span> <span class="ni">does</span> <span class="ni">not</span> <span class="ni">match</span> <span class="ni">exactly</span><span class="err">.</span>
+  <span class="err">--</span><span class="ni">no</span><span class="err">-</span><span class="ni">backup</span><span class="err">-</span><span class="ni">if</span><span class="err">-</span><span class="ni">mismatch</span>  <span class="ni">Back</span> <span class="ni">up</span> <span class="ni">mismatches</span> <span class="ni">only</span> <span class="ni">if</span> <span class="ni">otherwise</span> <span class="ni">requested</span><span class="err">.</span>
+
+  <span class="err">-V</span> <span class="ni">STYLE</span>  <span class="err">--</span><span class="ni">version</span><span class="err">-</span><span class="ni">control</span><span class="err">=</span><span class="ni">STYLE</span>  <span class="ni">Use</span> <span class="ni">STYLE</span> <span class="ni">version</span> <span class="ni">control</span><span class="err">.</span>
+	<span class="ni">STYLE</span> <span class="ni">is</span> <span class="ni">either</span> <span class="err">'</span><span class="ni">simple</span><span class="err">'</span><span class="p">,</span> <span class="err">'</span><span class="ni">numbered</span><span class="err">'</span><span class="p">,</span> <span class="ni">or</span> <span class="err">'</span><span class="ni">existing</span><span class="err">'.</span>
+  <span class="err">-B</span> <span class="ni">PREFIX</span>  <span class="err">--</span><span class="ni">prefix</span><span class="err">=</span><span class="ni">PREFIX</span>  <span class="ni">Prepend</span> <span class="ni">PREFIX</span> <span class="ni">to</span> <span class="ni">backup</span> <span class="ni">file</span> <span class="ni">names</span><span class="err">.</span>
+  <span class="err">-Y</span> <span class="ni">PREFIX</span>  <span class="err">--</span><span class="ni">basename</span><span class="err">-</span><span class="ni">prefix</span><span class="err">=</span><span class="ni">PREFIX</span>  <span class="ni">Prepend</span> <span class="ni">PREFIX</span> <span class="ni">to</span> <span class="ni">backup</span> <span class="ni">file</span> <span class="ni">basenames</span><span class="err">.</span>
+  <span class="err">-z</span> <span class="ni">SUFFIX</span>  <span class="err">--</span><span class="ni">suffix</span><span class="err">=</span><span class="ni">SUFFIX</span>  <span class="ni">Append</span> <span class="ni">SUFFIX</span> <span class="ni">to</span> <span class="ni">backup</span> <span class="ni">file</span> <span class="ni">names</span><span class="err">.</span>
+
+  <span class="err">-g</span> <span class="ni">NUM</span>  <span class="err">--</span><span class="ni">get</span><span class="err">=</span><span class="ni">NUM</span>  <span class="ni">Get</span> <span class="ni">files</span> <span class="ni">from</span> <span class="ni">RCS</span> <span class="ni">etc</span><span class="err">.</span> <span class="ni">if</span> <span class="ni">positive</span><span class="c">; ask if negative.</span>
+
+<span class="ni">Miscellaneous</span> <span class="kd">options:</span>
+
+  <span class="err">-t</span>  <span class="err">--</span><span class="ni">batch</span>  <span class="ni">Ask</span> <span class="ni">no</span> <span class="ni">questions</span><span class="c">; skip bad-Prereq patches; assume reversed.</span>
+  <span class="err">-f</span>  <span class="err">--</span><span class="ni">force</span>  <span class="ni">Like</span> <span class="err">-t</span><span class="p">,</span> <span class="ni">but</span> <span class="ni">ignore</span> <span class="ni">bad</span><span class="err">-</span><span class="ni">Prereq</span> <span class="ni">patches</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">assume</span> <span class="ni">unreversed</span><span class="err">.</span>
+  <span class="err">-s</span>  <span class="err">--</span><span class="ni">quiet</span>  <span class="err">--</span><span class="ni">silent</span>  <span class="ni">Work</span> <span class="ni">silently</span> <span class="ni">unless</span> <span class="ni">an</span> <span class="ni">error</span> <span class="ni">occurs</span><span class="err">.</span>
+  <span class="err">--</span><span class="ni">verbose</span>  <span class="ni">Output</span> <span class="ni">extra</span> <span class="ni">information</span> <span class="ni">about</span> <span class="ni">the</span> <span class="ni">work</span> <span class="ni">being</span> <span class="ni">done</span><span class="err">.</span>
+  <span class="err">--</span><span class="ni">dry</span><span class="err">-</span><span class="ni">run</span>  <span class="ni">Do</span> <span class="ni">not</span> <span class="ni">actually</span> <span class="ni">change</span> <span class="ni">any</span> <span class="ni">files</span><span class="c">; just print what would happen.</span>
+  <span class="err">--</span><span class="ni">posix</span>  <span class="ni">Conform</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">POSIX</span> <span class="ni">standard</span><span class="err">.</span>
+  <span class="err">--</span><span class="ni">unified</span><span class="err">-</span><span class="ni">reject</span><span class="err">-</span><span class="ni">files</span>  <span class="ni">Create</span> <span class="ni">unified</span> <span class="ni">reject</span> <span class="ni">files</span><span class="err">.</span>
+  <span class="err">--</span><span class="ni">global</span><span class="err">-</span><span class="ni">reject</span><span class="err">-</span><span class="ni">file</span><span class="err">=</span><span class="ni">file</span>  <span class="ni">Put</span> <span class="ni">all</span> <span class="ni">rejects</span> <span class="ni">into</span> <span class="ni">one</span> <span class="ni">file</span><span class="err">.</span>
+
+  <span class="err">-d</span> <span class="ni">DIR</span>  <span class="err">--</span><span class="ni">directory</span><span class="err">=</span><span class="ni">DIR</span>  <span class="ni">Change</span> <span class="ni">the</span> <span class="ni">working</span> <span class="ni">directory</span> <span class="ni">to</span> <span class="ni">DIR</span> <span class="ni">first</span><span class="err">.</span>
+  <span class="err">--</span><span class="ni">binary</span>  <span class="ni">Read</span> <span class="ni">and</span> <span class="ni">write</span> <span class="ni">data</span> <span class="ni">in</span> <span class="ni">binary</span> <span class="ni">mode</span><span class="err">.</span>
+
+  <span class="err">-v</span>  <span class="err">--</span><span class="ni">version</span>  <span class="ni">Output</span> <span class="ni">version</span> <span class="ni">info</span><span class="err">.</span>
+  <span class="err">--</span><span class="ni">help</span>  <span class="ni">Output</span> <span class="ni">this</span> <span class="ni">help</span><span class="err">.</span>
+
+<span class="ni">Report</span> <span class="ni">bugs</span> <span class="ni">to</span> <span class="err">&lt;</span><span class="ni">bug</span><span class="err">-</span><span class="ni">patch</span><span class="err">@</span><span class="ni">gnu</span><span class="err">.</span><span class="ni">org</span><span class="err">&gt;.</span>
+
+</code></pre></div></div>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">C:\</span><span class="ni">Program</span> <span class="ni">Files</span><span class="err">\</span><span class="ni">WinMerge</span><span class="err">\</span><span class="ni">GnuWin32</span><span class="err">\</span><span class="ni">bin</span><span class="err">\</span><span class="ni">patch</span><span class="err">.</span><span class="kd">exe:</span> <span class="ni">invalid</span> <span class="ni">option</span> <span class="err">--</span> <span class="err">h</span>
+<span class="err">C:\</span><span class="ni">Program</span> <span class="ni">Files</span><span class="err">\</span><span class="ni">WinMerge</span><span class="err">\</span><span class="ni">GnuWin32</span><span class="err">\</span><span class="ni">bin</span><span class="err">\</span><span class="ni">patch</span><span class="err">.</span><span class="kd">exe:</span> <span class="ni">Try</span> <span class="err">`C:\</span><span class="ni">Program</span> <span class="ni">Files</span><span class="err">\</span><span class="ni">WinMerge</span><span class="err">\</span><span class="ni">GnuWin32</span><span class="err">\</span><span class="ni">bin</span><span class="err">\</span><span class="ni">patch</span><span class="err">.</span><span class="ni">exe</span> <span class="err">--</span><span class="ni">help</span><span class="err">'</span> <span class="ni">for</span> <span class="ni">more</span> <span class="ni">information</span><span class="err">.</span>
+
+</code></pre></div></div>
+
+<h3 id="child-processes">Child Processes:</h3>
+<p>conhost.exe</p>
+
+<h3 id="open-handles">Open Handles:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>(RW-)   C:\Users\user\AppData\Local\Temp\ppa03364</td>
+      <td>File</td>
+    </tr>
+    <tr>
+      <td>(RW-)   C:\Windows</td>
+      <td>File</td>
+    </tr>
+    <tr>
+      <td>(RW-)   C:\xCyclopedia</td>
+      <td>File</td>
+    </tr>
+    <tr>
+      <td>\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0</td>
+      <td>Section</td>
+    </tr>
+    <tr>
+      <td>\BaseNamedObjects\NLS_CodePage_437_3_2_0_0</td>
+      <td>Section</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Program Files\WinMerge\GnuWin32\bin\patch.exe</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64cpu.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64win.dll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: The file C:\Program Files\WinMerge\GnuWin32\bin\patch.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170</li>
+  <li>Serial: ``</li>
+  <li>Thumbprint: ``</li>
+  <li>Issuer:</li>
+  <li>Subject:</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: patch.exe</li>
+  <li>Product Name: Patch</li>
+  <li>Company Name: GnuWin32 <a href="http://gnuwin32.sourceforge.net">http://gnuwin32.sourceforge.net</a></li>
+  <li>File Version: 2.5.9.2670</li>
+  <li>Product Version: 2.5.9.2670</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  2007 Free Software Foundation <www.fsf.org></www.fsf.org></li>
+  <li>Machine Type: 32-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/68</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/efc277fe48cadd8f5014d499f2b9484f668bd917db47a699baace407f0a52f13/detection/</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">patch.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">patch.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_termserv_proc_spawn.yml">win_termserv_proc_spawn.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/rdp-stands-for-really-do-patch-understanding-the-wormable-rdp-vulnerability-cve-2019-0708/</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml">Bginfo.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Description: This style of execution may not longer work due to patch.</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/dukes/misp-dukes-operation-ghost-event.json">misp-dukes-operation-ghost-event.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"description": "Windows systems have hidden network shares that are accessible only to administrators and provide the ability for remote file copy and other administrative functions. Example network shares include &lt;code&gt;C$&lt;/code&gt;, &lt;code&gt;ADMIN$&lt;/code&gt;, and &lt;code&gt;IPC$&lt;/code&gt;. \n\nAdversaries may use this technique in conjunction with administrator-level [Valid Accounts](https://attack.mitre.org/techniques/T1078) to remotely access a networked system over server message block (SMB) (Citation: Wikipedia SMB) to interact with systems using remote procedure calls (RPCs), (Citation: TechNet RPC) transfer files, and run transferred binaries through remote Execution. Example execution techniques that rely on authenticated sessions over SMB/RPC are [Scheduled Task](https://attack.mitre.org/techniques/T1053), [Service Execution](https://attack.mitre.org/techniques/T1035), and [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047). Adversaries can also use NTLM hashes to access administrator shares on systems with [Pass the Hash](https://attack.mitre.org/techniques/T1075) and certain configuration and patch levels. (Citation: Microsoft Admin Shares)\n\nThe [Net](https://attack.mitre.org/software/S0039) utility can be used to connect to Windows admin shares on remote systems using &lt;code&gt;net use&lt;/code&gt; commands with valid credentials. (Citation: Technet Net Use)",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/keydnap/README.adoc">keydnap</a></td>
+      <td><code class="language-plaintext highlighter-rouge">A patch for UPX to unpack the samples is provided here:</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/keydnap/README.adoc">keydnap</a></td>
+      <td><code class="language-plaintext highlighter-rouge">https://github.com/eset/malware-research/blob/master/keydnap/keydnap_upx.patch</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/misp-kryptocibule.json">misp-kryptocibule.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"value": "magnet:?xt=urn:btih:ty3nlty4wdouzzatdmnjd3p64odxlkus&amp;dn=Photo Supreme 4.3.2.1920 + x64 + patch - Crackingpatching.zip&amp;xl=70934596&amp;fc=1",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/misp-kryptocibule.json">misp-kryptocibule.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"value": "magnet:?xt=urn:btih:ozb6szbtms5hsqi2vdijs4hc7dgy3ss2&amp;dn=Aiseesoft Video Converter Ultimate 9.2.60 + Portable + patch - Crackingpatching.zip&amp;xl=128497026&amp;fc=1",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/misp-kryptocibule.json">misp-kryptocibule.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"value": "magnet:?xt=urn:btih:cf2h5zsx26ff3j5dhrildejodhedukar&amp;dn=Aiseesoft FoneLab 9.1.82 + patch - Crackingpatching.zip&amp;xl=70973015&amp;fc=1",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/misp-kryptocibule.json">misp-kryptocibule.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"value": "magnet:?xt=urn:btih:eutba6opydl3zj4gmzt2asurlvtwzdlo&amp;dn=Awesome Miner Ultimate Plus 6.1.6 + Activation (licence-key-patch).zip&amp;xl=109403625&amp;fc=1",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/misp-kryptocibule.json">misp-kryptocibule.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"value": "magnet:?xt=urn:btih:w6m7jlh757iecyl6efsccku2oyradqnb&amp;dn=4K YouTube to MP3 3.4.0.1964 + x64 + patch - Crackingpatching.zip&amp;xl=40491417&amp;fc=1",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt">nouns.txt</a></td>
+      <td><code class="language-plaintext highlighter-rouge">patch</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/README.adoc">kryptocibule</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>magnet[:]?xt=urn[:]btih[:]ty3nlty4wdouzzatdmnjd3p64odxlkus&amp;dn=Photo Supreme 4.3.2.1920 + x64 + patch - Crackingpatching.zip&amp;xl=70934596&amp;fc=1<code class="language-plaintext highlighter-rouge">\| - </code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/README.adoc">kryptocibule</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>magnet[:]?xt=urn[:]btih[:]ozb6szbtms5hsqi2vdijs4hc7dgy3ss2&amp;dn=Aiseesoft Video Converter Ultimate 9.2.60 + Portable + patch - Crackingpatching.zip&amp;xl=128497026&amp;fc=1<code class="language-plaintext highlighter-rouge">\| - </code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/README.adoc">kryptocibule</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>magnet[:]?xt=urn[:]btih[:]cf2h5zsx26ff3j5dhrildejodhedukar&amp;dn=Aiseesoft FoneLab 9.1.82 + patch - Crackingpatching.zip&amp;xl=70973015&amp;fc=1<code class="language-plaintext highlighter-rouge">\| - </code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/README.adoc">kryptocibule</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>magnet[:]?xt=urn[:]btih[:]eutba6opydl3zj4gmzt2asurlvtwzdlo&amp;dn=Awesome Miner Ultimate Plus 6.1.6 + Activation (licence-key-patch).zip&amp;xl=109403625&amp;fc=1<code class="language-plaintext highlighter-rouge">\| - </code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/README.adoc">kryptocibule</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>magnet[:]?xt=urn[:]btih[:]w6m7jlh757iecyl6efsccku2oyradqnb&amp;dn=4K YouTube to MP3 3.4.0.1964 + x64 + patch - Crackingpatching.zip&amp;xl=40491417&amp;fc=1<code class="language-plaintext highlighter-rouge">\| - </code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/oceanlotus/oceanlotus-rtf_ocx_campaigns.misp.event.json">oceanlotus-rtf_ocx_campaigns.misp.event.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"description": "Adversaries may interact with the Windows Registry to hide configuration information within Registry keys, remove information as part of cleaning up, or as part of other techniques to aid in Persistence and Execution.\n\nAccess to specific areas of the Registry depends on account permissions, some requiring administrator-level access. The built-in Windows command-line utility Reg may be used for local or remote Registry modification. (Citation: Microsoft Reg) Other tools may also be used, such as a remote access tool, which may contain functionality to interact with the Registry through the Windows API (see examples).\n\nThe Registry of a remote system may be modified to aid in execution of files as part of Lateral Movement. It requires the remote Registry service to be running on the target system. (Citation: Microsoft Remote) Often Valid Accounts are required, along with access to the remote system's Windows Admin Shares for RPC communication.\n\nDetection: Modifications to the Registry are normal and occur throughout typical use of the Windows operating system. Changes to Registry entries that load software on Windows startup that do not correlate with known software, patch cycles, etc., are suspicious, as are additions or changes to files within the startup folder. Changes could also include new services and modification of existing binary paths to point to malicious files. If a change to a service-related entry occurs, then it will likely be followed by a local or remote service start or restart to execute the file.\n\nMonitor processes and command-line arguments for actions that could be taken to change or delete information in the Registry. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as Windows Management Instrumentation and PowerShell, which may require additional logging features to be configured in the operating system to collect necessary information for analysis.\n\nPlatforms: Windows\n\nData Sources: Windows Registry, File monitoring, Process monitoring, Process command-line parameters\n\nDefense Bypassed: Host forensic analysis\n\nPermissions Required: User, Administrator, SYSTEM\n\nContributors: Bartosz Jerzman, Travis Smith, Tripwire",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/oceanlotus/oceanlotus-rtf_ocx_campaigns.misp.event.json">oceanlotus-rtf_ocx_campaigns.misp.event.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"description": "When operating systems boot up, they can start programs or applications called services that perform background system functions. (Citation: TechNet Services) A service's configuration information, including the file path to the service's executable, is stored in the Windows Registry. \n\nAdversaries may install a new service that can be configured to execute at startup by using utilities to interact with services or by directly modifying the Registry. The service name may be disguised by using a name from a related operating system or benign software with Masquerading. Services may be created with administrator privileges but are executed under SYSTEM privileges, so an adversary may also use a service to escalate privileges from administrator to SYSTEM. Adversaries may also directly start services through Service Execution.\n\nDetection: Monitor service creation through changes in the Registry and common utilities using command-line invocation. New, benign services may be created during installation of new software. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for Command and Control, learning details about the environment through Discovery, and Lateral Movement.\n\nTools such as Sysinternals Autoruns may also be used to detect system changes that could be attempts at persistence. (Citation: TechNet Autoruns) Look for changes to services that do not correlate with known software, patch cycles, etc. Suspicious program execution through services may show up as outlier processes that have not been seen before when compared against historical data.\n\nMonitor processes and command-line arguments for actions that could create services. Remote access tools with built-in features may interact directly with the Windows API to perform these functions outside of typical system utilities. Services may also be created through Windows system management tools such as Windows Management Instrumentation and PowerShell, so additional logging may need to be configured to gather the appropriate data.\n\nPlatforms: Windows\n\nData Sources: Windows Registry, Process monitoring, Process command-line parameters\n\nEffective Permissions: SYSTEM\n\nPermissions Required: Administrator, SYSTEM",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/oceanlotus/oceanlotus-rtf_ocx_campaigns.misp.event.json">oceanlotus-rtf_ocx_campaigns.misp.event.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"description": "Adding an entry to the \"run keys\" in the Registry or startup folder will cause the program referenced to be executed when a user logs in. (Citation: Microsoft Run Key) The program will be executed under the context of the user and will have the account's associated permissions level.\n\nAdversaries can use these configuration locations to execute malware, such as remote access tools, to maintain persistence through system reboots. Adversaries may also use Masquerading to make the Registry entries look as if they are associated with legitimate programs.\n\nDetection: Monitor Registry for changes to run keys that do not correlate with known software, patch cycles, etc. Monitor the start folder for additions or changes. Tools such as Sysinternals Autoruns may also be used to detect system changes that could be attempts at persistence, including listing the run keys' Registry locations and startup folders. (Citation: TechNet Autoruns) Suspicious program execution as startup programs may show up as outlier processes that have not been seen before when compared against historical data.\n\nChanges to these locations typically happen under normal conditions when legitimate software is installed. To increase confidence of malicious activity, data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for Command and Control, learning details about the environment through Discovery, and Lateral Movement.\n\nPlatforms: Windows\n\nData Sources: Windows Registry, File monitoring\n\nPermissions Required: User, Administrator",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/oceanlotus/oceanlotus-rtf_ocx_campaigns.misp.event.json">oceanlotus-rtf_ocx_campaigns.misp.event.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"description": "Utilities such as at and schtasks, along with the Windows Task Scheduler, can be used to schedule programs or scripts to be executed at a date and time. A task can also be scheduled on a remote system, provided the proper authentication is met to use RPC and file and printer sharing is turned on. Scheduling a task on a remote system typically required being a member of the Administrators group on the the remote system. (Citation: TechNet Task Scheduler Security)\n\nAn adversary may use task scheduling to execute programs at system startup or on a scheduled basis for persistence, to conduct remote Execution as part of Lateral Movement, to gain SYSTEM privileges, or to run a process under the context of a specified account.\n\nDetection: Monitor scheduled task creation from common utilities using command-line invocation. Legitimate scheduled tasks may be created during installation of new software or through system administration functions. Monitor process execution from the &lt;code&gt;svchost.exe&lt;\/code&gt; in Windows 10 and the Windows Task Scheduler &lt;code&gt;taskeng.exe&lt;\/code&gt; for older versions of Windows. (Citation: Twitter Leoloobeek Scheduled Task) If scheduled tasks are not used for persistence, then the adversary is likely to remove the task when the action is complete. Monitor Windows Task Scheduler stores in &lt;code&gt;%systemroot%\\System32\\Tasks&lt;\/code&gt; for change entries related to scheduled tasks that do not correlate with known software, patch cycles, etc. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as network connections made for Command and Control, learning details about the environment through Discovery, and Lateral Movement.\n\nConfigure event logging for scheduled task creation and changes by enabling the \"Microsoft-Windows-TaskScheduler\/Operational\" setting within the event logging service. (Citation: TechNet Forum Scheduled Task Operational Setting) Several events will then be logged on scheduled task activity, including: (Citation: TechNet Scheduled Task Events)\n\n*Event ID 106 - Scheduled task registered\n*Event ID 140 - Scheduled task updated\n*Event ID 141 - Scheduled task removed\n\nTools such as Sysinternals Autoruns may also be used to detect system changes that could be attempts at persistence, including listing current scheduled tasks. (Citation: TechNet Autoruns) Look for changes to tasks that do not correlate with known software, patch cycles, etc. Suspicious program execution through scheduled tasks may show up as outlier processes that have not been seen before when compared against historical data.\n\nMonitor processes and command-line arguments for actions that could be taken to create tasks. Remote access tools with built-in features may interact directly with the Windows API to perform these functions outside of typical system utilities. Tasks may also be created through Windows system management tools such as Windows Management Instrumentation and PowerShell, so additional logging may need to be configured to gather the appropriate data.\n\nPlatforms: Windows\n\nData Sources: File monitoring, Process command-line parameters, Process monitoring, Windows event logs\n\nEffective Permissions: Administrator, SYSTEM, User\n\nPermissions Required: Administrator, SYSTEM, User\n\nRemote Support: Yes\n\nContributors: Travis Smith, Tripwire, Leo Loobeek, @leoloobeek, Alain Homewood, Insomnia Security",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/oceanlotus/oceanlotus-rtf_ocx_campaigns.misp.event.json">oceanlotus-rtf_ocx_campaigns.misp.event.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"description": "Adversaries may execute a binary, command, or script via a method that interacts with Windows services, such as the Service Control Manager. This can be done by either creating a new service or modifying an existing service. This technique is the execution used in conjunction with New Service and Modify Existing Service during service persistence or privilege escalation.\n\nDetection: Changes to service Registry entries and command-line invocation of tools capable of modifying services that do not correlate with known software, patch cycles, etc., may be suspicious. If a service is used only to execute a binary or script and not to persist, then it will likely be changed back to its original form shortly after the service is restarted so the service is not left broken, as is the case with the common administrator tool PsExec.\n\nPlatforms: Windows\n\nData Sources: Windows Registry, Process command-line parameters, Process monitoring\n\nPermissions Required: Administrator, SYSTEM\n\nRemote Support: Yes",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.002/T1021.002.md">T1021.002.md</a></td>
+      <td>Windows systems have hidden network shares that are accessible only to administrators and provide the ability for remote file copy and other administrative functions. Example network shares include <code class="language-plaintext highlighter-rouge">C$</code>, <code class="language-plaintext highlighter-rouge">ADMIN$</code>, and <code class="language-plaintext highlighter-rouge">IPC$</code>. Adversaries may use this technique in conjunction with administrator-level <a href="https://attack.mitre.org/techniques/T1078">Valid Accounts</a> to remotely access a networked system over SMB,(Citation: Wikipedia Server Message Block) to interact with systems using remote procedure calls (RPCs),(Citation: TechNet RPC) transfer files, and run transferred binaries through remote Execution. Example execution techniques that rely on authenticated sessions over SMB/RPC are <a href="https://attack.mitre.org/techniques/T1053">Scheduled Task/Job</a>, <a href="https://attack.mitre.org/techniques/T1569/002">Service Execution</a>, and <a href="https://attack.mitre.org/techniques/T1047">Windows Management Instrumentation</a>. Adversaries can also use NTLM hashes to access administrator shares on systems with <a href="https://attack.mitre.org/techniques/T1550/002">Pass the Hash</a> and certain configuration and patch levels.(Citation: Microsoft Admin Shares)&lt;/blockquote&gt;</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md">T1562.001.md</a></td>
+      <td>Any easy way to bypass AMSI inspection is it patch the dll in memory setting the “amsiInitFailed” function to true.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_hkdoor.yar">apt_hkdoor.yar</a></td>
+      <td>$s2 = “Patch Success.” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/cn_pentestset_tools.yar">cn_pentestset_tools.yar</a></td>
+      <td>$s0 = “<description>Patch</description>” fullword ascii /* PEStudio Blacklist: strings */</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_bad_patch.yar">crime_bad_patch.yar</a></td>
+      <td>$x8 = “ :Old - update patch and check anti-virus.. “ fullword wide</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_bad_patch.yar">crime_bad_patch.yar</a></td>
+      <td>$x11 = “PatchNotExit– Version Patch” fullword wide</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar">thor-hacktools.yar</a></td>
+      <td>$s7 = “-  Windows NT,2000 Patch Method  - “ fullword</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

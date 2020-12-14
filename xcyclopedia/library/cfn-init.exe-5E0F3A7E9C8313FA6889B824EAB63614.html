@@ -1,0 +1,661 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>cfn-init.exe | An EC2 bootstrapper for CloudFormation &#124; STRONTIC</title>
+<meta name="description" content="What is cfn-init.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="cfn-init.exe | An EC2 bootstrapper for CloudFormation">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/cfn-init.exe-5E0F3A7E9C8313FA6889B824EAB63614.html">
+
+
+  <meta property="og:description" content="What is cfn-init.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="cfn-init.exe | An EC2 bootstrapper for CloudFormation">
+  <meta name="twitter:description" content="What is cfn-init.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/cfn-init.exe-5E0F3A7E9C8313FA6889B824EAB63614.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/cfn-init.exe-5E0F3A7E9C8313FA6889B824EAB63614.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">cfn-init.exe | An EC2 bootstrapper for CloudFormation</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            cfn-init.exe      An EC2 bootstrapper for CloudFormation      ">
+    <meta itemprop="description" content="What is cfn-init.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="cfn-initexe">cfn-init.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe</code></li>
+  <li>Description: An EC2 bootstrapper for CloudFormation</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">5E0F3A7E9C8313FA6889B824EAB63614</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">E7A5B44B8CC5F681C549C97546F37A3F33170566</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">CFBAB698F849F46D68C736AF3AA2BD1A27A16DE772F5A14AAD1A6D7E25475D21</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">B9E858B2D7F64C802138E5149390BF3F7C775B165DC25DA53C5F3F3589B807667F51075EA7406AFC86A4403F5272CCE9</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">D888447F6E65E7A01B3429479F214710D29ED91A8B2B2B2D13C3762455821C5E86211F9F0F9AC60499185D043E6DA2C92C41F2241DF91552A9968EE87A198086</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">384:eytbeSasdkBKuZu/snjycBghtrYh8eknggMl4gKg67WhtrjHqC3V5/peK9/VNLOq:RvmBjHgTsfkngjjjHV5/pemrL8N8XPB</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">8571CAA1C1E39E800CB623F4B1D233D9</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">1C4B8E4500194D8DDFDF050AD17CE70526B1590C</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">EDF656D354A1356200FFF432848827A93EF1C55ACEA184C07024C7F617324371</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">Usage</span><span class="err">:</span> <span class="ni">cfn</span><span class="err">-</span><span class="ni">init</span><span class="err">.</span><span class="ni">exe</span> <span class="err">[</span><span class="ni">options</span><span class="err">]</span>
+  <span class="kd">or:</span>  <span class="ni">cfn</span><span class="err">-</span><span class="ni">init</span><span class="err">.</span><span class="ni">exe</span> <span class="err">[</span><span class="ni">options</span><span class="err">]</span> <span class="err">&lt;</span><span class="ni">filename</span><span class="err">&gt;</span>
+  <span class="kd">or:</span>  <span class="ni">cat</span> <span class="err">&lt;</span><span class="ni">filename</span><span class="err">&gt;</span> <span class="err">|</span> <span class="ni">cfn</span><span class="err">-</span><span class="ni">init</span><span class="err">.</span><span class="ni">exe</span> <span class="err">[</span><span class="ni">options</span><span class="err">]</span> <span class="err">-</span>
+
+<span class="ni">Options</span><span class="err">:</span>
+  <span class="err">-h</span><span class="p">,</span> <span class="err">--</span><span class="ni">help</span>            <span class="ni">show</span> <span class="ni">this</span> <span class="ni">help</span> <span class="ni">message</span> <span class="ni">and</span> <span class="ni">exit</span>
+  <span class="err">-s</span> <span class="ni">STACK_NAME</span><span class="p">,</span> <span class="err">--</span><span class="ni">stack</span><span class="err">=</span><span class="ni">STACK_NAME</span>
+                        <span class="err">A</span> <span class="ni">CloudFormation</span> <span class="ni">stack</span>
+  <span class="err">-r</span> <span class="ni">LOGICAL_RESOURCE_ID</span><span class="p">,</span> <span class="err">--</span><span class="ni">resource</span><span class="err">=</span><span class="ni">LOGICAL_RESOURCE_ID</span>
+                        <span class="err">A</span> <span class="ni">CloudFormation</span> <span class="ni">logical</span> <span class="ni">resource</span> <span class="ni">ID</span>
+  <span class="err">-c</span> <span class="ni">CONFIGSETS</span><span class="p">,</span> <span class="err">--</span><span class="ni">configsets</span><span class="err">=</span><span class="ni">CONFIGSETS</span>
+                        <span class="ni">An</span> <span class="ni">optional</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">configSets</span> <span class="p">(</span><span class="kd">default:</span> <span class="s">"default"</span><span class="p">)</span>
+  <span class="err">-u</span> <span class="ni">ENDPOINT</span><span class="p">,</span> <span class="err">--</span><span class="ni">url</span><span class="err">=</span><span class="ni">ENDPOINT</span>
+                        <span class="ni">The</span> <span class="ni">CloudFormation</span> <span class="ni">service</span> <span class="ni">URL</span><span class="err">.</span> <span class="ni">The</span> <span class="ni">endpoint</span> <span class="ni">URL</span> <span class="ni">must</span>
+                        <span class="ni">match</span> <span class="ni">the</span> <span class="ni">region</span> <span class="ni">option</span><span class="err">.</span> <span class="ni">Use</span> <span class="ni">of</span> <span class="ni">this</span> <span class="ni">parameter</span> <span class="ni">is</span>
+                        <span class="ni">discouraged</span><span class="err">.</span>
+  <span class="err">--</span><span class="ni">region</span><span class="err">=</span><span class="ni">REGION</span>       <span class="ni">The</span> <span class="ni">CloudFormation</span> <span class="ni">region</span><span class="err">.</span> <span class="ni">Default</span><span class="err">:</span> <span class="ni">us</span><span class="err">-</span><span class="ni">east</span><span class="err">-</span><span class="m">1</span><span class="err">.</span>
+  <span class="err">-v</span><span class="p">,</span> <span class="err">--</span><span class="ni">verbose</span>         <span class="ni">Enables</span> <span class="ni">verbose</span> <span class="ni">logging</span>
+  <span class="err">--</span><span class="ni">resume</span>              <span class="ni">Resume</span> <span class="ni">from</span> <span class="err">a</span> <span class="ni">previous</span> <span class="ni">cfn</span><span class="err">-</span><span class="ni">init</span> <span class="ni">run</span>
+
+  <span class="ni">AWS</span> <span class="ni">Credentials</span><span class="err">:</span>
+    <span class="ni">Options</span> <span class="ni">for</span> <span class="ni">specifying</span> <span class="ni">AWS</span> <span class="ni">Account</span> <span class="ni">Credentials</span><span class="err">.</span>
+
+    <span class="err">-f</span> <span class="ni">CREDENTIAL_FILE</span><span class="p">,</span> <span class="err">--</span><span class="ni">credential</span><span class="err">-</span><span class="ni">file</span><span class="err">=</span><span class="ni">CREDENTIAL_FILE</span>
+                        <span class="err">A</span> <span class="ni">credential</span> <span class="ni">file</span><span class="p">,</span> <span class="ni">readable</span> <span class="ni">only</span> <span class="ni">by</span> <span class="ni">the</span> <span class="ni">owner</span><span class="p">,</span> <span class="ni">with</span>
+                        <span class="ni">keys</span> <span class="err">'</span><span class="ni">AWSAccessKeyId</span><span class="err">'</span> <span class="ni">and</span> <span class="err">'</span><span class="ni">AWSSecretKey</span><span class="err">'</span>
+    <span class="err">--</span><span class="ni">role</span><span class="err">=</span><span class="ni">IAM_ROLE</span>     <span class="ni">An</span> <span class="ni">IAM</span> <span class="ni">Role</span>
+    <span class="err">--</span><span class="ni">access</span><span class="err">-</span><span class="ni">key</span><span class="err">=</span><span class="ni">ACCESS_KEY</span>
+                        <span class="ni">An</span> <span class="ni">AWS</span> <span class="ni">Access</span> <span class="ni">Key</span>
+    <span class="err">--</span><span class="ni">secret</span><span class="err">-</span><span class="ni">key</span><span class="err">=</span><span class="ni">SECRET_KEY</span>
+                        <span class="ni">An</span> <span class="ni">AWS</span> <span class="ni">Secret</span> <span class="ni">Key</span>
+
+  <span class="ni">Proxy</span><span class="err">:</span>
+    <span class="ni">Options</span> <span class="ni">for</span> <span class="ni">specifying</span> <span class="ni">proxies</span><span class="err">.</span> <span class="ni">Format</span><span class="err">:</span>
+    <span class="err">[</span><span class="kd">scheme:</span><span class="p">//</span><span class="err">][</span><span class="kd">user:</span><span class="ni">password</span><span class="err">@]</span><span class="kd">host:</span><span class="ni">port</span>
+
+    <span class="err">--</span><span class="ni">http</span><span class="err">-</span><span class="ni">proxy</span><span class="err">=</span><span class="ni">HTTP_PROXY</span>
+                        <span class="err">A</span> <span class="p">(</span><span class="ni">non</span><span class="err">-</span><span class="ni">SSL</span><span class="p">)</span> <span class="ni">HTTP</span> <span class="ni">proxy</span>
+    <span class="err">--</span><span class="ni">https</span><span class="err">-</span><span class="ni">proxy</span><span class="err">=</span><span class="ni">HTTPS_PROXY</span>
+                        <span class="ni">An</span> <span class="ni">HTTPS</span> <span class="ni">proxy</span>
+
+</code></pre></div></div>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">Unknown</span> <span class="ni">error</span> <span class="ni">reading</span> <span class="ni">from</span> <span class="ni">file</span> <span class="ni">help</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Program Files\Amazon\cfn-bootstrap_hashlib.pyd</td>
+    </tr>
+    <tr>
+      <td>C:\Program Files\Amazon\cfn-bootstrap_socket.pyd</td>
+    </tr>
+    <tr>
+      <td>C:\Program Files\Amazon\cfn-bootstrap_ssl.pyd</td>
+    </tr>
+    <tr>
+      <td>C:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe</td>
+    </tr>
+    <tr>
+      <td>C:\Program Files\Amazon\cfn-bootstrap\PYTHON27.DLL</td>
+    </tr>
+    <tr>
+      <td>C:\Program Files\Amazon\cfn-bootstrap\select.pyd</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\ADVAPI32.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\bcrypt.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\bcryptPrimitives.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\cfgmgr32.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\combase.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\CRYPT32.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\CRYPTBASE.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\cryptsp.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\GDI32.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\gdi32full.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\IMM32.DLL</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\kernel.appcore.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNEL32.DLL</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNELBASE.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\MSASN1.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\msvcp_win.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\msvcrt.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\powrprof.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\profapi.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\RPCRT4.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\system32\rsaenh.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\sechost.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\shcore.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\SHELL32.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\shlwapi.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\ucrtbase.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\USER32.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\win32u.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\windows.storage.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\WS2_32.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_08e07c8fa840efbe\MSVCR90.dll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: The file C:\Program Files\Amazon\cfn-bootstrap\cfn-init.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170</li>
+  <li>Serial: ``</li>
+  <li>Thumbprint: ``</li>
+  <li>Issuer:</li>
+  <li>Subject:</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: cfn-init.exe</li>
+  <li>Product Name: aws-cfn-bootstrap</li>
+  <li>Company Name:</li>
+  <li>File Version: 1.4</li>
+  <li>Product Version: 1.4</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/68</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/cfbab698f849f46d68c736af3aa2bd1a27a16de772f5a14aad1a6d7e25475d21/detection/</li>
+</ul>
+
+<h2 id="file-similarity-ssdeep-match">File Similarity (ssdeep match)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/xcyclopedia/library/cfn-elect-cmd-leader.exe-381A030E578E8285BF1F462CC036E4D0.html">C:\Program Files\Amazon\cfn-bootstrap\cfn-elect-cmd-leader.exe</a></td>
+      <td>86</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/cfn-get-metadata.exe-AB00AE1FE4E4943F9CCB91C01E1C4F35.html">C:\Program Files\Amazon\cfn-bootstrap\cfn-get-metadata.exe</a></td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/cfn-hup.exe-FC05F4A7EA27BD5F73BE9016B8F70BD9.html">C:\Program Files\Amazon\cfn-bootstrap\cfn-hup.exe</a></td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/cfn-send-cmd-event.exe-6569521FE751E682B6AF18F84D544079.html">C:\Program Files\Amazon\cfn-bootstrap\cfn-send-cmd-event.exe</a></td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/cfn-send-cmd-result.exe-3F9A3602A5CC3B5C8C8011A9DCB76006.html">C:\Program Files\Amazon\cfn-bootstrap\cfn-send-cmd-result.exe</a></td>
+      <td>86</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/cfn-signal.exe-DDB912A9A7741BCFC2DB4C1DDE995AB1.html">C:\Program Files\Amazon\cfn-bootstrap\cfn-signal.exe</a></td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/winhup.exe-48FE04D8A6525EBF39345C41CE0D6842.html">C:\Program Files\Amazon\cfn-bootstrap\winhup.exe</a></td>
+      <td>86</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

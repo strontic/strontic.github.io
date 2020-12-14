@@ -1,0 +1,680 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>dcdiag.exe | Active Directory Domain Services / Lightweight Directory Services diagnosis utility &#124; STRONTIC</title>
+<meta name="description" content="What is dcdiag.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="dcdiag.exe | Active Directory Domain Services / Lightweight Directory Services diagnosis utility">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/dcdiag.exe-7936349C0FD5FEF9317F678460C78707.html">
+
+
+  <meta property="og:description" content="What is dcdiag.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="dcdiag.exe | Active Directory Domain Services / Lightweight Directory Services diagnosis utility">
+  <meta name="twitter:description" content="What is dcdiag.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/dcdiag.exe-7936349C0FD5FEF9317F678460C78707.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/dcdiag.exe-7936349C0FD5FEF9317F678460C78707.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">dcdiag.exe | Active Directory Domain Services / Lightweight Directory Services diagnosis utility</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            dcdiag.exe      Active Directory Domain Services / Lightweight Directory Services diagnosis utility      ">
+    <meta itemprop="description" content="What is dcdiag.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="dcdiagexe">dcdiag.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\system32\dcdiag.exe</code></li>
+  <li>Description: Active Directory Domain Services / Lightweight Directory Services diagnosis utility</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">7936349C0FD5FEF9317F678460C78707</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">88767C5ED161BFF11EDC9A0CC2A33CB321567BA0</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">4743C32AF3D19CDF125811ED9D17FB72B25CB453319A8AF08C2F1369B3E50A70</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">E4DB8B5CF17663300507A4A3E2DA698EF2285862816E842F06D7F2F9D65576498C6D9A9C1C5073C8145F2D7817A51FAF</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">98E859BA5A79731BC769F28BA8CFF2C216881CFEFC22BB5CD253594F4CA92DA609F3BA12CCD0F50FB6F4762580E994958DD93BEC6DF3B1F4F1D4FAB607B83416</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">6144:Pu/F9fR72PGXqHcg5la/Ee7574dovUPvyLwAqjxt9yWj8dyYduDaFH8NwZaWc52q:A9ZyPGXEE574d7iNqFTyGKAMYj</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+ <span class="ni">Directory</span> <span class="ni">Server</span> <span class="ni">Diagnosis</span>
+
+<span class="ni">dcdiag</span><span class="err">.</span><span class="ni">exe</span> <span class="p">/</span><span class="kd">s:</span><span class="err">&lt;</span><span class="ni">Directory</span> <span class="ni">Server</span><span class="err">&gt;[:&lt;</span><span class="ni">LDAP</span> <span class="ni">Port</span><span class="err">&gt;]</span> <span class="err">[</span><span class="p">/</span><span class="kd">u:</span><span class="err">&lt;</span><span class="ni">Domain</span><span class="err">&gt;\&lt;</span><span class="ni">Username</span><span class="err">&gt;</span>
+<span class="p">/</span><span class="kd">p:</span><span class="err">*|&lt;</span><span class="ni">Password</span><span class="err">&gt;|</span><span class="s">""</span><span class="err">]</span> 
+           <span class="err">[</span><span class="p">/</span><span class="ni">hqv</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="kd">n:</span><span class="err">&lt;</span><span class="ni">Naming</span> <span class="ni">Context</span><span class="err">&gt;]</span> <span class="err">[</span><span class="p">/</span><span class="kd">f:</span><span class="err">&lt;</span><span class="ni">Log</span><span class="err">&gt;]</span> <span class="err">[</span><span class="p">/</span><span class="kd">x:</span><span class="ni">XMLLog</span><span class="err">.</span><span class="ni">xml</span><span class="err">]</span>
+           <span class="err">[</span><span class="p">/</span><span class="kd">skip:</span><span class="err">&lt;</span><span class="ni">Test</span><span class="err">&gt;]</span> <span class="err">[</span><span class="p">/</span><span class="kd">test:</span><span class="err">&lt;</span><span class="ni">Test</span><span class="err">&gt;]</span>
+   <span class="p">/</span><span class="kd">h:</span> <span class="ni">Display</span> <span class="ni">this</span> <span class="ni">help</span> <span class="ni">screen</span>
+
+   <span class="p">/</span><span class="kd">s:</span> <span class="ni">Use</span> <span class="err">&lt;</span><span class="ni">Directory</span> <span class="ni">Server</span><span class="err">&gt;</span> <span class="ni">as</span> <span class="ni">Home</span> <span class="ni">Server</span><span class="err">.</span> <span class="ni">Ignored</span> <span class="ni">for</span> <span class="ni">DcPromo</span> <span class="ni">and</span>
+       <span class="ni">RegisterInDns</span> <span class="ni">tests</span> <span class="ni">which</span> <span class="ni">can</span> <span class="ni">only</span> <span class="ni">be</span> <span class="ni">run</span> <span class="ni">locally</span><span class="err">.</span>
+   <span class="p">/</span><span class="kd">n:</span> <span class="ni">Use</span> <span class="err">&lt;</span><span class="ni">Naming</span> <span class="ni">Context</span><span class="err">&gt;</span> <span class="ni">as</span> <span class="ni">the</span> <span class="ni">Naming</span> <span class="ni">Context</span> <span class="ni">to</span> <span class="ni">test</span>
+       <span class="ni">Domains</span> <span class="ni">may</span> <span class="ni">be</span> <span class="ni">specified</span> <span class="ni">in</span> <span class="ni">Netbios</span><span class="p">,</span> <span class="ni">DNS</span> <span class="ni">or</span> <span class="ni">DN</span> <span class="ni">form</span><span class="err">.</span>
+   <span class="p">/</span><span class="kd">u:</span> <span class="ni">Use</span> <span class="ni">domain</span><span class="err">\</span><span class="ni">username</span> <span class="ni">credentials</span> <span class="ni">for</span> <span class="ni">binding</span><span class="err">.</span>
+       <span class="ni">Must</span> <span class="ni">also</span> <span class="ni">use</span> <span class="ni">the</span> <span class="p">/</span><span class="err">p</span> <span class="ni">option</span>
+
+   <span class="p">/</span><span class="kd">p:</span> <span class="ni">Use</span> <span class="err">&lt;</span><span class="ni">Password</span><span class="err">&gt;</span> <span class="ni">as</span> <span class="ni">the</span> <span class="ni">password</span><span class="err">.</span>  <span class="ni">Must</span> <span class="ni">also</span> <span class="ni">use</span> <span class="ni">the</span> <span class="p">/</span><span class="err">u</span> <span class="ni">option</span>
+   <span class="p">/</span><span class="kd">a:</span> <span class="ni">Test</span> <span class="ni">all</span> <span class="ni">the</span> <span class="ni">servers</span> <span class="ni">in</span> <span class="ni">this</span> <span class="ni">site</span>
+   <span class="p">/</span><span class="kd">e:</span> <span class="ni">Test</span> <span class="ni">all</span> <span class="ni">the</span> <span class="ni">servers</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">entire</span> <span class="ni">enterprise</span><span class="err">.</span>  <span class="ni">Overrides</span> <span class="p">/</span><span class="err">a</span>
+   <span class="p">/</span><span class="kd">q:</span> <span class="ni">Quiet</span> <span class="err">-</span> <span class="ni">Only</span> <span class="ni">print</span> <span class="ni">error</span> <span class="ni">messages</span>
+   <span class="p">/</span><span class="kd">v:</span> <span class="ni">Verbose</span> <span class="err">-</span> <span class="ni">Print</span> <span class="ni">extended</span> <span class="ni">information</span>
+   <span class="p">/</span><span class="kd">i:</span> <span class="ni">ignore</span> <span class="err">-</span> <span class="ni">ignores</span> <span class="ni">superfluous</span> <span class="ni">error</span> <span class="ni">messages</span><span class="err">.</span>
+   <span class="p">/</span><span class="kd">c:</span> <span class="ni">Comprehensive</span><span class="p">,</span> <span class="ni">runs</span> <span class="ni">all</span> <span class="ni">tests</span><span class="p">,</span> <span class="ni">including</span> <span class="ni">non</span><span class="err">-</span><span class="ni">default</span> <span class="ni">tests</span> <span class="ni">but</span> <span class="ni">excluding</span>
+       <span class="ni">DcPromo</span> <span class="ni">and</span> <span class="ni">RegisterInDNS</span><span class="err">.</span> <span class="ni">Can</span> <span class="ni">use</span> <span class="ni">with</span> <span class="p">/</span><span class="ni">skip</span>
+   <span class="p">/</span><span class="kd">fix:</span> <span class="ni">fix</span> <span class="err">-</span> <span class="ni">Make</span> <span class="ni">safe</span> <span class="ni">repairs</span><span class="err">.</span>
+   <span class="p">/</span><span class="kd">f:</span> <span class="ni">Redirect</span> <span class="ni">all</span> <span class="ni">output</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">file</span> <span class="err">&lt;</span><span class="ni">Log</span><span class="err">&gt;</span> <span class="ni">seperately</span>
+   <span class="p">/</span><span class="kd">x:</span><span class="err">&lt;</span><span class="ni">XMLLog</span><span class="err">.</span><span class="ni">xml</span><span class="err">&gt;</span> <span class="ni">Redirect</span> <span class="ni">xml</span> <span class="ni">output</span> <span class="ni">to</span> <span class="err">&lt;</span><span class="ni">XMLLog</span><span class="err">.</span><span class="ni">xml</span><span class="err">&gt;.</span> <span class="ni">Currently</span> <span class="ni">works</span> <span class="ni">with</span>
+<span class="p">/</span><span class="kd">test:</span><span class="ni">dns</span> <span class="ni">option</span> <span class="ni">only</span>
+   <span class="p">/</span><span class="kd">xsl:</span><span class="err">&lt;</span><span class="ni">xslfile</span><span class="err">.</span><span class="ni">xsl</span> <span class="ni">or</span> <span class="ni">xsltfile</span><span class="err">.</span><span class="ni">xslt</span><span class="err">&gt;</span> <span class="ni">Adds</span> <span class="ni">the</span> <span class="ni">processing</span> <span class="ni">instructions</span> <span class="ni">that</span>
+<span class="ni">references</span> <span class="ni">specified</span> <span class="ni">stylesheet</span><span class="err">.</span> <span class="ni">Works</span> <span class="ni">with</span> <span class="p">/</span><span class="kd">test:</span><span class="ni">dns</span> <span class="p">/</span><span class="kd">x:</span><span class="err">&lt;</span><span class="ni">XMLLog</span><span class="err">.</span><span class="ni">xml</span><span class="err">&gt;</span> <span class="ni">option</span>
+<span class="ni">only</span>
+
+   <span class="p">/</span><span class="kd">test:</span><span class="err">&lt;</span><span class="ni">TestName</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">Test</span> <span class="ni">only</span> <span class="ni">this</span> <span class="ni">test</span><span class="err">.</span>  <span class="ni">Required</span> <span class="ni">tests</span> <span class="ni">will</span> <span class="ni">still</span>
+                      <span class="ni">be</span> <span class="ni">run</span><span class="err">.</span>  <span class="ni">Do</span> <span class="ni">not</span> <span class="ni">mix</span> <span class="ni">with</span> <span class="p">/</span><span class="ni">skip</span><span class="err">.</span>
+
+   <span class="p">/</span><span class="kd">skip:</span><span class="err">&lt;</span><span class="ni">TestName</span><span class="err">&gt;</span> <span class="err">-</span> <span class="ni">Skip</span> <span class="ni">the</span> <span class="ni">named</span> <span class="ni">test</span><span class="err">.</span>  <span class="ni">Required</span> <span class="ni">tests</span> <span class="ni">will</span> <span class="ni">still</span>
+                      <span class="ni">be</span> <span class="ni">run</span><span class="err">.</span>  <span class="ni">Do</span> <span class="ni">not</span> <span class="ni">mix</span> <span class="ni">with</span> <span class="p">/</span><span class="ni">test</span><span class="err">.</span>
+
+   <span class="ni">The</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">known</span> <span class="kd">tests:</span>
+
+	<span class="ni">Advertising</span>  
+             <span class="ni">Checks</span> <span class="ni">whether</span> <span class="ni">each</span> <span class="ni">DSA</span> <span class="ni">is</span> <span class="ni">advertising</span> <span class="ni">itself</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">whether</span> <span class="ni">it</span> <span class="ni">is</span>
+            <span class="ni">advertising</span> <span class="ni">itself</span> <span class="ni">as</span> <span class="ni">having</span> <span class="ni">the</span> <span class="ni">capabilities</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">DSA</span><span class="err">.</span> 
+
+	<span class="ni">CheckSDRefDom</span>  
+             <span class="ni">This</span> <span class="ni">test</span> <span class="ni">checks</span> <span class="ni">that</span> <span class="ni">all</span> <span class="ni">application</span> <span class="ni">directory</span> <span class="ni">partitions</span> <span class="ni">have</span>
+            <span class="ni">appropriate</span> <span class="ni">security</span> <span class="ni">descriptor</span> <span class="ni">reference</span> <span class="ni">domains</span><span class="err">.</span> 
+
+	<span class="ni">CheckSecurityError</span>  
+             <span class="ni">Locates</span> <span class="ni">security</span> <span class="ni">errors</span> <span class="p">(</span><span class="ni">or</span> <span class="ni">those</span> <span class="ni">possibly</span> <span class="ni">security</span> <span class="ni">related</span><span class="p">)</span> <span class="ni">and</span>
+            <span class="ni">performs</span> <span class="ni">the</span> <span class="ni">initial</span> <span class="ni">diagnosis</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">problem</span><span class="err">.</span> <span class="ni">Optional</span> <span class="ni">Arguments</span><span class="err">:</span>
+            <span class="p">/</span><span class="ni">ReplSource</span><span class="err">:&lt;</span><span class="ni">Source</span> <span class="ni">DC</span><span class="err">&gt;</span> <span class="ni">to</span> <span class="ni">target</span> <span class="err">a</span> <span class="ni">specific</span> <span class="ni">source</span><span class="p">,</span> <span class="ni">regardless</span> <span class="ni">of</span>
+            <span class="ni">it</span><span class="err">'s</span> <span class="ni">error</span> <span class="ni">status</span><span class="err">.</span>  <span class="ni">Need</span> <span class="ni">not</span> <span class="ni">be</span> <span class="err">a</span> <span class="ni">current</span> <span class="ni">partner</span><span class="err">.</span> 
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">not</span> <span class="ni">run</span> <span class="ni">by</span> <span class="ni">default</span><span class="p">,</span> <span class="err">i.e.</span> <span class="ni">it</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">requested</span> <span class="ni">explicitly</span>
+
+	<span class="ni">Connectivity</span>  
+             <span class="ni">Tests</span> <span class="ni">whether</span> <span class="ni">DSAs</span> <span class="ni">are</span> <span class="ni">DNS</span> <span class="ni">registered</span><span class="p">,</span> <span class="ni">pingeable</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">have</span>
+            <span class="ni">LDAP</span><span class="p">/</span><span class="ni">RPC</span> <span class="ni">connectivity</span><span class="err">.</span> 
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">cannot</span> <span class="ni">be</span> <span class="ni">skipped</span>
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">applicable</span> <span class="ni">to</span> <span class="ni">AD</span><span class="p">/</span><span class="ni">LDS</span>
+
+	<span class="ni">CrossRefValidation</span>  
+             <span class="ni">This</span> <span class="ni">test</span> <span class="ni">looks</span> <span class="ni">for</span> <span class="ni">cross</span><span class="err">-</span><span class="ni">refs</span> <span class="ni">that</span> <span class="ni">are</span> <span class="ni">in</span> <span class="ni">some</span> <span class="ni">way</span> <span class="ni">invalid</span><span class="err">.</span> 
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">applicable</span> <span class="ni">to</span> <span class="ni">AD</span><span class="p">/</span><span class="ni">LDS</span>
+
+	<span class="ni">CutoffServers</span>  
+             <span class="ni">Check</span> <span class="ni">for</span> <span class="ni">servers</span> <span class="ni">that</span> <span class="ni">won</span><span class="err">'t</span> <span class="ni">receive</span> <span class="ni">replications</span> <span class="ni">because</span> <span class="ni">its</span>
+            <span class="ni">partners</span> <span class="ni">are</span> <span class="ni">down</span> 
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">not</span> <span class="ni">run</span> <span class="ni">by</span> <span class="ni">default</span><span class="p">,</span> <span class="err">i.e.</span> <span class="ni">it</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">requested</span> <span class="ni">explicitly</span>
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">applicable</span> <span class="ni">to</span> <span class="ni">AD</span><span class="p">/</span><span class="ni">LDS</span>
+
+	<span class="ni">DcPromo</span>  
+             <span class="ni">Tests</span> <span class="ni">the</span> <span class="ni">existing</span> <span class="ni">DNS</span> <span class="ni">infrastructure</span> <span class="ni">for</span> <span class="ni">promotion</span> <span class="ni">to</span> <span class="ni">domain</span>
+            <span class="ni">controller</span><span class="err">.</span> <span class="ni">If</span> <span class="ni">the</span> <span class="ni">infrastructure</span> <span class="ni">is</span> <span class="ni">sufficient</span><span class="p">,</span> <span class="ni">the</span> <span class="ni">computer</span> <span class="ni">can</span>
+            <span class="ni">be</span> <span class="ni">promoted</span> <span class="ni">to</span> <span class="ni">domain</span> <span class="ni">controller</span> <span class="ni">in</span> <span class="err">a</span> <span class="ni">domain</span> <span class="ni">specified</span> <span class="ni">in</span>
+            <span class="err">&lt;</span><span class="ni">Active_Directory_Domain_DNS_Name</span><span class="err">&gt;.</span> <span class="ni">Reports</span> <span class="ni">whether</span> <span class="ni">any</span>
+            <span class="ni">modifications</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">existing</span> <span class="ni">DNS</span> <span class="ni">infrastructure</span> <span class="ni">are</span> <span class="ni">required</span><span class="err">.</span>
+            <span class="ni">Required</span> <span class="kd">argument:</span> <span class="p">/</span><span class="ni">DnsDomain</span><span class="err">:&lt;</span><span class="ni">Active_Directory_Domain_DNS_Name</span><span class="err">&gt;</span>
+            <span class="ni">One</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">following</span> <span class="ni">arguments</span> <span class="ni">is</span> <span class="kd">required:</span> <span class="p">/</span><span class="ni">NewForest</span> <span class="p">/</span><span class="ni">NewTree</span>
+            <span class="p">/</span><span class="ni">ChildDomain</span> <span class="p">/</span><span class="ni">ReplicaDC</span> <span class="ni">If</span> <span class="ni">NewTree</span> <span class="ni">is</span> <span class="ni">specified</span><span class="p">,</span> <span class="ni">then</span> <span class="ni">the</span>
+            <span class="ni">ForestRoot</span> <span class="ni">argument</span> <span class="ni">is</span> <span class="kd">required:</span>
+            <span class="p">/</span><span class="ni">ForestRoot</span><span class="err">:&lt;</span><span class="ni">Forest_Root_Domain_DNS_Name</span><span class="err">&gt;</span> 
+
+	<span class="ni">DNS</span>  
+             <span class="ni">This</span> <span class="ni">test</span> <span class="ni">checks</span> <span class="ni">the</span> <span class="ni">health</span> <span class="ni">of</span> <span class="ni">DNS</span> <span class="ni">settings</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">whole</span>
+            <span class="ni">enterprise</span><span class="err">.</span> <span class="ni">Sub</span> <span class="ni">tests</span> <span class="ni">can</span> <span class="ni">be</span> <span class="ni">run</span> <span class="ni">individually</span> <span class="ni">using</span> <span class="ni">the</span> <span class="ni">switches</span>
+            <span class="ni">below</span><span class="err">.</span> <span class="ni">By</span> <span class="ni">default</span><span class="p">,</span> <span class="ni">all</span> <span class="ni">tests</span> <span class="ni">except</span> <span class="ni">external</span> <span class="ni">name</span> <span class="ni">resolution</span> <span class="ni">are</span>
+            <span class="ni">run</span><span class="p">)</span>         <span class="p">/</span><span class="ni">DnsBasic</span>            <span class="p">(</span><span class="ni">basic</span> <span class="ni">tests</span><span class="p">,</span> <span class="ni">can</span><span class="err">'t</span> <span class="ni">be</span> <span class="ni">skipped</span><span class="p">)</span>
+                  <span class="p">/</span><span class="ni">DnsForwarders</span>            <span class="p">(</span><span class="ni">forwarders</span> <span class="ni">and</span> <span class="ni">root</span> <span class="ni">hints</span> <span class="ni">tests</span><span class="p">)</span>
+                  <span class="p">/</span><span class="ni">DnsDelegation</span>            <span class="p">(</span><span class="ni">delegations</span> <span class="ni">tests</span><span class="p">)</span>
+            <span class="p">/</span><span class="ni">DnsDynamicUpdate</span>            <span class="p">(</span><span class="ni">dynamic</span> <span class="ni">update</span> <span class="ni">tests</span><span class="p">)</span>
+            <span class="p">/</span><span class="ni">DnsRecordRegistration</span>            <span class="p">(</span><span class="ni">records</span> <span class="ni">registration</span> <span class="ni">tests</span><span class="p">)</span>
+               <span class="p">/</span><span class="ni">DnsResolveExtName</span>            <span class="p">(</span><span class="ni">external</span> <span class="ni">name</span> <span class="ni">resolution</span> <span class="ni">test</span><span class="p">)</span>
+                 <span class="p">/</span><span class="ni">DnsAll</span>            <span class="p">(</span><span class="ni">includes</span> <span class="ni">all</span> <span class="ni">tests</span> <span class="ni">above</span><span class="p">)</span>
+            <span class="p">/</span><span class="ni">DnsInternetName</span><span class="err">:</span>          <span class="err">&lt;</span><span class="ni">internet</span> <span class="ni">name</span><span class="err">&gt;</span> <span class="p">(</span><span class="ni">for</span> <span class="ni">test</span>
+            <span class="p">/</span><span class="ni">DnsResolveExtName</span><span class="p">)</span>         <span class="p">(</span><span class="ni">default</span> <span class="ni">is</span> <span class="ni">www</span><span class="err">.</span><span class="ni">microsoft</span><span class="err">.</span><span class="ni">com</span><span class="p">)</span> 
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">not</span> <span class="ni">run</span> <span class="ni">by</span> <span class="ni">default</span><span class="p">,</span> <span class="err">i.e.</span> <span class="ni">it</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">requested</span> <span class="ni">explicitly</span>
+
+	<span class="ni">FrsEvent</span>  
+             <span class="ni">This</span> <span class="ni">test</span> <span class="ni">checks</span> <span class="ni">to</span> <span class="ni">see</span> <span class="ni">if</span> <span class="ni">there</span> <span class="ni">are</span> <span class="ni">any</span> <span class="ni">operation</span> <span class="ni">errors</span> <span class="ni">in</span> <span class="ni">the</span>
+            <span class="ni">file</span> <span class="ni">replication</span> <span class="ni">system</span> <span class="p">(</span><span class="ni">FRS</span><span class="p">)</span><span class="err">.</span>  <span class="ni">Failing</span> <span class="ni">replication</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">SYSVOL</span>
+            <span class="ni">share</span><span class="p">,</span> <span class="ni">can</span> <span class="ni">cause</span> <span class="ni">Policy</span> <span class="ni">problems</span><span class="err">.</span>  
+
+	<span class="ni">DFSREvent</span>  
+             <span class="ni">This</span> <span class="ni">test</span> <span class="ni">checks</span> <span class="ni">to</span> <span class="ni">see</span> <span class="ni">if</span> <span class="ni">there</span> <span class="ni">are</span> <span class="ni">any</span> <span class="ni">operation</span> <span class="ni">errors</span> <span class="ni">in</span> <span class="ni">the</span>
+            <span class="ni">DFS</span><span class="err">.</span> 
+
+	<span class="ni">SysVolCheck</span>  
+             <span class="ni">This</span> <span class="ni">test</span> <span class="ni">checks</span> <span class="ni">that</span> <span class="ni">the</span> <span class="ni">SYSVOL</span> <span class="ni">is</span> <span class="ni">ready</span><span class="err">.</span> 
+
+	<span class="ni">LocatorCheck</span>  
+             <span class="ni">Checks</span> <span class="ni">that</span> <span class="ni">global</span> <span class="ni">role</span><span class="err">-</span><span class="ni">holders</span> <span class="ni">are</span> <span class="ni">known</span><span class="p">,</span> <span class="ni">can</span> <span class="ni">be</span> <span class="ni">located</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">are</span>
+            <span class="ni">responding</span><span class="err">.</span> 
+
+	<span class="ni">Intersite</span>  
+             <span class="ni">Checks</span> <span class="ni">for</span> <span class="ni">failures</span> <span class="ni">that</span> <span class="ni">would</span> <span class="ni">prevent</span> <span class="ni">or</span> <span class="ni">temporarily</span> <span class="ni">hold</span> <span class="ni">up</span>
+            <span class="ni">intersite</span> <span class="ni">replication</span><span class="err">.</span> 
+
+	<span class="ni">KccEvent</span>  
+             <span class="ni">This</span> <span class="ni">test</span> <span class="ni">checks</span> <span class="ni">that</span> <span class="ni">the</span> <span class="ni">Knowledge</span> <span class="ni">Consistency</span> <span class="ni">Checker</span> <span class="ni">is</span>
+            <span class="ni">completing</span> <span class="ni">without</span> <span class="ni">errors</span><span class="err">.</span>  
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">applicable</span> <span class="ni">to</span> <span class="ni">AD</span><span class="p">/</span><span class="ni">LDS</span>
+
+	<span class="ni">KnowsOfRoleHolders</span>  
+             <span class="ni">Check</span> <span class="ni">whether</span> <span class="ni">the</span> <span class="ni">DSA</span> <span class="ni">thinks</span> <span class="ni">it</span> <span class="ni">knows</span> <span class="ni">the</span> <span class="ni">role</span> <span class="ni">holders</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">prints</span>
+            <span class="ni">these</span> <span class="ni">roles</span> <span class="ni">out</span> <span class="ni">in</span> <span class="ni">verbose</span> <span class="ni">mode</span><span class="err">.</span> 
+
+	<span class="ni">MachineAccount</span>  
+             <span class="ni">Check</span> <span class="ni">to</span> <span class="ni">see</span> <span class="ni">if</span> <span class="ni">the</span> <span class="ni">Machine</span> <span class="ni">Account</span> <span class="ni">has</span> <span class="ni">the</span> <span class="ni">proper</span> <span class="ni">information</span><span class="err">.</span> <span class="ni">Use</span>
+            <span class="p">/</span><span class="ni">RecreateMachineAccount</span> <span class="ni">to</span> <span class="ni">attempt</span> <span class="err">a</span> <span class="ni">repair</span> <span class="ni">if</span> <span class="ni">the</span> <span class="ni">local</span> <span class="ni">machine</span>
+            <span class="ni">account</span> <span class="ni">is</span> <span class="ni">missing</span><span class="err">.</span> <span class="ni">Use</span> <span class="p">/</span><span class="ni">FixMachineAccount</span> <span class="ni">if</span> <span class="ni">the</span> <span class="ni">machine</span> <span class="ni">account</span>
+            <span class="ni">flags</span> <span class="ni">are</span> <span class="ni">incorrect</span><span class="err">.</span> 
+
+	<span class="ni">NCSecDesc</span>  
+             <span class="ni">Checks</span> <span class="ni">that</span> <span class="ni">the</span> <span class="ni">security</span> <span class="ni">descriptosrs</span> <span class="ni">on</span> <span class="ni">the</span> <span class="ni">naming</span> <span class="ni">context</span> <span class="ni">heads</span>
+            <span class="ni">have</span> <span class="ni">appropriate</span> <span class="ni">permissions</span> <span class="ni">for</span> <span class="ni">replication</span><span class="err">.</span>  
+
+	<span class="ni">NetLogons</span>  
+             <span class="ni">Checks</span> <span class="ni">that</span> <span class="ni">the</span> <span class="ni">appropriate</span> <span class="ni">logon</span> <span class="ni">priviledges</span> <span class="ni">allow</span> <span class="ni">replication</span> <span class="ni">to</span>
+            <span class="ni">proceed</span><span class="err">.</span> 
+
+	<span class="ni">ObjectsReplicated</span>  
+             <span class="ni">Check</span> <span class="ni">that</span> <span class="ni">Machine</span> <span class="ni">Account</span> <span class="p">(</span><span class="ni">AD</span> <span class="ni">only</span><span class="p">)</span> <span class="ni">and</span> <span class="ni">DSA</span> <span class="ni">objects</span> <span class="ni">have</span>
+            <span class="ni">replicated</span><span class="err">.</span> <span class="ni">Use</span> <span class="p">/</span><span class="kd">objectdn:</span><span class="err">&lt;</span><span class="ni">dn</span><span class="err">&gt;</span> <span class="ni">with</span> <span class="p">/</span><span class="kd">n:</span><span class="err">&lt;</span><span class="ni">nc</span><span class="err">&gt;</span> <span class="ni">to</span> <span class="ni">specify</span> <span class="ni">an</span>
+            <span class="ni">additional</span> <span class="ni">object</span> <span class="ni">to</span> <span class="ni">check</span><span class="err">.</span> 
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">applicable</span> <span class="ni">to</span> <span class="ni">AD</span><span class="p">/</span><span class="ni">LDS</span>
+
+	<span class="ni">OutboundSecureChannels</span>  
+             <span class="ni">See</span> <span class="ni">if</span> <span class="ni">we</span> <span class="ni">have</span> <span class="ni">secure</span> <span class="ni">channels</span> <span class="ni">from</span> <span class="ni">all</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">DC</span><span class="err">'s</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">domain</span>
+            <span class="ni">the</span> <span class="ni">domains</span> <span class="ni">specified</span> <span class="ni">by</span> <span class="p">/</span><span class="kd">testdomain:</span><span class="err">.</span> <span class="p">/</span><span class="ni">nositerestriction</span> <span class="ni">will</span>
+            <span class="ni">prevent</span> <span class="ni">the</span> <span class="ni">test</span> <span class="ni">from</span> <span class="ni">being</span> <span class="ni">limited</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">DC</span><span class="err">'s</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">site</span><span class="err">.</span> 
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">not</span> <span class="ni">run</span> <span class="ni">by</span> <span class="ni">default</span><span class="p">,</span> <span class="err">i.e.</span> <span class="ni">it</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">requested</span> <span class="ni">explicitly</span>
+
+	<span class="ni">RegisterInDNS</span>  
+             <span class="ni">Tests</span> <span class="ni">whether</span> <span class="ni">this</span> <span class="ni">directory</span> <span class="ni">server</span> <span class="ni">can</span> <span class="ni">register</span> <span class="ni">the</span> <span class="ni">directory</span>
+            <span class="ni">Server</span> <span class="ni">Locator</span> <span class="ni">DNS</span> <span class="ni">records</span><span class="err">.</span> <span class="ni">These</span> <span class="ni">records</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">present</span> <span class="ni">in</span> <span class="ni">DNS</span> <span class="ni">in</span>
+            <span class="ni">order</span> <span class="ni">for</span> <span class="ni">other</span> <span class="ni">computers</span> <span class="ni">to</span> <span class="ni">locate</span> <span class="ni">this</span> <span class="ni">directory</span> <span class="ni">server</span> <span class="ni">for</span> <span class="ni">the</span>
+            <span class="err">&lt;</span><span class="ni">Active_Directory_Domain_DNS_Name</span><span class="err">&gt;</span> <span class="ni">domain</span><span class="err">.</span> <span class="ni">Reports</span> <span class="ni">whether</span> <span class="ni">any</span>
+            <span class="ni">modifications</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">existing</span> <span class="ni">DNS</span> <span class="ni">infrastructure</span> <span class="ni">are</span> <span class="ni">required</span><span class="err">.</span>
+            <span class="ni">Required</span> <span class="kd">argument:</span> <span class="p">/</span><span class="ni">DnsDomain</span><span class="err">:&lt;</span><span class="ni">Active_Directory_Domain_DNS_Name</span><span class="err">&gt;</span> 
+
+	<span class="ni">Replications</span>  
+             <span class="ni">Checks</span> <span class="ni">for</span> <span class="ni">timely</span> <span class="ni">replication</span> <span class="ni">between</span> <span class="ni">directory</span> <span class="ni">servers</span><span class="err">.</span> 
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">applicable</span> <span class="ni">to</span> <span class="ni">AD</span><span class="p">/</span><span class="ni">LDS</span>
+
+	<span class="ni">RidManager</span>  
+             <span class="ni">Check</span> <span class="ni">to</span> <span class="ni">see</span> <span class="ni">if</span> <span class="ni">RID</span> <span class="ni">master</span> <span class="ni">is</span> <span class="ni">accessable</span> <span class="ni">and</span> <span class="ni">to</span> <span class="ni">see</span> <span class="ni">if</span> <span class="ni">it</span> <span class="ni">contains</span>
+            <span class="ni">the</span> <span class="ni">proper</span> <span class="ni">information</span><span class="err">.</span> 
+
+	<span class="ni">Services</span>  
+             <span class="ni">Check</span> <span class="ni">to</span> <span class="ni">see</span> <span class="ni">if</span> <span class="ni">appropriate</span> <span class="ni">supporting</span> <span class="ni">services</span> <span class="ni">are</span> <span class="ni">running</span><span class="err">.</span> 
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">applicable</span> <span class="ni">to</span> <span class="ni">AD</span><span class="p">/</span><span class="ni">LDS</span>
+
+	<span class="ni">SystemLog</span>  
+             <span class="ni">This</span> <span class="ni">test</span> <span class="ni">checks</span> <span class="ni">that</span> <span class="ni">the</span> <span class="ni">system</span> <span class="ni">is</span> <span class="ni">running</span> <span class="ni">without</span> <span class="ni">errors</span><span class="err">.</span>  
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">applicable</span> <span class="ni">to</span> <span class="ni">AD</span><span class="p">/</span><span class="ni">LDS</span>
+
+	<span class="ni">Topology</span>  
+             <span class="ni">Checks</span> <span class="ni">that</span> <span class="ni">the</span> <span class="ni">generated</span> <span class="ni">topology</span> <span class="ni">is</span> <span class="ni">fully</span> <span class="ni">connected</span> <span class="ni">for</span> <span class="ni">all</span> <span class="ni">DSAs</span><span class="err">.</span>
+             
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">not</span> <span class="ni">run</span> <span class="ni">by</span> <span class="ni">default</span><span class="p">,</span> <span class="err">i.e.</span> <span class="ni">it</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">requested</span> <span class="ni">explicitly</span>
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">applicable</span> <span class="ni">to</span> <span class="ni">AD</span><span class="p">/</span><span class="ni">LDS</span>
+
+	<span class="ni">VerifyEnterpriseReferences</span>  
+             <span class="ni">This</span> <span class="ni">test</span> <span class="ni">verifys</span> <span class="ni">that</span> <span class="ni">certain</span> <span class="ni">system</span> <span class="ni">references</span> <span class="ni">are</span> <span class="ni">intact</span> <span class="ni">for</span> <span class="ni">the</span>
+            <span class="ni">FRS</span> <span class="ni">and</span> <span class="ni">Replication</span> <span class="ni">infrastructure</span> <span class="ni">across</span> <span class="ni">all</span> <span class="ni">objects</span> <span class="ni">in</span> <span class="ni">the</span>
+            <span class="ni">enterprise</span> <span class="ni">on</span> <span class="ni">each</span> <span class="ni">DSA</span><span class="err">.</span>  
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">not</span> <span class="ni">run</span> <span class="ni">by</span> <span class="ni">default</span><span class="p">,</span> <span class="err">i.e.</span> <span class="ni">it</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">requested</span> <span class="ni">explicitly</span>
+
+	<span class="ni">VerifyReferences</span>  
+             <span class="ni">This</span> <span class="ni">test</span> <span class="ni">verifys</span> <span class="ni">that</span> <span class="ni">certain</span> <span class="ni">system</span> <span class="ni">references</span> <span class="ni">are</span> <span class="ni">intact</span> <span class="ni">for</span> <span class="ni">the</span>
+            <span class="ni">FRS</span> <span class="ni">and</span> <span class="ni">Replication</span> <span class="ni">infrastructure</span><span class="err">.</span>  
+
+	<span class="ni">VerifyReplicas</span>  
+             <span class="ni">This</span> <span class="ni">test</span> <span class="ni">verifys</span> <span class="ni">that</span> <span class="ni">all</span> <span class="ni">application</span> <span class="ni">directory</span> <span class="ni">partitions</span> <span class="ni">are</span>
+            <span class="ni">fully</span> <span class="ni">instantiated</span> <span class="ni">on</span> <span class="ni">all</span> <span class="ni">replica</span> <span class="ni">servers</span><span class="err">.</span> 
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">not</span> <span class="ni">run</span> <span class="ni">by</span> <span class="ni">default</span><span class="p">,</span> <span class="err">i.e.</span> <span class="ni">it</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">requested</span> <span class="ni">explicitly</span>
+	  <span class="err">*</span> <span class="ni">Test</span> <span class="ni">is</span> <span class="ni">applicable</span> <span class="ni">to</span> <span class="ni">AD</span><span class="p">/</span><span class="ni">LDS</span>
+
+
+	<span class="ni">All</span> <span class="ni">tests</span> <span class="ni">except</span> <span class="ni">DcPromo</span> <span class="ni">and</span> <span class="ni">RegisterInDNS</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">run</span> <span class="ni">on</span> <span class="ni">computers</span>
+	<span class="ni">after</span> <span class="ni">they</span> <span class="ni">have</span> <span class="ni">been</span> <span class="ni">promoted</span> <span class="ni">to</span> <span class="ni">directory</span> <span class="ni">server</span><span class="err">.</span>
+
+	<span class="ni">Note</span><span class="err">:</span> <span class="ni">Text</span> <span class="p">(</span><span class="ni">Naming</span> <span class="ni">Context</span> <span class="ni">names</span><span class="p">,</span> <span class="ni">server</span> <span class="ni">names</span><span class="p">,</span> <span class="ni">etc</span><span class="p">)</span> <span class="ni">with</span>
+<span class="ni">International</span> <span class="ni">or</span>
+	<span class="ni">Unicode</span> <span class="ni">characters</span> <span class="ni">will</span> <span class="ni">only</span> <span class="ni">display</span> <span class="ni">correctly</span> <span class="ni">if</span> <span class="ni">appropriate</span> <span class="ni">fonts</span>
+<span class="ni">and</span>
+	<span class="ni">language</span> <span class="ni">support</span> <span class="ni">are</span> <span class="ni">loaded</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Windows\system32\dcdiag.exe</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">3300000266BD1580EFA75CD6D3000000000266</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">A4341B9FD50FB9964283220A36A1EF6F6FAA7840</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: dcdiag.exe.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.17763.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.17763.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+</ul>
+
+<h2 id="file-similarity-ssdeep-match">File Similarity (ssdeep match)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/xcyclopedia/library/dsmgmt.exe-F268289F96C350F9CDA9B5AB39448E4E.html">C:\Windows\system32\dsmgmt.exe</a></td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/ntdsapi.dll-BC568753179FE7812FE36638457C6F3E.html">C:\Windows\system32\ntdsapi.dll</a></td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/repadmin.exe-951B223D0B582BF2B5ED27EF3130F7BF.html">C:\Windows\system32\repadmin.exe</a></td>
+      <td>35</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

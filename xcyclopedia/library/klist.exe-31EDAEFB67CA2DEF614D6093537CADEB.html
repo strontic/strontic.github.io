@@ -1,0 +1,762 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>klist.exe | Tool for managing the Kerberos ticket cache &#124; STRONTIC</title>
+<meta name="description" content="What is klist.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="klist.exe | Tool for managing the Kerberos ticket cache">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/klist.exe-31EDAEFB67CA2DEF614D6093537CADEB.html">
+
+
+  <meta property="og:description" content="What is klist.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="klist.exe | Tool for managing the Kerberos ticket cache">
+  <meta name="twitter:description" content="What is klist.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/klist.exe-31EDAEFB67CA2DEF614D6093537CADEB.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/klist.exe-31EDAEFB67CA2DEF614D6093537CADEB.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">klist.exe | Tool for managing the Kerberos ticket cache</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            klist.exe      Tool for managing the Kerberos ticket cache      ">
+    <meta itemprop="description" content="What is klist.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="klistexe">klist.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\SysWOW64\klist.exe</code></li>
+  <li>Description: Tool for managing the Kerberos ticket cache</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">31EDAEFB67CA2DEF614D6093537CADEB</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">91A1B03D2B395AA1F56A72262600C98D65873D44</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">496DC7D3A6084952E632493D5A3328BBF5078C89EAD8ED7AE81CD687DB9726BD</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">19F21C957BFA17436ACEDCEE26E879F0A98A60C90F13B57B2DAF3FB41F3A8E5ADC7F3E27DD61C7974050E542A609973D</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">4D828E0F07F32629578BA323F127A8B5046C4718D32BFBD00572AFD7AD36533A5D95E30E37374657605B926B00A0AB7B174B8C7D685835C952CD09059FA70EAF</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">768:mQ8Fci4n+BT1svLd6ExJzUd2Kinmlom1ta9asafsqvNLuAH:Cyd6s1mlMqv1uA</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="ni">Usage</span><span class="err">:</span> <span class="ni">klist</span><span class="err">.</span><span class="ni">exe</span> <span class="err">[</span><span class="ni">command</span><span class="err">]</span>
+
+<span class="ni">Command</span> <span class="kd">list:</span>
+  <span class="err">[</span><span class="ni">tickets</span><span class="err">]</span> <span class="err">[-</span><span class="ni">lh</span> <span class="err">&lt;</span><span class="ni">LogonId</span><span class="err">.</span><span class="ni">HighPart</span><span class="err">&gt;]</span> <span class="err">[-</span><span class="ni">li</span> <span class="err">&lt;</span><span class="ni">LogonId</span><span class="err">.</span><span class="ni">LowPart</span><span class="err">&gt;]</span>
+  <span class="ni">tgt</span> <span class="err">[-</span><span class="ni">lh</span> <span class="err">&lt;</span><span class="ni">LogonId</span><span class="err">.</span><span class="ni">HighPart</span><span class="err">&gt;]</span> <span class="err">[-</span><span class="ni">li</span> <span class="err">&lt;</span><span class="ni">LogonId</span><span class="err">.</span><span class="ni">LowPart</span><span class="err">&gt;]</span>
+  <span class="ni">purge</span> <span class="err">[-</span><span class="ni">lh</span> <span class="err">&lt;</span><span class="ni">LogonId</span><span class="err">.</span><span class="ni">HighPart</span><span class="err">&gt;]</span> <span class="err">[-</span><span class="ni">li</span> <span class="err">&lt;</span><span class="ni">LogonId</span><span class="err">.</span><span class="ni">LowPart</span><span class="err">&gt;]</span>
+  <span class="ni">sessions</span> <span class="err">[-</span><span class="ni">lh</span> <span class="err">&lt;</span><span class="ni">LogonId</span><span class="err">.</span><span class="ni">HighPart</span><span class="err">&gt;]</span> <span class="err">[-</span><span class="ni">li</span> <span class="err">&lt;</span><span class="ni">LogonId</span><span class="err">.</span><span class="ni">LowPart</span><span class="err">&gt;]</span>
+  <span class="ni">kcd_cache</span> <span class="err">[-</span><span class="ni">lh</span> <span class="err">&lt;</span><span class="ni">LogonId</span><span class="err">.</span><span class="ni">HighPart</span><span class="err">&gt;]</span> <span class="err">[-</span><span class="ni">li</span> <span class="err">&lt;</span><span class="ni">LogonId</span><span class="err">.</span><span class="ni">LowPart</span><span class="err">&gt;]</span>
+  <span class="ni">get</span> <span class="err">&lt;</span><span class="ni">SPN</span><span class="err">&gt;</span> <span class="err">[-</span><span class="ni">lh</span> <span class="err">&lt;</span><span class="ni">LogonId</span><span class="err">.</span><span class="ni">HighPart</span><span class="err">&gt;]</span> <span class="err">[-</span><span class="ni">li</span> <span class="err">&lt;</span><span class="ni">LogonId</span><span class="err">.</span><span class="ni">LowPart</span><span class="err">&gt;]</span>
+            <span class="err">[-</span><span class="ni">kdcoptions</span> <span class="err">&lt;</span><span class="ni">options</span><span class="err">&gt;]</span> <span class="err">[-</span><span class="ni">cacheoptions</span> <span class="err">&lt;</span><span class="ni">options</span><span class="err">&gt;]</span>
+  <span class="ni">add_bind</span> <span class="err">&lt;</span><span class="ni">DOMAIN</span><span class="err">&gt;</span> <span class="err">&lt;</span><span class="ni">DC</span><span class="err">&gt;</span>
+  <span class="ni">query_bind</span>
+  <span class="ni">purge_bind</span>
+
+</code></pre></div></div>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">33000000BCE120FDD27CC8EE930000000000BC</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">E85459B23C232DB3CB94C7A56D47678F58E8E51E</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: klist.exe.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.14393.0 (rs1_release.160715-1616)</li>
+  <li>Product Version: 10.0.14393.0</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+</ul>
+
+<h2 id="file-similarity-ssdeep-match">File Similarity (ssdeep match)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/xcyclopedia/library/klist.exe-0C04245D868D0BA1D5156499F137001C.html">C:\WINDOWS\system32\klist.exe</a></td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/klist.exe-1B4E8E3355E782F088EE2A2F54CE7D49.html">C:\Windows\system32\klist.exe</a></td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/klist.exe-8ADE30AD79FDC8BFC227D35C73C640F3.html">C:\Windows\system32\klist.exe</a></td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/klist.exe-D15C2108D9A0356CBA6B850749F920F2.html">C:\Windows\system32\klist.exe</a></td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/klist.exe-E69A6624A40AC6700AF7FC55DD3FA626.html">C:\Windows\SysWOW64\klist.exe</a></td>
+      <td>43</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="klist">klist</h2>
+
+<p>Displays a list of currently cached Kerberos tickets.</p>
+
+<blockquote>
+  <p>[!IMPORTANT]
+You must be at least a <strong>Domain Admin</strong>, or equivalent, to run all the parameters of this command.</p>
+</blockquote>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>klist [-lh &lt;logonID.highpart&gt;] [-li &lt;logonID.lowpart&gt;] tickets | tgt | purge | sessions | kcd_cache | get | add_bind | query_bind | purge_bind
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-lh</td>
+      <td>Denotes the high part of the user’s locally unique identifier (LUID), expressed in hexadecimal. If neither <strong>â€“lh</strong> nor <strong>â€“li</strong> are present, the command defaults to the LUID of the user who is currently signed in.</td>
+    </tr>
+    <tr>
+      <td>-li</td>
+      <td>Denotes the low part of the user’s locally unique identifier (LUID), expressed in hexadecimal. If neither <strong>â€“lh</strong> nor <strong>â€“li</strong> are present, the command defaults to the LUID of the user who is currently signed in.</td>
+    </tr>
+    <tr>
+      <td>tickets</td>
+      <td>Lists the currently cached ticket-granting-tickets (TGTs), and service tickets of the specified logon session. This is the default option.</td>
+    </tr>
+    <tr>
+      <td>tgt</td>
+      <td>Displays the initial Kerberos TGT.</td>
+    </tr>
+    <tr>
+      <td>purge</td>
+      <td>Allows you to delete all the tickets of the specified logon session.</td>
+    </tr>
+    <tr>
+      <td>sessions</td>
+      <td>Displays a list of logon sessions on this computer.</td>
+    </tr>
+    <tr>
+      <td>kcd_cache</td>
+      <td>Displays the Kerberos constrained delegation cache information.</td>
+    </tr>
+    <tr>
+      <td>get</td>
+      <td>Allows you to request a ticket to the target computer specified by the service principal name (SPN).</td>
+    </tr>
+    <tr>
+      <td>add_bind</td>
+      <td>Allows you to specify a preferred domain controller for Kerberos authentication.</td>
+    </tr>
+    <tr>
+      <td>query_bind</td>
+      <td>Displays a list of cached preferred domain controllers for each domain that Kerberos has contacted.</td>
+    </tr>
+    <tr>
+      <td>purge_bind</td>
+      <td>Removes the cached preferred domain controllers for the domains specified.</td>
+    </tr>
+    <tr>
+      <td>kdcoptions</td>
+      <td>Displays the Key Distribution Center (KDC) options specified in RFC 4120.</td>
+    </tr>
+    <tr>
+      <td>/?</td>
+      <td>Displays Help for this command.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="remarks">Remarks</h5>
+
+<ul>
+  <li>
+    <p>If no parameters are provided, <strong>klist</strong> retrieves all the tickets for the currently logged on user.</p>
+  </li>
+  <li>
+    <p>The parameters display the following information:</p>
+
+    <ul>
+      <li>
+        <p><strong>tickets</strong> - Lists the currently cached tickets of services that you have authenticated to since logon. Displays the following attributes of all cached tickets:</p>
+
+        <ul>
+          <li>
+            <p><strong>LogonID:</strong> The LUID.</p>
+          </li>
+          <li>
+            <p><strong>Client:</strong> The concatenation of the client name and the domain name of the client.</p>
+          </li>
+          <li>
+            <p><strong>Server:</strong> The concatenation of the service name and the domain name of the service.</p>
+          </li>
+          <li>
+            <p><strong>KerbTicket Encryption Type:</strong> The encryption type that is used to encrypt the Kerberos ticket.</p>
+          </li>
+          <li>
+            <p><strong>Ticket Flags:</strong> The Kerberos ticket flags.</p>
+          </li>
+          <li>
+            <p><strong>Start Time:</strong> The time from which the ticket is valid.</p>
+          </li>
+          <li>
+            <p><strong>End Time:</strong> The time the ticket becomes no longer valid. When a ticket is past this time, it can no longer be used to authenticate to a service or be used for renewal.</p>
+          </li>
+          <li>
+            <p><strong>Renew Time:</strong> The time that a new initial authentication is required.</p>
+          </li>
+          <li>
+            <p><strong>Session Key Type:</strong> The encryption algorithm that is used for the session key.</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>tgt</strong> - Lists the initial Kerberos TGT and the following attributes of the currently cached ticket:</p>
+
+        <ul>
+          <li>
+            <p><strong>LogonID:</strong> Identified in hexadecimal.</p>
+          </li>
+          <li>
+            <p><strong>ServiceName:</strong> krbtgt</p>
+          </li>
+          <li>
+            <p><strong>TargetName <code class="language-plaintext highlighter-rouge">&lt;SPN&gt;</code>:</strong> krbtgt</p>
+          </li>
+          <li>
+            <p><strong>DomainName:</strong> Name of the domain that issues the TGT.</p>
+          </li>
+          <li>
+            <p><strong>TargetDomainName:</strong> Domain that the TGT is issued to.</p>
+          </li>
+          <li>
+            <p><strong>AltTargetDomainName:</strong> Domain that the TGT is issued to.</p>
+          </li>
+          <li>
+            <p><strong>Ticket Flags:</strong> Address and target actions and type.</p>
+          </li>
+          <li>
+            <p><strong>Session Key:</strong> Key length and encryption algorithm.</p>
+          </li>
+          <li>
+            <p><strong>StartTime:</strong> Local computer time that the ticket was requested.</p>
+          </li>
+          <li>
+            <p><strong>EndTime:</strong> Time the ticket becomes no longer valid. When a ticket is past this time, it can no longer be used to authenticate to a service.</p>
+          </li>
+          <li>
+            <p><strong>RenewUntil:</strong> Deadline for ticket renewal.</p>
+          </li>
+          <li>
+            <p><strong>TimeSkew:</strong> Time difference with the Key Distribution Center (KDC).</p>
+          </li>
+          <li>
+            <p><strong>EncodedTicket:</strong> Encoded ticket.</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>purge</strong> - Allows you to delete a specific ticket. Purging tickets destroys all tickets that you have cached, so use this attribute with caution. It might stop you from being able to authenticate to resources. If this happens, you’ll have to log off and log on again.</p>
+
+        <ul>
+          <li><strong>LogonID:</strong> Identified in hexadecimal.</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>sessions</strong> - Allows you to list and display the information for all logon sessions on this computer.</p>
+
+        <ul>
+          <li><strong>LogonID:</strong> If specified, displays the logon session only by the given value. If not specified, displays all the logon sessions on this computer.</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>kcd_cache</strong> - Allows you to display the Kerberos constrained delegation cache information.</p>
+
+        <ul>
+          <li><strong>LogonID:</strong> If specified, displays the cache information for the logon session by the given value. If not specified, displays the cache information for the current user’s logon session.</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>get</strong> - Allows you to request a ticket to the target that is specified by the SPN.</p>
+
+        <ul>
+          <li>
+            <p><strong>LogonID:</strong> If specified, requests a ticket by using the logon session by the given value. If not specified, requests a ticket by using the current user’s logon session.</p>
+          </li>
+          <li>
+            <p><strong>kdcoptions:</strong> Requests a ticket with the given KDC options</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>add_bind</strong> - Allows you to specify a preferred domain controller for Kerberos authentication.</p>
+      </li>
+      <li>
+        <p><strong>query_bind</strong> - Allows you to display cached, preferred domain controllers for the domains.</p>
+      </li>
+      <li>
+        <p><strong>purge_bind</strong> - Allows you to remove cached, preferred domain controllers for the domains.</p>
+      </li>
+      <li>
+        <p><strong>kdcoptions</strong> - For the current list of options and their explanations, see <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>.</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="examples">Examples</h4>
+
+<p>To query the Kerberos ticket cache to determine if any tickets are missing, if the target server or account is in error, or if the encryption type is not supported due to an Event ID 27 error, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>klist
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>klist â€“li 0x3e7
+</code></pre></div></div>
+
+<p>To learn about the specifics of each ticket-granting-ticket that is cached on the computer for a logon session, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>klist tgt
+</code></pre></div></div>
+
+<p>To purge the Kerberos ticket cache, log off, and then log back on,  type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>klist purge
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>klist purge â€“li 0x3e7
+</code></pre></div></div>
+
+<p>To diagnose a logon session and to locate a logonID for a user or a service, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>klist sessions
+</code></pre></div></div>
+
+<p>To diagnose Kerberos constrained delegation failure, and to find the last error that was encountered, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>klist kcd_cache
+</code></pre></div></div>
+
+<p>To diagnose if a user or a service can get a ticket to a server, or to request a ticket for a specific SPN, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>klist get host/%computername%
+</code></pre></div></div>
+
+<p>To diagnose replication issues across domain controllers, you typically need the client computer to target a specific domain controller. To target the client computer to the specific domain controller, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>klist add_bind CONTOSO KDC.CONTOSO.COM
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>klist add_bind CONTOSO.COM KDC.CONTOSO.COM
+</code></pre></div></div>
+
+<p>To query which domain controllers were recently contacted by this computer, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>klist query_bind
+</code></pre></div></div>
+
+<p>To rediscover domain controllers, or to flush the cache before creating new domain controller bindings with <code class="language-plaintext highlighter-rouge">klist add_bind</code>, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>klist purge_bind
+</code></pre></div></div>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

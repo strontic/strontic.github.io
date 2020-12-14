@@ -1,0 +1,2572 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>dnscmd.exe | DNS Command Line Admin Utility &#124; STRONTIC</title>
+<meta name="description" content="What is dnscmd.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="dnscmd.exe | DNS Command Line Admin Utility">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/dnscmd.exe-3EE4C8A8506C5968AA000FBF1BD1DEFE.html">
+
+
+  <meta property="og:description" content="What is dnscmd.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="dnscmd.exe | DNS Command Line Admin Utility">
+  <meta name="twitter:description" content="What is dnscmd.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/dnscmd.exe-3EE4C8A8506C5968AA000FBF1BD1DEFE.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/dnscmd.exe-3EE4C8A8506C5968AA000FBF1BD1DEFE.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">dnscmd.exe | DNS Command Line Admin Utility</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            dnscmd.exe      DNS Command Line Admin Utility      ">
+    <meta itemprop="description" content="What is dnscmd.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="dnscmdexe">dnscmd.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\windows\system32\dnscmd.exe</code></li>
+  <li>Description: DNS Command Line Admin Utility</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">3EE4C8A8506C5968AA000FBF1BD1DEFE</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">2497CCEBA99139366BA8ECB4E4758F0E1E4F31B5</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">67877821BF1574060F4E45AB8BE62E28F54FB40A23CE70B86A6369A4D63DB5BC</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">880FBA698989B7D143AE11CC78549A8F1E5D62DCA4E445379DAF8A8BA6F2908ADE903F0759D539C458A2699C450FC70E</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">7DE900F28A6C6C33A7318BB67F6FC92653FF4CF20205B8AFD8D457D2332AD444E38F97EDE6ACD8D40D8601BD5F1C8F0D94EDF88B320BF364899C064EAEF9EF00</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">6144:o5FNqlwAxdeYEsan7TRPrES2LN8s9xi0DCtT1TRep2A+wXz3o:o5FNCreYEscTRPAS2LN8VdewfezY</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: The file C:\windows\system32\dnscmd.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170</li>
+  <li>Serial: ``</li>
+  <li>Thumbprint: ``</li>
+  <li>Issuer:</li>
+  <li>Subject:</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: dnscmd.exe.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 6.3.9600.16384 (winblue_rtm.130821-1623)</li>
+  <li>Product Version: 6.3.9600.16384</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">dnscmd.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">dnscmd.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2020_1350.yml">win_exploit_cve_2020_1350.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\System32\dnscmd.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_dns_serverlevelplugindll.yml">sysmon_dns_serverlevelplugindll.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">CommandLine: 'dnscmd.exe /config /serverlevelplugindll *'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml">Dnscmd.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Name: Dnscmd.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml">Dnscmd.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: dnscmd.exe dc1.lab.int /config /serverlevelplugindll \\192.168.0.149\dll\wtf.dll</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml">Dnscmd.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\System32\Dnscmd.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml">Dnscmd.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\SysWOW64\Dnscmd.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml">Dnscmd.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- IOC: Dnscmd.exe loading dll from UNC path</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a></td>
+      <td>$x4 = “CreateObject("WScript.Shell").Run DnsCmd,0” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="dnscmd">Dnscmd</h2>
+
+<blockquote>
+  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
+</blockquote>
+
+<p>A command-line interface for managing DNS servers. This utility is useful in scripting batch files to help automate routine DNS management tasks, or to perform simple unattended setup and configuration of new DNS servers on your network.</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd &lt;servername&gt; &lt;command&gt; [&lt;command parameters&gt;]
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>The IP address or host name of a remote or local DNS server.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dnscmd-ageallrecords-command">dnscmd /ageallrecords command</h3>
+
+<p>Sets the current time on a time stamp on resource records at a specified zone or node on a DNS server.</p>
+
+<h4 id="syntax-1">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /ageallrecords &lt;zonename&gt;[&lt;nodename&gt;] | [/tree]|[/f]
+</code></pre></div></div>
+
+<h5 id="parameters-1">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server that the administrator plans to manage, represented by IP address, fully qualified domain name (FQDN), or Host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the FQDN of the zone.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;nodename&gt;</code></td>
+      <td>Specifies a specific node or subtree in the zone, using the following:&lt;ul&gt;&lt;li&gt;<strong>@</strong> for root zone or FQDN&lt;/li&gt;&lt;li&gt;The FQDN of a node (the name with a period (.) at the end)&lt;/li&gt;&lt;li&gt;A single label for the name relative to the zone root.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/tree</td>
+      <td>Specifies that all child nodes also receive the time stamp.</td>
+    </tr>
+    <tr>
+      <td>/f</td>
+      <td>Runs the command without asking for confirmation.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks">Remarks</h6>
+
+<ul>
+  <li>
+    <p>The <strong>ageallrecords</strong> command is for backward compatibility between the current version of DNS and previous releases of DNS in which aging and scavenging were not supported. It adds a time stamp with the current time to resource records that do not have a time stamp, and it sets the current time on resource records that do have a time stamp.</p>
+  </li>
+  <li>
+    <p>Record scavenging does not occur unless the records are time stamped. Name server (NS) resource records, start of authority (SOA) resource records, and Windows Internet Name Service (WINS) resource records are not included in the scavenging process, and they are not time stamped even when the <strong>ageallrecords</strong> command runs.</p>
+  </li>
+  <li>
+    <p>This command fails unless scavenging is enabled for the DNS server and the zone. For information about how to enable scavenging for the zone, see the <strong>aging</strong> parameter, within the syntax of the <code class="language-plaintext highlighter-rouge">dnscmd /config</code> command in this article.</p>
+  </li>
+  <li>
+    <p>The addition of a time stamp to DNS resource records makes them incompatible with DNS servers that run on operating systems other than Windows Server. A time stamp added by using the <strong>ageallrecords</strong> command can’t be reversed.</p>
+  </li>
+  <li>
+    <p>If none of the optional parameters are specified, the command returns all resource records at the specified node. If a value is specified for at least one of the optional parameters, <strong>dnscmd</strong> enumerates only the resource records that correspond to the value or values that are specified in the optional parameter or parameters.</p>
+  </li>
+</ul>
+
+<h4 id="examples">Examples</h4>
+
+<p><a href="/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-1-set-the-current-time-on-a-time-stamp-to-resource-records">Example 1: Set the current time on a time stamp to resource records</a></p>
+
+<h3 id="dnscmd-clearcache-command">dnscmd /clearcache command</h3>
+
+<p>Clears the DNS cache memory of resource records on the specified DNS server.</p>
+
+<h4 id="syntax-2">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /clearcache
+</code></pre></div></div>
+
+<h5 id="parameters-2">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="example">Example</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /clearcache
+</code></pre></div></div>
+
+<h3 id="dnscmd-config-command">dnscmd /config command</h3>
+
+<p>Changes values in the registry for the DNS server and individual zones. This command also modifies the configuration of the specified server. Accepts server-level and zone-level settings.</p>
+
+<blockquote>
+  <p>[!CAUTION]
+Don’t edit the registry directly unless you have no alternative. The registry editor bypasses standard safeguards, allowing settings that can degrade performance, damage your system, or even require you to reinstall Windows. You can safely alter most registry settings by using the programs in Control Panel or Microsoft Management Console (mmc). If you must edit the registry directly, back it up first. Read the registry editor help for more information.</p>
+</blockquote>
+
+<h4 id="server-level-syntax">Server-level syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /config &lt;parameter&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-3">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server that you are planning to manage, represented by local computer syntax, IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;parameter&gt;</code></td>
+      <td>Specify a setting and, as an option, a value. Parameter values use this syntax: <em>parameter</em> [<em>value</em>].</td>
+    </tr>
+    <tr>
+      <td>/addressanswerlimit<code class="language-plaintext highlighter-rouge">[0|5-28]</code></td>
+      <td>Specifies the maximum number of host records that a DNS server can send in response to a query. The value can be zero (0), or it can be in the range of 5 through 28 records. The default value is zero (0).</td>
+    </tr>
+    <tr>
+      <td>/bindsecondaries<code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Changes the format of the zone transfer so that it can achieve maximum compression and efficiency. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Uses maximum compression and is compatible with BIND versions 4.9.4 and later only&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Sends only one resource record per message to non-Microsoft DNS servers and is compatible with BIND versions earlier than 4.9.4. This is the default setting.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/bootmethod<code class="language-plaintext highlighter-rouge">[0|1|2|3]</code></td>
+      <td>Determines the source from which the DNS server gets its configuration information. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Clears the source of configuration information.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Loads from the BIND file that is located in the DNS directory, which is <code class="language-plaintext highlighter-rouge">%systemroot%\System32\DNS</code> by default.&lt;/li&gt;&lt;li&gt;<strong>2</strong> - Loads from the registry.&lt;/li&gt;&lt;li&gt;<strong>3</strong> - Loads from AD DS and the registry. This is the default setting.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/defaultagingstate<code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Determines whether the DNS scavenging feature is enabled by default on newly created zones. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Disables scavenging. This is the default setting.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Enables scavenging.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/defaultnorefreshinterval<code class="language-plaintext highlighter-rouge">[0x1-0xFFFFFFFF|0xA8]</code></td>
+      <td>Sets a period of time in which no refreshes are accepted for dynamically updated records. Zones on the server inherit this value automatically.&lt;p&gt;To change the default value, type a value in the range of <strong>0x1-0xFFFFFFFF</strong>. The default value from the server is <strong>0xA8</strong>.</td>
+    </tr>
+    <tr>
+      <td>/defaultrefreshinterval <code class="language-plaintext highlighter-rouge">[0x1-0xFFFFFFFF|0xA8]</code></td>
+      <td>Sets a period of time that is allowed for dynamic updates to DNS records. Zones on the server inherit this value automatically.&lt;p&gt;To change the default value, type a value in the range of <strong>0x1-0xFFFFFFFF</strong>. The default value from the server is <strong>0xA8</strong>.</td>
+    </tr>
+    <tr>
+      <td>/disableautoreversezones <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Enables or disables the automatic creation of reverse lookup zones. Reverse lookup zones provide resolution of Internet Protocol (IP) addresses to DNS domain names. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Enables the automatic creation of reverse lookup zones. This is the default setting.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Disables the automatic creation of reverse lookup zones.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/disablensrecordsautocreation <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Specifies whether the DNS server automatically creates name server (NS) resource records for zones that it hosts. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Automatically creates name server (NS) resource records for zones that the DNS server hosts.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Doesn’t automatically create name server (NS) resource records for zones that the DNS server hosts.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/dspollinginterval <code class="language-plaintext highlighter-rouge">[0-30]</code></td>
+      <td>Specifies how often the DNS server polls AD DS for changes in active directory integrated zones.</td>
+    </tr>
+    <tr>
+      <td>/dstombstoneinterval <code class="language-plaintext highlighter-rouge">[1-30]</code></td>
+      <td>The amount of time in seconds to retain deleted records in AD DS.</td>
+    </tr>
+    <tr>
+      <td>/ednscachetimeout <code class="language-plaintext highlighter-rouge">[3600-15724800]</code></td>
+      <td>Specifies the number of seconds that extended DNS (EDNS) information is cached. The minimum value is <strong>3600</strong>, and the maximum value is <strong>15,724,800</strong>. The default value is <strong>604,800</strong> seconds (one week).</td>
+    </tr>
+    <tr>
+      <td>/enableednsprobes <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Enables or disables the server to probe other servers to determine if they support EDNS. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Disables active support for EDNS probes.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Enables active support for EDNS probes.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/enablednssec <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Enables or disables support for DNS Security Extensions (DNSSEC). Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Disables DNSSEC.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Enables DNSSEC.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/enableglobalnamessupport <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Enables or disables support for the GlobalNames zone. The GlobalNames zone supports resolution of single-label DNS names across a forest. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Disables support for the GlobalNames zone. When you set the value of this command to 0, the DNS Server service does not resolve single-label names in the GlobalNames zone.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Enables support for the GlobalNames zone. When you set the value of this command to 1, the DNS Server service resolves single-label names in the GlobalNames zone.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/enableglobalqueryblocklist <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Enables or disables support for the global query block list that blocks name resolution for names in the list. The DNS Server service creates and enables the global query block list by default when the service starts the first time. To view the current global query block list, use the dnscmd /info <strong>/globalqueryblocklist</strong> command. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Disables support for the global query block list. When you set the value of this command to 0, the DNS Server service responds to queries for names in the block list.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Enables support for the global query block list. When you set the value of this command to 1, the DNS Server service does not respond to queries for names in the block list.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/eventloglevel <code class="language-plaintext highlighter-rouge">[0|1|2|4]</code></td>
+      <td>Determines which events are logged in the DNS server log in Event Viewer. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Logs no events.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Logs only errors.&lt;/li&gt;&lt;li&gt;<strong>2</strong> - Logs only errors and warnings.&lt;/li&gt;&lt;li&gt;<strong>4</strong> - Logs errors, warnings, and informational events. This is the default setting.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/forwarddelegations <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Determines how the DNS server handles a query for a delegated subzone. These queries can be sent either to the subzone that is referred to in the query or to the list of forwarders that is named for the DNS server. Entries in the setting are used only when forwarding is enabled. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Automatically sends queries that refer to delegated subzones to the appropriate subzone. This is the default setting.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Forwards queries that refer to the delegated subzone to the existing forwarders.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/forwardingtimeout <code class="language-plaintext highlighter-rouge">[&lt;seconds&gt;]</code></td>
+      <td>Determines how many seconds (<strong>0x1-0xFFFFFFFF</strong>) a DNS server waits for a forwarder to respond before trying another forwarder. The default value is <strong>0x5</strong>, which is 5 seconds.</td>
+    </tr>
+    <tr>
+      <td>/globalneamesqueryorder <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Specifies whether the DNS Server service looks first in the GlobalNames zone or local zones when it resolves names. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - The DNS Server service attempts to resolve names by querying the GlobalNames zone before it queries the zones for which it is authoritative.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - The DNS Server service attempts to resolve names by querying the zones for which it is authoritative before it queries the GlobalNames zone.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/globalqueryblocklist<code class="language-plaintext highlighter-rouge">[[&lt;name&gt; [&lt;name&gt;]...]</code></td>
+      <td>Replaces the current global query block list with a list of the names that you specify. If you do not specify any names, this command clears the block list. By default, the global query block list contains the following items:&lt;ul&gt;&lt;li&gt;isatap&lt;/li&gt;&lt;li&gt;wpad&lt;/li&gt;&lt;/ul&gt;The DNS Server service can remove either or both of these names when it starts the first time, if it finds these names in an existing zone.</td>
+    </tr>
+    <tr>
+      <td>/isslave <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Determines how the DNS server responds when queries that it forwards receive no response. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Specifies that the DNS server is not a subordinate. If the forwarder does not respond, the DNS server attempts to resolve the query itself. This is the default setting.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Specifies that the DNS server is a subordinate. If the forwarder does not respond, the DNS server terminates the search and sends a failure message to the resolver.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/localnetpriority <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Determines the order in which host records are returned when the DNS server has multiple host records for the same name. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Returns the records in the order in which they are listed in the DNS database.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Returns the records that have similar IP network addresses first. This is the default setting.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/logfilemaxsize <code class="language-plaintext highlighter-rouge">[&lt;size&gt;]</code></td>
+      <td>Specifies the maximum size in bytes (<strong>0x10000-0xFFFFFFFF</strong>) of the Dns.log file. When the file reaches its maximum size, DNS overwrites the oldest events. The default size is <strong>0x400000</strong>, which is 4 megabytes (MB).</td>
+    </tr>
+    <tr>
+      <td>/logfilepath <code class="language-plaintext highlighter-rouge">[&lt;path+logfilename&gt;]</code></td>
+      <td>Specifies the path of the Dns.log file. The default path is <code class="language-plaintext highlighter-rouge">%systemroot%\System32\Dns\Dns.log</code>. You can specify a different path by using the format <code class="language-plaintext highlighter-rouge">path+logfilename</code>.</td>
+    </tr>
+    <tr>
+      <td>/logipfilterlist <code class="language-plaintext highlighter-rouge">&lt;IPaddress&gt; [,&lt;IPaddress&gt;...]</code></td>
+      <td>Specifies which packets are logged in the debug log file. The entries are a list of IP addresses. Only packets going to and from the IP addresses in the list are logged.</td>
+    </tr>
+    <tr>
+      <td>/loglevel <code class="language-plaintext highlighter-rouge">[&lt;eventtype&gt;]</code></td>
+      <td>Determines which types of events are recorded in the Dns.log file. Each event type is represented by a hexadecimal number. If you want more than one event in the log, use hexadecimal addition to add the values, and then enter the sum. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0x0</strong> - The DNS server does not create a log. This is the default entry.&lt;/li&gt;&lt;li&gt;<strong>0x10</strong> - Logs queries and notifications.&lt;/li&gt;&lt;li&gt;<strong>0x20</strong> - Logs updates.&lt;/li&gt;&lt;li&gt;<strong>0xFE</strong> - Logs nonquery transactions.&lt;/li&gt;&lt;li&gt;<strong>0x100</strong> - Logs question transactions.&lt;/li&gt;&lt;li&gt;<strong>0x200</strong> - Logs answers.&lt;/li&gt;&lt;li&gt;<strong>0x1000</strong> - Logs send packets.&lt;/li&gt;&lt;li&gt;<strong>0x2000</strong> - Logs receive packets.&lt;/li&gt;&lt;li&gt;<strong>0x4000</strong> - Logs User Datagram Protocol (UDP) packets.&lt;/li&gt;&lt;li&gt;<strong>0x8000</strong> - Logs Transmission Control Protocol (TCP) packets.&lt;/li&gt;&lt;li&gt;<strong>0xFFFF</strong> - Logs all packets.&lt;/li&gt;&lt;li&gt;<strong>0x10000</strong> - Logs active directory write transactions.&lt;/li&gt;&lt;li&gt;<strong>0x20000</strong> - Logs active directory update transactions.&lt;/li&gt;&lt;li&gt;<strong>0x1000000</strong> - Logs full packets.&lt;/li&gt;&lt;li&gt;<strong>0x80000000</strong> - Logs write-through transactions.&lt;/li&gt;&lt;li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/maxcachesize</td>
+      <td>Specifies the maximum size, in kilobytes (KB), of the DNS server s memory cache.</td>
+    </tr>
+    <tr>
+      <td>/maxcachettl <code class="language-plaintext highlighter-rouge">[&lt;seconds&gt;]</code></td>
+      <td>Determines how many seconds (<strong>0x0-0xFFFFFFFF</strong>) a record is saved in the cache. If the <strong>0x0</strong> setting is used, the DNS server doesn’t cache records. The default setting is <strong>0x15180</strong> (86,400 seconds or 1 day).</td>
+    </tr>
+    <tr>
+      <td>/maxnegativecachettl <code class="language-plaintext highlighter-rouge">[&lt;seconds&gt;]</code></td>
+      <td>Specifies how many seconds (<strong>0x1-0xFFFFFFFF</strong>) an entry that records a negative answer to a query remains stored in the DNS cache. The default setting is <strong>0x384</strong> (900 seconds).</td>
+    </tr>
+    <tr>
+      <td>/namecheckflag <code class="language-plaintext highlighter-rouge">[0|1|2|3]</code></td>
+      <td>Specifies which character standard is used when checking DNS names. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Uses ANSI characters that comply with Internet Engineering Task force (IETF) Request for Comments (Rfcs).&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Uses ANSI characters that do not necessarily comply with IETF Rfcs.&lt;/li&gt;&lt;li&gt;<strong>2</strong> - Uses multibyte UCS Transformation format 8 (UTF-8) characters. This is the default setting.&lt;/li&gt;&lt;li&gt;<strong>3</strong> - Uses all characters.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/norecursion <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Determines whether a DNS server performs recursive name resolution. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - The DNS server performs recursive name resolution if it is requested in a query. This is the default setting.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - The DNS server does not perform recursive name resolution.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/notcp</td>
+      <td>This parameter is obsolete, and it has no effect in current versions of Windows Server.</td>
+    </tr>
+    <tr>
+      <td>/recursionretry <code class="language-plaintext highlighter-rouge">[&lt;seconds&gt;]</code></td>
+      <td>Determines the number of seconds (<strong>0x1-0xFFFFFFFF</strong>) that a DNS server waits before again trying to contact a remote server. The default setting is <strong>0x3</strong> (three seconds). This value should be increased when recursion occurs over a slow wide area network (WAN) link.</td>
+    </tr>
+    <tr>
+      <td>/recursiontimeout <code class="language-plaintext highlighter-rouge">[&lt;seconds&gt;]</code></td>
+      <td>Determines the number of seconds (<strong>0x1-0xFFFFFFFF</strong>) that a DNS server waits before discontinuing attempts to contact a remote server. The settings range from <strong>0x1</strong> through <strong>0xFFFFFFFF</strong>. The default setting is <strong>0xF</strong> (15 seconds). This value should be increased when recursion occurs over a slow WAN link.</td>
+    </tr>
+    <tr>
+      <td>/roundrobin <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Determines the order in which host records are returned when a server has multiple host records for the same name. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - The DNS server does not use round robin. Instead, it returns the first record to every query.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - The DNS server rotates among the records that it returns from the top to the bottom of the list of matching records. This is the default setting.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/rpcprotocol <code class="language-plaintext highlighter-rouge">[0x0|0x1|0x2|0x4|0xFFFFFFFF]</code></td>
+      <td>Specifies the protocol that remote procedure call (RPC) uses when it makes a connection from the DNS server. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0x0</strong> - Disables RPC for DNS.&lt;/li&gt;&lt;li&gt;<strong>0x01</strong> - Uses TCP/IP&lt;/li&gt;&lt;li&gt;<strong>0x2</strong> - Uses named pipes.&lt;/li&gt;&lt;li&gt;<strong>0x4</strong> - Uses local procedure call (LPC).&lt;/li&gt;&lt;li&gt;<strong>0xFFFFFFFF</strong> - All protocols. This is the default setting.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/scavenginginterval <code class="language-plaintext highlighter-rouge">[&lt;hours&gt;]</code></td>
+      <td>Determines whether the scavenging feature for the DNS server is enabled, and sets the number of hours (<strong>0x0-0xFFFFFFFF</strong>) between scavenging cycles. The default setting is <strong>0x0</strong>, which disables scavenging for the DNS server. A setting greater than <strong>0x0</strong> enables scavenging for the server and sets the number of hours between scavenging cycles.</td>
+    </tr>
+    <tr>
+      <td>/secureresponses <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Determines whether DNS filters records that are saved in a cache. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Saves all responses to name queries to a cache. This is the default setting.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Saves only the records that belong to the same DNS subtree to a cache.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/sendport <code class="language-plaintext highlighter-rouge">[&lt;port&gt;]</code></td>
+      <td>Specifies the port number (<strong>0x0-0xFFFFFFFF</strong>) that DNS uses to send recursive queries to other DNS servers. The default setting is <strong>0x0</strong>, which means that the port number is selected randomly.</td>
+    </tr>
+    <tr>
+      <td>/serverlevelplugindll<code class="language-plaintext highlighter-rouge">[&lt;dllpath&gt;]</code></td>
+      <td>Specifies the path of a custom plug-in. When Dllpath specifies the fully qualified path name of a valid DNS server plug-in, the DNS server calls functions in the plug-in to resolve name queries that are outside the scope of all locally hosted zones. If a queried name is out of the scope of the plug-in, the DNS server performs name resolution using forwarding or recursion, as configured. If Dllpath is not specified, the DNS server ceases to use a custom plug-in if a custom plug-in was previously configured.</td>
+    </tr>
+    <tr>
+      <td>/strictfileparsing <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Determines a DNS server’s behavior when it encounters an erroneous record while loading a zone. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - The DNS server continues to load the zone even if the server encounters an erroneous record. The error is recorded in the DNS log. This is the default setting.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - The DNS server stops loading the zone, and it records the error in the DNS log.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/updateoptions <code class="language-plaintext highlighter-rouge">&lt;RecordValue&gt;</code></td>
+      <td>Prohibits dynamic updates of specified types of records. If you want more than one record type to be prohibited in the log, use hexadecimal addition to add the values, and then enter the sum. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0x0</strong> - Doesn’t restrict any record types.&lt;/li&gt;&lt;li&gt;<strong>0x1</strong> - Excludes start of authority (SOA) resource records.&lt;/li&gt;&lt;li&gt;<strong>0x2</strong> - Excludes name server (NS) resource records.&lt;/li&gt;&lt;li&gt;<strong>0x4</strong> - Excludes delegation of name server (NS) resource records.&lt;/li&gt;&lt;li&gt;<strong>0x8</strong> - Excludes server host records.&lt;/li&gt;&lt;li&gt;<strong>0x100</strong> - During secure dynamic update, excludes start of authority (SOA) resource records.&lt;/li&gt;&lt;li&gt;<strong>0x200</strong> - During secure dynamic update, excludes root name server (NS) resource records.&lt;/li&gt;&lt;li&gt;<strong>0x30F</strong> - During standard dynamic update, excludes name server (NS) resource records, start of authority (SOA) resource records, and server host records. During secure dynamic update, excludes root name server (NS) resource records and start of authority (SOA) resource records. Allows delegations and server host updates.&lt;/li&gt;&lt;li&gt;<strong>0x400</strong> - During secure dynamic update, excludes delegation name server (NS) resource records.&lt;/li&gt;&lt;li&gt;<strong>0x800</strong> - During secure dynamic update, excludes server host records.&lt;/li&gt;&lt;li&gt;<strong>0x1000000</strong> - Excludes delegation signer (DS) records.&lt;/li&gt;&lt;li&gt;<strong>0x80000000</strong> - Disables DNS dynamic update.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/writeauthorityns <code class="language-plaintext highlighter-rouge">[0|1]</code></td>
+      <td>Determines when the DNS server writes name server (NS) resource records in the Authority section of a response. Accepts the values:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Writes name server (NS) resource records in the Authority section of referrals only. This setting complies with Rfc 1034, Domain names concepts and facilities, and with Rfc 2181, Clarifications to the DNS Specification. This is the default setting.&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Writes name server (NS) resource records in the Authority section of all successful authoritative responses.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/xfrconnecttimeout <code class="language-plaintext highlighter-rouge">[&lt;seconds&gt;]</code></td>
+      <td>Determines the number of seconds (<strong>0x0-0xFFFFFFFF</strong>) a primary DNS server waits for a transfer response from its secondary server. The default value is <strong>0x1E</strong> (30 seconds). After the time-out value expires, the connection is terminated.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="zone-level-syntax">Zone-level syntax</h4>
+
+<p>Modifies the configuration of the specified zone. The zone name must be specified only for zone-level parameters.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd /config &lt;parameters&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-4">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;parameter&gt;</code></td>
+      <td>Specify a setting, a zone name, and, as an option, a value. Parameter values use this syntax: <code class="language-plaintext highlighter-rouge">zonename parameter [value]</code>.</td>
+    </tr>
+    <tr>
+      <td>/aging <code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Enables or disables scavenging in a specific zone.</td>
+    </tr>
+    <tr>
+      <td>/allownsrecordsautocreation <code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code> <code class="language-plaintext highlighter-rouge">[value]</code></td>
+      <td>Overrides the DNS server’s name server (NS) resource record autocreation setting. Name server (NS) resource records that were previously registered for this zone are not affected. Therefore, you must remove them manually if you do not want them.</td>
+    </tr>
+    <tr>
+      <td>/allowupdate <code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Determines whether the specified zone accepts dynamic updates.</td>
+    </tr>
+    <tr>
+      <td>/forwarderslave <code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Overrides the DNS server <strong>/isslave</strong> setting.</td>
+    </tr>
+    <tr>
+      <td>/forwardertimeout <code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Determines how many seconds a DNS zone waits for a forwarder to respond before trying another forwarder. This value overrides the value that is set at the server level.</td>
+    </tr>
+    <tr>
+      <td>/norefreshinterval <code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Sets a time interval for a zone during which no refreshes can dynamically update DNS records in a specified zone.</td>
+    </tr>
+    <tr>
+      <td>/refreshinterval <code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Sets a time interval for a zone during which refreshes can dynamically update DNS records in a specified zone.</td>
+    </tr>
+    <tr>
+      <td>/securesecondaries <code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Determines which secondary servers can receive zone updates from the master server for this zone.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dnscmd-createbuiltindirectorypartitions-command">dnscmd /createbuiltindirectorypartitions command</h3>
+
+<p>Creates a DNS application directory partition. When DNS is installed, an application directory partition for the service is created at the forest and domain levels. Use this command to create DNS application directory partitions that were deleted or never created. With no parameter, this command creates a built-in DNS directory partition for the domain.</p>
+
+<h4 id="syntax-3">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /createbuiltindirectorypartitions [/forest] [/alldomains]
+</code></pre></div></div>
+
+<h5 id="parameters-5">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td>/forest</td>
+      <td>Creates a DNS directory partition for the forest.</td>
+    </tr>
+    <tr>
+      <td>/alldomains</td>
+      <td>Creates DNS partitions for all domains in the forest.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dnscmd-createdirectorypartition-command">dnscmd /createdirectorypartition command</h3>
+
+<p>Creates a DNS application directory partition. When DNS is installed, an application directory partition for the service is created at the forest and domain levels. This operation creates additional DNS application directory partitions.</p>
+
+<h4 id="syntax-4">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /createdirectorypartition &lt;partitionFQDN&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-6">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;partitionFQDN&gt;</code></td>
+      <td>The FQDN of the DNS application directory partition that will be created.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dnscmd-deletedirectorypartition-command">dnscmd /deletedirectorypartition command</h3>
+
+<p>Removes an existing DNS application directory partition.</p>
+
+<h4 id="syntax-5">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /deletedirectorypartition &lt;partitionFQDN&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-7">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;partitionFQDN&gt;</code></td>
+      <td>The FQDN of the DNS application directory partition that will be removed.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dnscmd-directorypartitioninfo-command">dnscmd /directorypartitioninfo command</h3>
+
+<p>Lists information about a specified DNS application directory partition.</p>
+
+<h4 id="syntax-6">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /directorypartitioninfo &lt;partitionFQDN&gt; [/detail]
+</code></pre></div></div>
+
+<h5 id="parameters-8">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;partitionFQDN&gt;</code></td>
+      <td>The FQDN of the DNS application directory partition.</td>
+    </tr>
+    <tr>
+      <td>/detail</td>
+      <td>Lists all information about the application directory partition.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dnscmd-enlistdirectorypartition-command">dnscmd /enlistdirectorypartition command</h3>
+
+<p>Adds the DNS server to the specified directory partition’s replica set.</p>
+
+<h4 id="syntax-7">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /enlistdirectorypartition &lt;partitionFQDN&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-9">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;partitionFQDN&gt;</code></td>
+      <td>The FQDN of the DNS application directory partition.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dnscmd-enumdirectorypartitions-command">dnscmd /enumdirectorypartitions command</h3>
+
+<p>Lists the DNS application directory partitions for the specified server.</p>
+
+<h4 id="syntax-8">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /enumdirectorypartitions [/custom]
+</code></pre></div></div>
+
+<h5 id="parameters-10">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td>/custom</td>
+      <td>Lists only user-created directory partitions.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dnscmd-enumrecords-command">dnscmd /enumrecords command</h3>
+
+<p>Lists the resource records of a specified node in a DNS zone.</p>
+
+<h4 id="syntax-9">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /enumrecords &lt;zonename&gt; &lt;nodename&gt; [/type &lt;rrtype&gt; &lt;rrdata&gt;] [/authority] [/glue] [/additional] [/node | /child | /startchild&lt;childname&gt;] [/continue | /detail]
+</code></pre></div></div>
+
+<h5 id="parameters-11">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td>/enumrecords</td>
+      <td>Lists resource records in the specified zone.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone to which the resource records belong.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;nodename&gt;</code></td>
+      <td>Specifies the name of the node of the resource records.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">[/type &lt;rrtype&gt; &lt;rrdata&gt;]</code></td>
+      <td>Specifies the type of resource records to be listed and the type of data that is expected. Accepts the values:&lt;ul&gt;&lt;li&gt;<code class="language-plaintext highlighter-rouge">&lt;rrtype&gt;</code> -  Specifies the type of resource records to be listed.&lt;/li&gt;&lt;li&gt;<code class="language-plaintext highlighter-rouge">&lt;rrdata&gt;</code> - Specifies the type of data that is expected record.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/authority</td>
+      <td>Includes authoritative data.</td>
+    </tr>
+    <tr>
+      <td>/glue</td>
+      <td>Includes glue data.</td>
+    </tr>
+    <tr>
+      <td>/additional</td>
+      <td>Includes all additional information about the listed resource records.</td>
+    </tr>
+    <tr>
+      <td>/node</td>
+      <td>Lists only the resource records of the specified node.</td>
+    </tr>
+    <tr>
+      <td>/child</td>
+      <td>Lists only the resource records of a specified child domain.</td>
+    </tr>
+    <tr>
+      <td>/startchild<code class="language-plaintext highlighter-rouge">&lt;childname&gt;</code></td>
+      <td>Begins the list at the specified child domain.</td>
+    </tr>
+    <tr>
+      <td>/continue</td>
+      <td>Lists only the resource records with their type and data.</td>
+    </tr>
+    <tr>
+      <td>/detail</td>
+      <td>Lists all information about the resource records.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="example-1">Example</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd /enumrecords test.contoso.com test /additional
+</code></pre></div></div>
+
+<h3 id="dnscmd-enumzones-command">dnscmd /enumzones command</h3>
+
+<p>Lists the zones that exist on the specified DNS server. The <strong>enumzones</strong> parameters act as filters on the list of zones. If no filters are specified, a complete list of zones is returned. When a filter is specified, only the zones that meet that filter’s criteria are included in the returned list of zones.</p>
+
+<h4 id="syntax-10">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /enumzones [/primary | /secondary | /forwarder | /stub | /cache | /auto-created] [/forward | /reverse | /ds | /file] [/domaindirectorypartition | /forestdirectorypartition | /customdirectorypartition | /legacydirectorypartition | /directorypartition &lt;partitionFQDN&gt;]
+</code></pre></div></div>
+
+<h5 id="parameters-12">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td>/primary</td>
+      <td>Lists all zones that are either standard primary zones or active directory integrated zones.</td>
+    </tr>
+    <tr>
+      <td>/secondary</td>
+      <td>Lists all standard secondary zones.</td>
+    </tr>
+    <tr>
+      <td>/forwarder</td>
+      <td>Lists zones that forward unresolved queries to another DNS server.</td>
+    </tr>
+    <tr>
+      <td>/stub</td>
+      <td>Lists all stub zones.</td>
+    </tr>
+    <tr>
+      <td>/cache</td>
+      <td>Lists only the zones that are loaded into the cache.</td>
+    </tr>
+    <tr>
+      <td>/auto-created]</td>
+      <td>Lists the zones that were created automatically during the DNS server installation.</td>
+    </tr>
+    <tr>
+      <td>/forward</td>
+      <td>Lists forward lookup zones.</td>
+    </tr>
+    <tr>
+      <td>/reverse</td>
+      <td>Lists reverse lookup zones.</td>
+    </tr>
+    <tr>
+      <td>/ds</td>
+      <td>Lists active directory integrated zones.</td>
+    </tr>
+    <tr>
+      <td>/file</td>
+      <td>Lists zones that are backed by files.</td>
+    </tr>
+    <tr>
+      <td>/domaindirectorypartition</td>
+      <td>Lists zones that are stored in the domain directory partition.</td>
+    </tr>
+    <tr>
+      <td>/forestdirectorypartition</td>
+      <td>Lists zones that are stored in the forest DNS application directory partition.</td>
+    </tr>
+    <tr>
+      <td>/customdirectorypartition</td>
+      <td>Lists all zones that are stored in a user-defined application directory partition.</td>
+    </tr>
+    <tr>
+      <td>/legacydirectorypartition</td>
+      <td>Lists all zones that are stored in the domain directory partition.</td>
+    </tr>
+    <tr>
+      <td>/directorypartition <code class="language-plaintext highlighter-rouge">&lt;partitionFQDN&gt;</code></td>
+      <td>Lists all zones that are stored in the specified directory partition.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="examples-1">Examples</h5>
+
+<ul>
+  <li>
+    <p><a href="/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-2-display-a-complete-list-of-zones-on-a-dns-server">Example 2: Display a complete list of zones on a DNS server</a>)</p>
+  </li>
+  <li>
+    <p><a href="/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-3-display-a-list-of-autocreated-zones-on-a-dns-server">Example 3: Display a list of autocreated zones on a DNS server</a></p>
+  </li>
+</ul>
+
+<h3 id="dnscmd-exportsettings-command">dnscmd /exportsettings command</h3>
+
+<p>Creates a text file that lists the configuration details of a DNS server. The text file is named <em>DnsSettings.txt</em>. It is located in the <code class="language-plaintext highlighter-rouge">%systemroot%\system32\dns</code> directory of the server. You can use the information in the file that <strong>dnscmd /exportsettings</strong> creates to troubleshoot configuration problems or to ensure that you have configured multiple servers identically.</p>
+
+<h4 id="syntax-11">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /exportsettings
+</code></pre></div></div>
+
+<h5 id="parameters-13">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dnscmd-info-command">dnscmd /info command</h3>
+
+<p>Displays settings from the DNS section of the registry of the specified server <code class="language-plaintext highlighter-rouge">HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DNS\Parameters</code>. To display zone-level registry settings, use the <code class="language-plaintext highlighter-rouge">dnscmd zoneinfo</code> command.</p>
+
+<h4 id="syntax-12">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /info [&lt;settings&gt;]
+</code></pre></div></div>
+
+<h5 id="parameters-14">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;settings&gt;</code></td>
+      <td>Any setting that the <strong>info</strong> command returns can be specified individually. If a setting is not specified, a report of common settings is returned.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="example-2">Example</h5>
+
+<ul>
+  <li>
+    <p><a href="/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-4-display-the-isslave-setting-from-a-dns-server">Example 4: Display the IsSlave setting from a DNS server</a></p>
+  </li>
+  <li>
+    <p><a href="/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-5-display-the-recursiontimeout-setting-from-a-dns-server">Example 5: Display the RecursionTimeout setting from a DNS server</a></p>
+  </li>
+</ul>
+
+<h3 id="dnscmd-ipvalidate-command">dnscmd /ipvalidate command</h3>
+
+<p>Tests whether an IP address identifies a functioning DNS server or whether the DNS server can act as a forwarder, a root hint server, or a master server for a specific zone.</p>
+
+<h4 id="syntax-13">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /ipvalidate &lt;context&gt; [&lt;zonename&gt;] [[&lt;IPaddress&gt;]]
+</code></pre></div></div>
+
+<h5 id="parameters-15">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;context&gt;</code></td>
+      <td>Specifies the type of test to perform. You can specify any of the following tests:&lt;ul&gt;&lt;li&gt;<strong>/dnsservers</strong> - Tests that the computers with the addresses that you specify are functioning DNS servers.&lt;/li&gt;&lt;li&gt;<strong>/forwarders</strong> - Tests that the addresses that you specify identify DNS servers that can act as forwarders.&lt;/li&gt;&lt;li&gt;<strong>/roothints</strong> - Tests that the addresses that you specify identify DNS servers that can act as root hint name servers.&lt;/li&gt;&lt;li&gt;<strong>/zonemasters</strong> - Tests that the addresses that you specify identify DNS servers that are master servers for <em>zonename</em>.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Identifies the zone. Use this parameter with the <strong>/zonemasters</strong> parameter.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;IPaddress&gt;</code></td>
+      <td>Specifies the IP addresses that the command tests.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="examples-2">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nscmd dnssvr1.contoso.com /ipvalidate /dnsservers 10.0.0.1 10.0.0.2
+dnscmd dnssvr1.contoso.com /ipvalidate /zonemasters corp.contoso.com 10.0.0.2
+</code></pre></div></div>
+
+<h3 id="dnscmd-nodedelete-command">dnscmd /nodedelete command</h3>
+
+<p>Deletes all records for a specified host.</p>
+
+<h4 id="syntax-14">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /nodedelete &lt;zonename&gt; &lt;nodename&gt; [/tree] [/f]
+</code></pre></div></div>
+
+<h5 id="parameters-16">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;nodename&gt;</code></td>
+      <td>Specifies the host name of the node to delete.</td>
+    </tr>
+    <tr>
+      <td>/tree</td>
+      <td>Deletes all the child records.</td>
+    </tr>
+    <tr>
+      <td>/f</td>
+      <td>Executes the command without asking for confirmation.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="example-3">Example</h5>
+
+<p><a href="/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-6-delete-the-records-from-a-node">Example 6: Delete the records from a node</a></p>
+
+<h3 id="dnscmd-recordadd-command">dnscmd /recordadd command</h3>
+
+<p>Adds a record to a specified zone in a DNS server.</p>
+
+<h4 id="syntax-15">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /recordadd &lt;zonename&gt; &lt;nodename&gt; &lt;rrtype&gt; &lt;rrdata&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-17">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the zone in which the record resides.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;nodename&gt;</code></td>
+      <td>Specifies a specific node in the zone.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;rrtype&gt;</code></td>
+      <td>Specifies the type of record to be added.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;rrdata&gt;</code></td>
+      <td>Specifies the type of data that is expected.</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>[!NOTE]
+After you add a record, make sure that you use the correct data type and data format. For a list of resource record types and the appropriate data types, see <a href="/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)">Dnscmd Examples</a>.</p>
+</blockquote>
+
+<h5 id="examples-3">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /recordadd test A 10.0.0.5
+dnscmd /recordadd test.contoso.com test MX 10 mailserver.test.contoso.com
+</code></pre></div></div>
+
+<h3 id="dnscmd-recorddelete-command">dnscmd /recorddelete command</h3>
+
+<p>Deletes a resource record to a specified zone.</p>
+
+<h4 id="syntax-16">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /recorddelete &lt;zonename&gt; &lt;nodename&gt; &lt;rrtype&gt; &lt;rrdata&gt; [/f]
+</code></pre></div></div>
+
+<h5 id="parameters-18">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the zone in which the resource record resides.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;nodename&gt;</code></td>
+      <td>Specifies a name of the host.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;rrtype&gt;</code></td>
+      <td>Specifies the type of resource record to be deleted.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;rrdata&gt;</code></td>
+      <td>Specifies the type of data that is expected.</td>
+    </tr>
+    <tr>
+      <td>/f</td>
+      <td>Executes the command without asking for confirmation. Because nodes can have more than one resource record, this command requires you to be very specific about the type of resource record that you want to delete. If you specify a data type and you do not specify a type of resource record data, all records with that specific data type for the specified node are deleted.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="examples-4">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd /recorddelete test.contoso.com test MX 10 mailserver.test.contoso.com
+</code></pre></div></div>
+
+<h3 id="dnscmd-resetforwarders-command">dnscmd /resetforwarders command</h3>
+
+<p>Selects or resets the IP addresses to which the DNS server forwards DNS queries when it cannot resolve them locally.</p>
+
+<h4 id="syntax-17">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /resetforwarders &lt;IPaddress&gt; [,&lt;IPaddress&gt;]...][/timeout &lt;timeout&gt;] [/slave | /noslave]
+</code></pre></div></div>
+
+<h5 id="parameters-19">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;IPaddress&gt;</code></td>
+      <td>Lists the IP addresses to which the DNS server forwards unresolved queries.</td>
+    </tr>
+    <tr>
+      <td>/timeout <code class="language-plaintext highlighter-rouge">&lt;timeout&gt;</code></td>
+      <td>Sets the number of seconds that the DNS server waits for a response from the forwarder. By default, this value is five seconds.</td>
+    </tr>
+    <tr>
+      <td>/slave</td>
+      <td>Prevents the DNS server from performing its own iterative queries if the forwarder fails to resolve a query.</td>
+    </tr>
+    <tr>
+      <td>/noslave</td>
+      <td>Allows the DNS server to perform its own iterative queries if the forwarder fails to resolve a query. This is the default setting.</td>
+    </tr>
+    <tr>
+      <td>/f</td>
+      <td>Executes the command without asking for confirmation. Because nodes can have more than one resource record, this command requires you to be very specific about the type of resource record that you want to delete. If you specify a data type and you do not specify a type of resource record data, all records with that specific data type for the specified node are deleted.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks-1">Remarks</h6>
+
+<ul>
+  <li>
+    <p>By default, a DNS server performs iterative queries when it cannot resolve a query.</p>
+  </li>
+  <li>
+    <p>Setting IP addresses by using the <strong>resetforwarders</strong> command causes the DNS server to perform recursive queries to the DNS servers at the specified IP addresses. If the forwarders don’t resolve the query, the DNS server can then perform its own iterative queries.</p>
+  </li>
+  <li>
+    <p>If the <strong>/slave</strong> parameter is used, the DNS server does not perform its own iterative queries. This means that the DNS server forwards unresolved queries only to the DNS servers in the list, and it does not attempt iterative queries if the forwarders do not resolve them. It is more efficient to set one IP address as a forwarder for a DNS server. You can use the <strong>resetforwarders</strong> command for internal servers in a network to forward their unresolved queries to one DNS server that has an external connection.</p>
+  </li>
+  <li>
+    <p>Listing a forwarder’s IP address twice causes the DNS server to attempt to forward to that server twice.</p>
+  </li>
+</ul>
+
+<h5 id="examples-5">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /resetforwarders 10.0.0.1 /timeout 7 /slave
+dnscmd dnssvr1.contoso.com /resetforwarders /noslave
+</code></pre></div></div>
+
+<h3 id="dnscmd-resetlistenaddresses-command">dnscmd /resetlistenaddresses command</h3>
+
+<p>Specifies the IP addresses on a server that listens for DNS client requests. By default, all IP addresses on a DNS server listen for client DNS requests.</p>
+
+<h4 id="syntax-18">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /resetlistenaddresses &lt;listenaddress&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-20">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;listenaddress&gt;</code></td>
+      <td>Specifies an IP address on the DNS server that listens for DNS client requests. If no listen address is specified, all IP addresses on the server listen for client requests.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="examples-6">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /resetlistenaddresses 10.0.0.1
+</code></pre></div></div>
+
+<h3 id="dnscmd-startscavenging-command">dnscmd /startscavenging command</h3>
+
+<p>Tells a DNS server to attempt an immediate search for stale resource records in a specified DNS server.</p>
+
+<h4 id="syntax-19">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /startscavenging
+</code></pre></div></div>
+
+<h5 id="parameters-21">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks-2">Remarks</h6>
+
+<ul>
+  <li>
+    <p>Successful completion of this command starts a scavenge immediately. If the scavenge fails, no warning message appears.</p>
+  </li>
+  <li>
+    <p>Although the command to start the scavenge appears to complete successfully, the scavenge does not start unless the following preconditions are met:</p>
+
+    <ul>
+      <li>
+        <p>Scavenging is enabled for both the server and the zone.</p>
+      </li>
+      <li>
+        <p>The zone is started.</p>
+      </li>
+      <li>
+        <p>The resource records have a time stamp.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>For information about how to enable scavenging for the server, see the <strong>scavenginginterval</strong> parameter under <strong>Server-level syntax</strong> in the <strong>/config</strong> section.</p>
+  </li>
+  <li>
+    <p>For information about how to enable scavenging for the zone, see the <strong>aging</strong> parameter under <strong>Zone-level syntax</strong> in the <strong>/config</strong> section.</p>
+  </li>
+  <li>
+    <p>For information about how to restart a paused zone, see the <strong>zoneresume</strong> parameter in this article.</p>
+  </li>
+  <li>
+    <p>For information about how to check resource records for a time stamp, see the <strong>ageallrecords</strong> parameter in this article.</p>
+  </li>
+</ul>
+
+<h5 id="examples-7">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /startscavenging
+</code></pre></div></div>
+
+<h3 id="dnscmd-statistics-command">dnscmd /statistics command</h3>
+
+<p>Displays or clears data for a specified DNS server.</p>
+
+<h4 id="syntax-20">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /statistics [&lt;statid&gt;] [/clear]
+</code></pre></div></div>
+
+<h5 id="parameters-22">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;statid&gt;</code></td>
+      <td>Specifies which statistic or combination of statistics to display. The <strong>statistics</strong> command displays counters that begin on the DNS server when it is started or resumed. An identification number is used to identify a statistic. If no statistic ID number is specified, all statistics display. The numbers that can be specified, along with the corresponding statistic that displays, can include:&lt;ul&gt;&lt;li&gt;<strong>00000001</strong> - Time&lt;/li&gt;&lt;li&gt;<strong>00000002</strong> - Query&lt;/li&gt;&lt;li&gt;<strong>00000004</strong> - Query2&lt;/li&gt;&lt;li&gt;<strong>00000008</strong> - Recurse&lt;/li&gt;&lt;li&gt;<strong>00000010</strong> - Master&lt;/li&gt;&lt;li&gt;<strong>00000020</strong> - Secondary&lt;/li&gt;&lt;li&gt;<strong>00000040</strong> - WINS&lt;/li&gt;&lt;li&gt;<strong>00000100</strong> - Update&lt;/li&gt;&lt;li&gt;<strong>00000200</strong> - SkwanSec&lt;/li&gt;&lt;li&gt;<strong>00000400</strong> - Ds&lt;/li&gt;&lt;li&gt;<strong>00010000</strong> - Memory&lt;/li&gt;&lt;li&gt;<strong>00100000</strong> - PacketMem&lt;/li&gt;&lt;li&gt;<strong>00040000</strong> - Dbase&lt;/li&gt;&lt;li&gt;<strong>00080000</strong> - Records&lt;/li&gt;&lt;li&gt;<strong>00200000</strong> - NbstatMem&lt;/li&gt;&lt;li&gt;<strong>/clear</strong> - Resets the specified statistics counter to zero.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="examples-8">Examples</h5>
+
+<ul>
+  <li>
+    <p><a href="/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-7-display-time-statistics-for-a-dns-server">Example 7: </a></p>
+  </li>
+  <li>
+    <p><a href="/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-8-display-nbstatmem-statistics-for-a-dns-server">Example 8: Display NbstatMem statistics for a DNS server</a></p>
+  </li>
+</ul>
+
+<h3 id="dnscmd-unenlistdirectorypartition-command">dnscmd /unenlistdirectorypartition command</h3>
+
+<p>Removes the DNS server from the specified directory partition’s replica set.</p>
+
+<h4 id="syntax-21">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /unenlistdirectorypartition &lt;partitionFQDN&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-23">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;partitionFQDN&gt;</code></td>
+      <td>The FQDN of the DNS application directory partition that will be removed.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dnscmd-writebackfiles-command">dnscmd /writebackfiles command</h3>
+
+<p>Checks the DNS server memory for changes, and writes them to persistent storage. The <strong>writebackfiles</strong> command updates all dirty zones or a specified zone. A zone is dirty when there are changes in memory that haven’t yet been written to persistent storage. This is a server-level operation that checks all zones. You can specify one zone in this operation or you can use the <strong>zonewriteback</strong> operation.</p>
+
+<h4 id="syntax-22">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /writebackfiles &lt;zonename&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-24">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone to be updated.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="examples-9">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /writebackfiles
+</code></pre></div></div>
+
+<h3 id="dnscmd-zoneadd-command">dnscmd /zoneadd command</h3>
+
+<p>Adds a zone to the DNS server.</p>
+
+<h4 id="syntax-23">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zoneadd &lt;zonename&gt; &lt;zonetype&gt; [/dp &lt;FQDN&gt; | {/domain | enterprise | legacy}]
+</code></pre></div></div>
+
+<h5 id="parameters-25">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonetype&gt;</code></td>
+      <td>Specifies the type of zone to create. Specifying a zone type of <strong>/forwarder</strong> or <strong>/dsforwarder</strong> creates a zone that performs conditional forwarding. Each zone type has different required parameters:&lt;ul&gt;&lt;li&gt;<strong>/dsprimary</strong> - Creates an active directory integrated zone.&lt;/li&gt;&lt;li&gt;<strong>/primary /file <code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></strong> - Creates a standard primary zone, and specifies the name of the file that will store the zone information.&lt;/li&gt;&lt;li&gt;<strong>/secondary <code class="language-plaintext highlighter-rouge">&lt;masterIPaddress&gt; [&lt;masterIPaddress&gt;...]</code></strong> - Creates a standard secondary zone.&lt;/li&gt;&lt;li&gt;<strong>/stub <code class="language-plaintext highlighter-rouge">&lt;masterIPaddress&gt; [&lt;masterIPaddress&gt;...]</code> /file <code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></strong> - Creates a file-backed stub zone.&lt;/li&gt;&lt;li&gt;<strong>/dsstub <code class="language-plaintext highlighter-rouge">&lt;masterIPaddress&gt; [&lt;masterIPaddress&gt;...]</code></strong> - Creates an active directory integrated stub zone.&lt;/li&gt;&lt;li&gt;<strong>/forwarder <code class="language-plaintext highlighter-rouge">&lt;masterIPaddress&gt; [&lt;masterIPaddress&gt;]</code>… /file <code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></strong> - Specifies that the created zone forwards unresolved queries to another DNS server.&lt;/li&gt;&lt;li&gt;<strong>/dsforwarder</strong> - Specifies that the created active directory integrated zone forwards unresolved queries to another DNS server.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;FQDN&gt;</code></td>
+      <td>Specifies FQDN of the directory partition.</td>
+    </tr>
+    <tr>
+      <td>/domain</td>
+      <td>Stores the zone on the domain directory partition.</td>
+    </tr>
+    <tr>
+      <td>/enterprise</td>
+      <td>Stores the zone on the enterprise directory partition.</td>
+    </tr>
+    <tr>
+      <td>/legacy</td>
+      <td>Stores the zone on a legacy directory partition.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="examples-10">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /zoneadd test.contoso.com /dsprimary
+dnscmd dnssvr1.contoso.com /zoneadd secondtest.contoso.com /secondary 10.0.0.2
+</code></pre></div></div>
+
+<h3 id="dnscmd-zonechangedirectorypartition-command">dnscmd /zonechangedirectorypartition command</h3>
+
+<p>Changes the directory partition on which the specified zone resides.</p>
+
+<h4 id="syntax-24">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zonechangedirectorypartition &lt;zonename&gt; {[&lt;newpartitionname&gt;] | [&lt;zonetype&gt;]}
+</code></pre></div></div>
+
+<h5 id="parameters-26">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>The FQDN of the current directory partition on which the zone resides.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;newpartitionname&gt;</code></td>
+      <td>The FQDN of the directory partition that the zone will be moved to.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonetype&gt;</code></td>
+      <td>Specifies the type of directory partition that the zone will be moved to.</td>
+    </tr>
+    <tr>
+      <td>/domain</td>
+      <td>Moves the zone to the built-in domain directory partition.</td>
+    </tr>
+    <tr>
+      <td>/forest</td>
+      <td>Moves the zone to the built-in forest directory partition.</td>
+    </tr>
+    <tr>
+      <td>/legacy</td>
+      <td>Moves the zone to the directory partition that is created for pre active directory domain controllers. These directory partitions are not necessary for native mode.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dnscmd-zonedelete-command">dnscmd /zonedelete command</h3>
+
+<p>Deletes a specified zone.</p>
+
+<h4 id="syntax-25">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zonedelete &lt;zonename&gt; [/dsdel] [/f]
+</code></pre></div></div>
+
+<h5 id="parameters-27">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone to be deleted.</td>
+    </tr>
+    <tr>
+      <td>/dsdel</td>
+      <td>Deletes the zone from Azure Directory Domain Services (AD DS).</td>
+    </tr>
+    <tr>
+      <td>/f</td>
+      <td>Runs the command without asking for confirmation.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="examples-11">Examples</h5>
+
+<ul>
+  <li><a href="/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-9-delete-a-zone-from-a-dns-server">Example 9: Delete a zone from a DNS server</a></li>
+</ul>
+
+<h3 id="dnscmd-zoneexport-command">dnscmd /zoneexport command</h3>
+
+<p>Creates a text file that lists the resource records of a specified zone. The <strong>zoneexport</strong> operation creates a file of resource records for an active directory integrated zone for troubleshooting purposes. By default, the file that this command creates is placed in the DNS directory, which is by default the <code class="language-plaintext highlighter-rouge">%systemroot%/System32/Dns</code> directory.</p>
+
+<h4 id="syntax-26">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zoneexport &lt;zonename&gt; &lt;zoneexportfile&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-28">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zoneexportfile&gt;</code></td>
+      <td>Specifies the name of the file to create.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="examples-12">Examples</h5>
+
+<ul>
+  <li><a href="/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-10-export-zone-resource-records-list-to-a-file">Example 10: Export zone resource records list to a file</a></li>
+</ul>
+
+<h3 id="dnscmd-zoneinfo">dnscmd /zoneinfo</h3>
+
+<p>Displays settings from the section of the registry of the specified zone: <code class="language-plaintext highlighter-rouge">HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DNS\Parameters\Zones\&lt;zonename&gt;</code></p>
+
+<h4 id="syntax-27">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zoneinfo &lt;zonename&gt; [&lt;setting&gt;]
+</code></pre></div></div>
+
+<h5 id="parameters-29">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;setting&gt;</code></td>
+      <td>You can individually specify any setting that the <strong>zoneinfo</strong> command returns. If you don’t specify a setting, all settings are returned.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks-3">Remarks</h6>
+
+<ul>
+  <li>
+    <p>To display server-level registry settings, use the <strong>/info</strong> command.</p>
+  </li>
+  <li>
+    <p>To see a list of settings that you can display with this command, see the <strong>/config</strong> command.</p>
+  </li>
+</ul>
+
+<h5 id="examples-13">Examples</h5>
+
+<ul>
+  <li>
+    <p><a href="/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-11-display-refreshinterval-setting-from-the-registry">Example 11: Display RefreshInterval setting from the registry</a></p>
+  </li>
+  <li>
+    <p><a href="/previous-versions/windows/it-pro/windows-server-2003/cc784399(v=ws.10)#example-12-display-aging-setting-from-the-registry">Example 12: Display Aging setting from the registry</a></p>
+  </li>
+</ul>
+
+<h3 id="dnscmd-zonepause-command">dnscmd /zonepause command</h3>
+
+<p>Pauses the specified zone, which then ignores query requests.</p>
+
+<h4 id="syntax-28">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zonepause &lt;zonename&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-30">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone to be paused.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks-4">Remarks</h6>
+
+<ul>
+  <li>To resume a zone and make it available after it has been paused, use the <strong>/zoneresume</strong> command.</li>
+</ul>
+
+<h5 id="examples-14">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /zonepause test.contoso.com
+</code></pre></div></div>
+
+<h3 id="dnscmd-zoneprint-command">dnscmd /zoneprint command</h3>
+
+<p>Lists the records in a zone.</p>
+
+<h4 id="syntax-29">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zoneprint &lt;zonename&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-31">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone to be listed.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="dnscmd-zonerefresh-command">dnscmd /zonerefresh command</h3>
+
+<p>Forces a secondary DNS zone to update from the master zone.</p>
+
+<h4 id="syntax-30">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zonerefresh &lt;zonename&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-32">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone to be refreshed.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks-5">Remarks</h6>
+
+<ul>
+  <li>
+    <p>The <strong>zonerefresh</strong> command forces a check of the version number in the master server s start of authority (SOA) resource record. If the version number on the master server is higher than the secondary server’s version number, a zone transfer is initiated that updates the secondary server. If the version number is the same, no zone transfer occurs.</p>
+  </li>
+  <li>
+    <p>The forced check occurs by default every 15 minutes. To change the default, use the <code class="language-plaintext highlighter-rouge">dnscmd config refreshinterval</code> command.</p>
+  </li>
+</ul>
+
+<h5 id="examples-15">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /zonerefresh test.contoso.com
+</code></pre></div></div>
+
+<h3 id="dnscmd-zonereload-command">dnscmd /zonereload command</h3>
+
+<p>Copies zone information from its source.</p>
+
+<h4 id="syntax-31">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zonereload &lt;zonename&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-33">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone to be reloaded.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks-6">Remarks</h6>
+
+<ul>
+  <li>
+    <p>If the zone is active directory integrated, it reloads from Active Directory Domain Services (AD DS).</p>
+  </li>
+  <li>
+    <p>If the zone is a standard file-backed zone, it reloads from a file.</p>
+  </li>
+</ul>
+
+<h5 id="examples-16">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /zonereload test.contoso.com
+</code></pre></div></div>
+
+<h3 id="dnscmd-zoneresetmasters-command">dnscmd /zoneresetmasters command</h3>
+
+<p>Resets the IP addresses of the master server that provides zone transfer information to a secondary zone.</p>
+
+<h4 id="syntax-32">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zoneresetmasters &lt;zonename&gt; [/local] [&lt;IPaddress&gt; [&lt;IPaddress&gt;]...]
+</code></pre></div></div>
+
+<h5 id="parameters-34">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone to be reset.</td>
+    </tr>
+    <tr>
+      <td>/local</td>
+      <td>Sets a local master list. This parameter is used for active directory integrated zones.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;IPaddress&gt;</code></td>
+      <td>The IP addresses of the master servers of the secondary zone.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks-7">Remarks</h6>
+
+<ul>
+  <li>This value is originally set when the secondary zone is created. Use the <strong>zoneresetmasters</strong> command on the secondary server. This value has no effect if it is set on the master DNS server.</li>
+</ul>
+
+<h5 id="examples-17">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /zoneresetmasters test.contoso.com 10.0.0.1
+dnscmd dnssvr1.contoso.com /zoneresetmasters test.contoso.com /local
+</code></pre></div></div>
+
+<h3 id="dnscmd-zoneresetscavengeservers-command">dnscmd /zoneresetscavengeservers command</h3>
+
+<p>Changes the IP addresses of the servers that can scavenge the specified zone.</p>
+
+<h4 id="syntax-33">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zoneresetscavengeservers &lt;zonename&gt; [/local] [&lt;IPaddress&gt; [&lt;IPaddress&gt;]...]
+</code></pre></div></div>
+
+<h5 id="parameters-35">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the zone to scavenge.</td>
+    </tr>
+    <tr>
+      <td>/local</td>
+      <td>Sets a local master list. This parameter is used for active directory integrated zones.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;IPaddress&gt;</code></td>
+      <td>Lists the IP addresses of the servers that can perform the scavenge. If this parameter is omitted, all servers that host this zone can scavenge it.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks-8">Remarks</h6>
+
+<ul>
+  <li>
+    <p>By default, all servers that host a zone can scavenge that zone.</p>
+  </li>
+  <li>
+    <p>If a zone is hosted on more than one DNS server, you can use this command to reduce the number of times a zone is scavenged.</p>
+  </li>
+  <li>
+    <p>Scavenging must be enabled on the DNS server and zone that is affected by this command.</p>
+  </li>
+</ul>
+
+<h5 id="examples-18">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /zoneresetscavengeservers test.contoso.com 10.0.0.1 10.0.0.2
+</code></pre></div></div>
+
+<h3 id="dnscmd-zoneresetsecondaries-command">dnscmd /zoneresetsecondaries command</h3>
+
+<p>Specifies a list of IP addresses of secondary servers to which a master server responds when it is asked for a zone transfer.</p>
+
+<h4 id="syntax-34">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zoneresetsecondaries &lt;zonename&gt; {/noxfr | /nonsecure | /securens | /securelist &lt;securityIPaddresses&gt;} {/nonotify | /notify | /notifylist &lt;notifyIPaddresses&gt;}
+</code></pre></div></div>
+
+<h5 id="parameters-36">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone that will have its secondary servers reset.</td>
+    </tr>
+    <tr>
+      <td>/local</td>
+      <td>Sets a local master list. This parameter is used for active directory integrated zones.</td>
+    </tr>
+    <tr>
+      <td>/noxfr</td>
+      <td>Specifies that no zone transfers are allowed.</td>
+    </tr>
+    <tr>
+      <td>/nonsecure</td>
+      <td>Specifies that all zone transfer requests are granted.</td>
+    </tr>
+    <tr>
+      <td>/securens</td>
+      <td>Specifies that only the server that is listed in the name server (NS) resource record for the zone is granted a transfer.</td>
+    </tr>
+    <tr>
+      <td>/securelist</td>
+      <td>Specifies that zone transfers are granted only to the list of servers. This parameter must be followed by an IP address or addresses that the master server uses.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;securityIPaddresses&gt;</code></td>
+      <td>Lists the IP addresses that receive zone transfers from the master server. This parameter is used only with the <strong>/securelist</strong> parameter.</td>
+    </tr>
+    <tr>
+      <td>/nonotify</td>
+      <td>Specifies that no change notifications are sent to secondary servers.</td>
+    </tr>
+    <tr>
+      <td>/notify</td>
+      <td>Specifies that change notifications are sent to all secondary servers.</td>
+    </tr>
+    <tr>
+      <td>/notifylist</td>
+      <td>Specifies that change notifications are sent to only the list of servers. This command must be followed by an IP address or addresses that the master server uses.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;notifyIPaddresses&gt;</code></td>
+      <td>Specifies the IP address or addresses of the secondary server or servers to which change notifications are sent. This list is used only with the <strong>/notifylist</strong> parameter.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks-9">Remarks</h6>
+
+<ul>
+  <li>Use the <strong>zoneresetsecondaries</strong> command on the master server to specify how it responds to zone transfer requests from secondary servers.</li>
+</ul>
+
+<h5 id="examples-19">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /zoneresetsecondaries test.contoso.com /noxfr /nonotify
+dnscmd dnssvr1.contoso.com /zoneresetsecondaries test.contoso.com /securelist 11.0.0.2
+</code></pre></div></div>
+
+<h3 id="dnscmd-zoneresettype-command">dnscmd /zoneresettype command</h3>
+
+<p>Changes the type of the zone.</p>
+
+<h4 id="syntax-35">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zoneresettype &lt;zonename&gt; &lt;zonetype&gt; [/overwrite_mem | /overwrite_ds]
+</code></pre></div></div>
+
+<h5 id="parameters-37">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Identifies the zone on which the type will be changed.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonetype&gt;</code></td>
+      <td>Specifies the type of zone to create. Each type has different required parameters, including:&lt;ul&gt;&lt;li&gt;<strong>/dsprimary</strong> - Creates an active directory integrated zone.&lt;/li&gt;&lt;li&gt;<strong>/primary /file <code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></strong> - Creates a standard primary zone.&lt;/li&gt;&lt;li&gt;<strong>/secondary <code class="language-plaintext highlighter-rouge">&lt;masterIPaddress&gt; [,&lt;masterIPaddress&gt;...]</code></strong> - Creates a standard secondary zone.&lt;/li&gt;&lt;li&gt;<strong>/stub <code class="language-plaintext highlighter-rouge">&lt;masterIPaddress&gt;[,&lt;masterIPaddress&gt;...]</code> /file <code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></strong> - Creates a file-backed stub zone.&lt;/li&gt;&lt;li&gt;<strong>/dsstub <code class="language-plaintext highlighter-rouge">&lt;masterIPaddress&gt;[,&lt;masterIPaddress&gt;...]</code></strong> - Creates an active directory integrated stub zone.&lt;/li&gt;&lt;li&gt;<strong>/forwarder <code class="language-plaintext highlighter-rouge">&lt;masterIPaddress[,&lt;masterIPaddress&gt;]</code>… /file<code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></strong> - Specifies that the created zone forwards unresolved queries to another DNS server.&lt;/li&gt;&lt;li&gt;<strong>/dsforwarder</strong> - Specifies that the created active directory integrated zone forwards unresolved queries to another DNS server.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/overwrite_mem</td>
+      <td>Overwrites DNS data from data in AD DS.</td>
+    </tr>
+    <tr>
+      <td>/overwrite_ds</td>
+      <td>Overwrites existing data in AD DS.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks-10">Remarks</h6>
+
+<ul>
+  <li>Setting the zone type as <strong>/dsforwarder</strong> creates a zone that performs conditional forwarding.</li>
+</ul>
+
+<h5 id="examples-20">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /zoneresettype test.contoso.com /primary /file test.contoso.com.dns
+dnscmd dnssvr1.contoso.com /zoneresettype second.contoso.com /secondary 10.0.0.2
+</code></pre></div></div>
+
+<h3 id="dnscmd-zoneresume-command">dnscmd /zoneresume command</h3>
+
+<p>Starts a specified zone that was previously paused.</p>
+
+<h4 id="syntax-36">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zoneresume &lt;zonename&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-38">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone to resume.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks-11">Remarks</h6>
+
+<ul>
+  <li>You can use this operation to restart from the <strong>/zonepause</strong> operation.</li>
+</ul>
+
+<h5 id="examples-21">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /zoneresume test.contoso.com
+</code></pre></div></div>
+
+<h3 id="dnscmd-zoneupdatefromds-command">dnscmd /zoneupdatefromds command</h3>
+
+<p>Updates the specified active directory integrated zone from AD DS.</p>
+
+<h4 id="syntax-37">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zoneupdatefromds &lt;zonename&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-39">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone to update.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks-12">Remarks</h6>
+
+<ul>
+  <li>Active directory integrated zones perform this update by default every five minutes. To change this parameter, use the <code class="language-plaintext highlighter-rouge">dnscmd config dspollinginterval</code> command.</li>
+</ul>
+
+<h5 id="examples-22">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /zoneupdatefromds
+</code></pre></div></div>
+
+<h3 id="dnscmd-zonewriteback-command">dnscmd /zonewriteback command</h3>
+
+<p>Checks DNS server memory for changes that are relevant to a specified zone, and writes them to persistent storage.</p>
+
+<h4 id="syntax-38">Syntax</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd [&lt;servername&gt;] /zonewriteback &lt;zonename&gt;
+</code></pre></div></div>
+
+<h5 id="parameters-40">Parameters</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameters</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;servername&gt;</code></td>
+      <td>Specifies the DNS server to manage, represented by IP address, FQDN, or host name. If this parameter is omitted, the local server is used.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;zonename&gt;</code></td>
+      <td>Specifies the name of the zone to update.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="remarks-13">Remarks</h6>
+
+<ul>
+  <li>This is a zone-level operation. You can update all zones on a DNS server by using the <strong>/writebackfiles</strong> operation.</li>
+</ul>
+
+<h5 id="examples-23">Examples</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnscmd dnssvr1.contoso.com /zonewriteback test.contoso.com
+</code></pre></div></div>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

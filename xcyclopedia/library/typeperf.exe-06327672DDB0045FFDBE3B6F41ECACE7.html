@@ -1,0 +1,636 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>typeperf.exe | Command line performance monitor &#124; STRONTIC</title>
+<meta name="description" content="What is typeperf.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="typeperf.exe | Command line performance monitor">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/typeperf.exe-06327672DDB0045FFDBE3B6F41ECACE7.html">
+
+
+  <meta property="og:description" content="What is typeperf.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="typeperf.exe | Command line performance monitor">
+  <meta name="twitter:description" content="What is typeperf.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/typeperf.exe-06327672DDB0045FFDBE3B6F41ECACE7.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/typeperf.exe-06327672DDB0045FFDBE3B6F41ECACE7.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">typeperf.exe | Command line performance monitor</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            typeperf.exe      Command line performance monitor      ">
+    <meta itemprop="description" content="What is typeperf.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="typeperfexe">typeperf.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\system32\typeperf.exe</code></li>
+  <li>Description: Command line performance monitor</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">06327672DDB0045FFDBE3B6F41ECACE7</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">4289DB11F32514AD9C21A83592FFA14CB156CBAF</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">7DA4FB590C5BCB0A98BAB84BC587CCC728DEFDFFF7139FC7994734F192CAC385</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">FC4591CDE7318755D562EB76D6473DB7BFFC24C5B7EECFB47BA21C7C5ABD1CD068D2363C89966C63820864F3CD2E97E1</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">42022E771A4C19FBED2488953C7600544661259FD0C15F1F8B7DB692480E1E2768D4D1CFD43C5C77D8DFC4558D1BF1FB62910A052A5CDDDB24FE5E5ABF6994DE</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">1536:h/BL4f+eh450dilLWuwUrt0uXjF2xtpLmiuMa4NS5EO:yE0IlZ9ItpLmiuMaiS53</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">6C6EF5458AE158C242617DDB457DC4C9</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">BDF2AC6DF06D690CF3D8093DB195D264BC5199F0</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">BA96E79581C31DB75F22CF6829D0FE16FF013B05950AB2DCE409A2AE7DB9DA92</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="ni">Microsoft</span> <span class="err">r</span> <span class="ni">TypePerf</span><span class="err">.</span><span class="ni">exe</span> <span class="p">(</span><span class="m">10</span><span class="err">.</span><span class="m">0</span><span class="err">.</span><span class="m">19041</span><span class="err">.</span><span class="m">1</span><span class="p">)</span>
+
+<span class="ni">Typeperf</span> <span class="ni">writes</span> <span class="ni">performance</span> <span class="ni">data</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">command</span> <span class="ni">window</span> <span class="ni">or</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">log</span> <span class="ni">file</span><span class="err">.</span> <span class="ni">To</span>
+<span class="ni">stop</span> <span class="ni">Typeperf</span><span class="p">,</span> <span class="ni">press</span> <span class="ni">CTRL</span><span class="err">+C.</span>
+
+<span class="ni">Usage</span><span class="err">:</span>
+<span class="err">C:\</span><span class="ni">Windows</span><span class="err">\</span><span class="ni">system32</span><span class="err">\</span><span class="ni">typeperf</span><span class="err">.</span><span class="ni">exe</span> <span class="err">{</span> <span class="err">&lt;</span><span class="ni">counter</span> <span class="err">[</span><span class="ni">counter</span> <span class="err">...]&gt;</span> 
+                                <span class="err">|</span> <span class="err">-</span><span class="ni">cf</span> <span class="err">&lt;</span><span class="ni">filename</span><span class="err">&gt;</span> 
+                                <span class="err">|</span> <span class="err">-q</span> <span class="err">[</span><span class="ni">object</span><span class="err">]</span> 
+                                <span class="err">|</span> <span class="err">-</span><span class="ni">qx</span> <span class="err">[</span><span class="ni">object</span><span class="err">]</span> 
+                                <span class="err">}</span> <span class="err">[</span><span class="ni">options</span><span class="err">]</span>
+
+<span class="ni">Parameters</span><span class="err">:</span>
+  <span class="err">&lt;</span><span class="ni">counter</span> <span class="err">[</span><span class="ni">counter</span> <span class="err">...]&gt;</span>       <span class="ni">Performance</span> <span class="ni">counters</span> <span class="ni">to</span> <span class="ni">monitor</span><span class="err">.</span>
+
+<span class="ni">Options</span><span class="err">:</span>
+  <span class="err">-?</span>                            <span class="ni">Displays</span> <span class="ni">context</span> <span class="ni">sensitive</span> <span class="ni">help</span><span class="err">.</span>
+  <span class="err">-f</span> <span class="err">&lt;</span><span class="ni">CSV</span><span class="err">|</span><span class="ni">TSV</span><span class="err">|</span><span class="ni">BIN</span><span class="err">|</span><span class="ni">SQL</span><span class="err">&gt;</span>          <span class="ni">Output</span> <span class="ni">file</span> <span class="ni">format</span><span class="err">.</span> <span class="ni">Default</span> <span class="ni">is</span> <span class="ni">CSV</span><span class="err">.</span>
+  <span class="err">-</span><span class="ni">cf</span> <span class="err">&lt;</span><span class="ni">filename</span><span class="err">&gt;</span>                <span class="ni">File</span> <span class="ni">containing</span> <span class="ni">performance</span> <span class="ni">counters</span> <span class="ni">to</span>
+                                <span class="ni">monitor</span><span class="p">,</span> <span class="ni">one</span> <span class="ni">per</span> <span class="ni">line</span><span class="err">.</span>
+  <span class="err">-</span><span class="ni">si</span> <span class="err">&lt;[[</span><span class="kd">hh:</span><span class="err">]</span><span class="kd">mm:</span><span class="err">]</span><span class="ni">ss</span><span class="err">&gt;</span>            <span class="ni">Time</span> <span class="ni">between</span> <span class="ni">samples</span><span class="err">.</span> <span class="ni">Default</span> <span class="ni">is</span> <span class="m">1</span> <span class="ni">second</span><span class="err">.</span>
+  <span class="err">-o</span> <span class="err">&lt;</span><span class="ni">filename</span><span class="err">&gt;</span>                 <span class="ni">Path</span> <span class="ni">of</span> <span class="ni">output</span> <span class="ni">file</span> <span class="ni">or</span> <span class="ni">SQL</span> <span class="ni">database</span><span class="err">.</span> <span class="ni">Default</span>
+                                <span class="ni">is</span> <span class="ni">STDOUT</span><span class="err">.</span>
+  <span class="err">-q</span> <span class="err">[</span><span class="ni">object</span><span class="err">]</span>                   <span class="ni">List</span> <span class="ni">installed</span> <span class="ni">counters</span> <span class="p">(</span><span class="ni">no</span> <span class="ni">instances</span><span class="p">)</span><span class="err">.</span> <span class="ni">To</span>
+                                <span class="ni">list</span> <span class="ni">counters</span> <span class="ni">for</span> <span class="ni">one</span> <span class="ni">object</span><span class="p">,</span> <span class="ni">include</span> <span class="ni">the</span>
+                                <span class="ni">object</span> <span class="ni">name</span><span class="p">,</span> <span class="ni">such</span> <span class="ni">as</span> <span class="ni">Processor</span><span class="err">.</span>
+  <span class="err">-</span><span class="ni">qx</span> <span class="err">[</span><span class="ni">object</span><span class="err">]</span>                  <span class="ni">List</span> <span class="ni">installed</span> <span class="ni">counters</span> <span class="ni">with</span> <span class="ni">instances</span><span class="err">.</span> <span class="ni">To</span>
+                                <span class="ni">list</span> <span class="ni">counters</span> <span class="ni">for</span> <span class="ni">one</span> <span class="ni">object</span><span class="p">,</span> <span class="ni">include</span> <span class="ni">the</span>
+                                <span class="ni">object</span> <span class="ni">name</span><span class="p">,</span> <span class="ni">such</span> <span class="ni">as</span> <span class="ni">Processor</span><span class="err">.</span>
+  <span class="err">-</span><span class="ni">sc</span> <span class="err">&lt;</span><span class="ni">samples</span><span class="err">&gt;</span>                 <span class="ni">Number</span> <span class="ni">of</span> <span class="ni">samples</span> <span class="ni">to</span> <span class="ni">collect</span><span class="err">.</span> <span class="ni">Default</span> <span class="ni">is</span> <span class="ni">to</span>
+                                <span class="ni">sample</span> <span class="ni">until</span> <span class="ni">CTRL</span><span class="err">+C.</span>
+  <span class="err">-</span><span class="ni">config</span> <span class="err">&lt;</span><span class="ni">filename</span><span class="err">&gt;</span>            <span class="ni">Settings</span> <span class="ni">file</span> <span class="ni">containing</span> <span class="ni">command</span> <span class="ni">options</span><span class="err">.</span>
+  <span class="err">-s</span> <span class="err">&lt;</span><span class="ni">computer_name</span><span class="err">&gt;</span>            <span class="ni">Server</span> <span class="ni">to</span> <span class="ni">monitor</span> <span class="ni">if</span> <span class="ni">no</span> <span class="ni">server</span> <span class="ni">is</span> <span class="ni">specified</span>
+                                <span class="ni">in</span> <span class="ni">the</span> <span class="ni">counter</span> <span class="ni">path</span><span class="err">.</span>
+  <span class="err">-y</span>                            <span class="ni">Answer</span> <span class="ni">yes</span> <span class="ni">to</span> <span class="ni">all</span> <span class="ni">questions</span> <span class="ni">without</span> <span class="ni">prompting</span><span class="err">.</span>
+
+<span class="ni">Note</span><span class="err">:</span>
+  <span class="ni">Counter</span> <span class="ni">is</span> <span class="ni">the</span> <span class="ni">full</span> <span class="ni">name</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">performance</span> <span class="ni">counter</span> <span class="ni">in</span>
+  <span class="s">"\\&lt;Computer&gt;\&lt;Object&gt;(&lt;Instance&gt;)\&lt;Counter&gt;"</span> <span class="ni">format</span><span class="p">,</span>
+  <span class="ni">such</span> <span class="ni">as</span> <span class="s">"\\Server1\Processor(0)\% User Time"</span><span class="err">.</span>
+
+<span class="ni">Examples</span><span class="err">:</span>
+  <span class="ni">typeperf</span> <span class="s">"\Processor(_Total)\% Processor Time"</span>
+  <span class="ni">typeperf</span> <span class="err">-</span><span class="ni">cf</span> <span class="ni">counters</span><span class="err">.</span><span class="ni">txt</span> <span class="err">-</span><span class="ni">si</span> <span class="m">5</span> <span class="err">-</span><span class="ni">sc</span> <span class="m">50</span> <span class="err">-f</span> <span class="ni">TSV</span> <span class="err">-o</span> <span class="ni">domain2</span><span class="err">.</span><span class="ni">tsv</span>
+  <span class="ni">typeperf</span> <span class="err">-</span><span class="ni">qx</span> <span class="ni">PhysicalDisk</span> <span class="err">-o</span> <span class="ni">counters</span><span class="err">.</span><span class="ni">txt</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Windows\System32\KERNEL32.DLL</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNELBASE.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\system32\typeperf.exe</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">3300000266BD1580EFA75CD6D3000000000266</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">A4341B9FD50FB9964283220A36A1EF6F6FAA7840</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: TypePerf.exe.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.19041.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.19041.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/73</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/7da4fb590c5bcb0a98bab84bc587ccc728defdfff7139fc7994734f192cac385/detection/</li>
+</ul>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="typeperf">typeperf</h2>
+
+<p>The <strong>typeperf</strong> command writes performance data to the command window or to a log file. To stop <strong>typeperf</strong>, press CTRL+C.</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>typeperf &lt;counter [counter ...]&gt; [options]
+typeperf -cf &lt;filename&gt; [options]
+typeperf -q [object] [options]
+typeperf -qx [object] [options]
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;counter [counter [â€¦]]&gt;</code></td>
+      <td>Specifies performance counters to monitor. The <code class="language-plaintext highlighter-rouge">&lt;counter&gt;</code> parameter is the full name of a performance counter in \Computer\Object(Instance)\Counter format, such as <code class="language-plaintext highlighter-rouge">\\Server1\Processor(0)\% User Time</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="options">Options</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Option</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-f <code class="language-plaintext highlighter-rouge">&lt;CSV | TSV | BIN | SQL&gt;</code></td>
+      <td>Specifies the output file format. The default is CSV.</td>
+    </tr>
+    <tr>
+      <td>-cf <code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></td>
+      <td>Specifies a file containing a list of performance counters to monitor, with one counter per line.</td>
+    </tr>
+    <tr>
+      <td>-si <code class="language-plaintext highlighter-rouge">&lt;[[hh:]mm:]ss&gt;</code></td>
+      <td>Specifies the sample interval. The default is one second.</td>
+    </tr>
+    <tr>
+      <td>-o <code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></td>
+      <td>Specifies the path for the output file, or the SQL database. The default is STDOUT (written to the command window).</td>
+    </tr>
+    <tr>
+      <td>-q <code class="language-plaintext highlighter-rouge">[object]</code></td>
+      <td>Display a list of installed counters (no instances). To list counters for one object, include the object name. ***EXAMPLE</td>
+    </tr>
+    <tr>
+      <td>-qx <code class="language-plaintext highlighter-rouge">[object]</code></td>
+      <td>Display a list of installed counters with instances. To list counters for one object, include the object name.</td>
+    </tr>
+    <tr>
+      <td>-sc <code class="language-plaintext highlighter-rouge">&lt;samples&gt;</code></td>
+      <td>Specifies the number of samples to collect. The default is to collect data until CTRL+C is pressed.</td>
+    </tr>
+    <tr>
+      <td>-config <code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></td>
+      <td>Specifies a settings file containing command options.</td>
+    </tr>
+    <tr>
+      <td>-s <code class="language-plaintext highlighter-rouge">&lt;computer_name&gt;</code></td>
+      <td>Specifies a remote computer to monitor if no computer is specified in the counter path.</td>
+    </tr>
+    <tr>
+      <td>-y</td>
+      <td>Answer <em>yes</em> to all questions without prompting.</td>
+    </tr>
+    <tr>
+      <td>/?</td>
+      <td>Displays help at the command prompt.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="examples">Examples</h3>
+
+<p>To write the values for the local computer’s performance counter <code class="language-plaintext highlighter-rouge">\Processor(_Total)\% Processor Time</code> to the command window at a default sample interval of 1 second until CTRL+C is pressed, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>typeperf \Processor(_Total)\% Processor Time
+</code></pre></div></div>
+
+<p>To write the values for the list of counters in the file <em>counters.txt</em> to the tab-delimited file <em>domain2.tsv</em> at a sample interval of 5 seconds until 50 samples have been collected, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>typeperf -cf counters.txt -si 5 -sc 50 -f TSV -o domain2.tsv
+</code></pre></div></div>
+
+<p>To query installed counters with instances for the counter object <em>PhysicalDisk</em> and writes the resulting list to the file <em>counters.txt</em>, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>typeperf -qx PhysicalDisk -o counters.txt
+</code></pre></div></div>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

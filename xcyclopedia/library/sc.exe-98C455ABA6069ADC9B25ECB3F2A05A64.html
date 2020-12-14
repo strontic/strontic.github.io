@@ -1,0 +1,749 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>sc.exe | Service Control Manager Configuration Tool &#124; STRONTIC</title>
+<meta name="description" content="What is sc.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="sc.exe | Service Control Manager Configuration Tool">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/sc.exe-98C455ABA6069ADC9B25ECB3F2A05A64.html">
+
+
+  <meta property="og:description" content="What is sc.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="sc.exe | Service Control Manager Configuration Tool">
+  <meta name="twitter:description" content="What is sc.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/sc.exe-98C455ABA6069ADC9B25ECB3F2A05A64.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/sc.exe-98C455ABA6069ADC9B25ECB3F2A05A64.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">sc.exe | Service Control Manager Configuration Tool</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            sc.exe      Service Control Manager Configuration Tool      ">
+    <meta itemprop="description" content="What is sc.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="scexe">sc.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\SysWOW64\sc.exe</code></li>
+  <li>Description: Service Control Manager Configuration Tool</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">98C455ABA6069ADC9B25ECB3F2A05A64</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">CCC9AA64C63FD117090E05FE9BD7767A2F2CBCD5</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">B6CE75E1D5B462CF6814C917D294232E8B83083539E6898EE2DEAC009F60E56D</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">D2274523DD2FF1D071267D16DF6752227AA9C45F7657FBA0052A94F52314EA4076C90D25E23F0023A2F760469DA617DE</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">5BD8D5DBDE611A1BC39B0070D086ABA49E79A13BFD94D359A00F4832A0AEB293D4E96524DBB4471108B91DEA0DE57AAE50555FD37BC8632B124C18643F261FA9</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">1536:rLweO9J3kLHYN03cl6zT88sHlu/YrrDoovijsjdH5QKq3FKsWEsl52SV47y42748:rLzO9JUrYN03cl6zT88sHlu/YrrDoovd</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="ni">ERROR</span><span class="err">:</span>  <span class="ni">Unrecognized</span> <span class="ni">command</span>
+
+<span class="ni">DESCRIPTION</span><span class="err">:</span>
+        <span class="ni">SC</span> <span class="ni">is</span> <span class="err">a</span> <span class="ni">command</span> <span class="ni">line</span> <span class="ni">program</span> <span class="ni">used</span> <span class="ni">for</span> <span class="ni">communicating</span> <span class="ni">with</span> <span class="ni">the</span>
+        <span class="ni">Service</span> <span class="ni">Control</span> <span class="ni">Manager</span> <span class="ni">and</span> <span class="ni">services</span><span class="err">.</span>
+<span class="ni">USAGE</span><span class="err">:</span>
+        <span class="ni">sc</span> <span class="err">&lt;</span><span class="ni">server</span><span class="err">&gt;</span> <span class="err">[</span><span class="ni">command</span><span class="err">]</span> <span class="err">[</span><span class="ni">service</span> <span class="ni">name</span><span class="err">]</span> <span class="err">&lt;</span><span class="ni">option1</span><span class="err">&gt;</span> <span class="err">&lt;</span><span class="ni">option2</span><span class="err">&gt;...</span>
+
+
+        <span class="ni">The</span> <span class="ni">option</span> <span class="err">&lt;</span><span class="ni">server</span><span class="err">&gt;</span> <span class="ni">has</span> <span class="ni">the</span> <span class="ni">form</span> <span class="s">"\\ServerName"</span>
+        <span class="ni">Further</span> <span class="ni">help</span> <span class="ni">on</span> <span class="ni">commands</span> <span class="ni">can</span> <span class="ni">be</span> <span class="ni">obtained</span> <span class="ni">by</span> <span class="kd">typing:</span> <span class="s">"sc [command]"</span>
+        <span class="ni">Commands</span><span class="err">:</span>
+          <span class="ni">query</span><span class="err">-----------</span><span class="ni">Queries</span> <span class="ni">the</span> <span class="ni">status</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">service</span><span class="p">,</span> <span class="ni">or</span>
+                          <span class="ni">enumerates</span> <span class="ni">the</span> <span class="ni">status</span> <span class="ni">for</span> <span class="ni">types</span> <span class="ni">of</span> <span class="ni">services</span><span class="err">.</span>
+          <span class="ni">queryex</span><span class="err">---------</span><span class="ni">Queries</span> <span class="ni">the</span> <span class="ni">extended</span> <span class="ni">status</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">service</span><span class="p">,</span> <span class="ni">or</span>
+                          <span class="ni">enumerates</span> <span class="ni">the</span> <span class="ni">status</span> <span class="ni">for</span> <span class="ni">types</span> <span class="ni">of</span> <span class="ni">services</span><span class="err">.</span>
+          <span class="ni">start</span><span class="err">-----------</span><span class="ni">Starts</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">pause</span><span class="err">-----------</span><span class="ni">Sends</span> <span class="err">a</span> <span class="ni">PAUSE</span> <span class="ni">control</span> <span class="ni">request</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">interrogate</span><span class="err">-----</span><span class="ni">Sends</span> <span class="ni">an</span> <span class="ni">INTERROGATE</span> <span class="ni">control</span> <span class="ni">request</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">continue</span><span class="err">--------</span><span class="ni">Sends</span> <span class="err">a</span> <span class="ni">CONTINUE</span> <span class="ni">control</span> <span class="ni">request</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">stop</span><span class="err">------------</span><span class="ni">Sends</span> <span class="err">a</span> <span class="ni">STOP</span> <span class="ni">request</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">config</span><span class="err">----------</span><span class="ni">Changes</span> <span class="ni">the</span> <span class="ni">configuration</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">service</span> <span class="p">(</span><span class="ni">persistent</span><span class="p">)</span><span class="err">.</span>
+          <span class="ni">description</span><span class="err">-----</span><span class="ni">Changes</span> <span class="ni">the</span> <span class="ni">description</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">failure</span><span class="err">---------</span><span class="ni">Changes</span> <span class="ni">the</span> <span class="ni">actions</span> <span class="ni">taken</span> <span class="ni">by</span> <span class="err">a</span> <span class="ni">service</span> <span class="ni">upon</span> <span class="ni">failure</span><span class="err">.</span>
+          <span class="ni">failureflag</span><span class="err">-----</span><span class="ni">Changes</span> <span class="ni">the</span> <span class="ni">failure</span> <span class="ni">actions</span> <span class="ni">flag</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">sidtype</span><span class="err">---------</span><span class="ni">Changes</span> <span class="ni">the</span> <span class="ni">service</span> <span class="ni">SID</span> <span class="ni">type</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">privs</span><span class="err">-----------</span><span class="ni">Changes</span> <span class="ni">the</span> <span class="ni">required</span> <span class="ni">privileges</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">managedaccount</span><span class="err">--</span><span class="ni">Changes</span> <span class="ni">the</span> <span class="ni">service</span> <span class="ni">to</span> <span class="ni">mark</span> <span class="ni">the</span> <span class="ni">service</span> <span class="ni">account</span> 
+                          <span class="ni">password</span> <span class="ni">as</span> <span class="ni">managed</span> <span class="ni">by</span> <span class="ni">LSA</span><span class="err">.</span>
+          <span class="ni">qc</span><span class="err">--------------</span><span class="ni">Queries</span> <span class="ni">the</span> <span class="ni">configuration</span> <span class="ni">information</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">qdescription</span><span class="err">----</span><span class="ni">Queries</span> <span class="ni">the</span> <span class="ni">description</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">qfailure</span><span class="err">--------</span><span class="ni">Queries</span> <span class="ni">the</span> <span class="ni">actions</span> <span class="ni">taken</span> <span class="ni">by</span> <span class="err">a</span> <span class="ni">service</span> <span class="ni">upon</span> <span class="ni">failure</span><span class="err">.</span>
+          <span class="ni">qfailureflag</span><span class="err">----</span><span class="ni">Queries</span> <span class="ni">the</span> <span class="ni">failure</span> <span class="ni">actions</span> <span class="ni">flag</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">qsidtype</span><span class="err">--------</span><span class="ni">Queries</span> <span class="ni">the</span> <span class="ni">service</span> <span class="ni">SID</span> <span class="ni">type</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">qprivs</span><span class="err">----------</span><span class="ni">Queries</span> <span class="ni">the</span> <span class="ni">required</span> <span class="ni">privileges</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">qtriggerinfo</span><span class="err">----</span><span class="ni">Queries</span> <span class="ni">the</span> <span class="ni">trigger</span> <span class="ni">parameters</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">qpreferrednode</span><span class="err">--</span><span class="ni">Queries</span> <span class="ni">the</span> <span class="ni">preferred</span> <span class="ni">NUMA</span> <span class="ni">node</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">qmanagedaccount</span><span class="err">-</span><span class="ni">Queries</span> <span class="ni">whether</span> <span class="err">a</span> <span class="ni">services</span> <span class="ni">uses</span> <span class="ni">an</span> <span class="ni">account</span> <span class="ni">with</span> <span class="err">a</span> 
+                          <span class="ni">password</span> <span class="ni">managed</span> <span class="ni">by</span> <span class="ni">LSA</span><span class="err">.</span>
+          <span class="ni">qprotection</span><span class="err">-----</span><span class="ni">Queries</span> <span class="ni">the</span> <span class="ni">process</span> <span class="ni">protection</span> <span class="ni">level</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">quserservice</span><span class="err">----</span><span class="ni">Queries</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">local</span> <span class="ni">instance</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">user</span> <span class="ni">service</span> <span class="ni">template</span><span class="err">.</span>
+          <span class="ni">delete</span><span class="err">----------</span><span class="ni">Deletes</span> <span class="err">a</span> <span class="ni">service</span> <span class="p">(</span><span class="ni">from</span> <span class="ni">the</span> <span class="ni">registry</span><span class="p">)</span><span class="err">.</span>
+          <span class="ni">create</span><span class="err">----------</span><span class="ni">Creates</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span> <span class="p">(</span><span class="ni">adds</span> <span class="ni">it</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">registry</span><span class="p">)</span><span class="err">.</span>
+          <span class="ni">control</span><span class="err">---------</span><span class="ni">Sends</span> <span class="err">a</span> <span class="ni">control</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">sdshow</span><span class="err">----------</span><span class="ni">Displays</span> <span class="err">a</span> <span class="ni">service</span><span class="err">'s</span> <span class="ni">security</span> <span class="ni">descriptor</span><span class="err">.</span>
+          <span class="ni">sdset</span><span class="err">-----------</span><span class="ni">Sets</span> <span class="err">a</span> <span class="ni">service</span><span class="err">'s</span> <span class="ni">security</span> <span class="ni">descriptor</span><span class="err">.</span>
+          <span class="ni">showsid</span><span class="err">---------</span><span class="ni">Displays</span> <span class="ni">the</span> <span class="ni">service</span> <span class="ni">SID</span> <span class="ni">string</span> <span class="ni">corresponding</span> <span class="ni">to</span> <span class="ni">an</span> <span class="ni">arbitrary</span> <span class="ni">name</span><span class="err">.</span>
+          <span class="ni">triggerinfo</span><span class="err">-----</span><span class="ni">Configures</span> <span class="ni">the</span> <span class="ni">trigger</span> <span class="ni">parameters</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">preferrednode</span><span class="err">---</span><span class="ni">Sets</span> <span class="ni">the</span> <span class="ni">preferred</span> <span class="ni">NUMA</span> <span class="ni">node</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">GetDisplayName</span><span class="err">--</span><span class="ni">Gets</span> <span class="ni">the</span> <span class="ni">DisplayName</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">GetKeyName</span><span class="err">------</span><span class="ni">Gets</span> <span class="ni">the</span> <span class="ni">ServiceKeyName</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">service</span><span class="err">.</span>
+          <span class="ni">EnumDepend</span><span class="err">------</span><span class="ni">Enumerates</span> <span class="ni">Service</span> <span class="ni">Dependencies</span><span class="err">.</span>
+
+        <span class="ni">The</span> <span class="ni">following</span> <span class="ni">commands</span> <span class="ni">don</span><span class="err">'t</span> <span class="ni">require</span> <span class="err">a</span> <span class="ni">service</span> <span class="kd">name:</span>
+        <span class="ni">sc</span> <span class="err">&lt;</span><span class="ni">server</span><span class="err">&gt;</span> <span class="err">&lt;</span><span class="ni">command</span><span class="err">&gt;</span> <span class="err">&lt;</span><span class="ni">option</span><span class="err">&gt;</span>
+          <span class="ni">boot</span><span class="err">------------</span><span class="p">(</span><span class="ni">ok</span> <span class="err">|</span> <span class="ni">bad</span><span class="p">)</span> <span class="ni">Indicates</span> <span class="ni">whether</span> <span class="ni">the</span> <span class="ni">last</span> <span class="ni">boot</span> <span class="ni">should</span>
+                          <span class="ni">be</span> <span class="ni">saved</span> <span class="ni">as</span> <span class="ni">the</span> <span class="ni">last</span><span class="err">-</span><span class="ni">known</span><span class="err">-</span><span class="ni">good</span> <span class="ni">boot</span> <span class="ni">configuration</span>
+          <span class="ni">Lock</span><span class="err">------------</span><span class="ni">Locks</span> <span class="ni">the</span> <span class="ni">Service</span> <span class="ni">Database</span>
+          <span class="ni">QueryLock</span><span class="err">-------</span><span class="ni">Queries</span> <span class="ni">the</span> <span class="ni">LockStatus</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">SCManager</span> <span class="ni">Database</span>
+<span class="ni">EXAMPLE</span><span class="err">:</span>
+        <span class="ni">sc</span> <span class="ni">start</span> <span class="ni">MyService</span>
+
+
+<span class="ni">QUERY</span> <span class="ni">and</span> <span class="ni">QUERYEX</span> <span class="ni">OPTIONS</span><span class="err">:</span>
+        <span class="ni">If</span> <span class="ni">the</span> <span class="ni">query</span> <span class="ni">command</span> <span class="ni">is</span> <span class="ni">followed</span> <span class="ni">by</span> <span class="err">a</span> <span class="ni">service</span> <span class="ni">name</span><span class="p">,</span> <span class="ni">the</span> <span class="ni">status</span>
+        <span class="ni">for</span> <span class="ni">that</span> <span class="ni">service</span> <span class="ni">is</span> <span class="ni">returned</span><span class="err">.</span>  <span class="ni">Further</span> <span class="ni">options</span> <span class="ni">do</span> <span class="ni">not</span> <span class="ni">apply</span> <span class="ni">in</span>
+        <span class="ni">this</span> <span class="ni">case</span><span class="err">.</span>  <span class="ni">If</span> <span class="ni">the</span> <span class="ni">query</span> <span class="ni">command</span> <span class="ni">is</span> <span class="ni">followed</span> <span class="ni">by</span> <span class="ni">nothing</span> <span class="ni">or</span> <span class="ni">one</span> <span class="ni">of</span>
+        <span class="ni">the</span> <span class="ni">options</span> <span class="ni">listed</span> <span class="ni">below</span><span class="p">,</span> <span class="ni">the</span> <span class="ni">services</span> <span class="ni">are</span> <span class="ni">enumerated</span><span class="err">.</span>
+    <span class="ni">type</span><span class="err">=</span>    <span class="ni">Type</span> <span class="ni">of</span> <span class="ni">services</span> <span class="ni">to</span> <span class="ni">enumerate</span> <span class="p">(</span><span class="ni">driver</span><span class="p">,</span> <span class="ni">service</span><span class="p">,</span> <span class="ni">userservice</span><span class="p">,</span> <span class="ni">all</span><span class="p">)</span>
+             <span class="p">(</span><span class="ni">default</span> <span class="err">=</span> <span class="ni">service</span><span class="p">)</span>
+    <span class="ni">state</span><span class="err">=</span>   <span class="ni">State</span> <span class="ni">of</span> <span class="ni">services</span> <span class="ni">to</span> <span class="ni">enumerate</span> <span class="p">(</span><span class="ni">inactive</span><span class="p">,</span> <span class="ni">all</span><span class="p">)</span>
+             <span class="p">(</span><span class="ni">default</span> <span class="err">=</span> <span class="ni">active</span><span class="p">)</span>
+    <span class="ni">bufsize</span><span class="err">=</span> <span class="ni">The</span> <span class="ni">size</span> <span class="p">(</span><span class="ni">in</span> <span class="ni">bytes</span><span class="p">)</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">enumeration</span> <span class="ni">buffer</span>
+             <span class="p">(</span><span class="ni">default</span> <span class="err">=</span> <span class="m">4096</span><span class="p">)</span>
+    <span class="ni">ri</span><span class="err">=</span>      <span class="ni">The</span> <span class="ni">resume</span> <span class="ni">index</span> <span class="ni">number</span> <span class="ni">at</span> <span class="ni">which</span> <span class="ni">to</span> <span class="ni">begin</span> <span class="ni">the</span> <span class="ni">enumeration</span>
+             <span class="p">(</span><span class="ni">default</span> <span class="err">=</span> <span class="m">0</span><span class="p">)</span>
+    <span class="ni">group</span><span class="err">=</span>   <span class="ni">Service</span> <span class="ni">group</span> <span class="ni">to</span> <span class="ni">enumerate</span>
+             <span class="p">(</span><span class="ni">default</span> <span class="err">=</span> <span class="ni">all</span> <span class="ni">groups</span><span class="p">)</span>
+
+<span class="ni">SYNTAX</span> <span class="ni">EXAMPLES</span>
+<span class="ni">sc</span> <span class="ni">query</span>                <span class="err">-</span> <span class="ni">Enumerates</span> <span class="ni">status</span> <span class="ni">for</span> <span class="ni">active</span> <span class="ni">services</span> <span class="err">&amp;</span> <span class="ni">drivers</span>
+<span class="ni">sc</span> <span class="ni">query</span> <span class="ni">eventlog</span>       <span class="err">-</span> <span class="ni">Displays</span> <span class="ni">status</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">eventlog</span> <span class="ni">service</span>
+<span class="ni">sc</span> <span class="ni">queryex</span> <span class="ni">eventlog</span>     <span class="err">-</span> <span class="ni">Displays</span> <span class="ni">extended</span> <span class="ni">status</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">eventlog</span> <span class="ni">service</span>
+<span class="ni">sc</span> <span class="ni">query</span> <span class="ni">type</span><span class="err">=</span> <span class="ni">driver</span>   <span class="err">-</span> <span class="ni">Enumerates</span> <span class="ni">only</span> <span class="ni">active</span> <span class="ni">drivers</span>
+<span class="ni">sc</span> <span class="ni">query</span> <span class="ni">type</span><span class="err">=</span> <span class="ni">service</span>  <span class="err">-</span> <span class="ni">Enumerates</span> <span class="ni">only</span> <span class="ni">Win32</span> <span class="ni">services</span>
+<span class="ni">sc</span> <span class="ni">query</span> <span class="ni">state</span><span class="err">=</span> <span class="ni">all</span>     <span class="err">-</span> <span class="ni">Enumerates</span> <span class="ni">all</span> <span class="ni">services</span> <span class="err">&amp;</span> <span class="ni">drivers</span>
+<span class="ni">sc</span> <span class="ni">query</span> <span class="ni">bufsize</span><span class="err">=</span> <span class="m">50</span>    <span class="err">-</span> <span class="ni">Enumerates</span> <span class="ni">with</span> <span class="err">a</span> <span class="m">50</span> <span class="ni">byte</span> <span class="ni">buffer</span>
+<span class="ni">sc</span> <span class="ni">query</span> <span class="ni">ri</span><span class="err">=</span> <span class="m">14</span>         <span class="err">-</span> <span class="ni">Enumerates</span> <span class="ni">with</span> <span class="ni">resume</span> <span class="ni">index</span> <span class="err">=</span> <span class="m">14</span>
+<span class="ni">sc</span> <span class="ni">queryex</span> <span class="ni">group</span><span class="err">=</span> <span class="s">""</span>    <span class="err">-</span> <span class="ni">Enumerates</span> <span class="ni">active</span> <span class="ni">services</span> <span class="ni">not</span> <span class="ni">in</span> <span class="err">a</span> <span class="ni">group</span>
+<span class="ni">sc</span> <span class="ni">query</span> <span class="ni">type</span><span class="err">=</span> <span class="ni">interact</span> <span class="err">-</span> <span class="ni">Enumerates</span> <span class="ni">all</span> <span class="ni">interactive</span> <span class="ni">services</span>
+<span class="ni">sc</span> <span class="ni">query</span> <span class="ni">type</span><span class="err">=</span> <span class="ni">driver</span> <span class="ni">group</span><span class="err">=</span> <span class="ni">NDIS</span>     <span class="err">-</span> <span class="ni">Enumerates</span> <span class="ni">all</span> <span class="ni">NDIS</span> <span class="ni">drivers</span>
+
+
+</code></pre></div></div>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">33000000BCE120FDD27CC8EE930000000000BC</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">E85459B23C232DB3CB94C7A56D47678F58E8E51E</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: sc.exe.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.14393.0 (rs1_release.160715-1616)</li>
+  <li>Product Version: 10.0.14393.0</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">sc.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">sc.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_suspicious_dbghelp_dbgcore_load.yml">sysmon_suspicious_dbghelp_dbgcore_load.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\sc.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml">win_multiple_suspicious_cli.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- sc.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_new_service_creation.yml">win_new_service_creation.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Image\|endswith: '\sc.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_service_stop.yml">win_service_stop.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\sc.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_service_path_modification.yml">win_susp_service_path_modification.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\sc.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_using_sc_to_change_sevice_image_path_by_non_admin.yml">win_using_sc_to_change_sevice_image_path_by_non_admin.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detection of sc.exe utility spawning by user with Medium integrity level to change service ImagePath or FailureCommand</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_using_sc_to_change_sevice_image_path_by_non_admin.yml">win_using_sc_to_change_sevice_image_path_by_non_admin.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\sc.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Sc.yml">Sc.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Name: Sc.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Sc.yml">Sc.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\System32\sc.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Sc.yml">Sc.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\SysWOW64\sc.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1489/T1489.md">T1489.md</a></td>
+      <td>Stops a specified service using the sc.exe command. Upon execution, if the spooler service was running infomration will be displayed saying</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1489/T1489.md">T1489.md</a></td>
+      <td>sc.exe stop #{service_name}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1489/T1489.md">T1489.md</a></td>
+      <td>sc.exe start #{service_name} &gt;nul 2&gt;&amp;1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1543.003/T1543.003.md">T1543.003.md</a></td>
+      <td>&lt;blockquote&gt;Adversaries may create or modify Windows services to repeatedly execute malicious payloads as part of persistence. When Windows boots up, it starts programs or applications called services that perform background system functions.(Citation: TechNet Services) Windows service configuration information, including the file path to the service’s executable or recovery programs/commands, is stored in the Windows Registry. Service configurations can be modified using utilities such as sc.exe and <a href="https://attack.mitre.org/software/S0075">Reg</a>.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1543.003/T1543.003.md">T1543.003.md</a></td>
+      <td>Upon successful execution, powershell will download <code class="language-plaintext highlighter-rouge">AtomicService.exe</code> from github. cmd.exe will spawn sc.exe which will create and start the service. Results will output via stdout.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1543.003/T1543.003.md">T1543.003.md</a></td>
+      <td>sc.exe create #{service_name} binPath= #{binary_path}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1543.003/T1543.003.md">T1543.003.md</a></td>
+      <td>sc.exe start #{service_name}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1543.003/T1543.003.md">T1543.003.md</a></td>
+      <td>sc.exe stop #{service_name} &gt;nul 2&gt;&amp;1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1543.003/T1543.003.md">T1543.003.md</a></td>
+      <td>sc.exe delete #{service_name} &gt;nul 2&gt;&amp;1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md">T1562.001.md</a></td>
+      <td>if(sc.exe query sysmon | findstr sysmon) { exit 0 } else { exit 1 }</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md">T1562.001.md</a></td>
+      <td>sc.exe config #{service_name} start= disabled</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md">T1562.001.md</a></td>
+      <td>sc.exe config #{service_name} start= auto &gt;nul 2&gt;&amp;1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1563.002/T1563.002.md">T1563.002.md</a></td>
+      <td>sc.exe create sesshijack binpath= “cmd.exe /k tscon #{Session_ID} /dest:#{Destination_ID}”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1563.002/T1563.002.md">T1563.002.md</a></td>
+      <td>sc.exe delete sesshijack &gt;nul 2&gt;&amp;1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md">T1569.002.md</a></td>
+      <td>&lt;blockquote&gt;Adversaries may abuse the Windows service control manager to execute malicious commands or payloads. The Windows service control manager (<code>services.exe</code>) is an interface to manage and manipulate services.(Citation: Microsoft Service Control Manager) The service control manager is accessible to users via GUI components as well as system utilities such as <code>sc.exe</code> and <a href="https://attack.mitre.org/software/S0039">Net</a>.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md">T1569.002.md</a></td>
+      <td>Upon successful execution, cmd.exe create a new service using sc.exe create that will start powershell.exe to create a new file <code class="language-plaintext highlighter-rouge">art-marker.txt</code></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md">T1569.002.md</a></td>
+      <td>sc.exe create #{service_name} binPath= “#{executable_command}”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md">T1569.002.md</a></td>
+      <td>sc.exe start #{service_name}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md">T1569.002.md</a></td>
+      <td>sc.exe delete #{service_name}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.011/T1574.011.md">T1574.011.md</a></td>
+      <td>&lt;blockquote&gt;Adversaries may execute their own malicious payloads by hijacking the Registry entries used by services. Adversaries may use flaws in the permissions for registry to redirect from the originally specified executable to one that they control, in order to launch their own code at Service start.  Windows stores local service configuration information in the Registry under <code>HKLM\SYSTEM\CurrentControlSet\Services</code>. The information stored under a service’s Registry keys can be manipulated to modify a service’s execution parameters through tools such as the service controller, sc.exe,  <a href="https://attack.mitre.org/techniques/T1059/001">PowerShell</a>, or <a href="https://attack.mitre.org/software/S0075">Reg</a>. Access to Registry keys is controlled through Access Control Lists and permissions. (Citation: Registry Key Security)</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.011/T1574.011.md">T1574.011.md</a></td>
+      <td>sc.exe delete #{weak_service_name}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.011/T1574.011.md">T1574.011.md</a></td>
+      <td>sc.exe create #{weak_service_name} binpath= “#{weak_service_path}”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_robinhood.yar">crime_ransom_robinhood.yar</a></td>
+      <td>$s4 = “sc.exe stop SQLAgent$SQLEXPRESS” nocase</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_empire.yar">gen_empire.yar</a></td>
+      <td>$s1 = “$Result = sc.exe config $($TargetService.Name) binPath= $OriginalPath” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_empire.yar">gen_empire.yar</a></td>
+      <td>$s2 = “$Result = sc.exe pause $($TargetService.Name)” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

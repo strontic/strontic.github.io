@@ -1,0 +1,763 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>bcdedit.exe | Boot Configuration Data Editor &#124; STRONTIC</title>
+<meta name="description" content="What is bcdedit.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="bcdedit.exe | Boot Configuration Data Editor">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/bcdedit.exe-D5F797FC4D5434EB677A09C143962231.html">
+
+
+  <meta property="og:description" content="What is bcdedit.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="bcdedit.exe | Boot Configuration Data Editor">
+  <meta name="twitter:description" content="What is bcdedit.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/bcdedit.exe-D5F797FC4D5434EB677A09C143962231.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/bcdedit.exe-D5F797FC4D5434EB677A09C143962231.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">bcdedit.exe | Boot Configuration Data Editor</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            bcdedit.exe      Boot Configuration Data Editor      ">
+    <meta itemprop="description" content="What is bcdedit.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="bcdeditexe">bcdedit.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\windows\system32\bcdedit.exe</code></li>
+  <li>Description: Boot Configuration Data Editor</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">D5F797FC4D5434EB677A09C143962231</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">FF829D4F431715B27547E862A9D4D65764E5C35E</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">85A43C95BC60213353BE0960CC2947B8F458B6470C683FE18F35E0469C47D2D1</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">F7A33EE386436669C413EA476E125472EA67D92909B7F8F1A3BE37032496BC86925E648982F08E9E43A1111CD947EF6E</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">188DBF3DD6EB171FF60634FEAC855D1DF1801230BF96C06D39BFE1196AADA4385F9BA4BDC48FDBBD8A31E7C8A60F5A6F9999E91E95199B33001CC76C858AAC80</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">3072:322q+HRw3etMbIFb9qYRDsxc8XDwHLFIEf9Ox2tV0uRhdNV/ysXo3HD62xKe1P/z:3K3etM8FbvDsxlz+5l0m</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: The file C:\windows\system32\bcdedit.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at http://go.microsoft.com/fwlink/?LinkID=135170</li>
+  <li>Serial: ``</li>
+  <li>Thumbprint: ``</li>
+  <li>Issuer:</li>
+  <li>Subject:</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: bcdedit.exe.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 6.3.9600.16384 (winblue_rtm.130821-1623)</li>
+  <li>Product Version: 6.3.9600.16384</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">bcdedit.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">bcdedit.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_bootconf_mod.yml">win_bootconf_mod.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Identifies use of the bcdedit command to delete boot configuration data. This tactic is sometimes used as by malware or an attacker as a destructive</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_bootconf_mod.yml">win_bootconf_mod.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: \bcdedit.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_wannacry.yml">win_malware_wannacry.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- '*bcdedit /set {default} recoveryenabled no*'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_bcdedit.yml">win_susp_bcdedit.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects, possibly, malicious unauthorized usage of bcdedit.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_bcdedit.yml">win_susp_bcdedit.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/bcdedit--set</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_bcdedit.yml">win_susp_bcdedit.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">Image: '*\bcdedit.exe'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md">T1490.md</a></td>
+      <td>* <code>bcdedit.exe</code> can be used to disable automatic Windows recovery features by modifying boot configuration data - <code>bcdedit.exe /set {default} bootstatuspolicy ignoreallfailures &amp; bcdedit /set {default} recoveryenabled no</code>&lt;/blockquote&gt;</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md">T1490.md</a></td>
+      <td>bcdedit.exe /set {default} bootstatuspolicy ignoreallfailures</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md">T1490.md</a></td>
+      <td>bcdedit.exe /set {default} recoveryenabled no</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md">T1490.md</a></td>
+      <td>bcdedit.exe /set {default} bootstatuspolicy DisplayAllFailures &gt;nul 2&gt;&amp;1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1490/T1490.md">T1490.md</a></td>
+      <td>bcdedit.exe /set {default} recoveryenabled yes &gt;nul 2&gt;&amp;1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_olympic_destroyer.yar">apt_olympic_destroyer.yar</a></td>
+      <td>$x1 = “/set {default} bootstatuspolicy ignoreallfailures &amp; bcdedit /set {default} recoveryenabled no” fullword wide</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_turbo_campaign.yar">apt_turbo_campaign.yar</a></td>
+      <td>$sc_1 = “bcdedit -set testsigning” wide ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="bcdedit">bcdedit</h2>
+
+<p>Boot Configuration Data (BCD) files provide a store that is used to describe boot applications and boot application settings. The objects and elements in the store effectively replace Boot.ini.</p>
+
+<p>BCDEdit is a command-line tool for managing BCD stores. It can be used for a variety of purposes, including creating new stores, modifying existing stores, adding boot menu parameters, and so on. BCDEdit serves essentially the same purpose as Bootcfg.exe on earlier versions of Windows, but with two major improvements:</p>
+
+<ul>
+  <li>
+    <p>Exposes a wider range of boot parameters than Bootcfg.exe.</p>
+  </li>
+  <li>
+    <p>Has improved scripting support.</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>[!NOTE]
+Administrative privileges are required to use BCDEdit to modify BCD.</p>
+</blockquote>
+
+<p>BCDEdit is the primary tool for editing the boot configuration of Windows Vista and later versions of Windows. It is included with the Windows Vista distribution in the %WINDIR%\System32 folder.</p>
+
+<p>BCDEdit is limited to the standard data types and is designed primarily to perform single common changes to BCD. For more complex operations or nonstandard data types, consider using the BCD Windows Management Instrumentation (WMI) application programming interface (API) to create more powerful and flexible custom tools.</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bcdedit /command [&lt;argument1&gt;] [&lt;argument2&gt;] ...
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<h4 id="general-bcdedit-command-line-options">General BCDEdit Command-Line Options</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Option</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/?</td>
+      <td>Displays a list of BCDEdit commands. Running this command without an argument displays a summary of the available commands. To display detailed help for a particular command, run <strong>bcdedit /?</strong> <code class="language-plaintext highlighter-rouge">&lt;command&gt;</code>, where <code class="language-plaintext highlighter-rouge">&lt;command&gt;</code> is the name of the command you are searching for more information about. For example, <strong>bcdedit /? createstore</strong> displays detailed help for the Createstore command.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="parameters-that-operate-on-a-store">Parameters that Operate on a Store</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Option</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/createstore</td>
+      <td>Creates a new empty boot configuration data store. The created store is not a system store.</td>
+    </tr>
+    <tr>
+      <td>/export</td>
+      <td>Exports the contents of the system store into a file. This file can be used later to restore the state of the system store. This command is valid only for the system store.</td>
+    </tr>
+    <tr>
+      <td>/import</td>
+      <td>Restores the state of the system store by using a backup data file previously generated by using the <strong>/export</strong> option. This command deletes any existing entries in the system store before the import takes place. This command is valid only for the system store.</td>
+    </tr>
+    <tr>
+      <td>/store</td>
+      <td>This option can be used with most BCDedit commands to specify the store to be used. If this option is not specified, then BCDEdit operates on the system store. Running the <strong>bcdedit /store</strong> command by itself is equivalent to running the <strong>bcdedit /enum active</strong> command.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="parameters-that-operate-on-entries-in-a-store">Parameters that Operate on Entries in a Store</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/copy</td>
+      <td>Makes a copy of a specified boot entry in the same system store.</td>
+    </tr>
+    <tr>
+      <td>/create</td>
+      <td>Creates a new entry in the boot configuration data store. If a well-known identifier is specified, then the <strong>/application</strong>, <strong>/inherit</strong>, and <strong>/device</strong> parameters cannot be specified. If an identifier is not specified or not well known, an <strong>/application</strong>, <strong>/inherit</strong>, or <strong>/device</strong> option must be specified.</td>
+    </tr>
+    <tr>
+      <td>/delete</td>
+      <td>Deletes an element from a specified entry.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="parameters-that-operate-on-entry-options">Parameters that Operate on Entry Options</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/deletevalue</td>
+      <td>Deletes a specified element from a boot entry.</td>
+    </tr>
+    <tr>
+      <td>/set</td>
+      <td>Sets an entry option value.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="parameters-that-control-output">Parameters that Control Output</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/enum</td>
+      <td>Lists entries in a store. The <strong>/enum</strong> option is the default value for BCEdit, so running the <strong>bcdedit</strong> command without parameters is equivalent to running the <strong>bcdedit /enum active</strong> command.</td>
+    </tr>
+    <tr>
+      <td>/v</td>
+      <td>Verbose mode. Usually, any well-known entry identifiers are represented by their friendly shorthand form. Specifying <strong>/v</strong> as a command-line option displays all identifiers in full. Running the <strong>bcdedit /v</strong> command by itself is equivalent to running the <strong>bcdedit /enum active /v</strong> command.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="parameters-that-control-the-boot-manager">Parameters that Control the Boot Manager</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/bootsequence</td>
+      <td>Specifies a one-time display order to be used for the next boot. This command is similar to the <strong>/displayorder</strong> option, except that it is used only the next time the computer starts. Afterwards, the computer reverts to the original display order.</td>
+    </tr>
+    <tr>
+      <td>/default</td>
+      <td>Specifies the default entry that the boot manager selects when the timeout expires.</td>
+    </tr>
+    <tr>
+      <td>/displayorder</td>
+      <td>Specifies the display order that the boot manager uses when displaying boot parameters to a user.</td>
+    </tr>
+    <tr>
+      <td>/timeout</td>
+      <td>Specifies the time to wait, in seconds, before the boot manager selects the default entry.</td>
+    </tr>
+    <tr>
+      <td>/toolsdisplayorder</td>
+      <td>Specifies the display order for the boot manager to use when displaying the <strong>Tools</strong> menu.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="parameters-that-control-emergency-management-services">Parameters that Control Emergency Management Services</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/bootems</td>
+      <td>Enables or disables Emergency Management Services (EMS) for the specified entry.</td>
+    </tr>
+    <tr>
+      <td>/ems</td>
+      <td>Enables or disables EMS for the specified operating system boot entry.</td>
+    </tr>
+    <tr>
+      <td>/emssettings</td>
+      <td>Sets the global EMS settings for the computer. <strong>/emssettings</strong> does not enable or disable EMS for any particular boot entry.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="parameters-that-control-debugging">Parameters that Control Debugging</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/bootdebug</td>
+      <td>Enables or disables the boot debugger for a specified boot entry. Although this command works for any boot entry, it is effective only for boot applications.</td>
+    </tr>
+    <tr>
+      <td>/dbgsettings</td>
+      <td>Specifies or displays the global debugger settings for the system. This command does not enablepose. To set an individual global debugger setting, use the <strong>bcdedit /set</strong> <code class="language-plaintext highlighter-rouge">&lt;dbgsettings&gt; &lt;type&gt; &lt;value&gt;</code> command.</td>
+    </tr>
+    <tr>
+      <td>/debug</td>
+      <td>Enables or disables the kernel debugger for a specified boot entry.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="additional-references">Additional References</h3>
+
+<p>For examples of how to use BCDEdit, see the <a href="/windows-hardware/drivers/devtest/bcd-boot-options-reference">BCDEdit Options Reference</a> article.</p>
+
+<h3 id="additional-references-1">Additional References</h3>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,665 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>dfsrmig.exe | DFS Replication SYSVOL Migration Tool &#124; STRONTIC</title>
+<meta name="description" content="What is dfsrmig.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="dfsrmig.exe | DFS Replication SYSVOL Migration Tool">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/dfsrmig.exe-7CE07C85D43D3A684F38DE7C30C4D64D.html">
+
+
+  <meta property="og:description" content="What is dfsrmig.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="dfsrmig.exe | DFS Replication SYSVOL Migration Tool">
+  <meta name="twitter:description" content="What is dfsrmig.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/dfsrmig.exe-7CE07C85D43D3A684F38DE7C30C4D64D.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/dfsrmig.exe-7CE07C85D43D3A684F38DE7C30C4D64D.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">dfsrmig.exe | DFS Replication SYSVOL Migration Tool</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            dfsrmig.exe      DFS Replication SYSVOL Migration Tool      ">
+    <meta itemprop="description" content="What is dfsrmig.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="dfsrmigexe">dfsrmig.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Windows\system32\dfsrmig.exe</code></li>
+  <li>Description: DFS Replication SYSVOL Migration Tool</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">7CE07C85D43D3A684F38DE7C30C4D64D</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">F1C736A7BAB07D3AACA8C895782C725272B38131</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">55AED6E9EF9E510134D69F867B11F8E643A14A54D185DF86384F0F40B019678D</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">4D1E48CF88BC3051F008F1111FCCEEFFA99AB7714BA629302F4475D8870828E5667F3FEA2678CB801A8E8387ADDF74ED</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">A92FE86AFDB3F331013EC96A15156D460B66656D7648EF390C4ACF66FC465BBFE9363E0D5C54D9B028166386B23ECA0AF82B6A3004C7C3343B5BD646540725B7</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">24576:u/buM671JFLUt5TGaj8+eGRI2k2L6oBjuveH9wnYFK0ZlTfr8RKvYFyeKKYnMYq:k6RPc5Caj8+hB9HZuvedbPTf/nKj</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">Migrate</span> <span class="ni">SYSVOL</span> <span class="ni">from</span> <span class="ni">NTFRS</span> <span class="ni">to</span> <span class="ni">DFSR</span><span class="err">.</span>
+
+<span class="ni">DfsrMig</span> <span class="err">[</span><span class="p">/</span><span class="ni">SetGlobalState</span> <span class="ni">State</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="ni">GetGlobalState</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="ni">GetMigrationState</span><span class="err">]</span>
+	<span class="err">[</span><span class="p">/</span><span class="ni">DeleteRoNtfrsMember</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="ni">DeleteRoDfsrMember</span><span class="err">]</span>
+	<span class="err">[</span><span class="p">/</span><span class="ni">CreateGlobalObjects</span><span class="err">]</span>
+
+<span class="p">/</span><span class="ni">SetGlobalState</span> <span class="err">[</span><span class="ni">State</span><span class="err">]</span>         <span class="ni">Set</span> <span class="ni">the</span> <span class="ni">current</span> <span class="ni">global</span> <span class="ni">DFSR</span> <span class="ni">migration</span> <span class="ni">state</span><span class="err">.</span>
+                                <span class="m">0</span>  <span class="err">'</span><span class="ni">Start</span><span class="err">'</span>
+                                <span class="m">1</span>  <span class="err">'</span><span class="ni">Prepared</span><span class="err">'</span>
+                                <span class="m">2</span>  <span class="err">'</span><span class="ni">Redirected</span><span class="err">'</span>
+                                <span class="m">3</span>  <span class="err">'</span><span class="ni">Eliminated</span><span class="err">'</span>
+
+<span class="p">/</span><span class="ni">GetGlobalState</span>                 <span class="ni">Get</span> <span class="ni">the</span> <span class="ni">current</span> <span class="ni">global</span> <span class="ni">DFSR</span> <span class="ni">migration</span> <span class="ni">state</span><span class="err">.</span>
+
+<span class="p">/</span><span class="ni">GetMigrationState</span>              <span class="ni">Shows</span> <span class="ni">the</span> <span class="ni">progress</span> <span class="ni">of</span> <span class="ni">migration</span> <span class="ni">across</span> <span class="ni">all</span>
+				<span class="ni">Domain</span> <span class="ni">Controllers</span><span class="err">.</span>
+
+
+<span class="err">[</span><span class="ni">Optional</span> <span class="ni">arguments</span><span class="err">]</span> <span class="p">(</span><span class="ni">to</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">only</span> <span class="ni">if</span> <span class="ni">required</span><span class="p">)</span><span class="err">:</span>
+
+
+<span class="p">/</span><span class="ni">CreateGlobalObjects</span>            <span class="ni">Creates</span> <span class="ni">DFSR</span> <span class="ni">Global</span> <span class="ni">AD</span> <span class="ni">objects</span> <span class="ni">and</span> <span class="ni">missing</span>
+				<span class="ni">RODC</span> <span class="ni">DFSR</span> <span class="ni">member</span> <span class="ni">objects</span><span class="err">.</span> <span class="ni">Useful</span> <span class="ni">if</span> <span class="ni">an</span>
+				<span class="ni">RODC</span> <span class="ni">could</span> <span class="ni">not</span> <span class="ni">start</span> <span class="ni">migration</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">long</span> <span class="ni">time</span><span class="err">.</span>
+
+<span class="p">/</span><span class="ni">DeleteRoNtfrsMember</span> <span class="err">[</span><span class="ni">RODCName</span><span class="err">]</span> <span class="ni">Deletes</span> <span class="ni">NTFRS</span> <span class="ni">Member</span> <span class="ni">object</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">RODC</span>
+				<span class="ni">specified</span> <span class="p">(</span><span class="ni">or</span> <span class="ni">all</span> <span class="ni">RODCs</span> <span class="ni">if</span> <span class="ni">no</span> <span class="ni">RODCName</span> <span class="ni">is</span>
+				<span class="ni">specified</span><span class="p">)</span><span class="err">.</span> <span class="ni">Useful</span> <span class="ni">if</span> <span class="ni">an</span> <span class="ni">RODC</span> <span class="ni">is</span> <span class="ni">stuck</span> <span class="ni">in</span>
+				<span class="ni">the</span> <span class="err">'</span><span class="ni">Eliminating</span><span class="err">'</span> <span class="ni">state</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">long</span> <span class="ni">time</span><span class="err">.</span>
+
+<span class="p">/</span><span class="ni">DeleteRoDfsrMember</span>  <span class="err">[</span><span class="ni">RODCName</span><span class="err">]</span> <span class="ni">Deletes</span> <span class="ni">DFSR</span> <span class="ni">Member</span> <span class="ni">object</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">RODC</span>
+				<span class="ni">specified</span> <span class="p">(</span><span class="ni">or</span> <span class="ni">all</span> <span class="ni">RODCs</span> <span class="ni">if</span> <span class="ni">no</span> <span class="ni">RODCName</span> <span class="ni">is</span>
+				<span class="ni">specified</span><span class="p">)</span><span class="err">.</span> <span class="ni">Useful</span> <span class="ni">if</span> <span class="ni">an</span> <span class="ni">RODC</span> <span class="ni">is</span> <span class="ni">stuck</span> <span class="ni">in</span>
+				<span class="ni">the</span> <span class="err">'</span><span class="ni">Undo</span><span class="err">-</span><span class="ni">Preparing</span><span class="err">'</span> <span class="ni">state</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">long</span> <span class="ni">time</span><span class="err">.</span>
+<span class="ni">Succeeded</span><span class="err">.</span>
+
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">33000001C422B2F79B793DACB20000000001C4</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">AE9C1AE54763822EEC42474983D8B635116C8452</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: dfsrmig.exe.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.17763.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.17763.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+</ul>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="dfsrmig">dfsrmig</h2>
+
+<blockquote>
+  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
+</blockquote>
+
+<p>The migration tool for the DFS Replication service, dfsrmig.exe, is installed with the DFS Replication service. This tool migrates SYSvol replication from File Replication Service (FRS) to Distributed File System (DFS) Replication. It also provides information about the progress of the migration and modifies Active Directory Domain Services (AD DS) objects to support the migration.</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfsrmig [/setglobalstate &lt;state&gt; | /getglobalstate | /getmigrationstate | /createglobalobjects |
+/deleterontfrsmember [&lt;read_only_domain_controller_name&gt;] | /deleterodfsrmember [&lt;read_only_domain_controller_name&gt;] | /?]
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">/setglobalstate &lt;state&gt;</code></td>
+      <td>Sets the domain’s global migration state to one that corresponds to the value specified by <em>state</em>. You can only set the global migration state to a stable state. The <em>state</em> values include:&lt;ul&gt;&lt;li&gt;<strong>0</strong> - Start state&lt;/li&gt;&lt;li&gt;<strong>1</strong> - Prepared state&lt;/li&gt;&lt;li&gt;<strong>2</strong> - Redirected state&lt;/li&gt;&lt;li&gt;<strong>3</strong> - Eliminated state&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/getglobalstate</td>
+      <td>Retrieves the current global migration state for the domain from the local copy of the AD DS database, when run on the PDC emulator. Use this option to confirm that you set the correct global migration state.&lt;p&gt;<strong>Important:</strong> You should only run this command on the PDC emulator.</td>
+    </tr>
+    <tr>
+      <td>/getmigrationstate</td>
+      <td>Retrieves the current local migration state for all domain controllers in the domain and determines whether those local states match the current global migration state. Use this option to determine if all domain controllers have reached the global migration state.</td>
+    </tr>
+    <tr>
+      <td>/createglobalobjects</td>
+      <td>Creates the global objects and settings in AD DS used by DFS Replication uses. The only situations where you should use this option to  manually create objects and settings, are:&lt;ul&gt;&lt;li&gt;<strong>A new read-only domain controller is promoted during migration</strong>. If a new read-only domain controller is promoted in the domain after moving into the <strong>Prepared</strong> state, but before migration to the <strong>Eliminated</strong> state, then the objects that correspond to the new domain controller aren’t created, causing replication and the migration to fail.&lt;/li&gt;&lt;li&gt;<strong>Global settings for the DFS Replication service are missing or were deleted</strong>. If these settings are missing for a domain controller, migration from the <strong>Start</strong> state to the <strong>Prepared</strong> state will stall at the <strong>Preparing</strong> transition state. <strong>Note:</strong> Because the global AD DS settings for the DFS Replication service for a read-only domain controller are created on the PDC emulator, these settings need to replicate to the read-only domain controller from the PDC emulator before the DFS Replication service on the read-only domain controller can use these settings. Because of Active Directory replication latencies, this replication can take some time to occur.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">/deleterontfrsmember [&lt;read_only_domain_controller_name&gt;]</code></td>
+      <td>Deletes the global AD DS settings for FRS replication that correspond to the specified read-only domain controller, or deletes the global AD DS settings for FRS replication for all read-only domain controllers if no value is specified for <code class="language-plaintext highlighter-rouge">&lt;read_only_domain_controller_name&gt;</code>.&lt;p&gt;You shouldn’t need to use this option during a normal migration process, because the DFS Replication service automatically deletes these AD DS settings during the migration from the <strong>Redirected</strong> state to the <strong>Eliminated</strong> state. Use this option to manually delete the AD DS settings only when the automatic deletion fails on a read-only domain controller and stalls the read-only domain controller for a long ime during the migration from the <strong>Redirected</strong> state to the <strong>Eliminated</strong> state.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">/deleterodfsrmember [&lt;read_only_domain_controller_name&gt;]</code></td>
+      <td>Deletes the global AD DS settings for DFS Replication that correspond to the specified read-only domain controller, or deletes the global AD DS settings for DFS Replication for all read-only domain controllers if no value is specified for <code class="language-plaintext highlighter-rouge">&lt;read_only_domain_controller_name&gt;</code>.&lt;p&gt;Use this option to manually delete the AD DS settings only when the automatic deletion fails on a read-only domain controller and stalls the read-only domain controller for a long time when rolling back the migration from the Prepared state to the start state.</td>
+    </tr>
+    <tr>
+      <td>/?</td>
+      <td>Displays help at the command prompt.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="remarks">Remarks</h5>
+
+<ul>
+  <li>
+    <p>Use the <code class="language-plaintext highlighter-rouge">/setglobalstate &lt;state&gt;</code> command to set the global migration state in AD DS on the PDC emulator to initiate and control the migration process. If the PDC emulator isn’t available, this command fails.</p>
+  </li>
+  <li>
+    <p>Migration to the <strong>Eliminated</strong> state is irreversible and rollback isn’t possible, so use a value of <strong>3</strong> for <em>state</em> only when you are fully committed to using DFS Replication for SYSvol replication.</p>
+  </li>
+  <li>
+    <p>Global migration states must be a stable migration state.</p>
+  </li>
+  <li>
+    <p>Active Directory replication replicates the global state to other domain controllers in the domain, but because of replication latencies, you can get inconsistencies if you run <code class="language-plaintext highlighter-rouge">dfsrmig /getglobalstate</code> on a domain controller other than the PDC emulator.</p>
+  </li>
+  <li>
+    <p>The output of <code class="language-plaintext highlighter-rouge">dsfrmig /getmigrationstate</code> indicates whether migration to the current global state is complete, listing the local migration state for any domain controllers that haven’t yet reached the current global migration state. The local migration state for domain controllers can also include transition states for domain controllers that have not reached the current global migration state.</p>
+  </li>
+  <li>
+    <p>Read-only domain controllers can’t delete settings from AD DS, the PDC emulator performs this operation, and the changes eventually replicate to the read-only domain controllers after the applicable latencies for active directory replication.</p>
+  </li>
+  <li>
+    <p>The <strong>dfsrmig</strong> command is supported only on domain controllers that run at the Windows Server domain functional level, because SYSvol migration from FRS to DFS Replication is only possible on domain controllers that operate at that level.</p>
+  </li>
+  <li>
+    <p>You can run the <strong>dfsrmig</strong> command on any domain controller, but operations that create or manipulate AD DS objects are only allowed on read-write capable domain controllers (not on read-only domain controllers).</p>
+  </li>
+</ul>
+
+<h3 id="examples">Examples</h3>
+
+<p>To set the global migration state to Prepared (<strong>1</strong>) and to initiate migration or to rollback from the Prepared state, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfsrmig /setglobalstate 1
+</code></pre></div></div>
+
+<p>To set the global migration state to Start (<strong>0</strong>) and to initiate rollback to the Start state, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfsrmig /setglobalstate 0
+</code></pre></div></div>
+
+<p>To display the global migration state, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfsrmig /getglobalstate
+</code></pre></div></div>
+
+<p>Output from the <code class="language-plaintext highlighter-rouge">dfsrmig /getglobalstate</code> command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Current DFSR global state: Prepared
+Succeeded.
+</code></pre></div></div>
+
+<p>To display information about whether the local migration states on all the domain controllers match the global migration state and if there are any local migration states where the local state doesn’t match the global state, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfsrmig /GetMigrationState
+</code></pre></div></div>
+
+<p>Output from the <code class="language-plaintext highlighter-rouge">dfsrmig /getmigrationstate</code> command when the local migration states on all of the domain controllers match the global migration state:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>All Domain Controllers have migrated successfully to Global state (Prepared).
+Migration has reached a consistent state on all Domain Controllers.
+Succeeded.
+</code></pre></div></div>
+
+<p>Output from the <code class="language-plaintext highlighter-rouge">dfsrmig /getmigrationstate</code> command when the local migration states on some domain controllers don’t match the global migration state.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The following Domain Controllers are not in sync with Global state (Prepared):
+Domain Controller (Local Migration State) DC type
+=========
+CONTOSO-DC2 (start) ReadOnly DC
+CONTOSO-DC3 (Preparing) Writable DC
+Migration has not yet reached a consistent state on all domain controllers
+State information might be stale due to AD latency.
+</code></pre></div></div>
+
+<p>To create the global objects and settings that DFS Replication uses in AD DS on domain controllers where those settings were not created automatically during migration or where those settings are missing, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfsrmig /createglobalobjects
+</code></pre></div></div>
+
+<p>To delete the global AD DS settings for FRS replication for a read-only domain controller named contoso-dc2 if those settings were not deleted automatically deleted by the migration process, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfsrmig /deleterontfrsmember contoso-dc2
+</code></pre></div></div>
+
+<p>To delete the global AD DS settings for FRS replication for all read-only domain controllers if those settings were not deleted automatically by the migration process, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfsrmig /deleterontfrsmember
+</code></pre></div></div>
+
+<p>To delete the global AD DS settings for DFS Replication for a read-only domain controller named contoso-dc2 if those settings were not deleted automatically by the migration process, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfsrmig /deleterodfsrmember contoso-dc2
+</code></pre></div></div>
+
+<p>To delete the global AD DS settings for DFS Replication for all read-only domain controllers if those settings were not deleted automatically by the migration process, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfsrmig /deleterodfsrmember
+</code></pre></div></div>
+
+<p>To display help at the command prompt:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfsrmig
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dfsrmig /?
+</code></pre></div></div>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li>
+    <p><a href="https://go.microsoft.com/fwlink/?LinkId=122056">Command-Line Syntax Key</a></p>
+  </li>
+  <li>
+    <p><a href="https://techcommunity.microsoft.com/t5/storage-at-microsoft/sysvol-migration-series-part-2-8211-dfsrmig-exe-the-sysvol/ba-p/423470">SYSvol Migration Series: Part 2 dfsrmig.exe: The SYSvol Migration Tool</a></p>
+  </li>
+  <li>
+    <p><a href="../../identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview.md">Active Directory Domain Services</a></p>
+  </li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
