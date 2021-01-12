@@ -60,6 +60,7 @@ Function Name | Ordinal | Type
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\adpcmencode3.exe](adpcmencode3.exe-12FFEE959BBC29D544DD6387E63981D4.md) | 40
 [C:\Windows\system32\dsound.dll](dsound.dll-E6A43513FF267EAF7A112F94A403A5A5.md) | 29
 [C:\Windows\system32\RESAMPLEDMO.DLL](RESAMPLEDMO.DLL-DAFBFA941F1D5AF65C296A2B22D0EC7A.md) | 40
 

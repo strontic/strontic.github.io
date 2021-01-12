@@ -5,7 +5,7 @@ This project is the source code (markdown) for https://strontic.github.io. The m
 ### Jekyll Local Build Instructions
 
 1. Open *Git Bash*
-2. `cd ~/Documents/GitHub/strontic.github.io`
+2. `cd ~/Documents/GitHub/strontic.github.io` (cloned project directory)
 3. `bundle update github-pages`
 4. (OPTIONAL) `export JEKYLL_GITHUB_TOKEN=<your token>`
 5. `export JEKYLL_ENV=production`
@@ -18,7 +18,7 @@ This project is the source code (markdown) for https://strontic.github.io. The m
 10. `git add .`
 11. (OPTIONAL) `touch .nojekyll`
 12. `git commit -m "Add Lastest GH-PAGES Files"`
-13. (OPTIONAL) `git remote add origin git@github.com:strontic/strontic.github.io.git`
+13. (OPTIONAL) `git remote add origin git@github.com:strontic/strontic.github.io.git` (**required** for first run. change value to your project destination)
 14. `git push --force origin master:gh-pages`
 
 #### Helpful Resources:

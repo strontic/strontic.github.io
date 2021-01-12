@@ -47,6 +47,13 @@ PE256 | `ADAAB62E763E1EEF70E0F974D865D86A6F9FC8A93C05DDCD5ED53E4030575ECA`
 * VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/da1cf21f4e78de58db8d19577939211ff71d294c1616a2de65b1257ff0480897/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\System.IO.FileSystem.Watcher.dll](System.IO.FileSystem.Watcher.dll-437A84FCEB862300D9205FA37AA61A77.md) | 29
+[C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\KeyFile\1033\sqlodbc_keyfile.dll](sqlodbc_keyfile.dll-6CF3C3BA68715506234F0E324A8DB5FD.md) | 33
+
 
 
 

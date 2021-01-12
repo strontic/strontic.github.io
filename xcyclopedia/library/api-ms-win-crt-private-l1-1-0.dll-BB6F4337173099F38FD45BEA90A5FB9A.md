@@ -1189,6 +1189,10 @@ Function Name | Ordinal | Type
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-private-l1-1-0.dll](api-ms-win-crt-private-l1-1-0.dll-E5B1C473F9D7909566F66F40DA6EF6EC.md) | 79
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-private-l1-1-0.dll](api-ms-win-crt-private-l1-1-0.dll-19EFEAAB6EAD964ABFFE520F975DBDC6.md) | 97
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-private-l1-1-0.dll](api-ms-win-crt-private-l1-1-0.dll-71E4937249B1D5394A60371EB3DEEBB1.md) | 79
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-private-l1-1-0.dll](api-ms-win-crt-private-l1-1-0.dll-6F757DC2F53BEEFD3148B01CB16952E8.md) | 94
 [C:\Windows\SysWOW64\downlevel\api-ms-win-crt-private-l1-1-0.dll](api-ms-win-crt-private-l1-1-0.dll-BC8359B3062350D9977614EBDECD286B.md) | 82
 
 

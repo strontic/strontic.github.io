@@ -63,7 +63,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
-[C:\Users\user\AppData\Local\Microsoft\BingWallpaperApp\BWCProcessor.exe](BWCProcessor.exe-DC976DAF22DEB2F90BC24869CE03D3D2.md) | 100
+[C:\Users\WDAGUtilityAccount\AppData\Local\Microsoft\BingWallpaperApp\BWCProcessor.exe](BWCProcessor.exe-DC976DAF22DEB2F90BC24869CE03D3D2.md) | 100
 
 
 

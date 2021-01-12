@@ -46,6 +46,27 @@ PE256 | `66C8CCB5F90CFE1458DF74E2B144530468B8AF879D8DABDCE2669E6C9EBEDA91`
 * VirusTotal Detections: 0/65
 * VirusTotal Link: https://www.virustotal.com/gui/file/8ebf4096d28a78e8ab36e5084784acc90464eb4a74d972c942f147ea59e5134b/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm\1033\wstraceutilresources.dll](wstraceutilresources.dll-F2AE1858D697B588A518C542FC037885.md) | 29
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm64\extidgen.exe](extidgen.exe-4E0D942782FA4F2948CDAF99BF0B72D5.md) | 27
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\extidgen.exe](extidgen.exe-B25B6ADF3A8F3BC2D749269C8DBF8147.md) | 29
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm64\breakin.exe](breakin.exe-3A457F977B3D6BC2A36B645608AAB8CD.md) | 27
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\dumpchk.exe](dumpchk.exe-63F2C7B079B12F9F44CD202644CD6AFF.md) | 29
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\dumpexam.exe](dumpexam.exe-9F3B915F04E4F1C060C5EE87C25C74DB.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\api-ms-win-eventing-provider-l1-1-0.dll](api-ms-win-eventing-provider-l1-1-0.dll-A5722F0AE19938D6DF5EA818696D1713.md) | 25
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-debug-l1-1-0.dll](api-ms-win-core-debug-l1-1-0.dll-B826AC6E0225DB2CFB753D12B527EED3.md) | 29
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-string-l1-1-0.dll](api-ms-win-core-string-l1-1-0.dll-32E739B5F838DCFB8C1AF0D3FF93EEA0.md) | 29
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-convert-l1-1-0.dll](api-ms-win-crt-convert-l1-1-0.dll-A50F84E5BDF067A7E67A5417818E1130.md) | 29
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-filesystem-l1-1-0.dll](api-ms-win-crt-filesystem-l1-1-0.dll-0B1C38C9BABECBE7664C80E0DC2C0E68.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-interlocked-l1-1-0.dll](api-ms-win-core-interlocked-l1-1-0.dll-47E43806D67D182AB20E77FD2B705CDC.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-sysinfo-l1-1-0.dll](api-ms-win-core-sysinfo-l1-1-0.dll-44208A7738486BF56121C752DF083658.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-util-l1-1-0.dll](api-ms-win-core-util-l1-1-0.dll-1417705C75240630943AAEDD35A4B406.md) | 27
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-heap-l1-1-0.dll](api-ms-win-crt-heap-l1-1-0.dll-6D8959DA747B68298F6D8F81CF23C077.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-runtime-l1-1-0.dll](api-ms-win-crt-runtime-l1-1-0.dll-36CBAFA7D455A21362AF5153FF1C1367.md) | 25
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-utility-l1-1-0.dll](api-ms-win-crt-utility-l1-1-0.dll-294E2CAF335A8A68B64D5623D0CB5FD3.md) | 29
 
 ## Possible Misuse
 

@@ -53,6 +53,9 @@ PE256 | `B9E832DE41DD39008191B43539B4BD8591785A8FF37A1D70B918E82E68DDC0A6`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\StoreAdm.exe](StoreAdm.exe-85B13A98346827385E170C43C6210B3C.md) | 54
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.ApplicationServices.dll](System.Web.ApplicationServices.dll-0C1A4B54901395498BADC6CD91C6C59C.md) | 36
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.DynamicData.Design.dll](System.Web.DynamicData.Design.dll-B2AB11DE28D8499277978488AF4C471F.md) | 54
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\AddInProcess.exe](AddInProcess.exe-929EA1AF28AFEA2A3311FD4297425C94.md) | 57
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\AddInProcess32.exe](AddInProcess32.exe-9827FF3CDF4B83F9C86354606736CA9C.md) | 57
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\AddInUtil.exe](AddInUtil.exe-11BED2C86507F7DF04BA52CFC7EB7276.md) | 50

@@ -82,6 +82,14 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/ea845b43c323e35df041b8914a520f1d9643e3689454ab3049c2103458a0142d/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `whois.exe` being misused. While `whois.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - T1596.002 WHOIS [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [linux-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/linux-index.md) | - T1596.002 WHOIS [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 
 

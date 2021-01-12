@@ -116,6 +116,15 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-64BDF89815F86DF9F85144657AF9F0B6.md) | 33
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.VisualC.dll](Microsoft.VisualC.dll-1DB522C6915B32A4F8DA48AAE97DBE63.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\Microsoft.Azure.KeyVault.Core.dll](Microsoft.Azure.KeyVault.Core.dll-8C454E6D06D56C19F355F702B15EBB15.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\Microsoft.WindowsAzure.Configuration.dll](Microsoft.WindowsAzure.Configuration.dll-E2349A573FA735D9C89A44F81967A346.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\Microsoft.Azure.KeyVault.Core.dll](Microsoft.Azure.KeyVault.Core.dll-8C454E6D06D56C19F355F702B15EBB15.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\Microsoft.WindowsAzure.Configuration.dll](Microsoft.WindowsAzure.Configuration.dll-E2349A573FA735D9C89A44F81967A346.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-localization-l1-2-0.dll](api-ms-win-core-localization-l1-2-0.dll-88417EDCE476236712C41EF373ED9986.md) | 71
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-localization-l1-2-0.dll](api-ms-win-core-localization-l1-2-0.dll-BCEB3A4FD70578A2BB1E5138EDEEEEB3.md) | 72
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-localization-l1-2-0.dll](api-ms-win-core-localization-l1-2-0.dll-CA9350D978EC4E395D8D76B54DA8B7A3.md) | 75
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-localization-l1-2-0.dll](api-ms-win-core-localization-l1-2-0.dll-A94626CBC9C0E1B62619A8CF49504FF8.md) | 75
 [C:\Program Files\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-8D4116AA6E0A67D22FCC4E3C47B48076.md) | 30
 [C:\Windows\system32\downlevel\api-ms-win-core-localization-l1-2-0.dll](api-ms-win-core-localization-l1-2-0.dll-464DF4108FD3C92B67953ADFD272D093.md) | 66
 [C:\WINDOWS\system32\microsoft.windows.softwarelogo.showdesktop.exe](microsoft.windows.softwarelogo.showdesktop.exe-A44A1BB96C6AF4AAB1AB6BBC18973BDC.md) | 29

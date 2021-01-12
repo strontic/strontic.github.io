@@ -69,6 +69,14 @@ File | Score
 [C:\Windows\system32\klist.exe](klist.exe-D15C2108D9A0356CBA6B850749F920F2.md) | 25
 [C:\Windows\SysWOW64\klist.exe](klist.exe-E69A6624A40AC6700AF7FC55DD3FA626.md) | 43
 
+## Possible Misuse
+
+*The following table contains possible examples of `klist.exe` being misused. While `klist.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1558.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.001/T1558.001.md) | klist purge | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1558.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.001/T1558.001.md) | klist | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 ## Additional Info*
 

@@ -96,6 +96,7 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm64\convertstore.exe](convertstore.exe-78175AB6BC4235378953F46A1CE3A273.md) | 30
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 40
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 27
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 41

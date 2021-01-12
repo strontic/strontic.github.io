@@ -72,6 +72,15 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 43
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm64\KernelDumpDecrypt.exe](KernelDumpDecrypt.exe-C8A3B58BAD61DDC4515766A1E0C5BCAD.md) | 29
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-file-l1-1-0.dll](api-ms-win-core-file-l1-1-0.dll-DE967E2D473D8E55C095DB1094695708.md) | 52
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-conio-l1-1-0.dll](api-ms-win-crt-conio-l1-1-0.dll-D3D084A56D8CBE2F410DB77CE5A79CDB.md) | 58
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-runtime-l1-1-0.dll](api-ms-win-crt-runtime-l1-1-0.dll-9886BA5285EF26AA6FB093B284BE99AF.md) | 54
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-string-l1-1-0.dll](api-ms-win-core-string-l1-1-0.dll-FC9D5650C0A6992895A7B2B5CF6D39E7.md) | 58
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-console-l1-1-0.dll](api-ms-win-core-console-l1-1-0.dll-3B3C26D2247B0A2928F643FDA76264B1.md) | 57
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-file-l2-1-0.dll](api-ms-win-core-file-l2-1-0.dll-EB4C279C8386D4F30AAB6D76FEEC3E5A.md) | 50
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-processthreads-l1-1-1.dll](api-ms-win-core-processthreads-l1-1-1.dll-B16E6798AD40000698A09276961FC2C3.md) | 49
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-multibyte-l1-1-0.dll](api-ms-win-crt-multibyte-l1-1-0.dll-4B189D01EDDD9C21D2E56CABA7B6CF50.md) | 36
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 52
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 29
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 47

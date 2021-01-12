@@ -5,7 +5,7 @@ excerpt: What is srmlib.dll?
 
 # srmlib.dll 
 
-* File Path: `C:\Windows\SysWOW64\srmlib.dll`
+* File Path: `C:\Program Files (x86)\Reference Assemblies\Microsoft\FSRM\v7.0\srmlib.dll`
 * Description: Microsoft (R) File Server Resource Management Interop Assembly
 
 ## Hashes
@@ -22,11 +22,12 @@ IMP | `DAE02F32A21E03CE65412F6E56942DAA`
 PESHA1 | `4DCB31DA947B76A2D05F5B3558E239E602322684`
 PE256 | `25D574B1A523834D9A48C94A23F44AA9B5137AAD6CC246C39BF76C97E77859C6`
 
+
 ## Signature
 
 * Status: Signature verified.
-* Serial: `3300000266BD1580EFA75CD6D3000000000266`
-* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Serial: `330000026551AE1BBD005CBFBD000000000265`
+* Thumbprint: `E168609353F30FF2373157B4EB8CD519D07A2BFF`
 * Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 * Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
 
@@ -43,14 +44,15 @@ PE256 | `25D574B1A523834D9A48C94A23F44AA9B5137AAD6CC246C39BF76C97E77859C6`
 
 ## File Scan
 
-* VirusTotal Detections: 0/70
-* VirusTotal Link: https://www.virustotal.com/gui/file/7b163daf659c1198e3a8c9acb7b2e7324e4c764599997bdea4286987f4533738/detection/
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/7b163daf659c1198e3a8c9acb7b2e7324e4c764599997bdea4286987f4533738/detection
 
 ## File Similarity (ssdeep match)
 
 File | Score
 -- | --
 [C:\Windows\system32\srmlib.dll](srmlib.dll-784274E9A7D9E680E17132CF53AF5B54.md) | 91
+[C:\Windows\SysWOW64\srmlib.dll](srmlib.dll-7BF48677D2CE22A50A5EE071BFD33030.md) | 100
 
 
 

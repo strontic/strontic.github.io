@@ -76,6 +76,15 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\pvk2pfx.exe](pvk2pfx.exe-5E4F866AD2609C77862F6D1504D39180.md) | 29
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\convertstore.exe](convertstore.exe-47A94D2F58F4C4E6D08A74B0FEDC89A5.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\KernelDumpDecrypt.exe](KernelDumpDecrypt.exe-8990D55CD7DBA7B9A0FE25B448D2FBBF.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-handle-l1-1-0.dll](api-ms-win-core-handle-l1-1-0.dll-1CF1915F2BEBBFD01C1AD340C8438AA7.md) | 36
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-math-l1-1-0.dll](api-ms-win-crt-math-l1-1-0.dll-E798070D2F259C51EDD04FAFFD39477D.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-runtime-l1-1-0.dll](api-ms-win-crt-runtime-l1-1-0.dll-F90FE8F6F46C7ED429F3E802DEE23469.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-console-l1-2-0.dll](api-ms-win-core-console-l1-2-0.dll-C72A9CA97ED04384C43D71B6C2819A78.md) | 36
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-libraryloader-l1-1-0.dll](api-ms-win-core-libraryloader-l1-1-0.dll-2791E9E5FB104A377C5C4C16B27F2612.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-runtime-l1-1-0.dll](api-ms-win-crt-runtime-l1-1-0.dll-AA4ECF393C106E9687B7BB8AB91BB431.md) | 33
 [C:\Windows\system32\downlevel\api-ms-win-core-errorhandling-l1-1-0.dll](api-ms-win-core-errorhandling-l1-1-0.dll-C70BC6950514139DE25A7BF78D01CBF5.md) | 33
 [C:\Windows\system32\downlevel\api-ms-win-core-localization-l1-2-0.dll](api-ms-win-core-localization-l1-2-0.dll-464DF4108FD3C92B67953ADFD272D093.md) | 33
 [C:\Windows\system32\downlevel\api-ms-win-core-registry-l1-1-0.dll](api-ms-win-core-registry-l1-1-0.dll-EE67ECCFF1EC5527BCBAE3859A60576A.md) | 33

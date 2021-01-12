@@ -138,6 +138,13 @@ Function Name | Ordinal | Type
 * VirusTotal Link: https://www.virustotal.com/gui/file/45aef4da43908a7785b786fa8b6556aff272245b0d0dd99ddc6107077da833b3/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `mpr.dll` being misused. While `mpr.dll` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[signature-base](https://github.com/Neo23x0/signature-base) | [apt_lazarus_dec20.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_lazarus_dec20.yar) | $s3 = "Load mpr.dll Error " fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 

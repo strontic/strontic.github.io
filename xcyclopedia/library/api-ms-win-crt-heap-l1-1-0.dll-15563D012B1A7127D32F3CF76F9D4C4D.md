@@ -84,6 +84,15 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-64BDF89815F86DF9F85144657AF9F0B6.md) | 38
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.VisualC.dll](Microsoft.VisualC.dll-1DB522C6915B32A4F8DA48AAE97DBE63.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\Microsoft.Azure.KeyVault.Core.dll](Microsoft.Azure.KeyVault.Core.dll-8C454E6D06D56C19F355F702B15EBB15.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\Microsoft.WindowsAzure.Configuration.dll](Microsoft.WindowsAzure.Configuration.dll-E2349A573FA735D9C89A44F81967A346.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\Microsoft.Azure.KeyVault.Core.dll](Microsoft.Azure.KeyVault.Core.dll-8C454E6D06D56C19F355F702B15EBB15.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\Microsoft.WindowsAzure.Configuration.dll](Microsoft.WindowsAzure.Configuration.dll-E2349A573FA735D9C89A44F81967A346.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-heap-l1-1-0.dll](api-ms-win-crt-heap-l1-1-0.dll-DBBBDBF4C6ABD37391CEB831F599278B.md) | 44
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-heap-l1-1-0.dll](api-ms-win-crt-heap-l1-1-0.dll-EFBC21D545D6C4C57C6A66E836E33A32.md) | 40
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-heap-l1-1-0.dll](api-ms-win-crt-heap-l1-1-0.dll-C0EC87EE5B27BAE483814A8DD12FABC2.md) | 40
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-heap-l1-1-0.dll](api-ms-win-crt-heap-l1-1-0.dll-6D8959DA747B68298F6D8F81CF23C077.md) | 46
 [C:\Program Files\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-8D4116AA6E0A67D22FCC4E3C47B48076.md) | 30
 [C:\ProgramData\Microsoft\VisualStudioSecondaryInstaller\14.0\installers\VSUV1PreReqV1_Hidden\en\0\VSUPrereq.exe](VSUPrereq.exe-5D5C7BD94CCE9DE7BC7D7F69683B5B5F.md) | 36
 [C:\Windows\system32\downlevel\api-ms-win-crt-heap-l1-1-0.dll](api-ms-win-crt-heap-l1-1-0.dll-98DA186FD7D7873C164A51C5D7B77F1A.md) | 36

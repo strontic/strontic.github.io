@@ -57,6 +57,13 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/5aa25ed2645e798e1d3f02bbd420c4f3ce811208cc62bdc41f4d630f9c475cb0/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm\kdsrv.exe](kdsrv.exe-F3DE7A8CF47EA326CA0FDB114288A42F.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\kdsrv.exe](kdsrv.exe-2FD3B6C74E48584FCFB66D64F6994747.md) | 25
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\kdsrv.exe](kdsrv.exe-583B05D3B0756D346D0EE95D64105FB1.md) | 25
 
 
 

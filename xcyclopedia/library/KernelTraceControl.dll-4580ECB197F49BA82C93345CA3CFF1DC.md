@@ -57,6 +57,11 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/68
 * VirusTotal Link: https://www.virustotal.com/gui/file/0d93fdcbfd5612c1fb58d3e2cd655966743613e111cf212a10ee974a605f0d08/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\kerneltracecontrol.dll](kerneltracecontrol.dll-6E6D569BD9F9D5A2E71D00BFBFF33D19.md) | 88
 
 
 

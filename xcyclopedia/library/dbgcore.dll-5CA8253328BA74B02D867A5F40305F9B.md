@@ -54,6 +54,14 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/65
 * VirusTotal Link: https://www.virustotal.com/gui/file/ce76d374bf58239f7f4a16aea2e6152537437af8aa3c83c59cccc88daffccc85/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm64\dbgcore.dll](dbgcore.dll-E0E1571F0E3CF5F55A40575DC0958271.md) | 40
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm64\srcsrv\dbgcore.dll](dbgcore.dll-50F6AF4FE83736A5EEEFB4CCE33D187C.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\dbgcore.dll](dbgcore.dll-DC40CB46D05EF450684E1A1A09C0CFE3.md) | 99
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\srcsrv\dbgcore.dll](dbgcore.dll-89A977B69952BC8941F5600C4B24022F.md) | 99
 
 ## Possible Misuse
 

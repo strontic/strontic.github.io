@@ -129,6 +129,13 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 44
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-util-l1-1-0.dll](api-ms-win-core-util-l1-1-0.dll-636B3ACD9C467F4CC01754B50FED3515.md) | 49
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-time-l1-1-0.dll](api-ms-win-crt-time-l1-1-0.dll-BB509BA60BBAB77306311CC9B8D3BF53.md) | 44
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-time-l1-1-0.dll](api-ms-win-crt-time-l1-1-0.dll-57B9F090AF61F408BBCF4D6A30F80C89.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-debug-l1-1-0.dll](api-ms-win-core-debug-l1-1-0.dll-765DB87311161A131CEE64E9D8F2AF8C.md) | 46
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-process-l1-1-0.dll](api-ms-win-crt-process-l1-1-0.dll-D52C7926D68A33CF1BA357AF450F5C52.md) | 44
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-time-l1-1-0.dll](api-ms-win-crt-time-l1-1-0.dll-D39831F59FC93EB7DFA18BD5C371A2EE.md) | 46
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-time-l1-1-0.dll](api-ms-win-crt-time-l1-1-0.dll-C492EE40814B7586F554EC0223B14430.md) | 40
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 50
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 27
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 49

@@ -74,6 +74,11 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 44
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\1033\wstraceutilresources.dll](wstraceutilresources.dll-083C7ECA038BF8FD86E2D1E7B5F3D318.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-synch-l1-1-0.dll](api-ms-win-core-synch-l1-1-0.dll-9E80DB9004D7843FFAB6C605E98CE78D.md) | 40
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-stdio-l1-1-0.dll](api-ms-win-crt-stdio-l1-1-0.dll-1D5F6294C1741AFEEB81889187460C95.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-interlocked-l1-1-0.dll](api-ms-win-core-interlocked-l1-1-0.dll-54864A516D26061E225EBF656EAA5655.md) | 43
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-convert-l1-1-0.dll](api-ms-win-crt-convert-l1-1-0.dll-86687C52E23DEBEDADDD5BAF63ED82F4.md) | 44
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 47
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 27
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 46

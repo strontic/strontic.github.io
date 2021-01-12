@@ -207,6 +207,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/26e5ac855811075aa6acd25036a1273673315de6a601a463498d438f6dee3f88/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `logman.exe` being misused. While `logman.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_etw_trace_evasion.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_etw_trace_evasion.yml) | `- "logman" ` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 ## Additional Info*
 

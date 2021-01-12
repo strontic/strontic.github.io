@@ -78,6 +78,13 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-64BDF89815F86DF9F85144657AF9F0B6.md) | 36
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.VisualC.dll](Microsoft.VisualC.dll-1DB522C6915B32A4F8DA48AAE97DBE63.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm64\1033\wstracedumpresources.dll](wstracedumpresources.dll-822830E5CD770D0E430D17F354EC36ED.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\Microsoft.Azure.KeyVault.Core.dll](Microsoft.Azure.KeyVault.Core.dll-8C454E6D06D56C19F355F702B15EBB15.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\Microsoft.WindowsAzure.Configuration.dll](Microsoft.WindowsAzure.Configuration.dll-E2349A573FA735D9C89A44F81967A346.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\Microsoft.Azure.KeyVault.Core.dll](Microsoft.Azure.KeyVault.Core.dll-8C454E6D06D56C19F355F702B15EBB15.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\Microsoft.WindowsAzure.Configuration.dll](Microsoft.WindowsAzure.Configuration.dll-E2349A573FA735D9C89A44F81967A346.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-utility-l1-1-0.dll](api-ms-win-crt-utility-l1-1-0.dll-59D0FCA4E6BBE7B9788F87D510188B43.md) | 29
 [C:\Program Files\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-8D4116AA6E0A67D22FCC4E3C47B48076.md) | 35
 [C:\ProgramData\Microsoft\VisualStudioSecondaryInstaller\14.0\installers\VSUV1PreReqV1_Hidden\en\0\VSUPrereq.exe](VSUPrereq.exe-5D5C7BD94CCE9DE7BC7D7F69683B5B5F.md) | 41
 [C:\WINDOWS\system32\microsoft.windows.softwarelogo.showdesktop.exe](microsoft.windows.softwarelogo.showdesktop.exe-A44A1BB96C6AF4AAB1AB6BBC18973BDC.md) | 40

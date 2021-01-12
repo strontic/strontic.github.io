@@ -71,6 +71,12 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-localization-l1-2-0.dll](api-ms-win-core-localization-l1-2-0.dll-BCEB3A4FD70578A2BB1E5138EDEEEEB3.md) | 40
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-processthreads-l1-1-1.dll](api-ms-win-core-processthreads-l1-1-1.dll-C58E2F3828248F84280F0719FDA08FD2.md) | 50
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-timezone-l1-1-0.dll](api-ms-win-core-timezone-l1-1-0.dll-842D23AF3A6A12B10C9A4EE4D79EC1C1.md) | 55
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-sysinfo-l1-1-0.dll](api-ms-win-core-sysinfo-l1-1-0.dll-4025AE33CF64C88AA4D73FF1B74EA515.md) | 47
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-console-l1-2-0.dll](api-ms-win-core-console-l1-2-0.dll-E2102C917821CA68B48ED9AFC293926F.md) | 50
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-processthreads-l1-1-1.dll](api-ms-win-core-processthreads-l1-1-1.dll-B16E6798AD40000698A09276961FC2C3.md) | 50
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 50
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 33
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 46

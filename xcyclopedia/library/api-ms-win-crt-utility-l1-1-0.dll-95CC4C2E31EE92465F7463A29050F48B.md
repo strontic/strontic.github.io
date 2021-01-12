@@ -87,6 +87,16 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 36
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm64\1033\wstraceutilresources.dll](wstraceutilresources.dll-20AAF7A8167ADDEE9FB270DA1D8E1B46.md) | 46
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\UIAVerify\IQueryString.dll](IQueryString.dll-0DB13D93F789BBAC8CF630F83CD8971B.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-utility-l1-1-0.dll](api-ms-win-crt-utility-l1-1-0.dll-59D0FCA4E6BBE7B9788F87D510188B43.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-processenvironment-l1-1-0.dll](api-ms-win-core-processenvironment-l1-1-0.dll-9A9D6258A5AB98BB10B3D36233EADDE9.md) | 49
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-processthreads-l1-1-0.dll](api-ms-win-core-processthreads-l1-1-0.dll-F00887195128EBD4B8F7E95436E86A98.md) | 40
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-rtlsupport-l1-1-0.dll](api-ms-win-core-rtlsupport-l1-1-0.dll-9F434A6837E8771D461F4000A52AB643.md) | 55
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-util-l1-1-0.dll](api-ms-win-core-util-l1-1-0.dll-9966AA5043C9B7BBB1B710A882E88D4C.md) | 54
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-utility-l1-1-0.dll](api-ms-win-crt-utility-l1-1-0.dll-0FC56003FFA56CCBB9E7B4E361F8675F.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-utility-l1-1-0.dll](api-ms-win-crt-utility-l1-1-0.dll-013140C067EFB346386C9AA47FAC6FB7.md) | 44
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-utility-l1-1-0.dll](api-ms-win-crt-utility-l1-1-0.dll-294E2CAF335A8A68B64D5623D0CB5FD3.md) | 44
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 46
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 36
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 41

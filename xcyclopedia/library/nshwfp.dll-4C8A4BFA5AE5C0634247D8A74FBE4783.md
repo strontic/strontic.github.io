@@ -60,6 +60,15 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/69
 * VirusTotal Link: https://www.virustotal.com/gui/file/3f9f5f8fde74c5870cd9c2009acad70ba2b071e9334badf1fe3135fcd52eb916/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm\usbview.exe](usbview.exe-011CBA2853E8D47161D536C7A9D35D31.md) | 36
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm\winext\rcdrkd.dll](rcdrkd.dll-87D04964D98781CD348DFD6B76AE9C84.md) | 50
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm64\usbview.exe](usbview.exe-79080FFC24C9CA1F42797E993CD85262.md) | 40
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\usbview.exe](usbview.exe-F57E935A24CF7C76948F7D221BD1EDE9.md) | 36
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\winext\rcdrkd.dll](rcdrkd.dll-30FD9D79A6C57BA003840127EFAC1A04.md) | 52
 
 
 

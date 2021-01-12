@@ -106,6 +106,13 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-processthreads-l1-1-0.dll](api-ms-win-core-processthreads-l1-1-0.dll-5B390BC5A17C93AA479F1832B7A1DEBA.md) | 60
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-util-l1-1-0.dll](api-ms-win-core-util-l1-1-0.dll-636B3ACD9C467F4CC01754B50FED3515.md) | 44
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-processthreads-l1-1-0.dll](api-ms-win-core-processthreads-l1-1-0.dll-F00887195128EBD4B8F7E95436E86A98.md) | 46
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-debug-l1-1-0.dll](api-ms-win-core-debug-l1-1-0.dll-765DB87311161A131CEE64E9D8F2AF8C.md) | 43
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-processthreads-l1-1-0.dll](api-ms-win-core-processthreads-l1-1-0.dll-1641A8027AF5A754DD164D6044917014.md) | 58
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-process-l1-1-0.dll](api-ms-win-crt-process-l1-1-0.dll-D52C7926D68A33CF1BA357AF450F5C52.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-processthreads-l1-1-0.dll](api-ms-win-core-processthreads-l1-1-0.dll-E345E6656AEAC37C80A404F032BA550B.md) | 49
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 43
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 29
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 43

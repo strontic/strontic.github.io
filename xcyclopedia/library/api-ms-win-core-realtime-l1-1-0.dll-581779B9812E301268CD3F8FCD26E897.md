@@ -63,6 +63,15 @@ File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 41
 [C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesCommonX86\Microsoft Shared\Smart Tag\SmartTagInstall.exe](SmartTagInstall.exe-632AB2DBE46DE1E9BB0FB7B54B3BB05C.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\pvk2pfx.exe](pvk2pfx.exe-5E4F866AD2609C77862F6D1504D39180.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\convertstore.exe](convertstore.exe-47A94D2F58F4C4E6D08A74B0FEDC89A5.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\KernelDumpDecrypt.exe](KernelDumpDecrypt.exe-8990D55CD7DBA7B9A0FE25B448D2FBBF.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-handle-l1-1-0.dll](api-ms-win-core-handle-l1-1-0.dll-1CF1915F2BEBBFD01C1AD340C8438AA7.md) | 60
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-math-l1-1-0.dll](api-ms-win-crt-math-l1-1-0.dll-E798070D2F259C51EDD04FAFFD39477D.md) | 46
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-runtime-l1-1-0.dll](api-ms-win-crt-runtime-l1-1-0.dll-F90FE8F6F46C7ED429F3E802DEE23469.md) | 55
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-console-l1-2-0.dll](api-ms-win-core-console-l1-2-0.dll-C72A9CA97ED04384C43D71B6C2819A78.md) | 61
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-libraryloader-l1-1-0.dll](api-ms-win-core-libraryloader-l1-1-0.dll-2791E9E5FB104A377C5C4C16B27F2612.md) | 54
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-runtime-l1-1-0.dll](api-ms-win-crt-runtime-l1-1-0.dll-AA4ECF393C106E9687B7BB8AB91BB431.md) | 50
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 44
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 29
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 43

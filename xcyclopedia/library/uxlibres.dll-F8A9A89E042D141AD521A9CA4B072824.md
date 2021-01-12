@@ -51,6 +51,25 @@ PE256 | `D44927F46186FBDDCD9527575B7C4EE00FCFC1B2C38264D7B2DAACA72E4B311F`
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm64\cert2spc.exe](cert2spc.exe-A725321361AAE077A560502C1E30BCD5.md) | 27
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\1033\wstracedumpresources.dll](wstracedumpresources.dll-75AFFFCC0F996FE83A6365DD4145DF14.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\1033\wstraceutilresources.dll](wstraceutilresources.dll-A1791440370453C9BE54B0E3DF083DAF.md) | 36
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm\dumpexam.exe](dumpexam.exe-344C449999D8D2F6A9CA38A6ACB24645.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-console-l1-1-0.dll](api-ms-win-core-console-l1-1-0.dll-AFF9612C6FB049B0DC897E8545D77CBC.md) | 43
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-console-l1-2-0.dll](api-ms-win-core-console-l1-2-0.dll-C518B136AC54C6B97995E951B68E79B7.md) | 44
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-errorhandling-l1-1-0.dll](api-ms-win-core-errorhandling-l1-1-0.dll-428EA20CFB0FF6FB2CB00D109E29A4C0.md) | 40
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-processthreads-l1-1-1.dll](api-ms-win-core-processthreads-l1-1-1.dll-8759FCD17FAD84C0126431EB9FA47B69.md) | 40
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-conio-l1-1-0.dll](api-ms-win-crt-conio-l1-1-0.dll-98BF1DFED24AD5EDF28B973FFF8E5B1F.md) | 46
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-file-l2-1-0.dll](api-ms-win-core-file-l2-1-0.dll-7816039FC35232C815B933C47D864C88.md) | 43
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-processthreads-l1-1-1.dll](api-ms-win-core-processthreads-l1-1-1.dll-C58E2F3828248F84280F0719FDA08FD2.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-stdio-l1-1-0.dll](api-ms-win-crt-stdio-l1-1-0.dll-6424969D1330DE668F119587744A77DC.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-time-l1-1-0.dll](api-ms-win-crt-time-l1-1-0.dll-57B9F090AF61F408BBCF4D6A30F80C89.md) | 40
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-utility-l1-1-0.dll](api-ms-win-crt-utility-l1-1-0.dll-0FC56003FFA56CCBB9E7B4E361F8675F.md) | 44
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-handle-l1-1-0.dll](api-ms-win-core-handle-l1-1-0.dll-CEF770449597EE64EED064E5EDF3F76B.md) | 46
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-processenvironment-l1-1-0.dll](api-ms-win-core-processenvironment-l1-1-0.dll-585C47A83CB7B3A69D23B840DC56EE6E.md) | 44
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-string-l1-1-0.dll](api-ms-win-core-string-l1-1-0.dll-6FC55F288E6124935BEEFDB24F98E4D6.md) | 40
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-timezone-l1-1-0.dll](api-ms-win-core-timezone-l1-1-0.dll-F0F891D08E0E358327B323B38F3FFCA2.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-environment-l1-1-0.dll](api-ms-win-crt-environment-l1-1-0.dll-36A4F9AF7C7D93C49C973DA11475D81E.md) | 41
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 54
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 30
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 46

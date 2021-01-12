@@ -88,6 +88,32 @@ File | Score
 -- | --
 [C:\Program Files (x86)\Microsoft Office\root\Office16\ADDINS\Microsoft Power Query for Excel Integrated\bin\Microsoft.Mashup.Container.NetFX40.exe](Microsoft.Mashup.Container.NetFX40.exe-4EBF16CC96F8A323CE9F46FA42DFAE0A.md) | 33
 [C:\Program Files (x86)\Microsoft Office\root\Office16\ADDINS\Microsoft Power Query for Excel Integrated\bin\Microsoft.Mashup.Container.NetFX45.exe](Microsoft.Mashup.Container.NetFX45.exe-02E16063B890CF67BB117ACB637C47D2.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\CoreClr\Wex.Logger.Interop.dll](Wex.Logger.Interop.dll-1B2B30D207E4C69EFD2BA7CD48C7996B.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\MinTe\CoreClr\Wex.Logger.Interop.dll](Wex.Logger.Interop.dll-1B2B30D207E4C69EFD2BA7CD48C7996B.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\MinTe\NetFx4.5\TE.ManagedTestMode.dll](TE.ManagedTestMode.dll-E9C5FD65C56FE4C74E2ADC13E0237509.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\MinTe\NetFx4.5\Wex.Common.Managed.dll](Wex.Common.Managed.dll-E9C429FE138EF53491ECDB1605AF183C.md) | 36
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\MinTe\NetFx4.5\Wex.Logger.Interop.dll](Wex.Logger.Interop.dll-27E5B8CAF22BC9F850FC72CCC1891739.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\MinTe\TE.AppDomainManager.dll](TE.AppDomainManager.dll-D3124DFE0E86C2A8EFAB435FA0722005.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\MinTe\TE.ProcessHost.UAP.exe](TE.ProcessHost.UAP.exe-68A404C3C06CA1200DDBE130C3D6311A.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\NetFx4.5\TE.ManagedTestMode.dll](TE.ManagedTestMode.dll-E9C5FD65C56FE4C74E2ADC13E0237509.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\NetFx4.5\Wex.Common.Managed.dll](Wex.Common.Managed.dll-E9C429FE138EF53491ECDB1605AF183C.md) | 36
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\NetFx4.5\Wex.Logger.Interop.dll](Wex.Logger.Interop.dll-27E5B8CAF22BC9F850FC72CCC1891739.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\TE.AppDomainManager.dll](TE.AppDomainManager.dll-D3124DFE0E86C2A8EFAB435FA0722005.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\TE.ProcessHost.UAP.exe](TE.ProcessHost.UAP.exe-68A404C3C06CA1200DDBE130C3D6311A.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\Wex.Logger.Interop.dll](Wex.Logger.Interop.dll-27E5B8CAF22BC9F850FC72CCC1891739.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\x64\CoreClr\Wex.Logger.Interop.dll](Wex.Logger.Interop.dll-1B2B30D207E4C69EFD2BA7CD48C7996B.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\x64\MinTe\CoreClr\Wex.Logger.Interop.dll](Wex.Logger.Interop.dll-1B2B30D207E4C69EFD2BA7CD48C7996B.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\x64\MinTe\NetFx4.5\TE.ManagedTestMode.dll](TE.ManagedTestMode.dll-E9C5FD65C56FE4C74E2ADC13E0237509.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\x64\MinTe\NetFx4.5\Wex.Common.Managed.dll](Wex.Common.Managed.dll-E9C429FE138EF53491ECDB1605AF183C.md) | 36
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\x64\MinTe\NetFx4.5\Wex.Logger.Interop.dll](Wex.Logger.Interop.dll-27E5B8CAF22BC9F850FC72CCC1891739.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\x64\MinTe\TE.AppDomainManager.dll](TE.AppDomainManager.dll-D3124DFE0E86C2A8EFAB435FA0722005.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\x64\MinTe\TE.ProcessHost.UAP.exe](TE.ProcessHost.UAP.exe-68A404C3C06CA1200DDBE130C3D6311A.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\x64\NetFx4.5\TE.ManagedTestMode.dll](TE.ManagedTestMode.dll-E9C5FD65C56FE4C74E2ADC13E0237509.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\x64\NetFx4.5\Wex.Common.Managed.dll](Wex.Common.Managed.dll-E9C429FE138EF53491ECDB1605AF183C.md) | 36
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\x64\NetFx4.5\Wex.Logger.Interop.dll](Wex.Logger.Interop.dll-27E5B8CAF22BC9F850FC72CCC1891739.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\x64\TE.AppDomainManager.dll](TE.AppDomainManager.dll-D3124DFE0E86C2A8EFAB435FA0722005.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\x64\TE.ProcessHost.UAP.exe](TE.ProcessHost.UAP.exe-68A404C3C06CA1200DDBE130C3D6311A.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Testing\Runtimes\TAEF\x64\Wex.Logger.Interop.dll](Wex.Logger.Interop.dll-27E5B8CAF22BC9F850FC72CCC1891739.md) | 30
 
 
 

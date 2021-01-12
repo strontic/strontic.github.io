@@ -50,6 +50,7 @@ PE256 | `42D3F9BA3B913AA176F9C0CEE24D1F3E63A16A2C4B1C5550CFF6CD284C61C798`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\FSRM\v7.0\srmlib.dll](srmlib.dll-7BF48677D2CE22A50A5EE071BFD33030.md) | 91
 [C:\Windows\SysWOW64\srmlib.dll](srmlib.dll-7BF48677D2CE22A50A5EE071BFD33030.md) | 91
 
 

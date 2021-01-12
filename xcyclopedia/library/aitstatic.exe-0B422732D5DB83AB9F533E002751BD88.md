@@ -42,6 +42,7 @@ SSDEEP | `49152:MabKOtEZWV6N82RyvoQ4Q4ullYF5svlRlZaAoTMZmhJv3eEkF/L:MyKNNYtaAIrA
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Windows Kits\10\App Certification Kit\aitstatic.exe](aitstatic.exe-B7738FF18A19DD34AAE380CE1B2EC495.md) | 68
 [C:\Windows\system32\aitstatic.exe](aitstatic.exe-019C68136DB95EEC5275E1246B17A288.md) | 68
 [C:\Windows\system32\aitstatic.exe](aitstatic.exe-27D53636B86A9CE2366BA584DF09227F.md) | 68
 [C:\WINDOWS\system32\aitstatic.exe](aitstatic.exe-2C02288BFAFB12E33BAB55AB06A6EF23.md) | 99

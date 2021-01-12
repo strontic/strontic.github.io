@@ -82,6 +82,16 @@ Function Name | Ordinal | Type
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm\UIAVerify\WUIALoggerXml.dll](WUIALoggerXml.dll-0F52D13A17C1A7765EE35205E6AF085E.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm64\UIAVerify\WUIALoggerXml.dll](WUIALoggerXml.dll-306FF4BE9C45A7211ED4D403995CED68.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm64\dumpchk.exe](dumpchk.exe-B2F31A7083876454B49B9D70F8530DF8.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm64\rtlist.exe](rtlist.exe-76D12076EE703D65617C5519B5BC42C9.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-heap-l1-1-0.dll](api-ms-win-crt-heap-l1-1-0.dll-EFBC21D545D6C4C57C6A66E836E33A32.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-math-l1-1-0.dll](api-ms-win-crt-math-l1-1-0.dll-DCD968FB42D0FF67E82FE0CE6FF312DD.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-multibyte-l1-1-0.dll](api-ms-win-crt-multibyte-l1-1-0.dll-26F357EF413713C57C8F84837D1EC94E.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-datetime-l1-1-0.dll](api-ms-win-core-datetime-l1-1-0.dll-5F1E568D0CDCF0D5D4F52FD2E8690B4A.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-debug-l1-1-0.dll](api-ms-win-core-debug-l1-1-0.dll-D85B98D1E5746F36E8AFB027756547CF.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-time-l1-1-0.dll](api-ms-win-crt-time-l1-1-0.dll-C492EE40814B7586F554EC0223B14430.md) | 38
 [C:\Windows\system32\cryptbase.dll](cryptbase.dll-34785289148E2B1DF0863B1D2CA45D7B.md) | 43
 [C:\Windows\system32\downlevel\api-ms-win-core-shutdown-l1-1-0.dll](api-ms-win-core-shutdown-l1-1-0.dll-B8D35A179B531F7732F7C5AAA7DEA32C.md) | 44
 [C:\Windows\system32\downlevel\api-ms-win-core-sysinfo-l1-2-0.dll](api-ms-win-core-sysinfo-l1-2-0.dll-D8BF60CD8EC0CC0232EE443A034B49BA.md) | 43

@@ -68,6 +68,13 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 43
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\WindowsPowerShell\3.0\Microsoft.PowerShell.ConsoleHost.dll](Microsoft.PowerShell.ConsoleHost.dll-D183829ED978FA3C23CCF7058862A584.md) | 44
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-heap-l1-1-0.dll](api-ms-win-crt-heap-l1-1-0.dll-DBBBDBF4C6ABD37391CEB831F599278B.md) | 44
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-locale-l1-1-0.dll](api-ms-win-crt-locale-l1-1-0.dll-A809EB338B8E49B96F024F0F75601DF2.md) | 47
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-errorhandling-l1-1-0.dll](api-ms-win-core-errorhandling-l1-1-0.dll-7B7CD224DE0DFACD07D95B0045DD0D5A.md) | 40
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-profile-l1-1-0.dll](api-ms-win-core-profile-l1-1-0.dll-C2214603327F41EC82D53EF166DA91D6.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-locale-l1-1-0.dll](api-ms-win-crt-locale-l1-1-0.dll-6C7857B8CC69AB0BA8E0EC9EB6A60BF9.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-convert-l1-1-0.dll](api-ms-win-crt-convert-l1-1-0.dll-DAD955BBD1A073F1920BDACC7E9D4B32.md) | 36
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 49
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 25
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 36

@@ -56,6 +56,11 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/65
 * VirusTotal Link: https://www.virustotal.com/gui/file/6e7e34b2779d314e76dfedd2688f43ffddb5ee43ed8e87d5d66b1aaa50408c10/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\perf_nt.dll](perf_nt.dll-D7ACF1C83055E572F7BB8E6DBF9AFC23.md) | 97
 
 
 

@@ -37,6 +37,12 @@ SSDEEP | ``
 * Legal Copyright: 
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\mcbuilder.exe](mcbuilder.exe-5063135B101722C6E85BFA623E18048A.md) | 40
+[C:\Windows\SysWOW64\mcbuilder.exe](mcbuilder.exe-CAE8E531CD82401A9ECB4C446CBB964B.md) | 32
 
 
 

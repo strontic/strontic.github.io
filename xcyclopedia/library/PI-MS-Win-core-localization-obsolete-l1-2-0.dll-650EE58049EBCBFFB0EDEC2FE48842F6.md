@@ -67,6 +67,13 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm64\1033\wstracedumpresources.dll](wstracedumpresources.dll-822830E5CD770D0E430D17F354EC36ED.md) | 46
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\dumpexam.exe](dumpexam.exe-BB5B5EF474C3B2C1AFCF9337712B3293.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-heap-l1-1-0.dll](api-ms-win-core-heap-l1-1-0.dll-97C237F902C80A1348B27120245CA673.md) | 49
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-time-l1-1-0.dll](api-ms-win-crt-time-l1-1-0.dll-BB509BA60BBAB77306311CC9B8D3BF53.md) | 50
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-namedpipe-l1-1-0.dll](api-ms-win-core-namedpipe-l1-1-0.dll-D8661447DEB6A1F46D5E220FC75BBAE8.md) | 49
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-time-l1-1-0.dll](api-ms-win-crt-time-l1-1-0.dll-D39831F59FC93EB7DFA18BD5C371A2EE.md) | 50
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-utility-l1-1-0.dll](api-ms-win-crt-utility-l1-1-0.dll-013140C067EFB346386C9AA47FAC6FB7.md) | 44
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 50
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 27
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 40

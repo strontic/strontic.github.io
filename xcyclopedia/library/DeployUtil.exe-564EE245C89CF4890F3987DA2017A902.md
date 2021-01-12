@@ -1,0 +1,54 @@
+﻿---
+title: DeployUtil.exe | 
+excerpt: What is DeployUtil.exe?
+---
+
+# DeployUtil.exe 
+
+* File Path: `C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm64\DeployUtil.exe`
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `564EE245C89CF4890F3987DA2017A902`
+SHA1 | `DFB0E8FB339C2CF8399471C57C3AF0D95BFD8417`
+SHA256 | `5989030095450AC23D425372E448516F67F14525B244FBA2C09AB693C1CD9488`
+SHA384 | `F8AA77FC348DC6C4502F7DBCCEA4C502EA47D8D056CC26D7B76F8C7F5B1556A90A4E408FC0E9CA4FF034E0337C518179`
+SHA512 | `EE0DB6BA826C8CF4424057CB55F90CD6E91A5647A017B50E4D599B6AE98FAD77A1AF00295EE3BB09DE90F23E99AFEA32812CE649D24AC28792DABE6DDF0F2B6F`
+SSDEEP | `768:p3HjhShdBoCmG71hQHWlcDkH4Y2TuxB9nJoCYdRcPT:FHSB9RhQjkH47Y9uOL`
+IMP | `579C68BE44458A8BCEFAA4BA411569B6`
+PESHA1 | `3F9168F578EF390D8EB21390FDA0F9221B795E39`
+PE256 | `C414FE6944B2B326DBA7855619B65E08081F854FFA9B955DBF4C7C7FC779288E`
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000052C8FAF5B90BB753AC000000000052`
+* Thumbprint: `8438EA0A58759BEA28DA7CF658413939F2AD5BFF`
+* Issuer: CN=Microsoft Windows Phone Production PCA 2012, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Windows Phone, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: 
+* Product Name: 
+* Company Name: 
+* File Version: 
+* Product Version: 
+* Language: 
+* Legal Copyright: 
+* Machine Type: 64-bit ARM
+
+## File Scan
+
+* VirusTotal Detections: 0/75
+* VirusTotal Link: https://www.virustotal.com/gui/file/5989030095450ac23d425372e448516f67f14525b244fba2c09ab693c1cd9488/detection
+
+
+
+
+
+MIT License. Copyright (c) 2020 Strontic.
+
+

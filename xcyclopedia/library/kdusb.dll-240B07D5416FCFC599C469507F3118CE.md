@@ -57,6 +57,11 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/10a222e7248b5c3f5cb8e005748641b6423eefe2ff16cfc92d7503fd429efcd5/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\kdusb\kdusb.dll](kdusb.dll-D0BE821D5FD01DDEBFB6BA775982ED88.md) | 90
 
 
 

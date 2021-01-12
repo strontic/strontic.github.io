@@ -145,6 +145,14 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm64\uuidgen.exe](uuidgen.exe-120EEAB7C2283E19ECF9B98FE1A31A12.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-errorhandling-l1-1-0.dll](api-ms-win-core-errorhandling-l1-1-0.dll-E6506F25A2D7E47E02ECF4F96395BB38.md) | 46
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-file-l1-2-0.dll](api-ms-win-core-file-l1-2-0.dll-CC44206C303277D7ADDB98D821C91914.md) | 46
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-heap-l1-1-0.dll](api-ms-win-core-heap-l1-1-0.dll-605275C17E1CF88B83BE9EF4C330F86B.md) | 40
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-file-l1-1-0.dll](api-ms-win-core-file-l1-1-0.dll-EB5E7AFFE24AB532089733F8B708A1FF.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-file-l1-2-0.dll](api-ms-win-core-file-l1-2-0.dll-A8B0327931FD2C863693634B3081E6A0.md) | 41
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-localization-l1-2-0.dll](api-ms-win-core-localization-l1-2-0.dll-A94626CBC9C0E1B62619A8CF49504FF8.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-filesystem-l1-1-0.dll](api-ms-win-crt-filesystem-l1-1-0.dll-F6C3B0CD6C578F544E94D75D9C9FFAEC.md) | 46
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 36
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 32
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 54

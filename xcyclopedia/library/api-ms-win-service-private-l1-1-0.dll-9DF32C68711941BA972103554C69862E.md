@@ -74,6 +74,11 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-namedpipe-l1-1-0.dll](api-ms-win-core-namedpipe-l1-1-0.dll-5FDED5599461319595639569B49E7E53.md) | 47
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-synch-l1-2-0.dll](api-ms-win-core-synch-l1-2-0.dll-5FD759382CEC7F4C280BDC5F3215D22A.md) | 49
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-processenvironment-l1-1-0.dll](api-ms-win-core-processenvironment-l1-1-0.dll-589914E52BED4161FD4B288B2C07DE94.md) | 46
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-synch-l1-2-0.dll](api-ms-win-core-synch-l1-2-0.dll-93E94D0E45AEEC0C186BC3F74577BDF6.md) | 54
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-namedpipe-l1-1-0.dll](api-ms-win-core-namedpipe-l1-1-0.dll-EAD87C06066422461368FA5DC07BE9C0.md) | 46
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 41
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 29
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 38

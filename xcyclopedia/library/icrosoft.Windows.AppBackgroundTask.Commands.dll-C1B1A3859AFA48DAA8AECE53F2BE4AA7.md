@@ -52,6 +52,7 @@ PE256 | `A9C137DEE85DBD0828E55BC33A8BCEF8EAA3E13E564BD8EBE806B754BE7AB42C`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\Microsoft.PackageEditor.Lib.dll](Microsoft.PackageEditor.Lib.dll-FD418ED55DD6E936700F764F08438A9F.md) | 27
 [C:\Windows\system32\WindowsPowerShell\v1.0\Modules\WindowsErrorReporting\Microsoft.WindowsErrorReporting.PowerShell.dll](Microsoft.WindowsErrorReporting.PowerShell.dll-C6A6A2E6A7D41A903F565BBD08A0FFED.md) | 27
 [C:\Windows\SysWOW64\WindowsPowerShell\v1.0\Modules\AppBackgroundTask\Microsoft.Windows.AppBackgroundTask.Commands.dll](Microsoft.Windows.AppBackgroundTask.Commands.dll-FDD190F7B08E187BBB60222C692B25F9.md) | 88
 [C:\Windows\SysWOW64\WindowsPowerShell\v1.0\Modules\WindowsErrorReporting\Microsoft.WindowsErrorReporting.PowerShell.dll](Microsoft.WindowsErrorReporting.PowerShell.dll-8145615754E4B054CC9425EB636B53E8.md) | 29

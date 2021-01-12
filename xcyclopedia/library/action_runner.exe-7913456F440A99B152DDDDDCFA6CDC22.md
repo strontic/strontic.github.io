@@ -73,7 +73,7 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\Program Files\PowerToys\action_runner.exe](action_runner.exe-73A6DD5DB7FF6212549F47AF75E007E2.md) | 85
-[C:\Users\user\AppData\Local\Temp\action_runner.exe](action_runner.exe-7913456F440A99B152DDDDDCFA6CDC22.md) | 100
+[C:\Users\WDAGUtilityAccount\AppData\Local\Temp\action_runner.exe](action_runner.exe-7913456F440A99B152DDDDDCFA6CDC22.md) | 100
 
 
 

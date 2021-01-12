@@ -87,6 +87,11 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/8affe60addcf56009453146d0bacf80afba8511b2bf08096d7807824f1da676c/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm\winext\wdfkd.dll](wdfkd.dll-63D83855E0EB1AD91040809FE20DE1BA.md) | 54
 
 
 

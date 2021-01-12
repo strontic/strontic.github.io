@@ -64,6 +64,13 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 44
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\WindowsPowerShell\3.0\Microsoft.PowerShell.Diagnostics.Activities.dll](Microsoft.PowerShell.Diagnostics.Activities.dll-A073A9D38DBD110BC05AD2A6382C9C12.md) | 41
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\WindowsPowerShell\3.0\Microsoft.PowerShell.Security.Activities.dll](Microsoft.PowerShell.Security.Activities.dll-E4E44E5B59284C0108743D838191F6A1.md) | 43
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-process-l1-1-0.dll](api-ms-win-crt-process-l1-1-0.dll-B1FFA52678AB01D2D02E40961F1B12C8.md) | 47
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-datetime-l1-1-0.dll](api-ms-win-core-datetime-l1-1-0.dll-6EA580C3387B6F526D311B8755B8B535.md) | 49
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-handle-l1-1-0.dll](api-ms-win-core-handle-l1-1-0.dll-4ABBE981F41D2DE2ABAF96AB760FAB83.md) | 49
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-libraryloader-l1-1-0.dll](api-ms-win-core-libraryloader-l1-1-0.dll-83E0D47925476B83941B11A0813A8851.md) | 47
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-core-sysinfo-l1-1-0.dll](api-ms-win-core-sysinfo-l1-1-0.dll-33791965A25F3F37D87AF734AADE8BDC.md) | 47
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 46
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 27
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 46

@@ -82,6 +82,14 @@ File | Score
 [C:\program files (x86)\Amazon Corretto\jre8\bin\klist.exe](klist.exe-6EC7CA20366247C1BBAA9E68103B9520.md) | 88
 [C:\program files (x86)\Amazon Corretto\jre8\bin\tnameserv.exe](tnameserv.exe-55DC2860B7D0F30D785998CC1ABA5B4E.md) | 63
 
+## Possible Misuse
+
+*The following table contains possible examples of `klist.exe` being misused. While `klist.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1558.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.001/T1558.001.md) | klist purge | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1558.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.001/T1558.001.md) | klist | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 ## Additional Info*
 

@@ -50,6 +50,12 @@ PE256 | `5D52DEB6DF6114B776AE090BF9B2687CAF21F6F76CD3DC593512D37CB0DFF264`
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm64\filtreg.exe](filtreg.exe-D4391002ED47B07D1C97BA56C28A0DCA.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-file-l1-1-0.dll](api-ms-win-core-file-l1-1-0.dll-A877894C359B8CEA9E38F2140014D045.md) | 47
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-processenvironment-l1-1-0.dll](api-ms-win-core-processenvironment-l1-1-0.dll-B4E5873928EE122B7DAE9DB1C715E0EB.md) | 49
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-filesystem-l1-1-0.dll](api-ms-win-crt-filesystem-l1-1-0.dll-BAA19DC3425A9CA5CE98861374780381.md) | 44
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-util-l1-1-0.dll](api-ms-win-core-util-l1-1-0.dll-E36AA2B1607C38379E6749D106D316DB.md) | 50
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-conio-l1-1-0.dll](api-ms-win-crt-conio-l1-1-0.dll-B4489C03753849621A05FDF7A9D6C215.md) | 52
 [C:\Windows\system32\downlevel\api-ms-win-core-handle-l1-1-0.dll](api-ms-win-core-handle-l1-1-0.dll-0B5D110A0CD6132F62CBF0017111C920.md) | 40
 [C:\Windows\system32\downlevel\api-ms-win-core-heap-l1-1-0.dll](api-ms-win-core-heap-l1-1-0.dll-28C8DCCD9300103FABD0B946764EA971.md) | 38
 [C:\Windows\system32\DriverStore\FileRepository\halextpl080.inf_amd64_15251233835ef753\HalExtPL080.dll](HalExtPL080.dll-6D196F378B3FB8FC5CC19C7B6F12E170.md) | 100

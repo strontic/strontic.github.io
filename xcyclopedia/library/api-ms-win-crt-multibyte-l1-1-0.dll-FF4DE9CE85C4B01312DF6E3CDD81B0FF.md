@@ -257,6 +257,15 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-64BDF89815F86DF9F85144657AF9F0B6.md) | 30
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.VisualC.dll](Microsoft.VisualC.dll-1DB522C6915B32A4F8DA48AAE97DBE63.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\Microsoft.Azure.KeyVault.Core.dll](Microsoft.Azure.KeyVault.Core.dll-8C454E6D06D56C19F355F702B15EBB15.md) | 36
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\Microsoft.WindowsAzure.Configuration.dll](Microsoft.WindowsAzure.Configuration.dll-E2349A573FA735D9C89A44F81967A346.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\Microsoft.Azure.KeyVault.Core.dll](Microsoft.Azure.KeyVault.Core.dll-8C454E6D06D56C19F355F702B15EBB15.md) | 36
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\Microsoft.WindowsAzure.Configuration.dll](Microsoft.WindowsAzure.Configuration.dll-E2349A573FA735D9C89A44F81967A346.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-multibyte-l1-1-0.dll](api-ms-win-crt-multibyte-l1-1-0.dll-22F10CD162990E79E2CB5430074509E5.md) | 58
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-multibyte-l1-1-0.dll](api-ms-win-crt-multibyte-l1-1-0.dll-26F357EF413713C57C8F84837D1EC94E.md) | 58
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-multibyte-l1-1-0.dll](api-ms-win-crt-multibyte-l1-1-0.dll-49E08414C8919C5BF316C2C8327BF51B.md) | 65
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-multibyte-l1-1-0.dll](api-ms-win-crt-multibyte-l1-1-0.dll-4B189D01EDDD9C21D2E56CABA7B6CF50.md) | 55
 [C:\Program Files\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-8D4116AA6E0A67D22FCC4E3C47B48076.md) | 32
 [C:\Windows\system32\downlevel\api-ms-win-crt-multibyte-l1-1-0.dll](api-ms-win-crt-multibyte-l1-1-0.dll-964CA669AC5B78969F5878BD3DAE4C6E.md) | 55
 [C:\WINDOWS\system32\microsoft.windows.softwarelogo.showdesktop.exe](microsoft.windows.softwarelogo.showdesktop.exe-A44A1BB96C6AF4AAB1AB6BBC18973BDC.md) | 35

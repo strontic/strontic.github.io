@@ -58,6 +58,8 @@ Function Name | Ordinal | Type
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\dbgcore.dll](dbgcore.dll-844F24E2DE8C9E585D310450FFC2FBDC.md) | 49
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\srcsrv\dbgcore.dll](dbgcore.dll-5E5EFBC2FF0880AE227863015F8FBBBC.md) | 49
 [C:\Windows\SysWOW64\dbgcore.dll](dbgcore.dll-4A77035E26FA131A2F639CEA80E89773.md) | 50
 
 ## Possible Misuse

@@ -347,6 +347,13 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-64BDF89815F86DF9F85144657AF9F0B6.md) | 32
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.VisualC.dll](Microsoft.VisualC.dll-1DB522C6915B32A4F8DA48AAE97DBE63.md) | 29
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\Microsoft.Azure.KeyVault.Core.dll](Microsoft.Azure.KeyVault.Core.dll-8C454E6D06D56C19F355F702B15EBB15.md) | 29
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\Microsoft.WindowsAzure.Configuration.dll](Microsoft.WindowsAzure.Configuration.dll-E2349A573FA735D9C89A44F81967A346.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\Microsoft.Azure.KeyVault.Core.dll](Microsoft.Azure.KeyVault.Core.dll-8C454E6D06D56C19F355F702B15EBB15.md) | 29
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\Microsoft.WindowsAzure.Configuration.dll](Microsoft.WindowsAzure.Configuration.dll-E2349A573FA735D9C89A44F81967A346.md) | 30
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-math-l1-1-0.dll](api-ms-win-crt-math-l1-1-0.dll-DCD968FB42D0FF67E82FE0CE6FF312DD.md) | 50
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-math-l1-1-0.dll](api-ms-win-crt-math-l1-1-0.dll-5F6C4318712EF0C644D39C088B660EBD.md) | 47
 [C:\Program Files\Microsoft Silverlight\5.1.50918.0\agcp.exe](agcp.exe-8D4116AA6E0A67D22FCC4E3C47B48076.md) | 33
 [C:\Windows\system32\downlevel\api-ms-win-crt-math-l1-1-0.dll](api-ms-win-crt-math-l1-1-0.dll-E10E077BB06209AEDD0D0D378C758F73.md) | 47
 [C:\WINDOWS\system32\microsoft.windows.softwarelogo.showdesktop.exe](microsoft.windows.softwarelogo.showdesktop.exe-A44A1BB96C6AF4AAB1AB6BBC18973BDC.md) | 33

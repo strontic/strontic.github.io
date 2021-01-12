@@ -102,6 +102,13 @@ File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\PATHPING.EXE](PATHPING.EXE-EA65DBEC024E670769EBDFCF4CA7B118.md) | 44
 
+## Possible Misuse
+
+*The following table contains possible examples of `PATHPING.EXE` being misused. While `PATHPING.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_webshell_detection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_webshell_detection.yml) | `- '*pathping*' ` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 ## Additional Info*
 

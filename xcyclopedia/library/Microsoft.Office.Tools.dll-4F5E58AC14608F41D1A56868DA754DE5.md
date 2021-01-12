@@ -49,6 +49,13 @@ PE256 | `00260C1F2517BA6B3F16C519004CD170549BE24FE5E9270811E03760F3A0D67A`
 * VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/80c8843b66cdf4911a983512aaf0fb28f410d210d41374618d8a77142b20f4c3/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\System.Globalization.Extensions.dll](System.Globalization.Extensions.dll-A71B7305D16F39DDF09A325B9AD6AFF0.md) | 35
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\System.ValueTuple.dll](System.ValueTuple.dll-CAC37BF3E7CC4D614CE44A19796FA67E.md) | 41
+
 
 
 

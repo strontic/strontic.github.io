@@ -79,6 +79,15 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 38
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\WindowsPowerShell\3.0\Microsoft.WSMan.Management.Activities.dll](Microsoft.WSMan.Management.Activities.dll-09258C380E47CDEEA2F11CDDDA32C037.md) | 24
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\dumpchk.exe](dumpchk.exe-AC21502E9E462CD40F1822EDE9BADE53.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-debug-l1-1-0.dll](api-ms-win-core-debug-l1-1-0.dll-6464066A7C328FDD59346BD84AB0F915.md) | 50
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-rtlsupport-l1-1-0.dll](api-ms-win-core-rtlsupport-l1-1-0.dll-DE10D9D2770A31AEA8FE25504B4E6F6B.md) | 54
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-string-l1-1-0.dll](api-ms-win-core-string-l1-1-0.dll-E02E815E45106521AD47330D3C4FE76D.md) | 50
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-core-synch-l1-2-0.dll](api-ms-win-core-synch-l1-2-0.dll-F8E76B8C6EC962C535639EEE6F9C92FA.md) | 46
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-core-timezone-l1-1-0.dll](api-ms-win-core-timezone-l1-1-0.dll-1C52F55E2F2AFFECCC5A070A54E5A68F.md) | 50
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\API-MS-Win-core-xstate-l2-1-0.dll](API-MS-Win-core-xstate-l2-1-0.dll-2CFF9F45AA9698AEDBAB42CDB266D0FC.md) | 46
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-stdio-l1-1-0.dll](api-ms-win-crt-stdio-l1-1-0.dll-004A1A453191F514D764107A0EAA5C95.md) | 41
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 50
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 29
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 40

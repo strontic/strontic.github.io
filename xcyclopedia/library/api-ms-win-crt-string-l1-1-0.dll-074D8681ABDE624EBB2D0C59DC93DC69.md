@@ -234,6 +234,10 @@ Function Name | Ordinal | Type
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-string-l1-1-0.dll](api-ms-win-crt-string-l1-1-0.dll-93874AE775EE8A3ABE8FEE4EA8041C53.md) | 72
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-string-l1-1-0.dll](api-ms-win-crt-string-l1-1-0.dll-E849ABBFCA44C1A5489E92E6307AA9DC.md) | 72
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-string-l1-1-0.dll](api-ms-win-crt-string-l1-1-0.dll-146AE739F3ACDE4E04F992E1F6DC26F2.md) | 68
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-string-l1-1-0.dll](api-ms-win-crt-string-l1-1-0.dll-CFE9E3331815616F392CE1DB58E01ADC.md) | 72
 [C:\Windows\system32\downlevel\api-ms-win-crt-string-l1-1-0.dll](api-ms-win-crt-string-l1-1-0.dll-0F593E50BE4715AA8E1F6EB39434EDD5.md) | 71
 [C:\Windows\SysWOW64\downlevel\api-ms-win-crt-string-l1-1-0.dll](api-ms-win-crt-string-l1-1-0.dll-3AE5AB4383A95FC97E02E9DA4D427E2B.md) | 66
 

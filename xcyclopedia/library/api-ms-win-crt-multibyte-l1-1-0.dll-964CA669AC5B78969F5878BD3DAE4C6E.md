@@ -257,6 +257,10 @@ Function Name | Ordinal | Type
 File | Score
 -- | --
 [C:\Program Files (x86)\Common Files\Microsoft Shared\ink\TabTip32.exe](TabTip32.exe-DCB3378628CC715C93B9D53DF1857029.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\arm\api-ms-win-crt-multibyte-l1-1-0.dll](api-ms-win-crt-multibyte-l1-1-0.dll-22F10CD162990E79E2CB5430074509E5.md) | 69
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\api-ms-win-crt-multibyte-l1-1-0.dll](api-ms-win-crt-multibyte-l1-1-0.dll-26F357EF413713C57C8F84837D1EC94E.md) | 69
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x86\api-ms-win-crt-multibyte-l1-1-0.dll](api-ms-win-crt-multibyte-l1-1-0.dll-49E08414C8919C5BF316C2C8327BF51B.md) | 80
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-multibyte-l1-1-0.dll](api-ms-win-crt-multibyte-l1-1-0.dll-4B189D01EDDD9C21D2E56CABA7B6CF50.md) | 72
 [C:\Windows\system32\69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll](69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll-AA22ACA4AF887A2C3859F19B037D044C.md) | 35
 [C:\Windows\system32\AppVClientPS.dll](AppVClientPS.dll-12D7BD5C071D933C19F87D2AF5913D4C.md) | 36
 [C:\Windows\system32\AppVSentinel.dll](AppVSentinel.dll-CFD2B3FB747E73C3962320BA1E993C66.md) | 35

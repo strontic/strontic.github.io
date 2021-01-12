@@ -271,6 +271,14 @@ File | Score
 [C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\servertool.exe](servertool.exe-FF6FAFFF307A92D012ABBF84FC5DE132.md) | 71
 [C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin\tnameserv.exe](tnameserv.exe-F41937DA12ADFBBE9E92AD99F8039A9F.md) | 63
 
+## Possible Misuse
+
+*The following table contains possible examples of `klist.exe` being misused. While `klist.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1558.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.001/T1558.001.md) | klist purge | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1558.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.001/T1558.001.md) | klist | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 ## Additional Info*
 

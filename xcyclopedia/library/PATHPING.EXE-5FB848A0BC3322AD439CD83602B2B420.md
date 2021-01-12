@@ -103,6 +103,13 @@ C:\Windows\System32\WS2_32.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/96a0fa913d1688d61496b0001f5264fc1727c9a7af9232d1eb02811252ed1908/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `PATHPING.EXE` being misused. While `PATHPING.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_webshell_detection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_webshell_detection.yml) | `- '*pathping*' ` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 ## Additional Info*
 

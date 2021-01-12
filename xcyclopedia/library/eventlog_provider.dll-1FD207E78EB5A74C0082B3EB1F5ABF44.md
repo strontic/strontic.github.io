@@ -57,6 +57,8 @@ Function Name | Ordinal | Type
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Facades\System.IO.FileSystem.Watcher.dll](System.IO.FileSystem.Watcher.dll-437A84FCEB862300D9205FA37AA61A77.md) | 32
+[C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\KeyFile\1033\sqlodbc_keyfile.dll](sqlodbc_keyfile.dll-6CF3C3BA68715506234F0E324A8DB5FD.md) | 38
 [C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\ScreenClipping\ScreenClippingHost.exe](ScreenClippingHost.exe-3C4E7F1BF05A5088430FB512081061B2.md) | 35
 
 

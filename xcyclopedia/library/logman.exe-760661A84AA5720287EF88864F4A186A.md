@@ -213,6 +213,13 @@ File | Score
 -- | --
 [C:\Windows\SysWOW64\logman.exe](logman.exe-6D2B1E2C3199BD27E2E532089C178AEE.md) | 94
 
+## Possible Misuse
+
+*The following table contains possible examples of `logman.exe` being misused. While `logman.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_etw_trace_evasion.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_etw_trace_evasion.yml) | `- "logman" ` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 ## Additional Info*
 

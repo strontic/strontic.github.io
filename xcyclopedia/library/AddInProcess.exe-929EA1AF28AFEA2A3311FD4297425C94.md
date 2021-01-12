@@ -65,6 +65,9 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\StoreAdm.exe](StoreAdm.exe-85B13A98346827385E170C43C6210B3C.md) | 63
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.ApplicationServices.dll](System.Web.ApplicationServices.dll-0C1A4B54901395498BADC6CD91C6C59C.md) | 44
+[C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.DynamicData.Design.dll](System.Web.DynamicData.Design.dll-B2AB11DE28D8499277978488AF4C471F.md) | 63
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\AddInProcess32.exe](AddInProcess32.exe-9827FF3CDF4B83F9C86354606736CA9C.md) | 71
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\AddInUtil.exe](AddInUtil.exe-11BED2C86507F7DF04BA52CFC7EB7276.md) | 69
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_regbrowsers.exe](aspnet_regbrowsers.exe-BB8B6B54FD50C08AB579B84BF07918CF.md) | 65

@@ -2536,6 +2536,8 @@ Function Name | Ordinal | Type
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Windows Kits\10\Redist\10.0.19041.0\ucrt\DLLs\x64\ucrtbase.dll](ucrtbase.dll-BB0E3819E308A153C99FA6BCCF2F4E77.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\ucrtbase.dll](ucrtbase.dll-7E39D82ADF5DA0B51A968C764E0E15C1.md) | 35
 [C:\Windows\system32\downlevel\ucrtbase.dll](ucrtbase.dll-C9C70E684CA8E1D74FCFA17DBC6EAAB4.md) | 35
 [C:\Windows\system32\ucrtbase.dll](ucrtbase.dll-443102390481641E6CF3845FAD34C892.md) | 33
 

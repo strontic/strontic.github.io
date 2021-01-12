@@ -61,6 +61,8 @@ Function Name | Ordinal | Type
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\adpcmencode3.exe](adpcmencode3.exe-12FFEE959BBC29D544DD6387E63981D4.md) | 50
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\adpcmencode3.exe](adpcmencode3.exe-1390AAF9893E6224845F89C45EC874F4.md) | 55
 [C:\Windows\system32\RESAMPLEDMO.DLL](RESAMPLEDMO.DLL-DAFBFA941F1D5AF65C296A2B22D0EC7A.md) | 58
 [C:\Windows\SysWOW64\dsound.dll](dsound.dll-ABD7791A43B6C56891BFC5D4EE0063D2.md) | 40
 [C:\Windows\SysWOW64\MFWMAAEC.DLL](MFWMAAEC.DLL-3FA8077C9C6A769B3BD88800E818BDF6.md) | 38

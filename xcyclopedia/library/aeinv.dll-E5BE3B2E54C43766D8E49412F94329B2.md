@@ -61,6 +61,11 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/6358c8043137c26a5b45b45f1c6bc6aa3889ba96ce1c9384de9a7709977a67c9/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Windows Kits\10\App Certification Kit\aeinv.dll](aeinv.dll-E8EBCF907C54E01740D2EE10CE769AFC.md) | 99
 
 
 

@@ -84,6 +84,14 @@ File | Score
 [C:\Program Files\Amazon Corretto\jdk1.8.0_265\bin\rmic.exe](rmic.exe-81D6484F78DCB9ABAE2F748AC381B5E0.md) | 40
 [C:\program files\Amazon Corretto\jdk11.0.8_10\bin\keytool.exe](keytool.exe-6045C32AB7C9FE9F5292B494A1B2E232.md) | 47
 
+## Possible Misuse
+
+*The following table contains possible examples of `klist.exe` being misused. While `klist.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1558.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.001/T1558.001.md) | klist purge | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1558.001.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.001/T1558.001.md) | klist | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 ## Additional Info*
 

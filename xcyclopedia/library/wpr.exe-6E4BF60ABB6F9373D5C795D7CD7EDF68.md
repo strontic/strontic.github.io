@@ -106,6 +106,11 @@ C:\Windows\system32\wpr.exe |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/30940147d6c68c79c9cb8e56cedb4daa4f025eddf1134274de90dd39d0d8ead0/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\wpr.exe](wpr.exe-3836F328B1E6F7C642B35115D9A2E774.md) | 93
 
 ## Possible Misuse
 

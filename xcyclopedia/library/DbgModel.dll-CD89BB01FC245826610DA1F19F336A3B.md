@@ -53,6 +53,11 @@ Function Name | Ordinal | Type
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/7ae4fb26e02bda07f5b9264b4b1609d834f59a9ca77a345bbe6218314bf0c70f/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\DbgModel.dll](DbgModel.dll-6B0A3AF856358B83808E211C0CE2F24A.md) | 99
 
 
 

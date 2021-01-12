@@ -49,6 +49,13 @@ PE256 | `E6220572268D6A1719A2C9EA4635BF930DC3352CD431513B3EB5E960871DE502`
 * VirusTotal Detections: 0/70
 * VirusTotal Link: https://www.virustotal.com/gui/file/207af46f9eec4ce1dbd5e57eed35ce7ef2c0c5b64e3d18c1b2b166007fe75d0e/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\Microsoft.Data.Edm.dll](Microsoft.Data.Edm.dll-383FE8CAD1F26D4A307FFD490B96D307.md) | 50
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\Microsoft.Data.Edm.dll](Microsoft.Data.Edm.dll-383FE8CAD1F26D4A307FFD490B96D307.md) | 50
+
 
 
 

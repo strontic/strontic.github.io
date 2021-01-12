@@ -64,6 +64,12 @@ Function Name | Ordinal | Type
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm64\tracefmt.exe](tracefmt.exe-1A132D3C750C4F6E6A49DD0B15037A01.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\tracefmt.exe](tracefmt.exe-A02AC40EA76F0B6AFE2C9FF49BB15692.md) | 33
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\arm64\winxp\wmitrace.dll](wmitrace.dll-6C8CAEA4F842FCA3FFE733AB4D9C82F5.md) | 35
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\winext\rcdrkd.dll](rcdrkd.dll-17D72886BD70CE923FAB6A6427360028.md) | 38
+[C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\winxp\wmitrace.dll](wmitrace.dll-2B386CB3C2E87D0AE428CDA7EB809640.md) | 32
+[C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\perf_wpp.dll](perf_wpp.dll-5570A1894C91C49766FFF4CFDB1BE221.md) | 30
 [C:\Windows\system32\nltest.exe](nltest.exe-0C96FBA0F1ABEEF164B077D34F5B6F6A.md) | 35
 [C:\Windows\system32\nltest.exe](nltest.exe-396EC29E0B1F77824E6479D8D810D315.md) | 35
 
