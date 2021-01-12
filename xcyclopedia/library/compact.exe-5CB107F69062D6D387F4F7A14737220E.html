@@ -447,11 +447,11 @@
 
 <h2 id="compact">compact</h2>
 
-<p>Displays or alters the compression of files or directories on NTFS partitions. If used without parameters, <strong>compact</strong> displays the compression state of the current directory and the files it contains.</p>
+<p>Displays or alters the compression of files or directories on NTFS partitions. If used without parameters, <strong>compact</strong> displays the compression state of the current directory and any files it contains.</p>
 
 <h3 id="syntax">Syntax</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>compact [/c | /u] [/s[:&lt;dir&gt;]] [/a] [/i] [/f] [/q] [&lt;filename&gt;[...]]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>compact [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]] [/CompactOs[:option] [/windir:dir]] [filename [...]]
 </code></pre></div></div>
 
 <h4 id="parameters">Parameters</h4>
@@ -466,35 +466,47 @@
   <tbody>
     <tr>
       <td>/c</td>
-      <td>Compresses the specified directory or file.</td>
+      <td>Compresses the specified directory or file. Directories are marked so any files added afterwards are compressed, unless the /EXE parameter is specified.</td>
     </tr>
     <tr>
       <td>/u</td>
-      <td>Uncompresses the specified directory or file.</td>
+      <td>Uncompresses the specified directory or file. Directories are marked so any files added afterwards aren’t compressed. If the /EXE parameter is specified, only files compressed as executables are uncompressed; if you don’t specify the /EXE parameter, only NTFS compressed files are uncompressed.</td>
     </tr>
     <tr>
-      <td>/s[:<code class="language-plaintext highlighter-rouge">&lt;dir&gt;</code>]</td>
-      <td>Applies the <strong>compact</strong> command to all subdirectories of the specified directory (or of the current directory if none is specified).</td>
+      <td>/s<code class="language-plaintext highlighter-rouge">[:&lt;dir&gt;]</code></td>
+      <td>Performs the chosen operation on files in the specified directory and all subdirectories. By default, the current directory is used as the <code class="language-plaintext highlighter-rouge">&lt;dir&gt;</code> value.</td>
     </tr>
     <tr>
       <td>/a</td>
-      <td>Displays hidden or system files.</td>
+      <td>Displays hidden or system files. By default, these files aren’t included.</td>
     </tr>
     <tr>
       <td>/i</td>
-      <td>Ignores errors.</td>
+      <td>Continues performing the specified operation, ignoring errors. By default, this command stops when an error is encountered.</td>
     </tr>
     <tr>
       <td>/f</td>
-      <td>Forces compression or uncompression of the specified directory or file. <strong>/f</strong> is used in the case of a file that was partly compressed when the operation was interrupted by a system crash. To force the file to be compressed in its entirety, use the <strong>/c</strong> and <strong>/f</strong> parameters and specify the partially compressed file.</td>
+      <td>Forces compression or uncompression of the specified directory or file. Already-compressed files are skipped by default. The <strong>/f</strong> parameter is used in the case of a file that was partly compressed when the operation was interrupted by a system crash. To force the file to be compressed in its entirety, use the <strong>/c</strong> and <strong>/f</strong> parameters and specify the partially compressed file.</td>
     </tr>
     <tr>
       <td>/q</td>
       <td>Reports only the most essential information.</td>
     </tr>
     <tr>
+      <td>/EXE</td>
+      <td>Uses compression optimized for executable files that are read frequently, but not modified. Supported algorithms are:&lt;ul&gt;&lt;li&gt;<strong>XPRESS4K</strong> (fastest and default value)&lt;/li&gt;&lt;li&gt;<strong>XPRESS8K</strong>&lt;/li&gt;&lt;li&gt;<strong>XPRESS16K</strong>&lt;/li&gt;&lt;li&gt;<strong>LZX</strong> (most compact)&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/CompactOs</td>
+      <td>Sets or queries the system’s compression state. Supported options are:&lt;ul&gt;&lt;li&gt;<strong>query</strong> - Queries the system’s <strong>Compact</strong> state.&lt;/li&gt;&lt;li&gt;<strong>always</strong> - Compresses all operating system binaries and sets the system state to Compact, which remains unless administrator changes it.&lt;/li&gt;&lt;li&gt;<strong>never</strong> - Uncompresses all operating system binaries and sets the system state to non-Compact, which remains unless administrator changes it.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/windir</td>
+      <td>Used with the <strong>/CompactOs:query</strong> parameter, when querying the offline operating system. Specifies the directory where Windows is installed.</td>
+    </tr>
+    <tr>
       <td><code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></td>
-      <td>Specifies the file or directory. You can use multiple file names, and the <strong>*</strong> and <strong>?</strong> wildcard characters.</td>
+      <td>Specifies a pattern, file, or directory. You can use multiple file names, and the <strong>*</strong> and <strong>?</strong> wildcard characters.</td>
     </tr>
     <tr>
       <td>/?</td>
@@ -630,7 +642,7 @@ This example sets the compression state of all directories (including the root d
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

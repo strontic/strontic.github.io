@@ -541,7 +541,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md">T1222.001.md</a></td>
-      <td>Adversaries can interact with the DACLs using built-in Windows commands, such as <code class="language-plaintext highlighter-rouge">icacls</code>, <code class="language-plaintext highlighter-rouge">takeown</code>, and <code class="language-plaintext highlighter-rouge">attrib</code>, which can grant adversaries higher permissions on specific files and folders. Further, <a href="https://attack.mitre.org/techniques/T1059/001">PowerShell</a> provides cmdlets that can be used to retrieve or modify file and directory DACLs. Specific file and directory modifications may be a required step for many techniques, such as establishing Persistence via <a href="https://attack.mitre.org/techniques/T1546/008">Accessibility Features</a>, <a href="https://attack.mitre.org/techniques/T1037">Boot or Logon Initialization Scripts</a>, or tainting/hijacking other instrumental binary/configuration files via <a href="https://attack.mitre.org/techniques/T1574">Hijack Execution Flow</a>.&lt;/blockquote&gt;</td>
+      <td>Adversaries can interact with the DACLs using built-in Windows commands, such as <code class="language-plaintext highlighter-rouge">icacls</code>, <code class="language-plaintext highlighter-rouge">cacls</code>, <code class="language-plaintext highlighter-rouge">takeown</code>, and <code class="language-plaintext highlighter-rouge">attrib</code>, which can grant adversaries higher permissions on specific files and folders. Further, <a href="https://attack.mitre.org/techniques/T1059/001">PowerShell</a> provides cmdlets that can be used to retrieve or modify file and directory DACLs. Specific file and directory modifications may be a required step for many techniques, such as establishing Persistence via <a href="https://attack.mitre.org/techniques/T1546/008">Accessibility Features</a>, <a href="https://attack.mitre.org/techniques/T1037">Boot or Logon Initialization Scripts</a>, or tainting/hijacking other instrumental binary/configuration files via <a href="https://attack.mitre.org/techniques/T1574">Hijack Execution Flow</a>.&lt;/blockquote&gt;</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -933,7 +933,7 @@ icacls &lt;directory&gt; [/substitute &lt;sidold&gt; &lt;sidnew&gt; [...]] [/res
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

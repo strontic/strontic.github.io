@@ -434,6 +434,12 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/cmstp_execution.yml">cmstp_execution.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects various indicators of Microsoft Connection Manager Profile Installer execution</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_cmstp_com_object_access.yml">win_cmstp_com_object_access.yml</a></td>
       <td><code class="language-plaintext highlighter-rouge">description: Detects UAC Bypass Attempt Using Microsoft Connection Manager Profile Installer Autoelevate-capable COM Objects</code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
@@ -465,12 +471,6 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_cmstp_execution.yml">sysmon_cmstp_execution.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects various indicators of Microsoft Connection Manager Profile Installer execution</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_cmstp_execution.yml">sysmon_cmstp_execution.yml</a></td>
       <td><code class="language-plaintext highlighter-rouge">description: Detects various indicators of Microsoft Connection Manager Profile Installer execution</code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
@@ -578,6 +578,12 @@
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/signsight/signsight-misp-event.json">signsight-misp-event.json</a></td>
+      <td><code class="language-plaintext highlighter-rouge">"comment": "Trojanized installer",</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a></td>
       <td><code class="language-plaintext highlighter-rouge">\|Stantinko Installer \| udservice.exe \| update.ultimate-discounter[.]com</code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
@@ -681,37 +687,37 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  | <a href="../../T1059.003/T1059.003.md">Windows Command Shell</a> | <a href="../../T1136.002/T1136.002.md">Domain Account</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1562.004/T1562.004.md">Disable or Modify System Firewall</a> | <a href="../../T1110.002/T1110.002.md">Password Cracking</a> | <a href="../../T1007/T1007.md">System Service Discovery</a> |  | Web Portal Capture <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Protocol Impersonation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  | User Execution <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1136.002/T1136.002.md">Domain Account</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1562.002/T1562.002.md">Disable Windows Event Logging</a> | Network Device Authentication <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1033/T1033.md">System Owner/User Discovery</a> |  | SNMP (MIB Dump) <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Protocol Impersonation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1547.006/T1547.006.md">Kernel Modules and Extensions</a> | Elevated Execution with Prompt <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Proc Filesystem <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  | Symmetric Cryptography <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  |  | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1547.006/T1547.006.md">Kernel Modules and Extensions</a> | Downgrade System Image <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1110.003/T1110.003.md">Password Spraying</a> |  |  |  |  | Symmetric Cryptography <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | Hijack Execution Flow <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1574.006/T1574.006.md">LD_PRELOAD</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Securityd Memory <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  | <a href="../../T1071.001/T1071.001.md">Web Protocols</a> |  |</td>
+      <td>|  |  | Implant Container Image <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1543.004/T1543.004.md">Launch Daemon</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Securityd Memory <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  | <a href="../../T1059.003/T1059.003.md">Windows Command Shell</a> | <a href="../../T1136.002/T1136.002.md">Domain Account</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1562.001/T1562.001.md">Disable or Modify Tools</a> | <a href="../../T1003.003/T1003.003.md">NTDS</a> | <a href="../../T1016/T1016.md">System Network Configuration Discovery</a> |  | Remote Data Staging <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Multi-hop Proxy <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Stored Data Manipulation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |</td>
+      <td>|  | <a href="../../T1059.003/T1059.003.md">Windows Command Shell</a> | <a href="../../T1136.002/T1136.002.md">Domain Account</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1562.004/T1562.004.md">Disable or Modify System Firewall</a> | Man-in-the-Middle <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1016/T1016.md">System Network Configuration Discovery</a> |  | Man-in-the-Middle <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Multi-hop Proxy <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Stored Data Manipulation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Hijack Execution Flow <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Environmental Keying <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1556.002/T1556.002.md">Password Filter DLL</a> | <a href="../../T1124/T1124.md">System Time Discovery</a> |  | Video Capture <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | <a href="../../T1571/T1571.md">Non-Standard Port</a> |  |</td>
+      <td>|  |  | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Hijack Execution Flow <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Dynamic-link Library Injection <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1003/T1003.md">OS Credential Dumping</a> | <a href="../../T1124/T1124.md">System Time Discovery</a> |  | Sharepoint <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | <a href="../../T1571/T1571.md">Non-Standard Port</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | <a href="../../T1133/T1133.md">External Remote Services</a> | <a href="../../T1546.012/T1546.012.md">Image File Execution Options Injection</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1110.001/T1110.001.md">Password Guessing</a> | Time Based Evasion <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Web Portal Capture <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | One-Way Communication <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  |  | Hijack Execution Flow <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | LSASS Driver <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1556.002/T1556.002.md">Password Filter DLL</a> | User Activity Based Checks <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Web Portal Capture <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Port Knocking <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1034,7 +1040,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

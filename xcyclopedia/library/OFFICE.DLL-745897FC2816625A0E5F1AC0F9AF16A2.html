@@ -449,6 +449,30 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_office_test_regadd.yml">sysmon_office_test_regadd.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">title: Office Application Startup - Office Test</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_office_test_regadd.yml">sysmon_office_test_regadd.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects the addition of office test registry that allows a user to specify an arbitrary DLL that will be executed everytime an Office application is started</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_office_test_regadd.yml">sysmon_office_test_regadd.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'HKEY_CURRENT_USER\Software\Microsoft\Office test\Special\Perf'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_office_test_regadd.yml">sysmon_office_test_regadd.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">- 'HKEY_LOCAL_MACHINE\Software\Microsoft\Office test\Special\Perf'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_reg_office_security.yml">sysmon_reg_office_security.yml</a></td>
       <td><code class="language-plaintext highlighter-rouge">title: Office Security Settings Changed</code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
@@ -1140,67 +1164,67 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/linux-matrix.md">linux-matrix.md</a></td>
-      <td>| Compromise Software Dependencies and Development Tools <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1053.003/T1053.003.md">Cron</a> | Add Office 365 Global Administrator Role <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1053.001/T1053.001.md">At (Linux)</a> | <a href="../../T1027.001/T1027.001.md">Binary Padding</a> | Brute Force <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Cloud Account <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Internal Spearphishing <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Archive via Library <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1048/T1048.md">Exfiltration Over Alternative Protocol</a> | Bidirectional Communication <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Application or System Exploitation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |</td>
+      <td>| Compromise Software Dependencies and Development Tools <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1053.003/T1053.003.md">Cron</a> | Add Office 365 Global Administrator Role <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1053.001/T1053.001.md">At (Linux)</a> | <a href="../../T1027.001/T1027.001.md">Binary Padding</a> | <a href="../../T1552.003/T1552.003.md">Bash History</a> | Cloud Account <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Internal Spearphishing <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Archive via Custom Method <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1048/T1048.md">Exfiltration Over Alternative Protocol</a> | Bidirectional Communication <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Application or System Exploitation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/linux-matrix.md">linux-matrix.md</a></td>
-      <td>|  |  | Office Application Startup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Impair Defenses <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | User Activity Based Checks <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  | <a href="../../T1571/T1571.md">Non-Standard Port</a> |  |</td>
+      <td>|  |  | Office Application Startup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Hijack Execution Flow <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Web Portal Capture <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | User Activity Based Checks <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Web Portal Capture <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | One-Way Communication <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/linux-matrix.md">linux-matrix.md</a></td>
-      <td>|  |  | Office Template Macros <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | <a href="../../T1562.006/T1562.006.md">Indicator Blocking</a> |  | Virtualization/Sandbox Evasion <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  | One-Way Communication <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  |  | Office Template Macros <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | <a href="../../T1562.003/T1562.003.md">Impair Command History Logging</a> |  | Virtualization/Sandbox Evasion <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  | Port Knocking <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/linux-matrix.md">linux-matrix.md</a></td>
-      <td>|  |  | Office Test <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Indicator Removal from Tools <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  | Port Knocking <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  |  | Office Test <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Impair Defenses <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  | Protocol Impersonation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>| Compromise Software Supply Chain <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Command and Scripting Interpreter <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Add Office 365 Global Administrator Role <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1546.008/T1546.008.md">Accessibility Features</a> | <a href="../../T1055.004/T1055.004.md">Asynchronous Procedure Call</a> | Cached Domain Credentials <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Cloud Account <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Exploitation of Remote Services <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1560.001/T1560.001.md">Archive via Utility</a> | Exfiltration Over Asymmetric Encrypted Non-C2 Protocol <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Commonly Used Port <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1485/T1485.md">Data Destruction</a> |</td>
+      <td>| Compromise Software Supply Chain <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Command and Scripting Interpreter <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Add Office 365 Global Administrator Role <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1546.008/T1546.008.md">Accessibility Features</a> | <a href="../../T1055.004/T1055.004.md">Asynchronous Procedure Call</a> | <a href="../../T1552.003/T1552.003.md">Bash History</a> | Cloud Account <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Exploitation of Remote Services <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Archive via Library <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Exfiltration Over Asymmetric Encrypted Non-C2 Protocol <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Commonly Used Port <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1485/T1485.md">Data Destruction</a> |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | Office Application Startup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Port Monitors <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Indicator Removal from Tools <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |  |</td>
+      <td>|  |  | Office Application Startup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Port Monitors <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1562.003/T1562.003.md">Impair Command History Logging</a> |  |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | Office Template Macros <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Portable Executable Injection <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1070/T1070.md">Indicator Removal on Host</a> |  |  |  |  |  |  |  |</td>
+      <td>|  |  | Office Template Macros <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Portable Executable Injection <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Impair Defenses <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | <a href="../../T1137.002/T1137.002.md">Office Test</a> | <a href="../../T1546.013/T1546.013.md">PowerShell Profile</a> | <a href="../../T1202/T1202.md">Indirect Command Execution</a> |  |  |  |  |  |  |  |</td>
+      <td>|  |  | <a href="../../T1137.002/T1137.002.md">Office Test</a> | <a href="../../T1546.013/T1546.013.md">PowerShell Profile</a> | <a href="../../T1562.006/T1562.006.md">Indicator Blocking</a> |  |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | Office Application Startup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Path Interception by Search Order Hijacking <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Hide Artifacts <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  | <a href="../../T1071.001/T1071.001.md">Web Protocols</a> |  |</td>
+      <td>|  |  | Office Application Startup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Path Interception by Search Order Hijacking <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1564.003/T1564.003.md">Hidden Window</a> | Unsecured Credentials <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  | <a href="../../T1071.001/T1071.001.md">Web Protocols</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | Office Template Macros <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1574.009/T1574.009.md">Path Interception by Unquoted Path</a> | Hijack Execution Flow <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  | Web Service <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  |  | Office Template Macros <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1574.009/T1574.009.md">Path Interception by Unquoted Path</a> | <a href="../../T1564/T1564.md">Hide Artifacts</a> | Web Portal Capture <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  | Web Service <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | <a href="../../T1137.002/T1137.002.md">Office Test</a> | Port Monitors <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Impair Defenses <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |  |</td>
+      <td>|  |  | <a href="../../T1137.002/T1137.002.md">Office Test</a> | Port Monitors <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Hijack Execution Flow <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1217,8 +1241,20 @@
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055/T1055.md">T1055.md</a></td>
+      <td>Note: Due to the way the VBA code handles memory/pointers/injection, a 64bit installation of Microsoft Office</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055/T1055.md">T1055.md</a></td>
+      <td>##### Description: The 64-bit version of Microsoft Office must be installed</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.005/T1059.005.md">T1059.005.md</a></td>
-      <td>Derivative languages based on VB have also been created, such as Visual Basic for Applications (VBA) and VBScript. VBA is an event-driven programming language built into Office applications.(Citation: Microsoft VBA)  VBA enables documents to contain macros used to automate the execution of tasks and other functionality on the host. VBScript is a default scripting language on Windows hosts and can also be used in place of <a href="https://attack.mitre.org/techniques/T1059/007">JavaScript/JScript</a> on HTML Application (HTA) webpages served to Internet Explorer (though most modern browsers do not come with VBScript support).(Citation: Microsoft VBScript)</td>
+      <td>Derivative languages based on VB have also been created, such as Visual Basic for Applications (VBA) and VBScript. VBA is an event-driven programming language built into Microsoft Office, as well as several third-party applications.(Citation: Microsoft VBA)(Citation: Wikipedia VBA) VBA enables documents to contain macros used to automate the execution of tasks and other functionality on the host. VBScript is a default scripting language on Windows hosts and can also be used in place of <a href="https://attack.mitre.org/techniques/T1059/007">JavaScript/JScript</a> on HTML Application (HTA) webpages served to Internet Explorer (though most modern browsers do not come with VBScript support).(Citation: Microsoft VBScript)</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1441,6 +1477,12 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md">T1562.001.md</a></td>
       <td>Remove-Item -Path “HKCU:\Software\Microsoft\Office\16.0\Excel\Security\ProtectedView” -ErrorAction Ignore</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564/T1564.md">T1564.md</a></td>
+      <td>within the office document itself. An example of this technique can be seen in sample</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1709,7 +1751,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

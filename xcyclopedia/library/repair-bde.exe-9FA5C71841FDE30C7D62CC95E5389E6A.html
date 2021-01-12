@@ -602,6 +602,11 @@ If the BitLocker metadata data on the drive is corrupt, you must be able to supp
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>repair-bde &lt;inputvolume&gt; &lt;outputvolumeorimage&gt; [-rk] [â€“rp] [-pw] [â€“kp] [â€“lf] [-f] [{-?|/?}]
 </code></pre></div></div>
 
+<blockquote>
+  <p>[!WARNING]
+The contents of the output volume will be <strong>completely deleted and overwritten</strong> by the decrypted contents from the damaged BitLocker drive. If you want to save any existing data on the selected target drive, move the existing data to other reliable backup media first, before running the <code class="language-plaintext highlighter-rouge">repair-bde</code> command.</p>
+</blockquote>
+
 <h4 id="parameters">Parameters</h4>
 
 <table>
@@ -770,7 +775,7 @@ The recovery password should be typed in eight blocks of six digits with a hyphe
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

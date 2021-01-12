@@ -1,0 +1,620 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>dxc.exe | DX Compiler &#124; STRONTIC</title>
+<meta name="description" content="What is dxc.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="dxc.exe | DX Compiler">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/dxc.exe-ED15CA31310E9F54287C636B2554480E.html">
+
+
+  <meta property="og:description" content="What is dxc.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="dxc.exe | DX Compiler">
+  <meta name="twitter:description" content="What is dxc.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/dxc.exe-ED15CA31310E9F54287C636B2554480E.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/dxc.exe-ED15CA31310E9F54287C636B2554480E.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">dxc.exe | DX Compiler</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            dxc.exe      DX Compiler      ">
+    <meta itemprop="description" content="What is dxc.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="dxcexe">dxc.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\dxc.exe</code></li>
+  <li>Description: DX Compiler</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">ED15CA31310E9F54287C636B2554480E</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">A631498E24572965897C7AEB841BC20B787120B3</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">0FFF44C2F61C2C61423F08C74ABA325049A1E14EDED5B491EFECB7839CCD9737</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">1DDCB60E2E6F53CCA11CBE3069AA82B325B7DC586CC11D8ADF4C6B805958CB5AFB643DAD87979D599D41BA8ADC2BAA09</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">5A50BBB364D130AB0D6F6C171B074480549914537F47CC502FBE18ED92E18C6B69956401A4D6E6ECDDB63D757D8A8A60586E6B0EC981A4FF5E20AD8AF12C721C</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">1536:N+MtxZCPfnfsHZ4jweYJA2hjhlT4oFKuxbr41b8ULcGJPxaMusWUpIMY22HREE2j:rlDhjrKHyxGJPxaZUpIMKEE2+4iTHu</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">A00314C6AABC1FFCB1C05166CB2A3943</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">6D2EDB4BDE69A0798F15CBADC807C0B1AC68A470</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">E0747A9D6A94427C2D5E226746C0A4E1B36039B5D842C09E56397A95B83CD3E1</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">OVERVIEW</span><span class="err">:</span> <span class="ni">HLSL</span> <span class="ni">Compiler</span>
+
+<span class="ni">Version</span><span class="err">:</span> <span class="ni">dxcompiler</span><span class="err">.</span><span class="kd">dll:</span> <span class="m">1</span><span class="err">.</span><span class="m">5</span> <span class="err">-</span> <span class="m">10</span><span class="err">.</span><span class="m">0</span><span class="err">.</span><span class="m">19041</span><span class="err">.</span><span class="m">1</span><span class="c">; dxil.dll: 1.5(10.0.19041.1)</span>
+
+<span class="ni">USAGE</span><span class="err">:</span> <span class="ni">dxc</span><span class="err">.</span><span class="ni">exe</span> <span class="err">[</span><span class="ni">options</span><span class="err">]</span> <span class="err">&lt;</span><span class="ni">inputs</span><span class="err">&gt;</span>
+
+<span class="ni">Common</span> <span class="ni">Options</span><span class="err">:</span>
+  <span class="err">-</span><span class="ni">help</span>              <span class="ni">Display</span> <span class="ni">available</span> <span class="ni">options</span>
+  <span class="err">-</span><span class="ni">nologo</span>            <span class="ni">Suppress</span> <span class="ni">copyright</span> <span class="ni">message</span>
+  <span class="err">-</span><span class="ni">Qunused</span><span class="err">-</span><span class="ni">arguments</span> <span class="ni">Don</span><span class="err">'t</span> <span class="ni">emit</span> <span class="ni">warning</span> <span class="ni">for</span> <span class="ni">unused</span> <span class="ni">driver</span> <span class="ni">arguments</span>
+
+<span class="ni">Compilation</span> <span class="ni">Options</span><span class="err">:</span>
+  <span class="err">-</span><span class="ni">all_resources_bound</span>    <span class="ni">Enables</span> <span class="ni">agressive</span> <span class="ni">flattening</span>
+  <span class="err">-</span><span class="ni">auto</span><span class="err">-</span><span class="ni">binding</span><span class="err">-</span><span class="ni">space</span> <span class="err">&lt;</span><span class="ni">value</span><span class="err">&gt;</span>
+                          <span class="ni">Set</span> <span class="ni">auto</span> <span class="ni">binding</span> <span class="ni">space</span> <span class="err">-</span> <span class="ni">enables</span> <span class="ni">auto</span> <span class="ni">resource</span> <span class="ni">binding</span> <span class="ni">in</span> <span class="ni">libraries</span>
+  <span class="err">-</span><span class="ni">Cc</span>                     <span class="ni">Output</span> <span class="ni">color</span> <span class="ni">coded</span> <span class="ni">assembly</span> <span class="ni">listings</span>
+  <span class="err">-</span><span class="ni">default</span><span class="err">-</span><span class="ni">linkage</span> <span class="err">&lt;</span><span class="ni">value</span><span class="err">&gt;</span>
+                          <span class="ni">Set</span> <span class="ni">default</span> <span class="ni">linkage</span> <span class="ni">for</span> <span class="ni">non</span><span class="err">-</span><span class="ni">shader</span> <span class="ni">functions</span> <span class="ni">when</span> <span class="ni">compiling</span> <span class="ni">or</span> <span class="ni">linking</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">library</span> <span class="ni">target</span> <span class="p">(</span><span class="ni">internal</span><span class="p">,</span> <span class="ni">external</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">denorm</span> <span class="err">&lt;</span><span class="ni">value</span><span class="err">&gt;</span>         <span class="ni">select</span> <span class="ni">denormal</span> <span class="ni">value</span> <span class="ni">options</span> <span class="p">(</span><span class="ni">any</span><span class="p">,</span> <span class="ni">preserve</span><span class="p">,</span> <span class="ni">ftz</span><span class="p">)</span><span class="err">.</span> <span class="ni">any</span> <span class="ni">is</span> <span class="ni">the</span> <span class="ni">default</span><span class="err">.</span>
+  <span class="err">-D</span> <span class="err">&lt;</span><span class="ni">value</span><span class="err">&gt;</span>              <span class="ni">Define</span> <span class="ni">macro</span>
+  <span class="err">-</span><span class="ni">enable</span><span class="err">-</span><span class="m">16</span><span class="ni">bit</span><span class="err">-</span><span class="ni">types</span>     <span class="ni">Enable</span> <span class="m">16</span><span class="ni">bit</span> <span class="ni">types</span> <span class="ni">and</span> <span class="ni">disable</span> <span class="ni">min</span> <span class="ni">precision</span> <span class="ni">types</span><span class="err">.</span> <span class="ni">Available</span> <span class="ni">in</span> <span class="ni">HLSL</span> <span class="m">2018</span> <span class="ni">and</span> <span class="ni">shader</span> <span class="ni">model</span> <span class="m">6</span><span class="err">.</span><span class="m">2</span>
+  <span class="err">-</span><span class="ni">export</span><span class="err">-</span><span class="ni">shaders</span><span class="err">-</span><span class="ni">only</span>    <span class="ni">Only</span> <span class="ni">export</span> <span class="ni">shaders</span> <span class="ni">when</span> <span class="ni">compiling</span> <span class="err">a</span> <span class="ni">library</span>
+  <span class="err">-</span><span class="ni">exports</span> <span class="err">&lt;</span><span class="ni">value</span><span class="err">&gt;</span>        <span class="ni">Specify</span> <span class="ni">exports</span> <span class="ni">when</span> <span class="ni">compiling</span> <span class="err">a</span> <span class="kd">library:</span> <span class="ni">export1</span><span class="err">[[</span><span class="p">,</span><span class="ni">export1_clone</span><span class="p">,</span><span class="err">...]=</span><span class="ni">internal_name</span><span class="err">][</span><span class="c">;...]</span>
+  <span class="err">-E</span> <span class="err">&lt;</span><span class="ni">value</span><span class="err">&gt;</span>              <span class="ni">Entry</span> <span class="ni">point</span> <span class="ni">name</span>
+  <span class="err">-</span><span class="ni">Fc</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span>              <span class="ni">Output</span> <span class="ni">assembly</span> <span class="ni">code</span> <span class="ni">listing</span> <span class="ni">file</span>
+  <span class="err">-</span><span class="ni">Fd</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span>              <span class="ni">Write</span> <span class="ni">debug</span> <span class="ni">information</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">given</span> <span class="ni">file</span><span class="p">,</span> <span class="ni">or</span> <span class="ni">automatically</span> <span class="ni">named</span> <span class="ni">file</span> <span class="ni">in</span> <span class="ni">directory</span> <span class="ni">when</span> <span class="ni">ending</span> <span class="ni">in</span> <span class="err">'\'</span>
+  <span class="err">-</span><span class="ni">Fe</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span>              <span class="ni">Output</span> <span class="ni">warnings</span> <span class="ni">and</span> <span class="ni">errors</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">given</span> <span class="ni">file</span>
+  <span class="err">-</span><span class="ni">Fh</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span>              <span class="ni">Output</span> <span class="ni">header</span> <span class="ni">file</span> <span class="ni">containing</span> <span class="ni">object</span> <span class="ni">code</span>
+  <span class="err">-</span><span class="ni">flegacy</span><span class="err">-</span><span class="ni">macro</span><span class="err">-</span><span class="ni">expansion</span>
+                          <span class="ni">Expand</span> <span class="ni">the</span> <span class="ni">operands</span> <span class="ni">before</span> <span class="ni">performing</span> <span class="ni">token</span><span class="err">-</span><span class="ni">pasting</span> <span class="ni">operation</span> <span class="p">(</span><span class="ni">fxc</span> <span class="ni">behavior</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">flegacy</span><span class="err">-</span><span class="ni">resource</span><span class="err">-</span><span class="ni">reservation</span>
+                          <span class="ni">Reserve</span> <span class="ni">unused</span> <span class="ni">explicit</span> <span class="ni">register</span> <span class="ni">assignments</span> <span class="ni">for</span> <span class="ni">compatibility</span> <span class="ni">with</span> <span class="ni">shader</span> <span class="ni">model</span> <span class="m">5</span><span class="err">.</span><span class="m">0</span> <span class="ni">and</span> <span class="ni">below</span>
+  <span class="err">-</span><span class="ni">force_rootsig_ver</span> <span class="err">&lt;</span><span class="ni">profile</span><span class="err">&gt;</span>
+                          <span class="ni">force</span> <span class="ni">root</span> <span class="ni">signature</span> <span class="ni">version</span> <span class="p">(</span><span class="ni">rootsig_1_1</span> <span class="ni">if</span> <span class="ni">omitted</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">Fo</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span>              <span class="ni">Output</span> <span class="ni">object</span> <span class="ni">file</span>
+  <span class="err">-</span><span class="ni">Gec</span>                    <span class="ni">Enable</span> <span class="ni">backward</span> <span class="ni">compatibility</span> <span class="ni">mode</span>
+  <span class="err">-</span><span class="ni">Ges</span>                    <span class="ni">Enable</span> <span class="ni">strict</span> <span class="ni">mode</span>
+  <span class="err">-</span><span class="ni">Gfa</span>                    <span class="ni">Avoid</span> <span class="ni">flow</span> <span class="ni">control</span> <span class="ni">constructs</span>
+  <span class="err">-</span><span class="ni">Gfp</span>                    <span class="ni">Prefer</span> <span class="ni">flow</span> <span class="ni">control</span> <span class="ni">constructs</span>
+  <span class="err">-</span><span class="ni">Gis</span>                    <span class="ni">Force</span> <span class="ni">IEEE</span> <span class="ni">strictness</span>
+  <span class="err">-</span><span class="ni">HV</span> <span class="err">&lt;</span><span class="ni">value</span><span class="err">&gt;</span>             <span class="ni">HLSL</span> <span class="ni">version</span> <span class="p">(</span><span class="m">2016</span><span class="p">,</span> <span class="m">2017</span><span class="p">,</span> <span class="m">2018</span><span class="p">)</span><span class="err">.</span> <span class="ni">Default</span> <span class="ni">is</span> <span class="m">2018</span>
+  <span class="err">-H</span>                      <span class="ni">Show</span> <span class="ni">header</span> <span class="ni">includes</span> <span class="ni">and</span> <span class="ni">nesting</span> <span class="ni">depth</span>
+  <span class="err">-</span><span class="ni">ignore</span><span class="err">-</span><span class="ni">line</span><span class="err">-</span><span class="ni">directives</span> <span class="ni">Ignore</span> <span class="ni">line</span> <span class="ni">directives</span>
+  <span class="err">-I</span> <span class="err">&lt;</span><span class="ni">value</span><span class="err">&gt;</span>              <span class="ni">Add</span> <span class="ni">directory</span> <span class="ni">to</span> <span class="ni">include</span> <span class="ni">search</span> <span class="ni">path</span>
+  <span class="err">-</span><span class="ni">Lx</span>                     <span class="ni">Output</span> <span class="ni">hexadecimal</span> <span class="ni">literals</span>
+  <span class="err">-</span><span class="ni">Ni</span>                     <span class="ni">Output</span> <span class="ni">instruction</span> <span class="ni">numbers</span> <span class="ni">in</span> <span class="ni">assembly</span> <span class="ni">listings</span>
+  <span class="err">-</span><span class="ni">no</span><span class="err">-</span><span class="ni">warnings</span>            <span class="ni">Suppress</span> <span class="ni">warnings</span>
+  <span class="err">-</span><span class="ni">not_use_legacy_cbuf_load</span>
+                          <span class="ni">Do</span> <span class="ni">not</span> <span class="ni">use</span> <span class="ni">legacy</span> <span class="ni">cbuffer</span> <span class="ni">load</span>
+  <span class="err">-</span><span class="ni">No</span>                     <span class="ni">Output</span> <span class="ni">instruction</span> <span class="ni">byte</span> <span class="ni">offsets</span> <span class="ni">in</span> <span class="ni">assembly</span> <span class="ni">listings</span>
+  <span class="err">-</span><span class="ni">Odump</span>                  <span class="ni">Print</span> <span class="ni">the</span> <span class="ni">optimizer</span> <span class="ni">commands</span><span class="err">.</span>
+  <span class="err">-</span><span class="ni">Od</span>                     <span class="ni">Disable</span> <span class="ni">optimizations</span>
+  <span class="err">-</span><span class="ni">pack_optimized</span>         <span class="ni">Optimize</span> <span class="ni">signature</span> <span class="ni">packing</span> <span class="ni">assuming</span> <span class="ni">identical</span> <span class="ni">signature</span> <span class="ni">provided</span> <span class="ni">for</span> <span class="ni">each</span> <span class="ni">connecting</span> <span class="ni">stage</span>
+  <span class="err">-</span><span class="ni">pack_prefix_stable</span>     <span class="p">(</span><span class="ni">default</span><span class="p">)</span> <span class="ni">Pack</span> <span class="ni">signatures</span> <span class="ni">preserving</span> <span class="ni">prefix</span><span class="err">-</span><span class="ni">stable</span> <span class="ni">property</span> <span class="err">-</span> <span class="ni">appended</span> <span class="ni">elements</span> <span class="ni">will</span> <span class="ni">not</span> <span class="ni">disturb</span> <span class="ni">placement</span> <span class="ni">of</span> <span class="ni">prior</span> <span class="ni">elements</span>
+  <span class="err">-</span><span class="ni">recompile</span>              <span class="ni">recompile</span> <span class="ni">from</span> <span class="ni">DXIL</span> <span class="ni">container</span> <span class="ni">with</span> <span class="ni">Debug</span> <span class="ni">Info</span> <span class="ni">or</span> <span class="ni">Debug</span> <span class="ni">Info</span> <span class="ni">bitcode</span> <span class="ni">file</span>
+  <span class="err">-</span><span class="ni">res_may_alias</span>          <span class="ni">Assume</span> <span class="ni">that</span> <span class="ni">UAVs</span><span class="p">/</span><span class="ni">SRVs</span> <span class="ni">may</span> <span class="ni">alias</span>
+  <span class="err">-</span><span class="ni">rootsig</span><span class="err">-</span><span class="ni">define</span> <span class="err">&lt;</span><span class="ni">value</span><span class="err">&gt;</span> <span class="ni">Read</span> <span class="ni">root</span> <span class="ni">signature</span> <span class="ni">from</span> <span class="err">a</span> <span class="err">#</span><span class="ni">define</span>
+  <span class="err">-T</span> <span class="err">&lt;</span><span class="ni">profile</span><span class="err">&gt;</span>            <span class="ni">Set</span> <span class="ni">target</span> <span class="ni">profile</span><span class="err">.</span> 
+	<span class="err">&lt;</span><span class="ni">profile</span><span class="err">&gt;:</span> <span class="ni">ps_6_0</span><span class="p">,</span> <span class="ni">ps_6_1</span><span class="p">,</span> <span class="ni">ps_6_2</span><span class="p">,</span> <span class="ni">ps_6_3</span><span class="p">,</span> <span class="ni">ps_6_4</span><span class="p">,</span> <span class="ni">ps_6_5</span><span class="p">,</span> 
+		 <span class="ni">vs_6_0</span><span class="p">,</span> <span class="ni">vs_6_1</span><span class="p">,</span> <span class="ni">vs_6_2</span><span class="p">,</span> <span class="ni">vs_6_3</span><span class="p">,</span> <span class="ni">vs_6_4</span><span class="p">,</span> <span class="ni">vs_6_5</span><span class="p">,</span> 
+		 <span class="ni">cs_6_0</span><span class="p">,</span> <span class="ni">cs_6_1</span><span class="p">,</span> <span class="ni">cs_6_2</span><span class="p">,</span> <span class="ni">cs_6_3</span><span class="p">,</span> <span class="ni">cs_6_4</span><span class="p">,</span> <span class="ni">cs_6_5</span><span class="p">,</span> 
+		 <span class="ni">gs_6_0</span><span class="p">,</span> <span class="ni">gs_6_1</span><span class="p">,</span> <span class="ni">gs_6_2</span><span class="p">,</span> <span class="ni">gs_6_3</span><span class="p">,</span> <span class="ni">gs_6_4</span><span class="p">,</span> <span class="ni">gs_6_5</span><span class="p">,</span> 
+		 <span class="ni">ds_6_0</span><span class="p">,</span> <span class="ni">ds_6_1</span><span class="p">,</span> <span class="ni">ds_6_2</span><span class="p">,</span> <span class="ni">ds_6_3</span><span class="p">,</span> <span class="ni">ds_6_4</span><span class="p">,</span> <span class="ni">ds_6_5</span><span class="p">,</span> 
+		 <span class="ni">hs_6_0</span><span class="p">,</span> <span class="ni">hs_6_1</span><span class="p">,</span> <span class="ni">hs_6_2</span><span class="p">,</span> <span class="ni">hs_6_3</span><span class="p">,</span> <span class="ni">hs_6_4</span><span class="p">,</span> <span class="ni">hs_6_5</span><span class="p">,</span> 
+		 <span class="ni">lib_6_3</span><span class="p">,</span> <span class="ni">lib_6_4</span><span class="p">,</span> <span class="ni">lib_6_5</span><span class="p">,</span> <span class="ni">ms_6_5</span><span class="p">,</span> <span class="ni">as_6_5</span>
+  <span class="err">-</span><span class="ni">Vd</span>                     <span class="ni">Disable</span> <span class="ni">validation</span>
+  <span class="err">-</span><span class="ni">Vi</span>                     <span class="ni">Display</span> <span class="ni">details</span> <span class="ni">about</span> <span class="ni">the</span> <span class="ni">include</span> <span class="ni">process</span><span class="err">.</span>
+  <span class="err">-</span><span class="ni">Vn</span> <span class="err">&lt;</span><span class="ni">name</span><span class="err">&gt;</span>              <span class="ni">Use</span> <span class="err">&lt;</span><span class="ni">name</span><span class="err">&gt;</span> <span class="ni">as</span> <span class="ni">variable</span> <span class="ni">name</span> <span class="ni">in</span> <span class="ni">header</span> <span class="ni">file</span>
+  <span class="err">-</span><span class="ni">WX</span>                     <span class="ni">Treat</span> <span class="ni">warnings</span> <span class="ni">as</span> <span class="ni">errors</span>
+  <span class="err">-</span><span class="ni">Zi</span>                     <span class="ni">Enable</span> <span class="ni">debug</span> <span class="ni">information</span>
+  <span class="err">-</span><span class="ni">Zpc</span>                    <span class="ni">Pack</span> <span class="ni">matrices</span> <span class="ni">in</span> <span class="ni">column</span><span class="err">-</span><span class="ni">major</span> <span class="ni">order</span>
+  <span class="err">-</span><span class="ni">Zpr</span>                    <span class="ni">Pack</span> <span class="ni">matrices</span> <span class="ni">in</span> <span class="ni">row</span><span class="err">-</span><span class="ni">major</span> <span class="ni">order</span>
+  <span class="err">-</span><span class="ni">Zsb</span>                    <span class="ni">Build</span> <span class="ni">debug</span> <span class="ni">name</span> <span class="ni">considering</span> <span class="ni">only</span> <span class="ni">output</span> <span class="ni">binary</span>
+  <span class="err">-</span><span class="ni">Zss</span>                    <span class="ni">Build</span> <span class="ni">debug</span> <span class="ni">name</span> <span class="ni">considering</span> <span class="ni">source</span> <span class="ni">information</span>
+
+<span class="ni">Optimization</span> <span class="ni">Options</span><span class="err">:</span>
+  <span class="err">-</span><span class="ni">O0</span> <span class="ni">Optimization</span> <span class="ni">Level</span> <span class="m">0</span>
+  <span class="err">-</span><span class="ni">O1</span> <span class="ni">Optimization</span> <span class="ni">Level</span> <span class="m">1</span>
+  <span class="err">-</span><span class="ni">O2</span> <span class="ni">Optimization</span> <span class="ni">Level</span> <span class="m">2</span>
+  <span class="err">-</span><span class="ni">O3</span> <span class="ni">Optimization</span> <span class="ni">Level</span> <span class="m">3</span> <span class="p">(</span><span class="ni">Default</span><span class="p">)</span>
+
+<span class="ni">SPIR</span><span class="err">-V</span> <span class="ni">CodeGen</span> <span class="ni">Options</span><span class="err">:</span>
+  <span class="err">-</span><span class="ni">fspv</span><span class="err">-</span><span class="ni">debug</span><span class="err">=&lt;</span><span class="ni">value</span><span class="err">&gt;</span>     <span class="ni">Specify</span> <span class="ni">whitelist</span> <span class="ni">of</span> <span class="ni">debug</span> <span class="ni">info</span> <span class="ni">category</span> <span class="p">(</span><span class="ni">file</span> <span class="err">-&gt;</span> <span class="ni">source</span> <span class="err">-&gt;</span> <span class="ni">line</span><span class="p">,</span> <span class="ni">tool</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">fspv</span><span class="err">-</span><span class="ni">extension</span><span class="err">=&lt;</span><span class="ni">value</span><span class="err">&gt;</span> <span class="ni">Specify</span> <span class="ni">SPIR</span><span class="err">-V</span> <span class="ni">extension</span> <span class="ni">permitted</span> <span class="ni">to</span> <span class="ni">use</span>
+  <span class="err">-</span><span class="ni">fspv</span><span class="err">-</span><span class="ni">flatten</span><span class="err">-</span><span class="ni">resource</span><span class="err">-</span><span class="ni">arrays</span>
+                          <span class="ni">Flatten</span> <span class="ni">arrays</span> <span class="ni">of</span> <span class="ni">resources</span> <span class="ni">so</span> <span class="ni">each</span> <span class="ni">array</span> <span class="ni">element</span> <span class="ni">takes</span> <span class="ni">one</span> <span class="ni">binding</span> <span class="ni">number</span>
+  <span class="err">-</span><span class="ni">fspv</span><span class="err">-</span><span class="ni">reflect</span>           <span class="ni">Emit</span> <span class="ni">additional</span> <span class="ni">SPIR</span><span class="err">-V</span> <span class="ni">instructions</span> <span class="ni">to</span> <span class="ni">aid</span> <span class="ni">reflection</span>
+  <span class="err">-</span><span class="ni">fspv</span><span class="err">-</span><span class="ni">target</span><span class="err">-</span><span class="ni">env</span><span class="err">=&lt;</span><span class="ni">value</span><span class="err">&gt;</span>
+                          <span class="ni">Specify</span> <span class="ni">the</span> <span class="ni">target</span> <span class="kd">environment:</span> <span class="ni">vulkan1</span><span class="err">.</span><span class="m">0</span> <span class="p">(</span><span class="ni">default</span><span class="p">)</span> <span class="ni">or</span> <span class="ni">vulkan1</span><span class="err">.</span><span class="m">1</span>
+  <span class="err">-</span><span class="ni">fvk</span><span class="err">-b-</span><span class="ni">shift</span> <span class="err">&lt;</span><span class="ni">shift</span><span class="err">&gt;</span> <span class="err">&lt;</span><span class="ni">space</span><span class="err">&gt;</span>
+                          <span class="ni">Specify</span> <span class="ni">Vulkan</span> <span class="ni">binding</span> <span class="ni">number</span> <span class="ni">shift</span> <span class="ni">for</span> <span class="err">b-</span><span class="ni">type</span> <span class="ni">register</span>
+  <span class="err">-</span><span class="ni">fvk</span><span class="err">-</span><span class="ni">bind</span><span class="err">-</span><span class="ni">globals</span> <span class="err">&lt;</span><span class="ni">binding</span><span class="err">&gt;</span> <span class="err">&lt;</span><span class="ni">set</span><span class="err">&gt;</span>
+                          <span class="ni">Specify</span> <span class="ni">Vulkan</span> <span class="ni">binding</span> <span class="ni">number</span> <span class="ni">and</span> <span class="ni">set</span> <span class="ni">number</span> <span class="ni">for</span> <span class="ni">the</span> <span class="err">$</span><span class="ni">Globals</span> <span class="ni">cbuffer</span>
+  <span class="err">-</span><span class="ni">fvk</span><span class="err">-</span><span class="ni">bind</span><span class="err">-</span><span class="ni">register</span> <span class="err">&lt;</span><span class="ni">type</span><span class="err">-</span><span class="ni">number</span><span class="err">&gt;</span> <span class="err">&lt;</span><span class="ni">space</span><span class="err">&gt;</span> <span class="err">&lt;</span><span class="ni">binding</span><span class="err">&gt;</span> <span class="err">&lt;</span><span class="ni">set</span><span class="err">&gt;</span>
+                          <span class="ni">Specify</span> <span class="ni">Vulkan</span> <span class="ni">descriptor</span> <span class="ni">set</span> <span class="ni">and</span> <span class="ni">binding</span> <span class="ni">for</span> <span class="err">a</span> <span class="ni">specific</span> <span class="ni">register</span>
+  <span class="err">-</span><span class="ni">fvk</span><span class="err">-</span><span class="ni">invert</span><span class="err">-y</span>           <span class="ni">Negate</span> <span class="ni">SV_Position</span><span class="err">.y</span> <span class="ni">before</span> <span class="ni">writing</span> <span class="ni">to</span> <span class="ni">stage</span> <span class="ni">output</span> <span class="ni">in</span> <span class="ni">VS</span><span class="p">/</span><span class="ni">DS</span><span class="p">/</span><span class="ni">GS</span> <span class="ni">to</span> <span class="ni">accommodate</span> <span class="ni">Vulkan</span><span class="err">'s</span> <span class="ni">coordinate</span> <span class="ni">system</span>
+  <span class="err">-</span><span class="ni">fvk</span><span class="err">-s-</span><span class="ni">shift</span> <span class="err">&lt;</span><span class="ni">shift</span><span class="err">&gt;</span> <span class="err">&lt;</span><span class="ni">space</span><span class="err">&gt;</span>
+                          <span class="ni">Specify</span> <span class="ni">Vulkan</span> <span class="ni">binding</span> <span class="ni">number</span> <span class="ni">shift</span> <span class="ni">for</span> <span class="err">s-</span><span class="ni">type</span> <span class="ni">register</span>
+  <span class="err">-</span><span class="ni">fvk</span><span class="err">-t-</span><span class="ni">shift</span> <span class="err">&lt;</span><span class="ni">shift</span><span class="err">&gt;</span> <span class="err">&lt;</span><span class="ni">space</span><span class="err">&gt;</span>
+                          <span class="ni">Specify</span> <span class="ni">Vulkan</span> <span class="ni">binding</span> <span class="ni">number</span> <span class="ni">shift</span> <span class="ni">for</span> <span class="err">t-</span><span class="ni">type</span> <span class="ni">register</span>
+  <span class="err">-</span><span class="ni">fvk</span><span class="err">-u-</span><span class="ni">shift</span> <span class="err">&lt;</span><span class="ni">shift</span><span class="err">&gt;</span> <span class="err">&lt;</span><span class="ni">space</span><span class="err">&gt;</span>
+                          <span class="ni">Specify</span> <span class="ni">Vulkan</span> <span class="ni">binding</span> <span class="ni">number</span> <span class="ni">shift</span> <span class="ni">for</span> <span class="err">u-</span><span class="ni">type</span> <span class="ni">register</span>
+  <span class="err">-</span><span class="ni">fvk</span><span class="err">-</span><span class="ni">use</span><span class="err">-</span><span class="ni">dx</span><span class="err">-</span><span class="ni">layout</span>      <span class="ni">Use</span> <span class="ni">DirectX</span> <span class="ni">memory</span> <span class="ni">layout</span> <span class="ni">for</span> <span class="ni">Vulkan</span> <span class="ni">resources</span>
+  <span class="err">-</span><span class="ni">fvk</span><span class="err">-</span><span class="ni">use</span><span class="err">-</span><span class="ni">dx</span><span class="err">-</span><span class="ni">position</span><span class="err">-w</span>  <span class="ni">Reciprocate</span> <span class="ni">SV_Position</span><span class="err">.w</span> <span class="ni">after</span> <span class="ni">reading</span> <span class="ni">from</span> <span class="ni">stage</span> <span class="ni">input</span> <span class="ni">in</span> <span class="ni">PS</span> <span class="ni">to</span> <span class="ni">accommodate</span> <span class="ni">the</span> <span class="ni">difference</span> <span class="ni">between</span> <span class="ni">Vulkan</span> <span class="ni">and</span> <span class="ni">DirectX</span>
+  <span class="err">-</span><span class="ni">fvk</span><span class="err">-</span><span class="ni">use</span><span class="err">-</span><span class="ni">gl</span><span class="err">-</span><span class="ni">layout</span>      <span class="ni">Use</span> <span class="ni">strict</span> <span class="ni">OpenGL</span> <span class="ni">std140</span><span class="p">/</span><span class="ni">std430</span> <span class="ni">memory</span> <span class="ni">layout</span> <span class="ni">for</span> <span class="ni">Vulkan</span> <span class="ni">resources</span>
+  <span class="err">-</span><span class="ni">fvk</span><span class="err">-</span><span class="ni">use</span><span class="err">-</span><span class="ni">scalar</span><span class="err">-</span><span class="ni">layout</span>  <span class="ni">Use</span> <span class="ni">scalar</span> <span class="ni">memory</span> <span class="ni">layout</span> <span class="ni">for</span> <span class="ni">Vulkan</span> <span class="ni">resources</span>
+  <span class="err">-</span><span class="ni">Oconfig</span><span class="err">=&lt;</span><span class="ni">value</span><span class="err">&gt;</span>        <span class="ni">Specify</span> <span class="err">a</span> <span class="ni">comma</span><span class="err">-</span><span class="ni">separated</span> <span class="ni">list</span> <span class="ni">of</span> <span class="ni">SPIRV</span><span class="err">-</span><span class="ni">Tools</span> <span class="ni">passes</span> <span class="ni">to</span> <span class="ni">customize</span> <span class="ni">optimization</span> <span class="ni">configuration</span> <span class="p">(</span><span class="ni">see</span> <span class="kd">http:</span><span class="p">//</span><span class="ni">khr</span><span class="err">.</span><span class="ni">io</span><span class="p">/</span><span class="ni">hlsl2spirv</span><span class="err">#</span><span class="ni">optimization</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">spirv</span>                  <span class="ni">Generate</span> <span class="ni">SPIR</span><span class="err">-V</span> <span class="ni">code</span>
+
+<span class="ni">Utility</span> <span class="ni">Options</span><span class="err">:</span>
+  <span class="err">-</span><span class="ni">dumpbin</span>              <span class="ni">Load</span> <span class="err">a</span> <span class="ni">binary</span> <span class="ni">file</span> <span class="ni">rather</span> <span class="ni">than</span> <span class="ni">compiling</span>
+  <span class="err">-</span><span class="ni">extractrootsignature</span> <span class="ni">Extract</span> <span class="ni">root</span> <span class="ni">signature</span> <span class="ni">from</span> <span class="ni">shader</span> <span class="ni">bytecode</span> <span class="p">(</span><span class="ni">must</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">with</span> <span class="p">/</span><span class="ni">Fo</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">getprivate</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span>    <span class="ni">Save</span> <span class="ni">private</span> <span class="ni">data</span> <span class="ni">from</span> <span class="ni">shader</span> <span class="ni">blob</span>
+  <span class="err">-P</span> <span class="err">&lt;</span><span class="ni">value</span><span class="err">&gt;</span>            <span class="ni">Preprocess</span> <span class="ni">to</span> <span class="ni">file</span> <span class="p">(</span><span class="ni">must</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">alone</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">Qembed_debug</span>         <span class="ni">Embed</span> <span class="ni">PDB</span> <span class="ni">in</span> <span class="ni">shader</span> <span class="ni">container</span> <span class="p">(</span><span class="ni">must</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">with</span> <span class="p">/</span><span class="ni">Zi</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">Qstrip_debug</span>         <span class="ni">Strip</span> <span class="ni">debug</span> <span class="ni">information</span> <span class="ni">from</span> <span class="m">4</span><span class="ni">_0</span><span class="err">+</span> <span class="ni">shader</span> <span class="ni">bytecode</span>  <span class="p">(</span><span class="ni">must</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">with</span> <span class="p">/</span><span class="ni">Fo</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">Qstrip_priv</span>          <span class="ni">Strip</span> <span class="ni">private</span> <span class="ni">data</span> <span class="ni">from</span> <span class="ni">shader</span> <span class="ni">bytecode</span>  <span class="p">(</span><span class="ni">must</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">with</span> <span class="p">/</span><span class="ni">Fo</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">Qstrip_reflect</span>       <span class="ni">Strip</span> <span class="ni">reflection</span> <span class="ni">data</span> <span class="ni">from</span> <span class="ni">shader</span> <span class="ni">bytecode</span>  <span class="p">(</span><span class="ni">must</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">with</span> <span class="p">/</span><span class="ni">Fo</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">Qstrip_rootsignature</span> <span class="ni">Strip</span> <span class="ni">root</span> <span class="ni">signature</span> <span class="ni">data</span> <span class="ni">from</span> <span class="ni">shader</span> <span class="ni">bytecode</span>  <span class="p">(</span><span class="ni">must</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">with</span> <span class="p">/</span><span class="ni">Fo</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">setprivate</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span>    <span class="ni">Private</span> <span class="ni">data</span> <span class="ni">to</span> <span class="ni">add</span> <span class="ni">to</span> <span class="ni">compiled</span> <span class="ni">shader</span> <span class="ni">blob</span>
+  <span class="err">-</span><span class="ni">setrootsignature</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span>
+                        <span class="ni">Attach</span> <span class="ni">root</span> <span class="ni">signature</span> <span class="ni">to</span> <span class="ni">shader</span> <span class="ni">bytecode</span>
+  <span class="err">-</span><span class="ni">verifyrootsignature</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span>
+                        <span class="ni">Verify</span> <span class="ni">shader</span> <span class="ni">bytecode</span> <span class="ni">with</span> <span class="ni">root</span> <span class="ni">signature</span>
+
+
+</code></pre></div></div>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">dxc</span> <span class="ni">failed</span> <span class="err">:</span> <span class="ni">Target</span> <span class="ni">profile</span> <span class="ni">argument</span> <span class="ni">is</span> <span class="ni">missing</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\dxc.exe</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNEL32.DLL</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNELBASE.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">33000002CF6D2CC57CAA65A6D80000000002CF</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">1A221B3B4FEF088B17BA6704FD088DF192D9E0EF</code></li>
+  <li>Issuer: CN=Microsoft Code Signing PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: dxc.exe</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.19041.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.19041.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: Unknown</li>
+  <li>VirusTotal Link: n/a</li>
+</ul>
+
+<h2 id="file-similarity-ssdeep-match">File Similarity (ssdeep match)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/xcyclopedia/library/dxc.exe-C0D576515CB38D7788DC8B95DD3128CF.html">C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm64\dxc.exe</a></td>
+      <td>40</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,677 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>kd.exe | Windows Kernel Debugger &#124; STRONTIC</title>
+<meta name="description" content="What is kd.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="kd.exe | Windows Kernel Debugger">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/kd.exe-E61F51C4CF00EFABF19CC6E80A128846.html">
+
+
+  <meta property="og:description" content="What is kd.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="kd.exe | Windows Kernel Debugger">
+  <meta name="twitter:description" content="What is kd.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/kd.exe-E61F51C4CF00EFABF19CC6E80A128846.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/kd.exe-E61F51C4CF00EFABF19CC6E80A128846.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">kd.exe | Windows Kernel Debugger</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            kd.exe      Windows Kernel Debugger      ">
+    <meta itemprop="description" content="What is kd.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="kdexe">kd.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\kd.exe</code></li>
+  <li>Description: Windows Kernel Debugger</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">E61F51C4CF00EFABF19CC6E80A128846</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">3FA35574F770704A0C4BE2FFCE290B49AEBCC76D</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">BD240F684F9E6D1BF03A88C75FA9C6D84BF84F823A9F0E6EBB7DA14B46748B16</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">0B039736A01D9605F5D41E7A1BDDD41CCF728A1DC99EB8D23587714F6FFBE20DB0A041DA3EC5D1BFB950932D7BE391F3</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">44742540622CAF25462EF990E0098F0C2589F21E8162A969C8C9D06DD8022121CE729D1BB58E4D7AF520AA8A4A49AD252CAC7ABCD50BC5B8452238A1DB923F7D</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">3072:JO+DfFnbMwmoWATuajmhHmcLslY+20xcKM+8ForOvex:JO5slY+20xceGC</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">35AC0844A3992124484E6597B292EA5D</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">AE345C63B49EF181A6B26C351C3EBD80B5B580FA</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">CDA05CD498D2BC403D26C394A393264B4DBA74ECC7F22FD251B01911A1E472D7</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">kd:</span> <span class="ni">Invalid</span> <span class="ni">switch</span> <span class="err">'h'</span>
+<span class="ni">kd</span> <span class="ni">version</span> <span class="m">10</span><span class="err">.</span><span class="m">0</span><span class="err">.</span><span class="m">19041</span><span class="err">.</span><span class="m">1</span>
+<span class="kd">usage:</span> <span class="ni">kd</span> <span class="err">[</span><span class="ni">options</span><span class="err">]</span>
+
+<span class="ni">Options</span><span class="err">:</span>
+
+  <span class="err">-?</span> <span class="ni">displays</span> <span class="ni">command</span> <span class="ni">line</span> <span class="ni">help</span> <span class="ni">text</span>
+  <span class="err">-a&lt;</span><span class="ni">DllName</span><span class="err">&gt;</span> <span class="ni">adds</span> <span class="err">a</span> <span class="ni">default</span> <span class="ni">extension</span> <span class="ni">DLL</span>
+  <span class="err">-b</span> <span class="ni">break</span> <span class="ni">into</span> <span class="ni">kernel</span> <span class="ni">when</span> <span class="ni">connection</span> <span class="ni">is</span> <span class="ni">established</span>
+  <span class="err">-</span><span class="ni">bonc</span> <span class="ni">request</span> <span class="ni">break</span> <span class="ni">in</span> <span class="ni">after</span> <span class="ni">session</span> <span class="ni">started</span>
+  <span class="err">-c</span> <span class="s">"&lt;command&gt;"</span> <span class="ni">executes</span> <span class="ni">the</span> <span class="ni">given</span> <span class="ni">debugger</span> <span class="ni">command</span> <span class="ni">at</span> <span class="ni">the</span> <span class="ni">first</span> <span class="ni">debugger</span>
+                 <span class="ni">prompt</span>
+  <span class="err">-</span><span class="ni">cf</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span> <span class="ni">specifies</span> <span class="err">a</span> <span class="ni">script</span> <span class="ni">file</span> <span class="ni">to</span> <span class="ni">be</span> <span class="ni">processed</span> <span class="ni">at</span> <span class="ni">the</span> <span class="ni">first</span> <span class="ni">debugger</span>
+             <span class="ni">prompt</span>
+  <span class="err">-</span><span class="ni">cfr</span> <span class="err">&lt;</span><span class="ni">file</span><span class="err">&gt;</span> <span class="ni">specifies</span> <span class="err">a</span> <span class="ni">script</span> <span class="ni">file</span> <span class="ni">to</span> <span class="ni">be</span> <span class="ni">processed</span> <span class="ni">at</span> <span class="ni">the</span> <span class="ni">beginning</span> <span class="ni">of</span> <span class="err">a</span>
+              <span class="ni">session</span> <span class="p">(</span><span class="ni">including</span> <span class="ni">after</span> <span class="err">.</span><span class="ni">restart</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">clines</span> <span class="err">&lt;#&gt;</span> <span class="ni">number</span> <span class="ni">of</span> <span class="ni">lines</span> <span class="ni">of</span> <span class="ni">output</span> <span class="ni">history</span> <span class="ni">retrieved</span> <span class="ni">by</span> <span class="err">a</span> <span class="ni">remote</span> <span class="ni">client</span>
+  <span class="err">-d</span> <span class="ni">breaks</span> <span class="ni">into</span> <span class="ni">kernel</span> <span class="ni">on</span> <span class="ni">first</span> <span class="ni">module</span> <span class="ni">load</span>
+  <span class="err">-</span><span class="ni">ee</span> <span class="err">&lt;</span><span class="ni">name</span><span class="err">&gt;</span> <span class="ni">set</span> <span class="ni">default</span> <span class="ni">expression</span> <span class="ni">evaluator</span>
+             <span class="err">&lt;</span><span class="ni">name</span><span class="err">&gt;</span> <span class="ni">can</span> <span class="ni">be</span> <span class="ni">MASM</span> <span class="ni">or</span> <span class="err">C++</span>
+  <span class="err">-</span><span class="ni">failinc</span> <span class="ni">causes</span> <span class="ni">incomplete</span> <span class="ni">symbol</span> <span class="ni">and</span> <span class="ni">module</span> <span class="ni">loads</span> <span class="ni">to</span> <span class="ni">fail</span>
+  <span class="err">-i</span> <span class="err">&lt;</span><span class="ni">ImagePath</span><span class="err">&gt;</span> <span class="ni">specifies</span> <span class="ni">the</span> <span class="ni">location</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">executables</span> <span class="ni">that</span> <span class="ni">generated</span> <span class="ni">the</span>
+                 <span class="ni">fault</span> <span class="p">(</span><span class="ni">see</span> <span class="ni">_NT_EXECUTABLE_IMAGE_PATH</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">iu</span> <span class="ni">install</span> <span class="ni">dbgeng</span> <span class="ni">URL</span> <span class="ni">protocols</span>
+  <span class="err">-k</span> <span class="err">&lt;</span><span class="ni">options</span><span class="err">&gt;</span> <span class="ni">tells</span> <span class="ni">the</span> <span class="ni">debugger</span> <span class="ni">how</span> <span class="ni">to</span> <span class="ni">connect</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">target</span>
+               <span class="kd">net:</span><span class="ni">port</span><span class="err">=n</span><span class="p">,</span><span class="ni">key</span><span class="err">=w.x.y.z[</span><span class="p">,</span><span class="ni">target</span><span class="err">=</span><span class="ni">name</span><span class="err">]</span> <span class="ni">connects</span> <span class="ni">over</span> <span class="ni">the</span> <span class="ni">network</span>
+                    <span class="kd">n:</span> <span class="ni">network</span> <span class="ni">port</span> <span class="ni">number</span><span class="p">,</span> <span class="ni">must</span> <span class="ni">match</span> <span class="ni">port</span> <span class="ni">assigned</span> <span class="ni">to</span> <span class="ni">target</span>
+                    <span class="err">w.x.y.</span><span class="kd">z:</span> <span class="ni">key</span> <span class="ni">assigned</span> <span class="ni">to</span> <span class="ni">target</span> <span class="ni">machine</span>
+                    <span class="kd">name:</span> <span class="ni">optional</span> <span class="ni">VM</span> <span class="ni">host</span> <span class="ni">machine</span> <span class="ni">name</span><span class="p">,</span> <span class="ni">used</span> <span class="ni">if</span> <span class="ni">debugging</span> <span class="ni">VMs</span>
+               <span class="kd">usb:</span><span class="ni">targetname</span><span class="err">=</span><span class="ni">name</span> <span class="ni">connects</span> <span class="ni">over</span> <span class="ni">USB</span>
+                    <span class="kd">name:</span> <span class="ni">USB</span> <span class="ni">target</span> <span class="ni">name</span> <span class="ni">assigned</span> <span class="ni">to</span> <span class="ni">target</span> <span class="ni">machine</span>
+               <span class="m">1394</span><span class="err">:</span><span class="ni">channel</span><span class="err">=</span><span class="ni">chan</span> <span class="ni">connects</span> <span class="ni">over</span> <span class="m">1394</span>
+                    <span class="kd">chan:</span> <span class="m">1394</span> <span class="ni">channel</span> <span class="ni">number</span><span class="p">,</span> <span class="ni">must</span> <span class="ni">match</span> <span class="ni">channel</span> <span class="ni">used</span> <span class="ni">at</span> <span class="ni">boot</span>
+               <span class="kd">com:</span><span class="ni">modem</span> <span class="ni">connects</span> <span class="ni">through</span> <span class="err">a</span> <span class="ni">modem</span>
+               <span class="kd">com:</span><span class="ni">port</span><span class="err">=</span><span class="ni">id</span><span class="p">,</span><span class="ni">baud</span><span class="err">=</span><span class="ni">rate</span> <span class="ni">connects</span> <span class="ni">through</span> <span class="err">a</span> <span class="ni">COM</span> <span class="ni">port</span>
+                   <span class="kd">id:</span> <span class="ni">com</span> <span class="ni">port</span> <span class="ni">name</span><span class="p">,</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">form</span> <span class="ni">com2</span> <span class="ni">or</span> <span class="err">\\.\</span><span class="ni">com12</span>
+                   <span class="kd">rate:</span> <span class="ni">valid</span> <span class="ni">baudrate</span> <span class="ni">value</span><span class="p">,</span> <span class="ni">such</span> <span class="ni">as</span> <span class="m">57600</span>
+  <span class="err">-</span><span class="ni">kl</span> <span class="ni">tells</span> <span class="ni">the</span> <span class="ni">debugger</span> <span class="ni">to</span> <span class="ni">connect</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">local</span> <span class="ni">machine</span>
+  <span class="err">-</span><span class="ni">kqm</span> <span class="ni">turns</span> <span class="ni">on</span> <span class="ni">kd</span> <span class="ni">quiet</span> <span class="ni">mode</span> <span class="p">(</span><span class="ni">equivalent</span> <span class="ni">to</span> <span class="ni">KDQUIET</span><span class="p">)</span>
+  <span class="err">-</span><span class="ni">kx</span> <span class="err">&lt;</span><span class="ni">options</span><span class="err">&gt;</span> <span class="ni">tells</span> <span class="ni">the</span> <span class="ni">debugger</span> <span class="ni">to</span> <span class="ni">connect</span> <span class="ni">to</span> <span class="ni">an</span> <span class="ni">eXDI</span> <span class="ni">driver</span>
+  <span class="err">-</span><span class="ni">lines</span> <span class="ni">requests</span> <span class="ni">that</span> <span class="ni">line</span> <span class="ni">number</span> <span class="ni">information</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">if</span> <span class="ni">present</span>
+  <span class="err">-</span><span class="ni">loga</span> <span class="err">&lt;</span><span class="ni">logfile</span><span class="err">&gt;</span> <span class="ni">appends</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">log</span> <span class="ni">file</span>
+  <span class="err">-</span><span class="ni">logau</span> <span class="err">&lt;</span><span class="ni">logfile</span><span class="err">&gt;</span> <span class="ni">appends</span> <span class="ni">to</span> <span class="ni">an</span> <span class="ni">Unicode</span> <span class="ni">log</span> <span class="ni">file</span>
+  <span class="err">-</span><span class="ni">logo</span> <span class="err">&lt;</span><span class="ni">logfile</span><span class="err">&gt;</span> <span class="ni">opens</span> <span class="err">a</span> <span class="ni">new</span> <span class="ni">log</span> <span class="ni">file</span>
+  <span class="err">-</span><span class="ni">logou</span> <span class="err">&lt;</span><span class="ni">logfile</span><span class="err">&gt;</span> <span class="ni">opens</span> <span class="err">a</span> <span class="ni">new</span> <span class="ni">Unicode</span> <span class="ni">log</span> <span class="ni">file</span>
+  <span class="err">-m</span> <span class="ni">serial</span> <span class="ni">port</span> <span class="ni">is</span> <span class="err">a</span> <span class="ni">modem</span><span class="p">,</span> <span class="ni">watch</span> <span class="ni">for</span> <span class="ni">carrier</span> <span class="ni">detect</span>
+  <span class="err">-</span><span class="ni">myob</span> <span class="ni">ignores</span> <span class="ni">version</span> <span class="ni">mismatches</span> <span class="ni">in</span> <span class="ni">DBGHELP</span><span class="err">.</span><span class="ni">DLL</span>
+  <span class="err">-n</span> <span class="ni">enables</span> <span class="ni">verbose</span> <span class="ni">output</span> <span class="ni">from</span> <span class="ni">symbol</span> <span class="ni">handler</span>
+  <span class="err">-</span><span class="ni">noio</span> <span class="ni">disables</span> <span class="ni">all</span> <span class="err">I</span><span class="p">/</span><span class="err">O</span>
+  <span class="err">-</span><span class="ni">noshell</span> <span class="ni">disables</span> <span class="ni">the</span> <span class="err">.</span><span class="ni">shell</span> <span class="p">(</span><span class="err">!!</span><span class="p">)</span> <span class="ni">command</span>
+  <span class="err">-</span><span class="ni">nosqm</span> <span class="ni">disables</span> <span class="ni">SQM</span> <span class="ni">data</span> <span class="ni">collection</span><span class="p">/</span><span class="ni">upload</span><span class="err">.</span>
+  <span class="err">-</span><span class="ni">QR</span> <span class="err">\\&lt;</span><span class="ni">machine</span><span class="err">&gt;</span> <span class="ni">queries</span> <span class="ni">for</span> <span class="ni">remote</span> <span class="ni">servers</span>
+  <span class="err">-r</span> <span class="ni">display</span> <span class="ni">registers</span>
+  <span class="err">-</span><span class="ni">remote</span> <span class="err">&lt;</span><span class="ni">transport</span><span class="err">&gt;:</span><span class="ni">server</span><span class="err">=&lt;</span><span class="ni">name</span><span class="err">&gt;</span><span class="p">,</span><span class="err">&lt;</span><span class="ni">params</span><span class="err">&gt;</span> 
+    <span class="ni">lets</span> <span class="ni">you</span> <span class="ni">connect</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">debugger</span> <span class="ni">session</span> <span class="ni">started</span> <span class="ni">with</span> <span class="err">-</span><span class="ni">server</span>
+    <span class="ni">must</span> <span class="ni">be</span> <span class="ni">the</span> <span class="ni">first</span> <span class="ni">argument</span> <span class="ni">if</span> <span class="ni">present</span>
+      <span class="kd">transport:</span> <span class="ni">tcp</span> <span class="err">|</span> <span class="ni">npipe</span> <span class="err">|</span> <span class="ni">ssl</span> <span class="err">|</span> <span class="ni">spipe</span> <span class="err">|</span> <span class="m">1394</span> <span class="err">|</span> <span class="ni">com</span>
+      <span class="kd">name:</span> <span class="ni">machine</span> <span class="ni">name</span> <span class="ni">on</span> <span class="ni">which</span> <span class="ni">the</span> <span class="ni">debug</span> <span class="ni">server</span> <span class="ni">was</span> <span class="ni">created</span>
+      <span class="kd">params:</span> <span class="ni">parameters</span> <span class="ni">the</span> <span class="ni">debugger</span> <span class="ni">server</span> <span class="ni">was</span> <span class="ni">created</span> <span class="ni">with</span>
+        <span class="ni">for</span> <span class="ni">tcp</span> <span class="kd">use:</span>  <span class="ni">port</span><span class="err">=&lt;</span><span class="ni">socket</span> <span class="ni">port</span> <span class="err">#&gt;</span>
+        <span class="ni">for</span> <span class="ni">npipe</span> <span class="kd">use:</span>  <span class="ni">pipe</span><span class="err">=&lt;</span><span class="ni">name</span> <span class="ni">of</span> <span class="ni">pipe</span><span class="err">&gt;</span>
+        <span class="ni">for</span> <span class="m">1394</span> <span class="kd">use:</span>  <span class="ni">channel</span><span class="err">=&lt;</span><span class="ni">channel</span> <span class="err">#&gt;</span>
+        <span class="ni">for</span> <span class="ni">com</span> <span class="kd">use:</span>  <span class="ni">port</span><span class="err">=&lt;</span><span class="ni">COM</span> <span class="ni">port</span><span class="err">&gt;</span><span class="p">,</span><span class="ni">baud</span><span class="err">=&lt;</span><span class="ni">baud</span> <span class="ni">rate</span><span class="err">&gt;</span><span class="p">,</span>
+                      <span class="ni">channel</span><span class="err">=&lt;</span><span class="ni">channel</span> <span class="err">#&gt;</span>
+        <span class="ni">for</span> <span class="ni">ssl</span> <span class="ni">and</span> <span class="ni">spipe</span> <span class="ni">see</span> <span class="ni">the</span> <span class="ni">documentation</span>
+      <span class="kd">example:</span> <span class="err">...</span> <span class="err">-</span><span class="ni">remote</span> <span class="kd">npipe:</span><span class="ni">server</span><span class="err">=</span><span class="ni">yourmachine</span><span class="p">,</span><span class="ni">pipe</span><span class="err">=</span><span class="ni">foobar</span>
+  <span class="err">-s</span> <span class="ni">disables</span> <span class="ni">lazy</span> <span class="ni">symbol</span> <span class="ni">loading</span>
+  <span class="err">-</span><span class="ni">sdce</span> <span class="ni">pops</span> <span class="ni">up</span> <span class="ni">dialogs</span> <span class="ni">for</span> <span class="ni">critical</span> <span class="ni">errors</span>
+  <span class="err">-</span><span class="ni">secure</span> <span class="ni">disallows</span> <span class="ni">operations</span> <span class="ni">dangerous</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">host</span>
+  <span class="err">-</span><span class="ni">server</span> <span class="err">&lt;</span><span class="ni">transport</span><span class="err">&gt;:&lt;</span><span class="ni">params</span><span class="err">&gt;</span> 
+    <span class="ni">creates</span> <span class="err">a</span> <span class="ni">debugger</span> <span class="ni">session</span> <span class="ni">other</span> <span class="ni">people</span> <span class="ni">can</span> <span class="ni">connect</span> <span class="ni">to</span>
+    <span class="ni">must</span> <span class="ni">be</span> <span class="ni">the</span> <span class="ni">first</span> <span class="ni">argument</span> <span class="ni">if</span> <span class="ni">present</span>
+      <span class="kd">transport:</span> <span class="ni">tcp</span> <span class="err">|</span> <span class="ni">npipe</span> <span class="err">|</span> <span class="ni">ssl</span> <span class="err">|</span> <span class="ni">spipe</span> <span class="err">|</span> <span class="m">1394</span> <span class="err">|</span> <span class="ni">com</span>
+      <span class="kd">params:</span> <span class="ni">connection</span> <span class="ni">parameterization</span>
+        <span class="ni">for</span> <span class="ni">tcp</span> <span class="kd">use:</span>  <span class="ni">port</span><span class="err">=&lt;</span><span class="ni">socket</span> <span class="ni">port</span> <span class="err">#&gt;</span>
+        <span class="ni">for</span> <span class="ni">npipe</span> <span class="kd">use:</span>  <span class="ni">pipe</span><span class="err">=&lt;</span><span class="ni">name</span> <span class="ni">of</span> <span class="ni">pipe</span><span class="err">&gt;</span>
+        <span class="ni">for</span> <span class="m">1394</span> <span class="kd">use:</span>  <span class="ni">channel</span><span class="err">=&lt;</span><span class="ni">channel</span> <span class="err">#&gt;</span>
+        <span class="ni">for</span> <span class="ni">com</span> <span class="kd">use:</span>  <span class="ni">port</span><span class="err">=&lt;</span><span class="ni">COM</span> <span class="ni">port</span><span class="err">&gt;</span><span class="p">,</span><span class="ni">baud</span><span class="err">=&lt;</span><span class="ni">baud</span> <span class="ni">rate</span><span class="err">&gt;</span><span class="p">,</span>
+                      <span class="ni">channel</span><span class="err">=&lt;</span><span class="ni">channel</span> <span class="err">#&gt;</span>
+        <span class="ni">for</span> <span class="ni">ssl</span> <span class="ni">and</span> <span class="ni">spipe</span> <span class="ni">see</span> <span class="ni">the</span> <span class="ni">documentation</span>
+      <span class="kd">example:</span> <span class="err">...</span> <span class="err">-</span><span class="ni">server</span> <span class="kd">npipe:</span><span class="ni">pipe</span><span class="err">=</span><span class="ni">foobar</span>
+  <span class="err">-</span><span class="ni">ses</span> <span class="ni">enables</span> <span class="ni">strict</span> <span class="ni">symbol</span> <span class="ni">loading</span>
+  <span class="err">-</span><span class="ni">sflags</span> <span class="err">&lt;</span><span class="ni">flags</span><span class="err">&gt;</span> <span class="ni">sets</span> <span class="ni">symbol</span> <span class="ni">flags</span> <span class="ni">from</span> <span class="err">a</span> <span class="ni">numeric</span> <span class="ni">argument</span>
+  <span class="err">-</span><span class="ni">sicv</span> <span class="ni">ignores</span> <span class="ni">the</span> <span class="ni">CV</span> <span class="ni">record</span> <span class="ni">when</span> <span class="ni">symbol</span> <span class="ni">loading</span>
+  <span class="err">-</span><span class="ni">sins</span> <span class="ni">ignores</span> <span class="ni">the</span> <span class="ni">symbol</span> <span class="ni">path</span> <span class="ni">environment</span> <span class="ni">variables</span>
+  <span class="err">-</span><span class="ni">snc</span> <span class="ni">converts</span> <span class="err">::</span> <span class="ni">to</span> <span class="ni">__</span> <span class="ni">in</span> <span class="ni">symbol</span> <span class="ni">names</span>
+  <span class="err">-</span><span class="ni">snul</span> <span class="ni">disables</span> <span class="ni">automatic</span> <span class="ni">symbol</span> <span class="ni">loading</span> <span class="ni">for</span> <span class="ni">unqualified</span> <span class="ni">names</span>
+  <span class="err">-</span><span class="ni">srcpath</span> <span class="err">&lt;</span><span class="ni">SourcePath</span><span class="err">&gt;</span> <span class="ni">specifies</span> <span class="ni">the</span> <span class="ni">source</span> <span class="ni">search</span> <span class="ni">path</span>
+  <span class="err">-</span><span class="ni">sup</span> <span class="ni">enables</span> <span class="ni">full</span> <span class="ni">public</span> <span class="ni">symbol</span> <span class="ni">searches</span>
+  <span class="err">-t</span> <span class="ni">Enable</span> <span class="ni">KD</span> <span class="ni">transport</span> <span class="ni">related</span> <span class="ni">output</span> <span class="p">(</span><span class="ni">CTRL</span><span class="err">+D</span> <span class="ni">output</span><span class="p">)</span> <span class="ni">by</span> <span class="ni">default</span><span class="err">.</span>
+  <span class="err">-v</span> <span class="ni">enables</span> <span class="ni">verbose</span> <span class="ni">output</span> <span class="ni">from</span> <span class="ni">debugger</span>
+  <span class="err">-</span><span class="ni">version</span> <span class="ni">shows</span> <span class="ni">the</span> <span class="ni">build</span> <span class="ni">version</span>
+  <span class="err">-</span><span class="ni">wake</span> <span class="err">&lt;</span><span class="ni">pid</span><span class="err">&gt;</span> <span class="ni">wakes</span> <span class="ni">up</span> <span class="err">a</span> <span class="ni">sleeping</span> <span class="ni">debugger</span> <span class="ni">and</span> <span class="ni">exits</span>
+  <span class="err">-x</span> <span class="ni">same</span> <span class="ni">as</span> <span class="err">-b</span><span class="p">,</span> <span class="ni">except</span> <span class="ni">uses</span> <span class="ni">an</span> <span class="ni">initial</span> <span class="ni">command</span> <span class="ni">of</span> <span class="ni">eb</span> <span class="ni">NtGlobalFlag</span> <span class="m">9</span><span class="c">;g</span>
+  <span class="err">-y</span> <span class="err">&lt;</span><span class="ni">SymbolsPath</span><span class="err">&gt;</span> <span class="ni">specifies</span> <span class="ni">the</span> <span class="ni">symbol</span> <span class="ni">search</span> <span class="ni">path</span> <span class="p">(</span><span class="ni">see</span> <span class="ni">_NT_SYMBOL_PATH</span><span class="p">)</span>
+  <span class="err">-z</span> <span class="err">&lt;</span><span class="ni">CrashDmpFile</span><span class="err">&gt;</span> <span class="ni">specifies</span> <span class="ni">the</span> <span class="ni">name</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">crash</span> <span class="ni">dump</span> <span class="ni">file</span> <span class="ni">to</span> <span class="ni">debug</span>
+  <span class="err">-</span><span class="ni">zd</span> <span class="err">&lt;</span><span class="ni">CrashDmpFile</span><span class="err">&gt;</span> <span class="ni">specifies</span> <span class="ni">the</span> <span class="ni">name</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">crash</span> <span class="ni">dump</span> <span class="ni">file</span> <span class="ni">to</span> <span class="ni">debugand</span>
+                     <span class="ni">deletes</span> <span class="ni">that</span> <span class="ni">crash</span> <span class="ni">dump</span> <span class="ni">after</span> <span class="ni">the</span> <span class="ni">debugger</span> <span class="ni">has</span> <span class="ni">finished</span>
+                     <span class="ni">using</span> <span class="ni">it</span>
+  <span class="err">-</span><span class="ni">zp</span> <span class="err">&lt;</span><span class="ni">CrashPageFile</span><span class="err">&gt;</span> <span class="ni">specifies</span> <span class="ni">the</span> <span class="ni">name</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">page</span><span class="err">.</span><span class="ni">dmp</span> <span class="ni">file</span> <span class="ni">to</span> <span class="ni">use</span> <span class="ni">with</span> <span class="err">a</span>
+                      <span class="ni">crash</span> <span class="ni">dump</span>
+
+<span class="ni">Environment</span> <span class="ni">Variables</span><span class="err">:</span>
+
+    <span class="ni">_NT_SYMBOL_PATH</span><span class="err">=[</span><span class="ni">Drive</span><span class="err">:][</span><span class="ni">Path</span><span class="err">]</span>
+        <span class="ni">Specify</span> <span class="ni">symbol</span> <span class="ni">image</span> <span class="ni">path</span><span class="err">.</span>
+
+    <span class="ni">_NT_ALT_SYMBOL_PATH</span><span class="err">=[</span><span class="ni">Drive</span><span class="err">:][</span><span class="ni">Path</span><span class="err">]</span>
+        <span class="ni">Specify</span> <span class="ni">an</span> <span class="ni">alternate</span> <span class="ni">symbol</span> <span class="ni">image</span> <span class="ni">path</span><span class="err">.</span>
+
+    <span class="ni">_NT_DEBUGGER_EXTENSION_PATH</span><span class="err">=[</span><span class="ni">Drive</span><span class="err">:][</span><span class="ni">Path</span><span class="err">]</span>
+        <span class="ni">Specify</span> <span class="err">a</span> <span class="ni">path</span> <span class="ni">which</span> <span class="ni">should</span> <span class="ni">be</span> <span class="ni">searched</span> <span class="ni">first</span> <span class="ni">for</span> <span class="ni">extensions</span> <span class="ni">dlls</span>
+
+    <span class="ni">_NT_EXECUTABLE_IMAGE_PATH</span><span class="err">=[</span><span class="ni">Drive</span><span class="err">:][</span><span class="ni">Path</span><span class="err">]</span>
+        <span class="ni">Specify</span> <span class="ni">executable</span> <span class="ni">image</span> <span class="ni">path</span><span class="err">.</span>
+
+    <span class="ni">_NT_SOURCE_PATH</span><span class="err">=[</span><span class="ni">Drive</span><span class="err">:][</span><span class="ni">Path</span><span class="err">]</span>
+        <span class="ni">Specify</span> <span class="ni">source</span> <span class="ni">file</span> <span class="ni">path</span><span class="err">.</span>
+
+    <span class="ni">_NT_DEBUG_LOG_FILE_OPEN</span><span class="err">=</span><span class="ni">filename</span>
+        <span class="ni">If</span> <span class="ni">specified</span><span class="p">,</span> <span class="ni">all</span> <span class="ni">output</span> <span class="ni">will</span> <span class="ni">be</span> <span class="ni">written</span> <span class="ni">to</span> <span class="ni">this</span> <span class="ni">file</span> <span class="ni">from</span> <span class="ni">offset</span> <span class="m">0</span><span class="err">.</span>
+
+    <span class="ni">_NT_DEBUG_LOG_FILE_APPEND</span><span class="err">=</span><span class="ni">filename</span>
+        <span class="ni">If</span> <span class="ni">specified</span><span class="p">,</span> <span class="ni">all</span> <span class="ni">output</span> <span class="ni">will</span> <span class="ni">be</span> <span class="ni">APPENDed</span> <span class="ni">to</span> <span class="ni">this</span> <span class="ni">file</span><span class="err">.</span>
+
+    <span class="ni">_NT_DEBUG_HISTORY_SIZE</span><span class="err">=</span><span class="ni">size</span>
+        <span class="ni">Specifies</span> <span class="ni">the</span> <span class="ni">size</span> <span class="ni">of</span> <span class="err">a</span> <span class="ni">server</span><span class="err">'s</span> <span class="ni">output</span> <span class="ni">history</span> <span class="ni">in</span> <span class="ni">kilobytes</span>
+    <span class="ni">_NT_DEBUG_BUS</span><span class="err">=</span><span class="m">1394</span>
+        <span class="ni">Specifies</span> <span class="ni">the</span> <span class="ni">type</span> <span class="ni">of</span> <span class="ni">BUS</span> <span class="ni">the</span> <span class="ni">kernel</span> <span class="ni">debugger</span> <span class="ni">will</span> <span class="ni">use</span> <span class="ni">to</span> <span class="ni">communicate</span> <span class="ni">with</span> <span class="ni">the</span> <span class="ni">target</span>
+
+    <span class="ni">_NT_DEBUG_1394_CHANNEL</span><span class="err">=</span><span class="ni">number</span>
+        <span class="ni">Specifies</span> <span class="ni">the</span> <span class="ni">channel</span> <span class="ni">to</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">over</span> <span class="ni">the</span> <span class="m">1394</span> <span class="ni">bus</span>
+
+    <span class="ni">_NT_DEBUG_PORT</span><span class="err">=</span><span class="ni">com</span><span class="err">[</span><span class="m">1</span><span class="err">|</span><span class="m">2</span><span class="err">|...]</span>
+        <span class="ni">Specify</span> <span class="ni">which</span> <span class="ni">com</span> <span class="ni">port</span> <span class="ni">to</span> <span class="ni">use</span><span class="err">.</span> <span class="p">(</span><span class="ni">Default</span> <span class="err">=</span> <span class="ni">com1</span><span class="p">)</span>
+
+    <span class="ni">_NT_DEBUG_BAUD_RATE</span><span class="err">=</span><span class="ni">baud</span> <span class="ni">rate</span>
+        <span class="ni">Specify</span> <span class="ni">the</span> <span class="ni">baud</span> <span class="ni">rate</span> <span class="ni">used</span> <span class="ni">by</span> <span class="ni">debugging</span> <span class="ni">serial</span> <span class="ni">port</span><span class="err">.</span> <span class="p">(</span><span class="ni">Default</span> <span class="err">=</span> <span class="m">19200</span><span class="p">)</span>
+
+    <span class="ni">_NT_DEBUG_CACHE_SIZE</span><span class="err">=x</span>
+        <span class="ni">If</span> <span class="ni">specified</span><span class="p">,</span> <span class="ni">gives</span> <span class="ni">the</span> <span class="ni">number</span> <span class="ni">of</span> <span class="ni">bytes</span> <span class="ni">cached</span> <span class="ni">on</span> <span class="ni">debugger</span> <span class="ni">side</span>
+        <span class="ni">of</span> <span class="ni">kernel</span> <span class="ni">debugger</span> <span class="ni">serial</span> <span class="ni">connection</span> <span class="p">(</span><span class="ni">default</span> <span class="ni">is</span> <span class="m">102400</span><span class="p">)</span><span class="err">.</span>
+
+    <span class="ni">KDQUIET</span><span class="err">=</span><span class="ni">anything</span>
+        <span class="ni">If</span> <span class="ni">defined</span><span class="p">,</span> <span class="ni">disables</span> <span class="ni">obnoxious</span> <span class="ni">warning</span> <span class="ni">message</span> <span class="ni">displayed</span> <span class="ni">when</span> <span class="ni">user</span>
+        <span class="ni">presses</span> <span class="ni">Ctrl</span><span class="err">-C</span>
+
+
+<span class="ni">Control</span> <span class="ni">Keys</span><span class="err">:</span>
+
+     <span class="err">&lt;</span><span class="ni">Ctrl</span><span class="err">-A&gt;&lt;</span><span class="ni">Enter</span><span class="err">&gt;</span> <span class="ni">Toggle</span> <span class="ni">BaudRate</span>
+     <span class="err">&lt;</span><span class="ni">Ctrl</span><span class="err">-B&gt;&lt;</span><span class="ni">Enter</span><span class="err">&gt;</span> <span class="ni">Quit</span> <span class="ni">debugger</span>
+     <span class="err">&lt;</span><span class="ni">Ctrl</span><span class="err">-C&gt;</span>        <span class="ni">Break</span> <span class="ni">into</span> <span class="ni">Target</span>
+     <span class="err">&lt;</span><span class="ni">Ctrl</span><span class="err">-D&gt;&lt;</span><span class="ni">Enter</span><span class="err">&gt;</span> <span class="ni">Display</span> <span class="ni">debugger</span> <span class="ni">debugging</span> <span class="ni">information</span>
+     <span class="err">&lt;</span><span class="ni">Ctrl</span><span class="err">-F&gt;&lt;</span><span class="ni">Enter</span><span class="err">&gt;</span> <span class="ni">Force</span> <span class="err">a</span> <span class="ni">break</span> <span class="ni">into</span> <span class="ni">the</span> <span class="ni">kernel</span> <span class="p">(</span><span class="ni">same</span> <span class="ni">as</span> <span class="ni">Ctrl</span><span class="err">-C</span><span class="p">)</span>
+     <span class="err">&lt;</span><span class="ni">Ctrl</span><span class="err">-K&gt;&lt;</span><span class="ni">Enter</span><span class="err">&gt;</span> <span class="ni">Toggle</span> <span class="ni">Initial</span> <span class="ni">Breakpoint</span>
+     <span class="err">&lt;</span><span class="ni">Ctrl</span><span class="err">-\&gt;&lt;</span><span class="ni">Enter</span><span class="err">&gt;</span> <span class="ni">Debug</span> <span class="ni">Current</span> <span class="ni">debugger</span>
+     <span class="err">&lt;</span><span class="ni">Ctrl</span><span class="err">-R&gt;&lt;</span><span class="ni">Enter</span><span class="err">&gt;</span> <span class="ni">Resynchronize</span> <span class="ni">target</span> <span class="ni">and</span> <span class="ni">host</span>
+     <span class="err">&lt;</span><span class="ni">Ctrl</span><span class="err">-V&gt;&lt;</span><span class="ni">Enter</span><span class="err">&gt;</span> <span class="ni">Toggle</span> <span class="ni">Verbose</span> <span class="ni">mode</span>
+     <span class="err">&lt;</span><span class="ni">Ctrl</span><span class="err">-W&gt;&lt;</span><span class="ni">Enter</span><span class="err">&gt;</span> <span class="ni">Print</span> <span class="ni">version</span> <span class="ni">information</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\kd.exe</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64cpu.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\wow64win.dll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">33000002CF6D2CC57CAA65A6D80000000002CF</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">1A221B3B4FEF088B17BA6704FD088DF192D9E0EF</code></li>
+  <li>Issuer: CN=Microsoft Code Signing PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: kd.exe</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.19041.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.19041.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 32-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: Unknown</li>
+  <li>VirusTotal Link: n/a</li>
+</ul>
+
+<h2 id="file-similarity-ssdeep-match">File Similarity (ssdeep match)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/xcyclopedia/library/cdb.exe-5017F8EFBE98513AEB75EAC57C1EA351.html">C:\Program Files (x86)\Windows Kits\10\Debuggers\arm\cdb.exe</a></td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/kd.exe-F6B9E69A6C0563D9338B4B73EBAAC34C.html">C:\Program Files (x86)\Windows Kits\10\Debuggers\arm\kd.exe</a></td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/ntkd.exe-F468EEBF04739821C2B5C322754FA720.html">C:\Program Files (x86)\Windows Kits\10\Debuggers\arm\ntkd.exe</a></td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/ntsd.exe-629EA12D527237B9CD945AC44C2DE80D.html">C:\Program Files (x86)\Windows Kits\10\Debuggers\arm\ntsd.exe</a></td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/cdb.exe-6E953EFEB12896AC0EC17D198902FAE1.html">C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\cdb.exe</a></td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/ntkd.exe-BCABCBB87A2D6CF497D3FBF60BDD2543.html">C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\ntkd.exe</a></td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/ntsd.exe-329FBD3549A7D0FB1BF3A250ED8BDFB7.html">C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\ntsd.exe</a></td>
+      <td>46</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

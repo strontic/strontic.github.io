@@ -1,0 +1,563 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>SQLCMD.EXE | T-SQL execution command line utility &#124; STRONTIC</title>
+<meta name="description" content="What is SQLCMD.EXE?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="SQLCMD.EXE | T-SQL execution command line utility">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/SQLCMD.EXE-341B3C6F5A1BFB7EC6FC47878BDBAB80.html">
+
+
+  <meta property="og:description" content="What is SQLCMD.EXE?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="SQLCMD.EXE | T-SQL execution command line utility">
+  <meta name="twitter:description" content="What is SQLCMD.EXE?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/SQLCMD.EXE-341B3C6F5A1BFB7EC6FC47878BDBAB80.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/SQLCMD.EXE-341B3C6F5A1BFB7EC6FC47878BDBAB80.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">SQLCMD.EXE | T-SQL execution command line utility</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            SQLCMD.EXE      T-SQL execution command line utility      ">
+    <meta itemprop="description" content="What is SQLCMD.EXE?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="sqlcmdexe">SQLCMD.EXE</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\SQLCMD.EXE</code></li>
+  <li>Description: T-SQL execution command line utility</li>
+  <li>Comments: SQL</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">341B3C6F5A1BFB7EC6FC47878BDBAB80</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">8423D5A8E47430A29D0E91A066E3B429CE7BE9A0</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">5803521CD1A53B4DE33E7BB782651548C22D1D81C0C1C6B26B1EB9CF773BB724</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">BFE021A7592499D905D70E2D456CF78BB73D232B9DF2D6AAF37E837BD00A11C61163653C88EABDBB6CAC44BEA3293F51</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">31AC3DAFFCD052E027D7FE2A320720E9482D05FCB90B2690F2BDD8A29893500FD5C1FF9353DE44C802C0EF099CC15E991895260A26897DA8615DFB01466F3010</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">3072:QPkOTjjmDpuQtR8NMtmjcrM4NCjKtirp5DqNUseGvMNTcyqnqFmCQiEd:4/edtvBoxjUir7DqNU7GkNTMqFcd</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">3D3B6D9E8906FC45B35D79B6B2BFDC28</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">84EB0C9C0EE1F3D5DEA419522D26FA23310DAFE1</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">9FDE8E7801064FBA173C73992EE617FF02C6A59979AC2D947DBB42A2AD897ACA</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">Microsoft</span> <span class="p">(</span><span class="err">R</span><span class="p">)</span> <span class="ni">SQL</span> <span class="ni">Server</span> <span class="ni">Command</span> <span class="ni">Line</span> <span class="ni">Tool</span>
+<span class="ni">Version</span> <span class="m">15</span><span class="err">.</span><span class="m">0</span><span class="err">.</span><span class="m">2000</span><span class="err">.</span><span class="m">5</span> <span class="ni">NT</span>
+<span class="ni">Copyright</span> <span class="p">(</span><span class="err">C</span><span class="p">)</span> <span class="m">2019</span> <span class="ni">Microsoft</span> <span class="ni">Corporation</span><span class="err">.</span> <span class="ni">All</span> <span class="ni">rights</span> <span class="ni">reserved</span><span class="err">.</span>
+
+<span class="kd">usage:</span> <span class="ni">Sqlcmd</span>            <span class="err">[-U</span> <span class="ni">login</span> <span class="ni">id</span><span class="err">]</span>          <span class="err">[-P</span> <span class="ni">password</span><span class="err">]</span>
+  <span class="err">[-S</span> <span class="ni">server</span><span class="err">]</span>            <span class="err">[-H</span> <span class="ni">hostname</span><span class="err">]</span>          <span class="err">[-E</span> <span class="ni">trusted</span> <span class="ni">connection</span><span class="err">]</span>
+  <span class="err">[-N</span> <span class="ni">Encrypt</span> <span class="ni">Connection</span><span class="err">][-C</span> <span class="ni">Trust</span> <span class="ni">Server</span> <span class="ni">Certificate</span><span class="err">]</span>
+  <span class="err">[-d</span> <span class="ni">use</span> <span class="ni">database</span> <span class="ni">name</span><span class="err">]</span> <span class="err">[-l</span> <span class="ni">login</span> <span class="ni">timeout</span><span class="err">]</span>     <span class="err">[-t</span> <span class="ni">query</span> <span class="ni">timeout</span><span class="err">]</span>
+  <span class="err">[-h</span> <span class="ni">headers</span><span class="err">]</span>           <span class="err">[-s</span> <span class="ni">colseparator</span><span class="err">]</span>      <span class="err">[-w</span> <span class="ni">screen</span> <span class="ni">width</span><span class="err">]</span>
+  <span class="err">[-a</span> <span class="ni">packetsize</span><span class="err">]</span>        <span class="err">[-e</span> <span class="ni">echo</span> <span class="ni">input</span><span class="err">]</span>        <span class="err">[-I</span> <span class="ni">Enable</span> <span class="ni">Quoted</span> <span class="ni">Identifiers</span><span class="err">]</span>
+  <span class="err">[-c</span> <span class="ni">cmdend</span><span class="err">]</span>            <span class="err">[-L[c]</span> <span class="ni">list</span> <span class="ni">servers</span><span class="err">[</span><span class="ni">clean</span> <span class="ni">output</span><span class="err">]]</span>
+  <span class="err">[-q</span> <span class="s">"cmdline query"</span><span class="err">]</span>   <span class="err">[-Q</span> <span class="s">"cmdline query"</span> <span class="ni">and</span> <span class="ni">exit</span><span class="err">]</span>
+  <span class="err">[-m</span> <span class="ni">errorlevel</span><span class="err">]</span>        <span class="err">[-V</span> <span class="ni">severitylevel</span><span class="err">]</span>     <span class="err">[-W</span> <span class="ni">remove</span> <span class="ni">trailing</span> <span class="ni">spaces</span><span class="err">]</span>
+  <span class="err">[-u</span> <span class="ni">unicode</span> <span class="ni">output</span><span class="err">]</span>    <span class="err">[-r[</span><span class="m">0</span><span class="err">|</span><span class="m">1</span><span class="err">]</span> <span class="ni">msgs</span> <span class="ni">to</span> <span class="ni">stderr</span><span class="err">]</span>
+  <span class="err">[-i</span> <span class="ni">inputfile</span><span class="err">]</span>         <span class="err">[-o</span> <span class="ni">outputfile</span><span class="err">]</span>        <span class="err">[-z</span> <span class="ni">new</span> <span class="ni">password</span><span class="err">]</span>
+  <span class="err">[-f</span> <span class="err">&lt;</span><span class="ni">codepage</span><span class="err">&gt;</span> <span class="err">|</span> <span class="kd">i:</span><span class="err">&lt;</span><span class="ni">codepage</span><span class="err">&gt;[</span><span class="p">,</span><span class="kd">o:</span><span class="err">&lt;</span><span class="ni">codepage</span><span class="err">&gt;]]</span> <span class="err">[-Z</span> <span class="ni">new</span> <span class="ni">password</span> <span class="ni">and</span> <span class="ni">exit</span><span class="err">]</span>
+  <span class="err">[-k[</span><span class="m">1</span><span class="err">|</span><span class="m">2</span><span class="err">]</span> <span class="ni">remove</span><span class="err">[</span><span class="ni">replace</span><span class="err">]</span> <span class="ni">control</span> <span class="ni">characters</span><span class="err">]</span>
+  <span class="err">[-y</span> <span class="ni">variable</span> <span class="ni">length</span> <span class="ni">type</span> <span class="ni">display</span> <span class="ni">width</span><span class="err">]</span>
+  <span class="err">[-Y</span> <span class="ni">fixed</span> <span class="ni">length</span> <span class="ni">type</span> <span class="ni">display</span> <span class="ni">width</span><span class="err">]</span>
+  <span class="err">[-p[</span><span class="m">1</span><span class="err">]</span> <span class="ni">print</span> <span class="ni">statistics</span><span class="err">[</span><span class="ni">colon</span> <span class="ni">format</span><span class="err">]]</span>
+  <span class="err">[-R</span> <span class="ni">use</span> <span class="ni">client</span> <span class="ni">regional</span> <span class="ni">setting</span><span class="err">]</span>
+  <span class="err">[-K</span> <span class="ni">application</span> <span class="ni">intent</span><span class="err">]</span>
+  <span class="err">[-M</span> <span class="ni">multisubnet</span> <span class="ni">failover</span><span class="err">]</span>
+  <span class="err">[-b</span> <span class="ni">On</span> <span class="ni">error</span> <span class="ni">batch</span> <span class="ni">abort</span><span class="err">]</span>
+  <span class="err">[-v</span> <span class="ni">var</span> <span class="err">=</span> <span class="s">"value"</span><span class="err">...]</span>  <span class="err">[-A</span> <span class="ni">dedicated</span> <span class="ni">admin</span> <span class="ni">connection</span><span class="err">]</span>
+  <span class="err">[-X[</span><span class="m">1</span><span class="err">]</span> <span class="ni">disable</span> <span class="ni">commands</span><span class="p">,</span> <span class="ni">startup</span> <span class="ni">script</span><span class="p">,</span> <span class="ni">environment</span> <span class="ni">variables</span> <span class="err">[</span><span class="ni">and</span> <span class="ni">exit</span><span class="err">]]</span>
+  <span class="err">[-x</span> <span class="ni">disable</span> <span class="ni">variable</span> <span class="ni">substitution</span><span class="err">]</span>
+  <span class="err">[-j</span> <span class="ni">Print</span> <span class="ni">raw</span> <span class="ni">error</span> <span class="ni">messages</span><span class="err">]</span>
+  <span class="err">[-g</span> <span class="ni">enable</span> <span class="ni">column</span> <span class="ni">encryption</span><span class="err">]</span>
+  <span class="err">[-G</span> <span class="ni">use</span> <span class="ni">Azure</span> <span class="ni">Active</span> <span class="ni">Directory</span> <span class="ni">for</span> <span class="ni">authentication</span><span class="err">]</span>
+  <span class="err">[-?</span> <span class="ni">show</span> <span class="ni">syntax</span> <span class="ni">summary</span><span class="err">]</span>
+
+</code></pre></div></div>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">Sqlcmd</span><span class="err">:</span> <span class="err">'-h</span> <span class="ni">elp</span><span class="err">':</span> <span class="ni">header</span> <span class="ni">value</span> <span class="ni">must</span> <span class="ni">be</span> <span class="ni">either</span> <span class="err">-</span><span class="m">1</span> <span class="ni">or</span> <span class="err">a</span> <span class="ni">value</span> <span class="ni">between</span> <span class="err">-</span><span class="m">1</span> <span class="ni">and</span> <span class="m">2147483647</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\SQLCMD.EXE</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNEL32.DLL</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNELBASE.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">33000001E47CFC029560FF84FB0002000001E4</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">E942D27A35DCBBE072872AD9E9E0AC4C948A7864</code></li>
+  <li>Issuer: CN=Microsoft Code Signing PCA, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: SQLCMD.exe</li>
+  <li>Product Name: Microsoft SQL Server</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 2019.0150.2000.05 ((SQLServer).190924-2033)</li>
+  <li>Product Version: 15.0.2000.5</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright: Microsoft. All rights reserved.</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/75</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/5803521cd1a53b4de33e7bb782651548c22d1d81c0c1c6b26b1eb9cf773bb724/detection</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">SQLCMD.EXE</code> being misused. While <code class="language-plaintext highlighter-rouge">SQLCMD.EXE</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/cn_pentestset_webshells.yar">cn_pentestset_webshells.yar</a></td>
+      <td>$s2 = “String sql = request.getParameter("sqlcmd");” fullword ascii /* PEStudio Blacklist: strings */</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktools.yar">gen_cn_hacktools.yar</a></td>
+      <td>description = “Chinese Hacktool Set - file Sqlcmd.exe”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktools.yar">gen_cn_hacktools.yar</a></td>
+      <td>$s6 = “=======================Sqlcmd v0.21 For HScan v1.20=======================” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktools.yar">gen_cn_hacktools.yar</a></td>
+      <td>$s11 = “Sqlcmd&gt;” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktools.yar">gen_cn_hacktools.yar</a></td>
+      <td>description = “Chinese Hacktool Set - file sqlcmd.exe”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar">thor-hacktools.yar</a></td>
+      <td>description = “Disclosed hacktool set (old stuff) - file sqlcmd.exe”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
