@@ -2375,9 +2375,7 @@ File Name / Variants | Description
 **[Microsoft.Excel.SPClient.Interfaces.dll](library/Microsoft.Excel.SPClient.Interfaces.dll-2B6463D0E2BBB93A3F9AF66778BD6C71.md)** |  . 
 **[Microsoft.Excel.Tabular.dll](library/Microsoft.Excel.Tabular.dll-C71A18D054CA58AD57B7108BA3BF16B1.md)** | Microsoft Excel TOM. Microsoft Excel TOM
 **[Microsoft.Exchange.WebServices.dll](library/Microsoft.Exchange.WebServices.dll-DA73C90536CD62E1C95A3B46F9EE42A2.md)** | . Service Pack 0
-**[icrosoft.Extensions.CommandLineUtils.dll](library/Microsoft.Extensions.CommandLineUtils.dll-B5E63563A63543838187F3B466383BF2.md)** |  . Command-line parsing API. Commonly used types:
-Microsoft.Extensions.CommandLineUtils.CommandLineApplication
-Microsoft.Extensions.CommandLineUtils.CommandOption
+**[icrosoft.Extensions.CommandLineUtils.dll](library/Microsoft.Extensions.CommandLineUtils.dll-B5E63563A63543838187F3B466383BF2.md)** |  . Command-line parsing API. Commonly used types: Microsoft.Extensions.CommandLineUtils.CommandLineApplication Microsoft.Extensions.CommandLineUtils.CommandOption
 **[cs.Display.DisplayEnhancementService.dll](library/.Graphics.Display.DisplayEnhancementService.dll-97031586FD68533A07640D7A36444D0F.md)** | Microsoft.Graphics.Display.DisplayEnhancementService DLL. 
 **[Microsoft.HostIntegration.Connectors.dll](library/Microsoft.HostIntegration.Connectors.dll-973585EF0D2BF199A46F4E81790C1FE7.md)** |  . 
 **[dentityModel.Clients.ActiveDirectory.dll](library/osoft.IdentityModel.Clients.ActiveDirectory.dll-BDF42C351399C1E4423A6EDBC111922D.md)** | Microsoft.IdentityModel.Clients.ActiveDirectory. 
@@ -5639,5 +5637,5 @@ Microsoft.Extensions.CommandLineUtils.CommandOption
 **[zstd.dll](library/zstd.dll-9854235E328E4A69D239BF4287848501.md)** | Zstandard - Fast and efficient compression algorithm. 
 **[ztrace_maps.dll](library/ztrace_maps.dll-355912A706861F396D126B797ABDDA5F.md)** ([2](library/ztrace_maps.dll-7F738E8066AA78DD2BE2E732C7F2BC47.md)) | ZTrace Event Resources. 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
