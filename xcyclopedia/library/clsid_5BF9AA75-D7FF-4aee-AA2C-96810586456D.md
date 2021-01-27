@@ -1,0 +1,16 @@
+﻿---
+title: "CLSID 5BF9AA75-D7FF-4aee-AA2C-96810586456D | (AppID: {19BCA967-D266-436f-B2D4-CBE4D4B42F96})"
+excerpt: What is COM-Object CLSID 5BF9AA75-D7FF-4aee-AA2C-96810586456D?
+---
+
+# {5BF9AA75-D7FF-4aee-AA2C-96810586456D}
+
+* AppID: `{19BCA967-D266-436f-B2D4-CBE4D4B42F96}`
+
+## Instance
+
+* Type: `__ComObject`
+
+MIT License. Copyright (c) 2021 Strontic.
+
+

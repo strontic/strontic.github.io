@@ -1,0 +1,23 @@
+﻿---
+title: "CLSID B9BC2A50-43C3-41AA-A092-5DB14E184BAE | (C:\\Windows\\System32\\InputSwitch.dll)"
+excerpt: What is COM-Object CLSID B9BC2A50-43C3-41AA-A092-5DB14E184BAE?
+---
+
+# {B9BC2A50-43C3-41AA-A092-5DB14E184BAE}
+
+
+## Registry
+
+
+### InProcServer32
+
+* (default): `C:\Windows\System32\InputSwitch.dll`
+* ThreadingModel: `Apartment`
+
+## Instance
+
+* Type: `__ComObject`
+
+MIT License. Copyright (c) 2021 Strontic.
+
+

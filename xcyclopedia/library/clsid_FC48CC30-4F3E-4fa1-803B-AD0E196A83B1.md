@@ -1,0 +1,32 @@
+﻿---
+title: "CLSID FC48CC30-4F3E-4fa1-803B-AD0E196A83B1 | AccClientDocMgr Class"
+excerpt: What is COM-Object CLSID FC48CC30-4F3E-4fa1-803B-AD0E196A83B1?
+---
+
+# {FC48CC30-4F3E-4fa1-803B-AD0E196A83B1}
+
+* (default): `AccClientDocMgr Class`
+
+## Registry
+
+
+### InprocServer32
+
+* (default): `C:\Windows\System32\msaatext.dll`
+* ThreadingModel: `Apartment`
+
+### ProgID
+
+* (default): `AccClientDocMgr.AccClientDocMgr.1`
+
+### VersionIndependentProgID
+
+* (default): `AccClientDocMgr.AccClientDocMgr`
+
+## Instance
+
+* Type: `__ComObject`
+
+MIT License. Copyright (c) 2021 Strontic.
+
+

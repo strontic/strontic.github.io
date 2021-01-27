@@ -1,0 +1,24 @@
+﻿---
+title: "CLSID 7071ECFA-663B-4bc1-A1FA-B97F3B917C55 | Network Tasks Host Class"
+excerpt: What is COM-Object CLSID 7071ECFA-663B-4bc1-A1FA-B97F3B917C55?
+---
+
+# {7071ECFA-663B-4bc1-A1FA-B97F3B917C55}
+
+* (default): `Network Tasks Host Class`
+
+## Registry
+
+
+### InProcServer32
+
+* (default): `C:\Windows\system32\connect.dll`
+* ThreadingModel: `Apartment`
+
+## Instance
+
+* Type: `__ComObject`
+
+MIT License. Copyright (c) 2021 Strontic.
+
+

@@ -1,0 +1,24 @@
+﻿---
+title: "CLSID 79eac9d0-baf9-11ce-8c82-00aa004ba90b | StdHlink"
+excerpt: What is COM-Object CLSID 79eac9d0-baf9-11ce-8c82-00aa004ba90b?
+---
+
+# {79eac9d0-baf9-11ce-8c82-00aa004ba90b}
+
+* (default): `StdHlink`
+
+## Registry
+
+
+### InprocServer32
+
+* (default): `C:\Windows\System32\hlink.dll`
+* ThreadingModel: `Apartment`
+
+## Instance
+
+* Type: `__ComObject`
+
+MIT License. Copyright (c) 2021 Strontic.
+
+

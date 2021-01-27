@@ -1,0 +1,29 @@
+﻿---
+title: "CLSID 14BE6B21-C682-3A3A-8B24-FEE75B4FF8C5 | System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNmtokens"
+excerpt: What is COM-Object CLSID 14BE6B21-C682-3A3A-8B24-FEE75B4FF8C5?
+---
+
+# {14BE6B21-C682-3A3A-8B24-FEE75B4FF8C5}
+
+* (default): `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNmtokens`
+
+## Registry
+
+
+### {62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}
+
+
+### InprocServer32
+
+* (default): `C:\Windows\System32\mscoree.dll`
+* Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
+* Class: `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNmtokens`
+* ThreadingModel: `Both`
+
+### ProgId
+
+* (default): `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNmtokens`
+
+MIT License. Copyright (c) 2021 Strontic.
+
+

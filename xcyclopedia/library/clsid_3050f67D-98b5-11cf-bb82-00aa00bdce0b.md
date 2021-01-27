@@ -1,0 +1,284 @@
+﻿---
+title: "CLSID 3050f67D-98b5-11cf-bb82-00aa00bdce0b | Microsoft Html Document for Popup Window"
+excerpt: What is COM-Object CLSID 3050f67D-98b5-11cf-bb82-00aa00bdce0b?
+---
+
+# {3050f67D-98b5-11cf-bb82-00aa00bdce0b}
+
+* (default): `Microsoft Html Document for Popup Window`
+
+## Registry
+
+
+### InProcServer32
+
+* (default): `C:\Windows\System32\mshtml.dll`
+* ThreadingModel: `Apartment`
+
+## Instance
+
+* Type: `__ComObject`
+
+### Methods
+
+* write: `void write (SAFEARRAY(Variant))`
+* writeln: `void writeln (SAFEARRAY(Variant))`
+* open: `IDispatch open (string, Variant, Variant, Variant)`
+* close: `void close ()`
+* clear: `void clear ()`
+* queryCommandSupported: `bool queryCommandSupported (string)`
+* queryCommandEnabled: `bool queryCommandEnabled (string)`
+* queryCommandState: `bool queryCommandState (string)`
+* queryCommandIndeterm: `bool queryCommandIndeterm (string)`
+* queryCommandText: `string queryCommandText (string)`
+* queryCommandValue: `Variant queryCommandValue (string)`
+* execCommand: `bool execCommand (string, bool, Variant)`
+* execCommandShowHelp: `bool execCommandShowHelp (string)`
+* createElement: `IHTMLElement createElement (string)`
+* elementFromPoint: `IHTMLElement elementFromPoint (int, int)`
+* createStyleSheet: `IHTMLStyleSheet createStyleSheet (string, int)`
+* releaseCapture: `void releaseCapture ()`
+* recalc: `void recalc (bool)`
+* createTextNode: `IHTMLDOMNode createTextNode (string)`
+* attachEvent: `bool attachEvent (string, IDispatch)`
+* detachEvent: `void detachEvent (string, IDispatch)`
+* createDocumentFragment: `IHTMLDocument2 createDocumentFragment ()`
+* getElementsByName: `IHTMLElementCollection getElementsByName (string)`
+* getElementById: `IHTMLElement getElementById (string)`
+* getElementsByTagName: `IHTMLElementCollection getElementsByTagName (string)`
+* focus: `void focus ()`
+* hasFocus: `bool hasFocus ()`
+* createDocumentFromUrl: `IHTMLDocument2 createDocumentFromUrl (string, string)`
+* CreateEventObject: `IHTMLEventObj CreateEventObject (Variant)`
+* FireEvent: `bool FireEvent (string, Variant)`
+* createRenderStyle: `IHTMLRenderStyle createRenderStyle (string)`
+* createAttribute: `IHTMLDOMAttribute createAttribute (string)`
+* createComment: `IHTMLDOMNode createComment (string)`
+* ie8_getElementById: `IHTMLElement2 ie8_getElementById (string)`
+* updateSettings: `void updateSettings ()`
+* createCDATASection: `IHTMLDOMNode createCDATASection (string)`
+* getSelection: `IHTMLSelection getSelection ()`
+* getElementsByTagNameNS: `IHTMLElementCollection getElementsByTagNameNS (Variant, string)`
+* createElementNS: `IHTMLElement createElementNS (Variant, string)`
+* createAttributeNS: `IHTMLDOMAttribute createAttributeNS (Variant, string)`
+* ie9_createElement: `IHTMLElement ie9_createElement (string)`
+* ie9_createAttribute: `IHTMLDOMAttribute ie9_createAttribute (string)`
+* getElementsByClassName: `IHTMLElementCollection getElementsByClassName (string)`
+* createProcessingInstruction: `IDOMProcessingInstruction createProcessingInstruction (string, string)`
+* adoptNode: `IHTMLDOMNode3 adoptNode (IHTMLDOMNode)`
+* hasAttributes: `bool hasAttributes ()`
+* normalize: `void normalize ()`
+* importNode: `IHTMLDOMNode3 importNode (IHTMLDOMNode, bool)`
+* elementsFromPoint: `IHTMLDOMChildrenCollection elementsFromPoint (float, float)`
+* elementsFromRect: `IHTMLDOMChildrenCollection elementsFromRect (float, float, float, float)`
+* hasChildNodes: `bool hasChildNodes ()`
+* insertBefore: `IHTMLDOMNode insertBefore (IHTMLDOMNode, Variant)`
+* removeChild: `IHTMLDOMNode removeChild (IHTMLDOMNode)`
+* replaceChild: `IHTMLDOMNode replaceChild (IHTMLDOMNode, IHTMLDOMNode)`
+* cloneNode: `IHTMLDOMNode cloneNode (bool)`
+* removeNode: `IHTMLDOMNode removeNode (bool)`
+* swapNode: `IHTMLDOMNode swapNode (IHTMLDOMNode)`
+* replaceNode: `IHTMLDOMNode replaceNode (IHTMLDOMNode)`
+* appendChild: `IHTMLDOMNode appendChild (IHTMLDOMNode)`
+* isEqualNode: `bool isEqualNode (IHTMLDOMNode3)`
+* lookupNamespaceURI: `Variant lookupNamespaceURI (Variant)`
+* lookupPrefix: `Variant lookupPrefix (Variant)`
+* isDefaultNamespace: `bool isDefaultNamespace (Variant)`
+* ie9_appendChild: `IHTMLDOMNode ie9_appendChild (IHTMLDOMNode)`
+* ie9_insertBefore: `IHTMLDOMNode ie9_insertBefore (IHTMLDOMNode, Variant)`
+* ie9_removeChild: `IHTMLDOMNode ie9_removeChild (IHTMLDOMNode)`
+* ie9_replaceChild: `IHTMLDOMNode ie9_replaceChild (IHTMLDOMNode, IHTMLDOMNode)`
+* isSameNode: `bool isSameNode (IHTMLDOMNode3)`
+* compareDocumentPosition: `ushort compareDocumentPosition (IHTMLDOMNode)`
+* isSupported: `bool isSupported (string, Variant)`
+* querySelector: `IHTMLElement querySelector (string)`
+* querySelectorAll: `IHTMLDOMChildrenCollection querySelectorAll (string)`
+* createNodeIterator: `IDOMNodeIterator createNodeIterator (IDispatch, int, Variant, bool)`
+* createTreeWalker: `IDOMTreeWalker createTreeWalker (IDispatch, int, Variant, bool)`
+* createEvent: `IDOMEvent createEvent (string)`
+* createRange: `IHTMLDOMRange createRange ()`
+* addEventListener: `void addEventListener (string, IDispatch, bool)`
+* removeEventListener: `void removeEventListener (string, IDispatch, bool)`
+* dispatchEvent: `bool dispatchEvent (IDOMEvent)`
+
+### Properties
+
+* Script: `IDispatch Script () {get} `
+* all: `IHTMLElementCollection all () {get} `
+* body: `IHTMLElement body () {get} `
+* activeElement: `IHTMLElement activeElement () {get} `
+* images: `IHTMLElementCollection images () {get} `
+* applets: `IHTMLElementCollection applets () {get} `
+* links: `IHTMLElementCollection links () {get} `
+* forms: `IHTMLElementCollection forms () {get} `
+* anchors: `IHTMLElementCollection anchors () {get} `
+* title: `string title () {get} {set} `
+* scripts: `IHTMLElementCollection scripts () {get} `
+* designMode: `string designMode () {get} {set} `
+* selection: `IHTMLSelectionObject selection () {get} `
+* readyState: `string readyState () {get} `
+* frames: `IHTMLFramesCollection2 frames () {get} `
+* embeds: `IHTMLElementCollection embeds () {get} `
+* plugins: `IHTMLElementCollection plugins () {get} `
+* alinkColor: `Variant alinkColor () {get} {set} `
+* bgColor: `Variant bgColor () {get} {set} `
+* fgColor: `Variant fgColor () {get} {set} `
+* linkColor: `Variant linkColor () {get} {set} `
+* vlinkColor: `Variant vlinkColor () {get} {set} `
+* referrer: `string referrer () {get} `
+* location: `IHTMLLocation location () {get} `
+* lastModified: `string lastModified () {get} `
+* url: `string url () {get} {set} `
+* domain: `string domain () {get} {set} `
+* cookie: `string cookie () {get} {set} `
+* expando: `bool expando () {get} {set} `
+* charset: `string charset () {get} {set} `
+* defaultCharset: `string defaultCharset () {get} {set} `
+* mimeType: `string mimeType () {get} `
+* fileSize: `string fileSize () {get} `
+* fileCreatedDate: `string fileCreatedDate () {get} `
+* fileModifiedDate: `string fileModifiedDate () {get} `
+* fileUpdatedDate: `string fileUpdatedDate () {get} `
+* security: `string security () {get} `
+* protocol: `string protocol () {get} `
+* nameProp: `string nameProp () {get} `
+* onhelp: `Variant onhelp () {get} {set} `
+* onclick: `Variant onclick () {get} {set} `
+* ondblclick: `Variant ondblclick () {get} {set} `
+* onkeyup: `Variant onkeyup () {get} {set} `
+* onkeydown: `Variant onkeydown () {get} {set} `
+* onkeypress: `Variant onkeypress () {get} {set} `
+* onmouseup: `Variant onmouseup () {get} {set} `
+* onmousedown: `Variant onmousedown () {get} {set} `
+* onmousemove: `Variant onmousemove () {get} {set} `
+* onmouseout: `Variant onmouseout () {get} {set} `
+* onmouseover: `Variant onmouseover () {get} {set} `
+* onreadystatechange: `Variant onreadystatechange () {get} {set} `
+* onafterupdate: `Variant onafterupdate () {get} {set} `
+* onrowexit: `Variant onrowexit () {get} {set} `
+* onrowenter: `Variant onrowenter () {get} {set} `
+* ondragstart: `Variant ondragstart () {get} {set} `
+* onselectstart: `Variant onselectstart () {get} {set} `
+* parentWindow: `IHTMLWindow2 parentWindow () {get} `
+* styleSheets: `IHTMLStyleSheetsCollection styleSheets () {get} `
+* onbeforeupdate: `Variant onbeforeupdate () {get} {set} `
+* onerrorupdate: `Variant onerrorupdate () {get} {set} `
+* documentElement: `IHTMLElement documentElement () {get} `
+* uniqueID: `string uniqueID () {get} `
+* onrowsdelete: `Variant onrowsdelete () {get} {set} `
+* onrowsinserted: `Variant onrowsinserted () {get} {set} `
+* oncellchange: `Variant oncellchange () {get} {set} `
+* ondatasetchanged: `Variant ondatasetchanged () {get} {set} `
+* ondataavailable: `Variant ondataavailable () {get} {set} `
+* ondatasetcomplete: `Variant ondatasetcomplete () {get} {set} `
+* onpropertychange: `Variant onpropertychange () {get} {set} `
+* dir: `string dir () {get} {set} `
+* oncontextmenu: `Variant oncontextmenu () {get} {set} `
+* onstop: `Variant onstop () {get} {set} `
+* onbeforeeditfocus: `Variant onbeforeeditfocus () {get} {set} `
+* onselectionchange: `Variant onselectionchange () {get} {set} `
+* namespaces: `IDispatch namespaces () {get} `
+* media: `string media () {get} {set} `
+* oncontrolselect: `Variant oncontrolselect () {get} {set} `
+* URLUnencoded: `string URLUnencoded () {get} `
+* onmousewheel: `Variant onmousewheel () {get} {set} `
+* doctype: `IHTMLDOMNode doctype () {get} `
+* implementation: `IHTMLDOMImplementation implementation () {get} `
+* onfocusin: `Variant onfocusin () {get} {set} `
+* onfocusout: `Variant onfocusout () {get} {set} `
+* onactivate: `Variant onactivate () {get} {set} `
+* ondeactivate: `Variant ondeactivate () {get} {set} `
+* onbeforeactivate: `Variant onbeforeactivate () {get} {set} `
+* onbeforedeactivate: `Variant onbeforedeactivate () {get} {set} `
+* compatMode: `string compatMode () {get} `
+* compatible: `IHTMLDocumentCompatibleInfoCollection compatible () {get} `
+* documentMode: `Variant documentMode () {get} `
+* onstorage: `Variant onstorage () {get} {set} `
+* onstoragecommit: `Variant onstoragecommit () {get} {set} `
+* defaultView: `IHTMLWindow2 defaultView () {get} `
+* onmsthumbnailclick: `Variant onmsthumbnailclick () {get} {set} `
+* characterSet: `string characterSet () {get} `
+* onmssitemodejumplistitemremoved: `Variant onmssitemodejumplistitemremoved () {get} {set} `
+* ie9_all: `IHTMLElementCollection ie9_all () {get} `
+* inputEncoding: `string inputEncoding () {get} `
+* xmlEncoding: `string xmlEncoding () {get} `
+* xmlStandalone: `bool xmlStandalone () {get} {set} `
+* xmlVersion: `string xmlVersion () {get} {set} `
+* onabort: `Variant onabort () {get} {set} `
+* onblur: `Variant onblur () {get} {set} `
+* oncanplay: `Variant oncanplay () {get} {set} `
+* oncanplaythrough: `Variant oncanplaythrough () {get} {set} `
+* onchange: `Variant onchange () {get} {set} `
+* ondrag: `Variant ondrag () {get} {set} `
+* ondragend: `Variant ondragend () {get} {set} `
+* ondragenter: `Variant ondragenter () {get} {set} `
+* ondragleave: `Variant ondragleave () {get} {set} `
+* ondragover: `Variant ondragover () {get} {set} `
+* ondrop: `Variant ondrop () {get} {set} `
+* ondurationchange: `Variant ondurationchange () {get} {set} `
+* onemptied: `Variant onemptied () {get} {set} `
+* onended: `Variant onended () {get} {set} `
+* onerror: `Variant onerror () {get} {set} `
+* onfocus: `Variant onfocus () {get} {set} `
+* oninput: `Variant oninput () {get} {set} `
+* onload: `Variant onload () {get} {set} `
+* onloadeddata: `Variant onloadeddata () {get} {set} `
+* onloadedmetadata: `Variant onloadedmetadata () {get} {set} `
+* onloadstart: `Variant onloadstart () {get} {set} `
+* onpause: `Variant onpause () {get} {set} `
+* onplay: `Variant onplay () {get} {set} `
+* onplaying: `Variant onplaying () {get} {set} `
+* onprogress: `Variant onprogress () {get} {set} `
+* onratechange: `Variant onratechange () {get} {set} `
+* onreset: `Variant onreset () {get} {set} `
+* onscroll: `Variant onscroll () {get} {set} `
+* onseeked: `Variant onseeked () {get} {set} `
+* onseeking: `Variant onseeking () {get} {set} `
+* onselect: `Variant onselect () {get} {set} `
+* onstalled: `Variant onstalled () {get} {set} `
+* onsubmit: `Variant onsubmit () {get} {set} `
+* onsuspend: `Variant onsuspend () {get} {set} `
+* ontimeupdate: `Variant ontimeupdate () {get} {set} `
+* onvolumechange: `Variant onvolumechange () {get} {set} `
+* onwaiting: `Variant onwaiting () {get} {set} `
+* ie9_parentWindow: `IHTMLWindow2 ie9_parentWindow () {get} `
+* ie9_body: `IHTMLElement ie9_body () {get} {set by ref}`
+* head: `IHTMLElement head () {get} `
+* onmscontentzoom: `Variant onmscontentzoom () {get} {set} `
+* onmspointerdown: `Variant onmspointerdown () {get} {set} `
+* onmspointermove: `Variant onmspointermove () {get} {set} `
+* onmspointerup: `Variant onmspointerup () {get} {set} `
+* onmspointerover: `Variant onmspointerover () {get} {set} `
+* onmspointerout: `Variant onmspointerout () {get} {set} `
+* onmspointercancel: `Variant onmspointercancel () {get} {set} `
+* onmspointerhover: `Variant onmspointerhover () {get} {set} `
+* onmsgesturestart: `Variant onmsgesturestart () {get} {set} `
+* onmsgesturechange: `Variant onmsgesturechange () {get} {set} `
+* onmsgestureend: `Variant onmsgestureend () {get} {set} `
+* onmsgesturehold: `Variant onmsgesturehold () {get} {set} `
+* onmsgesturetap: `Variant onmsgesturetap () {get} {set} `
+* onmsgesturedoubletap: `Variant onmsgesturedoubletap () {get} {set} `
+* onmsinertiastart: `Variant onmsinertiastart () {get} {set} `
+* onmsmanipulationstatechanged: `Variant onmsmanipulationstatechanged () {get} {set} `
+* msCapsLockWarningOff: `bool msCapsLockWarningOff () {get} {set} `
+* nodeType: `int nodeType () {get} `
+* parentNode: `IHTMLDOMNode parentNode () {get} `
+* childNodes: `IDispatch childNodes () {get} `
+* attributes: `IDispatch attributes () {get} `
+* nodeName: `string nodeName () {get} `
+* nodeValue: `Variant nodeValue () {get} {set} `
+* firstChild: `IHTMLDOMNode firstChild () {get} `
+* lastChild: `IHTMLDOMNode lastChild () {get} `
+* previousSibling: `IHTMLDOMNode previousSibling () {get} `
+* nextSibling: `IHTMLDOMNode nextSibling () {get} `
+* ownerDocument: `IDispatch ownerDocument () {get} `
+* prefix: `Variant prefix () {get} {set} `
+* localName: `Variant localName () {get} `
+* namespaceURI: `Variant namespaceURI () {get} `
+* textContent: `Variant textContent () {get} {set} `
+* constructor: `IDispatch constructor () {get} `
+* rootElement: `ISVGSVGElement rootElement () {get} `
+
+MIT License. Copyright (c) 2021 Strontic.
+
+

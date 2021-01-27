@@ -3,7 +3,7 @@ title: xCyclopedia | The Encyclopedia for Executables
 breadcrumbs_title: xCyclopedia Index (EXEs)
 ---
 
-[Info](intro){: .btn .btn--primary .btn--large} [.EXE](#index){: .btn .btn--light-outline .btn--large} [.DLL](index-dll){: .btn .btn--primary .btn--large} [<i class='fas fa-folder'></i> DIR](directory){: .btn .btn--primary .btn--large}
+[Info](intro){: .btn .btn--primary .btn--large} [.EXE](#index){: .btn .btn--light-outline .btn--large} [.DLL](index-dll){: .btn .btn--primary .btn--large} [<i class='fas fa-folder'></i> DIR](directory){: .btn .btn--primary .btn--large} [<i class='fas fa-exchange-alt'></i> COM](index-com-object){: .btn .btn--primary .btn--large}
 
 ## Index
 
@@ -2254,5 +2254,5 @@ File Name / Variants | Description
 **[zTscoder.exe](library/zTscoder.exe-685CB56B9EEE21EE835A68392709D89B.md)** ([2](library/zTscoder.exe-DEAB73614D4D7C0807C5391FED75035A.md)) ([3](library/zTscoder.exe-F95816E6ED240884AA0AA47BCE0229B4.md)) | Zoom. Zoom
 **[zUpdater.exe](library/zUpdater.exe-03755880FE79A5055BDEEF80EFAC4D23.md)** ([2](library/zUpdater.exe-0B4AE29F35AF372F0C6D3CB1D9E1165F.md)) ([3](library/zUpdater.exe-9D7A279002BF24C151E263CD001F4765.md)) | Zoom Meetings. Zoom
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 

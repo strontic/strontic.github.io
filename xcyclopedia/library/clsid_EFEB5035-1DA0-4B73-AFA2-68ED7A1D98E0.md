@@ -1,0 +1,24 @@
+﻿---
+title: "CLSID EFEB5035-1DA0-4B73-AFA2-68ED7A1D98E0 | RetailInfoSetterInternal"
+excerpt: What is COM-Object CLSID EFEB5035-1DA0-4B73-AFA2-68ED7A1D98E0?
+---
+
+# {EFEB5035-1DA0-4B73-AFA2-68ED7A1D98E0}
+
+* (default): `RetailInfoSetterInternal`
+
+## Registry
+
+
+### InProcServer32
+
+* (default): `C:\Windows\System32\Windows.System.Profile.RetailInfo.dll`
+* ThreadingModel: `Both`
+
+## Instance
+
+* Type: `__ComObject`
+
+MIT License. Copyright (c) 2021 Strontic.
+
+

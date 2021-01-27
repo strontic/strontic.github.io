@@ -1,0 +1,62 @@
+﻿---
+title: "CLSID F935DC26-1CF0-11D0-ADB9-00C04FD58A0B | Windows Script Host Network Object"
+excerpt: What is COM-Object CLSID F935DC26-1CF0-11D0-ADB9-00C04FD58A0B?
+---
+
+# {F935DC26-1CF0-11D0-ADB9-00C04FD58A0B}
+
+* (default): `Windows Script Host Network Object`
+
+## Registry
+
+
+### {40FC6ED5-2438-11CF-A3DB-080036F12502}
+
+
+### InProcServer32
+
+* (default): `C:\Windows\System32\wshom.ocx`
+* ThreadingModel: `Apartment`
+
+### ProgID
+
+* (default): `WScript.Network.1`
+
+### Programmable
+
+
+### TypeLib
+
+* (default): `{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}`
+
+### VersionIndependentProgID
+
+* (default): `WScript.Network`
+
+## Instance
+
+* Type: `__ComObject`
+
+### Methods
+
+* MapNetworkDrive: `void MapNetworkDrive (string, string, Variant, Variant, Variant)`
+* RemoveNetworkDrive: `void RemoveNetworkDrive (string, Variant, Variant)`
+* EnumNetworkDrives: `IWshCollection EnumNetworkDrives ()`
+* AddPrinterConnection: `void AddPrinterConnection (string, string, Variant, Variant, Variant)`
+* RemovePrinterConnection: `void RemovePrinterConnection (string, Variant, Variant)`
+* EnumPrinterConnections: `IWshCollection EnumPrinterConnections ()`
+* SetDefaultPrinter: `void SetDefaultPrinter (string)`
+* AddWindowsPrinterConnection: `void AddWindowsPrinterConnection (string, string, string)`
+
+### Properties
+
+* UserDomain: `string UserDomain () {get} `
+* UserName: `string UserName () {get} `
+* UserProfile: `string UserProfile () {get} `
+* ComputerName: `string ComputerName () {get} `
+* Organization: `string Organization () {get} `
+* Site: `string Site () {get} `
+
+MIT License. Copyright (c) 2021 Strontic.
+
+
