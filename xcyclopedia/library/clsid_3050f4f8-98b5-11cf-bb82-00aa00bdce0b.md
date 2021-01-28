@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 3050f4f8-98b5-11cf-bb82-00aa00bdce0b?
 
 # {3050f4f8-98b5-11cf-bb82-00aa00bdce0b}
 
-* (default): `Microsoft Html Component`
+* `Microsoft Html Component`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\mshtml.dll`
+* `C:\Windows\System32\mshtml.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

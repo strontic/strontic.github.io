@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 4DB61F89-EECE-4317-89D2-EC17BF6B27DB?
 
 # {4DB61F89-EECE-4317-89D2-EC17BF6B27DB}
 
-* (default): `NarratorScrollBar Class`
+* `NarratorScrollBar Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\srh.dll`
+* `C:\Windows\System32\srh.dll`
 * ThreadingModel: `Both`
 
 ## Instance

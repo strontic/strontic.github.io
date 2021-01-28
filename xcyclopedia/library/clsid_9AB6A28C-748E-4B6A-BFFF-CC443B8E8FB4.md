@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 9AB6A28C-748E-4B6A-BFFF-CC443B8E8FB4?
 
 # {9AB6A28C-748E-4B6A-BFFF-CC443B8E8FB4}
 
-* (default): `Microsoft ALAC Audio Encoder MFT`
+* `Microsoft ALAC Audio Encoder MFT`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\MSAlacEncoder.dll`
+* `C:\Windows\System32\MSAlacEncoder.dll`
 * ThreadingModel: `Both`
 
 ## Instance

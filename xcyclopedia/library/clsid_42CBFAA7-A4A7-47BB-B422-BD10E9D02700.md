@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 42CBFAA7-A4A7-47BB-B422-BD10E9D02700?
 
 # {42CBFAA7-A4A7-47BB-B422-BD10E9D02700}
 
-* (default): `Diagnostics Hub Standard Collector Service`
+* `Diagnostics Hub Standard Collector Service`
 * AppID: `{42CBFAA7-A4A7-47BB-B422-BD10E9D02700}`
 
 ## Instance

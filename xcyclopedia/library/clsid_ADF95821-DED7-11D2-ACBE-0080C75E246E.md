@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID ADF95821-DED7-11D2-ACBE-0080C75E246E?
 
 # {ADF95821-DED7-11D2-ACBE-0080C75E246E}
 
-* (default): `Property Setter`
+* `Property Setter`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\qedit.dll`
+* `C:\Windows\System32\qedit.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 13B37A2A-546B-47BF-BBCA-8AC97F1EBDCB?
 
 # {13B37A2A-546B-47BF-BBCA-8AC97F1EBDCB}
 
-* (default): `CMpeg2DataControl`
+* `CMpeg2DataControl`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\MSDvbNP.ax`
+* `C:\Windows\System32\MSDvbNP.ax`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

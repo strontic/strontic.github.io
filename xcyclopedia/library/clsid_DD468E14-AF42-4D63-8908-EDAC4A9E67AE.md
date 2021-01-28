@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID DD468E14-AF42-4D63-8908-EDAC4A9E67AE?
 
 # {DD468E14-AF42-4D63-8908-EDAC4A9E67AE}
 
-* (default): `Create and edit Wireless policies`
+* `Create and edit Wireless policies`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\wlangpui.dll`
+* `C:\Windows\System32\wlangpui.dll`
 * ThreadingModel: `both`
 
 ### ProgID
 
-* (default): `Wireless.About.1`
+* `Wireless.About.1`
 
 ### VersionIndependentProgID
 
-* (default): `Wireless.About`
+* `Wireless.About`
 
 ## Instance
 

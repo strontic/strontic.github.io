@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 65BD0711-24D2-4FF7-9324-ED2E5D3ABAFA?
 
 # {65BD0711-24D2-4FF7-9324-ED2E5D3ABAFA}
 
-* (default): `MediaDet`
+* `MediaDet`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\qedit.dll`
+* `C:\Windows\System32\qedit.dll`
 * ThreadingModel: `Both`
 
 ## Instance

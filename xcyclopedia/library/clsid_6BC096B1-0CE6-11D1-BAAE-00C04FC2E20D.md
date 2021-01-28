@@ -11,16 +11,16 @@ excerpt: What is COM-Object CLSID 6BC096B1-0CE6-11D1-BAAE-00C04FC2E20D?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\iaspolcy.dll`
+* `C:\Windows\System32\iaspolcy.dll`
 * ThreadingModel: `Free`
 
 ### ProgID
 
-* (default): `IAS.Request.1`
+* `IAS.Request.1`
 
 ### VersionIndependentProgID
 
-* (default): `IAS.Request`
+* `IAS.Request`
 
 ## Instance
 

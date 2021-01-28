@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID c9298eef-69dd-4cdd-b153-bdbc38486781?
 
 # {c9298eef-69dd-4cdd-b153-bdbc38486781}
 
-* (default): `State of verb Empty Recycle Bin`
+* `State of verb Empty Recycle Bin`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

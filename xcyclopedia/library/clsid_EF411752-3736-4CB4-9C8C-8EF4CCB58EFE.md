@@ -5,31 +5,31 @@ excerpt: What is COM-Object CLSID EF411752-3736-4CB4-9C8C-8EF4CCB58EFE?
 
 # {EF411752-3736-4CB4-9C8C-8EF4CCB58EFE}
 
-* (default): `SpObjectToken Class`
+* `SpObjectToken Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\Speech\Common\sapi.dll`
+* `C:\Windows\System32\Speech\Common\sapi.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `SAPI.SpObjectToken.1`
+* `SAPI.SpObjectToken.1`
 
 ### TypeLib
 
-* (default): `{C866CA3A-32F7-11D2-9602-00C04F8EE628}`
+* `{C866CA3A-32F7-11D2-9602-00C04F8EE628}`
 
 ### Version
 
-* (default): `5.4`
+* `5.4`
 
 ### VersionIndependentProgID
 
-* (default): `SAPI.SpObjectToken`
+* `SAPI.SpObjectToken`
 
 ## Instance
 

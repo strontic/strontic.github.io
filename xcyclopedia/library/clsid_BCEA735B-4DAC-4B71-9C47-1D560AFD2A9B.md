@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID BCEA735B-4DAC-4B71-9C47-1D560AFD2A9B?
 
 # {BCEA735B-4DAC-4B71-9C47-1D560AFD2A9B}
 
-* (default): `DfsShellAdmin Class`
+* `DfsShellAdmin Class`
 * AppID: `{BCEA735B-4DAC-4B71-9C47-1D560AFD2A9B}`
 * LocalizedString: `@C:\Windows\system32\DfsShlEx.dll,-102`
 
@@ -18,16 +18,16 @@ excerpt: What is COM-Object CLSID BCEA735B-4DAC-4B71-9C47-1D560AFD2A9B?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\DfsShlEx.dll`
+* `C:\Windows\System32\DfsShlEx.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* (default): `DfsShell.DfsShellAdmin.1`
+* `DfsShell.DfsShellAdmin.1`
 
 ### VersionIndependentProgID
 
-* (default): `DfsShell.DfsShellAdmin`
+* `DfsShell.DfsShellAdmin`
 
 ## Instance
 

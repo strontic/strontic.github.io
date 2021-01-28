@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID BB44391D-6ABD-422f-9E2E-385C9DFF51FC?
 
 # {BB44391D-6ABD-422f-9E2E-385C9DFF51FC}
 
-* (default): `DxtCompositor Class`
+* `DxtCompositor Class`
 
 ## Registry
 
@@ -15,19 +15,19 @@ excerpt: What is COM-Object CLSID BB44391D-6ABD-422f-9E2E-385C9DFF51FC?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\qedit.dll`
+* `C:\Windows\System32\qedit.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `qedit.DxtCompositor.1`
+* `qedit.DxtCompositor.1`
 
 ### Programmable
 
 
 ### VersionIndependentProgID
 
-* (default): `qedit.DxtCompositor`
+* `qedit.DxtCompositor`
 
 ## Instance
 

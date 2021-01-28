@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 1B979846-AAEB-314B-8E63-D44EF1CB9EFC?
 
 # {1B979846-AAEB-314B-8E63-D44EF1CB9EFC}
 
-* (default): `System.Diagnostics.DebuggerStepperBoundaryAttribute`
+* `System.Diagnostics.DebuggerStepperBoundaryAttribute`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 1B979846-AAEB-314B-8E63-D44EF1CB9EFC?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Diagnostics.DebuggerStepperBoundaryAttribute`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Diagnostics.DebuggerStepperBoundaryAttribute`
+* `System.Diagnostics.DebuggerStepperBoundaryAttribute`
 
 ## Instance
 

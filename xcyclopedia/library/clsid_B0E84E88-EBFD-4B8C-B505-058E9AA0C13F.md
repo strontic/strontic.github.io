@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID B0E84E88-EBFD-4B8C-B505-058E9AA0C13F?
 
 # {B0E84E88-EBFD-4B8C-B505-058E9AA0C13F}
 
-* (default): `OpenXRRuntimeRegistration`
+* `OpenXRRuntimeRegistration`
 * AppID: `{8D02CEE1-70BC-449A-B873-70AC08B2676A}`
 
 ## Instance

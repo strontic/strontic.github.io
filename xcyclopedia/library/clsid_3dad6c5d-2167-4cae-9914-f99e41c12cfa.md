@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 3dad6c5d-2167-4cae-9914-f99e41c12cfa?
 
 # {3dad6c5d-2167-4cae-9914-f99e41c12cfa}
 
-* (default): `Include In Library Sub Context Menu`
+* `Include In Library Sub Context Menu`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

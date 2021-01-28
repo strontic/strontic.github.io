@@ -5,19 +5,19 @@ excerpt: What is COM-Object CLSID ecabafbc-7f19-11d2-978e-0000f8757e2a?
 
 # {ecabafbc-7f19-11d2-978e-0000f8757e2a}
 
-* (default): `COM+ Event Notification Server`
+* `COM+ Event Notification Server`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\comsvcs.dll`
+* `C:\Windows\System32\comsvcs.dll`
 * ThreadingModel: `Free`
 
 ### ProgID
 
-* (default): `EventPublisher.EventPublisher`
+* `EventPublisher.EventPublisher`
 
 ## Instance
 

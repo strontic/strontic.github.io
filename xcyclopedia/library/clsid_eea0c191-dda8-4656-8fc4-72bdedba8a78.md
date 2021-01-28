@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID eea0c191-dda8-4656-8fc4-72bdedba8a78?
 
 # {eea0c191-dda8-4656-8fc4-72bdedba8a78}
 
-* (default): `Library Property Store`
+* `Library Property Store`
 * NoOplock: `1`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID eea0c191-dda8-4656-8fc4-72bdedba8a78?
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\windows.storage.dll`
+* `C:\Windows\system32\windows.storage.dll`
 * ThreadingModel: `Apartment`
 
 ### OverrideFileSystemProperties

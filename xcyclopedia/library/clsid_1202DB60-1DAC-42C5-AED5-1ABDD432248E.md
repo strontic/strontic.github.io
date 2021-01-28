@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 1202DB60-1DAC-42C5-AED5-1ABDD432248E?
 
 # {1202DB60-1DAC-42C5-AED5-1ABDD432248E}
 
-* (default): `Sync Center Client`
+* `Sync Center Client`
 * AppID: `{1202DB60-1DAC-42C5-AED5-1ABDD432248E}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID 1202DB60-1DAC-42C5-AED5-1ABDD432248E?
 
 ### LocalServer32
 
-* (default): `C:\Windows\System32\mobsync.exe`
+* `C:\Windows\System32\mobsync.exe`
 
 MIT License. Copyright (c) 2021 Strontic.
 

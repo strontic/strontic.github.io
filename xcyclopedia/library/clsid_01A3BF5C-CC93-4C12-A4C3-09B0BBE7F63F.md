@@ -11,16 +11,16 @@ excerpt: What is COM-Object CLSID 01A3BF5C-CC93-4C12-A4C3-09B0BBE7F63F?
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\iasnap.dll`
+* `C:\Windows\system32\iasnap.dll`
 * ThreadingModel: `Free`
 
 ### ProgID
 
-* (default): `IAS.PostEapRestrictions.1`
+* `IAS.PostEapRestrictions.1`
 
 ### VersionIndependentProgID
 
-* (default): `IAS.PostEapRestrictions`
+* `IAS.PostEapRestrictions`
 
 ## Instance
 

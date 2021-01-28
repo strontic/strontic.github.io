@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID F052299C-6DA4-40f0-BE0D-8BD02FAD080A?
 
 # {F052299C-6DA4-40f0-BE0D-8BD02FAD080A}
 
-* (default): `OOBE ProtectPC Plugin`
+* `OOBE ProtectPC Plugin`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\oobe\msoobeplugins.dll`
+* `C:\Windows\System32\oobe\msoobeplugins.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

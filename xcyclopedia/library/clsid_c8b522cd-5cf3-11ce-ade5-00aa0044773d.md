@@ -5,27 +5,27 @@ excerpt: What is COM-Object CLSID c8b522cd-5cf3-11ce-ade5-00aa0044773d?
 
 # {c8b522cd-5cf3-11ce-ade5-00aa0044773d}
 
-* (default): `MSDASQL Enumerator`
+* `MSDASQL Enumerator`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Program Files\Common Files\System\Ole DB\msdasql.dll`
+* `C:\Program Files\Common Files\System\Ole DB\msdasql.dll`
 * ThreadingModel: `Both`
 
 ### OLE DB Enumerator
 
-* (default): `Microsoft OLE DB Enumerator for ODBC Drivers`
+* `Microsoft OLE DB Enumerator for ODBC Drivers`
 
 ### ProgID
 
-* (default): `MSDASQLEnumerator.1`
+* `MSDASQLEnumerator.1`
 
 ### VersionIndependentProgID
 
-* (default): `MSDASQL Enumerator`
+* `MSDASQL Enumerator`
 
 ## Instance
 

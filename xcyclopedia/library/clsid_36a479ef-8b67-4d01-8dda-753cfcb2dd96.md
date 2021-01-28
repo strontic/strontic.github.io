@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 36a479ef-8b67-4d01-8dda-753cfcb2dd96?
 
 # {36a479ef-8b67-4d01-8dda-753cfcb2dd96}
 
-* (default): `CLSID_FilteredItemFactory`
+* `CLSID_FilteredItemFactory`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\Windows.Storage.Search.dll`
+* `C:\Windows\system32\Windows.Storage.Search.dll`
 * ThreadingModel: `Both`
 
 ## Instance

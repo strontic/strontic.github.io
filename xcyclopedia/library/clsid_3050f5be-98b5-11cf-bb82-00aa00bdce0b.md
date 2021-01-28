@@ -5,26 +5,26 @@ excerpt: What is COM-Object CLSID 3050f5be-98b5-11cf-bb82-00aa00bdce0b?
 
 # {3050f5be-98b5-11cf-bb82-00aa00bdce0b}
 
-* (default): `DownloadBehavior Class`
+* `DownloadBehavior Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\iepeers.dll`
+* `C:\Windows\System32\iepeers.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* (default): `DownloadBehavior.DownloadBehavior.1`
+* `DownloadBehavior.DownloadBehavior.1`
 
 ### Programmable
 
 
 ### VersionIndependentProgID
 
-* (default): `DownloadBehavior.DownloadBehavior`
+* `DownloadBehavior.DownloadBehavior`
 
 ## Instance
 

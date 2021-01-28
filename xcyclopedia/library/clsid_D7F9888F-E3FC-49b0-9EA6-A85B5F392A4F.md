@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID D7F9888F-E3FC-49b0-9EA6-A85B5F392A4F?
 
 # {D7F9888F-E3FC-49b0-9EA6-A85B5F392A4F}
 
-* (default): `Windows Live ID Provider`
+* `Windows Live ID Provider`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\wlidprov.dll`
+* `C:\Windows\System32\wlidprov.dll`
 * ThreadingModel: `Both`
 
 ## Instance

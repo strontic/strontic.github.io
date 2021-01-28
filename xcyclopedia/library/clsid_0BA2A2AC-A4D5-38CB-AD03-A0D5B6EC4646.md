@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 0BA2A2AC-A4D5-38CB-AD03-A0D5B6EC4646?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Globalization.IdnMapping`
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 4FF787E6-9A86-4BA3-BED9-8019A2B4BE1C?
 
 # {4FF787E6-9A86-4BA3-BED9-8019A2B4BE1C}
 
-* (default): `Input Host Layout`
+* `Input Host Layout`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\twinui.dll`
+* `C:\Windows\system32\twinui.dll`
 * ThreadingModel: `Both`
 
 ## Instance

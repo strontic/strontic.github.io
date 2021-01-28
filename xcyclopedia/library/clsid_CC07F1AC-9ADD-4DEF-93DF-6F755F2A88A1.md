@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID CC07F1AC-9ADD-4DEF-93DF-6F755F2A88A1?
 
 # {CC07F1AC-9ADD-4DEF-93DF-6F755F2A88A1}
 
-* (default): `DataExchange Host`
+* `DataExchange Host`
 * AppID: `{C2E9756F-8155-4EAC-9ED5-0B690169D412}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID CC07F1AC-9ADD-4DEF-93DF-6F755F2A88A1?
 
 ### LocalServer32
 
-* (default): `C:\Windows\System32\DataExchangeHost.exe`
+* `C:\Windows\System32\DataExchangeHost.exe`
 
 ## Instance
 

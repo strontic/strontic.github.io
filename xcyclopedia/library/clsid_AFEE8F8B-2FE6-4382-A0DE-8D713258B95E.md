@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID AFEE8F8B-2FE6-4382-A0DE-8D713258B95E?
 
 # {AFEE8F8B-2FE6-4382-A0DE-8D713258B95E}
 
-* (default): `WindowsLicensing`
+* `WindowsLicensing`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\LicensingCSP.dll`
+* `C:\Windows\System32\LicensingCSP.dll`
 * ThreadingModel: `Free`
 
 ## Instance

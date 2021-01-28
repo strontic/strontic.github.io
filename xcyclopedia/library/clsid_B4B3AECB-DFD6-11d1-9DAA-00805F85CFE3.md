@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID B4B3AECB-DFD6-11d1-9DAA-00805F85CFE3?
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\clbcatq.dll`
+* `C:\Windows\system32\clbcatq.dll`
 * ThreadingModel: `Both`
 
 ## Instance

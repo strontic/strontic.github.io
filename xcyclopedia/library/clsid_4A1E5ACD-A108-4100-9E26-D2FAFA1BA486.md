@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 4A1E5ACD-A108-4100-9E26-D2FAFA1BA486?
 
 # {4A1E5ACD-A108-4100-9E26-D2FAFA1BA486}
 
-* (default): `IGD Property Page`
+* `IGD Property Page`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\icsigd.dll`
+* `C:\Windows\System32\icsigd.dll`
 * ThreadingModel: `Both`
 
 ## Instance

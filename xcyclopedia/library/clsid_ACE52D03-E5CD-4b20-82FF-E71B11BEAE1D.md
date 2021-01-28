@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID ACE52D03-E5CD-4b20-82FF-E71B11BEAE1D?
 
 # {ACE52D03-E5CD-4b20-82FF-E71B11BEAE1D}
 
-* (default): `Shell Name Space ListView`
+* `Shell Name Space ListView`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\ieframe.dll`
+* `C:\Windows\System32\ieframe.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

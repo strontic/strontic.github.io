@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID DCED8DB0-11A5-4b16-AB9D-4E28CA38C99F?
 
 # {DCED8DB0-11A5-4b16-AB9D-4E28CA38C99F}
 
-* (default): `Advanced Configuration Dialog`
+* `Advanced Configuration Dialog`
 * AppId: `{DCED8DB0-11A5-4b16-AB9D-4E28CA38C99F}`
 * LocalizedString: `@C:\Windows\system32\netshell.dll,-1200`
 
@@ -19,7 +19,7 @@ excerpt: What is COM-Object CLSID DCED8DB0-11A5-4b16-AB9D-4E28CA38C99F?
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\netcfgx.dll`
+* `C:\Windows\system32\netcfgx.dll`
 * ThreadingModel: `Both`
 
 ## Instance

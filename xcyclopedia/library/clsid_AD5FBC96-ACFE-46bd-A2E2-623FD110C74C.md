@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID AD5FBC96-ACFE-46bd-A2E2-623FD110C74C?
 
 # {AD5FBC96-ACFE-46bd-A2E2-623FD110C74C}
 
-* (default): `NarratorButton Class`
+* `NarratorButton Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\srh.dll`
+* `C:\Windows\System32\srh.dll`
 * ThreadingModel: `Both`
 
 ## Instance

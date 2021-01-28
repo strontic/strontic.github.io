@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID B8A27942-ADE7-4085-AA6E-4FADC7ADA1EF?
 
 # {B8A27942-ADE7-4085-AA6E-4FADC7ADA1EF}
 
-* (default): `PNPX Pairing Handler Class`
+* `PNPX Pairing Handler Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\PNPXAssoc.dll`
+* `C:\Windows\System32\PNPXAssoc.dll`
 * ThreadingModel: `Both`
 
 ## Instance

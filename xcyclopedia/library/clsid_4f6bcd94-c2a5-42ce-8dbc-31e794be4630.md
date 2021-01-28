@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 4f6bcd94-c2a5-42ce-8dbc-31e794be4630?
 
 # {4f6bcd94-c2a5-42ce-8dbc-31e794be4630}
 
-* (default): `Shell Computer Accounts`
+* `Shell Computer Accounts`
 * AppID: `{4f6bcd94-c2a5-42ce-8dbc-31e794be4630}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID 4f6bcd94-c2a5-42ce-8dbc-31e794be4630?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\shacct.dll`
+* `C:\Windows\System32\shacct.dll`
 * ThreadingModel: `Both`
 
 ## Instance

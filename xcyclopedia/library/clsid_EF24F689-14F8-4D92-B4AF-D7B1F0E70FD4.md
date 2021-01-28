@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID EF24F689-14F8-4D92-B4AF-D7B1F0E70FD4?
 
 # {EF24F689-14F8-4D92-B4AF-D7B1F0E70FD4}
 
-* (default): `System.EnterpriseServices.Internal.AppDomainHelper`
+* `System.EnterpriseServices.Internal.AppDomainHelper`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID EF24F689-14F8-4D92-B4AF-D7B1F0E70FD4?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `System.EnterpriseServices, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a`
 * Class: `System.EnterpriseServices.Internal.AppDomainHelper`
 * RuntimeVersion: `v1.1.4322`
@@ -23,7 +23,7 @@ excerpt: What is COM-Object CLSID EF24F689-14F8-4D92-B4AF-D7B1F0E70FD4?
 
 ### ProgId
 
-* (default): `System.EnterpriseServices.Internal.AppDomainHelper`
+* `System.EnterpriseServices.Internal.AppDomainHelper`
 
 ## Instance
 

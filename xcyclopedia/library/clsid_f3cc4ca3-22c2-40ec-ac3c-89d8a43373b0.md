@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID f3cc4ca3-22c2-40ec-ac3c-89d8a43373b0?
 
 # {f3cc4ca3-22c2-40ec-ac3c-89d8a43373b0}
 
-* (default): `Include the selected folder in a library.`
+* `Include the selected folder in a library.`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

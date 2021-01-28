@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 73DA5D04-4347-45D3-A9DC-FAE9DDBE558D?
 
 # {73DA5D04-4347-45D3-A9DC-FAE9DDBE558D}
 
-* (default): `CSectionList`
+* `CSectionList`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\Mpeg2Data.ax`
+* `C:\Windows\System32\Mpeg2Data.ax`
 * ThreadingModel: `Both`
 
 ## Instance

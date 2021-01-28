@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID C6B14B32-76AA-4A86-A7AC-5C79AAF58DA7?
 
 # {C6B14B32-76AA-4A86-A7AC-5C79AAF58DA7}
 
-* (default): `BDA Tuning Model DVB Tuning Space`
+* `BDA Tuning Model DVB Tuning Space`
 
 ## Registry
 
@@ -18,27 +18,27 @@ excerpt: What is COM-Object CLSID C6B14B32-76AA-4A86-A7AC-5C79AAF58DA7?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\msvidctl.dll`
+* `C:\Windows\System32\msvidctl.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `BDATuner.DVBTuningSpace.1`
+* `BDATuner.DVBTuningSpace.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* (default): `{9B085638-018E-11D3-9D8E-00C04F72D980}`
+* `{9B085638-018E-11D3-9D8E-00C04F72D980}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `BDATuner.DVBTuningSpace`
+* `BDATuner.DVBTuningSpace`
 
 ## Instance
 

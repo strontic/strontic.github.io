@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 8F6D198C-E66F-3A87-AA3F-F885DD09EA13?
 
 # {8F6D198C-E66F-3A87-AA3F-F885DD09EA13}
 
-* (default): `System.Security.Cryptography.DSASignatureFormatter`
+* `System.Security.Cryptography.DSASignatureFormatter`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 8F6D198C-E66F-3A87-AA3F-F885DD09EA13?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.Cryptography.DSASignatureFormatter`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Security.Cryptography.DSASignatureFormatter`
+* `System.Security.Cryptography.DSASignatureFormatter`
 
 ## Instance
 

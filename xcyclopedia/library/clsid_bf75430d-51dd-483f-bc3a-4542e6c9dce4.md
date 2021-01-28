@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID bf75430d-51dd-483f-bc3a-4542e6c9dce4?
 
 # {bf75430d-51dd-483f-bc3a-4542e6c9dce4}
 
-* (default): `ShareFlow Class Factory`
+* `ShareFlow Class Factory`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\TwinUI.dll`
+* `C:\Windows\System32\TwinUI.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

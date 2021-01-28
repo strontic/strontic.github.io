@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID A4A1A128-768F-41E0-BF75-E4FDDD701CBA?
 
 # {A4A1A128-768F-41E0-BF75-E4FDDD701CBA}
 
-* (default): `PSFactoryBuffer`
+* `PSFactoryBuffer`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\ieproxy.dll`
+* `C:\Windows\System32\ieproxy.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

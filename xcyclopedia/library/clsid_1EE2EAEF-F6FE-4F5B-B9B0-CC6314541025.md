@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 1EE2EAEF-F6FE-4F5B-B9B0-CC6314541025?
 
 # {1EE2EAEF-F6FE-4F5B-B9B0-CC6314541025}
 
-* (default): `ForegroundAppNotificationClient`
+* `ForegroundAppNotificationClient`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\execmodelclient.dll`
+* `C:\Windows\System32\execmodelclient.dll`
 * ThreadingModel: `Both`
 
 ## Instance

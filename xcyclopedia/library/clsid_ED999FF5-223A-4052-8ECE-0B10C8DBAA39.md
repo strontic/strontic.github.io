@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID ED999FF5-223A-4052-8ECE-0B10C8DBAA39?
 
 # {ED999FF5-223A-4052-8ECE-0B10C8DBAA39}
 
-* (default): `ActualWbemUnauthenticatedLocator Class`
+* `ActualWbemUnauthenticatedLocator Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\wbem\wbemcore.dll`
+* `C:\Windows\system32\wbem\wbemcore.dll`
 * ThreadingModel: `Both`
 
 ## Instance

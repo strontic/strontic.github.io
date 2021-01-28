@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID 34e5efee-eb08-4714-878a-11bbcbfc592b?
 
 # {34e5efee-eb08-4714-878a-11bbcbfc592b}
 
-* (default): `CImeCommentServerPlugInLocal Class`
+* `CImeCommentServerPlugInLocal Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\IME\IMEJP\imjpcmld.dll`
+* `C:\Windows\System32\IME\IMEJP\imjpcmld.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `CImeCommentServerPlugInLocal.15`
+* `CImeCommentServerPlugInLocal.15`
 
 ### VersionIndependentProgID
 
-* (default): `CImeCommentServerPlugInLocal`
+* `CImeCommentServerPlugInLocal`
 
 ## Instance
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 4D3BD4B7-AD22-4DC4-B889-311DAE0D8AEB?
 
 # {4D3BD4B7-AD22-4DC4-B889-311DAE0D8AEB}
 
-* (default): `WindowServerFactory`
+* `WindowServerFactory`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\Windows.UI.dll`
+* `C:\Windows\System32\Windows.UI.dll`
 * ThreadingModel: `Both`
 
 ## Instance

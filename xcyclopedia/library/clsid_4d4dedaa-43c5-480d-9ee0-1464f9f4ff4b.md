@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 4d4dedaa-43c5-480d-9ee0-1464f9f4ff4b?
 
 # {4d4dedaa-43c5-480d-9ee0-1464f9f4ff4b}
 
-* (default): `MF SVR Activate`
+* `MF SVR Activate`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mfsvr.dll`
+* `C:\Windows\System32\mfsvr.dll`
 * ThreadingModel: `Both`
 
 ## Instance

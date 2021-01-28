@@ -12,11 +12,11 @@ excerpt: What is COM-Object CLSID 0c39a5cf-1a7a-40c8-ba74-8900e6df5fcd?
 
 ### DefaultIcon
 
-* (default): `C:\Windows\system32\imageres.dll,-117`
+* `C:\Windows\system32\imageres.dll,-117`
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\windows.storage.dll`
+* `C:\Windows\system32\windows.storage.dll`
 * ThreadingModel: `Apartment`
 
 ### ContextMenuHandlers

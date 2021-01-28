@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID DA1413F9-03DB-4FBD-A49F-EF0B46E46118?
 
 # {DA1413F9-03DB-4FBD-A49F-EF0B46E46118}
 
-* (default): `MCCSImapIdleExecutor`
+* `MCCSImapIdleExecutor`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\InternetMail.dll`
+* `C:\Windows\System32\InternetMail.dll`
 * ThreadingModel: `Both`
 
 ## Instance

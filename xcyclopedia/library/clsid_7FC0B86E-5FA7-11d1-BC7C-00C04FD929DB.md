@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 7FC0B86E-5FA7-11d1-BC7C-00C04FD929DB?
 
 # {7FC0B86E-5FA7-11d1-BC7C-00C04FD929DB}
 
-* (default): `WebCheck SyncMgr Handler`
+* `WebCheck SyncMgr Handler`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\webcheck.dll`
+* `C:\Windows\System32\webcheck.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

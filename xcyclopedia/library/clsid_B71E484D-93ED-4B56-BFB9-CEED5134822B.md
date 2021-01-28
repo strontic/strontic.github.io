@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID B71E484D-93ED-4B56-BFB9-CEED5134822B?
 
 # {B71E484D-93ED-4B56-BFB9-CEED5134822B}
 
-* (default): `Microsoft.JScript.Vsa.VsaEngine`
+* `Microsoft.JScript.Vsa.VsaEngine`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID B71E484D-93ED-4B56-BFB9-CEED5134822B?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `Microsoft.JScript, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a`
 * Class: `Microsoft.JScript.Vsa.VsaEngine`
 * RuntimeVersion: `v1.1.4322`
@@ -29,7 +29,7 @@ excerpt: What is COM-Object CLSID B71E484D-93ED-4B56-BFB9-CEED5134822B?
 
 ### ProgId
 
-* (default): `Microsoft.JScript.Vsa.VsaEngine`
+* `Microsoft.JScript.Vsa.VsaEngine`
 
 ## Instance
 

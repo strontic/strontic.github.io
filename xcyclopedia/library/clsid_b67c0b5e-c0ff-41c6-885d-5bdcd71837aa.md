@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID b67c0b5e-c0ff-41c6-885d-5bdcd71837aa?
 
 # {b67c0b5e-c0ff-41c6-885d-5bdcd71837aa}
 
-* (default): `User State WMI Provider`
+* `User State WMI Provider`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\ustprov.dll`
+* `C:\Windows\system32\ustprov.dll`
 * ThreadingModel: `Both`
 
 ## Instance

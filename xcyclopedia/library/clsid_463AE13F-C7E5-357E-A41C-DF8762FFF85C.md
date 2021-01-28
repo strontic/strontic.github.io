@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 463AE13F-C7E5-357E-A41C-DF8762FFF85C?
 
 # {463AE13F-C7E5-357E-A41C-DF8762FFF85C}
 
-* (default): `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapMonthDay`
+* `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapMonthDay`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 463AE13F-C7E5-357E-A41C-DF8762FFF85C?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapMonthDay`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapMonthDay`
+* `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapMonthDay`
 
 ## Instance
 

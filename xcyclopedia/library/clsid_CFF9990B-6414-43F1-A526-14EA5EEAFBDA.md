@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID CFF9990B-6414-43F1-A526-14EA5EEAFBDA?
 
 # {CFF9990B-6414-43F1-A526-14EA5EEAFBDA}
 
-* (default): `Library Share Engine`
+* `Library Share Engine`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\ntshrui.dll`
+* `C:\Windows\system32\ntshrui.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

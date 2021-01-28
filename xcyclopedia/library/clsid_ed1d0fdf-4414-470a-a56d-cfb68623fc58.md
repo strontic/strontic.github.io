@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID ed1d0fdf-4414-470a-a56d-cfb68623fc58?
 
 # {ed1d0fdf-4414-470a-a56d-cfb68623fc58}
 
-* (default): `Play with Windows Media Player`
+* `Play with Windows Media Player`
 * AppId: `{ed1d0fdf-4414-470a-a56d-cfb68623fc58}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID ed1d0fdf-4414-470a-a56d-cfb68623fc58?
 
 ### LocalServer32
 
-* (default): `"C:\Program Files (x86)\Windows Media Player\wmplayer.exe" /Play`
+* `"C:\Program Files (x86)\Windows Media Player\wmplayer.exe" /Play`
 
 ### SupportedProtocols
 

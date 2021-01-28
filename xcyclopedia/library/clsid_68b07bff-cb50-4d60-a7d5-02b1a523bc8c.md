@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 68b07bff-cb50-4d60-a7d5-02b1a523bc8c?
 
 # {68b07bff-cb50-4d60-a7d5-02b1a523bc8c}
 
-* (default): `SearchConnector Icon Extract Extension`
+* `SearchConnector Icon Extract Extension`
 * UseInProcHandlerCache: `1`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID 68b07bff-cb50-4d60-a7d5-02b1a523bc8c?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\shell32.dll`
+* `C:\Windows\System32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ### Instance

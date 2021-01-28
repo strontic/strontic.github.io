@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 0da7bfdf-c0a0-44eb-be82-b7a82c4721de?
 
 # {0da7bfdf-c0a0-44eb-be82-b7a82c4721de}
 
-* (default): `ARP CBS Uninstaller Proxy`
+* `ARP CBS Uninstaller Proxy`
 * AppID: `{0da7bfdf-c0a0-44eb-be82-b7a82c4721de}`
 * LocalizedString: `@C:\Windows\system32\appwiz.cpl,-184`
 
@@ -19,7 +19,7 @@ excerpt: What is COM-Object CLSID 0da7bfdf-c0a0-44eb-be82-b7a82c4721de?
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\appwiz.cpl`
+* `C:\Windows\system32\appwiz.cpl`
 * ThreadingModel: `Apartment`
 
 ## Instance

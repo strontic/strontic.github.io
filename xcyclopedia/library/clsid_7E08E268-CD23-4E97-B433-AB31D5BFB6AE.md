@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 7E08E268-CD23-4E97-B433-AB31D5BFB6AE?
 
 # {7E08E268-CD23-4E97-B433-AB31D5BFB6AE}
 
-* (default): `Layout Manager`
+* `Layout Manager`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\twinui.dll`
+* `C:\Windows\system32\twinui.dll`
 * ThreadingModel: `Both`
 
 ## Instance

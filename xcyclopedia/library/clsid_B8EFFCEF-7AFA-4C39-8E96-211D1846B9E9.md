@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID B8EFFCEF-7AFA-4C39-8E96-211D1846B9E9?
 
 # {B8EFFCEF-7AFA-4C39-8E96-211D1846B9E9}
 
-* (default): `LauncherDisambiguationUI`
+* `LauncherDisambiguationUI`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\windows.ui.storage.dll`
+* `C:\Windows\System32\windows.ui.storage.dll`
 * ThreadingModel: `Both`
 
 ## Instance

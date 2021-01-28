@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID cac5c8a7-b4fe-4bf7-a3fc-ccd1dcf04d65?
 
 # {cac5c8a7-b4fe-4bf7-a3fc-ccd1dcf04d65}
 
-* (default): `CLSID_OobeActivityPrivacyManagerCom`
+* `CLSID_OobeActivityPrivacyManagerCom`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\Windows.Data.Activities.dll`
+* `C:\Windows\System32\Windows.Data.Activities.dll`
 * ThreadingModel: `Both`
 
 ## Instance

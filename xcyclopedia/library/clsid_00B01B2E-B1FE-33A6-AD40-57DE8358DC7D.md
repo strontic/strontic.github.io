@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 00B01B2E-B1FE-33A6-AD40-57DE8358DC7D?
 
 # {00B01B2E-B1FE-33A6-AD40-57DE8358DC7D}
 
-* (default): `System.Security.Cryptography.HMACSHA1`
+* `System.Security.Cryptography.HMACSHA1`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 00B01B2E-B1FE-33A6-AD40-57DE8358DC7D?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.Cryptography.HMACSHA1`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Security.Cryptography.HMACSHA1`
+* `System.Security.Cryptography.HMACSHA1`
 
 ## Instance
 

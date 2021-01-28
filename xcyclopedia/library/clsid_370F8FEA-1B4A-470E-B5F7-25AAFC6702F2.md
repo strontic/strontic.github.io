@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 370F8FEA-1B4A-470E-B5F7-25AAFC6702F2?
 
 # {370F8FEA-1B4A-470E-B5F7-25AAFC6702F2}
 
-* (default): `VirtualTouchpadFlow Class Factory`
+* `VirtualTouchpadFlow Class Factory`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\twinui.pcshell.dll`
+* `C:\Windows\system32\twinui.pcshell.dll`
 * ThreadingModel: `Both`
 
 ## Instance

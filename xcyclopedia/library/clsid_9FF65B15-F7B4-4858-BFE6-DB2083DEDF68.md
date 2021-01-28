@@ -5,31 +5,31 @@ excerpt: What is COM-Object CLSID 9FF65B15-F7B4-4858-BFE6-DB2083DEDF68?
 
 # {9FF65B15-F7B4-4858-BFE6-DB2083DEDF68}
 
-* (default): `SpObjectToken Class`
+* `SpObjectToken Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\Speech_OneCore\Common\sapi_onecore.dll`
+* `C:\Windows\System32\Speech_OneCore\Common\sapi_onecore.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `SAPI.SpObjectToken.1`
+* `SAPI.SpObjectToken.1`
 
 ### TypeLib
 
-* (default): `{E6DA930B-BBA5-44DF-AC6F-FE60C1EDDEC8}`
+* `{E6DA930B-BBA5-44DF-AC6F-FE60C1EDDEC8}`
 
 ### Version
 
-* (default): `5.4`
+* `5.4`
 
 ### VersionIndependentProgID
 
-* (default): `SAPI.SpObjectToken`
+* `SAPI.SpObjectToken`
 
 ## Instance
 

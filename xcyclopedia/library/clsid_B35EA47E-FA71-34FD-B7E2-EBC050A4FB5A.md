@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID B35EA47E-FA71-34FD-B7E2-EBC050A4FB5A?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.AccessControl.PrivilegeNotHeldException`
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 8e85d0ce-deaf-4ea1-9410-fd1a2105ceb5?
 
 # {8e85d0ce-deaf-4ea1-9410-fd1a2105ceb5}
 
-* (default): `Microsoft DocProp Inplace Multi-Value Property Control`
+* `Microsoft DocProp Inplace Multi-Value Property Control`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

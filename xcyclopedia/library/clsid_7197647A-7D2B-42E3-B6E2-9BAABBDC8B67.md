@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 7197647A-7D2B-42E3-B6E2-9BAABBDC8B67?
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\EnterpriseDesktopAppMgmtCSP.dll`
+* `C:\Windows\system32\EnterpriseDesktopAppMgmtCSP.dll`
 * ThreadingModel: `free`
 
 ## Instance

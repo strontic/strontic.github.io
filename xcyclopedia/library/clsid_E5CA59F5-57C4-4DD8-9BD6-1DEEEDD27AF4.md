@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID E5CA59F5-57C4-4DD8-9BD6-1DEEEDD27AF4?
 
 # {E5CA59F5-57C4-4DD8-9BD6-1DEEEDD27AF4}
 
-* (default): `Microsoft InkEdit Control`
+* `Microsoft InkEdit Control`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID E5CA59F5-57C4-4DD8-9BD6-1DEEEDD27AF4?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\Inked.dll`
+* `C:\Windows\System32\Inked.dll`
 * ThreadingModel: `Apartment`
 
 ### Insertable
@@ -23,30 +23,30 @@ excerpt: What is COM-Object CLSID E5CA59F5-57C4-4DD8-9BD6-1DEEEDD27AF4?
 
 ### MiscStatus
 
-* (default): `0`
+* `0`
 
 ### (1)
 
-* (default): `131473`
+* `131473`
 
 ### ProgID
 
-* (default): `InkEd.InkEdit.1`
+* `InkEd.InkEdit.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* (default): `{8405D0DF-9FDD-4829-AEAD-8E2B0A18FEA4}`
+* `{8405D0DF-9FDD-4829-AEAD-8E2B0A18FEA4}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `InkEd.InkEdit`
+* `InkEd.InkEdit`
 
 ## Instance
 

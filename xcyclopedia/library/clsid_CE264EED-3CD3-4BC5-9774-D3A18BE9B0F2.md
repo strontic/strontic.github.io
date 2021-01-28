@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID CE264EED-3CD3-4BC5-9774-D3A18BE9B0F2?
 
 # {CE264EED-3CD3-4BC5-9774-D3A18BE9B0F2}
 
-* (default): `ResourceValidator Class`
+* `ResourceValidator Class`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\MrmCoreR.dll`
+* `C:\Windows\System32\MrmCoreR.dll`
 * ThreadingModel: `Both`
 
 ## Instance

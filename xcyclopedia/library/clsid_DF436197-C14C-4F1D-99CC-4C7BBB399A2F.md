@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID DF436197-C14C-4F1D-99CC-4C7BBB399A2F?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\oobe\oobecoreadapters.dll`
+* `C:\Windows\System32\oobe\oobecoreadapters.dll`
 * ThreadingModel: `Both`
 
 ## Instance

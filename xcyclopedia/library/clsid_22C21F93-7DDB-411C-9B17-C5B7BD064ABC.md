@@ -14,7 +14,7 @@ excerpt: What is COM-Object CLSID 22C21F93-7DDB-411C-9B17-C5B7BD064ABC?
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\windowscodecsext.dll`
+* `C:\Windows\system32\windowscodecsext.dll`
 * ThreadingModel: `Both`
 
 ## Instance

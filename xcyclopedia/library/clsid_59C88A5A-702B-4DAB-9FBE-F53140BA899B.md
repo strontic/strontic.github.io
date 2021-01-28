@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 59C88A5A-702B-4DAB-9FBE-F53140BA899B?
 
 # {59C88A5A-702B-4DAB-9FBE-F53140BA899B}
 
-* (default): `FhUrlAccessor Class`
+* `FhUrlAccessor Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\fhsrchph.dll`
+* `C:\Windows\system32\fhsrchph.dll`
 * ThreadingModel: `Both`
 
 ## Instance

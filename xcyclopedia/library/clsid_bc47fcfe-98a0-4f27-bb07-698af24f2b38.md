@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID bc47fcfe-98a0-4f27-bb07-698af24f2b38?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mfh263enc.dll`
+* `C:\Windows\System32\mfh263enc.dll`
 * ThreadingModel: `Both`
 
 ## Instance

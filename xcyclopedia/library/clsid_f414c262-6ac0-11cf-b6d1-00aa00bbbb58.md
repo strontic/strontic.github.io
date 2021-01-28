@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID f414c262-6ac0-11cf-b6d1-00aa00bbbb58?
 
 # {f414c262-6ac0-11cf-b6d1-00aa00bbbb58}
 
-* (default): `JScript Language Encoding`
+* `JScript Language Encoding`
 
 ## Registry
 
@@ -21,7 +21,7 @@ excerpt: What is COM-Object CLSID f414c262-6ac0-11cf-b6d1-00aa00bbbb58?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\jscript.dll`
+* `C:\Windows\System32\jscript.dll`
 * ThreadingModel: `Both`
 
 ### OLEScript
@@ -29,7 +29,7 @@ excerpt: What is COM-Object CLSID f414c262-6ac0-11cf-b6d1-00aa00bbbb58?
 
 ### ProgID
 
-* (default): `JScript.Encode`
+* `JScript.Encode`
 
 ## Instance
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 98FF6D4B-6387-4b0a-8FBD-C5C4BB17B4F8?
 
 # {98FF6D4B-6387-4b0a-8FBD-C5C4BB17B4F8}
 
-* (default): `IE MRU AutoComplete List`
+* `IE MRU AutoComplete List`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\ieframe.dll`
+* `C:\Windows\System32\ieframe.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

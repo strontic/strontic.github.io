@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID a4f0da76-0f57-495f-bb5d-9f67a4745cdf?
 
 # {a4f0da76-0f57-495f-bb5d-9f67a4745cdf}
 
-* (default): `GameListEntryProxy`
+* `GameListEntryProxy`
 
 ## Registry
 
 
 ### InProcHandler32
 
-* (default): `C:\Windows\System32\Windows.Gaming.Preview.dll`
+* `C:\Windows\System32\Windows.Gaming.Preview.dll`
 
 MIT License. Copyright (c) 2021 Strontic.
 

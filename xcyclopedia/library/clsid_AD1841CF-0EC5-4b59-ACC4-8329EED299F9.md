@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID AD1841CF-0EC5-4b59-ACC4-8329EED299F9?
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\ndfhcdiscovery.dll`
+* `C:\Windows\system32\ndfhcdiscovery.dll`
 * ThreadingModel: `Both`
 
 ## Instance

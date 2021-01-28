@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 3A8CCCBC-0EFD-43a3-B838-F38A552BA237?
 
 # {3A8CCCBC-0EFD-43a3-B838-F38A552BA237}
 
-* (default): `CTocEntryList`
+* `CTocEntryList`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\wmvdspa.dll`
+* `C:\Windows\System32\wmvdspa.dll`
 * ThreadingModel: `Both`
 
 ## Instance

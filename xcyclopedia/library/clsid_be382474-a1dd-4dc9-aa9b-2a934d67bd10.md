@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID be382474-a1dd-4dc9-aa9b-2a934d67bd10?
 
 # {be382474-a1dd-4dc9-aa9b-2a934d67bd10}
 
-* (default): `Icon Size Explorer Command`
+* `Icon Size Explorer Command`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Both`
 
 ## Instance

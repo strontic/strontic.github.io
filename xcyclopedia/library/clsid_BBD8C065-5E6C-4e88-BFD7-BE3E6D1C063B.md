@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID BBD8C065-5E6C-4e88-BFD7-BE3E6D1C063B?
 
 # {BBD8C065-5E6C-4e88-BFD7-BE3E6D1C063B}
 
-* (default): `Virtual Factory for Power Options Control Panel`
+* `Virtual Factory for Power Options Control Panel`
 * AppId: `{BBD8C065-5E6C-4e88-BFD7-BE3E6D1C063B}`
 * LocalizedString: `@C:\Windows\System32\powercpl.dll,-70`
 
@@ -19,7 +19,7 @@ excerpt: What is COM-Object CLSID BBD8C065-5E6C-4e88-BFD7-BE3E6D1C063B?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\shpafact.dll`
+* `C:\Windows\System32\shpafact.dll`
 * ThreadingModel: `Apartment`
 
 ### VirtualServerObjects

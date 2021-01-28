@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID AFC681CF-E82F-361A-8280-CF4E1F844C3E?
 
 # {AFC681CF-E82F-361A-8280-CF4E1F844C3E}
 
-* (default): `System.Runtime.InteropServices.ExternalException`
+* `System.Runtime.InteropServices.ExternalException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID AFC681CF-E82F-361A-8280-CF4E1F844C3E?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.InteropServices.ExternalException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Runtime.InteropServices.ExternalException`
+* `System.Runtime.InteropServices.ExternalException`
 
 ## Instance
 

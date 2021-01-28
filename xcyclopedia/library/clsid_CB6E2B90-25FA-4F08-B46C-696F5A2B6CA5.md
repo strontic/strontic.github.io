@@ -5,27 +5,27 @@ excerpt: What is COM-Object CLSID CB6E2B90-25FA-4F08-B46C-696F5A2B6CA5?
 
 # {CB6E2B90-25FA-4F08-B46C-696F5A2B6CA5}
 
-* (default): `SppWmiTokenActivationSigner`
+* `SppWmiTokenActivationSigner`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\sppwmi.dll`
+* `C:\Windows\System32\sppwmi.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* (default): `SPPWMI.SppWmiTokenActivationSigner.1`
+* `SPPWMI.SppWmiTokenActivationSigner.1`
 
 ### TypeLib
 
-* (default): `{10E3A8C1-B46C-4B6C-B3EF-8E2F48D527D0}`
+* `{10E3A8C1-B46C-4B6C-B3EF-8E2F48D527D0}`
 
 ### VersionIndependentProgID
 
-* (default): `SPPWMI.SppWmiTokenActivationSigner`
+* `SPPWMI.SppWmiTokenActivationSigner`
 
 ## Instance
 

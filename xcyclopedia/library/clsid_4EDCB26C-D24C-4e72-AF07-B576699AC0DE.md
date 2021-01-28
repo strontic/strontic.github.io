@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 4EDCB26C-D24C-4e72-AF07-B576699AC0DE?
 
 # {4EDCB26C-D24C-4e72-AF07-B576699AC0DE}
 
-* (default): `Microsoft RDP Client Control (redistributable) - version 5`
+* `Microsoft RDP Client Control (redistributable) - version 5`
 
 ## Registry
 
@@ -15,35 +15,35 @@ excerpt: What is COM-Object CLSID 4EDCB26C-D24C-4e72-AF07-B576699AC0DE?
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\mstscax.dll`
+* `C:\Windows\system32\mstscax.dll`
 * ThreadingModel: `Apartment`
 
 ### MiscStatus
 
-* (default): `0`
+* `0`
 
 ### (1)
 
-* (default): `131473`
+* `131473`
 
 ### ProgID
 
-* (default): `MsRDP.MsRDP.4`
+* `MsRDP.MsRDP.4`
 
 ### Programmable
 
 
 ### TypeLib
 
-* (default): `{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}`
+* `{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `MsRDP.MsRDP`
+* `MsRDP.MsRDP`
 
 ## Instance
 

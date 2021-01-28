@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 5A823D1E-8DDC-44DD-8AB4-F9D32C7FBB05?
 
 # {5A823D1E-8DDC-44DD-8AB4-F9D32C7FBB05}
 
-* (default): `IoT Activation Client`
+* `IoT Activation Client`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\embeddedmodesvcapi.dll`
+* `C:\Windows\system32\embeddedmodesvcapi.dll`
 * ThreadingModel: `Both`
 
 ## Instance

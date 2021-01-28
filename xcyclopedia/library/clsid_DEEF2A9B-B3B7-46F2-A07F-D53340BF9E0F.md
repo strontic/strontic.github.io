@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID DEEF2A9B-B3B7-46F2-A07F-D53340BF9E0F?
 
 # {DEEF2A9B-B3B7-46F2-A07F-D53340BF9E0F}
 
-* (default): `CLSID_SettingSyncDiagnostics`
+* `CLSID_SettingSyncDiagnostics`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\SettingSync.dll`
+* `C:\Windows\system32\SettingSync.dll`
 * ThreadingModel: `Both`
 
 ## Instance

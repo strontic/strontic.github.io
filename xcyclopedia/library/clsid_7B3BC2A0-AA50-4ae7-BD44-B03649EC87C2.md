@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 7B3BC2A0-AA50-4ae7-BD44-B03649EC87C2?
 
 # {7B3BC2A0-AA50-4ae7-BD44-B03649EC87C2}
 
-* (default): `VPS Decoder`
+* `VPS Decoder`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\WSTPager.ax`
+* `C:\Windows\System32\WSTPager.ax`
 * ThreadingModel: `Both`
 
 ## Instance

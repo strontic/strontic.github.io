@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID DA4E3DA0-D07D-11d0-BD50-00A0C911CE86?
 
 # {DA4E3DA0-D07D-11d0-BD50-00A0C911CE86}
 
-* (default): `ActiveMovie Filter Categories`
+* `ActiveMovie Filter Categories`
 
 ## Registry
 

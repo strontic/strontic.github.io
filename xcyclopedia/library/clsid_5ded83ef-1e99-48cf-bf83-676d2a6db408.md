@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 5ded83ef-1e99-48cf-bf83-676d2a6db408?
 
 # {5ded83ef-1e99-48cf-bf83-676d2a6db408}
 
-* (default): `CloudExperienceHost Full Screen Launch Task`
+* `CloudExperienceHost Full Screen Launch Task`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\oobe\UserOOBE.dll`
+* `C:\Windows\System32\oobe\UserOOBE.dll`
 * ThreadingModel: `Both`
 
 ## Instance

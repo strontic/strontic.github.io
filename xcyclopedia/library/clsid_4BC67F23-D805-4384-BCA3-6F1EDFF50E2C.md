@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 4BC67F23-D805-4384-BCA3-6F1EDFF50E2C?
 
 # {4BC67F23-D805-4384-BCA3-6F1EDFF50E2C}
 
-* (default): `ERCLuaElevationHelper`
+* `ERCLuaElevationHelper`
 * AppId: `{4BC67F23-D805-4384-BCA3-6F1EDFF50E2C}`
 * LocalizedString: `@C:\Windows\system32\werconcpl.dll,-350`
 
@@ -19,12 +19,12 @@ excerpt: What is COM-Object CLSID 4BC67F23-D805-4384-BCA3-6F1EDFF50E2C?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\wercplsupport.dll`
+* `C:\Windows\System32\wercplsupport.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `ERCLuaElevationHelper`
+* `ERCLuaElevationHelper`
 
 ## Instance
 

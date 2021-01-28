@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 3059ACB9-9875-44CC-ABA9-EAA6EFBEBA39?
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\SettingMonitor.dll`
+* `C:\Windows\system32\SettingMonitor.dll`
 * ThreadingModel: `Both`
 
 ## Instance

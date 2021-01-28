@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 41B9BE05-B3AF-460C-BF0B-2CDD44A093B1?
 
 # {41B9BE05-B3AF-460C-BF0B-2CDD44A093B1}
 
-* (default): `XML filter`
+* `XML filter`
 * LocalizedString: `@xmlfilter.dll,-300`
 
 ## Registry
@@ -13,16 +13,16 @@ excerpt: What is COM-Object CLSID 41B9BE05-B3AF-460C-BF0B-2CDD44A093B1?
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\xmlfilter.dll`
+* `C:\Windows\system32\xmlfilter.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `Search.XmlContentFilter.1`
+* `Search.XmlContentFilter.1`
 
 ### VersionIndependentProgID
 
-* (default): `Search.XmlContentFilter`
+* `Search.XmlContentFilter`
 
 ## Instance
 

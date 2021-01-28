@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 0955AC62-BF2E-4CBA-A2B9-A63F772D46CF?
 
 # {0955AC62-BF2E-4CBA-A2B9-A63F772D46CF}
 
-* (default): `BDA Tuning Model MPEG2 Tune Request`
+* `BDA Tuning Model MPEG2 Tune Request`
 
 ## Registry
 
@@ -18,27 +18,27 @@ excerpt: What is COM-Object CLSID 0955AC62-BF2E-4CBA-A2B9-A63F772D46CF?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\msvidctl.dll`
+* `C:\Windows\System32\msvidctl.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `BDATuner.MPEG2TuneRequest.1`
+* `BDATuner.MPEG2TuneRequest.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* (default): `{9B085638-018E-11D3-9D8E-00C04F72D980}`
+* `{9B085638-018E-11D3-9D8E-00C04F72D980}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `BDATuner.MPEG2TuneRequest`
+* `BDATuner.MPEG2TuneRequest`
 
 ## Instance
 

@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID faf85f2e-a8e7-414d-a3e9-6b9e7b4a51ed?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\RDXService.dll`
+* `C:\Windows\System32\RDXService.dll`
 * ThreadingModel: `Both`
 
 ## Instance

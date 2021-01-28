@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 3A9428A7-31A4-45E9-9EFB-E055BF7BB3DB?
 
 # {3A9428A7-31A4-45E9-9EFB-E055BF7BB3DB}
 
-* (default): `BDA Tuning Model Channel ID Tune Request`
+* `BDA Tuning Model Channel ID Tune Request`
 
 ## Registry
 
@@ -18,27 +18,27 @@ excerpt: What is COM-Object CLSID 3A9428A7-31A4-45E9-9EFB-E055BF7BB3DB?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\msvidctl.dll`
+* `C:\Windows\System32\msvidctl.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `BDATuner.ChannelIDTuneRequest.1`
+* `BDATuner.ChannelIDTuneRequest.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* (default): `{9B085638-018E-11D3-9D8E-00C04F72D980}`
+* `{9B085638-018E-11D3-9D8E-00C04F72D980}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `BDATuner.ChannelIDTuneRequest`
+* `BDATuner.ChannelIDTuneRequest`
 
 ## Instance
 

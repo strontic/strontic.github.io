@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID e04d75b6-ee0a-48a9-acd5-e39e0b1bb434?
 
 # {e04d75b6-ee0a-48a9-acd5-e39e0b1bb434}
 
-* (default): `Wi-Fi Direct Capability Handler`
+* `Wi-Fi Direct Capability Handler`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\CapabilityAccessHandlers.dll`
+* `C:\Windows\system32\CapabilityAccessHandlers.dll`
 * ThreadingModel: `Both`
 
 ## Instance

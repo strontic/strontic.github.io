@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID F5BC0AF0-63FC-468F-BC6F-D63EAE129A33?
 
 # {F5BC0AF0-63FC-468F-BC6F-D63EAE129A33}
 
-* (default): `Reboot`
+* `Reboot`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\enterprisecsps.dll`
+* `C:\Windows\System32\enterprisecsps.dll`
 * ThreadingModel: `Free`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgId
 
-* (default): `Reboot`
+* `Reboot`
 
 ## Instance
 

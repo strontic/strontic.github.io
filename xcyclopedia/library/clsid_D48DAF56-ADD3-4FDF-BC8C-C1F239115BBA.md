@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID D48DAF56-ADD3-4FDF-BC8C-C1F239115BBA?
 
 # {D48DAF56-ADD3-4FDF-BC8C-C1F239115BBA}
 
-* (default): `SpRemoteReceiver Class`
+* `SpRemoteReceiver Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\Speech_OneCore\Common\sapi_onecore.dll`
+* `C:\Windows\System32\Speech_OneCore\Common\sapi_onecore.dll`
 * ThreadingModel: `Both`
 
 ## Instance

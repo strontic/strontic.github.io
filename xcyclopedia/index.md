@@ -3,7 +3,7 @@ title: xCyclopedia | The Encyclopedia for Executables
 breadcrumbs_title: xCyclopedia Index (EXEs)
 ---
 
-[Info](intro){: .btn .btn--primary .btn--large} [.EXE](#index){: .btn .btn--light-outline .btn--large} [.DLL](index-dll){: .btn .btn--primary .btn--large} [<i class='fas fa-folder'></i> DIR](directory){: .btn .btn--primary .btn--large} [<i class='fas fa-exchange-alt'></i> COM](index-com-object){: .btn .btn--primary .btn--large}
+[Info](intro){: .btn .btn--primary .btn--large} [.EXE](#index){: .btn .btn--light-outline .btn--large} [.DLL](index-dll){: .btn .btn--primary .btn--large} [<i class='fas fa-folder'></i> DIR](directory){: .btn .btn--primary .btn--large} [<i class='fas fa-exchange-alt'></i> COM](index-com-objects){: .btn .btn--primary .btn--large}
 
 ## Index
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID B0A8F3CF-4333-4bab-8873-1CCB1CADA48B?
 
 # {B0A8F3CF-4333-4bab-8873-1CCB1CADA48B}
 
-* (default): `Drive Type Categorizer`
+* `Drive Type Categorizer`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 92E76A74-2622-3AA9-A3CA-1AE8BD7BC4A8?
 
 # {92E76A74-2622-3AA9-A3CA-1AE8BD7BC4A8}
 
-* (default): `System.MethodAccessException`
+* `System.MethodAccessException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 92E76A74-2622-3AA9-A3CA-1AE8BD7BC4A8?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.MethodAccessException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.MethodAccessException`
+* `System.MethodAccessException`
 
 ## Instance
 

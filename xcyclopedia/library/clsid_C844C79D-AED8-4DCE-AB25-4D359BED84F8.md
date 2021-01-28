@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID C844C79D-AED8-4DCE-AB25-4D359BED84F8?
 
 # {C844C79D-AED8-4DCE-AB25-4D359BED84F8}
 
-* (default): `FamilySafetyRefreshTask`
+* `FamilySafetyRefreshTask`
 * AppID: `{C844C79D-AED8-4DCE-AB25-4D359BED84F8}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID C844C79D-AED8-4DCE-AB25-4D359BED84F8?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\WpcRefreshTask.dll`
+* `C:\Windows\System32\WpcRefreshTask.dll`
 * ThreadingModel: `Both`
 
 ## Instance

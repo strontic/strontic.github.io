@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 5ED4F38C-D3FF-4D61-B506-6820320AEBFE?
 
 # {5ED4F38C-D3FF-4D61-B506-6820320AEBFE}
 
-* (default): `PC Settings`
+* `PC Settings`
 * InfoTip: `@C:\Windows\system32\shell32.dll,-32540`
 * LocalizedString: `@C:\Windows\system32\shell32.dll,-32539`
 * System.AppUserModel.ID: `Microsoft.Windows.PCSettings`
@@ -15,11 +15,11 @@ excerpt: What is COM-Object CLSID 5ED4F38C-D3FF-4D61-B506-6820320AEBFE?
 
 ### DefaultIcon
 
-* (default): `C:\Windows\System32\imageres.dll,-27`
+* `C:\Windows\System32\imageres.dll,-27`
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ### ShellFolder

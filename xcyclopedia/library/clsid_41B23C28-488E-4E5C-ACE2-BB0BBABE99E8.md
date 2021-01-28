@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 41B23C28-488E-4E5C-ACE2-BB0BBABE99E8?
 
 # {41B23C28-488E-4E5C-ACE2-BB0BBABE99E8}
 
-* (default): `HHCtrl Object`
+* `HHCtrl Object`
 
 ## Registry
 
@@ -15,36 +15,36 @@ excerpt: What is COM-Object CLSID 41B23C28-488E-4E5C-ACE2-BB0BBABE99E8?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\hhctrl.ocx`
+* `C:\Windows\System32\hhctrl.ocx`
 * ThreadingModel: `Apartment`
 
 ### MiscStatus
 
-* (default): `0`
+* `0`
 
 ### (1)
 
-* (default): `131473`
+* `131473`
 
 ### ProgID
 
-* (default): `Internet.HHCtrl.1`
+* `Internet.HHCtrl.1`
 
 ### ToolboxBitmap32
 
-* (default): `C:\Windows\System32\hhctrl.ocx, 104`
+* `C:\Windows\System32\hhctrl.ocx, 104`
 
 ### TypeLib
 
-* (default): `{ADB880A2-D8FF-11CF-9377-00AA003B7A11}`
+* `{ADB880A2-D8FF-11CF-9377-00AA003B7A11}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `Internet.HHCtrl`
+* `Internet.HHCtrl`
 
 ## Instance
 

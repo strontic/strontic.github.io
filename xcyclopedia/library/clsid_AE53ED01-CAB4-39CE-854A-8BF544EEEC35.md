@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID AE53ED01-CAB4-39CE-854A-8BF544EEEC35?
 
 # {AE53ED01-CAB4-39CE-854A-8BF544EEEC35}
 
-* (default): `System.Security.Cryptography.HMACSHA384`
+* `System.Security.Cryptography.HMACSHA384`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID AE53ED01-CAB4-39CE-854A-8BF544EEEC35?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.Cryptography.HMACSHA384`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Security.Cryptography.HMACSHA384`
+* `System.Security.Cryptography.HMACSHA384`
 
 ## Instance
 

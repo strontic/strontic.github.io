@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 5520B6D3-6EC6-3CE7-958B-E69FAF6EFF99?
 
 # {5520B6D3-6EC6-3CE7-958B-E69FAF6EFF99}
 
-* (default): `System.Runtime.Remoting.Contexts.SynchronizationAttribute`
+* `System.Runtime.Remoting.Contexts.SynchronizationAttribute`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 5520B6D3-6EC6-3CE7-958B-E69FAF6EFF99?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.Remoting.Contexts.SynchronizationAttribute`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Runtime.Remoting.Contexts.SynchronizationAttribute`
+* `System.Runtime.Remoting.Contexts.SynchronizationAttribute`
 
 ## Instance
 

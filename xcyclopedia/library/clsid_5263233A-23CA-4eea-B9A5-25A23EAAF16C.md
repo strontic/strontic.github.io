@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 5263233A-23CA-4eea-B9A5-25A23EAAF16C?
 
 # {5263233A-23CA-4eea-B9A5-25A23EAAF16C}
 
-* (default): `ActiveSyncAccountAccessor`
+* `ActiveSyncAccountAccessor`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\accountaccessor.dll`
+* `C:\Windows\System32\accountaccessor.dll`
 * ThreadingModel: `Both`
 
 ## Instance

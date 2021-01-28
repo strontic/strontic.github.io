@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID AFEF65AD-4577-447A-A148-83ACADD3D4B9?
 
 # {AFEF65AD-4577-447A-A148-83ACADD3D4B9}
 
-* (default): `System.Data.SqlClient.SQLDebugging`
+* `System.Data.SqlClient.SQLDebugging`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID AFEF65AD-4577-447A-A148-83ACADD3D4B9?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `System.Data, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Data.SqlClient.SQLDebugging`
 * RuntimeVersion: `v1.1.4322`
@@ -23,7 +23,7 @@ excerpt: What is COM-Object CLSID AFEF65AD-4577-447A-A148-83ACADD3D4B9?
 
 ### ProgId
 
-* (default): `System.Data.SqlClient.SQLDebugging`
+* `System.Data.SqlClient.SQLDebugging`
 
 ## Instance
 

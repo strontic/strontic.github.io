@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 021812bc-ae59-4f3c-9e04-72adc0ac9da5?
 
 # {021812bc-ae59-4f3c-9e04-72adc0ac9da5}
 
-* (default): `Per Monitor Shell Positioner Manager`
+* `Per Monitor Shell Positioner Manager`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\twinui.pcshell.dll`
+* `C:\Windows\system32\twinui.pcshell.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

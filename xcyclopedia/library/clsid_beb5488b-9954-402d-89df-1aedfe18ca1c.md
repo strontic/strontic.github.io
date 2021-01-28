@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID beb5488b-9954-402d-89df-1aedfe18ca1c?
 
 # {beb5488b-9954-402d-89df-1aedfe18ca1c}
 
-* (default): `Windows.Devices.Enumeration.DeviceWatcherTriggerDetails`
+* `Windows.Devices.Enumeration.DeviceWatcherTriggerDetails`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\Windows.Devices.Enumeration.dll`
+* `C:\Windows\System32\Windows.Devices.Enumeration.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

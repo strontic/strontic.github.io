@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 3C3A70A7-A468-49B9-8ADA-28E11FCCAD5D?
 
 # {3C3A70A7-A468-49B9-8ADA-28E11FCCAD5D}
 
-* (default): `RASrv Class`
+* `RASrv Class`
 * AppID: `{F8FD03A6-DDD9-4C1B-84EE-58159476A0D7}`
 
 ## Registry
@@ -13,23 +13,23 @@ excerpt: What is COM-Object CLSID 3C3A70A7-A468-49B9-8ADA-28E11FCCAD5D?
 
 ### LocalServer32
 
-* (default): `C:\Windows\System32\RAServer.exe`
+* `C:\Windows\System32\RAServer.exe`
 
 ### ProgID
 
-* (default): `RAServer.RASrv.1`
+* `RAServer.RASrv.1`
 
 ### TypeLib
 
-* (default): `{A7C01D63-4403-4BE2-B1AF-6EE0A2E6A1E9}`
+* `{A7C01D63-4403-4BE2-B1AF-6EE0A2E6A1E9}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `RAServer.RASrv`
+* `RAServer.RASrv`
 
 ## Instance
 

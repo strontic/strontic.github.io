@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID F48B770A-CBE5-44C2-8D4F-931DE9CEE6FA?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\Windows.Media.Speech.dll`
+* `C:\Windows\System32\Windows.Media.Speech.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID BCA7305F-56F7-43A4-BF2C-BFD674E7BBE8?
 
 # {BCA7305F-56F7-43A4-BF2C-BFD674E7BBE8}
 
-* (default): `AppSpatialInformationListener Class`
+* `AppSpatialInformationListener Class`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\SpatializerApo.dll`
+* `C:\Windows\System32\SpatializerApo.dll`
 * ThreadingModel: `Both`
 
 ## Instance

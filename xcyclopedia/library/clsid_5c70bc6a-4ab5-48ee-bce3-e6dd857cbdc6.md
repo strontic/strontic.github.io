@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 5c70bc6a-4ab5-48ee-bce3-e6dd857cbdc6?
 
 # {5c70bc6a-4ab5-48ee-bce3-e6dd857cbdc6}
 
-* (default): `Sort Ascending Explorer Command`
+* `Sort Ascending Explorer Command`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Both`
 
 ## Instance

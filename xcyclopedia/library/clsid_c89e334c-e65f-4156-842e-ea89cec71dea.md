@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID c89e334c-e65f-4156-842e-ea89cec71dea?
 
 # {c89e334c-e65f-4156-842e-ea89cec71dea}
 
-* (default): `WFP and IPsec Helper Class`
+* `WFP and IPsec Helper Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\fphc.dll`
+* `C:\Windows\system32\fphc.dll`
 * ThreadingModel: `Free`
 
 ## Instance

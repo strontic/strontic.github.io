@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 9C125A6F-EAE2-3FC1-97A1-C0DCEAB0B5DF?
 
 # {9C125A6F-EAE2-3FC1-97A1-C0DCEAB0B5DF}
 
-* (default): `System.StackOverflowException`
+* `System.StackOverflowException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 9C125A6F-EAE2-3FC1-97A1-C0DCEAB0B5DF?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.StackOverflowException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.StackOverflowException`
+* `System.StackOverflowException`
 
 ## Instance
 

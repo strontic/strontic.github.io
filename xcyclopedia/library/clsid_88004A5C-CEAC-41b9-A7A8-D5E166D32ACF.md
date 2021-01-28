@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 88004A5C-CEAC-41b9-A7A8-D5E166D32ACF?
 
 # {88004A5C-CEAC-41b9-A7A8-D5E166D32ACF}
 
-* (default): `NarratorProgressBar Class`
+* `NarratorProgressBar Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\srh.dll`
+* `C:\Windows\System32\srh.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 27E986E1-BAEC-3D48-82E4-14169CA8CECF?
 
 # {27E986E1-BAEC-3D48-82E4-14169CA8CECF}
 
-* (default): `System.Threading.ThreadInterruptedException`
+* `System.Threading.ThreadInterruptedException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 27E986E1-BAEC-3D48-82E4-14169CA8CECF?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Threading.ThreadInterruptedException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Threading.ThreadInterruptedException`
+* `System.Threading.ThreadInterruptedException`
 
 MIT License. Copyright (c) 2021 Strontic.
 

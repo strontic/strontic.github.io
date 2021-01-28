@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 3050f4e1-98b5-11cf-bb82-00aa00bdce0b?
 
 # {3050f4e1-98b5-11cf-bb82-00aa00bdce0b}
 
-* (default): `HtmlDlgHelper Class`
+* `HtmlDlgHelper Class`
 
 ## Registry
 
@@ -15,39 +15,39 @@ excerpt: What is COM-Object CLSID 3050f4e1-98b5-11cf-bb82-00aa00bdce0b?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mshtmled.dll`
+* `C:\Windows\System32\mshtmled.dll`
 * ThreadingModel: `Apartment`
 
 ### MiscStatus
 
-* (default): `0`
+* `0`
 
 ### (1)
 
-* (default): `131473`
+* `131473`
 
 ### ProgID
 
-* (default): `HtmlDlgHelper.HtmlDlgHelper.1`
+* `HtmlDlgHelper.HtmlDlgHelper.1`
 
 ### Programmable
 
 
 ### ToolboxBitmap32
 
-* (default): `C:\Windows\System32\mshtmled.dll, 1`
+* `C:\Windows\System32\mshtmled.dll, 1`
 
 ### TypeLib
 
-* (default): `{3050f4e0-98b5-11cf-bb82-00aa00bdce0b}`
+* `{3050f4e0-98b5-11cf-bb82-00aa00bdce0b}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `HtmlDlgHelper.HtmlDlgHelper`
+* `HtmlDlgHelper.HtmlDlgHelper`
 
 ## Instance
 

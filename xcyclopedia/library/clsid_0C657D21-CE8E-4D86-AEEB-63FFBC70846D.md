@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 0C657D21-CE8E-4D86-AEEB-63FFBC70846D?
 
 # {0C657D21-CE8E-4D86-AEEB-63FFBC70846D}
 
-* (default): `Compact Overlay Manager`
+* `Compact Overlay Manager`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\twinui.dll`
+* `C:\Windows\system32\twinui.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

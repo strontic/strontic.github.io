@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 6CFAD761-735D-4AA5-8AFC-AF91A7D61EBA?
 
 # {6CFAD761-735D-4AA5-8AFC-AF91A7D61EBA}
 
-* (default): `Mpeg-2 Video Stream Analysis`
+* `Mpeg-2 Video Stream Analysis`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\sbe.dll`
+* `C:\Windows\System32\sbe.dll`
 * ThreadingModel: `Both`
 
 ## Instance

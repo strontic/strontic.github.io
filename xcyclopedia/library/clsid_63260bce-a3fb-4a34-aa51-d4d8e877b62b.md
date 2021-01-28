@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 63260bce-a3fb-4a34-aa51-d4d8e877b62b?
 
 # {63260bce-a3fb-4a34-aa51-d4d8e877b62b}
 
-* (default): `Work Folder Maintenance Task Class`
+* `Work Folder Maintenance Task Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\WorkFoldersShell.dll`
+* `C:\Windows\System32\WorkFoldersShell.dll`
 
 ## Instance
 

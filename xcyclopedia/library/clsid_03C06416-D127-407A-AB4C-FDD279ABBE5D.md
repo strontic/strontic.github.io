@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 03C06416-D127-407A-AB4C-FDD279ABBE5D?
 
 # {03C06416-D127-407A-AB4C-FDD279ABBE5D}
 
-* (default): `BDA Tuning Model Digital Cable Locator`
+* `BDA Tuning Model Digital Cable Locator`
 
 ## Registry
 
@@ -18,27 +18,27 @@ excerpt: What is COM-Object CLSID 03C06416-D127-407A-AB4C-FDD279ABBE5D?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\msvidctl.dll`
+* `C:\Windows\System32\msvidctl.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `BDATuner.DigitalCableLocator.1`
+* `BDATuner.DigitalCableLocator.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* (default): `{9B085638-018E-11D3-9D8E-00C04F72D980}`
+* `{9B085638-018E-11D3-9D8E-00C04F72D980}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `BDATuner.DigitalCableLocator`
+* `BDATuner.DigitalCableLocator`
 
 ## Instance
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 8EB9BA6E-CEED-4D06-B7F6-EA6047221299?
 
 # {8EB9BA6E-CEED-4D06-B7F6-EA6047221299}
 
-* (default): `CLSID_SearchSuggestionsService`
+* `CLSID_SearchSuggestionsService`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\TwinUI.dll`
+* `C:\Windows\System32\TwinUI.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

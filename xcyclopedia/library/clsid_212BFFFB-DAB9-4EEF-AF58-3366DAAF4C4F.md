@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 212BFFFB-DAB9-4EEF-AF58-3366DAAF4C4F?
 
 # {212BFFFB-DAB9-4EEF-AF58-3366DAAF4C4F}
 
-* (default): `MCCS SyncActivityFactory`
+* `MCCS SyncActivityFactory`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\SyncController.dll`
+* `C:\Windows\System32\SyncController.dll`
 * ThreadingModel: `Both`
 
 ## Instance

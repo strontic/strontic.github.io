@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID C45268A2-FA81-4E19-B1E3-72EDBD60AEDA?
 
 # {C45268A2-FA81-4E19-B1E3-72EDBD60AEDA}
 
-* (default): `MSVidCtl Enhanced Video Renderer(DX10) Segment`
+* `MSVidCtl Enhanced Video Renderer(DX10) Segment`
 
 ## Registry
 
@@ -15,27 +15,27 @@ excerpt: What is COM-Object CLSID C45268A2-FA81-4E19-B1E3-72EDBD60AEDA?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\msvidctl.dll`
+* `C:\Windows\System32\msvidctl.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* (default): `MSVidCtl.EVR.1`
+* `MSVidCtl.EVR.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* (default): `{B0EDF154-910A-11D2-B632-00C04F79498E}`
+* `{B0EDF154-910A-11D2-B632-00C04F79498E}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `MSVidCtl.EVR`
+* `MSVidCtl.EVR`
 
 ## Instance
 

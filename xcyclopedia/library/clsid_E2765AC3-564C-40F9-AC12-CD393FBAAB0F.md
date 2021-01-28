@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID E2765AC3-564C-40F9-AC12-CD393FBAAB0F?
 
 # {E2765AC3-564C-40F9-AC12-CD393FBAAB0F}
 
-* (default): `Ribbon Share With Verb`
+* `Ribbon Share With Verb`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\ntshrui.dll`
+* `C:\Windows\system32\ntshrui.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

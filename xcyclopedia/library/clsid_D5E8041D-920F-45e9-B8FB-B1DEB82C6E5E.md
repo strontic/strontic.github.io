@@ -12,7 +12,7 @@ excerpt: What is COM-Object CLSID D5E8041D-920F-45e9-B8FB-B1DEB82C6E5E?
 
 ### LocalServer32
 
-* (default): `"C:\Program Files\Internet Explorer\iexplore.exe" -startmediumtab`
+* `"C:\Program Files\Internet Explorer\iexplore.exe" -startmediumtab`
 
 ## Instance
 

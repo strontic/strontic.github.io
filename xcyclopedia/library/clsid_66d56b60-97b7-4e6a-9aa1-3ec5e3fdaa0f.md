@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 66d56b60-97b7-4e6a-9aa1-3ec5e3fdaa0f?
 
 # {66d56b60-97b7-4e6a-9aa1-3ec5e3fdaa0f}
 
-* (default): `Winsock Diagnostic Helper Class`
+* `Winsock Diagnostic Helper Class`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\WinsockHC.dll`
+* `C:\Windows\system32\WinsockHC.dll`
 * ThreadingModel: `Free`
 
 ## Instance

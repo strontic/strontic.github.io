@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID 0AA02E8D-F851-4CB0-9F64-BBA9BE7A983D?
 
 # {0AA02E8D-F851-4CB0-9F64-BBA9BE7A983D}
 
-* (default): `AlchemyVis Class`
+* `AlchemyVis Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Program Files\Windows Media Player\mpvis.DLL`
+* `C:\Program Files\Windows Media Player\mpvis.DLL`
 * ThreadingModel: `Apartment`
 
 ### TypeLib
 
-* (default): `{C58F1580-0DF3-401C-93B1-2D9DDA61CF04}`
+* `{C58F1580-0DF3-401C-93B1-2D9DDA61CF04}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ## Instance
 

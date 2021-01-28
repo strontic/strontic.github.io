@@ -5,19 +5,19 @@ excerpt: What is COM-Object CLSID E325CAFA-C39E-4EFB-9A9A-09BEEB580F1C?
 
 # {E325CAFA-C39E-4EFB-9A9A-09BEEB580F1C}
 
-* (default): `BarcodeProvisioningPlugin`
+* `BarcodeProvisioningPlugin`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\BarcodeProvisioningPlugin.dll`
+* `C:\Windows\System32\BarcodeProvisioningPlugin.dll`
 * ThreadingModel: `Both`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ## Instance
 

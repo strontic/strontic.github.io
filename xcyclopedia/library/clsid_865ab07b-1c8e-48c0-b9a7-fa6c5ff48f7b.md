@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 865ab07b-1c8e-48c0-b9a7-fa6c5ff48f7b?
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

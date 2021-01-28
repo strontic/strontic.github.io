@@ -15,7 +15,7 @@ header:
     - label: "Download"
       url: "https://github.com/strontic/xcyclopedia/archive/master.zip"
     - label: "View"
-      url: "/xcyclopedia/#index"
+      url: "/xcyclopedia/"
   caption: "Source: [**shutterstock**](https://www.shutterstock.com/image-illustration/network-connection-structure-perspective-grid-technology-1814625266)"
 excerpt: "The Encyclopedia of Executables"
 ---

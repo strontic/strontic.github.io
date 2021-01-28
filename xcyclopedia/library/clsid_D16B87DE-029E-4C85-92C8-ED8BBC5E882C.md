@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID D16B87DE-029E-4C85-92C8-ED8BBC5E882C?
 
 # {D16B87DE-029E-4C85-92C8-ED8BBC5E882C}
 
-* (default): `Microsoft Embedded Search Gatherer Inline Notification`
+* `Microsoft Embedded Search Gatherer Inline Notification`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\mssrch.dll`
+* `C:\Windows\system32\mssrch.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `Search.EmbeddedGatherNotifyInline.1`
+* `Search.EmbeddedGatherNotifyInline.1`
 
 ### VersionIndependentProgID
 
-* (default): `Search.EmbeddedGatherNotifyInline`
+* `Search.EmbeddedGatherNotifyInline`
 
 MIT License. Copyright (c) 2021 Strontic.
 

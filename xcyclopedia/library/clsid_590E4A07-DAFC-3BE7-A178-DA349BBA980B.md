@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 590E4A07-DAFC-3BE7-A178-DA349BBA980B?
 
 # {590E4A07-DAFC-3BE7-A178-DA349BBA980B}
 
-* (default): `System.Runtime.CompilerServices.IUnknownConstantAttribute`
+* `System.Runtime.CompilerServices.IUnknownConstantAttribute`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 590E4A07-DAFC-3BE7-A178-DA349BBA980B?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.CompilerServices.IUnknownConstantAttribute`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Runtime.CompilerServices.IUnknownConstantAttribute`
+* `System.Runtime.CompilerServices.IUnknownConstantAttribute`
 
 ## Instance
 

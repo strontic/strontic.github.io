@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 80a90d72-a834-4f3d-ad3b-c7abbe4a0f66?
 
 # {80a90d72-a834-4f3d-ad3b-c7abbe4a0f66}
 
-* (default): `OOBE User Authentication`
+* `OOBE User Authentication`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\oobe\UserOOBE.dll`
+* `C:\Windows\System32\oobe\UserOOBE.dll`
 * ThreadingModel: `Both`
 
 ## Instance

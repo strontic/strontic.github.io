@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID CA0AC604-8EF2-448A-AE97-62A2C2CC3C46?
 
 # {CA0AC604-8EF2-448A-AE97-62A2C2CC3C46}
 
-* (default): `SpDMOAudioIn Class`
+* `SpDMOAudioIn Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\Speech\Common\sapi.dll`
+* `C:\Windows\System32\Speech\Common\sapi.dll`
 * ThreadingModel: `Both`
 
 ## Instance

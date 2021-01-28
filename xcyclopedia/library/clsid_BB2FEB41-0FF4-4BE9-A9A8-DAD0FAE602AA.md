@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID BB2FEB41-0FF4-4BE9-A9A8-DAD0FAE602AA?
 
 # {BB2FEB41-0FF4-4BE9-A9A8-DAD0FAE602AA}
 
-* (default): `ChtQuickDS`
+* `ChtQuickDS`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\InputMethod\CHT\ChtQuickDS.dll`
+* `C:\Windows\System32\InputMethod\CHT\ChtQuickDS.dll`
 * ThreadingModel: `Both`
 
 ## Instance

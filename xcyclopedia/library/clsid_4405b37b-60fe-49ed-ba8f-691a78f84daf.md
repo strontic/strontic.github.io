@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 4405b37b-60fe-49ed-ba8f-691a78f84daf?
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\colbact.dll`
+* `C:\Windows\system32\colbact.dll`
 * ThreadingModel: `Both`
 
 ## Instance

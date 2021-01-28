@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID CCAEAA6D-3A50-488F-A664-5FACF424BC46?
 
 # {CCAEAA6D-3A50-488F-A664-5FACF424BC46}
 
-* (default): `State of homegroup commands`
+* `State of homegroup commands`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

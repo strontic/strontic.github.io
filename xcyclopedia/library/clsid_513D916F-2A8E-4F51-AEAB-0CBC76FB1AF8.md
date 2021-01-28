@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 513D916F-2A8E-4F51-AEAB-0CBC76FB1AF8?
 
 # {513D916F-2A8E-4F51-AEAB-0CBC76FB1AF8}
 
-* (default): `LayerUIPropPage`
+* `LayerUIPropPage`
 * AppId: `{513D916F-2A8E-4F51-AEAB-0CBC76FB1AF8}`
 * LocalizedString: `@C:\Windows\System32\acppage.dll,-6006`
 
@@ -18,7 +18,7 @@ excerpt: What is COM-Object CLSID 513D916F-2A8E-4F51-AEAB-0CBC76FB1AF8?
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\acppage.dll`
+* `C:\Windows\system32\acppage.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

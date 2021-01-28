@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 90AE59CE-C67A-492B-A4DE-78A6EA95AF68?
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\wpnuserservice.dll`
+* `C:\Windows\system32\wpnuserservice.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,26 +5,26 @@ excerpt: What is COM-Object CLSID 21D6D48E-A88B-11D0-83DD-00AA003CCABD?
 
 # {21D6D48E-A88B-11D0-83DD-00AA003CCABD}
 
-* (default): `TAPI Class`
+* `TAPI Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\tapi3.dll`
+* `C:\Windows\System32\tapi3.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `TAPI.TAPI.1`
+* `TAPI.TAPI.1`
 
 ### Programmable
 
 
 ### VersionIndependentProgID
 
-* (default): `TAPI.TAPI`
+* `TAPI.TAPI`
 
 ## Instance
 

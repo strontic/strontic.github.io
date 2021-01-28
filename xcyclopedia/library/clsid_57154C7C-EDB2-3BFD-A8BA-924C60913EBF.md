@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 57154C7C-EDB2-3BFD-A8BA-924C60913EBF?
 
 # {57154C7C-EDB2-3BFD-A8BA-924C60913EBF}
 
-* (default): `System.Runtime.Serialization.SerializationException`
+* `System.Runtime.Serialization.SerializationException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 57154C7C-EDB2-3BFD-A8BA-924C60913EBF?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.Serialization.SerializationException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Runtime.Serialization.SerializationException`
+* `System.Runtime.Serialization.SerializationException`
 
 ## Instance
 

@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID b040ea9e-3f5e-48c9-bcdc-304e9d02851f?
 
 # {b040ea9e-3f5e-48c9-bcdc-304e9d02851f}
 
-* (default): `CSdGITManager Class`
+* `CSdGITManager Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\sdengin2.dll`
+* `C:\Windows\System32\sdengin2.dll`
 * ThreadingModel: `Free`
 
 ### ProgID
 
-* (default): `SDENGINE.CSdGITManager.1`
+* `SDENGINE.CSdGITManager.1`
 
 ### VersionIndependentProgID
 
-* (default): `SDENGINE.CSdGITManager`
+* `SDENGINE.CSdGITManager`
 
 ## Instance
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID dacfcde5-4790-45ea-a357-a8388c6a587b?
 
 # {dacfcde5-4790-45ea-a357-a8388c6a587b}
 
-* (default): `Windows.Media.Devices.Internal.CallControlBroker`
+* `Windows.Media.Devices.Internal.CallControlBroker`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\CallButtons.proxystub.dll`
+* `C:\Windows\System32\CallButtons.proxystub.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

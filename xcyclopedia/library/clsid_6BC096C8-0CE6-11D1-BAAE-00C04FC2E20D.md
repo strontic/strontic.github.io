@@ -5,34 +5,34 @@ excerpt: What is COM-Object CLSID 6BC096C8-0CE6-11D1-BAAE-00C04FC2E20D?
 
 # {6BC096C8-0CE6-11D1-BAAE-00C04FC2E20D}
 
-* (default): ``
+* ``
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\iasads.dll`
+* `C:\Windows\system32\iasads.dll`
 * ThreadingModel: `Free`
 
 ### ProgID
 
-* (default): `IAS.NetDataStore.1`
+* `IAS.NetDataStore.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* (default): `{6BC096C5-0CE6-11D1-BAAE-00C04FC2E20D}`
+* `{6BC096C5-0CE6-11D1-BAAE-00C04FC2E20D}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `IAS.NetDataStore`
+* `IAS.NetDataStore`
 
 ## Instance
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID f91b9abc-985b-4c04-b5e7-9c7099fc2cda?
 
 # {f91b9abc-985b-4c04-b5e7-9c7099fc2cda}
 
-* (default): `CADProvider`
+* `CADProvider`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\adprovider.dll`
+* `C:\Windows\system32\adprovider.dll`
 * ThreadingModel: `both`
 
 ## Instance

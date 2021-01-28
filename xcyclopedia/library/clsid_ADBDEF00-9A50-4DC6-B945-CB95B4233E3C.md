@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID ADBDEF00-9A50-4DC6-B945-CB95B4233E3C?
 
 # {ADBDEF00-9A50-4DC6-B945-CB95B4233E3C}
 
-* (default): `Browser Typed URLs Setting Handler`
+* `Browser Typed URLs Setting Handler`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\BrowserSettingSync.dll`
+* `C:\Windows\system32\BrowserSettingSync.dll`
 * ThreadingModel: `Both`
 
 ## Instance

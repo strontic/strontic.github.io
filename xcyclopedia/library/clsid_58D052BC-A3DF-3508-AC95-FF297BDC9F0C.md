@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 58D052BC-A3DF-3508-AC95-FF297BDC9F0C?
 
 # {58D052BC-A3DF-3508-AC95-FF297BDC9F0C}
 
-* (default): `System.IO.EndOfStreamException`
+* `System.IO.EndOfStreamException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 58D052BC-A3DF-3508-AC95-FF297BDC9F0C?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.IO.EndOfStreamException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.IO.EndOfStreamException`
+* `System.IO.EndOfStreamException`
 
 ## Instance
 

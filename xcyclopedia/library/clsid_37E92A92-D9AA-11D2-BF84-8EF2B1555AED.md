@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 37E92A92-D9AA-11D2-BF84-8EF2B1555AED?
 
 # {37E92A92-D9AA-11D2-BF84-8EF2B1555AED}
 
-* (default): `Audio Renderer Advanced Properties`
+* `Audio Renderer Advanced Properties`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\quartz.dll`
+* `C:\Windows\System32\quartz.dll`
 * ThreadingModel: `Both`
 
 ## Instance

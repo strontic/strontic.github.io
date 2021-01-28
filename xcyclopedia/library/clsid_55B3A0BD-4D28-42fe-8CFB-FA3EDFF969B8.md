@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 55B3A0BD-4D28-42fe-8CFB-FA3EDFF969B8?
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\rdbui.dll`
+* `C:\Windows\system32\rdbui.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 3BC4EE9F-1FC1-44DB-81FA-AD94DEC7AF30?
 
 # {3BC4EE9F-1FC1-44DB-81FA-AD94DEC7AF30}
 
-* (default): `CLSID_AppRep`
+* `CLSID_AppRep`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\ieapfltr.dll`
+* `C:\Windows\System32\ieapfltr.dll`
 * ThreadingModel: `Both`
 
 ## Instance

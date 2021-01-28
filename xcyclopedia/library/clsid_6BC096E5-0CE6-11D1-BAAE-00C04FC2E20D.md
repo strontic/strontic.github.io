@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID 6BC096E5-0CE6-11D1-BAAE-00C04FC2E20D?
 
 # {6BC096E5-0CE6-11D1-BAAE-00C04FC2E20D}
 
-* (default): ``
+* ``
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\iassam.dll`
+* `C:\Windows\system32\iassam.dll`
 * ThreadingModel: `Free`
 
 ### ProgID
 
-* (default): `IAS.CRPBasedEAP.1`
+* `IAS.CRPBasedEAP.1`
 
 ### VersionIndependentProgID
 
-* (default): `IAS.CRPBasedEAP`
+* `IAS.CRPBasedEAP`
 
 ## Instance
 

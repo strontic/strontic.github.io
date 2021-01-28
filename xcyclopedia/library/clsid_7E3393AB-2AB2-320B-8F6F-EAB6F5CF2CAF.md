@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 7E3393AB-2AB2-320B-8F6F-EAB6F5CF2CAF?
 
 # {7E3393AB-2AB2-320B-8F6F-EAB6F5CF2CAF}
 
-* (default): `System.Security.UnverifiableCodeAttribute`
+* `System.Security.UnverifiableCodeAttribute`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 7E3393AB-2AB2-320B-8F6F-EAB6F5CF2CAF?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.UnverifiableCodeAttribute`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Security.UnverifiableCodeAttribute`
+* `System.Security.UnverifiableCodeAttribute`
 
 ## Instance
 

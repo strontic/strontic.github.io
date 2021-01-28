@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID efce38d3-8914-4674-a7df-ae1b3d654b8a?
 
 # {efce38d3-8914-4674-a7df-ae1b3d654b8a}
 
-* (default): `MFCaptureEngine Class Factory`
+* `MFCaptureEngine Class Factory`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\MFCaptureEngine.dll`
+* `C:\Windows\System32\MFCaptureEngine.dll`
 * ThreadingModel: `Both`
 
 ## Instance

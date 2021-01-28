@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID AEB2BF55-0B96-456C-A57F-B742ACD4775B?
 
 # {AEB2BF55-0B96-456C-A57F-B742ACD4775B}
 
-* (default): `Chinese LexiconUpdate Data Source`
+* `Chinese LexiconUpdate Data Source`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\InputMethod\CHS\ChsLexiconUpdateDS.dll`
+* `C:\Windows\System32\InputMethod\CHS\ChsLexiconUpdateDS.dll`
 * ThreadingModel: `Both`
 
 ## Instance

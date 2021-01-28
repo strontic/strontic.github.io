@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 6896B49D-7AFB-34DC-934E-5ADD38EEEE39?
 
 # {6896B49D-7AFB-34DC-934E-5ADD38EEEE39}
 
-* (default): `System.Collections.ArrayList`
+* `System.Collections.ArrayList`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 6896B49D-7AFB-34DC-934E-5ADD38EEEE39?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Collections.ArrayList`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Collections.ArrayList`
+* `System.Collections.ArrayList`
 
 ## Instance
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID CF4CC405-E2C5-4DDD-B3CE-5E7582D8C9FA?
 
 # {CF4CC405-E2C5-4DDD-B3CE-5E7582D8C9FA}
 
-* (default): `WbemDefaultPathParser`
+* `WbemDefaultPathParser`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\wbem\wmiutils.dll`
+* `C:\Windows\system32\wbem\wmiutils.dll`
 * ThreadingModel: `Both`
 
 ## Instance

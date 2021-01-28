@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 0F9FDB2D-1804-4cde-A2F9-9B380CDACF7A?
 
 # {0F9FDB2D-1804-4cde-A2F9-9B380CDACF7A}
 
-* (default): `MtfIHDS`
+* `MtfIHDS`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\InputMethod\SHARED\IHDS.dll`
+* `C:\Windows\System32\InputMethod\SHARED\IHDS.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

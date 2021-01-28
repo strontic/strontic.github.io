@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID C9F61CBD-287F-3D24-9FEB-2C3F347CF570?
 
 # {C9F61CBD-287F-3D24-9FEB-2C3F347CF570}
 
-* (default): `System.RankException`
+* `System.RankException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID C9F61CBD-287F-3D24-9FEB-2C3F347CF570?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.RankException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.RankException`
+* `System.RankException`
 
 ## Instance
 

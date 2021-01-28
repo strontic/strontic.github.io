@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID e07dfaca-e658-4ce5-89b2-05bbbf75e708?
 
 # {e07dfaca-e658-4ce5-89b2-05bbbf75e708}
 
-* (default): `Sort-by Column Explorer Command`
+* `Sort-by Column Explorer Command`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Both`
 
 ## Instance

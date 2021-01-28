@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID A0F5F5DC-337B-38D7-B1A3-FB1B95666BBF?
 
 # {A0F5F5DC-337B-38D7-B1A3-FB1B95666BBF}
 
-* (default): `System.Text.UnicodeEncoding`
+* `System.Text.UnicodeEncoding`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID A0F5F5DC-337B-38D7-B1A3-FB1B95666BBF?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Text.UnicodeEncoding`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Text.UnicodeEncoding`
+* `System.Text.UnicodeEncoding`
 
 ## Instance
 

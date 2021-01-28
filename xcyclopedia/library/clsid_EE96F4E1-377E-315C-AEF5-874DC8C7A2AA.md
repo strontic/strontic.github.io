@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID EE96F4E1-377E-315C-AEF5-874DC8C7A2AA?
 
 # {EE96F4E1-377E-315C-AEF5-874DC8C7A2AA}
 
-* (default): `System.Security.Cryptography.RSAPKCS1KeyExchangeDeformatter`
+* `System.Security.Cryptography.RSAPKCS1KeyExchangeDeformatter`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID EE96F4E1-377E-315C-AEF5-874DC8C7A2AA?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.Cryptography.RSAPKCS1KeyExchangeDeformatter`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Security.Cryptography.RSAPKCS1KeyExchangeDeformatter`
+* `System.Security.Cryptography.RSAPKCS1KeyExchangeDeformatter`
 
 ## Instance
 

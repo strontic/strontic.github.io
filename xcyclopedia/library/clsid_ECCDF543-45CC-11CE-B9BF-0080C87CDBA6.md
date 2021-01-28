@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID ECCDF543-45CC-11CE-B9BF-0080C87CDBA6?
 
 # {ECCDF543-45CC-11CE-B9BF-0080C87CDBA6}
 
-* (default): `DfsShell Class`
+* `DfsShell Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\DfsShlEx.dll`
+* `C:\Windows\System32\DfsShlEx.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* (default): `DfsShell.DfsShell.1`
+* `DfsShell.DfsShell.1`
 
 ### VersionIndependentProgID
 
-* (default): `DfsShell.DfsShell`
+* `DfsShell.DfsShell`
 
 ## Instance
 

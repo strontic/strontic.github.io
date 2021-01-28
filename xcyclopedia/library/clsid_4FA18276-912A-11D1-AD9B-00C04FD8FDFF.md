@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 4FA18276-912A-11D1-AD9B-00C04FD8FDFF?
 
 # {4FA18276-912A-11D1-AD9B-00C04FD8FDFF}
 
-* (default): `InProcWbemLevel1Login Class`
+* `InProcWbemLevel1Login Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\wbem\wbemcore.dll`
+* `C:\Windows\system32\wbem\wbemcore.dll`
 * ThreadingModel: `Both`
 
 ## Instance

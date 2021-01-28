@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 3dd6bec0-8193-4ffe-ae25-e08e39ea4063?
 
 # {3dd6bec0-8193-4ffe-ae25-e08e39ea4063}
 
-* (default): `NPProvider`
+* `NPProvider`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\credprovs.dll`
+* `C:\Windows\system32\credprovs.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

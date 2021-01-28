@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID CBD6C4B8-2DB5-4BF4-A41B-96C065DDC525?
 
 # {CBD6C4B8-2DB5-4BF4-A41B-96C065DDC525}
 
-* (default): `Guest Network Service Integration Component`
+* `Guest Network Service Integration Component`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\gns.dll`
+* `C:\Windows\System32\gns.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID BACF5C8A-A3C7-11D1-A760-00C04FB9603F?
 
 # {BACF5C8A-A3C7-11D1-A760-00C04FB9603F}
 
-* (default): `Software installation`
+* `Software installation`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\appmgr.dll`
+* `C:\Windows\System32\appmgr.dll`
 * ThreadingModel: `both`
 
 ## Instance

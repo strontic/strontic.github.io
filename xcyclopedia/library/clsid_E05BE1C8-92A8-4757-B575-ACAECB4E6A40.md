@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID E05BE1C8-92A8-4757-B575-ACAECB4E6A40?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\UsbTask.dll`
+* `C:\Windows\System32\UsbTask.dll`
 * ThreadingModel: `Both`
 
 ## Instance

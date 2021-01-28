@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 04AF2416-5F4C-4FEB-A9A8-BBF9893A4E6B?
 
 # {04AF2416-5F4C-4FEB-A9A8-BBF9893A4E6B}
 
-* (default): `Pen Workspace Discover Broker Factory`
+* `Pen Workspace Discover Broker Factory`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\twinui.pcshell.dll`
+* `C:\Windows\system32\twinui.pcshell.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

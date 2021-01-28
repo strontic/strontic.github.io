@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 1CD0938D-1AC1-49DE-AA04-F2C92D4A02D1?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\FirewallControlPanel.dll`
+* `C:\Windows\System32\FirewallControlPanel.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

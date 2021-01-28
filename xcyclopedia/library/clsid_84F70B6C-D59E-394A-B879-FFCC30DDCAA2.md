@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 84F70B6C-D59E-394A-B879-FFCC30DDCAA2?
 
 # {84F70B6C-D59E-394A-B879-FFCC30DDCAA2}
 
-* (default): `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapLanguage`
+* `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapLanguage`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 84F70B6C-D59E-394A-B879-FFCC30DDCAA2?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapLanguage`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapLanguage`
+* `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapLanguage`
 
 ## Instance
 

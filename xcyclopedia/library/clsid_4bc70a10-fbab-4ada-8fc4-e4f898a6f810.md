@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 4bc70a10-fbab-4ada-8fc4-e4f898a6f810?
 
 # {4bc70a10-fbab-4ada-8fc4-e4f898a6f810}
 
-* (default): `CImagePropertiesProxy`
+* `CImagePropertiesProxy`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\windows.storage.dll`
+* `C:\Windows\system32\windows.storage.dll`
 * ThreadingModel: `Both`
 
 ## Instance

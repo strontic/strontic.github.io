@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 432D76CE-8C9E-4EED-ADDD-91737F27A8CB?
 
 # {432D76CE-8C9E-4EED-ADDD-91737F27A8CB}
 
-* (default): `Microsoft.JScript.DebugConvert`
+* `Microsoft.JScript.DebugConvert`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID 432D76CE-8C9E-4EED-ADDD-91737F27A8CB?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `Microsoft.JScript, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a`
 * Class: `Microsoft.JScript.DebugConvert`
 * RuntimeVersion: `v1.1.4322`
@@ -29,7 +29,7 @@ excerpt: What is COM-Object CLSID 432D76CE-8C9E-4EED-ADDD-91737F27A8CB?
 
 ### ProgId
 
-* (default): `Microsoft.JScript.DebugConvert`
+* `Microsoft.JScript.DebugConvert`
 
 ## Instance
 

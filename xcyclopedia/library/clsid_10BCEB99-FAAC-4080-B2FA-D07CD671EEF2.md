@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 10BCEB99-FAAC-4080-B2FA-D07CD671EEF2?
 
 # {10BCEB99-FAAC-4080-B2FA-D07CD671EEF2}
 
-* (default): `IE Recovery Store`
+* `IE Recovery Store`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\ieframe.dll`
+* `C:\Windows\System32\ieframe.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID EAA78D4A-20A3-3FDE-AB72-D3D55E3AEFE6?
 
 # {EAA78D4A-20A3-3FDE-AB72-D3D55E3AEFE6}
 
-* (default): `System.TimeoutException`
+* `System.TimeoutException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID EAA78D4A-20A3-3FDE-AB72-D3D55E3AEFE6?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.TimeoutException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.TimeoutException`
+* `System.TimeoutException`
 
 ## Instance
 

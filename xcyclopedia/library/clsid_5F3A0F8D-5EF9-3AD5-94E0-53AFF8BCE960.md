@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 5F3A0F8D-5EF9-3AD5-94E0-53AFF8BCE960?
 
 # {5F3A0F8D-5EF9-3AD5-94E0-53AFF8BCE960}
 
-* (default): `System.Security.Cryptography.ToBase64Transform`
+* `System.Security.Cryptography.ToBase64Transform`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 5F3A0F8D-5EF9-3AD5-94E0-53AFF8BCE960?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.Cryptography.ToBase64Transform`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Security.Cryptography.ToBase64Transform`
+* `System.Security.Cryptography.ToBase64Transform`
 
 ## Instance
 

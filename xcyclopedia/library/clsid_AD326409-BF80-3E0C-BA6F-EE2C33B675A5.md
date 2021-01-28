@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID AD326409-BF80-3E0C-BA6F-EE2C33B675A5?
 
 # {AD326409-BF80-3E0C-BA6F-EE2C33B675A5}
 
-* (default): `System.EntryPointNotFoundException`
+* `System.EntryPointNotFoundException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID AD326409-BF80-3E0C-BA6F-EE2C33B675A5?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.EntryPointNotFoundException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.EntryPointNotFoundException`
+* `System.EntryPointNotFoundException`
 
 ## Instance
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID E2E760C5-BF0D-4241-BFD6-6D0AAB648AC9?
 
 # {E2E760C5-BF0D-4241-BFD6-6D0AAB648AC9}
 
-* (default): `IE WS Change Notify`
+* `IE WS Change Notify`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\ieframe.dll`
+* `C:\Windows\System32\ieframe.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID fe7c0d2b-27f1-4e97-951b-cf6e165eeab6?
 
 # {fe7c0d2b-27f1-4e97-951b-cf6e165eeab6}
 
-* (default): `TSMFActivate Class`
+* `TSMFActivate Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\tsmf.dll`
+* `C:\Windows\system32\tsmf.dll`
 * ThreadingModel: `Both`
 
 ## Instance

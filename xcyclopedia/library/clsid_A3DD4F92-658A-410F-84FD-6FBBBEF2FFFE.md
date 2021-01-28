@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE?
 
 # {A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE}
 
-* (default): `Internet Options`
+* `Internet Options`
 * InfoTip: `@C:\Windows\System32\inetcpl.cpl,-4313#immutable1`
 * LocalizedString: `@C:\Windows\System32\inetcpl.cpl,-4312#immutable1`
 * System.ApplicationName: `Microsoft.InternetOptions`
@@ -17,7 +17,7 @@ excerpt: What is COM-Object CLSID A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE?
 
 ### DefaultIcon
 
-* (default): `C:\Windows\System32\inetcpl.cpl,-4487`
+* `C:\Windows\System32\inetcpl.cpl,-4487`
 
 ### Shell
 
@@ -27,7 +27,7 @@ excerpt: What is COM-Object CLSID A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE?
 
 ### Command
 
-* (default): `C:\Windows\System32\rundll32.exe C:\Windows\System32\shell32.dll,Control_RunDLL C:\Windows\System32\inetcpl.cpl`
+* `C:\Windows\System32\rundll32.exe C:\Windows\System32\shell32.dll,Control_RunDLL C:\Windows\System32\inetcpl.cpl`
 
 MIT License. Copyright (c) 2021 Strontic.
 

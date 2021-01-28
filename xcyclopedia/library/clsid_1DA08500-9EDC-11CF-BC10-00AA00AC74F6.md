@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 1DA08500-9EDC-11CF-BC10-00AA00AC74F6?
 
 # {1DA08500-9EDC-11CF-BC10-00AA00AC74F6}
 
-* (default): `VGA 16 color ditherer`
+* `VGA 16 color ditherer`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\quartz.dll`
+* `C:\Windows\System32\quartz.dll`
 * ThreadingModel: `Both`
 
 ## Instance

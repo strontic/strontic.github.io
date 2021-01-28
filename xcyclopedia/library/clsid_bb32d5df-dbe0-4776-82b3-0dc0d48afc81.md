@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID bb32d5df-dbe0-4776-82b3-0dc0d48afc81?
 
 # {bb32d5df-dbe0-4776-82b3-0dc0d48afc81}
 
-* (default): `Camera Capability Handler`
+* `Camera Capability Handler`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\CapabilityAccessHandlers.dll`
+* `C:\Windows\system32\CapabilityAccessHandlers.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 3642BC7D-5E16-4EBD-BBD1-FFFDBE8E8644?
 
 # {3642BC7D-5E16-4EBD-BBD1-FFFDBE8E8644}
 
-* (default): `PSFactoryBuffer`
+* `PSFactoryBuffer`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\Windows.Networking.NetworkOperators.ESim.dll`
+* `C:\Windows\System32\Windows.Networking.NetworkOperators.ESim.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

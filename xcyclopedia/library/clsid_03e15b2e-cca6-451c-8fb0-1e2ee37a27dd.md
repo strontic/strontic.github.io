@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 03e15b2e-cca6-451c-8fb0-1e2ee37a27dd?
 
 # {03e15b2e-cca6-451c-8fb0-1e2ee37a27dd}
 
-* (default): `CTapiLuaLib Class`
+* `CTapiLuaLib Class`
 * AppID: `{03e15b2e-cca6-451c-8fb0-1e2ee37a27dd}`
 * LocalizedString: `@C:\Windows\system32\tapiui.dll,-1`
 
@@ -14,13 +14,13 @@ excerpt: What is COM-Object CLSID 03e15b2e-cca6-451c-8fb0-1e2ee37a27dd?
 
 ### Elevation
 
-* (default): ``
+* ``
 * Enabled: `1`
 * IconReference: `@C:\Windows\system32\tapiui.dll,-201`
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\tapilua.dll`
+* `C:\Windows\system32\tapilua.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

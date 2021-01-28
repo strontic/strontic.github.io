@@ -5,18 +5,18 @@ excerpt: What is COM-Object CLSID 9B0EFD60-F7B0-11D0-BAEF-00C04FC308C9?
 
 # {9B0EFD60-F7B0-11D0-BAEF-00C04FC308C9}
 
-* (default): `Temporary Internet Files Cleaner`
+* `Temporary Internet Files Cleaner`
 
 ## Registry
 
 
 ### DefaultIcon
 
-* (default): `C:\Windows\System32\inetcpl.cpl,15`
+* `C:\Windows\System32\inetcpl.cpl,15`
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\ieframe.dll`
+* `C:\Windows\System32\ieframe.dll`
 * ThreadingModel: `Both`
 
 ## Instance

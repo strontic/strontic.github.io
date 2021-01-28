@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 3e0f30a5-6c0c-4daf-b41e-7b1011ed7e1c?
 
 # {3e0f30a5-6c0c-4daf-b41e-7b1011ed7e1c}
 
-* (default): `PnpObjectUpdateServer`
+* `PnpObjectUpdateServer`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\Windows.Devices.Enumeration.dll`
+* `C:\Windows\System32\Windows.Devices.Enumeration.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 6D14D8F9-DCB2-427c-91BB-E161E5870FFD?
 
 # {6D14D8F9-DCB2-427c-91BB-E161E5870FFD}
 
-* (default): `NarratorElement Class`
+* `NarratorElement Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\srh.dll`
+* `C:\Windows\System32\srh.dll`
 * ThreadingModel: `Both`
 
 ## Instance

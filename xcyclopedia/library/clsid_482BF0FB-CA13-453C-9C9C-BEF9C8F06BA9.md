@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 482BF0FB-CA13-453C-9C9C-BEF9C8F06BA9?
 
 # {482BF0FB-CA13-453C-9C9C-BEF9C8F06BA9}
 
-* (default): `BluetoothHandsFree LineFactory`
+* `BluetoothHandsFree LineFactory`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\PhoneProviders.dll`
+* `C:\Windows\System32\PhoneProviders.dll`
 * ThreadingModel: `Both`
 
 ## Instance

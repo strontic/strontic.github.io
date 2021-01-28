@@ -5,31 +5,31 @@ excerpt: What is COM-Object CLSID 5FB7EF7D-DFF4-468a-B6B7-2FCBD188F994?
 
 # {5FB7EF7D-DFF4-468a-B6B7-2FCBD188F994}
 
-* (default): `SpMemoryStream Class`
+* `SpMemoryStream Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\Speech\Common\sapi.dll`
+* `C:\Windows\System32\Speech\Common\sapi.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `SAPI.SpMemoryStream.1`
+* `SAPI.SpMemoryStream.1`
 
 ### TypeLib
 
-* (default): `{C866CA3A-32F7-11D2-9602-00C04F8EE628}`
+* `{C866CA3A-32F7-11D2-9602-00C04F8EE628}`
 
 ### Version
 
-* (default): `5.4`
+* `5.4`
 
 ### VersionIndependentProgID
 
-* (default): `SAPI.SpMemoryStream`
+* `SAPI.SpMemoryStream`
 
 ## Instance
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID C20447FC-EC60-475E-813F-D2B0A6DECEFE?
 
 # {C20447FC-EC60-475E-813F-D2B0A6DECEFE}
 
-* (default): `Extensible Eventing Service`
+* `Extensible Eventing Service`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\MSVidCtl.dll`
+* `C:\Windows\System32\MSVidCtl.dll`
 * ThreadingModel: `Both`
 
 ## Instance

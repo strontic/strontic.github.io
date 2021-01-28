@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 4F1DFCA6-3AAD-48E1-8406-4BC21A501D7C?
 
 # {4F1DFCA6-3AAD-48E1-8406-4BC21A501D7C}
 
-* (default): `Workspace Class`
+* `Workspace Class`
 * AppID: `{4FCDA643-B15B-41C6-84F8-5E447F6F6D25}`
 
 ## Registry
@@ -13,19 +13,19 @@ excerpt: What is COM-Object CLSID 4F1DFCA6-3AAD-48E1-8406-4BC21A501D7C?
 
 ### LocalServer32
 
-* (default): `C:\Windows\system32\wksprt.exe`
+* `C:\Windows\system32\wksprt.exe`
 
 ### ProgID
 
-* (default): `WorkspaceRuntime.Workspace.1`
+* `WorkspaceRuntime.Workspace.1`
 
 ### TypeLib
 
-* (default): `{1B8D8AE1-A595-4687-A7AD-9E3828E09B79}`
+* `{1B8D8AE1-A595-4687-A7AD-9E3828E09B79}`
 
 ### VersionIndependentProgID
 
-* (default): `WorkspaceRuntime.Workspace`
+* `WorkspaceRuntime.Workspace`
 
 ## Instance
 

@@ -11,16 +11,16 @@ excerpt: What is COM-Object CLSID 8FA0D5A8-DEDF-11D0-9A61-00C04FB68BF7?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\itircl.dll`
+* `C:\Windows\System32\itircl.dll`
 * ThreadingModel: `both`
 
 ### ProgID
 
-* (default): `ITIR.EngStemmer.4`
+* `ITIR.EngStemmer.4`
 
 ### VersionIndependentProgID
 
-* (default): `ITIR.EngStemmer`
+* `ITIR.EngStemmer`
 
 ## Instance
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID E7E4BC40-E76A-11CE-A9BB-00AA004AE837?
 
 # {E7E4BC40-E76A-11CE-A9BB-00AA004AE837}
 
-* (default): `Shell DocObject Viewer`
+* `Shell DocObject Viewer`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\windows.storage.dll`
+* `C:\Windows\system32\windows.storage.dll`
 * ThreadingModel: `Apartment`
 
 ### ShellFolder

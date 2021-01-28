@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 3050F3B2-98B5-11CF-BB82-00AA00BDCE0B?
 
 # {3050F3B2-98B5-11CF-BB82-00AA00BDCE0B}
 
-* (default): `Microsoft HTML Javascript Pluggable Protocol`
+* `Microsoft HTML Javascript Pluggable Protocol`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\mshtml.dll`
+* `C:\Windows\System32\mshtml.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

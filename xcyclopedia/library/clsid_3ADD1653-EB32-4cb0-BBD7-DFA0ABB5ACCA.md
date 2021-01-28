@@ -14,11 +14,11 @@ excerpt: What is COM-Object CLSID 3ADD1653-EB32-4cb0-BBD7-DFA0ABB5ACCA?
 
 ### DefaultIcon
 
-* (default): `C:\Windows\system32\imageres.dll,-113`
+* `C:\Windows\system32\imageres.dll,-113`
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Both`
 
 ### Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 23CC32C8-6654-40CA-AACD-F4712A6CDCAF?
 
 # {23CC32C8-6654-40CA-AACD-F4712A6CDCAF}
 
-* (default): `Holographic Hand Tracking Runtime`
+* `Holographic Hand Tracking Runtime`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\HolographicRuntimes.dll`
+* `C:\Windows\System32\HolographicRuntimes.dll`
 * ThreadingModel: `Both`
 
 ## Instance

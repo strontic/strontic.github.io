@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID D0E55F9F-0021-42fe-A1DB-C41F5B564EFE?
 
 # {D0E55F9F-0021-42fe-A1DB-C41F5B564EFE}
 
-* (default): `RASMapi Class`
+* `RASMapi Class`
 * AppID: `{F8FD03A6-DDD9-4C1B-84EE-58159476A0D7}`
 
 ## Registry
@@ -13,23 +13,23 @@ excerpt: What is COM-Object CLSID D0E55F9F-0021-42fe-A1DB-C41F5B564EFE?
 
 ### LocalServer32
 
-* (default): `C:\Windows\System32\RAServer.exe`
+* `C:\Windows\System32\RAServer.exe`
 
 ### ProgID
 
-* (default): `RAServer.RASMapi.1`
+* `RAServer.RASMapi.1`
 
 ### TypeLib
 
-* (default): `{A7C01D63-4403-4BE2-B1AF-6EE0A2E6A1E9}`
+* `{A7C01D63-4403-4BE2-B1AF-6EE0A2E6A1E9}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `RAServer.RASMapi`
+* `RAServer.RASMapi`
 
 ## Instance
 

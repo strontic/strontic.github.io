@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 08F91D9D-1F00-48C2-B90F-CC75FFAFE727?
 
 # {08F91D9D-1F00-48C2-B90F-CC75FFAFE727}
 
-* (default): `SettingSyncParameters`
+* `SettingSyncParameters`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\SettingSyncCore.dll`
+* `C:\Windows\system32\SettingSyncCore.dll`
 * ThreadingModel: `Both`
 
 ## Instance

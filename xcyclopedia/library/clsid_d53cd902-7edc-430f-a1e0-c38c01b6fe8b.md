@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID d53cd902-7edc-430f-a1e0-c38c01b6fe8b?
 
 # {d53cd902-7edc-430f-a1e0-c38c01b6fe8b}
 
-* (default): `Microsoft IME Japan IH Suggestion Data Source`
+* `Microsoft IME Japan IH Suggestion Data Source`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\IME\IMEJP\imjppred.dll`
+* `C:\Windows\System32\IME\IMEJP\imjppred.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `MSIME.Japan.IHDS.15`
+* `MSIME.Japan.IHDS.15`
 
 ### VersionIndependentProgID
 
-* (default): `MSIME.Japan.IHDS`
+* `MSIME.Japan.IHDS`
 
 ## Instance
 

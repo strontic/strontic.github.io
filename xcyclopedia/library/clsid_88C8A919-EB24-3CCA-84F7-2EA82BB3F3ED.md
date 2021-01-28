@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 88C8A919-EB24-3CCA-84F7-2EA82BB3F3ED?
 
 # {88C8A919-EB24-3CCA-84F7-2EA82BB3F3ED}
 
-* (default): `System.Runtime.Serialization.SurrogateSelector`
+* `System.Runtime.Serialization.SurrogateSelector`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 88C8A919-EB24-3CCA-84F7-2EA82BB3F3ED?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.Serialization.SurrogateSelector`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Runtime.Serialization.SurrogateSelector`
+* `System.Runtime.Serialization.SurrogateSelector`
 
 ## Instance
 

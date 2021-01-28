@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID EFEA49A2-DDA5-429D-8F42-B23B92C4C347?
 
 # {EFEA49A2-DDA5-429D-8F42-B23B92C4C347}
 
-* (default): `PSFactoryBuffer`
+* `PSFactoryBuffer`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\wksprtPS.dll`
+* `C:\Windows\System32\wksprtPS.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

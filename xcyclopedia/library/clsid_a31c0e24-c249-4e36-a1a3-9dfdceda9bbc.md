@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID a31c0e24-c249-4e36-a1a3-9dfdceda9bbc?
 
 # {a31c0e24-c249-4e36-a1a3-9dfdceda9bbc}
 
-* (default): `EAPTLS Identity UI class`
+* `EAPTLS Identity UI class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\rastlsext.dll`
+* `C:\Windows\system32\rastlsext.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

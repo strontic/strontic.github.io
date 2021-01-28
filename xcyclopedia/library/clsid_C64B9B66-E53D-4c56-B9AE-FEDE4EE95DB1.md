@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID C64B9B66-E53D-4c56-B9AE-FEDE4EE95DB1?
 
 # {C64B9B66-E53D-4c56-B9AE-FEDE4EE95DB1}
 
-* (default): `Condition History Class`
+* `Condition History Class`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\StructuredQuery.dll`
+* `C:\Windows\System32\StructuredQuery.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 21A36DDA-45BD-4F89-881E-0E18FDE90CDF?
 
 # {21A36DDA-45BD-4F89-881E-0E18FDE90CDF}
 
-* (default): `PhoneShareObjectProxies`
+* `PhoneShareObjectProxies`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\ShareHost.dll`
+* `C:\Windows\System32\ShareHost.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

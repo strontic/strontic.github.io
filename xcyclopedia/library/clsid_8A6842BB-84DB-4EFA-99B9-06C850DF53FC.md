@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 8A6842BB-84DB-4EFA-99B9-06C850DF53FC?
 
 # {8A6842BB-84DB-4EFA-99B9-06C850DF53FC}
 
-* (default): `WMPlayer NetworkPropPage Class`
+* `WMPlayer NetworkPropPage Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\wmp.dll`
+* `C:\Windows\system32\wmp.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

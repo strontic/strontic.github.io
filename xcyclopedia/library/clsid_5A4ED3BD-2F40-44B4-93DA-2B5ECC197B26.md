@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 5A4ED3BD-2F40-44B4-93DA-2B5ECC197B26?
 
 # {5A4ED3BD-2F40-44B4-93DA-2B5ECC197B26}
 
-* (default): `Docking.VirtualInput Create Object Server`
+* `Docking.VirtualInput Create Object Server`
 * AppID: `{5A4ED3BD-2F40-44B4-93DA-2B5ECC197B26}`
 * LocalizedString: `@C:\Windows\system32\Docking.VirtualInput.dll,-101`
 
@@ -14,7 +14,7 @@ excerpt: What is COM-Object CLSID 5A4ED3BD-2F40-44B4-93DA-2B5ECC197B26?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\Docking.VirtualInput.dll`
+* `C:\Windows\System32\Docking.VirtualInput.dll`
 * ThreadingModel: `Both`
 
 ## Instance

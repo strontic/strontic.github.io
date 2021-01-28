@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID B4FB3F98-C1EA-428d-A78A-D1F5659CBA93?
 
 # {B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}
 
-* (default): `Other Users Folder`
+* `Other Users Folder`
 * LocalizedString: `@C:\Windows\system32\shell32.dll,-50688`
 * SortOrderIndex: `96`
 
@@ -14,16 +14,16 @@ excerpt: What is COM-Object CLSID B4FB3F98-C1EA-428d-A78A-D1F5659CBA93?
 
 ### DefaultIcon
 
-* (default): `C:\Windows\system32\imageres.dll,-1013`
+* `C:\Windows\system32\imageres.dll,-1013`
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ### shell
 
-* (default): `changehomegroupsettings viewhomegrouppassword starthomegrouptroubleshooter sharewithdevices`
+* `changehomegroupsettings viewhomegrouppassword starthomegrouptroubleshooter sharewithdevices`
 
 ### changehomegroupsettings
 
@@ -34,7 +34,7 @@ excerpt: What is COM-Object CLSID B4FB3F98-C1EA-428d-A78A-D1F5659CBA93?
 
 ### command
 
-* (default): `C:\Windows\system32\control.exe /name Microsoft.HomeGroup`
+* `C:\Windows\system32\control.exe /name Microsoft.HomeGroup`
 
 ### sharewithdevices
 

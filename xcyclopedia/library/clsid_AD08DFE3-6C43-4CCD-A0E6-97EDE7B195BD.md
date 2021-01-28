@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID AD08DFE3-6C43-4CCD-A0E6-97EDE7B195BD?
 
 # {AD08DFE3-6C43-4CCD-A0E6-97EDE7B195BD}
 
-* (default): `TPMPolicy`
+* `TPMPolicy`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\hascsp.dll`
+* `C:\Windows\System32\hascsp.dll`
 * ThreadingModel: `free`
 
 ## Instance

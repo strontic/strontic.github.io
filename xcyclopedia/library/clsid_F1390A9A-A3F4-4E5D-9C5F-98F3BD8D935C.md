@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID F1390A9A-A3F4-4E5D-9C5F-98F3BD8D935C?
 
 # {F1390A9A-A3F4-4E5D-9C5F-98F3BD8D935C}
 
-* (default): `Sync Setup Delegate Folder`
+* `Sync Setup Delegate Folder`
 * InfoTip: `@C:\Windows\System32\SyncCenter.dll,-6121`
 
 ## Registry
@@ -13,11 +13,11 @@ excerpt: What is COM-Object CLSID F1390A9A-A3F4-4E5D-9C5F-98F3BD8D935C?
 
 ### DefaultIcon
 
-* (default): `C:\Windows\System32\SyncCenter.dll,-1000`
+* `C:\Windows\System32\SyncCenter.dll,-1000`
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\SyncCenter.dll`
+* `C:\Windows\System32\SyncCenter.dll`
 * ThreadingModel: `Apartment`
 
 ### ShellFolder

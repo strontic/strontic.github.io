@@ -12,7 +12,7 @@ excerpt: What is COM-Object CLSID a4fbcbc6-4be5-4c3d-8ab5-8b873357a23e?
 
 ### LocalServer32
 
-* (default): `C:\Windows\System32\IME\SHARED\imebroker.exe`
+* `C:\Windows\System32\IME\SHARED\imebroker.exe`
 
 ## Instance
 

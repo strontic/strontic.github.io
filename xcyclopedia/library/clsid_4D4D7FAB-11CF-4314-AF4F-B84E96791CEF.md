@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 4D4D7FAB-11CF-4314-AF4F-B84E96791CEF?
 
 # {4D4D7FAB-11CF-4314-AF4F-B84E96791CEF}
 
-* (default): `UevConfiguration`
+* `UevConfiguration`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\AppManagementConfiguration.dll`
+* `C:\Windows\System32\AppManagementConfiguration.dll`
 * ThreadingModel: `Both`
 
 ## Instance

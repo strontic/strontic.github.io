@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID FC48CC30-4F3E-4fa1-803B-AD0E196A83B1?
 
 # {FC48CC30-4F3E-4fa1-803B-AD0E196A83B1}
 
-* (default): `AccClientDocMgr Class`
+* `AccClientDocMgr Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\msaatext.dll`
+* `C:\Windows\System32\msaatext.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* (default): `AccClientDocMgr.AccClientDocMgr.1`
+* `AccClientDocMgr.AccClientDocMgr.1`
 
 ### VersionIndependentProgID
 
-* (default): `AccClientDocMgr.AccClientDocMgr`
+* `AccClientDocMgr.AccClientDocMgr`
 
 ## Instance
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID a10dfc9e-ff12-4e7f-bc74-8fe9053920f0?
 
 # {a10dfc9e-ff12-4e7f-bc74-8fe9053920f0}
 
-* (default): `WinSync Full Enumeration Provider Wrapper`
+* `WinSync Full Enumeration Provider Wrapper`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\WinSyncProviders.dll`
+* `C:\Windows\system32\WinSyncProviders.dll`
 * ThreadingModel: `Both`
 
 ## Instance

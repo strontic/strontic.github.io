@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 0dbecec1-9eb3-4860-9c6f-ddbe86634575?
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\msheif.dll`
+* `C:\Windows\system32\msheif.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

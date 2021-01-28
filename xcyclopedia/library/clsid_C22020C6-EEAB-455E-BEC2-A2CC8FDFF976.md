@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID C22020C6-EEAB-455E-BEC2-A2CC8FDFF976?
 
 # {C22020C6-EEAB-455E-BEC2-A2CC8FDFF976}
 
-* (default): `OOBE ZDP Plugin`
+* `OOBE ZDP Plugin`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\oobe\msoobeplugins.dll`
+* `C:\Windows\System32\oobe\msoobeplugins.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

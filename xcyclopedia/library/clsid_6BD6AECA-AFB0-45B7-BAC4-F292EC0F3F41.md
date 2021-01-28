@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 6BD6AECA-AFB0-45B7-BAC4-F292EC0F3F41?
 
 # {6BD6AECA-AFB0-45B7-BAC4-F292EC0F3F41}
 
-* (default): `WBEM Win32_TERMINALSERVICESETTING Provider`
+* `WBEM Win32_TERMINALSERVICESETTING Provider`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\tscfgwmi.dll`
+* `C:\Windows\system32\tscfgwmi.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

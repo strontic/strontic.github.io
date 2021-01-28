@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 1f26a602-2b5c-4b63-b8e8-9ea5c1a7dc2e?
 
 # {1f26a602-2b5c-4b63-b8e8-9ea5c1a7dc2e}
 
-* (default): `SBE2MediaTypeProfile`
+* `SBE2MediaTypeProfile`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\sbe.dll`
+* `C:\Windows\System32\sbe.dll`
 * ThreadingModel: `Both`
 
 ## Instance

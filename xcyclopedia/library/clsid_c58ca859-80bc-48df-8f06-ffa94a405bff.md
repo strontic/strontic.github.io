@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID c58ca859-80bc-48df-8f06-ffa94a405bff?
 
 # {c58ca859-80bc-48df-8f06-ffa94a405bff}
 
-* (default): `Picker Host`
+* `Picker Host`
 * AppID: `{8DF61FB6-3223-4E2D-8A92-D937DDB0DF4C}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID c58ca859-80bc-48df-8f06-ffa94a405bff?
 
 ### LocalServer32
 
-* (default): `C:\Windows\System32\PickerHost.exe`
+* `C:\Windows\System32\PickerHost.exe`
 
 ## Instance
 

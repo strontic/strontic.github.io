@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 0CD397F8-20A2-46F0-BAE8-952DEEEDA2C5?
 
 # {0CD397F8-20A2-46F0-BAE8-952DEEEDA2C5}
 
-* (default): `Connected Account State Change`
+* `Connected Account State Change`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\ConnectedAccountState.dll`
+* `C:\Windows\system32\ConnectedAccountState.dll`
 * ThreadingModel: `Both`
 
 ## Instance

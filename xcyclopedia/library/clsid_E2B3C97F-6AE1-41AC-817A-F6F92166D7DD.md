@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID E2B3C97F-6AE1-41AC-817A-F6F92166D7DD?
 
 # {E2B3C97F-6AE1-41AC-817A-F6F92166D7DD}
 
-* (default): `HNetCfg.FwPolicy2`
+* `HNetCfg.FwPolicy2`
 * AppID: `{E2B3C97F-6AE1-41AC-817A-F6F92166D7DD}`
 * LocalizedString: `@C:\Windows\system32\FirewallControlPanel.dll,-12122`
 
@@ -19,12 +19,12 @@ excerpt: What is COM-Object CLSID E2B3C97F-6AE1-41AC-817A-F6F92166D7DD?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\FirewallAPI.dll`
+* `C:\Windows\System32\FirewallAPI.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `HNetCfg.FwPolicy2`
+* `HNetCfg.FwPolicy2`
 
 ## Instance
 

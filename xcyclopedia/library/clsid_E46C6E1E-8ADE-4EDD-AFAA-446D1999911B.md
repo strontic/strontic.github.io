@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID E46C6E1E-8ADE-4EDD-AFAA-446D1999911B?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\oobe\msoobeplugins.dll`
+* `C:\Windows\System32\oobe\msoobeplugins.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

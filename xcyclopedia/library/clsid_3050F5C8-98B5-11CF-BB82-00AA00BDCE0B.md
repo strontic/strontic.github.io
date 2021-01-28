@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 3050F5C8-98B5-11CF-BB82-00AA00BDCE0B?
 
 # {3050F5C8-98B5-11CF-BB82-00AA00BDCE0B}
 
-* (default): `Microsoft HTA Document 6.0`
+* `Microsoft HTA Document 6.0`
 
 ## Registry
 
@@ -15,12 +15,12 @@ excerpt: What is COM-Object CLSID 3050F5C8-98B5-11CF-BB82-00AA00BDCE0B?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\mshtml.dll`
+* `C:\Windows\System32\mshtml.dll`
 * ThreadingModel: `Apartment`
 
 ### MiscStatus
 
-* (default): `2228625`
+* `2228625`
 
 ## Instance
 

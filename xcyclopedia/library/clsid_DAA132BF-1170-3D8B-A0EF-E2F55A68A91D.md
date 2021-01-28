@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID DAA132BF-1170-3D8B-A0EF-E2F55A68A91D?
 
 # {DAA132BF-1170-3D8B-A0EF-E2F55A68A91D}
 
-* (default): `System.Security.Cryptography.TripleDESCryptoServiceProvider`
+* `System.Security.Cryptography.TripleDESCryptoServiceProvider`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID DAA132BF-1170-3D8B-A0EF-E2F55A68A91D?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.Cryptography.TripleDESCryptoServiceProvider`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Security.Cryptography.TripleDESCryptoServiceProvider`
+* `System.Security.Cryptography.TripleDESCryptoServiceProvider`
 
 ## Instance
 

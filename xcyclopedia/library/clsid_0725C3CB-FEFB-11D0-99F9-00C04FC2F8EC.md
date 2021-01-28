@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 0725C3CB-FEFB-11D0-99F9-00C04FC2F8EC?
 
 # {0725C3CB-FEFB-11D0-99F9-00C04FC2F8EC}
 
-* (default): `WDM Event Provider`
+* `WDM Event Provider`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\wbem\wmiprov.dll`
+* `C:\Windows\system32\wbem\wmiprov.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 99cdfdaf-3573-4d97-bc06-d7c36627edef?
 
 # {99cdfdaf-3573-4d97-bc06-d7c36627edef}
 
-* (default): `Mobile Broadband Connect Failure Page Class`
+* `Mobile Broadband Connect Failure Page Class`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\WwanConn.dll`
+* `C:\Windows\system32\WwanConn.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

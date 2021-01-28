@@ -5,26 +5,26 @@ excerpt: What is COM-Object CLSID 3E4D4F1C-2AEE-11D1-9D3D-00C04FC30DF6?
 
 # {3E4D4F1C-2AEE-11D1-9D3D-00C04FC30DF6}
 
-* (default): `oleprn Class`
+* `oleprn Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\oleprn.dll`
+* `C:\Windows\system32\oleprn.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `OlePrn.AspHelp.1`
+* `OlePrn.AspHelp.1`
 
 ### Programmable
 
 
 ### VersionIndependentProgID
 
-* (default): `OlePrn.AspHelp`
+* `OlePrn.AspHelp`
 
 ## Instance
 

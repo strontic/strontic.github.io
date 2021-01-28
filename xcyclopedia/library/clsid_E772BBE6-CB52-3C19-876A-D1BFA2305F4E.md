@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID E772BBE6-CB52-3C19-876A-D1BFA2305F4E?
 
 # {E772BBE6-CB52-3C19-876A-D1BFA2305F4E}
 
-* (default): `System.Runtime.Serialization.Formatters.SoapMessage`
+* `System.Runtime.Serialization.Formatters.SoapMessage`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID E772BBE6-CB52-3C19-876A-D1BFA2305F4E?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.Serialization.Formatters.SoapMessage`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Runtime.Serialization.Formatters.SoapMessage`
+* `System.Runtime.Serialization.Formatters.SoapMessage`
 
 ## Instance
 

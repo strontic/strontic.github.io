@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID a9ae6c91-1d1b-11d2-b21a-00c04fa357fa?
 
 # {a9ae6c91-1d1b-11d2-b21a-00c04fa357fa}
 
-* (default): `LW Identities`
+* `LW Identities`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\msident.dll`
+* `C:\Windows\system32\msident.dll`
 * ThreadingModel: `Both`
 
 ## Instance

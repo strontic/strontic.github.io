@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID D1ED435B-0A34-4591-BFFD-7CB276E78BE5?
 
 # {D1ED435B-0A34-4591-BFFD-7CB276E78BE5}
 
-* (default): `BitLockerCSP`
+* `BitLockerCSP`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\BitLockerCsp.dll`
+* `C:\Windows\System32\BitLockerCsp.dll`
 * ThreadingModel: `Free`
 
 ## Instance

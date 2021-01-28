@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 16A18E86-7F6E-4C20-AD89-4FFC0DB7A96A?
 
 # {16A18E86-7F6E-4C20-AD89-4FFC0DB7A96A}
 
-* (default): `TPM Virtual Smart Card Manager`
+* `TPM Virtual Smart Card Manager`
 * AppID: `{16A18E86-7F6E-4C20-AD89-4FFC0DB7A96A}`
 * LocalizedString: `@C:\Windows\System32\TpmVscMgrSvr.exe,-100`
 
@@ -18,7 +18,7 @@ excerpt: What is COM-Object CLSID 16A18E86-7F6E-4C20-AD89-4FFC0DB7A96A?
 
 ### LocalServer32
 
-* (default): `"C:\Windows\System32\TpmVscMgrSvr.exe"`
+* `"C:\Windows\System32\TpmVscMgrSvr.exe"`
 * ServerExecutable: `C:\Windows\System32\TpmVscMgrSvr.exe`
 
 MIT License. Copyright (c) 2021 Strontic.

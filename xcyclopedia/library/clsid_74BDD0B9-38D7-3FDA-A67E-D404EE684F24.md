@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 74BDD0B9-38D7-3FDA-A67E-D404EE684F24?
 
 # {74BDD0B9-38D7-3FDA-A67E-D404EE684F24}
 
-* (default): `System.ArgumentOutOfRangeException`
+* `System.ArgumentOutOfRangeException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 74BDD0B9-38D7-3FDA-A67E-D404EE684F24?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.ArgumentOutOfRangeException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.ArgumentOutOfRangeException`
+* `System.ArgumentOutOfRangeException`
 
 ## Instance
 

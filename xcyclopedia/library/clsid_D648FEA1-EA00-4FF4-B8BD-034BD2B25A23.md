@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID D648FEA1-EA00-4FF4-B8BD-034BD2B25A23?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\twinapi.appcore.dll`
+* `C:\Windows\System32\twinapi.appcore.dll`
 * ThreadingModel: `Both`
 
 ## Instance

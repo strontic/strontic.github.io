@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID cb0eed72-a1ee-4df3-94c8-b1022bf900b4?
 
 # {cb0eed72-a1ee-4df3-94c8-b1022bf900b4}
 
-* (default): `sensors.custom Capability Handler`
+* `sensors.custom Capability Handler`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\CapabilityAccessHandlers.dll`
+* `C:\Windows\system32\CapabilityAccessHandlers.dll`
 * ThreadingModel: `Both`
 
 ## Instance

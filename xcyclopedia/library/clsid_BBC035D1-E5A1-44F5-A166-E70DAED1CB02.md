@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID BBC035D1-E5A1-44F5-A166-E70DAED1CB02?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\RADCUI.dll`
+* `C:\Windows\System32\RADCUI.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

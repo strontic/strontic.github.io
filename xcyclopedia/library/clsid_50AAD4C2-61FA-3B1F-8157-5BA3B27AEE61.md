@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 50AAD4C2-61FA-3B1F-8157-5BA3B27AEE61?
 
 # {50AAD4C2-61FA-3B1F-8157-5BA3B27AEE61}
 
-* (default): `System.STAThreadAttribute`
+* `System.STAThreadAttribute`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 50AAD4C2-61FA-3B1F-8157-5BA3B27AEE61?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.STAThreadAttribute`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.STAThreadAttribute`
+* `System.STAThreadAttribute`
 
 ## Instance
 

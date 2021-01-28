@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 22877a6d-37a1-461a-91b0-dbda5aaebc99?
 
 # {22877a6d-37a1-461a-91b0-dbda5aaebc99}
 
-* (default): `Recent Places Folder`
+* `Recent Places Folder`
 * LocalizedString: `@C:\Windows\system32\shell32.dll,-37217`
 
 ## Registry
@@ -13,11 +13,11 @@ excerpt: What is COM-Object CLSID 22877a6d-37a1-461a-91b0-dbda5aaebc99?
 
 ### DefaultIcon
 
-* (default): `C:\Windows\system32\imageres.dll,-117`
+* `C:\Windows\system32\imageres.dll,-117`
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\windows.storage.dll`
+* `C:\Windows\system32\windows.storage.dll`
 * ThreadingModel: `Apartment`
 
 ### ContextMenuHandlers

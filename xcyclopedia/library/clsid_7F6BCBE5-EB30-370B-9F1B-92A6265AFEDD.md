@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 7F6BCBE5-EB30-370B-9F1B-92A6265AFEDD?
 
 # {7F6BCBE5-EB30-370B-9F1B-92A6265AFEDD}
 
-* (default): `System.InvalidCastException`
+* `System.InvalidCastException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 7F6BCBE5-EB30-370B-9F1B-92A6265AFEDD?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.InvalidCastException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.InvalidCastException`
+* `System.InvalidCastException`
 
 ## Instance
 

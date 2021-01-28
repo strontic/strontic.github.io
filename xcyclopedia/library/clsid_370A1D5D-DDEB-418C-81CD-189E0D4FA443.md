@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 370A1D5D-DDEB-418C-81CD-189E0D4FA443?
 
 # {370A1D5D-DDEB-418C-81CD-189E0D4FA443}
 
-* (default): `VBI Codec`
+* `VBI Codec`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\VBICodec.ax`
+* `C:\Windows\System32\VBICodec.ax`
 * ThreadingModel: `Both`
 
 ## Instance

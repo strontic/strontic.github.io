@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 05d7b0f4-2121-4eff-bf6b-ed3f69b894d9?
 
 # {05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}
 
-* (default): `Taskbar`
+* `Taskbar`
 * InfoTip: `@C:\Windows\System32\taskbarcpl.dll,-2#immutable1`
 * LocalizedString: `@C:\Windows\System32\taskbarcpl.dll,-1#immutable1`
 * System.ApplicationName: `Microsoft.NotificationAreaIcons`
@@ -18,11 +18,11 @@ excerpt: What is COM-Object CLSID 05d7b0f4-2121-4eff-bf6b-ed3f69b894d9?
 
 ### DefaultIcon
 
-* (default): `C:\Windows\System32\taskbarcpl.dll,-1`
+* `C:\Windows\System32\taskbarcpl.dll,-1`
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\shdocvw.dll`
+* `C:\Windows\System32\shdocvw.dll`
 * ThreadingModel: `Apartment`
 
 ### Instance

@@ -5,27 +5,27 @@ excerpt: What is COM-Object CLSID 4082B93D-99AF-4E6F-BE9F-6AA54C0BC6BE?
 
 # {4082B93D-99AF-4E6F-BE9F-6AA54C0BC6BE}
 
-* (default): `RemoteLock`
+* `RemoteLock`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\enterprisecsps.dll`
+* `C:\Windows\System32\enterprisecsps.dll`
 * ThreadingModel: `Free`
 
 ### ProgId
 
-* (default): `RemoteLock`
+* `RemoteLock`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgId
 
-* (default): `RemoteLock`
+* `RemoteLock`
 
 ## Instance
 

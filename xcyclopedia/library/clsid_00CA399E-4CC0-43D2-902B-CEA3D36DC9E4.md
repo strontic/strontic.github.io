@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 00CA399E-4CC0-43D2-902B-CEA3D36DC9E4?
 
 # {00CA399E-4CC0-43D2-902B-CEA3D36DC9E4}
 
-* (default): `Audio Remote Render Endpoint Plugin Stub Class`
+* `Audio Remote Render Endpoint Plugin Stub Class`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\remoteaudioendpoint.dll`
+* `C:\Windows\System32\remoteaudioendpoint.dll`
 * ThreadingModel: `Both`
 
 ## Instance

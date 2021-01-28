@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID D66D6F99-CDAA-11D0-B822-00C04FC9B31F?
 
 # {D66D6F99-CDAA-11D0-B822-00C04FC9B31F}
 
-* (default): `Multi Language ConvertCharset`
+* `Multi Language ConvertCharset`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\mlang.dll`
+* `C:\Windows\system32\mlang.dll`
 * ThreadingModel: `Both`
 
 ## Instance

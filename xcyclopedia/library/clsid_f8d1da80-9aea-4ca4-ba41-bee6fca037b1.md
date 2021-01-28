@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID f8d1da80-9aea-4ca4-ba41-bee6fca037b1?
 
 # {f8d1da80-9aea-4ca4-ba41-bee6fca037b1}
 
-* (default): `Show Library In Nav Pane verb`
+* `Show Library In Nav Pane verb`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

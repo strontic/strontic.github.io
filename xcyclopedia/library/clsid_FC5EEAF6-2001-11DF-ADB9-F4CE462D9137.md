@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID FC5EEAF6-2001-11DF-ADB9-F4CE462D9137?
 
 # {FC5EEAF6-2001-11DF-ADB9-F4CE462D9137}
 
-* (default): `Hotspot Auth Engine Singleton`
+* `Hotspot Auth Engine Singleton`
 * AppId: `{FC5EEAF6-0002-11DF-ADB9-F4CE462D9137}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID FC5EEAF6-2001-11DF-ADB9-F4CE462D9137?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\wifinetworkmanager.dll`
+* `C:\Windows\System32\wifinetworkmanager.dll`
 * ThreadingModel: `Free`
 
 MIT License. Copyright (c) 2021 Strontic.

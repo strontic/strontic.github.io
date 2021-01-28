@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID EDD36029-D753-4862-AA5B-5BCCAD2A4D29?
 
 # {EDD36029-D753-4862-AA5B-5BCCAD2A4D29}
 
-* (default): `Property Store Collection`
+* `Property Store Collection`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\FunDisc.dll`
+* `C:\Windows\System32\FunDisc.dll`
 * ThreadingModel: `Free`
 
 ### ProgID
 
-* (default): `FunctionDiscovery.PropertyStoreCollection.1`
+* `FunctionDiscovery.PropertyStoreCollection.1`
 
 ### VersionIndependentProgID
 
-* (default): `FunctionDiscovery.PropertyStoreCollection`
+* `FunctionDiscovery.PropertyStoreCollection`
 
 ## Instance
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID DD783C90-F9A6-41D5-A635-DA5DBBB87D75?
 
 # {DD783C90-F9A6-41D5-A635-DA5DBBB87D75}
 
-* (default): `FamilyToastTaskManager`
+* `FamilyToastTaskManager`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\wpc.dll`
+* `C:\Windows\System32\wpc.dll`
 * ThreadingModel: `Both`
 
 ## Instance

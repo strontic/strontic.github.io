@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID BB68A765-9FB7-4D2C-A423-7AE4CD4B006C?
 
 # {BB68A765-9FB7-4D2C-A423-7AE4CD4B006C}
 
-* (default): `CWpcTridentWebFilter class`
+* `CWpcTridentWebFilter class`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\WpcWebFilter.dll`
+* `C:\Windows\System32\WpcWebFilter.dll`
 * ThreadingModel: `Both`
 
 ## Instance

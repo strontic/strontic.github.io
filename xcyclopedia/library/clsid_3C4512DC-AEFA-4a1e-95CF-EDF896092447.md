@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 3C4512DC-AEFA-4a1e-95CF-EDF896092447?
 
 # {3C4512DC-AEFA-4a1e-95CF-EDF896092447}
 
-* (default): `Recycle command`
+* `Recycle command`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

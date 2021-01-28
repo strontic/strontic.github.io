@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID f9bcb2f0-7df0-4a39-932e-bdef29dfb16b?
 
 # {f9bcb2f0-7df0-4a39-932e-bdef29dfb16b}
 
-* (default): `Authentication UI Session Control`
+* `Authentication UI Session Control`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\authui.dll`
+* `C:\Windows\system32\authui.dll`
 * ThreadingModel: `Both`
 
 ## Instance

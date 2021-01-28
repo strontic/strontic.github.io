@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID C2DAE44D-C850-425c-B466-D8CBC1469F5D?
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\PortableDeviceStatus.dll`
+* `C:\Windows\system32\PortableDeviceStatus.dll`
 * ThreadingModel: `Free`
 
 ## Instance

@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID 7999FC25-D3C6-11CF-ACAB-00A024A55AEF?
 
 # {7999FC25-D3C6-11CF-ACAB-00A024A55AEF}
 
-* (default): `COM+ Transaction Context Component`
+* `COM+ Transaction Context Component`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\comsvcs.dll`
+* `C:\Windows\System32\comsvcs.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `TxCTx.TransactionContext`
+* `TxCTx.TransactionContext`
 
 ### VersionIndependentProgID
 
-* (default): `TxCTx.TransactionContext`
+* `TxCTx.TransactionContext`
 
 ## Instance
 

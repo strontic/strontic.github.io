@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID C89AC250-E18A-4FC7-ABD5-B8897B6A78A5?
 
 # {C89AC250-E18A-4FC7-ABD5-B8897B6A78A5}
 
-* (default): `System.EnterpriseServices.RegistrationHelperTx`
+* `System.EnterpriseServices.RegistrationHelperTx`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID C89AC250-E18A-4FC7-ABD5-B8897B6A78A5?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `System.EnterpriseServices, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a`
 * Class: `System.EnterpriseServices.RegistrationHelperTx`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.EnterpriseServices.RegistrationHelperTx`
+* `System.EnterpriseServices.RegistrationHelperTx`
 
 MIT License. Copyright (c) 2021 Strontic.
 

@@ -5,34 +5,34 @@ excerpt: What is COM-Object CLSID CAAFDD83-CEFC-4E3D-BA03-175F17A24F91?
 
 # {CAAFDD83-CEFC-4E3D-BA03-175F17A24F91}
 
-* (default): `Stream Buffer Recording Control Object`
+* `Stream Buffer Recording Control Object`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\msvidctl.dll`
+* `C:\Windows\System32\msvidctl.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* (default): `MSVidCtl.MSVidStreamBufferRecordingControl.1`
+* `MSVidCtl.MSVidStreamBufferRecordingControl.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* (default): `{B0EDF154-910A-11D2-B632-00C04F79498E}`
+* `{B0EDF154-910A-11D2-B632-00C04F79498E}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `MSVidCtl.MSVidStreamBufferRecordingControl`
+* `MSVidCtl.MSVidStreamBufferRecordingControl`
 
 ## Instance
 

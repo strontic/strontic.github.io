@@ -7,7 +7,7 @@ breadcrumbs_title: Directory
 {% assign dll = "<i class='fas fa-file-alt'></i> " %}
 {% assign dir = " <i class='fas fa-folder'></i>" %}
 
-[Info](intro){: .btn .btn--primary .btn--large} [.EXE](index){: .btn .btn--primary .btn--large} [.DLL](index-dll){: .btn .btn--primary .btn--large} [{{dir}} DIR](#){: .btn .btn--light-outline .btn--large}
+[Info](intro){: .btn .btn--primary .btn--large} [.EXE](index){: .btn .btn--primary .btn--large} [.DLL](index-dll){: .btn .btn--primary .btn--large} [{{dir}} DIR](#){: .btn .btn--light-outline .btn--large} [<i class='fas fa-exchange-alt'></i> COM](index-com-objects){: .btn .btn--primary .btn--large}
 
 <div class=dirlist>
 <details open><summary><i class="fab fa-windows"></i> C:\</summary><ul>

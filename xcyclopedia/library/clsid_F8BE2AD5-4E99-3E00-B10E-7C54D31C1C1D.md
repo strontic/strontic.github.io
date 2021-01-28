@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID F8BE2AD5-4E99-3E00-B10E-7C54D31C1C1D?
 
 # {F8BE2AD5-4E99-3E00-B10E-7C54D31C1C1D}
 
-* (default): `System.NotImplementedException`
+* `System.NotImplementedException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID F8BE2AD5-4E99-3E00-B10E-7C54D31C1C1D?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.NotImplementedException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.NotImplementedException`
+* `System.NotImplementedException`
 
 ## Instance
 

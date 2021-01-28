@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID CAA817CC-0C04-4D22-A05C-2B7E162F4E8F?
 
 # {CAA817CC-0C04-4D22-A05C-2B7E162F4E8F}
 
-* (default): `System.EnterpriseServices.Internal.SoapServerVRoot`
+* `System.EnterpriseServices.Internal.SoapServerVRoot`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID CAA817CC-0C04-4D22-A05C-2B7E162F4E8F?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `System.EnterpriseServices, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a`
 * Class: `System.EnterpriseServices.Internal.SoapServerVRoot`
 * RuntimeVersion: `v1.1.4322`
@@ -23,7 +23,7 @@ excerpt: What is COM-Object CLSID CAA817CC-0C04-4D22-A05C-2B7E162F4E8F?
 
 ### ProgId
 
-* (default): `System.EnterpriseServices.Internal.SoapServerVRoot`
+* `System.EnterpriseServices.Internal.SoapServerVRoot`
 
 ## Instance
 

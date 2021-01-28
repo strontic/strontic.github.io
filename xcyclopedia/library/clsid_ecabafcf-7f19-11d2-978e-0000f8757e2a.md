@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID ecabafcf-7f19-11d2-978e-0000f8757e2a?
 
 # {ecabafcf-7f19-11d2-978e-0000f8757e2a}
 
-* (default): `EventRegistrar Class`
+* `EventRegistrar Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\comsvcs.dll`
+* `C:\Windows\System32\comsvcs.dll`
 * ThreadingModel: `Both`
 
 ## Instance

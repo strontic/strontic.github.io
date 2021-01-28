@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 79eac9e5-baf9-11ce-8c82-00aa004ba90b?
 
 # {79eac9e5-baf9-11ce-8c82-00aa004ba90b}
 
-* (default): `https: Asychronous Pluggable Protocol Handler`
+* `https: Asychronous Pluggable Protocol Handler`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\urlmon.dll`
+* `C:\Windows\System32\urlmon.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

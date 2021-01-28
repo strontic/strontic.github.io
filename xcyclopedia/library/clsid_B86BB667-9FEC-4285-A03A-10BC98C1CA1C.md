@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID B86BB667-9FEC-4285-A03A-10BC98C1CA1C?
 
 ### InProcServer32
 
-* (default): `C:\Program Files\Common Files\microsoft shared\ink\tabskb.dll`
+* `C:\Program Files\Common Files\microsoft shared\ink\tabskb.dll`
 * ThreadingModel: `Both`
 
 ## Instance

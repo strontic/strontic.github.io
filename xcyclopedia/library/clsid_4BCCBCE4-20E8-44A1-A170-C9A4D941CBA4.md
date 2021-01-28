@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 4BCCBCE4-20E8-44A1-A170-C9A4D941CBA4?
 
 # {4BCCBCE4-20E8-44A1-A170-C9A4D941CBA4}
 
-* (default): `DNS Client Configuration WMI/PowerShell Provider`
+* `DNS Client Configuration WMI/PowerShell Provider`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\wbem\dnsclientcim.dll`
+* `C:\Windows\System32\wbem\dnsclientcim.dll`
 * ThreadingModel: `Both`
 
 ## Instance

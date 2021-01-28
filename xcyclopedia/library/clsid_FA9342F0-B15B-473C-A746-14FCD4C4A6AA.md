@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID FA9342F0-B15B-473C-A746-14FCD4C4A6AA?
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\azroleui.dll`
+* `C:\Windows\system32\azroleui.dll`
 
 ## Instance
 

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID F935DC26-1CF0-11D0-ADB9-00C04FD58A0B?
 
 # {F935DC26-1CF0-11D0-ADB9-00C04FD58A0B}
 
-* (default): `Windows Script Host Network Object`
+* `Windows Script Host Network Object`
 
 ## Registry
 
@@ -15,23 +15,23 @@ excerpt: What is COM-Object CLSID F935DC26-1CF0-11D0-ADB9-00C04FD58A0B?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\wshom.ocx`
+* `C:\Windows\System32\wshom.ocx`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* (default): `WScript.Network.1`
+* `WScript.Network.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* (default): `{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}`
+* `{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}`
 
 ### VersionIndependentProgID
 
-* (default): `WScript.Network`
+* `WScript.Network`
 
 ## Instance
 

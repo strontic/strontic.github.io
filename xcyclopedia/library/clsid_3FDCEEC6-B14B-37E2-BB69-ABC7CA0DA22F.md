@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 3FDCEEC6-B14B-37E2-BB69-ABC7CA0DA22F?
 
 # {3FDCEEC6-B14B-37E2-BB69-ABC7CA0DA22F}
 
-* (default): `System.ArgumentException`
+* `System.ArgumentException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 3FDCEEC6-B14B-37E2-BB69-ABC7CA0DA22F?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.ArgumentException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.ArgumentException`
+* `System.ArgumentException`
 
 ## Instance
 

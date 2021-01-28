@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 08d5bfbf-fbca-4322-9f70-ca9f66f8ed6a?
 
 # {08d5bfbf-fbca-4322-9f70-ca9f66f8ed6a}
 
-* (default): `CommonLayoutModifier`
+* `CommonLayoutModifier`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

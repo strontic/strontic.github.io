@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID A0F8D82C-E4D8-4ED9-BD3A-867A830B12BA?
 
 # {A0F8D82C-E4D8-4ED9-BD3A-867A830B12BA}
 
-* (default): `Microsoft.Windows.DataProtection.Adapters.DpProviderFactory`
+* `Microsoft.Windows.DataProtection.Adapters.DpProviderFactory`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID A0F8D82C-E4D8-4ED9-BD3A-867A830B12BA?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `fhuxadapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35`
 * Class: `Microsoft.Windows.DataProtection.Adapters.DpProviderFactory`
 * CodeBase: `C:\Windows\System32\fhuxadapter.dll`
@@ -31,7 +31,7 @@ excerpt: What is COM-Object CLSID A0F8D82C-E4D8-4ED9-BD3A-867A830B12BA?
 
 ### ProgId
 
-* (default): `Microsoft.Windows.DataProtection.Adapters.DpProviderFactory`
+* `Microsoft.Windows.DataProtection.Adapters.DpProviderFactory`
 
 MIT License. Copyright (c) 2021 Strontic.
 

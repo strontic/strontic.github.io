@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 20051D1B-321F-3E4D-A3DA-5FBE892F7EC5?
 
 # {20051D1B-321F-3E4D-A3DA-5FBE892F7EC5}
 
-* (default): `System.Security.Cryptography.HMACRIPEMD160`
+* `System.Security.Cryptography.HMACRIPEMD160`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 20051D1B-321F-3E4D-A3DA-5FBE892F7EC5?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.Cryptography.HMACRIPEMD160`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* (default): `System.Security.Cryptography.HMACRIPEMD160`
+* `System.Security.Cryptography.HMACRIPEMD160`
 
 ## Instance
 

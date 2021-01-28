@@ -5,27 +5,27 @@ excerpt: What is COM-Object CLSID 1f3d8aa5-9ebf-4ee4-85c2-ea40379aede8?
 
 # {1f3d8aa5-9ebf-4ee4-85c2-ea40379aede8}
 
-* (default): `CScriptedDiag`
+* `CScriptedDiag`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\sdiageng.dll`
+* `C:\Windows\System32\sdiageng.dll`
 * ThreadingModel: `both`
 
 ### ProgID
 
-* (default): `ScriptedDiag.Engine.1`
+* `ScriptedDiag.Engine.1`
 
 ### TypeLib
 
-* (default): `{4b21f542-0eb5-4205-a12b-59bf2f2555fe}`
+* `{4b21f542-0eb5-4205-a12b-59bf2f2555fe}`
 
 ### VersionIndependentProgID
 
-* (default): `ScriptedDiag.Engine`
+* `ScriptedDiag.Engine`
 
 ## Instance
 

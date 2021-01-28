@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID ABB27087-4CE0-4E58-A0CB-E24DF96814BE?
 
 # {ABB27087-4CE0-4E58-A0CB-E24DF96814BE}
 
-* (default): `InertiaProcessor Class`
+* `InertiaProcessor Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Program Files\Common Files\Microsoft Shared\Ink\rtscom.dll`
+* `C:\Program Files\Common Files\Microsoft Shared\Ink\rtscom.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

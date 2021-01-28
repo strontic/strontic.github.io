@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 5d1026ee-3f2e-4ccb-a83d-cefb7ac22a71?
 
 # {5d1026ee-3f2e-4ccb-a83d-cefb7ac22a71}
 
-* (default): `Share Media Control Panel`
+* `Share Media Control Panel`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\sharemediacpl.dll`
+* `C:\Windows\System32\sharemediacpl.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

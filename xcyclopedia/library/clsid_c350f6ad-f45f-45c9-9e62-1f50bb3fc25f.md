@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID c350f6ad-f45f-45c9-9e62-1f50bb3fc25f?
 
 # {c350f6ad-f45f-45c9-9e62-1f50bb3fc25f}
 
-* (default): `Folder Redirection WMI Provider`
+* `Folder Redirection WMI Provider`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\frprov.dll`
+* `C:\Windows\system32\frprov.dll`
 * ThreadingModel: `Both`
 
 ## Instance

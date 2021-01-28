@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 1A68CF90-753A-4523-A4A4-40CAB4BC6EFF?
 
 # {1A68CF90-753A-4523-A4A4-40CAB4BC6EFF}
 
-* (default): `Microsoft 3D Print Shell Handler`
+* `Microsoft 3D Print Shell Handler`
 * DisableProcessIsolation: `1`
 
 ## Registry
@@ -13,16 +13,16 @@ excerpt: What is COM-Object CLSID 1A68CF90-753A-4523-A4A4-40CAB4BC6EFF?
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\ms3dthumbnailprovider.DLL`
+* `C:\Windows\system32\ms3dthumbnailprovider.DLL`
 * ThreadingModel: `Apartment`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ### VersionIndependentProgID
 
-* (default): `Microsoft.3D.Print.Shell`
+* `Microsoft.3D.Print.Shell`
 
 ## Instance
 

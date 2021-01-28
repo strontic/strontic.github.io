@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 9DAC2C1E-7C5C-40eb-833B-323E85A1CE84?
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\wscinterop.dll`
+* `C:\Windows\System32\wscinterop.dll`
 * ThreadingModel: `Both`
 
 ## Instance

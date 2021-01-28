@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 1f09b058-f3fd-4a9d-a8ba-a8a05f8fe283?
 
 # {1f09b058-f3fd-4a9d-a8ba-a8a05f8fe283}
 
-* (default): `DTC MMC Property-sheet extension`
+* `DTC MMC Property-sheet extension`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\msdtcuiu.dll`
+* `C:\Windows\system32\msdtcuiu.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

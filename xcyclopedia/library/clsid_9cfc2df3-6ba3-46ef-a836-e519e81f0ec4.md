@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 9cfc2df3-6ba3-46ef-a836-e519e81f0ec4?
 
 # {9cfc2df3-6ba3-46ef-a836-e519e81f0ec4}
 
-* (default): `Property System Apartment Class Factory`
+* `Property System Apartment Class Factory`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\propsys.dll`
+* `C:\Windows\system32\propsys.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

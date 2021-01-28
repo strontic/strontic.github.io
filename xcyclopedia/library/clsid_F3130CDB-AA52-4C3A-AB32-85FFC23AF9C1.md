@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID F3130CDB-AA52-4C3A-AB32-85FFC23AF9C1?
 
 # {F3130CDB-AA52-4C3A-AB32-85FFC23AF9C1}
 
-* (default): `Microsoft WBEM New Event Subsystem`
+* `Microsoft WBEM New Event Subsystem`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\wbem\wbemess.dll`
+* `C:\Windows\system32\wbem\wbemess.dll`
 * ThreadingModel: `Both`
 
 ## Instance

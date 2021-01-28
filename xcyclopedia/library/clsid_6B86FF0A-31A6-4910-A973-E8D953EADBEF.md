@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 6B86FF0A-31A6-4910-A973-E8D953EADBEF?
 
 # {6B86FF0A-31A6-4910-A973-E8D953EADBEF}
 
-* (default): `Chinese Stroke Data Source`
+* `Chinese Stroke Data Source`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\ChsStrokeDS.dll`
+* `C:\Windows\System32\ChsStrokeDS.dll`
 * ThreadingModel: `Both`
 
 ## Instance

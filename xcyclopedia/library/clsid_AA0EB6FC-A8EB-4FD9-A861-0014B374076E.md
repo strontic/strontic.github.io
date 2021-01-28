@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID AA0EB6FC-A8EB-4FD9-A861-0014B374076E?
 
 # {AA0EB6FC-A8EB-4FD9-A861-0014B374076E}
 
-* (default): `AppSync Setting Handler`
+* `AppSync Setting Handler`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\SettingSync.dll`
+* `C:\Windows\system32\SettingSync.dll`
 * ThreadingModel: `Both`
 
 ## Instance

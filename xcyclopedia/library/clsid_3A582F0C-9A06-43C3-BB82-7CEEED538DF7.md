@@ -11,12 +11,12 @@ excerpt: What is COM-Object CLSID 3A582F0C-9A06-43C3-BB82-7CEEED538DF7?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\LocationFramework.dll`
+* `C:\Windows\System32\LocationFramework.dll`
 * ThreadingModel: `Free`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ## Instance
 

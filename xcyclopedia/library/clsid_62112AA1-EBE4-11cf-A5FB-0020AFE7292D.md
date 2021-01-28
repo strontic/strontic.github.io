@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 62112AA1-EBE4-11cf-A5FB-0020AFE7292D?
 
 # {62112AA1-EBE4-11cf-A5FB-0020AFE7292D}
 
-* (default): `Shell Automation Folder View`
+* `Shell Automation Folder View`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\system32\shell32.dll`
+* `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

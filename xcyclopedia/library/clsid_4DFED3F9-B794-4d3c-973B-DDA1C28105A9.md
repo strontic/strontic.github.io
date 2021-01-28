@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 4DFED3F9-B794-4d3c-973B-DDA1C28105A9?
 
 # {4DFED3F9-B794-4d3c-973B-DDA1C28105A9}
 
-* (default): `Private Profile Object`
+* `Private Profile Object`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\ieframe.dll`
+* `C:\Windows\System32\ieframe.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

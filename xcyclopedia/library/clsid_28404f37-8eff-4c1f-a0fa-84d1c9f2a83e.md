@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 28404f37-8eff-4c1f-a0fa-84d1c9f2a83e?
 
 # {28404f37-8eff-4c1f-a0fa-84d1c9f2a83e}
 
-* (default): `Azure AD Join Helper`
+* `Azure AD Join Helper`
 
 ## Registry
 
 
 ### InProcServer32
 
-* (default): `C:\Windows\System32\CloudDomainJoinAUG.dll`
+* `C:\Windows\System32\CloudDomainJoinAUG.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

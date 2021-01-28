@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID B86F86AF-AA5D-47C2-AB44-17AB64F907B4?
 
 # {B86F86AF-AA5D-47C2-AB44-17AB64F907B4}
 
-* (default): `CPrintTicket WoW Services App Container`
+* `CPrintTicket WoW Services App Container`
 * AppID: `{2A81FE91-95D7-487E-BBF8-B03308E54207}`
 
 ## Registry
@@ -13,11 +13,11 @@ excerpt: What is COM-Object CLSID B86F86AF-AA5D-47C2-AB44-17AB64F907B4?
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\prntvpt.dll`
+* `C:\Windows\system32\prntvpt.dll`
 
 ### ThreadingModel
 
-* (default): `Both`
+* `Both`
 
 ## Instance
 

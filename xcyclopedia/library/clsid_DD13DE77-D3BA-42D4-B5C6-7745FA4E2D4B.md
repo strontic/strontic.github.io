@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID DD13DE77-D3BA-42D4-B5C6-7745FA4E2D4B?
 
 # {DD13DE77-D3BA-42D4-B5C6-7745FA4E2D4B}
 
-* (default): `MotionBlur`
+* `MotionBlur`
 
 ## Registry
 
@@ -18,23 +18,23 @@ excerpt: What is COM-Object CLSID DD13DE77-D3BA-42D4-B5C6-7745FA4E2D4B?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\Dxtmsft.dll`
+* `C:\Windows\System32\Dxtmsft.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `DXImageTransform.Microsoft.MotionBlur.1`
+* `DXImageTransform.Microsoft.MotionBlur.1`
 
 ### Programmable
 
 
 ### ToolBoxBitmap32
 
-* (default): `C:\Windows\System32\Dxtmsft.dll,235`
+* `C:\Windows\System32\Dxtmsft.dll,235`
 
 ### VersionIndependentProgID
 
-* (default): `DXImageTransform.Microsoft.MotionBlur`
+* `DXImageTransform.Microsoft.MotionBlur`
 
 ## Instance
 

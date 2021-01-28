@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 597D4FB0-47FD-4aff-89B9-C6CFAE8CF08E?
 
 # {597D4FB0-47FD-4aff-89B9-C6CFAE8CF08E}
 
-* (default): `ManipulationProcessor Class`
+* `ManipulationProcessor Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Program Files\Common Files\Microsoft Shared\Ink\rtscom.dll`
+* `C:\Program Files\Common Files\Microsoft Shared\Ink\rtscom.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

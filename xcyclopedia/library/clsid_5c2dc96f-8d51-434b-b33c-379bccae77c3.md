@@ -5,26 +5,26 @@ excerpt: What is COM-Object CLSID 5c2dc96f-8d51-434b-b33c-379bccae77c3?
 
 # {5c2dc96f-8d51-434b-b33c-379bccae77c3}
 
-* (default): `AzBizRuleContext Class`
+* `AzBizRuleContext Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\azroles.dll`
+* `C:\Windows\system32\azroles.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `AzRoles.AzBizRuleContext.1`
+* `AzRoles.AzBizRuleContext.1`
 
 ### Programmable
 
 
 ### VersionIndependentProgID
 
-* (default): `AzRoles.AzBizRuleContext`
+* `AzRoles.AzBizRuleContext`
 
 ## Instance
 

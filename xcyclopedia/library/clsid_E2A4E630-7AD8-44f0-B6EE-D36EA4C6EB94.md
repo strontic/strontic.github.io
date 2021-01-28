@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID E2A4E630-7AD8-44f0-B6EE-D36EA4C6EB94?
 
 # {E2A4E630-7AD8-44f0-B6EE-D36EA4C6EB94}
 
-* (default): `Network Diagnostics Client Interface Wrapper`
+* `Network Diagnostics Client Interface Wrapper`
 * LocalizedString: `@C:\Windows\System32\ndfapi.dll,-40001`
 
 ## Registry
@@ -13,20 +13,20 @@ excerpt: What is COM-Object CLSID E2A4E630-7AD8-44f0-B6EE-D36EA4C6EB94?
 
 ### InprocServer32
 
-* (default): `C:\Windows\system32\ndfapi.dll`
+* `C:\Windows\system32\ndfapi.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* (default): `ndfapi.NetworkDiagnostics.1`
+* `ndfapi.NetworkDiagnostics.1`
 
 ### TypeLib
 
-* (default): `{11DD5EA9-F8DB-4F6E-BF7C-6AADBA404A3D}`
+* `{11DD5EA9-F8DB-4F6E-BF7C-6AADBA404A3D}`
 
 ### Version
 
-* (default): `1.0`
+* `1.0`
 
 ## Instance
 

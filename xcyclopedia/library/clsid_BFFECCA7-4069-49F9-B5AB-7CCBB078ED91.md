@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID BFFECCA7-4069-49F9-B5AB-7CCBB078ED91?
 
 # {BFFECCA7-4069-49F9-B5AB-7CCBB078ED91}
 
-* (default): `System.ServiceModel.Internal.TransactionBridge`
+* `System.ServiceModel.Internal.TransactionBridge`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID BFFECCA7-4069-49F9-B5AB-7CCBB078ED91?
 
 ### InprocServer32
 
-* (default): `C:\Windows\System32\mscoree.dll`
+* `C:\Windows\System32\mscoree.dll`
 * Class: `System.ServiceModel.Internal.TransactionBridge`
 * ThreadingModel: `Both`
 
