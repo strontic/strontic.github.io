@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 726BBDF4-6C6D-30F4-B3A0-F14D6AEC08C7?
 
 # {726BBDF4-6C6D-30F4-B3A0-F14D6AEC08C7}
 
-* `System.Resources.MissingManifestResourceException`
+### `System.Resources.MissingManifestResourceException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 726BBDF4-6C6D-30F4-B3A0-F14D6AEC08C7?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Resources.MissingManifestResourceException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Resources.MissingManifestResourceException`
+##### `System.Resources.MissingManifestResourceException`
 
 ## Instance
 

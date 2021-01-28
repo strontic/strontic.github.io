@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 3E8E0F03-D3FD-3A93-BAE0-C74A6494DBCA?
 
 # {3E8E0F03-D3FD-3A93-BAE0-C74A6494DBCA}
 
-* `System.AppDomainSetup`
+### `System.AppDomainSetup`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 3E8E0F03-D3FD-3A93-BAE0-C74A6494DBCA?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.AppDomainSetup`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.AppDomainSetup`
+##### `System.AppDomainSetup`
 
 ## Instance
 

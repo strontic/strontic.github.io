@@ -14,7 +14,7 @@ excerpt: What is COM-Object CLSID 4B59AFCC-B8C3-408A-B670-89E5FAB6FDA7?
 
 ### InProcServer32
 
-* `C:\Windows\system32\windowscodecs.dll`
+##### `C:\Windows\system32\windowscodecs.dll`
 * ThreadingModel: `Both`
 
 ## Instance

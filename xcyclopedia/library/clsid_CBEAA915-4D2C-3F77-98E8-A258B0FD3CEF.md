@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID CBEAA915-4D2C-3F77-98E8-A258B0FD3CEF?
 
 # {CBEAA915-4D2C-3F77-98E8-A258B0FD3CEF}
 
-* `System.ContextMarshalException`
+### `System.ContextMarshalException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID CBEAA915-4D2C-3F77-98E8-A258B0FD3CEF?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.ContextMarshalException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.ContextMarshalException`
+##### `System.ContextMarshalException`
 
 ## Instance
 

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID D2D95CF1-195D-45C8-BB2F-22BC0131A3AE?
 
 # {D2D95CF1-195D-45C8-BB2F-22BC0131A3AE}
 
-* `Transformer Data Migrator`
+### `Transformer Data Migrator`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\StartTileData.dll`
+##### `C:\Windows\System32\StartTileData.dll`
 * ThreadingModel: `Both`
 
 ## Instance

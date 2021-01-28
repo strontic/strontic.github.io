@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 3CDED51A-86B4-39F0-A12A-5D1FDCED6546?
 
 # {3CDED51A-86B4-39F0-A12A-5D1FDCED6546}
 
-* `System.Runtime.Remoting.RemotingTimeoutException`
+### `System.Runtime.Remoting.RemotingTimeoutException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 3CDED51A-86B4-39F0-A12A-5D1FDCED6546?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.Remoting.RemotingTimeoutException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Runtime.Remoting.RemotingTimeoutException`
+##### `System.Runtime.Remoting.RemotingTimeoutException`
 
 ## Instance
 

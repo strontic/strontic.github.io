@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID F00CA7A7-4B8D-3F2F-A5F2-CE4A4478B39C?
 
 # {F00CA7A7-4B8D-3F2F-A5F2-CE4A4478B39C}
 
-* `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntity`
+### `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntity`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID F00CA7A7-4B8D-3F2F-A5F2-CE4A4478B39C?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntity`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntity`
+##### `System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntity`
 
 ## Instance
 

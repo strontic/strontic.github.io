@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 5686a0d9-fe39-409f-9dff-3fdbc849f9f5?
 
 # {5686a0d9-fe39-409f-9dff-3fdbc849f9f5}
 
-* `Mpeg4s Decoder MFT`
+### `Mpeg4s Decoder MFT`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\mp4sdecd.dll`
+##### `C:\Windows\System32\mp4sdecd.dll`
 * ThreadingModel: `Both`
 
 ## Instance

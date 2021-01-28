@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID F935DC22-1CF0-11D0-ADB9-00C04FD58A0B?
 
 # {F935DC22-1CF0-11D0-ADB9-00C04FD58A0B}
 
-* `Windows Script Host Shell Object`
+### `Windows Script Host Shell Object`
 
 ## Registry
 
@@ -15,23 +15,23 @@ excerpt: What is COM-Object CLSID F935DC22-1CF0-11D0-ADB9-00C04FD58A0B?
 
 ### InProcServer32
 
-* `C:\Windows\System32\wshom.ocx`
+##### `C:\Windows\System32\wshom.ocx`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* `WScript.Shell.1`
+##### `WScript.Shell.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* `{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}`
+##### `{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}`
 
 ### VersionIndependentProgID
 
-* `WScript.Shell`
+##### `WScript.Shell`
 
 ## Instance
 

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 9A944885-EDAF-3A81-A2FF-6A9D5D1ABFC7?
 
 # {9A944885-EDAF-3A81-A2FF-6A9D5D1ABFC7}
 
-* `System.Runtime.InteropServices.InvalidOleVariantTypeException`
+### `System.Runtime.InteropServices.InvalidOleVariantTypeException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 9A944885-EDAF-3A81-A2FF-6A9D5D1ABFC7?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.InteropServices.InvalidOleVariantTypeException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Runtime.InteropServices.InvalidOleVariantTypeException`
+##### `System.Runtime.InteropServices.InvalidOleVariantTypeException`
 
 ## Instance
 

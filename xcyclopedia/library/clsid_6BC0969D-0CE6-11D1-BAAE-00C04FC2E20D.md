@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID 6BC0969D-0CE6-11D1-BAAE-00C04FC2E20D?
 
 # {6BC0969D-0CE6-11D1-BAAE-00C04FC2E20D}
 
-* ``
+### ``
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\system32\iassvcs.dll`
+##### `C:\Windows\system32\iassvcs.dll`
 * ThreadingModel: `Free`
 
 ### ProgID
 
-* `IAS.AuditChannel.1`
+##### `IAS.AuditChannel.1`
 
 ### VersionIndependentProgID
 
-* `IAS.AuditChannel`
+##### `IAS.AuditChannel`
 
 ## Instance
 

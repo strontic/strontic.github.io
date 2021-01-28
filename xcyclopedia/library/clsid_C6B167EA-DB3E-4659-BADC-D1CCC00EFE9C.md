@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID C6B167EA-DB3E-4659-BADC-D1CCC00EFE9C?
 
 # {C6B167EA-DB3E-4659-BADC-D1CCC00EFE9C}
 
-* `FodHelperComObject Class`
+### `FodHelperComObject Class`
 * AppID: `{F2F94BB3-595C-4509-B7EE-243FA2BDEA5B}`
 * LocalizedString: `@C:\Windows\System32\fodhelper.exe,-100`
 
@@ -18,15 +18,15 @@ excerpt: What is COM-Object CLSID C6B167EA-DB3E-4659-BADC-D1CCC00EFE9C?
 
 ### LocalServer32
 
-* `C:\Windows\System32\FodHelper.exe`
+##### `C:\Windows\System32\FodHelper.exe`
 
 ### ProgID
 
-* `FodHelper.FodHelperObj.1`
+##### `FodHelper.FodHelperObj.1`
 
 ### VersionIndependentProgID
 
-* `FodHelper.FodHelperObj`
+##### `FodHelper.FodHelperObj`
 
 ## Instance
 

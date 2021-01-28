@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID C5B0F5F4-726F-49B8-B63E-42CC2D069BED?
 
 # {C5B0F5F4-726F-49B8-B63E-42CC2D069BED}
 
-* `NarratorHeaderItemWithTextPattern Class`
+### `NarratorHeaderItemWithTextPattern Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\srh.dll`
+##### `C:\Windows\System32\srh.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID B3AADFEA-8404-4CBE-A62E-B0B715412C9E?
 
 # {B3AADFEA-8404-4CBE-A62E-B0B715412C9E}
 
-* `AppActivationFailedHandler`
+### `AppActivationFailedHandler`
 * AppID: `{B3AADFEA-8404-4CBE-A62E-B0B715412C9E}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID B3AADFEA-8404-4CBE-A62E-B0B715412C9E?
 
 ### InProcServer32
 
-* `C:\Windows\System32\WpcRefreshTask.dll`
+##### `C:\Windows\System32\WpcRefreshTask.dll`
 * ThreadingModel: `Both`
 
 ## Instance

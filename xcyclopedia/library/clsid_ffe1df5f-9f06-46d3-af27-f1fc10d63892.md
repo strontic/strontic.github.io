@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID ffe1df5f-9f06-46d3-af27-f1fc10d63892?
 
 # {ffe1df5f-9f06-46d3-af27-f1fc10d63892}
 
-* `HomeGroup CPL Advanced Settings Writer`
+### `HomeGroup CPL Advanced Settings Writer`
 * AppId: `{50a9ab2a-20f8-4d71-9f32-9fd305b49601}`
 * LocalizedString: `@C:\Windows\System32\hgcpl.dll,-4`
 
@@ -19,7 +19,7 @@ excerpt: What is COM-Object CLSID ffe1df5f-9f06-46d3-af27-f1fc10d63892?
 
 ### InProcServer32
 
-* `C:\Windows\System32\hgcpl.dll`
+##### `C:\Windows\System32\hgcpl.dll`
 * ThreadingModel: `Both`
 
 ## Instance

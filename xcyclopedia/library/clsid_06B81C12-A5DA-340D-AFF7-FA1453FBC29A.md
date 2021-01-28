@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 06B81C12-A5DA-340D-AFF7-FA1453FBC29A?
 
 # {06B81C12-A5DA-340D-AFF7-FA1453FBC29A}
 
-* `System.Security.Policy.AllMembershipCondition`
+### `System.Security.Policy.AllMembershipCondition`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 06B81C12-A5DA-340D-AFF7-FA1453FBC29A?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.Policy.AllMembershipCondition`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Security.Policy.AllMembershipCondition`
+##### `System.Security.Policy.AllMembershipCondition`
 
 ## Instance
 

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID ED834ED6-4B5A-4bfe-8F11-A626DCB6A921?
 
 # {ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}
 
-* `Personalization Control Panel`
+### `Personalization Control Panel`
 * InfoTip: `@C:\Windows\System32\themecpl.dll,-2#immutable1`
 * LocalizedString: `@C:\Windows\System32\themecpl.dll,-1#immutable1`
 * System.ApplicationName: `Microsoft.Personalization`
@@ -17,11 +17,11 @@ excerpt: What is COM-Object CLSID ED834ED6-4B5A-4bfe-8F11-A626DCB6A921?
 
 ### DefaultIcon
 
-* `C:\Windows\System32\themecpl.dll,-1`
+##### `C:\Windows\System32\themecpl.dll,-1`
 
 ### InProcServer32
 
-* `C:\Windows\System32\shdocvw.dll`
+##### `C:\Windows\System32\shdocvw.dll`
 * ThreadingModel: `Apartment`
 
 ### Instance

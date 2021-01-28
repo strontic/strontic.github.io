@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID C03880A5-0B5E-39AD-954A-CE0DCBD5EF7D?
 
 # {C03880A5-0B5E-39AD-954A-CE0DCBD5EF7D}
 
-* `System.AppDomainManager`
+### `System.AppDomainManager`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID C03880A5-0B5E-39AD-954A-CE0DCBD5EF7D?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.AppDomainManager`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.AppDomainManager`
+##### `System.AppDomainManager`
 
 ## Instance
 

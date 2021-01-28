@@ -5,31 +5,31 @@ excerpt: What is COM-Object CLSID AFB40FFD-B609-40A3-9828-F88BBE11E4E3?
 
 # {AFB40FFD-B609-40A3-9828-F88BBE11E4E3}
 
-* `Server XML HTTP 3.0`
+### `Server XML HTTP 3.0`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\msxml3.dll`
+##### `C:\Windows\System32\msxml3.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* `Msxml2.ServerXMLHTTP.3.0`
+##### `Msxml2.ServerXMLHTTP.3.0`
 
 ### TypeLib
 
-* `{F5078F18-C551-11D3-89B9-0000F81FE221}`
+##### `{F5078F18-C551-11D3-89B9-0000F81FE221}`
 
 ### Version
 
-* `3.0`
+##### `3.0`
 
 ### VersionIndependentProgID
 
-* `Msxml2.ServerXMLHTTP`
+##### `Msxml2.ServerXMLHTTP`
 
 ## Instance
 

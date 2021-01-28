@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID BAEA8DC9-45F5-4DF8-A27F-2A277D524B15?
 
 # {BAEA8DC9-45F5-4DF8-A27F-2A277D524B15}
 
-* `WIA Extension Host for 64 bit extensions`
+### `WIA Extension Host for 64 bit extensions`
 * AppId: `{08F646B3-5E7F-4B7A-A5CB-F95445F9F67A}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID BAEA8DC9-45F5-4DF8-A27F-2A277D524B15?
 
 ### InprocServer32
 
-* `C:\Windows\System32\WiaExtensionHost64.dll`
+##### `C:\Windows\System32\WiaExtensionHost64.dll`
 * ThreadingModel: `Both`
 
 ## Instance

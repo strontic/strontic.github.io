@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID edc3a8b5-2e25-466a-a1ad-21e2f19414ac?
 
 # {edc3a8b5-2e25-466a-a1ad-21e2f19414ac}
 
-* `MF AC3 Property Handler`
+### `MF AC3 Property Handler`
 * ManualSafeSave: `1`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID edc3a8b5-2e25-466a-a1ad-21e2f19414ac?
 
 ### InProcServer32
 
-* `C:\Windows\System32\mfsrcsnk.dll`
+##### `C:\Windows\System32\mfsrcsnk.dll`
 * ThreadingModel: `Both`
 
 ## Instance

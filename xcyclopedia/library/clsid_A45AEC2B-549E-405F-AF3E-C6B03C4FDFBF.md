@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID A45AEC2B-549E-405F-AF3E-C6B03C4FDFBF?
 
 # {A45AEC2B-549E-405F-AF3E-C6B03C4FDFBF}
 
-* `ToggleDMRAuthorization`
+### `ToggleDMRAuthorization`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Program Files\Windows Media Player\wmpnssui.dll`
+##### `C:\Program Files\Windows Media Player\wmpnssui.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

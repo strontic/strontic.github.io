@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 4eeb9b7c-0f47-4fae-a284-a0ec40c5719a?
 
 # {4eeb9b7c-0f47-4fae-a284-a0ec40c5719a}
 
-* `Serial Device Capability Handler`
+### `Serial Device Capability Handler`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\CapabilityAccessHandlers.dll`
+##### `C:\Windows\system32\CapabilityAccessHandlers.dll`
 * ThreadingModel: `Both`
 
 ## Instance

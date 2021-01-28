@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID c8b522cc-5cf3-11ce-ade5-00aa0044773d?
 
 # {c8b522cc-5cf3-11ce-ade5-00aa0044773d}
 
-* `MSDASQL ErrorLookup`
+### `MSDASQL ErrorLookup`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Program Files\Common Files\System\Ole DB\msdasql.dll`
+##### `C:\Program Files\Common Files\System\Ole DB\msdasql.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `MSDASQL ErrorLookup.1`
+##### `MSDASQL ErrorLookup.1`
 
 ### VersionIndependentProgID
 
-* `MSDASQL ErrorLookup`
+##### `MSDASQL ErrorLookup`
 
 ## Instance
 

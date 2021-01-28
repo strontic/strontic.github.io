@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID fe1290f0-cfbd-11cf-a330-00aa00c16e65?
 
 # {fe1290f0-cfbd-11cf-a330-00aa00c16e65}
 
-* `@C:\Windows\system32\dsquery.dll,-553`
+### `@C:\Windows\system32\dsquery.dll,-553`
 
 ## Registry
 
@@ -18,7 +18,7 @@ excerpt: What is COM-Object CLSID fe1290f0-cfbd-11cf-a330-00aa00c16e65?
 
 ### {0D45D530-764B-11d0-A1CA-00AA00C16E65}
 
-* `{0D45D530-764B-11d0-A1CA-00AA00C16E65}`
+##### `{0D45D530-764B-11d0-A1CA-00AA00C16E65}`
 
 ### PropertySheetHandlers
 

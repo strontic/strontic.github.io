@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 2E1DCDFF-AB5C-47B6-AD3B-169E65344720?
 
 ### InProcServer32
 
-* `C:\Windows\System32\RemoteWipeCSP.dll`
+##### `C:\Windows\System32\RemoteWipeCSP.dll`
 * ThreadingModel: `free`
 
 ## Instance

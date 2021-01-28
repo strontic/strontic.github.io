@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID AAEAE72F-0328-4763-8ECB-23422EDE2DB5?
 
 # {AAEAE72F-0328-4763-8ECB-23422EDE2DB5}
 
-* `Microsoft WBEM WMI Policy SOM Provider`
+### `Microsoft WBEM WMI Policy SOM Provider`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\system32\wbem\policman.dll`
+##### `C:\Windows\system32\wbem\policman.dll`
 * ThreadingModel: `Both`
 
 ## Instance

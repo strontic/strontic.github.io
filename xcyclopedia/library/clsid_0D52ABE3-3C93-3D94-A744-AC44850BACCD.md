@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 0D52ABE3-3C93-3D94-A744-AC44850BACCD?
 
 # {0D52ABE3-3C93-3D94-A744-AC44850BACCD}
 
-* `System.Collections.Generic.KeyNotFoundException`
+### `System.Collections.Generic.KeyNotFoundException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 0D52ABE3-3C93-3D94-A744-AC44850BACCD?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Collections.Generic.KeyNotFoundException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Collections.Generic.KeyNotFoundException`
+##### `System.Collections.Generic.KeyNotFoundException`
 
 ## Instance
 

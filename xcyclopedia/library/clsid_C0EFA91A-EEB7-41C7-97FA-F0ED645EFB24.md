@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID C0EFA91A-EEB7-41C7-97FA-F0ED645EFB24?
 
 # {C0EFA91A-EEB7-41C7-97FA-F0ED645EFB24}
 
-* `Microsoft RDP Client Control (redistributable) - version 11`
+### `Microsoft RDP Client Control (redistributable) - version 11`
 
 ## Registry
 
@@ -18,31 +18,31 @@ excerpt: What is COM-Object CLSID C0EFA91A-EEB7-41C7-97FA-F0ED645EFB24?
 
 ### InprocServer32
 
-* `C:\Windows\system32\mstscax.dll`
+##### `C:\Windows\system32\mstscax.dll`
 * ThreadingModel: `Apartment`
 
 ### MiscStatus
 
-* `0`
+##### `0`
 
 ### ProgID
 
-* `MsRDP.MsRDP.10`
+##### `MsRDP.MsRDP.10`
 
 ### Programmable
 
 
 ### TypeLib
 
-* `{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}`
+##### `{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgID
 
-* `MsRDP.MsRDP`
+##### `MsRDP.MsRDP`
 
 MIT License. Copyright (c) 2021 Strontic.
 

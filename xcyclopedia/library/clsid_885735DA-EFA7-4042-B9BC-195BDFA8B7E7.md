@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 885735DA-EFA7-4042-B9BC-195BDFA8B7E7?
 
 # {885735DA-EFA7-4042-B9BC-195BDFA8B7E7}
 
-* `AzureSettingSyncProvider`
+### `AzureSettingSyncProvider`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\AzureSettingSyncProvider.dll`
+##### `C:\Windows\System32\AzureSettingSyncProvider.dll`
 * ThreadingModel: `Both`
 
 ## Instance

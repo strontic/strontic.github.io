@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 9df523b0-a6c0-4ea9-b5f1-f4565c3ac8b8?
 
 # {9df523b0-a6c0-4ea9-b5f1-f4565c3ac8b8}
 
-* `Date and Time Properties`
+### `Date and Time Properties`
 * AppId: `{9df523b0-a6c0-4ea9-b5f1-f4565c3ac8b8}`
 * LocalizedString: `@C:\Windows\system32\timedate.cpl,-51`
 
@@ -19,7 +19,7 @@ excerpt: What is COM-Object CLSID 9df523b0-a6c0-4ea9-b5f1-f4565c3ac8b8?
 
 ### InProcServer32
 
-* `C:\Windows\system32\timedate.cpl`
+##### `C:\Windows\system32\timedate.cpl`
 * ThreadingModel: `Apartment`
 
 ## Instance

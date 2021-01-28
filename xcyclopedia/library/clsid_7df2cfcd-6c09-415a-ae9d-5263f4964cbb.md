@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 7df2cfcd-6c09-415a-ae9d-5263f4964cbb?
 
 # {7df2cfcd-6c09-415a-ae9d-5263f4964cbb}
 
-* `SortColumnArray`
+### `SortColumnArray`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\windows.storage.dll`
+##### `C:\Windows\system32\windows.storage.dll`
 * ThreadingModel: `Both`
 
 ## Instance

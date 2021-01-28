@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 1B4DEBEC-0475-4564-B2BF-11490C40AACB?
 
 ### InProcServer32
 
-* `C:\Windows\System32\Windows.Devices.Picker.dll`
+##### `C:\Windows\System32\Windows.Devices.Picker.dll`
 * ThreadingModel: `Both`
 
 ## Instance

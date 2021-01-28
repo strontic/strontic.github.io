@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 7cacbd7b-0d99-468f-ac33-22e495c0afe5?
 
 # {7cacbd7b-0d99-468f-ac33-22e495c0afe5}
 
-* `Microsoft RDP Client Control - version 2`
+### `Microsoft RDP Client Control - version 2`
 
 ## Registry
 
@@ -15,35 +15,35 @@ excerpt: What is COM-Object CLSID 7cacbd7b-0d99-468f-ac33-22e495c0afe5?
 
 ### InprocServer32
 
-* `C:\Windows\system32\mstscax.dll`
+##### `C:\Windows\system32\mstscax.dll`
 * ThreadingModel: `Apartment`
 
 ### MiscStatus
 
-* `0`
+##### `0`
 
 ### (1)
 
-* `131473`
+##### `131473`
 
 ### ProgID
 
-* `MsTscAx.MsTscAx.2`
+##### `MsTscAx.MsTscAx.2`
 
 ### Programmable
 
 
 ### TypeLib
 
-* `{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}`
+##### `{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgID
 
-* `MsTscAx.MsTscAx`
+##### `MsTscAx.MsTscAx`
 
 ## Instance
 

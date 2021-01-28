@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID A86FEFD8-BAFB-4DCB-AAA0-A9B6A5A44032?
 
 # {A86FEFD8-BAFB-4DCB-AAA0-A9B6A5A44032}
 
-* `CDPComTouchHandler`
+### `CDPComTouchHandler`
 * ActivateOnHostFlags: `1`
 * AppID: `{F72671A9-012C-4725-9D2F-2A4D32D65169}`
 

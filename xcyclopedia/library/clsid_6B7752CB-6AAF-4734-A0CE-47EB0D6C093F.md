@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 6B7752CB-6AAF-4734-A0CE-47EB0D6C093F?
 
 # {6B7752CB-6AAF-4734-A0CE-47EB0D6C093F}
 
-* `UiaEndpointNotifier`
+### `UiaEndpointNotifier`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\UiaManager.dll`
+##### `C:\Windows\System32\UiaManager.dll`
 * ThreadingModel: `Both`
 
 ## Instance

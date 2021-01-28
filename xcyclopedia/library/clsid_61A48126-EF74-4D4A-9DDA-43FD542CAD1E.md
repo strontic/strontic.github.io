@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 61A48126-EF74-4D4A-9DDA-43FD542CAD1E?
 
 ### InprocServer32
 
-* `C:\Windows\System32\MSWB7.dll`
+##### `C:\Windows\System32\MSWB7.dll`
 * ThreadingModel: `Both`
 
 ## Instance

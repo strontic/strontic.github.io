@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID FF156C11-5895-42DA-B2F3-D1FCDF62FC54?
 
 # {FF156C11-5895-42DA-B2F3-D1FCDF62FC54}
 
-* `UefiCsp`
+### `UefiCsp`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\UefiCsp.dll`
+##### `C:\Windows\System32\UefiCsp.dll`
 * ThreadingModel: `free`
 
 ## Instance

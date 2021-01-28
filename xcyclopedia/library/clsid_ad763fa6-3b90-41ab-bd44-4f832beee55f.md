@@ -5,19 +5,19 @@ excerpt: What is COM-Object CLSID ad763fa6-3b90-41ab-bd44-4f832beee55f?
 
 # {ad763fa6-3b90-41ab-bd44-4f832beee55f}
 
-* `Windows Media Network Source Plugin`
+### `Windows Media Network Source Plugin`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\WMNetMgr.dll`
+##### `C:\Windows\System32\WMNetMgr.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `WMNetSourcePlugin.NetSourcePlugin.1`
+##### `WMNetSourcePlugin.NetSourcePlugin.1`
 
 ### Properties
 
@@ -28,7 +28,7 @@ excerpt: What is COM-Object CLSID ad763fa6-3b90-41ab-bd44-4f832beee55f?
 
 ### VersionIndependentProgID
 
-* `WMNetSourcePlugin.NetSourcePlugin`
+##### `WMNetSourcePlugin.NetSourcePlugin`
 
 ## Instance
 

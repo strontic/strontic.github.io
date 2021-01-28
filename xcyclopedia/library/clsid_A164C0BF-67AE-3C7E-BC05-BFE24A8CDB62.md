@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID A164C0BF-67AE-3C7E-BC05-BFE24A8CDB62?
 
 # {A164C0BF-67AE-3C7E-BC05-BFE24A8CDB62}
 
-* `System.IO.IOException`
+### `System.IO.IOException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID A164C0BF-67AE-3C7E-BC05-BFE24A8CDB62?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.IO.IOException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.IO.IOException`
+##### `System.IO.IOException`
 
 ## Instance
 

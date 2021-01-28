@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID 8C836AF9-FFAC-11D0-8ED4-00C04FC2C17B?
 
 # {8C836AF9-FFAC-11D0-8ED4-00C04FC2C17B}
 
-* `ReplicateCatalog Class`
+### `ReplicateCatalog Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\comrepl.dll`
+##### `C:\Windows\System32\comrepl.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* `ReplicateCatalog.ReplicateCatalog.1`
+##### `ReplicateCatalog.ReplicateCatalog.1`
 
 ### VersionIndependentProgID
 
-* `ReplicateCatalog.ReplicateCatalog`
+##### `ReplicateCatalog.ReplicateCatalog`
 
 ## Instance
 

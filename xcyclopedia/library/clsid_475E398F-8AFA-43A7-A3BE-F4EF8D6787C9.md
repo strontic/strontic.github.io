@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 475E398F-8AFA-43A7-A3BE-F4EF8D6787C9?
 
 # {475E398F-8AFA-43A7-A3BE-F4EF8D6787C9}
 
-* `System.Runtime.InteropServices.RegistrationServices`
+### `System.Runtime.InteropServices.RegistrationServices`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 475E398F-8AFA-43A7-A3BE-F4EF8D6787C9?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.InteropServices.RegistrationServices`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Runtime.InteropServices.RegistrationServices`
+##### `System.Runtime.InteropServices.RegistrationServices`
 
 ## Instance
 

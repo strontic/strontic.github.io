@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID D74D613D-F27F-311B-A9A3-27EBC63A1A5D?
 
 # {D74D613D-F27F-311B-A9A3-27EBC63A1A5D}
 
-* `System.Threading.Mutex`
+### `System.Threading.Mutex`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID D74D613D-F27F-311B-A9A3-27EBC63A1A5D?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Threading.Mutex`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Threading.Mutex`
+##### `System.Threading.Mutex`
 
 ## Instance
 

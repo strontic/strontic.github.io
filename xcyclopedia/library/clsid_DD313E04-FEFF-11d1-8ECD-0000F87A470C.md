@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID DD313E04-FEFF-11d1-8ECD-0000F87A470C?
 
 # {DD313E04-FEFF-11d1-8ECD-0000F87A470C}
 
-* `User Assist`
+### `User Assist`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\shell32.dll`
+##### `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 6B127DF8-E5D6-42CA-B6A8-2FDA5F7FAB17?
 
 # {6B127DF8-E5D6-42CA-B6A8-2FDA5F7FAB17}
 
-* `WebTokenResponse Object`
+### `WebTokenResponse Object`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID 6B127DF8-E5D6-42CA-B6A8-2FDA5F7FAB17?
 
 ### InprocServer32
 
-* `C:\Windows\System32\Windows.Security.Authentication.Web.Core.dll`
+##### `C:\Windows\System32\Windows.Security.Authentication.Web.Core.dll`
 * ThreadingModel: `Both`
 
 ## Instance

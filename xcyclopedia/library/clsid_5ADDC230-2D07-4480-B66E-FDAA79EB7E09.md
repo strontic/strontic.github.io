@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 5ADDC230-2D07-4480-B66E-FDAA79EB7E09?
 
 # {5ADDC230-2D07-4480-B66E-FDAA79EB7E09}
 
-* `CLSID_GipTsf3`
+### `CLSID_GipTsf3`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\tsf3gip.dll`
+##### `C:\Windows\System32\tsf3gip.dll`
 * ThreadingModel: `Both`
 
 ## Instance

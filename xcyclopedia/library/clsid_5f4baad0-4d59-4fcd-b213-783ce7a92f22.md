@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 5f4baad0-4d59-4fcd-b213-783ce7a92f22?
 
 # {5f4baad0-4d59-4fcd-b213-783ce7a92f22}
 
-* `WIA Event Prompt Class`
+### `WIA Event Prompt Class`
 * AppID: `{E32549C4-C2B8-4BCC-90D7-0FC3511092BB}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID 5f4baad0-4d59-4fcd-b213-783ce7a92f22?
 
 ### LocalServer32
 
-* `C:\Windows\System32\wiaacmgr.exe`
+##### `C:\Windows\System32\wiaacmgr.exe`
 
 ## Instance
 

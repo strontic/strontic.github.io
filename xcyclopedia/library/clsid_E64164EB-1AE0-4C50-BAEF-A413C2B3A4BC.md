@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID E64164EB-1AE0-4C50-BAEF-A413C2B3A4BC?
 
 # {E64164EB-1AE0-4C50-BAEF-A413C2B3A4BC}
 
-* `Microsoft 3MF Shell Thumbnail and Preview Handler`
+### `Microsoft 3MF Shell Thumbnail and Preview Handler`
 * AppID: `{6d2b5079-2f0b-48dd-ab7f-97cec514d30b}`
 * DisableProcessIsolation: `1`
 * DisplayName: `Microsoft 3MF Shell Thumbnail and Preview Handler`
@@ -15,16 +15,16 @@ excerpt: What is COM-Object CLSID E64164EB-1AE0-4C50-BAEF-A413C2B3A4BC?
 
 ### InprocServer32
 
-* `C:\Windows\system32\ms3dthumbnailprovider.DLL`
+##### `C:\Windows\system32\ms3dthumbnailprovider.DLL`
 * ThreadingModel: `Apartment`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgID
 
-* `Microsoft.3MF.Shell.Thumbnail`
+##### `Microsoft.3MF.Shell.Thumbnail`
 
 ## Instance
 

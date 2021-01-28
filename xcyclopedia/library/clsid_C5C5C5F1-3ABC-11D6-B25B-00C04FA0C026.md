@@ -5,34 +5,34 @@ excerpt: What is COM-Object CLSID C5C5C5F1-3ABC-11D6-B25B-00C04FA0C026?
 
 # {C5C5C5F1-3ABC-11D6-B25B-00C04FA0C026}
 
-* `EvalRat Class`
+### `EvalRat Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\tvratings.dll`
+##### `C:\Windows\System32\tvratings.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `TvRatings.EvalRat.1`
+##### `TvRatings.EvalRat.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* `{C5C5C500-3ABC-11D6-B25B-00C04FA0C026}`
+##### `{C5C5C500-3ABC-11D6-B25B-00C04FA0C026}`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgID
 
-* `TvRatings.EvalRat`
+##### `TvRatings.EvalRat`
 
 ## Instance
 

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 0C7EFBDE-0303-4c6f-A4F7-31FA2BE5E397?
 
 # {0C7EFBDE-0303-4c6f-A4F7-31FA2BE5E397}
 
-* `AlphaImageLoader`
+### `AlphaImageLoader`
 
 ## Registry
 
@@ -18,23 +18,23 @@ excerpt: What is COM-Object CLSID 0C7EFBDE-0303-4c6f-A4F7-31FA2BE5E397?
 
 ### InprocServer32
 
-* `C:\Windows\System32\Dxtmsft.dll`
+##### `C:\Windows\System32\Dxtmsft.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `DXImageTransform.Microsoft.AlphaImageLoader.1`
+##### `DXImageTransform.Microsoft.AlphaImageLoader.1`
 
 ### Programmable
 
 
 ### ToolBoxBitmap32
 
-* `C:\Windows\System32\Dxtmsft.dll,235`
+##### `C:\Windows\System32\Dxtmsft.dll,235`
 
 ### VersionIndependentProgID
 
-* `DXImageTransform.Microsoft.AlphaImageLoader`
+##### `DXImageTransform.Microsoft.AlphaImageLoader`
 
 ## Instance
 

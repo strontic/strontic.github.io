@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID F77C0A7D-7395-45c5-BDFC-B096BF6C4DA0?
 
 # {F77C0A7D-7395-45c5-BDFC-B096BF6C4DA0}
 
-* `Bluewire Paired Devices Menu`
+### `Bluewire Paired Devices Menu`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\BWContextHandler.dll`
+##### `C:\Windows\system32\BWContextHandler.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

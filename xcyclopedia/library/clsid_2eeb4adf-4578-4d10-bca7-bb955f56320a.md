@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 2eeb4adf-4578-4d10-bca7-bb955f56320a?
 
 # {2eeb4adf-4578-4d10-bca7-bb955f56320a}
 
-* `WMAudio Decoder DMO`
+### `WMAudio Decoder DMO`
 * Merit: `8390656`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID 2eeb4adf-4578-4d10-bca7-bb955f56320a?
 
 ### InprocServer32
 
-* `C:\Windows\System32\WMADMOD.DLL`
+##### `C:\Windows\System32\WMADMOD.DLL`
 * ThreadingModel: `Both`
 
 ## Instance

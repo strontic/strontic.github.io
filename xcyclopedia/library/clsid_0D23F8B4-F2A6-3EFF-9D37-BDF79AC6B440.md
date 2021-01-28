@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 0D23F8B4-F2A6-3EFF-9D37-BDF79AC6B440?
 
 # {0D23F8B4-F2A6-3EFF-9D37-BDF79AC6B440}
 
-* `System.Reflection.TargetException`
+### `System.Reflection.TargetException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 0D23F8B4-F2A6-3EFF-9D37-BDF79AC6B440?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Reflection.TargetException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Reflection.TargetException`
+##### `System.Reflection.TargetException`
 
 ## Instance
 

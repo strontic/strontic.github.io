@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID D7C3453E-1F1C-48CD-AFE6-CFF2A937D337?
 
 ### InprocServer32
 
-* `C:\Windows\System32\wbem\RacWmiProv.dll`
+##### `C:\Windows\System32\wbem\RacWmiProv.dll`
 * ThreadingModel: `Both`
 
 ## Instance

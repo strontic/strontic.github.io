@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID ed50fc29-b964-48a9-afb3-15ebb9b97f36?
 
 # {ed50fc29-b964-48a9-afb3-15ebb9b97f36}
 
-* `printhood delegate folder`
+### `printhood delegate folder`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\shell32.dll`
+##### `C:\Windows\System32\shell32.dll`
 * ThreadingModel: `Both`
 
 ### Instance

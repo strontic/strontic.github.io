@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID B6390DB1-4C44-4BA4-BA51-BBF4BED47C37?
 
 # {B6390DB1-4C44-4BA4-BA51-BBF4BED47C37}
 
-* `XblAuthManagerProxyStubFactory`
+### `XblAuthManagerProxyStubFactory`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\XblAuthManagerProxy.dll`
+##### `C:\Windows\System32\XblAuthManagerProxy.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

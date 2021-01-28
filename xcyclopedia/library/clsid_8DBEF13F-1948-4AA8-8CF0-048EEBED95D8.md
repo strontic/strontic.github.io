@@ -5,31 +5,31 @@ excerpt: What is COM-Object CLSID 8DBEF13F-1948-4AA8-8CF0-048EEBED95D8?
 
 # {8DBEF13F-1948-4AA8-8CF0-048EEBED95D8}
 
-* `SpCustomStream Class`
+### `SpCustomStream Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\Speech\Common\sapi.dll`
+##### `C:\Windows\System32\Speech\Common\sapi.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `SAPI.SpCustomStream.1`
+##### `SAPI.SpCustomStream.1`
 
 ### TypeLib
 
-* `{C866CA3A-32F7-11D2-9602-00C04F8EE628}`
+##### `{C866CA3A-32F7-11D2-9602-00C04F8EE628}`
 
 ### Version
 
-* `5.4`
+##### `5.4`
 
 ### VersionIndependentProgID
 
-* `SAPI.SpCustomStream`
+##### `SAPI.SpCustomStream`
 
 ## Instance
 

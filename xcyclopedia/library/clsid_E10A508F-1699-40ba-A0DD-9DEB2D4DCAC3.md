@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID E10A508F-1699-40ba-A0DD-9DEB2D4DCAC3?
 
 ### InprocServer32
 
-* `C:\Windows\System32\catsrvut.dll`
+##### `C:\Windows\System32\catsrvut.dll`
 * ThreadingModel: `Both`
 
 ## Instance

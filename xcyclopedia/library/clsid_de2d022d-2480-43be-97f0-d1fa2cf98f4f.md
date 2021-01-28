@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID de2d022d-2480-43be-97f0-d1fa2cf98f4f?
 
 # {de2d022d-2480-43be-97f0-d1fa2cf98f4f}
 
-* `Provides IPortableDeviceKeyCollection helper methods for portable devices applications and drivers`
+### `Provides IPortableDeviceKeyCollection helper methods for portable devices applications and drivers`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\PortableDeviceTypes.dll`
+##### `C:\Windows\System32\PortableDeviceTypes.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 51C0B2CF-5994-4c2c-93F1-1C2CE21DFF4B?
 
 # {51C0B2CF-5994-4c2c-93F1-1C2CE21DFF4B}
 
-* `NarratorTreeView Class`
+### `NarratorTreeView Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\srh.dll`
+##### `C:\Windows\System32\srh.dll`
 * ThreadingModel: `Both`
 
 ## Instance

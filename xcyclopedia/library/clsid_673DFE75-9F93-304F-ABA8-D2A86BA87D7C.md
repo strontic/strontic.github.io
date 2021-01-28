@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 673DFE75-9F93-304F-ABA8-D2A86BA87D7C?
 
 # {673DFE75-9F93-304F-ABA8-D2A86BA87D7C}
 
-* `System.Security.Cryptography.DSACryptoServiceProvider`
+### `System.Security.Cryptography.DSACryptoServiceProvider`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 673DFE75-9F93-304F-ABA8-D2A86BA87D7C?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.Cryptography.DSACryptoServiceProvider`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Security.Cryptography.DSACryptoServiceProvider`
+##### `System.Security.Cryptography.DSACryptoServiceProvider`
 
 ## Instance
 

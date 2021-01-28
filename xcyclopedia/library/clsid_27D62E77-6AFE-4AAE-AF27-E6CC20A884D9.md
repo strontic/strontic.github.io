@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 27D62E77-6AFE-4AAE-AF27-E6CC20A884D9?
 
 # {27D62E77-6AFE-4AAE-AF27-E6CC20A884D9}
 
-* `SpVAMaster Class`
+### `SpVAMaster Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\Speech_OneCore\Common\sapi_onecore.dll`
+##### `C:\Windows\System32\Speech_OneCore\Common\sapi_onecore.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

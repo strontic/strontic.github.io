@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 0dec7d0c-bd63-4759-aa64-adefd70dcf9a?
 
 ### InProcServer32
 
-* `C:\Windows\System32\Windows.UI.Immersive.dll`
+##### `C:\Windows\System32\Windows.UI.Immersive.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

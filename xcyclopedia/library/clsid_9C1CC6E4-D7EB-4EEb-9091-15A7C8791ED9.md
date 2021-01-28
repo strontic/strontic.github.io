@@ -5,26 +5,26 @@ excerpt: What is COM-Object CLSID 9C1CC6E4-D7EB-4EEb-9091-15A7C8791ED9?
 
 # {9C1CC6E4-D7EB-4EEb-9091-15A7C8791ED9}
 
-* `InkRenderer Class`
+### `InkRenderer Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Program Files\Common Files\Microsoft Shared\Ink\InkObj.dll`
+##### `C:\Program Files\Common Files\Microsoft Shared\Ink\InkObj.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `msinkaut.InkRenderer.1`
+##### `msinkaut.InkRenderer.1`
 
 ### Programmable
 
 
 ### VersionIndependentProgID
 
-* `msinkaut.InkRenderer`
+##### `msinkaut.InkRenderer`
 
 ## Instance
 

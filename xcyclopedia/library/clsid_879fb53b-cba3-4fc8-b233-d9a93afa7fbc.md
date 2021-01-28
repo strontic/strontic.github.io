@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 879fb53b-cba3-4fc8-b233-d9a93afa7fbc?
 
 # {879fb53b-cba3-4fc8-b233-d9a93afa7fbc}
 
-* `HomeGroup Task`
+### `HomeGroup Task`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\hgcpl.dll`
+##### `C:\Windows\system32\hgcpl.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID E1D0AB13-2FE6-4DF0-8917-ED80CF0FEF6B?
 
 ### InprocServer32
 
-* `C:\Program Files\Common Files\Microsoft Shared\Ink\InkObj.dll`
+##### `C:\Program Files\Common Files\Microsoft Shared\Ink\InkObj.dll`
 * ThreadingModel: `Both`
 
 ## Instance

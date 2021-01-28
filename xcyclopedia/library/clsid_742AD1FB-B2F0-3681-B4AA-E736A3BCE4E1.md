@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 742AD1FB-B2F0-3681-B4AA-E736A3BCE4E1?
 
 # {742AD1FB-B2F0-3681-B4AA-E736A3BCE4E1}
 
-* `System.Runtime.InteropServices.MarshalDirectiveException`
+### `System.Runtime.InteropServices.MarshalDirectiveException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 742AD1FB-B2F0-3681-B4AA-E736A3BCE4E1?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.InteropServices.MarshalDirectiveException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Runtime.InteropServices.MarshalDirectiveException`
+##### `System.Runtime.InteropServices.MarshalDirectiveException`
 
 ## Instance
 

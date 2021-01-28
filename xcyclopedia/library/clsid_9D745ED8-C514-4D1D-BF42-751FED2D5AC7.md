@@ -5,19 +5,19 @@ excerpt: What is COM-Object CLSID 9D745ED8-C514-4D1D-BF42-751FED2D5AC7?
 
 # {9D745ED8-C514-4D1D-BF42-751FED2D5AC7}
 
-* `HNetCfg.FwProduct`
+### `HNetCfg.FwProduct`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\FirewallAPI.dll`
+##### `C:\Windows\System32\FirewallAPI.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `HNetCfg.FwProduct`
+##### `HNetCfg.FwProduct`
 
 ## Instance
 

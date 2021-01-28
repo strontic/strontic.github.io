@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID 4fe2776b-b0f9-4396-b5fc-e9d4cf1ec195?
 
 # {4fe2776b-b0f9-4396-b5fc-e9d4cf1ec195}
 
-* `ImePlugInDictDictionaryList_JPN Class`
+### `ImePlugInDictDictionaryList_JPN Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\IME\IMEJP\imjpdapi.dll`
+##### `C:\Windows\System32\IME\IMEJP\imjpdapi.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `ImePlugInDictDictionaryList1041.15`
+##### `ImePlugInDictDictionaryList1041.15`
 
 ### VersionIndependentProgID
 
-* `ImePlugInDictDictionaryList1041`
+##### `ImePlugInDictDictionaryList1041`
 
 ## Instance
 

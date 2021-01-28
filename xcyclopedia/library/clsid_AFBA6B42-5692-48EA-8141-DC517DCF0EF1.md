@@ -5,31 +5,31 @@ excerpt: What is COM-Object CLSID AFBA6B42-5692-48EA-8141-DC517DCF0EF1?
 
 # {AFBA6B42-5692-48EA-8141-DC517DCF0EF1}
 
-* `Server XML HTTP`
+### `Server XML HTTP`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\msxml3.dll`
+##### `C:\Windows\System32\msxml3.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* `Msxml2.ServerXMLHTTP`
+##### `Msxml2.ServerXMLHTTP`
 
 ### TypeLib
 
-* `{F5078F18-C551-11D3-89B9-0000F81FE221}`
+##### `{F5078F18-C551-11D3-89B9-0000F81FE221}`
 
 ### Version
 
-* `3.0`
+##### `3.0`
 
 ### VersionIndependentProgID
 
-* `Msxml2.ServerXMLHTTP`
+##### `Msxml2.ServerXMLHTTP`
 
 ## Instance
 

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID F9769A06-7ACA-4E39-9CFB-97BB35F0E77E?
 
 # {F9769A06-7ACA-4E39-9CFB-97BB35F0E77E}
 
-* `BDA Tuning Model Auxiliary Inputs Tuning Space`
+### `BDA Tuning Model Auxiliary Inputs Tuning Space`
 
 ## Registry
 
@@ -18,27 +18,27 @@ excerpt: What is COM-Object CLSID F9769A06-7ACA-4E39-9CFB-97BB35F0E77E?
 
 ### InprocServer32
 
-* `C:\Windows\System32\msvidctl.dll`
+##### `C:\Windows\System32\msvidctl.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `BDATuner.AuxiliaryInTuningSpace.1`
+##### `BDATuner.AuxiliaryInTuningSpace.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* `{9B085638-018E-11D3-9D8E-00C04F72D980}`
+##### `{9B085638-018E-11D3-9D8E-00C04F72D980}`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgID
 
-* `BDATuner.AuxiliaryInTuningSpace`
+##### `BDATuner.AuxiliaryInTuningSpace`
 
 ## Instance
 

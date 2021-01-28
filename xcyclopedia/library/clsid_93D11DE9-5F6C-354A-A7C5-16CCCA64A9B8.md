@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 93D11DE9-5F6C-354A-A7C5-16CCCA64A9B8?
 
 # {93D11DE9-5F6C-354A-A7C5-16CCCA64A9B8}
 
-* `System.Reflection.ObfuscationAttribute`
+### `System.Reflection.ObfuscationAttribute`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 93D11DE9-5F6C-354A-A7C5-16CCCA64A9B8?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Reflection.ObfuscationAttribute`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Reflection.ObfuscationAttribute`
+##### `System.Reflection.ObfuscationAttribute`
 
 ## Instance
 

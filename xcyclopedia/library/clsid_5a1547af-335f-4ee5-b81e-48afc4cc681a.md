@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 5a1547af-335f-4ee5-b81e-48afc4cc681a?
 
 # {5a1547af-335f-4ee5-b81e-48afc4cc681a}
 
-* `WebPlatStorageBroker Class`
+### `WebPlatStorageBroker Class`
 * AppID: `{7966b4d8-4fdc-4126-a10b-39a3209ad251}`
 
 ## Registry
@@ -13,16 +13,16 @@ excerpt: What is COM-Object CLSID 5a1547af-335f-4ee5-b81e-48afc4cc681a?
 
 ### InprocServer32
 
-* `C:\Windows\System32\webplatstorageserver.dll`
+##### `C:\Windows\System32\webplatstorageserver.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `WebPlatStorageBroker.WebPlatStorageBroker.1`
+##### `WebPlatStorageBroker.WebPlatStorageBroker.1`
 
 ### VersionIndependentProgID
 
-* `WebPlatStorageBroker.WebPlatStorageBroker`
+##### `WebPlatStorageBroker.WebPlatStorageBroker`
 
 ## Instance
 

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 8E908FC9-BECC-40f6-915B-F4CA0E70D03D?
 
 # {8E908FC9-BECC-40f6-915B-F4CA0E70D03D}
 
-* `Network and Sharing Center`
+### `Network and Sharing Center`
 * InfoTip: `@C:\Windows\System32\netcenter.dll,-2#immutable1`
 * LocalizedString: `@C:\Windows\System32\netcenter.dll,-1#immutable1`
 * System.ApplicationName: `Microsoft.NetworkAndSharingCenter`
@@ -18,11 +18,11 @@ excerpt: What is COM-Object CLSID 8E908FC9-BECC-40f6-915B-F4CA0E70D03D?
 
 ### DefaultIcon
 
-* `C:\Windows\System32\netcenter.dll,-1`
+##### `C:\Windows\System32\netcenter.dll,-1`
 
 ### InProcServer32
 
-* `C:\Windows\System32\shdocvw.dll`
+##### `C:\Windows\System32\shdocvw.dll`
 * ThreadingModel: `Apartment`
 
 ### Instance

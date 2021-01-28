@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID a893aa73-054f-4dbc-9e53-f4ee5fe07fd3?
 
 # {a893aa73-054f-4dbc-9e53-f4ee5fe07fd3}
 
-* `Cached File Updater Merge Handler`
+### `Cached File Updater Merge Handler`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID a893aa73-054f-4dbc-9e53-f4ee5fe07fd3?
 
 ### InProcServer32
 
-* `C:\Windows\system32\windows.storage.dll`
+##### `C:\Windows\system32\windows.storage.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID ec05b81f-ec57-47c9-a6ce-eebc9b35861b?
 
 # {ec05b81f-ec57-47c9-a6ce-eebc9b35861b}
 
-* `Override Scaling`
+### `Override Scaling`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\twinui.dll`
+##### `C:\Windows\system32\twinui.dll`
 * ThreadingModel: `Both`
 
 ## Instance

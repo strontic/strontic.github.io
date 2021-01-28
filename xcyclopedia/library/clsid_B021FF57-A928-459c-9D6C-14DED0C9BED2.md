@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID B021FF57-A928-459c-9D6C-14DED0C9BED2?
 
 # {B021FF57-A928-459c-9D6C-14DED0C9BED2}
 
-* `PrinterQueueView Class`
+### `PrinterQueueView Class`
 
 ## Registry
 
@@ -15,16 +15,16 @@ excerpt: What is COM-Object CLSID B021FF57-A928-459c-9D6C-14DED0C9BED2?
 
 ### InprocServer32
 
-* `C:\Windows\System32\puiobj.dll`
+##### `C:\Windows\System32\puiobj.dll`
 * ThreadingModel: `Apartment`
 
 ### MiscStatus
 
-* `0`
+##### `0`
 
 ### (1)
 
-* `131473`
+##### `131473`
 
 ## Instance
 

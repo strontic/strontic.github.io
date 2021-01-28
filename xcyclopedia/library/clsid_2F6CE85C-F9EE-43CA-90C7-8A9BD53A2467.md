@@ -5,18 +5,18 @@ excerpt: What is COM-Object CLSID 2F6CE85C-F9EE-43CA-90C7-8A9BD53A2467?
 
 # {2F6CE85C-F9EE-43CA-90C7-8A9BD53A2467}
 
-* `FileHistoryDataSource`
+### `FileHistoryDataSource`
 
 ## Registry
 
 
 ### DefaultIcon
 
-* `FileHistory.exe,0`
+##### `FileHistory.exe,0`
 
 ### InProcServer32
 
-* `C:\Windows\System32\fhshl.dll`
+##### `C:\Windows\System32\fhshl.dll`
 * ThreadingModel: `Apartment`
 
 ### ShellFolder

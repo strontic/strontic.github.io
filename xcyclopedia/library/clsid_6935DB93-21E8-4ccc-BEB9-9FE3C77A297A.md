@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 6935DB93-21E8-4ccc-BEB9-9FE3C77A297A?
 
 # {6935DB93-21E8-4ccc-BEB9-9FE3C77A297A}
 
-* `Custom MRU AutoCompleted List`
+### `Custom MRU AutoCompleted List`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\shell32.dll`
+##### `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 3050f6cd-98b5-11cf-bb82-00aa00bdce0b?
 
 # {3050f6cd-98b5-11cf-bb82-00aa00bdce0b}
 
-* `HeaderFooter class`
+### `HeaderFooter class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\iepeers.dll`
+##### `C:\Windows\System32\iepeers.dll`
 * ThreadingModel: `Apartment`
 
 ### Programmable

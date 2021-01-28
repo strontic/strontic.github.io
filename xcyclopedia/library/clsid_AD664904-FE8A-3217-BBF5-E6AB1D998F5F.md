@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID AD664904-FE8A-3217-BBF5-E6AB1D998F5F?
 
 # {AD664904-FE8A-3217-BBF5-E6AB1D998F5F}
 
-* `System.Security.Permissions.HostProtectionAttribute`
+### `System.Security.Permissions.HostProtectionAttribute`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID AD664904-FE8A-3217-BBF5-E6AB1D998F5F?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.Permissions.HostProtectionAttribute`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Security.Permissions.HostProtectionAttribute`
+##### `System.Security.Permissions.HostProtectionAttribute`
 
 ## Instance
 

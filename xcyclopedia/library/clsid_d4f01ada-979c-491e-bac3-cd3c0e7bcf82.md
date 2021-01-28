@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID d4f01ada-979c-491e-bac3-cd3c0e7bcf82?
 
 # {d4f01ada-979c-491e-bac3-cd3c0e7bcf82}
 
-* `Online Id Filter`
+### `Online Id Filter`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\ntshrui.dll`
+##### `C:\Windows\system32\ntshrui.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

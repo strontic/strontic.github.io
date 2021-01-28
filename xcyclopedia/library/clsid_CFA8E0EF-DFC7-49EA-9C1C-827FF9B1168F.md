@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID CFA8E0EF-DFC7-49EA-9C1C-827FF9B1168F?
 
 # {CFA8E0EF-DFC7-49EA-9C1C-827FF9B1168F}
 
-* `lockframework`
+### `lockframework`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\lockappbroker.dll`
+##### `C:\Windows\System32\lockappbroker.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

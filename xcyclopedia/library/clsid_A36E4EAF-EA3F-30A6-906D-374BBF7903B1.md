@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID A36E4EAF-EA3F-30A6-906D-374BBF7903B1?
 
 # {A36E4EAF-EA3F-30A6-906D-374BBF7903B1}
 
-* `System.Runtime.Remoting.Contexts.Context`
+### `System.Runtime.Remoting.Contexts.Context`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID A36E4EAF-EA3F-30A6-906D-374BBF7903B1?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.Remoting.Contexts.Context`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Runtime.Remoting.Contexts.Context`
+##### `System.Runtime.Remoting.Contexts.Context`
 
 ## Instance
 

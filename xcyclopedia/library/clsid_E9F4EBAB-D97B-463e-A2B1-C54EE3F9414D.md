@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID E9F4EBAB-D97B-463e-A2B1-C54EE3F9414D?
 
 # {E9F4EBAB-D97B-463e-A2B1-C54EE3F9414D}
 
-* `Net Scheme Handler`
+### `Net Scheme Handler`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\mfnetsrc.dll`
+##### `C:\Windows\System32\mfnetsrc.dll`
 * ThreadingModel: `Both`
 
 ## Instance

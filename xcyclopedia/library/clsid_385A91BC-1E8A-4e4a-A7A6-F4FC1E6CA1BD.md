@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 385A91BC-1E8A-4e4a-A7A6-F4FC1E6CA1BD?
 
 # {385A91BC-1E8A-4e4a-A7A6-F4FC1E6CA1BD}
 
-* `DXTFilter`
+### `DXTFilter`
 
 ## Registry
 
@@ -15,27 +15,27 @@ excerpt: What is COM-Object CLSID 385A91BC-1E8A-4e4a-A7A6-F4FC1E6CA1BD?
 
 ### InprocServer32
 
-* `C:\Windows\System32\Dxtrans.dll`
+##### `C:\Windows\System32\Dxtrans.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* `Object.Microsoft.DXTFilter.1`
+##### `Object.Microsoft.DXTFilter.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* `{54314D1D-35FE-11d1-81A1-0000F87557DB}`
+##### `{54314D1D-35FE-11d1-81A1-0000F87557DB}`
 
 ### Version
 
-* `1.1`
+##### `1.1`
 
 ### VersionIndependentProgID
 
-* `Object.Microsoft.DXTFilter`
+##### `Object.Microsoft.DXTFilter`
 
 ## Instance
 

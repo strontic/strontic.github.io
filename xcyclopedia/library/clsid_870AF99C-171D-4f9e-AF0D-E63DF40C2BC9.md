@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 870AF99C-171D-4f9e-AF0D-E63DF40C2BC9?
 
 ### InProcServer32
 
-* `C:\Windows\System32\AudioSes.dll`
+##### `C:\Windows\System32\AudioSes.dll`
 * ThreadingModel: `Both`
 
 ## Instance

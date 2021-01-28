@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 6785BFAC-9D2D-4be5-B7E2-59937E8FB80A?
 
 # {6785BFAC-9D2D-4be5-B7E2-59937E8FB80A}
 
-* `Other Users Folder`
+### `Other Users Folder`
 * LocalizedString: `@C:\Windows\system32\shell32.dll,-50688`
 * SortOrderIndex: `68`
 
@@ -14,7 +14,7 @@ excerpt: What is COM-Object CLSID 6785BFAC-9D2D-4be5-B7E2-59937E8FB80A?
 
 ### InProcServer32
 
-* `C:\Windows\system32\shell32.dll`
+##### `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ### ShellFolder

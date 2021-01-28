@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 9A4948D9-13FC-4FAC-B60A-FBA6EE0FB11C?
 
 # {9A4948D9-13FC-4FAC-B60A-FBA6EE0FB11C}
 
-* `SLSClient`
+### `SLSClient`
 * AppID: `{50E1C3FD-EC35-490E-9CCF-C68F9AE91919}`
 
 ## Registry
@@ -13,12 +13,12 @@ excerpt: What is COM-Object CLSID 9A4948D9-13FC-4FAC-B60A-FBA6EE0FB11C?
 
 ### InProcServer32
 
-* `C:\Windows\System32\wuapi.dll`
+##### `C:\Windows\System32\wuapi.dll`
 * ThreadingModel: `Both`
 
 ### LocalServer32
 
-* `C:\Windows\System32\wuapihost.exe`
+##### `C:\Windows\System32\wuapihost.exe`
 
 ## Instance
 

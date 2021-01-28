@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID B3EE7802-8224-4787-A1EA-F0DE16DEABD3?
 
 # {B3EE7802-8224-4787-A1EA-F0DE16DEABD3}
 
-* `CheckerBoard`
+### `CheckerBoard`
 
 ## Registry
 
@@ -18,23 +18,23 @@ excerpt: What is COM-Object CLSID B3EE7802-8224-4787-A1EA-F0DE16DEABD3?
 
 ### InprocServer32
 
-* `C:\Windows\System32\Dxtmsft.dll`
+##### `C:\Windows\System32\Dxtmsft.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `DXImageTransform.Microsoft.CheckerBoard.1`
+##### `DXImageTransform.Microsoft.CheckerBoard.1`
 
 ### Programmable
 
 
 ### ToolBoxBitmap32
 
-* `C:\Windows\System32\Dxtmsft.dll,235`
+##### `C:\Windows\System32\Dxtmsft.dll,235`
 
 ### VersionIndependentProgID
 
-* `DXImageTransform.Microsoft.CheckerBoard`
+##### `DXImageTransform.Microsoft.CheckerBoard`
 
 ## Instance
 

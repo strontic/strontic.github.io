@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 527c9a9b-b9a2-44b0-84f9-f0dc11c2bcfb?
 
 # {527c9a9b-b9a2-44b0-84f9-f0dc11c2bcfb}
 
-* `Microsoft DocProp Static Property Control`
+### `Microsoft DocProp Static Property Control`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\shell32.dll`
+##### `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 95B4ABA8-6D5B-4F99-9A9D-4A5EF4C75AFD?
 
 # {95B4ABA8-6D5B-4F99-9A9D-4A5EF4C75AFD}
 
-* `JumpViewExperienceManagerFactory`
+### `JumpViewExperienceManagerFactory`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\twinui.pcshell.dll`
+##### `C:\Windows\system32\twinui.pcshell.dll`
 * ThreadingModel: `Both`
 
 ## Instance

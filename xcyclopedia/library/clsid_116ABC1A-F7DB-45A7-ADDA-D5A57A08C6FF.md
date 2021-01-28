@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 116ABC1A-F7DB-45A7-ADDA-D5A57A08C6FF?
 
 # {116ABC1A-F7DB-45A7-ADDA-D5A57A08C6FF}
 
-* `Workspace Setup Input Page`
+### `Workspace Setup Input Page`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\tsworkspace.dll`
+##### `C:\Windows\System32\tsworkspace.dll`
 * ThreadingModel: `Apartment`
 
 MIT License. Copyright (c) 2021 Strontic.

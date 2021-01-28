@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID F72A76E0-EB0A-11D0-ACE4-0000C0CC16BA?
 
 # {F72A76E0-EB0A-11D0-ACE4-0000C0CC16BA}
 
-* `KsDataTypeHandlerVBI`
+### `KsDataTypeHandlerVBI`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\kswdmcap.ax`
+##### `C:\Windows\System32\kswdmcap.ax`
 * ThreadingModel: `Both`
 
 ## Instance

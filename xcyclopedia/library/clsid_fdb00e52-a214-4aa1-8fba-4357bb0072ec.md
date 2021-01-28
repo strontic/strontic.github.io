@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID fdb00e52-a214-4aa1-8fba-4357bb0072ec?
 
 # {fdb00e52-a214-4aa1-8fba-4357bb0072ec}
 
-* `Windows Antimalware Scan Interface implementation`
+### `Windows Antimalware Scan Interface implementation`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\system32\amsi.dll`
+##### `C:\Windows\system32\amsi.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

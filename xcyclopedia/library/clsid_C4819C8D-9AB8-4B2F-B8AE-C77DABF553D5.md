@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID C4819C8D-9AB8-4B2F-B8AE-C77DABF553D5?
 
 # {C4819C8D-9AB8-4B2F-B8AE-C77DABF553D5}
 
-* `Microsoft WBEM Current Time Provider`
+### `Microsoft WBEM Current Time Provider`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\system32\wbem\wmitimep.dll`
+##### `C:\Windows\system32\wbem\wmitimep.dll`
 * ThreadingModel: `Both`
 
 ## Instance

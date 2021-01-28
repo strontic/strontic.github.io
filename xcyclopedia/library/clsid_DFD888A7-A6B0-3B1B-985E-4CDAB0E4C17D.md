@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID DFD888A7-A6B0-3B1B-985E-4CDAB0E4C17D?
 
 # {DFD888A7-A6B0-3B1B-985E-4CDAB0E4C17D}
 
-* `System.Diagnostics.SymbolStore.SymLanguageVendor`
+### `System.Diagnostics.SymbolStore.SymLanguageVendor`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID DFD888A7-A6B0-3B1B-985E-4CDAB0E4C17D?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Diagnostics.SymbolStore.SymLanguageVendor`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Diagnostics.SymbolStore.SymLanguageVendor`
+##### `System.Diagnostics.SymbolStore.SymLanguageVendor`
 
 ## Instance
 

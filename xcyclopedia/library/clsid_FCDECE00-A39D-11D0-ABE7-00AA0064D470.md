@@ -5,26 +5,26 @@ excerpt: What is COM-Object CLSID FCDECE00-A39D-11D0-ABE7-00AA0064D470?
 
 # {FCDECE00-A39D-11D0-ABE7-00AA0064D470}
 
-* `ScriptoSys Class`
+### `ScriptoSys Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\scripto.dll`
+##### `C:\Windows\System32\scripto.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `ScriptoSys.Scripto.1`
+##### `ScriptoSys.Scripto.1`
 
 ### Programmable
 
 
 ### VersionIndependentProgID
 
-* `ScriptoSys.Scripto`
+##### `ScriptoSys.Scripto`
 
 ## Instance
 

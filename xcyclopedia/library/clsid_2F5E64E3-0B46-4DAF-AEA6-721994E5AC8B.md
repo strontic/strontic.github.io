@@ -5,27 +5,27 @@ excerpt: What is COM-Object CLSID 2F5E64E3-0B46-4DAF-AEA6-721994E5AC8B?
 
 # {2F5E64E3-0B46-4DAF-AEA6-721994E5AC8B}
 
-* `RootCATrustedCertificates`
+### `RootCATrustedCertificates`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\enterprisecsps.dll`
+##### `C:\Windows\System32\enterprisecsps.dll`
 * ThreadingModel: `Free`
 
 ### ProgId
 
-* `RootCATrustedCertificates`
+##### `RootCATrustedCertificates`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgId
 
-* `RootCATrustedCertificates`
+##### `RootCATrustedCertificates`
 
 ## Instance
 

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID C437AB2E-865B-321D-BA15-0C8EC4CA119B?
 
 # {C437AB2E-865B-321D-BA15-0C8EC4CA119B}
 
-* `System.Runtime.CompilerServices.NativeCppClassAttribute`
+### `System.Runtime.CompilerServices.NativeCppClassAttribute`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID C437AB2E-865B-321D-BA15-0C8EC4CA119B?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.CompilerServices.NativeCppClassAttribute`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Runtime.CompilerServices.NativeCppClassAttribute`
+##### `System.Runtime.CompilerServices.NativeCppClassAttribute`
 
 ## Instance
 

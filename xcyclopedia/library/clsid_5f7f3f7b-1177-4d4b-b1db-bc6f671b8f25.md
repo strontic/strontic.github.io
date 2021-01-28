@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 5f7f3f7b-1177-4d4b-b1db-bc6f671b8f25?
 
 # {5f7f3f7b-1177-4d4b-b1db-bc6f671b8f25}
 
-* `User OOBE Create User Object Server`
+### `User OOBE Create User Object Server`
 * AppID: `{5f7f3f7b-1177-4d4b-b1db-bc6f671b8f25}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID 5f7f3f7b-1177-4d4b-b1db-bc6f671b8f25?
 
 ### LocalServer32
 
-* `C:\Windows\System32\oobe\UserOOBEBroker.exe`
+##### `C:\Windows\System32\oobe\UserOOBEBroker.exe`
 
 ## Instance
 

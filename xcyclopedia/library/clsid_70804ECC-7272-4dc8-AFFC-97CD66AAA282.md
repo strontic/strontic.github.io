@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID 70804ECC-7272-4dc8-AFFC-97CD66AAA282?
 
 # {70804ECC-7272-4dc8-AFFC-97CD66AAA282}
 
-* `Windows Desktop Search Map Plugin`
+### `Windows Desktop Search Map Plugin`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\system32\mssrch.dll`
+##### `C:\Windows\system32\mssrch.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `Search.MapPI.1`
+##### `Search.MapPI.1`
 
 ### VersionIndependentProgID
 
-* `Search.MapPI`
+##### `Search.MapPI`
 
 ## Instance
 

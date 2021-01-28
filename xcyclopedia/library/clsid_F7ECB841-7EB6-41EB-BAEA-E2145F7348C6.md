@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID F7ECB841-7EB6-41EB-BAEA-E2145F7348C6?
 
 # {F7ECB841-7EB6-41EB-BAEA-E2145F7348C6}
 
-* `Wired Network Pre-CFE Page`
+### `Wired Network Pre-CFE Page`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\dot3conn.dll`
+##### `C:\Windows\system32\dot3conn.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

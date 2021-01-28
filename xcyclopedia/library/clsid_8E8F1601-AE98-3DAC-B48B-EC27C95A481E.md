@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 8E8F1601-AE98-3DAC-B48B-EC27C95A481E?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Text.DecoderExceptionFallbackBuffer`
 

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID f3d06e7c-1e45-4a26-847e-f9fcdee59be0?
 
 # {f3d06e7c-1e45-4a26-847e-f9fcdee59be0}
 
-* `Copy as Path Menu`
+### `Copy as Path Menu`
 * ContextMenuOptIn: ``
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID f3d06e7c-1e45-4a26-847e-f9fcdee59be0?
 
 ### InProcServer32
 
-* `C:\Windows\system32\shell32.dll`
+##### `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

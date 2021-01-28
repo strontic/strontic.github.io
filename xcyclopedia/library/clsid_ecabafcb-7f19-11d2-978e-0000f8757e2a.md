@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID ecabafcb-7f19-11d2-978e-0000f8757e2a?
 
 # {ecabafcb-7f19-11d2-978e-0000f8757e2a}
 
-* `QC Marshal Interceptor Class`
+### `QC Marshal Interceptor Class`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID ecabafcb-7f19-11d2-978e-0000f8757e2a?
 
 ### InprocServer32
 
-* `C:\Windows\System32\comsvcs.dll`
+##### `C:\Windows\System32\comsvcs.dll`
 * ThreadingModel: `Both`
 
 ## Instance

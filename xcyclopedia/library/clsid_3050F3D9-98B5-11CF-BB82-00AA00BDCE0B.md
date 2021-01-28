@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 3050F3D9-98B5-11CF-BB82-00AA00BDCE0B?
 
 # {3050F3D9-98B5-11CF-BB82-00AA00BDCE0B}
 
-* `MHTML Document`
+### `MHTML Document`
 
 ## Registry
 
@@ -15,20 +15,20 @@ excerpt: What is COM-Object CLSID 3050F3D9-98B5-11CF-BB82-00AA00BDCE0B?
 
 ### DefaultIcon
 
-* `C:\Program Files\Internet Explorer\iexplore.exe,-19`
+##### `C:\Program Files\Internet Explorer\iexplore.exe,-19`
 
 ### InProcServer32
 
-* `C:\Windows\System32\mshtml.dll`
+##### `C:\Windows\System32\mshtml.dll`
 * ThreadingModel: `Apartment`
 
 ### MiscStatus
 
-* `2228625`
+##### `2228625`
 
 ### ProgID
 
-* `mhtmlfile`
+##### `mhtmlfile`
 
 ## Instance
 

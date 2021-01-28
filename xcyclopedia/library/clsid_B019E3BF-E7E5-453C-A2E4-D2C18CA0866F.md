@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID B019E3BF-E7E5-453C-A2E4-D2C18CA0866F?
 
 # {B019E3BF-E7E5-453C-A2E4-D2C18CA0866F}
 
-* `FlashBroker`
+### `FlashBroker`
 * LocalizedString: `@C:\Windows\System32\Macromed\Flash\FlashUtil_ActiveX.exe,-101`
 
 ## Registry
@@ -17,11 +17,11 @@ excerpt: What is COM-Object CLSID B019E3BF-E7E5-453C-A2E4-D2C18CA0866F?
 
 ### LocalServer32
 
-* `"C:\Windows\System32\Macromed\Flash\FlashUtil_ActiveX.exe"`
+##### `"C:\Windows\System32\Macromed\Flash\FlashUtil_ActiveX.exe"`
 
 ### TypeLib
 
-* `{FAB3E735-69C7-453B-A446-B6823C6DF1C9}`
+##### `{FAB3E735-69C7-453B-A446-B6823C6DF1C9}`
 
 ## Instance
 

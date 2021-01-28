@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID CCF306AE-33BD-3003-9CCE-DAF5BEFEF611?
 
 # {CCF306AE-33BD-3003-9CCE-DAF5BEFEF611}
 
-* `System.OutOfMemoryException`
+### `System.OutOfMemoryException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID CCF306AE-33BD-3003-9CCE-DAF5BEFEF611?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.OutOfMemoryException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.OutOfMemoryException`
+##### `System.OutOfMemoryException`
 
 ## Instance
 

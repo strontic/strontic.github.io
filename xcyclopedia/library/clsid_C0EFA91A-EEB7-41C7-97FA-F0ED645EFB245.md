@@ -14,7 +14,7 @@ excerpt: What is COM-Object CLSID C0EFA91A-EEB7-41C7-97FA-F0ED645EFB245?
 
 ### (1)
 
-* `131473`
+##### `131473`
 
 MIT License. Copyright (c) 2021 Strontic.
 

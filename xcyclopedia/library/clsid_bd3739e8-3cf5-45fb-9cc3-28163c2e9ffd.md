@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID bd3739e8-3cf5-45fb-9cc3-28163c2e9ffd?
 
 ### InProcServer32
 
-* `C:\Windows\System32\usercpl.dll`
+##### `C:\Windows\System32\usercpl.dll`
 * ThreadingModel: `Both`
 
 ## Instance

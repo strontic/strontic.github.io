@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID CC20C6DF-A054-3F09-A5F5-A3B5A25F4CE6?
 
 # {CC20C6DF-A054-3F09-A5F5-A3B5A25F4CE6}
 
-* `System.DuplicateWaitObjectException`
+### `System.DuplicateWaitObjectException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID CC20C6DF-A054-3F09-A5F5-A3B5A25F4CE6?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.DuplicateWaitObjectException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.DuplicateWaitObjectException`
+##### `System.DuplicateWaitObjectException`
 
 ## Instance
 

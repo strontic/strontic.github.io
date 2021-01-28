@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 17CCA47D-DAE5-4E4A-AC42-CC54E28F334A?
 
 # {17CCA47D-DAE5-4E4A-AC42-CC54E28F334A}
 
-* `EditionUpgradeManager Class`
+### `EditionUpgradeManager Class`
 * AppID: `{BD54C901-076B-434E-B6C7-17C531F4AB41}`
 * LocalizedString: `@C:\Windows\System32\EditionUpgradeManagerObj.dll,-3100`
 
@@ -18,20 +18,20 @@ excerpt: What is COM-Object CLSID 17CCA47D-DAE5-4E4A-AC42-CC54E28F334A?
 
 ### InprocServer32
 
-* `C:\Windows\system32\EditionUpgradeManagerObj.dll`
+##### `C:\Windows\system32\EditionUpgradeManagerObj.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `EditionUpgradeManagerObj.EditionUpgradeManager.1`
+##### `EditionUpgradeManagerObj.EditionUpgradeManager.1`
 
 ### TypeLib
 
-* `{2909004A-90C2-4937-A407-2DF113C6A0CC}`
+##### `{2909004A-90C2-4937-A407-2DF113C6A0CC}`
 
 ### VersionIndependentProgID
 
-* `EditionUpgradeManagerObj.EditionUpgradeManager`
+##### `EditionUpgradeManagerObj.EditionUpgradeManager`
 
 ## Instance
 

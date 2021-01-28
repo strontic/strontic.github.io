@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 49EBD8BE-1A92-4A86-A651-70AC565E0FEB?
 
 # {49EBD8BE-1A92-4A86-A651-70AC565E0FEB}
 
-* `Telephony App Launcher Class`
+### `Telephony App Launcher Class`
 * AppId: `{49EBD8BE-1A92-4A86-A651-70AC565E0FEB}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID 49EBD8BE-1A92-4A86-A651-70AC565E0FEB?
 
 ### InprocServer32
 
-* `C:\Windows\System32\TelephonyInteractiveUser.dll`
+##### `C:\Windows\System32\TelephonyInteractiveUser.dll`
 * ThreadingModel: `Both`
 
 ## Instance

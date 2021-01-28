@@ -5,19 +5,19 @@ excerpt: What is COM-Object CLSID 882BC1E4-C79E-475D-8CC7-CC8D112FDB17?
 
 # {882BC1E4-C79E-475D-8CC7-CC8D112FDB17}
 
-* `RoamingSecurity Class`
+### `RoamingSecurity Class`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\RMSRoamingSecurity.dll`
+##### `C:\Windows\System32\RMSRoamingSecurity.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `RoamingSecurity.RoamingSecurity.2`
+##### `RoamingSecurity.RoamingSecurity.2`
 
 ## Instance
 

@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 0CF07551-EEF2-420C-B5AB-7E4FEB2249CF?
 
 ### InProcServer32
 
-* `C:\Windows\System32\AppxPackaging.dll`
+##### `C:\Windows\System32\AppxPackaging.dll`
 * ThreadingModel: `Both`
 
 ## Instance

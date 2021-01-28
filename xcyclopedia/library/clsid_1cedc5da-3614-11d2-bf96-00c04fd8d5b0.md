@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 1cedc5da-3614-11d2-bf96-00c04fd8d5b0?
 
 ### InProcServer32
 
-* `C:\Windows\system32\dsquery.dll`
+##### `C:\Windows\system32\dsquery.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

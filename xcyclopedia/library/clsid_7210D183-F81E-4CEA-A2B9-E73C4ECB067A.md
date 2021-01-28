@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID 7210D183-F81E-4CEA-A2B9-E73C4ECB067A?
 
 # {7210D183-F81E-4CEA-A2B9-E73C4ECB067A}
 
-* `Windows Search Service WinRT Protocol Handler`
+### `Windows Search Service WinRT Protocol Handler`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\system32\mssph.dll`
+##### `C:\Windows\system32\mssph.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `Search.WinRTHandler.1`
+##### `Search.WinRTHandler.1`
 
 ### VersionIndependentProgID
 
-* `Search.WinRTHandler`
+##### `Search.WinRTHandler`
 
 ## Instance
 

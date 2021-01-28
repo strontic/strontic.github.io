@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 8C9C0DB7-2CBA-40F1-AFE0-C55740DD91A0?
 
 # {8C9C0DB7-2CBA-40F1-AFE0-C55740DD91A0}
 
-* `Defender Shield Class`
+### `Defender Shield Class`
 * AppID: `{2EB6D15C-5239-41CF-82FB-353D20B816CF}`
 
 MIT License. Copyright (c) 2021 Strontic.

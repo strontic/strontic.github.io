@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID c0aa878e-97a5-44df-b7ef-2e732f7b2fec?
 
 # {c0aa878e-97a5-44df-b7ef-2e732f7b2fec}
 
-* `TC IME Handwriting Applet`
+### `TC IME Handwriting Applet`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID c0aa878e-97a5-44df-b7ef-2e732f7b2fec?
 
 ### InprocServer32
 
-* `C:\Windows\system32\IME\IMETC\applets\imtccac.dll`
+##### `C:\Windows\system32\IME\IMETC\applets\imtccac.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

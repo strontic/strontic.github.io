@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 32BA16FD-77D9-4AFB-9C9F-703E92AD4BFF?
 
 # {32BA16FD-77D9-4AFB-9C9F-703E92AD4BFF}
 
-* `CtTuner Class`
+### `CtTuner Class`
 * AppID: `{C3A34354-660F-41EE-B072-2AEA5E3A80AF}`
 * LocalizedString: `@C:\Windows\System32\cttunesvr.exe,-101`
 
@@ -18,18 +18,18 @@ excerpt: What is COM-Object CLSID 32BA16FD-77D9-4AFB-9C9F-703E92AD4BFF?
 
 ### LocalServer32
 
-* `C:\Windows\System32\cttunesvr.exe`
+##### `C:\Windows\System32\cttunesvr.exe`
 
 ### ProgID
 
-* `cttunesvr.CtTuner.1`
+##### `cttunesvr.CtTuner.1`
 
 ### Programmable
 
 
 ### VersionIndependentProgID
 
-* `cttunesvr.CtTuner`
+##### `cttunesvr.CtTuner`
 
 ## Instance
 

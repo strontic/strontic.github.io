@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID f0ce6592-5bce-41cc-bf2d-ec4f3f55e711?
 
 # {f0ce6592-5bce-41cc-bf2d-ec4f3f55e711}
 
-* `CStorageItemPropertiesProxy`
+### `CStorageItemPropertiesProxy`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\windows.storage.dll`
+##### `C:\Windows\system32\windows.storage.dll`
 * ThreadingModel: `Both`
 
 ## Instance

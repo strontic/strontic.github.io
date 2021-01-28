@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID A64CAF32-08CD-4054-BFD5-983BEDA9264A?
 
 # {A64CAF32-08CD-4054-BFD5-983BEDA9264A}
 
-* `WebProviderTokenRequest Object`
+### `WebProviderTokenRequest Object`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID A64CAF32-08CD-4054-BFD5-983BEDA9264A?
 
 ### InprocServer32
 
-* `C:\Windows\System32\Windows.Security.Authentication.Web.Core.dll`
+##### `C:\Windows\System32\Windows.Security.Authentication.Web.Core.dll`
 * ThreadingModel: `Both`
 
 ## Instance

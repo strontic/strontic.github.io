@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID DDC0EED2-ADBE-40b6-A217-EDE16A79A0DE?
 
 # {DDC0EED2-ADBE-40b6-A217-EDE16A79A0DE}
 
-* `GenericFilter`
+### `GenericFilter`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\credprovs.dll`
+##### `C:\Windows\system32\credprovs.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

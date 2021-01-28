@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID e916b6b2-22bd-4afc-b337-d3d9fb27670e?
 
 # {e916b6b2-22bd-4afc-b337-d3d9fb27670e}
 
-* `AudioCopy Class`
+### `AudioCopy Class`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\audioeng.dll`
+##### `C:\Windows\System32\audioeng.dll`
 * ThreadingModel: `Both`
 
 ## Instance

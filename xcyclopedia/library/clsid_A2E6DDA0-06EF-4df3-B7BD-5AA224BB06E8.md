@@ -5,35 +5,35 @@ excerpt: What is COM-Object CLSID A2E6DDA0-06EF-4df3-B7BD-5AA224BB06E8?
 
 # {A2E6DDA0-06EF-4df3-B7BD-5AA224BB06E8}
 
-* `ImageFile Class`
+### `ImageFile Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\wiaaut.dll`
+##### `C:\Windows\System32\wiaaut.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* `WIA.ImageFile.1`
+##### `WIA.ImageFile.1`
 
 ### Programmable
 
-* ``
+##### ``
 
 ### TypeLib
 
-* `{94A0E92D-43C0-494E-AC29-FD45948A5221}`
+##### `{94A0E92D-43C0-494E-AC29-FD45948A5221}`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgID
 
-* `WIA.ImageFile`
+##### `WIA.ImageFile`
 
 ## Instance
 

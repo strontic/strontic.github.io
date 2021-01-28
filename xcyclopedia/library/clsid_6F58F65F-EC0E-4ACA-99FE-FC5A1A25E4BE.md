@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 6F58F65F-EC0E-4ACA-99FE-FC5A1A25E4BE?
 
 # {6F58F65F-EC0E-4ACA-99FE-FC5A1A25E4BE}
 
-* `Language Components Installer`
+### `Language Components Installer`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\LanguageComponentsInstaller.dll`
+##### `C:\Windows\System32\LanguageComponentsInstaller.dll`
 * ThreadingModel: `Both`
 
 ## Instance

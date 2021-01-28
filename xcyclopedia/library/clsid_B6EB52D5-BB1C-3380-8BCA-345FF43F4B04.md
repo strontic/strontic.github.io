@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID B6EB52D5-BB1C-3380-8BCA-345FF43F4B04?
 
 # {B6EB52D5-BB1C-3380-8BCA-345FF43F4B04}
 
-* `System.Security.Cryptography.DESCryptoServiceProvider`
+### `System.Security.Cryptography.DESCryptoServiceProvider`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID B6EB52D5-BB1C-3380-8BCA-345FF43F4B04?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.Cryptography.DESCryptoServiceProvider`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Security.Cryptography.DESCryptoServiceProvider`
+##### `System.Security.Cryptography.DESCryptoServiceProvider`
 
 ## Instance
 

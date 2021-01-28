@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 33C1D1ED-4DAE-47C8-943A-955BC0DAE7C4?
 
 # {33C1D1ED-4DAE-47C8-943A-955BC0DAE7C4}
 
-* `NetworkProxyCSP`
+### `NetworkProxyCSP`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\NetworkProxyCSP.dll`
+##### `C:\Windows\System32\NetworkProxyCSP.dll`
 * ThreadingModel: `free`
 
 ## Instance

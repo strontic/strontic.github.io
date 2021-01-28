@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID ecabafae-7f19-11d2-978e-0000f8757e2a?
 
 # {ecabafae-7f19-11d2-978e-0000f8757e2a}
 
-* `sca Class`
+### `sca Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\comsvcs.dll`
+##### `C:\Windows\System32\comsvcs.dll`
 * ThreadingModel: `Both`
 
 ## Instance

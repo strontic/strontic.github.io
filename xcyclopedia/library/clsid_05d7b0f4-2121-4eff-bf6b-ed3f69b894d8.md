@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 05d7b0f4-2121-4eff-bf6b-ed3f69b894d8?
 
 ### InProcServer32
 
-* `C:\Windows\System32\taskbarcpl.dll`
+##### `C:\Windows\System32\taskbarcpl.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

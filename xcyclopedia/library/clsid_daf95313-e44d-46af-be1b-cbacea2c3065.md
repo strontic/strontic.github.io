@@ -5,18 +5,18 @@ excerpt: What is COM-Object CLSID daf95313-e44d-46af-be1b-cbacea2c3065?
 
 # {daf95313-e44d-46af-be1b-cbacea2c3065}
 
-* `CLSID_StartMenuProviderFolder`
+### `CLSID_StartMenuProviderFolder`
 
 ## Registry
 
 
 ### DefaultIcon
 
-* `C:\Windows\system32\SearchFolder.dll,-323`
+##### `C:\Windows\system32\SearchFolder.dll,-323`
 
 ### InProcServer32
 
-* `C:\Windows\system32\SearchFolder.dll`
+##### `C:\Windows\system32\SearchFolder.dll`
 * ThreadingModel: `Both`
 
 ### ShellFolder

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 80FCA77A-FBCB-4F7D-BC84-547E3F79D618?
 
 # {80FCA77A-FBCB-4F7D-BC84-547E3F79D618}
 
-* `CLSID_AccountPictureThumbnailHandler`
+### `CLSID_AccountPictureThumbnailHandler`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\shdocvw.dll`
+##### `C:\Windows\System32\shdocvw.dll`
 * ThreadingModel: `Apartment`
 
 ### Instance

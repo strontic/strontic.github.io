@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 2DCD1DAF-A110-49c0-BFDB-6FDF557B5FDF?
 
 # {2DCD1DAF-A110-49c0-BFDB-6FDF557B5FDF}
 
-* `Offline Files WMI Provider`
+### `Offline Files WMI Provider`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\cscobj.dll`
+##### `C:\Windows\System32\cscobj.dll`
 * ThreadingModel: `Both`
 
 ## Instance

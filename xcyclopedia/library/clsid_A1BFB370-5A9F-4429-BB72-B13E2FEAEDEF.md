@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID A1BFB370-5A9F-4429-BB72-B13E2FEAEDEF?
 
 # {A1BFB370-5A9F-4429-BB72-B13E2FEAEDEF}
 
-* `ICMFilter`
+### `ICMFilter`
 
 ## Registry
 
@@ -21,23 +21,23 @@ excerpt: What is COM-Object CLSID A1BFB370-5A9F-4429-BB72-B13E2FEAEDEF?
 
 ### InprocServer32
 
-* `C:\Windows\System32\Dxtmsft.dll`
+##### `C:\Windows\System32\Dxtmsft.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `DXImageTransform.Microsoft.ICMFilter.1`
+##### `DXImageTransform.Microsoft.ICMFilter.1`
 
 ### Programmable
 
 
 ### ToolBoxBitmap32
 
-* `C:\Windows\System32\Dxtmsft.dll,235`
+##### `C:\Windows\System32\Dxtmsft.dll,235`
 
 ### VersionIndependentProgID
 
-* `DXImageTransform.Microsoft.ICMFilter`
+##### `DXImageTransform.Microsoft.ICMFilter`
 
 ## Instance
 

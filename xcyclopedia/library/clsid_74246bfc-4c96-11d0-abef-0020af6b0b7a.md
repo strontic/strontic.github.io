@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 74246bfc-4c96-11d0-abef-0020af6b0b7a?
 
 # {74246bfc-4c96-11d0-abef-0020af6b0b7a}
 
-* `Device Manager`
+### `Device Manager`
 * InfoTip: `@C:\Windows\System32\devmgr.dll,-5#immutable1`
 * LocalizedString: `@C:\Windows\System32\devmgr.dll,-4#immutable1`
 * System.ApplicationName: `Microsoft.DeviceManager`
@@ -18,11 +18,11 @@ excerpt: What is COM-Object CLSID 74246bfc-4c96-11d0-abef-0020af6b0b7a?
 
 ### DefaultIcon
 
-* `C:\Windows\system32\devmgr.dll,-201`
+##### `C:\Windows\system32\devmgr.dll,-201`
 
 ### InprocServer32
 
-* `C:\Windows\System32\devmgr.dll`
+##### `C:\Windows\System32\devmgr.dll`
 * ThreadingModel: `Apartment`
 
 ### Shell
@@ -33,7 +33,7 @@ excerpt: What is COM-Object CLSID 74246bfc-4c96-11d0-abef-0020af6b0b7a?
 
 ### Command
 
-* `C:\Windows\system32\mmc.exe C:\Windows\system32\devmgmt.msc`
+##### `C:\Windows\system32\mmc.exe C:\Windows\system32\devmgmt.msc`
 
 ### RunAs
 

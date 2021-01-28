@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID F088DE73-BDD0-4E3C-81F8-6D32F4FE9D28?
 
 # {F088DE73-BDD0-4E3C-81F8-6D32F4FE9D28}
 
-* `Stretch`
+### `Stretch`
 
 ## Registry
 
@@ -18,23 +18,23 @@ excerpt: What is COM-Object CLSID F088DE73-BDD0-4E3C-81F8-6D32F4FE9D28?
 
 ### InprocServer32
 
-* `C:\Windows\System32\Dxtmsft.dll`
+##### `C:\Windows\System32\Dxtmsft.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `DXImageTransform.Microsoft.Stretch.1`
+##### `DXImageTransform.Microsoft.Stretch.1`
 
 ### Programmable
 
 
 ### ToolBoxBitmap32
 
-* `C:\Windows\System32\Dxtmsft.dll,235`
+##### `C:\Windows\System32\Dxtmsft.dll,235`
 
 ### VersionIndependentProgID
 
-* `DXImageTransform.Microsoft.Stretch`
+##### `DXImageTransform.Microsoft.Stretch`
 
 ## Instance
 

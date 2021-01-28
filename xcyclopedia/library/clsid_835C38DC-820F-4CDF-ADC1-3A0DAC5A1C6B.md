@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 835C38DC-820F-4CDF-ADC1-3A0DAC5A1C6B?
 
 # {835C38DC-820F-4CDF-ADC1-3A0DAC5A1C6B}
 
-* `CloudExperienceHost Launcher Toast Activation Handler`
+### `CloudExperienceHost Launcher Toast Activation Handler`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\oobe\UserOOBE.dll`
+##### `C:\Windows\System32\oobe\UserOOBE.dll`
 * ThreadingModel: `Both`
 
 ## Instance

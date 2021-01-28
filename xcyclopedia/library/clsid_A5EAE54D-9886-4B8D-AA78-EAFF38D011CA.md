@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID A5EAE54D-9886-4B8D-AA78-EAFF38D011CA?
 
 # {A5EAE54D-9886-4B8D-AA78-EAFF38D011CA}
 
-* `CLSID_ResetEASPolicies`
+### `CLSID_ResetEASPolicies`
 * AppId: `{86d5eb8a-859f-4c7b-a76b-2bd819b7a850}`
 * LocalizedString: `@C:\Windows\System32\usercpl.dll,-230`
 
@@ -19,7 +19,7 @@ excerpt: What is COM-Object CLSID A5EAE54D-9886-4B8D-AA78-EAFF38D011CA?
 
 ### InProcServer32
 
-* `C:\Windows\System32\usercpl.dll`
+##### `C:\Windows\System32\usercpl.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

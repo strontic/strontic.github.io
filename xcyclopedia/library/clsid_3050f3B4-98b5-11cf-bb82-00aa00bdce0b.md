@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 3050f3B4-98b5-11cf-bb82-00aa00bdce0b?
 
 # {3050f3B4-98b5-11cf-bb82-00aa00bdce0b}
 
-* `%Microsoft Document Browse Property Page%`
+### `%Microsoft Document Browse Property Page%`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\mshtml.dll`
+##### `C:\Windows\System32\mshtml.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

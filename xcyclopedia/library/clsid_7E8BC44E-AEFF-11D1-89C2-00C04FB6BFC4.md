@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 7E8BC44E-AEFF-11D1-89C2-00C04FB6BFC4?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mshtml.dll`
+##### `C:\Windows\System32\mshtml.dll`
 * ThreadingModel: `Apartment`
 
 ### Programmable

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 9EB7C6FC-0C96-4EE0-9B8A-F4BDA7D305E1?
 
 # {9EB7C6FC-0C96-4EE0-9B8A-F4BDA7D305E1}
 
-* `DataPackagePropertySetPrivate`
+### `DataPackagePropertySetPrivate`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\windows.applicationmodel.datatransfer.dll`
+##### `C:\Windows\System32\windows.applicationmodel.datatransfer.dll`
 * ThreadingModel: `Both`
 
 ## Instance

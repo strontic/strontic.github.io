@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 363BE3C0-DDD4-4B21-BC6D-7E9DF8CE19CB?
 
 # {363BE3C0-DDD4-4B21-BC6D-7E9DF8CE19CB}
 
-* `Perception Simulation Hand Tracker Monitor`
+### `Perception Simulation Hand Tracker Monitor`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\PerceptionSimulationExtensions.dll`
+##### `C:\Windows\System32\PerceptionSimulationExtensions.dll`
 * ThreadingModel: `Both`
 
 ## Instance

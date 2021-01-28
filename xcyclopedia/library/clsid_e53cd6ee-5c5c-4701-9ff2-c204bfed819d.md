@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID e53cd6ee-5c5c-4701-9ff2-c204bfed819d?
 
 # {e53cd6ee-5c5c-4701-9ff2-c204bfed819d}
 
-* `ContainerHostActivation`
+### `ContainerHostActivation`
 * ActivateOnHostFlags: `1`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID e53cd6ee-5c5c-4701-9ff2-c204bfed819d?
 
 ### InProcServer32
 
-* `C:\Windows\System32\LicenseManager.dll`
+##### `C:\Windows\System32\LicenseManager.dll`
 * ThreadingModel: `Both`
 
 ## Instance

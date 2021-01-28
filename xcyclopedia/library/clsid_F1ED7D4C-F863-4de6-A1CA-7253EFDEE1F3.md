@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID F1ED7D4C-F863-4de6-A1CA-7253EFDEE1F3?
 
 # {F1ED7D4C-F863-4de6-A1CA-7253EFDEE1F3}
 
-* `AppIdPolicyHandler Class`
+### `AppIdPolicyHandler Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\AppIdPolicyEngineApi.dll`
+##### `C:\Windows\System32\AppIdPolicyEngineApi.dll`
 * ThreadingModel: `Apartment`
 
 ### Programmable
@@ -20,11 +20,11 @@ excerpt: What is COM-Object CLSID F1ED7D4C-F863-4de6-A1CA-7253EFDEE1F3?
 
 ### TypeLib
 
-* `{85C3F8F7-CFCE-4259-87FF-CAB1F4521F6E}`
+##### `{85C3F8F7-CFCE-4259-87FF-CAB1F4521F6E}`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ## Instance
 

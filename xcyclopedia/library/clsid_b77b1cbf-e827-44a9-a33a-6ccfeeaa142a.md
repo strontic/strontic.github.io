@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID b77b1cbf-e827-44a9-a33a-6ccfeeaa142a?
 
 # {b77b1cbf-e827-44a9-a33a-6ccfeeaa142a}
 
-* `ShellItemArray Shell Namespace helper`
+### `ShellItemArray Shell Namespace helper`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\windows.storage.dll`
+##### `C:\Windows\system32\windows.storage.dll`
 * ThreadingModel: `Both`
 
 ## Instance

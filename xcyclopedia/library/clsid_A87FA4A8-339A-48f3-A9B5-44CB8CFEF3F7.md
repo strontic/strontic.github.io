@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID A87FA4A8-339A-48f3-A9B5-44CB8CFEF3F7?
 
 # {A87FA4A8-339A-48f3-A9B5-44CB8CFEF3F7}
 
-* `MCCSAutdManager`
+### `MCCSAutdManager`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\ActiveSyncProvider.dll`
+##### `C:\Windows\System32\ActiveSyncProvider.dll`
 * ThreadingModel: `Both`
 
 ## Instance

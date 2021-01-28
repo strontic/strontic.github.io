@@ -5,26 +5,26 @@ excerpt: What is COM-Object CLSID 3050f6b3-98b5-11cf-bb82-00aa00bdce0b?
 
 # {3050f6b3-98b5-11cf-bb82-00aa00bdce0b}
 
-* `Template Printer class`
+### `Template Printer class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\mshtml.dll`
+##### `C:\Windows\System32\mshtml.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* `TemplatePrinter.TemplatePrinter.1`
+##### `TemplatePrinter.TemplatePrinter.1`
 
 ### Programmable
 
 
 ### VersionIndependentProgID
 
-* `TemplatePrinter.TemplatePrinter`
+##### `TemplatePrinter.TemplatePrinter`
 
 ## Instance
 

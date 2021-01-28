@@ -5,34 +5,34 @@ excerpt: What is COM-Object CLSID CDA8ACB0-8CF5-4F6C-9BA2-5931D40C8CAE?
 
 # {CDA8ACB0-8CF5-4F6C-9BA2-5931D40C8CAE}
 
-* `FaxServer Class`
+### `FaxServer Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\fxscomex.dll`
+##### `C:\Windows\System32\fxscomex.dll`
 * ThreadingModel: `Apartment`
 
 ### ProgID
 
-* `FaxComEx.FaxServer.1`
+##### `FaxComEx.FaxServer.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* `{2BF34C1A-8CAC-419F-8547-32FDF6505DB8}`
+##### `{2BF34C1A-8CAC-419F-8547-32FDF6505DB8}`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgID
 
-* `FaxComEx.FaxServer`
+##### `FaxComEx.FaxServer`
 
 ## Instance
 

@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 98859A6C-02F2-43FC-ADB0-CE6D10F1A1AA?
 
 ### InProcServer32
 
-* `C:\Windows\System32\fhcpl.dll`
+##### `C:\Windows\System32\fhcpl.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

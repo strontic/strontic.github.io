@@ -5,26 +5,26 @@ excerpt: What is COM-Object CLSID b2bcff59-a757-4b0b-a1bc-ea69981da69e?
 
 # {b2bcff59-a757-4b0b-a1bc-ea69981da69e}
 
-* `AzAuthorizationStore Class`
+### `AzAuthorizationStore Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\system32\azroles.dll`
+##### `C:\Windows\system32\azroles.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `AzRoles.AzAuthorizationStore.1`
+##### `AzRoles.AzAuthorizationStore.1`
 
 ### Programmable
 
 
 ### VersionIndependentProgID
 
-* `AzRoles.AzAuthorizationStore`
+##### `AzRoles.AzAuthorizationStore`
 
 ## Instance
 

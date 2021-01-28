@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 9113A02D-00A3-46B9-BC5F-9C04DADDD5D7?
 
 # {9113A02D-00A3-46B9-BC5F-9C04DADDD5D7}
 
-* `Enhanced Storage Data Source`
+### `Enhanced Storage Data Source`
 * AppID: `{CC70FEAD-94B9-4F76-88CC-004BB068ACDF}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID 9113A02D-00A3-46B9-BC5F-9C04DADDD5D7?
 
 ### InProcServer32
 
-* `C:\Windows\System32\EhStorShell.dll`
+##### `C:\Windows\System32\EhStorShell.dll`
 * ThreadingModel: `Apartment`
 
 ### ShellFolder

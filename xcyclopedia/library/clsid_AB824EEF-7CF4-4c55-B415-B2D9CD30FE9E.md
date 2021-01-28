@@ -11,16 +11,16 @@ excerpt: What is COM-Object CLSID AB824EEF-7CF4-4c55-B415-B2D9CD30FE9E?
 
 ### InProcServer32
 
-* `C:\Windows\System32\prauthproviders.dll`
+##### `C:\Windows\System32\prauthproviders.dll`
 * ThreadingModel: `Free`
 
 ### ProgId
 
-* `SecProviders.UnauthSecProvider`
+##### `SecProviders.UnauthSecProvider`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ## Instance
 

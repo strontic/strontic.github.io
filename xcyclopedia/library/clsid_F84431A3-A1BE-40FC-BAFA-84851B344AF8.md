@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID F84431A3-A1BE-40FC-BAFA-84851B344AF8?
 
 # {F84431A3-A1BE-40FC-BAFA-84851B344AF8}
 
-* `ReadingModeExtractedContent`
+### `ReadingModeExtractedContent`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\mshtml.dll`
+##### `C:\Windows\System32\mshtml.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

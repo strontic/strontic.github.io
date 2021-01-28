@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID EE4DA6A4-8C52-4a63-BBB8-97C93D7E1B6C?
 
 # {EE4DA6A4-8C52-4a63-BBB8-97C93D7E1B6C}
 
-* `APPLICATION__X_MS_WMD Moniker Class`
+### `APPLICATION__X_MS_WMD Moniker Class`
 
 ## Registry
 
@@ -15,12 +15,12 @@ excerpt: What is COM-Object CLSID EE4DA6A4-8C52-4a63-BBB8-97C93D7E1B6C?
 
 ### InprocServer32
 
-* `C:\Windows\system32\wmp.dll`
+##### `C:\Windows\system32\wmp.dll`
 * ThreadingModel: `apartment`
 
 ### ProgID
 
-* `WMP11.AssocFile.WMD`
+##### `WMP11.AssocFile.WMD`
 
 ## Instance
 

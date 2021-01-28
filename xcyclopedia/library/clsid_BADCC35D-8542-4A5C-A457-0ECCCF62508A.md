@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID BADCC35D-8542-4A5C-A457-0ECCCF62508A?
 
 # {BADCC35D-8542-4A5C-A457-0ECCCF62508A}
 
-* `DSC Core`
+### `DSC Core`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\system32\DscCore.dll`
+##### `C:\Windows\system32\DscCore.dll`
 * ThreadingModel: `Both`
 
 ## Instance

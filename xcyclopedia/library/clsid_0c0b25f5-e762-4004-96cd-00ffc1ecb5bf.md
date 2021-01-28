@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 0c0b25f5-e762-4004-96cd-00ffc1ecb5bf?
 
 # {0c0b25f5-e762-4004-96cd-00ffc1ecb5bf}
 
-* `Path Property Control`
+### `Path Property Control`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\shell32.dll`
+##### `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

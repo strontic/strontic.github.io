@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID F9A7AB61-C0BC-490e-A7FE-BFF26B327A3F?
 
 # {F9A7AB61-C0BC-490e-A7FE-BFF26B327A3F}
 
-* `OpenSearch Result Context Menu`
+### `OpenSearch Result Context Menu`
 * ContextMenuOptIn: ``
 * ImplementsVerbs: `openfilelocation;copylink`
 
@@ -14,7 +14,7 @@ excerpt: What is COM-Object CLSID F9A7AB61-C0BC-490e-A7FE-BFF26B327A3F?
 
 ### InProcServer32
 
-* `C:\Windows\system32\shell32.dll`
+##### `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

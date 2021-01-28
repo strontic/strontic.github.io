@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 48D0CFE7-3128-3D2C-A5B5-8C7B82B4AB4F?
 
 # {48D0CFE7-3128-3D2C-A5B5-8C7B82B4AB4F}
 
-* `System.Runtime.CompilerServices.MethodImplAttribute`
+### `System.Runtime.CompilerServices.MethodImplAttribute`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID 48D0CFE7-3128-3D2C-A5B5-8C7B82B4AB4F?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.CompilerServices.MethodImplAttribute`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Runtime.CompilerServices.MethodImplAttribute`
+##### `System.Runtime.CompilerServices.MethodImplAttribute`
 
 ## Instance
 

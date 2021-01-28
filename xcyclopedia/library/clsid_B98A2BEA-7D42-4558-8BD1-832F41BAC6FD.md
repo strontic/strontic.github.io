@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID B98A2BEA-7D42-4558-8BD1-832F41BAC6FD?
 
 # {B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}
 
-* `Windows 7 File Recovery`
+### `Windows 7 File Recovery`
 * InfoTip: `@C:\Windows\System32\sdcpl.dll,-100#immutable1`
 * LocalizedString: `@C:\Windows\System32\sdcpl.dll,-101#immutable1`
 * System.ApplicationName: `Microsoft.BackupAndRestore`
@@ -17,11 +17,11 @@ excerpt: What is COM-Object CLSID B98A2BEA-7D42-4558-8BD1-832F41BAC6FD?
 
 ### DefaultIcon
 
-* `C:\Windows\System32\sdcpl.dll,-1`
+##### `C:\Windows\System32\sdcpl.dll,-1`
 
 ### InProcServer32
 
-* `C:\Windows\System32\shdocvw.dll`
+##### `C:\Windows\System32\shdocvw.dll`
 * ThreadingModel: `Apartment`
 
 ### Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID AA67AF38-4AE0-4B49-BA56-ADF78DBED45A?
 
 # {AA67AF38-4AE0-4B49-BA56-ADF78DBED45A}
 
-* `CAppointmentsProviderInternalRemoveAppointmentActivationPlugin`
+### `CAppointmentsProviderInternalRemoveAppointmentActivationPlugin`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\AppointmentActivation.dll`
+##### `C:\Windows\System32\AppointmentActivation.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID C100BEBC-D33A-4a4b-BF23-BBEF4663D017?
 
 ### InprocServer32
 
-* `C:\Windows\system32\wcnwiz.dll`
+##### `C:\Windows\system32\wcnwiz.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

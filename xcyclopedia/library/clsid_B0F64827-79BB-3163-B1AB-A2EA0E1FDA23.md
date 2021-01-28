@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID B0F64827-79BB-3163-B1AB-A2EA0E1FDA23?
 
 # {B0F64827-79BB-3163-B1AB-A2EA0E1FDA23}
 
-* `System.EnterpriseServices.Internal.ComSoapPublishError`
+### `System.EnterpriseServices.Internal.ComSoapPublishError`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID B0F64827-79BB-3163-B1AB-A2EA0E1FDA23?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `System.EnterpriseServices, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a`
 * Class: `System.EnterpriseServices.Internal.ComSoapPublishError`
 * RuntimeVersion: `v1.1.4322`
@@ -23,7 +23,7 @@ excerpt: What is COM-Object CLSID B0F64827-79BB-3163-B1AB-A2EA0E1FDA23?
 
 ### ProgId
 
-* `System.EnterpriseServices.Internal.ComSoapPublishError`
+##### `System.EnterpriseServices.Internal.ComSoapPublishError`
 
 ## Instance
 

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID EAB16C5D-EED1-4E95-868B-0FBA1B42C092?
 
 # {EAB16C5D-EED1-4E95-868B-0FBA1B42C092}
 
-* `Windows Store Remote Desktop Client Control - version 1`
+### `Windows Store Remote Desktop Client Control - version 1`
 
 ## Registry
 
@@ -15,35 +15,35 @@ excerpt: What is COM-Object CLSID EAB16C5D-EED1-4E95-868B-0FBA1B42C092?
 
 ### InprocServer32
 
-* `C:\Windows\system32\mstscax.dll`
+##### `C:\Windows\system32\mstscax.dll`
 * ThreadingModel: `Apartment`
 
 ### MiscStatus
 
-* `0`
+##### `0`
 
 ### (1)
 
-* `131473`
+##### `131473`
 
 ### ProgID
 
-* `RemoteDesktopClient.RemoteDesktopClient.1`
+##### `RemoteDesktopClient.RemoteDesktopClient.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* `{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}`
+##### `{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgID
 
-* `RemoteDesktopClient.RemoteDesktopClient`
+##### `RemoteDesktopClient.RemoteDesktopClient`
 
 MIT License. Copyright (c) 2021 Strontic.
 

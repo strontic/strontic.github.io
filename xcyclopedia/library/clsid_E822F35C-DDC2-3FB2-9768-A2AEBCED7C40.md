@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID E822F35C-DDC2-3FB2-9768-A2AEBCED7C40?
 
 # {E822F35C-DDC2-3FB2-9768-A2AEBCED7C40}
 
-* `System.Runtime.Remoting.Services.TrackingServices`
+### `System.Runtime.Remoting.Services.TrackingServices`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID E822F35C-DDC2-3FB2-9768-A2AEBCED7C40?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.Remoting.Services.TrackingServices`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Runtime.Remoting.Services.TrackingServices`
+##### `System.Runtime.Remoting.Services.TrackingServices`
 
 ## Instance
 

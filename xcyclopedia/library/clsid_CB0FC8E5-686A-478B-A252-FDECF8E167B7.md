@@ -5,34 +5,34 @@ excerpt: What is COM-Object CLSID CB0FC8E5-686A-478B-A252-FDECF8E167B7?
 
 # {CB0FC8E5-686A-478B-A252-FDECF8E167B7}
 
-* `scanprofilemgr class`
+### `scanprofilemgr class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\wiascanprofiles.dll`
+##### `C:\Windows\System32\wiascanprofiles.dll`
 * ThreadingModel: `both`
 
 ### ProgID
 
-* `scanprofiles.scanprofilemgr.1`
+##### `scanprofiles.scanprofilemgr.1`
 
 ### Programmable
 
 
 ### TypeLib
 
-* `{77a6bd8a-ab60-49ff-853c-b6ee7babaf96}`
+##### `{77a6bd8a-ab60-49ff-853c-b6ee7babaf96}`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgID
 
-* `scanprofiles.scanprofilemgr`
+##### `scanprofiles.scanprofilemgr`
 
 ## Instance
 

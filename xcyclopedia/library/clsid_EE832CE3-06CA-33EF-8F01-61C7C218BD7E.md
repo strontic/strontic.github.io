@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID EE832CE3-06CA-33EF-8F01-61C7C218BD7E?
 
 # {EE832CE3-06CA-33EF-8F01-61C7C218BD7E}
 
-* `System.Globalization.HijriCalendar`
+### `System.Globalization.HijriCalendar`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID EE832CE3-06CA-33EF-8F01-61C7C218BD7E?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Globalization.HijriCalendar`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Globalization.HijriCalendar`
+##### `System.Globalization.HijriCalendar`
 
 ## Instance
 

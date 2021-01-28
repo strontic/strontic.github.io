@@ -5,26 +5,26 @@ excerpt: What is COM-Object CLSID 43FB1553-AD74-4ee8-88E4-3E6DAAC915DB?
 
 # {43FB1553-AD74-4ee8-88E4-3E6DAAC915DB}
 
-* `InkCollector Class`
+### `InkCollector Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Program Files\Common Files\Microsoft Shared\Ink\InkObj.dll`
+##### `C:\Program Files\Common Files\Microsoft Shared\Ink\InkObj.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `msinkaut.InkCollector.1`
+##### `msinkaut.InkCollector.1`
 
 ### Programmable
 
 
 ### VersionIndependentProgID
 
-* `msinkaut.InkCollector`
+##### `msinkaut.InkCollector`
 
 ## Instance
 

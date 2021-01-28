@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID d3c0b79d-0fd2-4b5d-9bf6-5e41d6f15c08?
 
 # {d3c0b79d-0fd2-4b5d-9bf6-5e41d6f15c08}
 
-* `App Content Filter`
+### `App Content Filter`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\system32\Windows.Storage.dll`
+##### `C:\Windows\system32\Windows.Storage.dll`
 * ThreadingModel: `Both`
 
 ### Instance
@@ -68,11 +68,11 @@ excerpt: What is COM-Object CLSID d3c0b79d-0fd2-4b5d-9bf6-5e41d6f15c08?
 
 ### ProgID
 
-* `Search.AppContentFilter.1`
+##### `Search.AppContentFilter.1`
 
 ### VersionIndependentProgID
 
-* `Search.AppContentFilter`
+##### `Search.AppContentFilter`
 
 ## Instance
 

@@ -5,26 +5,26 @@ excerpt: What is COM-Object CLSID E3D5D93C-1663-4A78-A1A7-22375DFEBAEE?
 
 # {E3D5D93C-1663-4A78-A1A7-22375DFEBAEE}
 
-* `InkTransform Class`
+### `InkTransform Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Program Files\Common Files\Microsoft Shared\Ink\InkObj.dll`
+##### `C:\Program Files\Common Files\Microsoft Shared\Ink\InkObj.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `msinkaut.InkTransform.1`
+##### `msinkaut.InkTransform.1`
 
 ### Programmable
 
 
 ### VersionIndependentProgID
 
-* `msinkaut.InkTransform`
+##### `msinkaut.InkTransform`
 
 ## Instance
 

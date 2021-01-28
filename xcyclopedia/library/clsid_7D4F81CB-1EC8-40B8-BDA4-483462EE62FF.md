@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 7D4F81CB-1EC8-40B8-BDA4-483462EE62FF?
 
 ### InProcServer32
 
-* `C:\Windows\System32\RDXTaskFactory.dll`
+##### `C:\Windows\System32\RDXTaskFactory.dll`
 * ThreadingModel: `Both`
 
 ## Instance

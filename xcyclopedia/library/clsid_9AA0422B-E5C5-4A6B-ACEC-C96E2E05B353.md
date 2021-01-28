@@ -5,31 +5,31 @@ excerpt: What is COM-Object CLSID 9AA0422B-E5C5-4A6B-ACEC-C96E2E05B353?
 
 # {9AA0422B-E5C5-4A6B-ACEC-C96E2E05B353}
 
-* `CIsdb Class`
+### `CIsdb Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\psisdecd.dll`
+##### `C:\Windows\System32\psisdecd.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `Psisdecd.CIsdb.1`
+##### `Psisdecd.CIsdb.1`
 
 ### TypeLib
 
-* `{ABBA0019-3075-11D6-88A4-00B0D0200F88}`
+##### `{ABBA0019-3075-11D6-88A4-00B0D0200F88}`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgID
 
-* `Psisdecd.CIsdb`
+##### `Psisdecd.CIsdb`
 
 ## Instance
 

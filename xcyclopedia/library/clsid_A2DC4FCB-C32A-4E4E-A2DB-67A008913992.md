@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID A2DC4FCB-C32A-4E4E-A2DB-67A008913992?
 
 # {A2DC4FCB-C32A-4E4E-A2DB-67A008913992}
 
-* `AppointmentActivation ProxyStubFactory`
+### `AppointmentActivation ProxyStubFactory`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\AppointmentActivation.dll`
+##### `C:\Windows\System32\AppointmentActivation.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

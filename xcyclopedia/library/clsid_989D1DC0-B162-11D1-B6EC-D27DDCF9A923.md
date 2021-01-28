@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 989D1DC0-B162-11D1-B6EC-D27DDCF9A923?
 
 # {989D1DC0-B162-11D1-B6EC-D27DDCF9A923}
 
-* `XML Script Engine`
+### `XML Script Engine`
 
 ## Registry
 
@@ -18,7 +18,7 @@ excerpt: What is COM-Object CLSID 989D1DC0-B162-11D1-B6EC-D27DDCF9A923?
 
 ### InProcServer32
 
-* `C:\Windows\System32\msxml3.dll`
+##### `C:\Windows\System32\msxml3.dll`
 * ThreadingModel: `Both`
 
 ### OLEScript
@@ -26,7 +26,7 @@ excerpt: What is COM-Object CLSID 989D1DC0-B162-11D1-B6EC-D27DDCF9A923?
 
 ### ProgID
 
-* `XML`
+##### `XML`
 
 ## Instance
 

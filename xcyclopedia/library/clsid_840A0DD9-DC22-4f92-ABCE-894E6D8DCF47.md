@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 840A0DD9-DC22-4f92-ABCE-894E6D8DCF47?
 
 # {840A0DD9-DC22-4f92-ABCE-894E6D8DCF47}
 
-* `Audio Remote Endpoint Plugin Factory Class`
+### `Audio Remote Endpoint Plugin Factory Class`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\remoteaudioendpoint.dll`
+##### `C:\Windows\System32\remoteaudioendpoint.dll`
 * ThreadingModel: `Both`
 
 ## Instance

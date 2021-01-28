@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 6c955eca-04ce-4f1e-84fe-d8a526ce3137?
 
 # {6c955eca-04ce-4f1e-84fe-d8a526ce3137}
 
-* `Shell Icon Global Settings`
+### `Shell Icon Global Settings`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\shell32.dll`
+##### `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID cc5bbec3-db4a-4bed-828d-08d78ee3e1ed?
 
 # {cc5bbec3-db4a-4bed-828d-08d78ee3e1ed}
 
-* `JScript Compact Profile (ECMA 327)`
+### `JScript Compact Profile (ECMA 327)`
 
 ## Registry
 
@@ -18,7 +18,7 @@ excerpt: What is COM-Object CLSID cc5bbec3-db4a-4bed-828d-08d78ee3e1ed?
 
 ### InprocServer32
 
-* `C:\Windows\System32\jscript.dll`
+##### `C:\Windows\System32\jscript.dll`
 * ThreadingModel: `Both`
 
 ### OLEScript
@@ -26,7 +26,7 @@ excerpt: What is COM-Object CLSID cc5bbec3-db4a-4bed-828d-08d78ee3e1ed?
 
 ### ProgID
 
-* `JScript.Compact`
+##### `JScript.Compact`
 
 ## Instance
 

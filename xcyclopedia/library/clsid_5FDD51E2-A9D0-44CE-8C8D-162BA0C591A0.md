@@ -53,7 +53,7 @@ excerpt: What is COM-Object CLSID 5FDD51E2-A9D0-44CE-8C8D-162BA0C591A0?
 
 ### InprocServer32
 
-* `C:\Windows\System32\WindowsCodecsRaw.dll`
+##### `C:\Windows\System32\WindowsCodecsRaw.dll`
 * ThreadingModel: `Both`
 
 ### Patterns

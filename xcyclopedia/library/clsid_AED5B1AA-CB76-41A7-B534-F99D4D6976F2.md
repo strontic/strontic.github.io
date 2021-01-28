@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID AED5B1AA-CB76-41A7-B534-F99D4D6976F2?
 
 ### InProcServer32
 
-* `C:\Windows\System32\Windows.Shell.ServiceHostBuilder.dll`
+##### `C:\Windows\System32\Windows.Shell.ServiceHostBuilder.dll`
 * ThreadingModel: `Both`
 
 ## Instance

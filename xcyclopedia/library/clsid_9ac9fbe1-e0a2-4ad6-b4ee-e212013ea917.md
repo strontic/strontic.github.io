@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 9ac9fbe1-e0a2-4ad6-b4ee-e212013ea917?
 
 # {9ac9fbe1-e0a2-4ad6-b4ee-e212013ea917}
 
-* `ShellItem Shell Namespace helper`
+### `ShellItem Shell Namespace helper`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID 9ac9fbe1-e0a2-4ad6-b4ee-e212013ea917?
 
 ### InProcServer32
 
-* `C:\Windows\system32\windows.storage.dll`
+##### `C:\Windows\system32\windows.storage.dll`
 * ThreadingModel: `Both`
 
 ## Instance

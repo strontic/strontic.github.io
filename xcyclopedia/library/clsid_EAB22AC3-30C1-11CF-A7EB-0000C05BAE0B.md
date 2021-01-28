@@ -5,43 +5,43 @@ excerpt: What is COM-Object CLSID EAB22AC3-30C1-11CF-A7EB-0000C05BAE0B?
 
 # {EAB22AC3-30C1-11CF-A7EB-0000C05BAE0B}
 
-* `Microsoft Web Browser Version 1`
+### `Microsoft Web Browser Version 1`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\ieframe.dll`
+##### `C:\Windows\System32\ieframe.dll`
 * ThreadingModel: `Apartment`
 
 ### MiscStatus
 
-* `0`
+##### `0`
 
 ### (1)
 
-* `131473`
+##### `131473`
 
 ### ProgID
 
-* `Shell.Explorer.1`
+##### `Shell.Explorer.1`
 
 ### ToolboxBitmap32
 
-* `C:\Windows\System32\ieframe.dll, 257`
+##### `C:\Windows\System32\ieframe.dll, 257`
 
 ### TypeLib
 
-* `{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}`
+##### `{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}`
 
 ### Version
 
-* `1.1`
+##### `1.1`
 
 ### VersionIndependentProgID
 
-* `Shell.Explorer`
+##### `Shell.Explorer`
 
 ## Instance
 

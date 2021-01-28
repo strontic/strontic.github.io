@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID 38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B?
 
 ### DefaultIcon
 
-* `C:\Windows\system32\imageres.dll,-171`
+##### `C:\Windows\system32\imageres.dll,-171`
 
 ### Shell
 
@@ -23,11 +23,11 @@ excerpt: What is COM-Object CLSID 38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B?
 
 ### Command
 
-* `rundll32.exe C:\Windows\system32\van.dll,RunVAN`
+##### `rundll32.exe C:\Windows\system32\van.dll,RunVAN`
 
 ### OpenWithoutDiagnostics
 
-* `Verb Friendly`
+##### `Verb Friendly`
 * MUIVerb: `@C:\Windows\system32\van.dll,-2402`
 * ProgrammaticAccessOnly: ``
 

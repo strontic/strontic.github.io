@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID BDFEE05C-4418-11DD-90ED-001C257CCFF1?
 
 # {BDFEE05C-4418-11DD-90ED-001C257CCFF1}
 
-* `Mbn Connection Manager`
+### `Mbn Connection Manager`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\wwanapi.dll`
+##### `C:\Windows\system32\wwanapi.dll`
 * ThreadingModel: `Both`
 
 ## Instance

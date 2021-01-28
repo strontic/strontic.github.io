@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 4eb89ff4-7f78-4a0f-8b8d-2bf02e94e4b2?
 
 # {4eb89ff4-7f78-4a0f-8b8d-2bf02e94e4b2}
 
-* `Microsoft RDP Client Control (redistributable) - version 6`
+### `Microsoft RDP Client Control (redistributable) - version 6`
 
 ## Registry
 
@@ -15,35 +15,35 @@ excerpt: What is COM-Object CLSID 4eb89ff4-7f78-4a0f-8b8d-2bf02e94e4b2?
 
 ### InprocServer32
 
-* `C:\Windows\system32\mstscax.dll`
+##### `C:\Windows\system32\mstscax.dll`
 * ThreadingModel: `Apartment`
 
 ### MiscStatus
 
-* `0`
+##### `0`
 
 ### (1)
 
-* `131473`
+##### `131473`
 
 ### ProgID
 
-* `MsRDP.MsRDP.5`
+##### `MsRDP.MsRDP.5`
 
 ### Programmable
 
 
 ### TypeLib
 
-* `{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}`
+##### `{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgID
 
-* `MsRDP.MsRDP`
+##### `MsRDP.MsRDP`
 
 ## Instance
 

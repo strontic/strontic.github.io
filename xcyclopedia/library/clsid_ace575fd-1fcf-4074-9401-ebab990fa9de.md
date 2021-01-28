@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID ace575fd-1fcf-4074-9401-ebab990fa9de?
 
 # {ace575fd-1fcf-4074-9401-ebab990fa9de}
 
-* `Microsoft RDP Client Control - version 4`
+### `Microsoft RDP Client Control - version 4`
 
 ## Registry
 
@@ -15,35 +15,35 @@ excerpt: What is COM-Object CLSID ace575fd-1fcf-4074-9401-ebab990fa9de?
 
 ### InprocServer32
 
-* `C:\Windows\system32\mstscax.dll`
+##### `C:\Windows\system32\mstscax.dll`
 * ThreadingModel: `Apartment`
 
 ### MiscStatus
 
-* `0`
+##### `0`
 
 ### (1)
 
-* `131473`
+##### `131473`
 
 ### ProgID
 
-* `MsTscAx.MsTscAx.4`
+##### `MsTscAx.MsTscAx.4`
 
 ### Programmable
 
 
 ### TypeLib
 
-* `{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}`
+##### `{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgID
 
-* `MsTscAx.MsTscAx`
+##### `MsTscAx.MsTscAx`
 
 ## Instance
 

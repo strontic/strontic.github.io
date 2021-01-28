@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID FDB2DC94-B5A0-3702-AE84-BBFA752ACB36?
 
 # {FDB2DC94-B5A0-3702-AE84-BBFA752ACB36}
 
-* `System.Runtime.InteropServices.OutAttribute`
+### `System.Runtime.InteropServices.OutAttribute`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID FDB2DC94-B5A0-3702-AE84-BBFA752ACB36?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Runtime.InteropServices.OutAttribute`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Runtime.InteropServices.OutAttribute`
+##### `System.Runtime.InteropServices.OutAttribute`
 
 ## Instance
 

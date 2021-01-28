@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID EBAA029C-01C0-32B6-AAE6-FE21ADFC3E5D?
 
 # {EBAA029C-01C0-32B6-AAE6-FE21ADFC3E5D}
 
-* `System.Security.VerificationException`
+### `System.Security.VerificationException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID EBAA029C-01C0-32B6-AAE6-FE21ADFC3E5D?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.VerificationException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Security.VerificationException`
+##### `System.Security.VerificationException`
 
 ## Instance
 

@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID B9BC2A50-43C3-41AA-A087-5DB14E184BAE?
 
 ### InProcServer32
 
-* `C:\Windows\System32\InputSwitch.dll`
+##### `C:\Windows\System32\InputSwitch.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

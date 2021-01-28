@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID aa28fbc7-59f1-4c42-9fd8-ba2be27ea319?
 
 # {aa28fbc7-59f1-4c42-9fd8-ba2be27ea319}
 
-* `Select All command invocation`
+### `Select All command invocation`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\shell32.dll`
+##### `C:\Windows\system32\shell32.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

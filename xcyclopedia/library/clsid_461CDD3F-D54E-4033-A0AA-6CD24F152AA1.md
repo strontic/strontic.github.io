@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 461CDD3F-D54E-4033-A0AA-6CD24F152AA1?
 
 # {461CDD3F-D54E-4033-A0AA-6CD24F152AA1}
 
-* `WlanDlg Get Key UI Page Class`
+### `WlanDlg Get Key UI Page Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\wlandlg.dll`
+##### `C:\Windows\System32\wlandlg.dll`
 * ThreadingModel: `Apartment`
 
 ## Instance

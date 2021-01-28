@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 47B706B0-B103-4AFD-8ECF-16C2DDF81C15?
 
 # {47B706B0-B103-4AFD-8ECF-16C2DDF81C15}
 
-* `Microsoft Network Connectivity WMI Provider`
+### `Microsoft Network Connectivity WMI Provider`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\wbem\netnccim.dll`
+##### `C:\Windows\System32\wbem\netnccim.dll`
 * ThreadingModel: `Both`
 
 ## Instance

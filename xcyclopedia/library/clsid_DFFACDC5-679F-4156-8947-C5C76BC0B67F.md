@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID DFFACDC5-679F-4156-8947-C5C76BC0B67F?
 
 # {DFFACDC5-679F-4156-8947-C5C76BC0B67F}
 
-* `delegate folder that appears in Users Files Folder`
+### `delegate folder that appears in Users Files Folder`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\Windows.Storage.dll`
+##### `C:\Windows\system32\Windows.Storage.dll`
 * ThreadingModel: `Both`
 
 ### Instance

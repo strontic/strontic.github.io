@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID 1CFC4CDA-1271-11D1-9BD4-00C04FB683FA?
 
 # {1CFC4CDA-1271-11D1-9BD4-00C04FB683FA}
 
-* `Encode Alternate Name Class`
+### `Encode Alternate Name Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\system32\certenc.dll`
+##### `C:\Windows\system32\certenc.dll`
 * ThreadingModel: `both`
 
 ### ProgID
 
-* `CertificateAuthority.EncodeAltName.1`
+##### `CertificateAuthority.EncodeAltName.1`
 
 ### VersionIndependentProgID
 
-* `CertificateAuthority.EncodeAltName`
+##### `CertificateAuthority.EncodeAltName`
 
 ## Instance
 

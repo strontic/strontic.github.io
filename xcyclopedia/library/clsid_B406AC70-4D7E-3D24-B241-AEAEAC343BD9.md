@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID B406AC70-4D7E-3D24-B241-AEAEAC343BD9?
 
 # {B406AC70-4D7E-3D24-B241-AEAEAC343BD9}
 
-* `System.MTAThreadAttribute`
+### `System.MTAThreadAttribute`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID B406AC70-4D7E-3D24-B241-AEAEAC343BD9?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.MTAThreadAttribute`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.MTAThreadAttribute`
+##### `System.MTAThreadAttribute`
 
 ## Instance
 

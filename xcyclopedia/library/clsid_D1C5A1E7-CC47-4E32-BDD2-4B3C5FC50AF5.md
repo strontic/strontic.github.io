@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID D1C5A1E7-CC47-4E32-BDD2-4B3C5FC50AF5?
 
 # {D1C5A1E7-CC47-4E32-BDD2-4B3C5FC50AF5}
 
-* `Slide`
+### `Slide`
 
 ## Registry
 
@@ -18,23 +18,23 @@ excerpt: What is COM-Object CLSID D1C5A1E7-CC47-4E32-BDD2-4B3C5FC50AF5?
 
 ### InprocServer32
 
-* `C:\Windows\System32\Dxtmsft.dll`
+##### `C:\Windows\System32\Dxtmsft.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `DXImageTransform.Microsoft.Slide.1`
+##### `DXImageTransform.Microsoft.Slide.1`
 
 ### Programmable
 
 
 ### ToolBoxBitmap32
 
-* `C:\Windows\System32\Dxtmsft.dll,235`
+##### `C:\Windows\System32\Dxtmsft.dll,235`
 
 ### VersionIndependentProgID
 
-* `DXImageTransform.Microsoft.Slide`
+##### `DXImageTransform.Microsoft.Slide`
 
 ## Instance
 

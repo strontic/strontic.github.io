@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID CCC8D08D-DD79-4550-8F3E-C57D4F8A5F40?
 
 # {CCC8D08D-DD79-4550-8F3E-C57D4F8A5F40}
 
-* `PSFactoryBuffer`
+### `PSFactoryBuffer`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\CloudExperienceHostUser.dll`
+##### `C:\Windows\System32\CloudExperienceHostUser.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

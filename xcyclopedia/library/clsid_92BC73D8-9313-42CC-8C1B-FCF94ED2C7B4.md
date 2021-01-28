@@ -5,27 +5,27 @@ excerpt: What is COM-Object CLSID 92BC73D8-9313-42CC-8C1B-FCF94ED2C7B4?
 
 # {92BC73D8-9313-42CC-8C1B-FCF94ED2C7B4}
 
-* `DynamicManagement`
+### `DynamicManagement`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\enterprisecsps.dll`
+##### `C:\Windows\System32\enterprisecsps.dll`
 * ThreadingModel: `Free`
 
 ### ProgId
 
-* `DynamicManagement`
+##### `DynamicManagement`
 
 ### Version
 
-* `1.0`
+##### `1.0`
 
 ### VersionIndependentProgId
 
-* `DynamicManagement`
+##### `DynamicManagement`
 
 ## Instance
 

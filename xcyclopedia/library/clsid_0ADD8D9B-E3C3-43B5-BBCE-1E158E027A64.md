@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID 0ADD8D9B-E3C3-43B5-BBCE-1E158E027A64?
 
 # {0ADD8D9B-E3C3-43B5-BBCE-1E158E027A64}
 
-* `CLSID_HtmlDocForParsingSiteUnmarshaller`
+### `CLSID_HtmlDocForParsingSiteUnmarshaller`
 
 ## Registry
 
@@ -15,7 +15,7 @@ excerpt: What is COM-Object CLSID 0ADD8D9B-E3C3-43B5-BBCE-1E158E027A64?
 
 ### InProcServer32
 
-* `C:\Windows\System32\UserDataPlatformHelperUtil.dll`
+##### `C:\Windows\System32\UserDataPlatformHelperUtil.dll`
 * ThreadingModel: `Both`
 
 ## Instance

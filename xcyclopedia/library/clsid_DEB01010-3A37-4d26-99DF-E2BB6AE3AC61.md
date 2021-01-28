@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID DEB01010-3A37-4d26-99DF-E2BB6AE3AC61?
 
 # {DEB01010-3A37-4d26-99DF-E2BB6AE3AC61}
 
-* `IVolumeClient4_PSFactory`
+### `IVolumeClient4_PSFactory`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\dmintf.dll`
+##### `C:\Windows\System32\dmintf.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

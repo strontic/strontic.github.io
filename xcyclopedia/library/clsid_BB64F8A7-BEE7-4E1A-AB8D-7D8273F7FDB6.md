@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6?
 
 # {BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}
 
-* `Security and Maintenance CPL`
+### `Security and Maintenance CPL`
 * InfoTip: `@C:\Windows\System32\ActionCenterCPL.dll,-2#immutable1`
 * LocalizedString: `@C:\Windows\System32\ActionCenterCPL.dll,-1#immutable1`
 * System.ApplicationName: `Microsoft.ActionCenter`
@@ -18,11 +18,11 @@ excerpt: What is COM-Object CLSID BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6?
 
 ### DefaultIcon
 
-* `C:\Windows\System32\ActionCenterCPL.dll,-1`
+##### `C:\Windows\System32\ActionCenterCPL.dll,-1`
 
 ### InProcServer32
 
-* `C:\Windows\System32\shdocvw.dll`
+##### `C:\Windows\System32\shdocvw.dll`
 * ThreadingModel: `Apartment`
 
 ### Instance

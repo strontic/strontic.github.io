@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID 5cb66670-d3d4-11cf-acab-00a024a55aef?
 
 # {5cb66670-d3d4-11cf-acab-00a024a55aef}
 
-* `COM+ Extended Transaction Context Component`
+### `COM+ Extended Transaction Context Component`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\comsvcs.dll`
+##### `C:\Windows\System32\comsvcs.dll`
 * ThreadingModel: `Both`
 
 ### ProgID
 
-* `TxCTx.TransactionContextEx`
+##### `TxCTx.TransactionContextEx`
 
 ### VersionIndependentProgID
 
-* `TxCTx.TransactionContextEx`
+##### `TxCTx.TransactionContextEx`
 
 ## Instance
 

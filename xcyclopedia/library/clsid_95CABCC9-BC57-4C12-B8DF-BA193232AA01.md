@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 95CABCC9-BC57-4C12-B8DF-BA193232AA01?
 
 # {95CABCC9-BC57-4C12-B8DF-BA193232AA01}
 
-* `WebAccount Object`
+### `WebAccount Object`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\System32\vaultcli.dll`
+##### `C:\Windows\System32\vaultcli.dll`
 * ThreadingModel: `Both`
 
 ## Instance

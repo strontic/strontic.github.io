@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 19eb3aee-148e-42fe-a569-a7dc9b25d658?
 
 # {19eb3aee-148e-42fe-a569-a7dc9b25d658}
 
-* `CMusicPropertiesProxy`
+### `CMusicPropertiesProxy`
 
 ## Registry
 
 
 ### InProcServer32
 
-* `C:\Windows\system32\windows.storage.dll`
+##### `C:\Windows\system32\windows.storage.dll`
 * ThreadingModel: `Both`
 
 ## Instance

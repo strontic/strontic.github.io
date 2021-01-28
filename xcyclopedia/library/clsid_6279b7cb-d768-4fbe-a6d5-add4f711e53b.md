@@ -5,22 +5,22 @@ excerpt: What is COM-Object CLSID 6279b7cb-d768-4fbe-a6d5-add4f711e53b?
 
 # {6279b7cb-d768-4fbe-a6d5-add4f711e53b}
 
-* `Microsoft IME SingleKanjiDictionary interface`
+### `Microsoft IME SingleKanjiDictionary interface`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\IME\IMEJP\APPLETS\imjpkdic.dll`
+##### `C:\Windows\System32\IME\IMEJP\APPLETS\imjpkdic.dll`
 
 ### ProgID
 
-* `IMESingleKanjiDict.15`
+##### `IMESingleKanjiDict.15`
 
 ### VersionIndependentProgID
 
-* `IMESingleKanjiDict`
+##### `IMESingleKanjiDict`
 
 ## Instance
 

@@ -5,23 +5,23 @@ excerpt: What is COM-Object CLSID 6BC0989D-0CE6-11D1-BAAE-00C04FC2E20D?
 
 # {6BC0989D-0CE6-11D1-BAAE-00C04FC2E20D}
 
-* ``
+### ``
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\system32\iassam.dll`
+##### `C:\Windows\system32\iassam.dll`
 * ThreadingModel: `Free`
 
 ### ProgID
 
-* `IAS.NTSamNames.1`
+##### `IAS.NTSamNames.1`
 
 ### VersionIndependentProgID
 
-* `IAS.NTSamNames`
+##### `IAS.NTSamNames`
 
 ## Instance
 

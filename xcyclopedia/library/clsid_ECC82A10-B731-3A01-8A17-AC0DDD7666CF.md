@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID ECC82A10-B731-3A01-8A17-AC0DDD7666CF?
 
 # {ECC82A10-B731-3A01-8A17-AC0DDD7666CF}
 
-* `System.Security.HostProtectionException`
+### `System.Security.HostProtectionException`
 
 ## Registry
 
@@ -15,14 +15,14 @@ excerpt: What is COM-Object CLSID ECC82A10-B731-3A01-8A17-AC0DDD7666CF?
 
 ### InprocServer32
 
-* `C:\Windows\System32\mscoree.dll`
+##### `C:\Windows\System32\mscoree.dll`
 * Assembly: `mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089`
 * Class: `System.Security.HostProtectionException`
 * ThreadingModel: `Both`
 
 ### ProgId
 
-* `System.Security.HostProtectionException`
+##### `System.Security.HostProtectionException`
 
 ## Instance
 

@@ -11,7 +11,7 @@ excerpt: What is COM-Object CLSID 2465E8F5-E0EA-4BFD-B8B8-A3A6BCB485EB?
 
 ### InprocServer32
 
-* `C:\Windows\System32\storewuauth.dll`
+##### `C:\Windows\System32\storewuauth.dll`
 * ThreadingModel: `Both`
 
 MIT License. Copyright (c) 2021 Strontic.

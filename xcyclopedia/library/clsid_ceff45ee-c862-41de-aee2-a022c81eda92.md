@@ -5,7 +5,7 @@ excerpt: What is COM-Object CLSID ceff45ee-c862-41de-aee2-a022c81eda92?
 
 # {ceff45ee-c862-41de-aee2-a022c81eda92}
 
-* `CLSID_SeparateSingleProcessExplorerHost`
+### `CLSID_SeparateSingleProcessExplorerHost`
 * AppId: `{CDCBCFCA-3CDC-436f-A4E2-0E02075250C2}`
 
 ## Registry
@@ -13,7 +13,7 @@ excerpt: What is COM-Object CLSID ceff45ee-c862-41de-aee2-a022c81eda92?
 
 ### LocalServer32
 
-* `C:\Windows\explorer.exe /factory,{ceff45ee-c862-41de-aee2-a022c81eda92}`
+##### `C:\Windows\explorer.exe /factory,{ceff45ee-c862-41de-aee2-a022c81eda92}`
 
 ## Instance
 

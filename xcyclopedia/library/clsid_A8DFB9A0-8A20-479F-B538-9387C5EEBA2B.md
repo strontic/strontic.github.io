@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID A8DFB9A0-8A20-479F-B538-9387C5EEBA2B?
 
 # {A8DFB9A0-8A20-479F-B538-9387C5EEBA2B}
 
-* `VMR Mixer 9`
+### `VMR Mixer 9`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\quartz.dll`
+##### `C:\Windows\System32\quartz.dll`
 * ThreadingModel: `Both`
 
 ## Instance

@@ -5,14 +5,14 @@ excerpt: What is COM-Object CLSID 06BF8E77-0FEC-4bd3-AFD6-C949AE21E34B?
 
 # {06BF8E77-0FEC-4bd3-AFD6-C949AE21E34B}
 
-* `NarratorToolBar Class`
+### `NarratorToolBar Class`
 
 ## Registry
 
 
 ### InprocServer32
 
-* `C:\Windows\System32\srh.dll`
+##### `C:\Windows\System32\srh.dll`
 * ThreadingModel: `Both`
 
 ## Instance
