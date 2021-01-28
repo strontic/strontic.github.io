@@ -30,7 +30,7 @@ excerpt: What is COM-Object CLSID A4DDCA2B-E73C-40C5-83B1-9F40269D0B0D?
 
 ## Instance
 
-* Type: `__ComObject`
+* Type: `ComObject`
 
 ### Methods
 

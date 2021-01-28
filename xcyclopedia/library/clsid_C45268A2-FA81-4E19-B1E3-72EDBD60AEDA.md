@@ -39,7 +39,7 @@ excerpt: What is COM-Object CLSID C45268A2-FA81-4E19-B1E3-72EDBD60AEDA?
 
 ## Instance
 
-* Type: `__ComObject`
+* Type: `ComObject`
 
 ### Methods
 

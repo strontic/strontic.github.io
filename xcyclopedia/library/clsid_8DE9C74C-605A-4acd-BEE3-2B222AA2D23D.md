@@ -17,7 +17,7 @@ excerpt: What is COM-Object CLSID 8DE9C74C-605A-4acd-BEE3-2B222AA2D23D?
 
 ## Instance
 
-* Type: `__ComObject`
+* Type: `ComObject`
 
 MIT License. Copyright (c) 2021 Strontic.
 
