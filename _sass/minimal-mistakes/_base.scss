@@ -35,6 +35,20 @@ h6 {
   font-weight: bold;
 }
 
+/* CUSTOM - "MINIMAL-HACKER" */
+h3 > code,
+h4 > code,
+h5 > code,
+h6 > code {
+	color: $text-color;
+	/* padding-left: 1em; */
+	&:before,
+	&:after {
+		letter-spacing: -0.2em;
+		content: "\00a0"; /* non-breaking space*/
+	}
+}
+
 h1 {
   margin-top: 0;
   font-size: $h-size-1;
