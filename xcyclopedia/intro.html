@@ -199,7 +199,7 @@
         
           <a href="https://github.com/strontic/xcyclopedia/archive/master.zip" class="btn btn--light-outline btn--large">Download</a>
         
-          <a href="/xcyclopedia/#index" class="btn btn--light-outline btn--large">View</a>
+          <a href="/xcyclopedia/" class="btn btn--light-outline btn--large">View</a>
         
       
     </div>
@@ -308,29 +308,29 @@
 
 <h3 id="syntax">Syntax</h3>
 
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w">  </span><span class="nf">Get-Xcyclopedia</span><span class="w">
+<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w">  </span><span class="n">Get-Xcyclopedia</span><span class="w">
   </span><span class="c">#Synopsis: Iterate through all executable files in a specified directory (default target is .EXE). Gather CLI usage/syntax, screenshots, file hashes, file metadata, signature validity, and child processes.</span><span class="w">
     </span><span class="nt">-save_path</span><span class="w">                  </span><span class="c">#path to save output</span><span class="w">
     </span><span class="nt">-target_path</span><span class="w">                </span><span class="c">#target path for enumerating files (non-recursive). Comma-delimited for multiple paths.</span><span class="w">
     </span><span class="nt">-target_path_recursive</span><span class="w">      </span><span class="c">#target path for enumerating files (recursive). Comma-delimited for multiple paths.</span><span class="w">
     </span><span class="nt">-target_file_extension</span><span class="w">      </span><span class="c">#File extension to target (default = ".exe")</span><span class="w">
-    </span><span class="nt">-execute_files</span><span class="w">    </span><span class="p">[</span><span class="kt">bool</span><span class="p">]</span><span class="w">    </span><span class="c">#Execute each for gathering syntax/usage info (stdout/stderr)</span><span class="w">
-    </span><span class="nt">-take_screenshots</span><span class="w"> </span><span class="p">[</span><span class="kt">bool</span><span class="p">]</span><span class="w">    </span><span class="c">#Take a screenshot if a given process has a window visible. This requires execute_files to be enabled.</span><span class="w">
-    </span><span class="nt">-minimize_windows</span><span class="w"> </span><span class="p">[</span><span class="kt">bool</span><span class="p">]</span><span class="w">    </span><span class="c">#Minimizing windows helps with screenshots, so that other windows do not get in the way. This only takes effect if execute_files and $take_screenshots are both enabled.</span><span class="w">
-    </span><span class="nt">-xcyclopedia_verbose</span><span class="w"> </span><span class="p">[</span><span class="kt">bool</span><span class="p">]</span><span class="w"> </span><span class="c">#Verbose Output</span><span class="w">
-    </span><span class="nt">-transcript_file</span><span class="w">  </span><span class="p">[</span><span class="kt">bool</span><span class="p">]</span><span class="w">    </span><span class="c">#Write console output to a file (job.txt)</span><span class="w">
+    </span><span class="nt">-execute_files</span><span class="w">    </span><span class="p">[</span><span class="n">bool</span><span class="p">]</span><span class="w">    </span><span class="c">#Execute each for gathering syntax/usage info (stdout/stderr)</span><span class="w">
+    </span><span class="nt">-take_screenshots</span><span class="w"> </span><span class="p">[</span><span class="n">bool</span><span class="p">]</span><span class="w">    </span><span class="c">#Take a screenshot if a given process has a window visible. This requires execute_files to be enabled.</span><span class="w">
+    </span><span class="nt">-minimize_windows</span><span class="w"> </span><span class="p">[</span><span class="n">bool</span><span class="p">]</span><span class="w">    </span><span class="c">#Minimizing windows helps with screenshots, so that other windows do not get in the way. This only takes effect if execute_files and $take_screenshots are both enabled.</span><span class="w">
+    </span><span class="nt">-xcyclopedia_verbose</span><span class="w"> </span><span class="p">[</span><span class="n">bool</span><span class="p">]</span><span class="w"> </span><span class="c">#Verbose Output</span><span class="w">
+    </span><span class="nt">-transcript_file</span><span class="w">  </span><span class="p">[</span><span class="n">bool</span><span class="p">]</span><span class="w">    </span><span class="c">#Write console output to a file (job.txt)</span><span class="w">
 
-  </span><span class="nf">Coalesce-Json</span><span class="w">
+  </span><span class="n">Coalesce-Json</span><span class="w">
     </span><span class="c">#Synopsis: Combine JSON files into a single file. Only works with PowerShell-compatible JSON files.</span><span class="w">
     </span><span class="nt">-target_files</span><span class="w">          </span><span class="c">#List of JSON files (comma-delimited) to combine.</span><span class="w">
     </span><span class="nt">-save_path</span><span class="w">             </span><span class="c">#Path to save the combined JSON file.</span><span class="w">
-    </span><span class="nt">-verbose_output</span><span class="w"> </span><span class="p">[</span><span class="kt">bool</span><span class="p">]</span><span class="w">
-    </span><span class="nt">-save_json</span><span class="w">      </span><span class="p">[</span><span class="kt">bool</span><span class="p">]</span><span class="w"> </span><span class="c">#Save file as JSON</span><span class="w">
-    </span><span class="nt">-save_csv</span><span class="w">       </span><span class="p">[</span><span class="kt">bool</span><span class="p">]</span><span class="w"> </span><span class="c">#Save file as CSV</span><span class="w">
+    </span><span class="nt">-verbose_output</span><span class="w"> </span><span class="p">[</span><span class="n">bool</span><span class="p">]</span><span class="w">
+    </span><span class="nt">-save_json</span><span class="w">      </span><span class="p">[</span><span class="n">bool</span><span class="p">]</span><span class="w"> </span><span class="c">#Save file as JSON</span><span class="w">
+    </span><span class="nt">-save_csv</span><span class="w">       </span><span class="p">[</span><span class="n">bool</span><span class="p">]</span><span class="w"> </span><span class="c">#Save file as CSV</span><span class="w">
 </span></code></pre></div></div>
 
 <h3 id="example">Example</h3>
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">Get-Xcyclopedia</span><span class="w"> </span><span class="nt">-save_path</span><span class="w"> </span><span class="s2">"c:\temp\strontic-xcyclopedia"</span><span class="w"> </span><span class="nt">-target_path</span><span class="w"> </span><span class="s2">"</span><span class="nv">$</span><span class="nn">env</span><span class="p">:</span><span class="nv">windir</span><span class="s2">\system32"</span><span class="w"> </span><span class="nt">-target_file_extension</span><span class="w"> </span><span class="s2">".exe"</span><span class="w">
+<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Get-Xcyclopedia</span><span class="w"> </span><span class="nt">-save_path</span><span class="w"> </span><span class="s2">"c:\temp\strontic-xcyclopedia"</span><span class="w"> </span><span class="nt">-target_path</span><span class="w"> </span><span class="s2">"</span><span class="nv">$</span><span class="nn">env</span><span class="p">:</span><span class="nv">windir</span><span class="s2">\system32"</span><span class="w"> </span><span class="nt">-target_file_extension</span><span class="w"> </span><span class="s2">".exe"</span><span class="w">
 </span></code></pre></div></div>
 
 <h3 id="optional-dependencies"><strong>Optional</strong> Dependencies:</h3>
