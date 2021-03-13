@@ -67,10 +67,10 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[malware-ioc](https://github.com/eset/malware-ioc) | [nouns.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt) | `flame` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [nouns.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt) | `flame`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

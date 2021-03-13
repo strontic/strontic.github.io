@@ -91,6 +91,6 @@ C:\Windows\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9625_none_
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

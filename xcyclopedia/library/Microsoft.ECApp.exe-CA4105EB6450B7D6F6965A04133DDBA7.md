@@ -76,6 +76,6 @@ C:\Windows\SystemApps\Microsoft.ECApp_8wekyb3d8bbwe\Microsoft.ECApp.exe |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -128,9 +128,16 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/b40202b260210eeb597773cd14ef0fcb0e8e03597700c76e2d4130be898bf26a/detection
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `ildasm.exe` being misused. While `ildasm.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[stockpile](https://github.com/mitre/stockpile) | [7a6ba833-de40-466a-8969-5c37b13603e0.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/defense-evasion/7a6ba833-de40-466a-8969-5c37b13603e0.yml) | `"ildasm",`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

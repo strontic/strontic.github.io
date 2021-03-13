@@ -64,6 +64,6 @@ C:\Windows\system32\WUDFCompanionHost.exe |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

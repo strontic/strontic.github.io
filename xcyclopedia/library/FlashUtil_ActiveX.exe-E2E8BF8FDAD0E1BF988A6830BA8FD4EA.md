@@ -89,6 +89,6 @@ C:\Windows\SysWOW64\Macromed\Flash\FlashUtil_ActiveX.exe |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

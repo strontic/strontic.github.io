@@ -6,6 +6,7 @@ excerpt: What is vsdiagview.exe?
 # vsdiagview.exe 
 
 * File Path: `C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm64\vsdiagview.exe`
+* Description: VSS Diag Viewer (Window Title)
 
 ## Screenshot
 
@@ -108,6 +109,6 @@ File | Score
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -42,6 +42,6 @@ SSDEEP | `1536:tEe8VJDo5G61tqcgS9+iRr78W+3JfJPB+J7/sYYzIA5pEM2gMD+Mc0Lnt:tepoari
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

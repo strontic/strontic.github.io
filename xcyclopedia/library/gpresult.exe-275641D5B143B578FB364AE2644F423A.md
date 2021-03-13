@@ -164,6 +164,13 @@ C:\Windows\System32\WS2_32.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/e71a9e7d0b66976b97a7e6411d5f15581698b48aac2d225b98f0c70b2859b451/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `gpresult.exe` being misused. While `gpresult.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[stockpile](https://github.com/mitre/stockpile) | [5c4dd985-89e3-4590-9b57-71fed66ff4e2.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/5c4dd985-89e3-4590-9b57-71fed66ff4e2.yml) | `gpresult /R`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
 
 ## Additional Info*
 
@@ -238,6 +245,6 @@ gpresult /s srvmain /u maindom\hiropln /p p@ssW23 /r
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

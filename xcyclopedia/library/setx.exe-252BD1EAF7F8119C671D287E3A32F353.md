@@ -351,6 +351,6 @@ setx /s computer1 /u maindom\hiropln /p p@ssW23 /f ipconfig.out /x
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

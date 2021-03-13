@@ -84,6 +84,6 @@ C:\Windows\system32\Windows.UI.Immersive.dll |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

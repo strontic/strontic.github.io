@@ -45,17 +45,17 @@ SSDEEP | `768:UI0kFUnTPAf0fTLUrG7KT/4HFkCYai6lgY6jHYIF8ld2Wtjk/:QkFuTDcS2T/4HFJY
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_findstr_lnk.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_findstr_lnk.yml) | `title: Findstr Launching .lnk File` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_findstr_lnk.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_findstr_lnk.yml) | `description: Detects usage of findstr to identify and execute a lnk file as seen within the HHS redirect attack` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_findstr_lnk.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_findstr_lnk.yml) | `Image: '*\findstr.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `- '\findstr.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `Name: Findstr.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `- Command: findstr /V /L W3AllLov3DonaldTrump c:\ADS\file.exe > c:\ADS\file.txt:file.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `- Command: findstr /V /L W3AllLov3DonaldTrump \\webdavserver\folder\file.exe > c:\ADS\file.txt:file.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `- Command: findstr /S /I cpassword \\sysvol\policies\*.xml` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `- Command: findstr /V /L W3AllLov3DonaldTrump \\webdavserver\folder\file.exe > c:\ADS\file.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `- Path: C:\Windows\System32\findstr.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `- Path: C:\Windows\SysWOW64\findstr.exe` | 
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_findstr_lnk.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_findstr_lnk.yml) | `title: Findstr Launching .lnk File`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_findstr_lnk.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_findstr_lnk.yml) | `description: Detects usage of findstr to identify and execute a lnk file as seen within the HHS redirect attack`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_findstr_lnk.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_findstr_lnk.yml) | `Image: '*\findstr.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `- '\findstr.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `Name: Findstr.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `- Command: findstr /V /L W3AllLov3DonaldTrump c:\ADS\file.exe > c:\ADS\file.txt:file.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `- Command: findstr /V /L W3AllLov3DonaldTrump \\webdavserver\folder\file.exe > c:\ADS\file.txt:file.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `- Command: findstr /S /I cpassword \\sysvol\policies\*.xml`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `- Command: findstr /V /L W3AllLov3DonaldTrump \\webdavserver\folder\file.exe > c:\ADS\file.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `- Path: C:\Windows\System32\findstr.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Findstr.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml) | `- Path: C:\Windows\SysWOW64\findstr.exe`{:.highlight .language-yaml} | 
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #3: Extracting passwords with findstr [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #1: GPP Passwords (findstr) [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - Atomic Test #3: Extracting passwords with findstr [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
@@ -88,6 +88,7 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_lazarus_dec17.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_lazarus_dec17.yar) | $x8 = "whoami /groups \| findstr /c:\"S-1-5-32-544\"" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_susp_lnk_files.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_susp_lnk_files.yar) | $command = "C:\\Windows\\System32\\cmd.exe" fullword ascii //cmd is precursor to findstr | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_susp_lnk_files.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_susp_lnk_files.yar) | $command2 =  {2F 00 63 00 20 00 66 00 69 00 6E 00 64 00 73 00 74 00 72} //findstr in hex | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[stockpile](https://github.com/mitre/stockpile) | [de632c2d-a729-4b77-b781-6a6b09c148ba.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/credential-access/de632c2d-a729-4b77-b781-6a6b09c148ba.yml) | `for %i in (\.key \.pgp \.gpg \.ppk \.p12 \.pem \.pfx \.cer \.p7b \.asc) do (dir c:\ /b /s .key \| findstr /e "%i")`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
 
 ## Additional Info*
 
@@ -175,7 +176,7 @@ findstr hello there x.y
 To search for *hello there* in file *x.y*, type:
 
 ```
-findstr /c:hello there x.y
+findstr /c:"hello there" x.y
 ```
 
 To find all occurrences of the word *Windows* (with an initial capital letter W) in the file *proposal.txt*, type:
@@ -222,6 +223,6 @@ findstr /s /i /m \<comp.* *.*
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

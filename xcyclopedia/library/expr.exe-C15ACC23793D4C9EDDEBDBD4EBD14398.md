@@ -98,6 +98,6 @@ or available locally via: info '(coreutils) expr invocation'
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

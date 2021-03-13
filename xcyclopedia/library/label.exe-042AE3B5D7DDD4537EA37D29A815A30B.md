@@ -120,6 +120,6 @@ To view and delete the current label for drive C, follow these steps:
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

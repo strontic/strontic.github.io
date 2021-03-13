@@ -79,6 +79,6 @@ C:\Windows\system32\WpcMon.exe |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

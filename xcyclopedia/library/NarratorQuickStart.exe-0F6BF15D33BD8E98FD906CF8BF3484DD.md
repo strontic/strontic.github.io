@@ -73,6 +73,6 @@ C:\Windows\SystemApps\microsoft.windows.narratorquickstart_8wekyb3d8bbwe\Narrato
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

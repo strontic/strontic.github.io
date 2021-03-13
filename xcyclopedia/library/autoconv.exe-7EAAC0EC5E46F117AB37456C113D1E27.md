@@ -44,7 +44,6 @@ PE256 | `8567E9B59BCABEBA4DAE7ED79A1DDB6E9BA321754B333A5CDD9ABE06A31B8EFE`
 ## File Scan
 
 * VirusTotal Detections: Unknown
-* VirusTotal Link: n/a
 
 
 
@@ -75,6 +74,6 @@ Converts file allocation table (Fat) and Fat32 volumes to the NTFS file system, 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

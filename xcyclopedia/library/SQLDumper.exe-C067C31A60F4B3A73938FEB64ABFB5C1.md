@@ -81,15 +81,15 @@ C:\Windows\System32\wow64win.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Sqldumper.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml) | `Name: Sqldumper.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Sqldumper.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml) | `- Command: sqldumper.exe 464 0 0x0110` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Sqldumper.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml) | `- Command: sqldumper.exe 540 0 0x01100:40` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Sqldumper.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml) | `- Path: C:\Program Files\Microsoft SQL Server\90\Shared\SQLDumper.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Sqldumper.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml) | `- Path: C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesX86\Microsoft Analysis\AS OLEDB\140\SQLDumper.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Sqldumper.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml) | `- Link: https://support.microsoft.com/en-us/help/917825/how-to-use-the-sqldumper-exe-utility-to-generate-a-dump-file-in-sql-se` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Sqldumper.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml) | `Name: Sqldumper.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Sqldumper.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml) | `- Command: sqldumper.exe 464 0 0x0110`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Sqldumper.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml) | `- Command: sqldumper.exe 540 0 0x01100:40`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Sqldumper.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml) | `- Path: C:\Program Files\Microsoft SQL Server\90\Shared\SQLDumper.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Sqldumper.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml) | `- Path: C:\Program Files (x86)\Microsoft Office\root\vfs\ProgramFilesX86\Microsoft Analysis\AS OLEDB\140\SQLDumper.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Sqldumper.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml) | `- Link: https://support.microsoft.com/en-us/help/917825/how-to-use-the-sqldumper-exe-utility-to-generate-a-dump-file-in-sql-se`{:.highlight .language-yaml} | 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

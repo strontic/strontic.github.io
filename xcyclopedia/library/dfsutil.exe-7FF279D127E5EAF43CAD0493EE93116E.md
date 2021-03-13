@@ -164,6 +164,6 @@ For more info about each of these commands, open a command prompt on a server wi
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

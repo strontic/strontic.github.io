@@ -151,6 +151,6 @@ Displays a list of all Remote Desktop Session Host servers on the network. To fi
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

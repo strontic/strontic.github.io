@@ -59,16 +59,9 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/967079ccf7b2cbd4b48c9f076675c26af93a1cec26c96811f279414e34004ee6/detection/
 
 
-## Possible Misuse
-
-*The following table contains possible examples of `OSPPSVC.EXE` being misused. While `OSPPSVC.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
-
-Source | Source File | Example | License
--- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [apt_op_cleaver.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_op_cleaver.yar) | $s2 = "OSPPSVC" wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

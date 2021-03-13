@@ -83,9 +83,16 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/91b8d19a897cac6cfc638b0c195ee541e78781402e1d59dad7f3d532376f32d2/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `Winobj.exe` being misused. While `Winobj.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[stockpile](https://github.com/mitre/stockpile) | [7a6ba833-de40-466a-8969-5c37b13603e0.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/defense-evasion/7a6ba833-de40-466a-8969-5c37b13603e0.yml) | `"winobj",`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

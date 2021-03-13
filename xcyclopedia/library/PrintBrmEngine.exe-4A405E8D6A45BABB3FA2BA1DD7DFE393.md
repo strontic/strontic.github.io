@@ -64,6 +64,6 @@ C:\Windows\system32\spool\tools\PrintBrmEngine.exe |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -169,6 +169,6 @@ msg * /time:10 Let's meet at 1PM today
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

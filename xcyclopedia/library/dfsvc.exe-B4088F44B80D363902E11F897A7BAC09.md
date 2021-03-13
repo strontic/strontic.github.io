@@ -246,15 +246,15 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dfsvc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dfsvc.yml) | `Name: Dfsvc.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dfsvc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dfsvc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework\v2.0.50727\Dfsvc.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dfsvc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dfsvc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v2.0.50727\Dfsvc.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dfsvc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dfsvc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework\v4.0.30319\Dfsvc.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dfsvc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dfsvc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Dfsvc.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dfsvc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dfsvc.yml) | `- Link: https://stackoverflow.com/questions/13312273/clickonce-runtime-dfsvc-exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dfsvc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dfsvc.yml) | `Name: Dfsvc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dfsvc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dfsvc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework\v2.0.50727\Dfsvc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dfsvc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dfsvc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v2.0.50727\Dfsvc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dfsvc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dfsvc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework\v4.0.30319\Dfsvc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dfsvc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dfsvc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Dfsvc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dfsvc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dfsvc.yml) | `- Link: https://stackoverflow.com/questions/13312273/clickonce-runtime-dfsvc-exe`{:.highlight .language-yaml} | 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

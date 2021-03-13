@@ -122,14 +122,14 @@ C:\Windows\SysWOW64\ntdsutil.exe |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ntdsutil.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ntdsutil.yml) | `title: Invocation of Active Directory Diagnostic Tool (ntdsutil.exe)` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ntdsutil.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ntdsutil.yml) | `description: Detects execution of ntdsutil.exe, which can be used for various attacks against the NTDS database (NTDS.DIT)` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ntdsutil.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ntdsutil.yml) | `- https://jpcertcc.github.io/ToolAnalysisResultSheet/details/ntdsutil.htm` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ntdsutil.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ntdsutil.yml) | `CommandLine: '*\ntdsutil*'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ntdsutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Ntdsutil.yml) | `Name: ntdsutil.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ntdsutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Ntdsutil.yml) | `- Command: ntdsutil.exe "ac i ntds" "ifm" "create full c:\" q q` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ntdsutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Ntdsutil.yml) | `- Path: C:\Windows\System32\ntdsutil.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ntdsutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Ntdsutil.yml) | `- IOC: ntdsutil.exe with command line including "ifm"` | 
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ntdsutil.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ntdsutil.yml) | `title: Invocation of Active Directory Diagnostic Tool (ntdsutil.exe)`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ntdsutil.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ntdsutil.yml) | `description: Detects execution of ntdsutil.exe, which can be used for various attacks against the NTDS database (NTDS.DIT)`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ntdsutil.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ntdsutil.yml) | `- https://jpcertcc.github.io/ToolAnalysisResultSheet/details/ntdsutil.htm`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ntdsutil.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ntdsutil.yml) | `CommandLine: '*\ntdsutil*'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ntdsutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Ntdsutil.yml) | `Name: ntdsutil.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ntdsutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Ntdsutil.yml) | `- Command: ntdsutil.exe "ac i ntds" "ifm" "create full c:\" q q`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ntdsutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Ntdsutil.yml) | `- Path: C:\Windows\System32\ntdsutil.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ntdsutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Ntdsutil.yml) | `- IOC: ntdsutil.exe with command line including "ifm"`{:.highlight .language-yaml} | 
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #3: Dump Active Directory Database with NTDSUtil [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - Atomic Test #3: Dump Active Directory Database with NTDSUtil [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1003.003.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.003/T1003.003.md) | * Using the in-built Windows tool, ntdsutil.exe | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
@@ -140,6 +140,6 @@ Source | Source File | Example | License
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

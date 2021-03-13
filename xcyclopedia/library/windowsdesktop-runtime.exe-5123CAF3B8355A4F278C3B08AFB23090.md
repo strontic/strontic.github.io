@@ -77,15 +77,10 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/67
 * VirusTotal Link: https://www.virustotal.com/gui/file/75f80882ade213b5d75ab4e003cfeaafe93d4f377a5d7a76077bb82728bcba58/detection/
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\Temp\windowsdesktop-runtime.exe](windowsdesktop-runtime.exe-5123CAF3B8355A4F278C3B08AFB23090.md) | 100
 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -177,6 +177,6 @@ getmac /s srvmain /u maindom\hiropln /p p@ssW23 /fo table /nh
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

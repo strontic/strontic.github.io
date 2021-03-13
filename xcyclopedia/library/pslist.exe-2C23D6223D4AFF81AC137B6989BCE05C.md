@@ -154,10 +154,11 @@ C:\Windows\System32\wow64win.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[malware-ioc](https://github.com/eset/malware-ioc) | [vf_ioc_linux_rakos.py](https://github.com/eset/malware-ioc/blob/master/rakos/vf_ioc_linux_rakos.py) | `from volatility.plugins.linux.pslist import linux_pslist` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [vf_ioc_linux_rakos.py](https://github.com/eset/malware-ioc/blob/master/rakos/vf_ioc_linux_rakos.py) | `from volatility.plugins.linux.pslist import linux_pslist`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[stockpile](https://github.com/mitre/stockpile) | [cc191baa-7472-4386-a2f4-42f203f1acfd.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/collection/cc191baa-7472-4386-a2f4-42f203f1acfd.yml) | `iex $staging_folder"\pslist.exe" >> $env:LOCALAPPDATA\output.log;`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

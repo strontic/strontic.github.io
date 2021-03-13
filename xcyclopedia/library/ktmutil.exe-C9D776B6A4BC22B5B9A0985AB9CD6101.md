@@ -110,6 +110,6 @@ ktmutil force commit {311a9209-03f4-11dc-918f-00188b8f707b}
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

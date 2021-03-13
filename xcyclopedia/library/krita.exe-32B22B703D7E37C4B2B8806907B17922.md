@@ -6,6 +6,7 @@ excerpt: What is krita.exe?
 # krita.exe 
 
 * File Path: `C:\Program Files\Krita (x64)\bin\krita.exe`
+* Description: Krita (Window Title)
 
 ## Screenshot
 
@@ -222,6 +223,6 @@ C:\Windows\System32\WS2_32.dll |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

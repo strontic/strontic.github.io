@@ -44,7 +44,6 @@ PE256 | `49DBB5D5E306E31C585443B68B6240A5F24E380112C2E9F98DC75123C8F39A92`
 ## File Scan
 
 * VirusTotal Detections: Unknown
-* VirusTotal Link: n/a
 
 
 
@@ -73,6 +72,6 @@ Starts the Auto File System Format Utility, which formats a drive or partition w
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

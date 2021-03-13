@@ -6,6 +6,7 @@ excerpt: What is crashreporter.exe?
 # crashreporter.exe 
 
 * File Path: `C:\program files\Mozilla Firefox\crashreporter.exe`
+* Description: Crash Reporter (Window Title)
 
 ## Screenshot
 
@@ -106,6 +107,6 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

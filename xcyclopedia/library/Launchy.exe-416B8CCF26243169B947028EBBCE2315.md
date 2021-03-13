@@ -6,6 +6,7 @@ excerpt: What is Launchy.exe?
 # Launchy.exe 
 
 * File Path: `C:\Program Files (x86)\Launchy\Launchy.exe`
+* Description: Launchy (Window Title)
 
 ## Screenshot
 
@@ -93,6 +94,6 @@ C:\Windows\System32\wow64win.dll |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

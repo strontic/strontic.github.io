@@ -67,6 +67,6 @@ C:\Windows\SystemApps\Microsoft.XboxGameCallableUI_cw5n1h2txyewy\XBox.TCUI.exe |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

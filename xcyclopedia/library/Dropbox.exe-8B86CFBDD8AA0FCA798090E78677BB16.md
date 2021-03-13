@@ -128,12 +128,12 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [proxy_apt40.yml](https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_apt40.yml) | `title: APT40 Dropbox Tool User Agent` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [proxy_apt40.yml](https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_apt40.yml) | `description: Detects suspicious user agent string of APT40 Dropbox tool` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [proxy_apt40.yml](https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_apt40.yml) | `r-dns: 'api.dropbox.com'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [net_dns_high_subdomain_rate.yml](https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/net_dns_high_subdomain_rate.yml) | `- "dropbox.com"` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [net_dns_large_domain_name.yml](https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/net_dns_large_domain_name.yml) | `- "dropbox.com"` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[malware-ioc](https://github.com/eset/malware-ioc) | [misp-machete-event.json](https://github.com/eset/malware-ioc/blob/master/machete/misp-machete-event.json) | `"value": "https://www.dropbox.com/s/m38rq5hx5ydrg07/zingapur?dl=1",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[sigma](https://github.com/Neo23x0/sigma) | [proxy_apt40.yml](https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_apt40.yml) | `title: APT40 Dropbox Tool User Agent`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [proxy_apt40.yml](https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_apt40.yml) | `description: Detects suspicious user agent string of APT40 Dropbox tool`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [proxy_apt40.yml](https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_apt40.yml) | `r-dns: 'api.dropbox.com'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [net_dns_high_subdomain_rate.yml](https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/net_dns_high_subdomain_rate.yml) | `- "dropbox.com"`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [net_dns_large_domain_name.yml](https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/net_dns_large_domain_name.yml) | `- "dropbox.com"`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-machete-event.json](https://github.com/eset/malware-ioc/blob/master/machete/misp-machete-event.json) | `"value": "https://www.dropbox.com/s/m38rq5hx5ydrg07/zingapur?dl=1",`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_hiddencobra_bankshot.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_hiddencobra_bankshot.yar) | $a1 = "live.dropbox.com" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_indetectables_rat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_indetectables_rat.yar) | $x2 = "URLDownloadToFileA 0, \"https://dl.dropbox.com/u/105015858/nome.exe\", \"c:\\nome.exe\", 0, 0" fullword wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_indetectables_rat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_indetectables_rat.yar) | $s5 = "https://dl.dropbox.com/u/105015858" wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
@@ -143,6 +143,6 @@ Source | Source File | Example | License
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

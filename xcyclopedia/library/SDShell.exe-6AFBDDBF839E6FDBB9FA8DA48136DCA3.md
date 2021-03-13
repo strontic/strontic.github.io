@@ -6,6 +6,7 @@ excerpt: What is SDShell.exe?
 # SDShell.exe 
 
 * File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDShell.exe`
+* Description: Shell (Window Title)
 
 ## Hashes
 
@@ -92,6 +93,6 @@ C:\Windows\System32\wow64win.dll |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -87,6 +87,6 @@ or available locally via: info '(coreutils) b2sum invocation'
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

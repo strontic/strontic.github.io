@@ -80,6 +80,6 @@ nlbmgr [/noping][/hostlist <filename>][/autorefresh <interval>][/help | /?]
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

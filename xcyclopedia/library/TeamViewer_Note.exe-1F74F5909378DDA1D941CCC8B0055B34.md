@@ -87,6 +87,6 @@ C:\Windows\System32\wow64win.dll |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

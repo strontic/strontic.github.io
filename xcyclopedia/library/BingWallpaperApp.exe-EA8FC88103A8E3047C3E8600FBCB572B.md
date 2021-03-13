@@ -92,15 +92,10 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/71
 * VirusTotal Link: https://www.virustotal.com/gui/file/c372d998c3d076ee063cd85c1be0c4e06274530468c0004cc93545a6ea1156b1/detection/
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\Microsoft\BingWallpaperApp\BingWallpaperApp.exe](BingWallpaperApp.exe-EA8FC88103A8E3047C3E8600FBCB572B.md) | 100
 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -6,6 +6,7 @@ excerpt: What is repair_tool.exe?
 # repair_tool.exe 
 
 * File Path: `C:\Program Files (x86)\Google\Google Earth Pro\client\repair_tool.exe`
+* Description: Repair Google Earth (Window Title)
 
 ## Screenshot
 
@@ -86,6 +87,6 @@ C:\Windows\System32\wow64win.dll |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

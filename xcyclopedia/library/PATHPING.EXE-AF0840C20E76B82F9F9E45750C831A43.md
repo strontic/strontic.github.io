@@ -39,13 +39,6 @@ SSDEEP | `384:KiV0Ff8vnSHQno6uzgcAykXwjk01CXO0G/W3AWG:0weTzCe0h8`
 
 
 
-## Possible Misuse
-
-*The following table contains possible examples of `PATHPING.EXE` being misused. While `PATHPING.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
-
-Source | Source File | Example | License
--- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [win_webshell_detection.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_webshell_detection.yml) | `- '*pathping*' ` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 ## Additional Info*
 
@@ -137,6 +130,6 @@ The loss rates displayed for the links, identified as a vertical bar (**|**) in 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

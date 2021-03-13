@@ -59,15 +59,10 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/61
 * VirusTotal Link: https://www.virustotal.com/gui/file/0b2a0c5b9c3a794de91a5522cf4b841581797c95f1392e936dd3a083a5c3a145/detection/
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\WDAGUtilityAccount\AppData\Local\Microsoft\BingWallpaperApp\BWCUpdater.exe](BWCUpdater.exe-DC3832152BE72828750DAC6E2C87D4B1.md) | 100
 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

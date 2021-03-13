@@ -102,6 +102,6 @@ Changes Remote Desktop Session Host server settings for logons, COM port mapping
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

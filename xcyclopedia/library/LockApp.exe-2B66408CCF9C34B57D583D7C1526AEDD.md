@@ -86,6 +86,6 @@ C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -145,6 +145,6 @@ For information about where to find BCDboot and examples of how to use this comm
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

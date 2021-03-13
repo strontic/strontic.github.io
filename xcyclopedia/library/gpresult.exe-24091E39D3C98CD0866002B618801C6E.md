@@ -141,6 +141,13 @@ File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\gpresult.exe](gpresult.exe-17C2F0ED69E41E8883D8542AD8BF0F01.md) | 27
 
+## Possible Misuse
+
+*The following table contains possible examples of `gpresult.exe` being misused. While `gpresult.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[stockpile](https://github.com/mitre/stockpile) | [5c4dd985-89e3-4590-9b57-71fed66ff4e2.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/5c4dd985-89e3-4590-9b57-71fed66ff4e2.yml) | `gpresult /R`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
 
 ## Additional Info*
 
@@ -215,6 +222,6 @@ gpresult /s srvmain /u maindom\hiropln /p p@ssW23 /r
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -67,6 +67,6 @@ C:\Windows\SystemApps\Microsoft.Windows.FilePicker_cw5n1h2txyewy\FilePicker.exe 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

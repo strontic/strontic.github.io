@@ -68,6 +68,6 @@ C:\Windows\SystemApps\Microsoft.Windows.CapturePicker_cw5n1h2txyewy\CapturePicke
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -117,6 +117,6 @@ sxstrace parse -logfile:sxstrace.etl -outfile:sxstrace.txt
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

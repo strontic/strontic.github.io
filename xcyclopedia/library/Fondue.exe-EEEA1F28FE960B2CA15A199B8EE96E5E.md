@@ -116,6 +116,6 @@ fondue.exe /enable-feature:NETFX4 /caller-name:Admin.bat /hide-ux:all
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

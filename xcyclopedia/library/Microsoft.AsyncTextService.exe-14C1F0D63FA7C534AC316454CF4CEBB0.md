@@ -72,6 +72,6 @@ C:\Windows\SystemApps\Microsoft.AsyncTextService_8wekyb3d8bbwe\Microsoft.AsyncTe
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

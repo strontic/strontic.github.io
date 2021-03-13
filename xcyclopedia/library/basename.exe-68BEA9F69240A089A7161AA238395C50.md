@@ -81,9 +81,10 @@ Try '/usr/bin/basename --help' for more information.
 Source | Source File | Example | License
 -- | -- | -- | --
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1556.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1556.002/T1556.002.md) | $passwordFilterName = (Copy-Item "#{input_dll}" -Destination "C:\Windows\System32" -PassThru).basename | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
+[stockpile](https://github.com/mitre/stockpile) | [316251ed-6a28-4013-812b-ddf5b5b007f8.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/collection/316251ed-6a28-4013-812b-ddf5b5b007f8.yml) | `for i in {1..5}; do screencapture -t png screen-$i.png; echo "$(cd "$(dirname "$1")"; pwd -P)/$(basename "screen-$i.png")"; sleep 5; done;`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

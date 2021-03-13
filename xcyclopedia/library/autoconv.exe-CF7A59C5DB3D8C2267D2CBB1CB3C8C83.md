@@ -75,6 +75,6 @@ Converts file allocation table (Fat) and Fat32 volumes to the NTFS file system, 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

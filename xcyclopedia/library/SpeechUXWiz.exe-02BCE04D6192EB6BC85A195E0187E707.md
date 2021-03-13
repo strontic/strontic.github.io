@@ -103,14 +103,16 @@ C:\Windows\System32\win32u.dll |
 
 File | Score
 -- | --
+[C:\Windows\system32\Speech\SpeechUX\sapi.cpl](sapi.cpl-2BBBD624B2A736A3806D00280DF1AD3E.md) | 46
 [C:\Windows\system32\Speech\SpeechUX\speechuxcpl.dll](speechuxcpl.dll-F80452AD1ED856C3C07F4EC41188A22B.md) | 47
 [C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-12BEDBBE10C9281CADB3A1CE54F716E5.md) | 79
 [C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-BE50185ACB3EAC15CF46EC3297C436AC.md) | 75
 [C:\WINDOWS\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-FAE658436615C362C1DE0464C028F227.md) | 71
+[C:\Windows\SysWOW64\Speech\SpeechUX\sapi.cpl](sapi.cpl-17C07E2F8D1EC3FA10F83523ACD38829.md) | 52
 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -125,19 +125,19 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `Name: Jsc.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Command: jsc.exe scriptfile.js` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `Description: Use jsc.exe to compile javascript code stored in scriptfile.js and output scriptfile.exe.` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Command: jsc.exe /t:library Library.js` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `Description: Use jsc.exe to compile javascript code stored in Library.js and output Library.dll.` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework\v4.0.30319\Jsc.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Jsc.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework\v2.0.50727\Jsc.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v2.0.50727\Jsc.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- IOC: Jsc.exe should normally not run a system unless it is used for development. ` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `Name: Jsc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Command: jsc.exe scriptfile.js`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `Description: Use jsc.exe to compile javascript code stored in scriptfile.js and output scriptfile.exe.`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Command: jsc.exe /t:library Library.js`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `Description: Use jsc.exe to compile javascript code stored in Library.js and output Library.dll.`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework\v4.0.30319\Jsc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Jsc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework\v2.0.50727\Jsc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v2.0.50727\Jsc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- IOC: Jsc.exe should normally not run a system unless it is used for development. `{:.highlight .language-yaml} | 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

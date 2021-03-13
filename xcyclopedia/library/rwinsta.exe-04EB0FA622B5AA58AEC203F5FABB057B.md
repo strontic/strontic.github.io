@@ -120,6 +120,6 @@ Resets (deletes) a session on a Remote Desktop Session Host server.
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

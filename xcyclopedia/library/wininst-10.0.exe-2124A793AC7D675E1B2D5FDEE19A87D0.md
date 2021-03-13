@@ -6,6 +6,7 @@ excerpt: What is wininst-10.0.exe?
 # wininst-10.0.exe 
 
 * File Path: `C:\Program Files\Python38\Lib\distutils\command\wininst-10.0.exe`
+* Description: Error (Window Title)
 
 ## Hashes
 
@@ -88,6 +89,6 @@ File | Score
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

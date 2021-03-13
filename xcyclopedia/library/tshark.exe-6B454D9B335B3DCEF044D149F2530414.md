@@ -221,8 +221,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [lnx_network_sniffing.yml](https://github.com/Neo23x0/sigma/blob/master/rules/linux/auditd/lnx_network_sniffing.yml) | `a0: 'tshark'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_network_sniffing.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_network_sniffing.yml) | `- Image\|endswith: '\tshark.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [lnx_network_sniffing.yml](https://github.com/Neo23x0/sigma/blob/master/rules/linux/auditd/lnx_network_sniffing.yml) | `a0: 'tshark'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_network_sniffing.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_network_sniffing.yml) | `- Image\|endswith: '\tshark.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1040.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md) | Perform a PCAP. Wireshark will be required for tshark. TCPdump may already be installed. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1040.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md) | Upon successful execution, tshark or tcpdump will execute and capture 5 packets on interface ens33. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1040.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md) | tshark -c 5 -i #{interface} | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
@@ -241,6 +241,6 @@ Source | Source File | Example | License
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

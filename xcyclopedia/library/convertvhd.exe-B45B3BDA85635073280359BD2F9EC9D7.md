@@ -74,6 +74,6 @@ convertvhd.exe -sourceToken <file handle> -destinationToken <file handle> [-btt]
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

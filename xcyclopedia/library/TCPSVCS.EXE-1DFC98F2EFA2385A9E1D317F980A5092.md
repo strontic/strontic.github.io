@@ -56,7 +56,6 @@ C:\Windows\system32\TCPSVCS.EXE |
 ## File Scan
 
 * VirusTotal Detections: A device attached to the system is not functioning.
-* VirusTotal Link: n/a
 
 
 ## Possible Misuse
@@ -69,6 +68,6 @@ Source | Source File | Example | License
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

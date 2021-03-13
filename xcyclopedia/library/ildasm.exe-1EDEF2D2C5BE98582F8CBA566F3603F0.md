@@ -128,9 +128,16 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/16b83c1e88bf45ef528da4fda4cd0d174571d7597a6379492a12b26ab69daba6/detection
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `ildasm.exe` being misused. While `ildasm.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[stockpile](https://github.com/mitre/stockpile) | [7a6ba833-de40-466a-8969-5c37b13603e0.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/defense-evasion/7a6ba833-de40-466a-8969-5c37b13603e0.yml) | `"ildasm",`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

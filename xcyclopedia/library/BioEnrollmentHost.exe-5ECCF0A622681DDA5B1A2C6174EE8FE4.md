@@ -68,6 +68,6 @@ C:\Windows\SystemApps\Microsoft.BioEnrollment_cw5n1h2txyewy\BioEnrollmentHost.ex
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

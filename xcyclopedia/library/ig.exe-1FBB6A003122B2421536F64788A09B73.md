@@ -52,6 +52,6 @@ SSDEEP | `49152:AU97KM+Oxac4gRMtBhvdpZ6htbOcCRqcvnZX1VmoAhlMFdYf8Z4f9YtIS:ACKHOx
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

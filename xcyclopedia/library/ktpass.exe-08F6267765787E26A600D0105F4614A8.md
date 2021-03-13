@@ -182,6 +182,6 @@ To create a Kerberos .keytab file for a host computer that isn't running the Win
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -6,6 +6,7 @@ excerpt: What is logger.exe?
 # logger.exe 
 
 * File Path: `C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\logger.exe`
+* Description: Error (Window Title)
 
 ## Screenshot
 
@@ -89,8 +90,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [lnx_shell_clear_cmd_history.yml](https://github.com/Neo23x0/sigma/blob/master/rules/linux/lnx_shell_clear_cmd_history.yml) | `# (is_empty=false; inotifywait -m .bash_history \| while read file; do if [ $(wc -l <.bash_history) -lt 1  ]; then if  [ "$is_empty" = false ]; then logger -i -p local5.info -t empty_bash_history "$USER : ~/.bash_history is empty "; is_empty=true; fi; else is_empty=false;  fi;  done ) &` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[malware-ioc](https://github.com/eset/malware-ioc) | [attor](https://github.com/eset/malware-ioc/blob/master/attor/README.adoc) | `==== Key/clipboard logger plugin` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[sigma](https://github.com/Neo23x0/sigma) | [lnx_shell_clear_cmd_history.yml](https://github.com/Neo23x0/sigma/blob/master/rules/linux/lnx_shell_clear_cmd_history.yml) | `# (is_empty=false; inotifywait -m .bash_history \| while read file; do if [ $(wc -l <.bash_history) -lt 1  ]; then if  [ "$is_empty" = false ]; then logger -i -p local5.info -t empty_bash_history "$USER : ~/.bash_history is empty "; is_empty=true; fi; else is_empty=false;  fi;  done ) &`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[malware-ioc](https://github.com/eset/malware-ioc) | [attor](https://github.com/eset/malware-ioc/blob/master/attor/README.adoc) | `==== Key/clipboard logger plugin`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_op_wocao.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_op_wocao.yar) | $ = "Logger PingConnect" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_op_wocao.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_op_wocao.yar) | $ = "Logger GetAdmins" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_op_wocao.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_op_wocao.yar) | $ = "Logger InstallPro" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
@@ -103,9 +104,10 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [spy_querty_fiveeyes.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/spy_querty_fiveeyes.yar) | $s7 = "<description>Keystroke Logger Lp Plugin</description>" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [spy_querty_fiveeyes.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/spy_querty_fiveeyes.yar) | $s0 = "<shortDescription>Keystroke Logger Plugin.</shortDescription>" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [spy_querty_fiveeyes.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/spy_querty_fiveeyes.yar) | $s2 = "<description>Keystroke Logger Plugin.</description>" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[stockpile](https://github.com/mitre/stockpile) | [95ad5d69-563e-477b-802b-4855bfb3be09.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/privilege-escalation/95ad5d69-563e-477b-802b-4855bfb3be09.yml) | `description: Dll Hijack of WOW64 logger wow64log.dll using Akagi.exe`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

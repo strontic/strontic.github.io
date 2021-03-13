@@ -80,6 +80,6 @@ C:\Windows\SystemApps\Microsoft.Win32WebViewHost_cw5n1h2txyewy\Win32WebViewHost.
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

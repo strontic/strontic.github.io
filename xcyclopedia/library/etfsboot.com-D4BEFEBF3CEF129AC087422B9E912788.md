@@ -1,0 +1,52 @@
+﻿---
+title: etfsboot.com | 
+excerpt: What is etfsboot.com?
+---
+
+# etfsboot.com 
+
+* File Path: `C:\Windows\Boot\DVD\PCAT\etfsboot.com`
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `D4BEFEBF3CEF129AC087422B9E912788`
+SHA1 | `62313EC73F381C052F2513CA6279CFB5107E98C0`
+SHA256 | `F425E135AAC26B55E2BAC655E62E2CE0B16255226C583D9AB43B2E93E8A6D932`
+SHA384 | `D3A56DE77C3E4E685CC5DDB03C1F06A24F8AF4138B0B4059B0B8E117B3D6EFE6F1E9897F210EBFD50895C3711FB52986`
+SHA512 | `3814E4682CAD2EF40061D3D5E8142C964CC73A6C6DFC72BA59CBAB0922DD0C7E279703450E3A1F4FCFDE3498565BF6EF28A30E7DE53A0EDA75B3FEA76D03929B`
+SSDEEP | `48:LW9r0eIvMCkR4EgY7T2RZ6HxVouNjn3pigTBQt:6gFv2X7H2RZUxtNzpvBQt`
+PESHA1 | `62313EC73F381C052F2513CA6279CFB5107E98C0`
+PE256 | `F425E135AAC26B55E2BAC655E62E2CE0B16255226C583D9AB43B2E93E8A6D932`
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `3300000266BD1580EFA75CD6D3000000000266`
+* Thumbprint: `A4341B9FD50FB9964283220A36A1EF6F6FAA7840`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: 
+* Product Name: 
+* Company Name: 
+* File Version: 
+* Product Version: 
+* Language: 
+* Legal Copyright: 
+
+## File Scan
+
+* VirusTotal Detections: 0/76
+* VirusTotal Link: https://www.virustotal.com/gui/file/f425e135aac26b55e2bac655e62e2ce0b16255226c583d9ab43b2e93e8a6d932/detection
+
+
+
+
+
+MIT License. Copyright (c) 2020-2021 Strontic.
+
+

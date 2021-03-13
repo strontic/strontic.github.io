@@ -177,6 +177,6 @@ eventcreate /s server /u user /id 100 /t WARNING /d "Remote machine with partial
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

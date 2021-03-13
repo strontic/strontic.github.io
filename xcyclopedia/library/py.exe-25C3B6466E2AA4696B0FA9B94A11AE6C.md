@@ -186,10 +186,10 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_file_characteristics.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_file_characteristics.yml) | `description: Detects Executables in the Downloads folder without FileVersion,Description,Product,Company likely created with py2exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_file_characteristics.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_file_characteristics.yml) | `description: Detects Executables in the Downloads folder without FileVersion,Description,Product,Company likely created with py2exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

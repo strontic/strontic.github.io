@@ -6,6 +6,7 @@ excerpt: What is wininst-10.0-amd64.exe?
 # wininst-10.0-amd64.exe 
 
 * File Path: `C:\program files\Inkscape\lib\python3.8\distutils\command\wininst-10.0-amd64.exe`
+* Description: Error (Window Title)
 
 ## Hashes
 
@@ -97,6 +98,6 @@ File | Score
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

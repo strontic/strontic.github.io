@@ -195,13 +195,13 @@ Report bugs to <bug-findutils@gnu.org>.
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[malware-ioc](https://github.com/eset/malware-ioc) | [mumblehard](https://github.com/eset/malware-ioc/blob/master/mumblehard/README.adoc) | `ps -ef \| grep -e ' httpd$' -e ' mail$' -e ' init$' \| awk '{print $2}' \| xargs -I '{}' ls -l '/proc/{}/exe' \| grep perl \| cut -d/ -f 3` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[malware-ioc](https://github.com/eset/malware-ioc) | [windigo](https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc) | `pgrep -x "crond" \| xargs -I '{}' ls -la "/proc/{}/exe"` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [mumblehard](https://github.com/eset/malware-ioc/blob/master/mumblehard/README.adoc) | `ps -ef \| grep -e ' httpd$' -e ' mail$' -e ' init$' \| awk '{print $2}' \| xargs -I '{}' ls -l '/proc/{}/exe' \| grep perl \| cut -d/ -f 3`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [windigo](https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc) | `pgrep -x "crond" \| xargs -I '{}' ls -la "/proc/{}/exe"`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_eqgrp_apr17.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp_apr17.yar) | $x1 = "exec(\"xterm $xargs -e /current/tmp/promptkill.kid.$tag $pid\");" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [apt_eqgrp_apr17.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp_apr17.yar) | $x2 = "$xargs=\"-title \\\"Kill process $pid?\\\" -name \\\"Kill process $pid?\\\" -bg white -fg red -geometry 202x19+0+0\" ;" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

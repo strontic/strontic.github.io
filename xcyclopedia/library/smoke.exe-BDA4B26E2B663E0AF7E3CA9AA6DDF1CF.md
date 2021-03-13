@@ -84,13 +84,13 @@ C:\Windows\System32\win32u.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[malware-ioc](https://github.com/eset/malware-ioc) | [dnsbirthday](https://github.com/eset/malware-ioc/blob/master/dnsbirthday/README.adoc) | `* DNS query to domain matching `[0-9a-f]{60}.smoke`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[malware-ioc](https://github.com/eset/malware-ioc) | [rqz-dnsduvel_blocklist.json](https://github.com/eset/malware-ioc/blob/master/dnsbirthday/rqz-dnsduvel_blocklist.json) | `"token": "be1728523f82428fc2016155f6dd65867b01997dc0b1c93097a8b7cc60cb.smoke",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[malware-ioc](https://github.com/eset/malware-ioc) | [rqz-dnsduvel_blocklist.json](https://github.com/eset/malware-ioc/blob/master/dnsbirthday/rqz-dnsduvel_blocklist.json) | `"be1728523f82428fc2016155f6dd65867b01997dc0b1c93097a8b7cc60cb.smoke"` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[malware-ioc](https://github.com/eset/malware-ioc) | [nouns.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt) | `smoke` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [dnsbirthday](https://github.com/eset/malware-ioc/blob/master/dnsbirthday/README.adoc) | `* DNS query to domain matching `[0-9a-f]{60}.smoke``{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [rqz-dnsduvel_blocklist.json](https://github.com/eset/malware-ioc/blob/master/dnsbirthday/rqz-dnsduvel_blocklist.json) | `"token": "be1728523f82428fc2016155f6dd65867b01997dc0b1c93097a8b7cc60cb.smoke",`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [rqz-dnsduvel_blocklist.json](https://github.com/eset/malware-ioc/blob/master/dnsbirthday/rqz-dnsduvel_blocklist.json) | `"be1728523f82428fc2016155f6dd65867b01997dc0b1c93097a8b7cc60cb.smoke"`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [nouns.txt](https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt) | `smoke`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

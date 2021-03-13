@@ -109,9 +109,16 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 * VirusTotal Link: https://www.virustotal.com/gui/file/76aa211322398ac0cf8f6f69ee0a5251f53ddc5a785d923abbe5bb742eeb3854/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `Autoruns64.exe` being misused. While `Autoruns64.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[stockpile](https://github.com/mitre/stockpile) | [7a6ba833-de40-466a-8969-5c37b13603e0.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/defense-evasion/7a6ba833-de40-466a-8969-5c37b13603e0.yml) | `"autoruns64",`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

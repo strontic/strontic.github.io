@@ -217,6 +217,6 @@ To keep the current date and return to the command prompt, press **ENTER**. To c
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

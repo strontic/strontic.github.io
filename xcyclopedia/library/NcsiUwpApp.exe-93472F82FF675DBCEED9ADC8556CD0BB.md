@@ -67,6 +67,6 @@ C:\Windows\SystemApps\NcsiUwpApp_8wekyb3d8bbwe\NcsiUwpApp.exe |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

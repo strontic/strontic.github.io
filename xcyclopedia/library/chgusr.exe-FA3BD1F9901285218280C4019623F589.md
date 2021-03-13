@@ -95,6 +95,6 @@ Changes the install mode for the Remote Desktop Session Host server.
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

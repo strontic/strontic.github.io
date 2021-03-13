@@ -6,6 +6,7 @@ excerpt: What is crashreporter.exe?
 # crashreporter.exe 
 
 * File Path: `C:\Program Files\Mozilla Thunderbird\crashreporter.exe`
+* Description: Crash Reporter (Window Title)
 
 ## Screenshot
 
@@ -120,6 +121,6 @@ File | Score
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

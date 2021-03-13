@@ -44,7 +44,6 @@ PE256 | `D5F18391480115627BCBA65A94E4DE6257A1DD90CEE7CD3081DA16FC3FCA1F9F`
 ## File Scan
 
 * VirusTotal Detections: Unknown
-* VirusTotal Link: n/a
 
 ## File Similarity (ssdeep match)
 
@@ -61,6 +60,6 @@ File | Score
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

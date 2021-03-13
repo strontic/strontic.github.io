@@ -64,9 +64,18 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/f91f794e351c963971b692656f30200a3a7af54af1afd5383da74bb393ad96af/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `ProcessDump.exe` being misused. While `ProcessDump.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[stockpile](https://github.com/mitre/stockpile) | [0bff4ee7-42a4-4bde-b09a-9d79d8b9edd7.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/0bff4ee7-42a4-4bde-b09a-9d79d8b9edd7.yml) | `namespace ProcessDump`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
+[stockpile](https://github.com/mitre/stockpile) | [5a39d7ed-45c9-4a79-b581-e5fb99e24f65.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/5a39d7ed-45c9-4a79-b581-e5fb99e24f65.yml) | `build_target: ProcessDump.donut`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
+[stockpile](https://github.com/mitre/stockpile) | [5a39d7ed-45c9-4a79-b581-e5fb99e24f65.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/5a39d7ed-45c9-4a79-b581-e5fb99e24f65.yml) | `namespace ProcessDump`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

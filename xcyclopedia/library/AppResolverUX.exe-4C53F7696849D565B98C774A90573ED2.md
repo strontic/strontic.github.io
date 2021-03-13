@@ -69,6 +69,6 @@ C:\Windows\SystemApps\Microsoft.Windows.AppResolverUX_cw5n1h2txyewy\AppResolverU
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

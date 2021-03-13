@@ -6,6 +6,7 @@ excerpt: What is gswin64.exe?
 # gswin64.exe 
 
 * File Path: `C:\Program Files\gs\gs9.50\bin\gswin64.exe`
+* Description: Ghostscript (Window Title)
 
 ## Screenshot
 
@@ -98,6 +99,6 @@ C:\Windows\System32\win32u.dll |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

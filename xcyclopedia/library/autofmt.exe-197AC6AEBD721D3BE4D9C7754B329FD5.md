@@ -73,6 +73,6 @@ Starts the Auto File System Format Utility, which formats a drive or partition w
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -141,10 +141,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [win_exfiltration_and_tunneling_tools_execution.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exfiltration_and_tunneling_tools_execution.yml) | `- '\plink.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_plink_remote_forward.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_susp_plink_remote_forward.yml) | `title: Suspicious Plink Remote Forwarding`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_plink_remote_forward.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_susp_plink_remote_forward.yml) | `description: Detects suspicious Plink tunnel remote forarding to a local port`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_plink_remote_forward.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_susp_plink_remote_forward.yml) | `- https://medium.com/@informationsecurity/remote-ssh-tunneling-with-plink-exe-7831072b3d7d`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_exfiltration_and_tunneling_tools_execution.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exfiltration_and_tunneling_tools_execution.yml) | `- '\plink.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

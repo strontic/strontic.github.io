@@ -6,6 +6,7 @@ excerpt: What is vsdiagview.exe?
 # vsdiagview.exe 
 
 * File Path: `C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\vsdiagview.exe`
+* Description: File Format Error (Window Title)
 
 ## Screenshot
 
@@ -97,7 +98,6 @@ C:\Windows\System32\sechost.dll |
 ## File Scan
 
 * VirusTotal Detections: Unknown
-* VirusTotal Link: n/a
 
 ## File Similarity (ssdeep match)
 
@@ -109,6 +109,6 @@ File | Score
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

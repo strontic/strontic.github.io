@@ -197,6 +197,6 @@ Wdsutil is a command-line utility used for managing your Windows Deployment Serv
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

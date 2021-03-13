@@ -204,6 +204,6 @@ To stop sending trap messages within the community named *Private* to the same c
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

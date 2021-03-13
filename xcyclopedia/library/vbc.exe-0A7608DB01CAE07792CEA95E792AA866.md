@@ -159,14 +159,14 @@ C:\Windows\System32\wow64win.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Microsoft.Workflow.Compiler.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Microsoft.Workflow.Compiler.yml) | `- IOC: The presence of csc.exe or vbc.exe as child processes of Microsoft.Workflow.Compiler.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Vbc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Vbc.yml) | `Name: vbc.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Vbc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Vbc.yml) | `- Command: vbc.exe /target:exe c:\temp\vbs\run.vb` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Vbc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Vbc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\vbc.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Vbc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Vbc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v3.5\vbc.exe` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Microsoft.Workflow.Compiler.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Microsoft.Workflow.Compiler.yml) | `- IOC: The presence of csc.exe or vbc.exe as child processes of Microsoft.Workflow.Compiler.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Vbc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Vbc.yml) | `Name: vbc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Vbc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Vbc.yml) | `- Command: vbc.exe /target:exe c:\temp\vbs\run.vb`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Vbc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Vbc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\vbc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Vbc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Vbc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v3.5\vbc.exe`{:.highlight .language-yaml} | 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

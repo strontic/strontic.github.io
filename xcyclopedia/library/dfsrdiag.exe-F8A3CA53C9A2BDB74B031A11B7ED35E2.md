@@ -79,6 +79,6 @@ DFSRDIAG - DFS Replication operational and diagnostics command line utility
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

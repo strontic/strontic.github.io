@@ -6,6 +6,7 @@ excerpt: What is SDHelp.exe?
 # SDHelp.exe 
 
 * File Path: `C:\Program Files (x86)\Spybot - Search & Destroy 2\SDHelp.exe`
+* Description: Spybot Help (Window Title)
 
 ## Screenshot
 
@@ -122,6 +123,6 @@ File | Score
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

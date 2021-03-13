@@ -42,6 +42,6 @@ SSDEEP | `384:Ani4neX2foNUVScJ46Mv/gXGcWcYQhQLAwAvDj7LSTARyyoImeLrqJFFBVWFFW:Aze
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

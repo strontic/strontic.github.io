@@ -44,9 +44,17 @@ File | Score
 -- | --
 [C:\Windows\system32\snmptrap.exe](snmptrap.exe-58983BFDDDB09E21AF8F3BA3EC45FC7D.md) | 54
 
+## Possible Misuse
+
+*The following table contains possible examples of `snmptrap.exe` being misused. While `snmptrap.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[stockpile](https://github.com/mitre/stockpile) | [52771610-2322-44cf-816b-a7df42b4c086.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/persistence/52771610-2322-44cf-816b-a7df42b4c086.yml) | `This is an example technique. snmptrap.exe should be changed in the command`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
+[stockpile](https://github.com/mitre/stockpile) | [52771610-2322-44cf-816b-a7df42b4c086.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/persistence/52771610-2322-44cf-816b-a7df42b4c086.yml) | `Copy-Item -Path "C:\Windows\System32\snmptrap.exe" -Destination $path`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

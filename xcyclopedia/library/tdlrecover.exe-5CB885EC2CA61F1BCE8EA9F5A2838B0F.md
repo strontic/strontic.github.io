@@ -42,6 +42,6 @@ SSDEEP | `1536:w2I8g08UO2iZNQB4nQS7kHjUciFQl1CFyvu11khKLaLlySLpJbz+0GrP:wKO2iZGh
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

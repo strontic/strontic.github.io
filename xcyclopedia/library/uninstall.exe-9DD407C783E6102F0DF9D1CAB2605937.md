@@ -19,8 +19,6 @@ SHA384 | `4968F1AB61CD296AAA9C01CC92FB34766BF9AA32BFCB8F65225B5F684BE3F5A04F096E
 SHA512 | `8FBC954724CBA3DCE19217886386E366B401DDF90E3BA285E01D3BAC8E86C1D15DE788447CE8C78E197C043DC959367753B25C8E9E45FC29E13F8CE020EC146E`
 SSDEEP | `3072:bMYwWTxwSY46ulPsvbu2xXGGGGGGGGHGGGGGGGGGGGGGGGGGGGGGGGGGGGGQUQQ5:QR+xX1PabueGGGGGGGGHGGGGGGGGGGGy`
 IMP | `1F23F452093B5C1FF091A2F9FB4FA3E9`
-PESHA1 | `n/a`
-PE256 | `n/a`
 
 ## Runtime Data
 
@@ -74,9 +72,12 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Installutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Installutil.yml) | `Description: The Installer tool is a command-line utility that allows you to install and uninstall server resources by executing the installer components in specified assemblies` | 
-[malware-ioc](https://github.com/eset/malware-ioc) | [rtm](https://github.com/eset/malware-ioc/blob/master/rtm/README.adoc) | `uninstall` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[malware-ioc](https://github.com/eset/malware-ioc) | [rtm](https://github.com/eset/malware-ioc/blob/master/rtm/README.adoc) | `uninstall-lock` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_disable_raccine.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_disable_raccine.yml) | `title: Raccine Uninstall`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_wmic_security_product_uninstall.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_wmic_security_product_uninstall.yml) | `title: Wmic Uninstall Security Product`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_wmic_security_product_uninstall.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_wmic_security_product_uninstall.yml) | `- 'call uninstall'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Installutil.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Installutil.yml) | `Description: The Installer tool is a command-line utility that allows you to install and uninstall server resources by executing the installer components in specified assemblies`{:.highlight .language-yaml} | 
+[malware-ioc](https://github.com/eset/malware-ioc) | [rtm](https://github.com/eset/malware-ioc/blob/master/rtm/README.adoc) | `uninstall`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [rtm](https://github.com/eset/malware-ioc/blob/master/rtm/README.adoc) | `uninstall-lock`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #11: Uninstall Sysmon [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #21: Uninstall Crowdstrike Falcon on Windows [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #5: InstallUtil Uninstall method call - /U variant [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
@@ -126,6 +127,6 @@ Source | Source File | Example | License
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

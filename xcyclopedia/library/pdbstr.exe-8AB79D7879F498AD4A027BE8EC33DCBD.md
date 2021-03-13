@@ -44,12 +44,11 @@ PE256 | `242A3D425F4EC35B37F668926BB982B822A332B4D228C8468750AED44FA76AB4`
 ## File Scan
 
 * VirusTotal Detections: Unknown
-* VirusTotal Link: n/a
 
 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

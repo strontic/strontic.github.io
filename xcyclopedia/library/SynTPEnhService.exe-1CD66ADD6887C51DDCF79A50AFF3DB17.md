@@ -53,6 +53,6 @@ Service failed to run w/err 0x00000427
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

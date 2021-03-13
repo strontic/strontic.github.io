@@ -6,6 +6,7 @@ excerpt: What is fsquirt.exe?
 # fsquirt.exe 
 
 * File Path: `C:\Windows\system32\fsquirt.exe`
+* Description: Bluetooth File Transfer (Window Title)
 
 ## Screenshot
 
@@ -99,6 +100,6 @@ C:\Windows\System32\win32u.dll |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -96,11 +96,11 @@ All rights reserved.
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[malware-ioc](https://github.com/eset/malware-ioc) | [misp-dukes-operation-ghost-event.json](https://github.com/eset/malware-ioc/blob/master/dukes/misp-dukes-operation-ghost-event.json) | `"value": "http://www.evernote.com/shard/s675/sh/6686ff4e-8896-499b-8cdb-a2bbf2cc4db9/fc7fbe66c820f17c30147235e95d31b8",` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[malware-ioc](https://github.com/eset/malware-ioc) | [dukes](https://github.com/eset/malware-ioc/blob/master/dukes/README.adoc) | `http://www.evernote[.]com/shard/s675/sh/6686ff4e-8896-499b-8cdb-a2bbf2cc4db9/fc7fbe66c820f17c30147235e95d31b8` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [misp-dukes-operation-ghost-event.json](https://github.com/eset/malware-ioc/blob/master/dukes/misp-dukes-operation-ghost-event.json) | `"value": "http://www.evernote.com/shard/s675/sh/6686ff4e-8896-499b-8cdb-a2bbf2cc4db9/fc7fbe66c820f17c30147235e95d31b8",`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [dukes](https://github.com/eset/malware-ioc/blob/master/dukes/README.adoc) | `http://www.evernote[.]com/shard/s675/sh/6686ff4e-8896-499b-8cdb-a2bbf2cc4db9/fc7fbe66c820f17c30147235e95d31b8`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

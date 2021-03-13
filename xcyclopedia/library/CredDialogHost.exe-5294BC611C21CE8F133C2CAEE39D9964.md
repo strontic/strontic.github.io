@@ -69,6 +69,6 @@ C:\Windows\SystemApps\microsoft.creddialoghost_cw5n1h2txyewy\CredDialogHost.exe 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

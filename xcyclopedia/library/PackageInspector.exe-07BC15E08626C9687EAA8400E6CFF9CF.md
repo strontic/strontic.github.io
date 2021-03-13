@@ -50,6 +50,6 @@ Device Guard is not available in this edition of Windows.
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

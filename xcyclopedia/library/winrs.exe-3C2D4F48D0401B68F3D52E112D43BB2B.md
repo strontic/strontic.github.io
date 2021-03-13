@@ -120,6 +120,6 @@ winrs /r:myserver /ad /u:administrator /p:$%fgh7 dir \\anotherserver\share
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

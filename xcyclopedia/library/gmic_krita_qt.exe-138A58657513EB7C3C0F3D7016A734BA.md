@@ -6,6 +6,7 @@ excerpt: What is gmic_krita_qt.exe?
 # gmic_krita_qt.exe 
 
 * File Path: `C:\Program Files\Krita (x64)\bin\gmic_krita_qt.exe`
+* Description: G'MIC-Qt for Krita - Windows 64 bits - 2.7.1 (Window Title)
 
 ## Screenshot
 
@@ -147,6 +148,6 @@ C:\Windows\System32\WS2_32.dll |
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

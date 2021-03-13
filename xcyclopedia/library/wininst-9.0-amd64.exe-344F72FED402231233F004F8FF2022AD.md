@@ -6,6 +6,7 @@ excerpt: What is wininst-9.0-amd64.exe?
 # wininst-9.0-amd64.exe 
 
 * File Path: `C:\program files\GIMP 2\lib\python2.7\distutils\command\wininst-9.0-amd64.exe`
+* Description: Error (Window Title)
 
 ## Hashes
 
@@ -85,6 +86,6 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

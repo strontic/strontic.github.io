@@ -86,12 +86,12 @@ C:\Windows\System32\wow64win.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[malware-ioc](https://github.com/eset/malware-ioc) | [gamaredon](https://github.com/eset/malware-ioc/blob/master/gamaredon/README.adoc) | `advansed-template.site` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[malware-ioc](https://github.com/eset/malware-ioc) | [gamaredon](https://github.com/eset/malware-ioc/blob/master/gamaredon/README.adoc) | `fix-template.site` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[malware-ioc](https://github.com/eset/malware-ioc) | [gamaredon](https://github.com/eset/malware-ioc/blob/master/gamaredon/README.adoc) | `new-template.site` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[malware-ioc](https://github.com/eset/malware-ioc) | [gamaredon](https://github.com/eset/malware-ioc/blob/master/gamaredon/README.adoc) | `normal-template.site` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[malware-ioc](https://github.com/eset/malware-ioc) | [gamaredon](https://github.com/eset/malware-ioc/blob/master/gamaredon/README.adoc) | `old-template.site` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
-[malware-ioc](https://github.com/eset/malware-ioc) | [turla](https://github.com/eset/malware-ioc/blob/master/turla/README.adoc) | `* `hxxp://hotnews.16mb.com/wp-content/themes/twentysixteen/template-parts/content-header.php`` | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [gamaredon](https://github.com/eset/malware-ioc/blob/master/gamaredon/README.adoc) | `advansed-template.site`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [gamaredon](https://github.com/eset/malware-ioc/blob/master/gamaredon/README.adoc) | `fix-template.site`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [gamaredon](https://github.com/eset/malware-ioc/blob/master/gamaredon/README.adoc) | `new-template.site`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [gamaredon](https://github.com/eset/malware-ioc/blob/master/gamaredon/README.adoc) | `normal-template.site`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [gamaredon](https://github.com/eset/malware-ioc/blob/master/gamaredon/README.adoc) | `old-template.site`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
+[malware-ioc](https://github.com/eset/malware-ioc) | [turla](https://github.com/eset/malware-ioc/blob/master/turla/README.adoc) | `* `hxxp://hotnews.16mb.com/wp-content/themes/twentysixteen/template-parts/content-header.php``{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - T1137.001 Office Template Macros [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - T1221 Template Injection [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [linux-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/linux-index.md) | - T1137.001 Office Template Macros [CONTRIBUTE A TEST](https://atomicredteam.io/contributing) | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
@@ -111,10 +111,11 @@ Source | Source File | Example | License
 [signature-base](https://github.com/Neo23x0/signature-base) | [exploit_shitrix.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_shitrix.yar) | $s07 = "template.new({'BLOCK'='print readpipe(" ascii /* TrustedSec templae */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [exploit_shitrix.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_shitrix.yar) | $s09 = "template.new({'BLOCK'=" /* PZI exploit URL decoded form */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [exploit_shitrix.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_shitrix.yar) | $s10 = "template.new({'BLOCK'%3d" /* PZI exploit URl encoded form */ | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
+[signature-base](https://github.com/Neo23x0/signature-base) | [gen_github_net_redteam_tools_guids.yara](https://github.com/Neo23x0/signature-base/blob/master/yara/gen_github_net_redteam_tools_guids.yara) | reference = "https://github.com/FuzzySecurity/Driver-Template" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 [signature-base](https://github.com/Neo23x0/signature-base) | [thor-hacktools.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar) | $s12 = "iKAT Exe Template" fullword ascii | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

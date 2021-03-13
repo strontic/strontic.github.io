@@ -45,12 +45,12 @@ SSDEEP | `1536:HSBJC9pg8W+fmmLMmZDE5vDYiP43WLsgr3LtqQWr5z17Vy2+uU3ri5eaS9afeaSA:
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `- robocopy.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `- '\robocopy.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `Name: Robocopy.exe` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `- Command: Robocopy.exe C:\SourceFolder C:\DestFolder` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `- Command: Robocopy.exe \\SERVER\SourceFolder C:\DestFolder` | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `- https://social.technet.microsoft.com/wiki/contents/articles/1073.robocopy-and-a-few-examples.aspx` | 
+[sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `- robocopy.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `- '\robocopy.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `Name: Robocopy.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `- Command: Robocopy.exe C:\SourceFolder C:\DestFolder`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `- Command: Robocopy.exe \\SERVER\SourceFolder C:\DestFolder`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `- https://social.technet.microsoft.com/wiki/contents/articles/1073.robocopy-and-a-few-examples.aspx`{:.highlight .language-yaml} | 
 
 ## Additional Info*
 
@@ -68,7 +68,7 @@ Copies file data from one location to another.
 robocopy <source> <destination> [<file>[ ...]] [<options>]
 ```
 
-For example, to copy a file named *yearly-report.mov* from *c:\reports* to a file share *\\marketing\videos* while enabling multi-threading for higher performance (with the **/mt** parameter) and the ability to restart the transfer in case it's interrupted (with the **/z** parameter), type:
+For example, to copy a file named *yearly-report.mov* from *c:\reports* to a file share *\\\\marketing\videos* while enabling multi-threading for higher performance (with the **/mt** parameter) and the ability to restart the transfer in case it's interrupted (with the **/z** parameter), type:
 
 ```dos
 robocopy c:\reports '\\marketing\videos' yearly-report.mov /mt /z
@@ -93,6 +93,7 @@ robocopy c:\reports '\\marketing\videos' yearly-report.mov /mt /z
 | /z | Copies files in restartable mode. |
 | /b | Copies files in Backup mode. |
 | /zb | Uses restartable mode. If access is denied, this option uses Backup mode. |
+| /j | Copies using unbuffered I/O (recommended for large files). |
 | /efsraw | Copies all encrypted files in EFS RAW mode. |
 | /copy:`<copyflags>` | Specifies which file properties to copy. The valid values for this option are:<ul><li>**D** - Data</li><li>**A** - Attributes</li><li>**T** - Time stamps</li><li>**S** - NTFS access control list (ACL)</li><li>**O** - Owner information</li><li>**U** - Auditing information</li></ul>The default value for this option is **DAT** (data, attributes, and time stamps). |
 | /dcopy:`<copyflags>`| Specifies what to copy in directories. The valid values for this option are:<ul><li>**D** - Data</li><li>**A** - Attributes</li><li>**T** - Time stamps</li></ul>The default value for this option is **DA** (data and attributes). |
@@ -117,6 +118,9 @@ robocopy c:\reports '\\marketing\videos' yearly-report.mov /mt /z
 | /pf | Checks run times on a per-file (not per-pass) basis. |
 | /ipg:n | Specifies the inter-packet gap to free bandwidth on slow lines. |
 | /sl | Don't follow symbolic links and instead create a copy of the link. |
+| /nodcopy | Copies no directory info (the default **/dcopy:DA** is done). |
+| /nooffload | Copies files without using the Windows Copy Offload mechanism. |
+| /compress | Requests network compression during file transfer, if applicable. |
 
 > [!IMPORTANT]
 > When using the **/secfix** copy option, specify the type of security information you want to copy, using one of these additional copy options:
@@ -225,6 +229,6 @@ robocopy c:\reports '\\marketing\videos' yearly-report.mov /mt /z
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

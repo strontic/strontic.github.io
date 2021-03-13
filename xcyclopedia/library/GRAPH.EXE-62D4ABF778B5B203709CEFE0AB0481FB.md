@@ -80,16 +80,9 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/f58b85f8f883fc1ec978d18e639d7a67e9247af8b9a01187c39c421d167cacaa/detection/
 
 
-## Possible Misuse
-
-*The following table contains possible examples of `GRAPH.EXE` being misused. While `GRAPH.EXE` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
-
-Source | Source File | Example | License
--- | -- | -- | --
-[signature-base](https://github.com/Neo23x0/signature-base) | [crime_cn_campaign_njrat.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/crime_cn_campaign_njrat.yar) | reference = "https://www.virustotal.com/graph/#/selected/n120z79z208z189/drawer/graph-details" | [CC BY-NC 4.0](https://github.com/Neo23x0/signature-base/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

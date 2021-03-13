@@ -6,6 +6,7 @@ excerpt: What is wininst-14.0.exe?
 # wininst-14.0.exe 
 
 * File Path: `C:\program files\Inkscape\lib\python3.8\distutils\command\wininst-14.0.exe`
+* Description: Error (Window Title)
 
 ## Hashes
 
@@ -80,6 +81,6 @@ File | Score
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

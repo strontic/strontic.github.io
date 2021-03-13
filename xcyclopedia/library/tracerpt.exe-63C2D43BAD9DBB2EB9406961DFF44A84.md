@@ -105,7 +105,6 @@ Examples:
 ## File Scan
 
 * VirusTotal Detections: Unknown
-* VirusTotal Link: n/a
 
 
 
@@ -191,6 +190,6 @@ tracerpt -rt NT Kernel Logger -o logfile.csv -of CSV
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

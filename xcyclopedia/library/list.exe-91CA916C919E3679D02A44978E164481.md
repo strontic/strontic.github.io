@@ -44,7 +44,6 @@ PE256 | `2AC75E01D10627EDA4423E4939AF0B1657BA10931763ACF2BEC2AE098555B7B6`
 ## File Scan
 
 * VirusTotal Detections: Unknown
-* VirusTotal Link: n/a
 
 
 
@@ -98,6 +97,6 @@ list vdisk
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

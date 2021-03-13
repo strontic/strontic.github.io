@@ -6,6 +6,7 @@ excerpt: What is wininst-8.0.exe?
 # wininst-8.0.exe 
 
 * File Path: `C:\program files\GIMP 2\lib\python2.7\distutils\command\wininst-8.0.exe`
+* Description: Error (Window Title)
 
 ## Hashes
 
@@ -82,6 +83,6 @@ File | Score
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

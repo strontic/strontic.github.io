@@ -49,10 +49,10 @@ SSDEEP | `384:mhRoZrPnE6SVmnNsk/xDwGsL9sjLrCqAQ/O8+HB4ATLhMFewgdULWtKKWxd1x4rO:m
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rasautou.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rasautou.yml) | `Description: Windows Remote Access Dialer` | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rasautou.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rasautou.yml) | `Description: Windows Remote Access Dialer`{:.highlight .language-yaml} | 
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

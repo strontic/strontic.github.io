@@ -97,6 +97,6 @@ Enables or disables logons from client sessions on an Remote Desktop Session Hos
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

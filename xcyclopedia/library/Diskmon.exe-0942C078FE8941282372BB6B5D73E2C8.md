@@ -143,9 +143,16 @@ File | Score
 [C:\SysinternalsSuite\ldmdump.exe](ldmdump.exe-202119E519DD179DE64AFD195F0DDA42.md) | 24
 [C:\SysinternalsSuite\pagedfrg.exe](pagedfrg.exe-24898BA51CBAAD01A046541CC0A8D26F.md) | 22
 
+## Possible Misuse
+
+*The following table contains possible examples of `Diskmon.exe` being misused. While `Diskmon.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[stockpile](https://github.com/mitre/stockpile) | [7a6ba833-de40-466a-8969-5c37b13603e0.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/defense-evasion/7a6ba833-de40-466a-8969-5c37b13603e0.yml) | `"diskmon",`{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -70,6 +70,6 @@ hwrcomp -lang en-US -type SECONDARY-DICTIONARY -o myrsrc1 mylist1.txt
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -225,6 +225,6 @@ To add permanent device *1000* and to remove line *88888* from *User1's* access,
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

@@ -89,10 +89,10 @@ C:\Windows\System32\windows.storage.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [win_uac_fodhelper.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_fodhelper.yml) | `title: Bypass UAC via Fodhelper.exe` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_uac_fodhelper.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_fodhelper.yml) | `description: Identifies use of Fodhelper.exe to bypass User Account Control. Adversaries use this technique to execute privileged processes.` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_uac_fodhelper.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_fodhelper.yml) | `ParentImage\|endswith: '\fodhelper.exe'` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_uac_fodhelper.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_fodhelper.yml) | `- Legitimate use of fodhelper.exe utility by legitimate user` | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_uac_fodhelper.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_fodhelper.yml) | `title: Bypass UAC via Fodhelper.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_uac_fodhelper.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_fodhelper.yml) | `description: Identifies use of Fodhelper.exe to bypass User Account Control. Adversaries use this technique to execute privileged processes.`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_uac_fodhelper.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_fodhelper.yml) | `ParentImage\|endswith: '\fodhelper.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_uac_fodhelper.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_fodhelper.yml) | `- Legitimate use of fodhelper.exe utility by legitimate user`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #3: Bypass UAC using Fodhelper [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #4: Bypass UAC using Fodhelper - PowerShell [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - Atomic Test #3: Bypass UAC using Fodhelper [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
@@ -108,6 +108,6 @@ Source | Source File | Example | License
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 

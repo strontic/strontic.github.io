@@ -69,6 +69,6 @@ C:\Windows\SystemApps\Windows.CBSPreview_cw5n1h2txyewy\CameraBarcodeScannerPrevi
 
 
 
-MIT License. Copyright (c) 2020 Strontic.
+MIT License. Copyright (c) 2020-2021 Strontic.
 
 
