@@ -366,583 +366,607 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/lnx_shell_susp_rev_shells.yml">lnx_shell_susp_rev_shells.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- ';while(cmd=c.gets);IO.popen(cmd,"r"){\|io\|c.print'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">;while(cmd=c.gets);IO.popen(cmd,"r"){\|io\|c.print'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Print.yml">Print.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Name: Print.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Print.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Print.yml">Print.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: print /D:C:\ADS\File.txt:file.exe C:\ADS\File.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">print /D:C:\ADS\File.txt:file.exe C:\ADS\File.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Print.yml">Print.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: print /D:C:\ADS\CopyOfFile.exe C:\ADS\FileToCopy.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">print /D:C:\ADS\CopyOfFile.exe C:\ADS\FileToCopy.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Print.yml">Print.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: print /D:C:\OutFolder\outfile.exe \\WebDavServer\Folder\File.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">print /D:C:\OutFolder\outfile.exe \\WebDavServer\Folder\File.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Print.yml">Print.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\System32\print.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\System32\print.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Print.yml">Print.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\SysWOW64\print.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\SysWOW64\print.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Print.yml">Print.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- IOC: Print.exe getting files from internet</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">Print.exe getting files from internet</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Print.yml">Print.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- IOC: Print.exe creating executable files on disk</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">Print.exe creating executable files on disk</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Mshtml.yml">Mshtml.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Invoke an HTML Application via mshta.exe (Note - Pops a security warning and a print dialogue box).</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Invoke an HTML Application via mshta.exe (Note - Pops a security warning and a print dialogue box).</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/deprimon/README.adoc">deprimon</a></td>
-      <td><code class="language-plaintext highlighter-rouge">https://www.welivesecurity.com/2019/11/21/deprimon-default-print-monitor-malicious-downloader/[WeLiveSecurity].</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="kd">https:</span><span class="p">//</span><span class="ni">www</span><span class="err">.</span><span class="ni">welivesecurity</span><span class="err">.</span><span class="ni">com</span><span class="p">/</span><span class="m">2019</span><span class="p">/</span><span class="m">11</span><span class="p">/</span><span class="m">21</span><span class="p">/</span><span class="ni">deprimon</span><span class="err">-</span><span class="ni">default</span><span class="err">-</span><span class="ni">print</span><span class="err">-</span><span class="ni">monitor</span><span class="err">-</span><span class="ni">malicious</span><span class="err">-</span><span class="ni">downloader</span><span class="p">/</span><span class="err">[</span><span class="ni">WeLiveSecurity</span><span class="err">].</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/deprimon/README.adoc">deprimon</a></td>
-      <td><code class="language-plaintext highlighter-rouge">[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Monitors\Windows Default Print Monitor]</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">[</span><span class="ni">HKEY_LOCAL_MACHINE</span><span class="err">\</span><span class="ni">SYSTEM</span><span class="err">\</span><span class="ni">CurrentControlSet</span><span class="err">\</span><span class="ni">Control</span><span class="err">\</span><span class="ni">Print</span><span class="err">\</span><span class="ni">Monitors</span><span class="err">\</span><span class="ni">Windows</span> <span class="ni">Default</span> <span class="ni">Print</span> <span class="ni">Monitor</span><span class="err">]</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt">nouns.txt</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/mumblehard/README.adoc">mumblehard</a></td>
-      <td><code class="language-plaintext highlighter-rouge">under the Perl interpreter. The following command ran as root will print the</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">under</span> <span class="ni">the</span> <span class="ni">Perl</span> <span class="ni">interpreter</span><span class="err">.</span> <span class="ni">The</span> <span class="ni">following</span> <span class="ni">command</span> <span class="ni">ran</span> <span class="ni">as</span> <span class="ni">root</span> <span class="ni">will</span> <span class="ni">print</span> <span class="ni">the</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/mumblehard/README.adoc">mumblehard</a></td>
-      <td><code class="language-plaintext highlighter-rouge">ps -ef \| grep -e ' httpd$' -e ' mail$' -e ' init$' \| awk '{print $2}' \| xargs -I '{}' ls -l '/proc/{}/exe' \| grep perl \| cut -d/ -f 3</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">ps</span> <span class="err">-</span><span class="ni">ef</span> <span class="err">\|</span> <span class="ni">grep</span> <span class="err">-e</span> <span class="err">'</span> <span class="ni">httpd</span><span class="err">$'</span> <span class="err">-e</span> <span class="err">'</span> <span class="ni">mail</span><span class="err">$'</span> <span class="err">-e</span> <span class="err">'</span> <span class="ni">init</span><span class="err">$'</span> <span class="err">\|</span> <span class="ni">awk</span> <span class="err">'{</span><span class="ni">print</span> <span class="err">$</span><span class="m">2</span><span class="err">}'</span> <span class="err">\|</span> <span class="ni">xargs</span> <span class="err">-I</span> <span class="err">'{}'</span> <span class="ni">ls</span> <span class="err">-l</span> <span class="err">'</span><span class="p">/</span><span class="ni">proc</span><span class="p">/</span><span class="err">{}</span><span class="p">/</span><span class="ni">exe</span><span class="err">'</span> <span class="err">\|</span> <span class="ni">grep</span> <span class="ni">perl</span> <span class="err">\|</span> <span class="ni">cut</span> <span class="err">-d</span><span class="p">/</span> <span class="err">-f</span> <span class="m">3</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/quarterly_reports/2020_Q4/README.adoc">2020_Q4</a></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">HKLM</span><span class="err">\</span><span class="ni">SYSTEM</span><span class="err">\</span><span class="ni">ControlSet001</span><span class="err">\</span><span class="ni">Control</span><span class="err">\</span><span class="ni">Print</span><span class="err">\</span><span class="ni">Environments</span><span class="err">\</span><span class="ni">Windows</span> <span class="ni">x64</span><span class="err">\</span><span class="ni">Print</span> <span class="ni">Processors</span><span class="err">\</span><span class="ni">BcastDVRUserService_6d67d</span><span class="err">\</span><span class="ni">Driver</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/quarterly_reports/2020_Q4/README.adoc">2020_Q4</a></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">HKLM</span><span class="err">\</span><span class="ni">SYSTEM</span><span class="err">\</span><span class="ni">ControlSet001</span><span class="err">\</span><span class="ni">Control</span><span class="err">\</span><span class="ni">Print</span><span class="err">\</span><span class="ni">Environments</span><span class="err">\</span><span class="ni">Windows</span> <span class="ni">x64</span><span class="err">\</span><span class="ni">Print</span> <span class="ni">Processors</span><span class="err">\</span><span class="ni">BcastDVRUserService_3c628o</span><span class="err">\</span><span class="ni">Driver</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/quarterly_reports/2020_Q4/README.adoc">2020_Q4</a></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">HKLM</span><span class="err">\</span><span class="ni">SOFTWARE</span><span class="err">\</span><span class="ni">Microsoft</span><span class="err">\</span><span class="ni">Print</span><span class="err">\</span><span class="ni">Components</span><span class="err">\</span><span class="ni">Spooler</span><span class="err">-</span><span class="ni">PPC</span><span class="err">\{</span><span class="m">94</span><span class="ni">E5H6D48A</span><span class="err">-</span><span class="ni">P895</span><span class="err">-</span><span class="m">85</span><span class="ni">E1</span><span class="err">-</span><span class="m">54</span><span class="ni">DD</span><span class="err">-</span><span class="m">080636</span><span class="ni">B11A03</span><span class="err">}</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/quarterly_reports/2020_Q4/README.adoc">2020_Q4</a></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">HKLM</span><span class="err">\</span><span class="ni">SOFTWARE</span><span class="err">\</span><span class="ni">Microsoft</span><span class="err">\</span><span class="ni">Print</span><span class="err">\</span><span class="ni">Components</span><span class="err">\</span><span class="ni">Spooler</span><span class="err">-</span><span class="ni">PPC</span><span class="err">\{</span><span class="m">38</span><span class="ni">C8D238Q</span><span class="err">-</span><span class="m">923</span><span class="err">C-</span><span class="ni">D782</span><span class="err">-</span><span class="m">9</span><span class="ni">B8J</span><span class="err">-</span><span class="m">829263</span><span class="ni">CD85C9</span><span class="err">}</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/rakos/vf_ioc_linux_rakos.py">vf_ioc_linux_rakos.py</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print("Suspected PID: {0:8s} {1:&lt;16}:{2:&gt;5} {3:&lt;16}:{4:&gt;5} {5:&lt;15s} {6:&gt;17s}/{7:&lt;5d}\n".format(proto, saddr, sport, daddr, dport, state, task.comm, task.pid))</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span><span class="p">(</span><span class="s">"Suspected PID: {0:8s} {1:&lt;16}:{2:&gt;5} {3:&lt;16}:{4:&gt;5} {5:&lt;15s} {6:&gt;17s}/{7:&lt;5d}\n"</span><span class="err">.</span><span class="ni">format</span><span class="p">(</span><span class="ni">proto</span><span class="p">,</span> <span class="ni">saddr</span><span class="p">,</span> <span class="ni">sport</span><span class="p">,</span> <span class="ni">daddr</span><span class="p">,</span> <span class="ni">dport</span><span class="p">,</span> <span class="ni">state</span><span class="p">,</span> <span class="ni">task</span><span class="err">.</span><span class="ni">comm</span><span class="p">,</span> <span class="ni">task</span><span class="err">.</span><span class="ni">pid</span><span class="p">))</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_str_ : ";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_str_ : "</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "$f : crypted, skip\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"$f : crypted, skip\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print $fc. "\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="err">$</span><span class="ni">fc</span><span class="err">.</span> <span class="s">"\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_ssh: \n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_ssh: \n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd1: '$sd[1]':'$sd[2]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd1: '$sd[1]':'$sd[2]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshc1: '$sc[1]':'$sc[2]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshc1: '$sc[1]':'$sc[2]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd1a: file:'$sd[4]'; hash:'$sd[15]'; cvs:'$sd[1]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd1a: file:'$sd[4]'; hash:'$sd[15]'; cvs:'$sd[1]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd2: '$sd[1]':'$sd[2]':'$sd[3]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd2: '$sd[1]':'$sd[2]':'$sd[3]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshc4: '$sc[1]':'$sc[0]'\n" if @sc and f $sc[1];</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshc4: '$sc[1]':'$sc[0]'\n"</span> <span class="ni">if</span> <span class="err">@</span><span class="ni">sc</span> <span class="ni">and</span> <span class="err">f</span> <span class="err">$</span><span class="ni">sc</span><span class="err">[</span><span class="m">1</span><span class="err">]</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd4: '$sd[0]':'$sd[1]':'$sd[2]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd4: '$sd[0]':'$sd[1]':'$sd[2]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd5: " . join( '\|', @sd ) . "\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd5: "</span> <span class="err">.</span> <span class="ni">join</span><span class="p">(</span> <span class="err">'\|'</span><span class="p">,</span> <span class="err">@</span><span class="ni">sd</span> <span class="p">)</span> <span class="err">.</span> <span class="s">"\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd6: '$sd[2]':'$sd[0]'\nmod_sshc6: '$sc[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd6: '$sd[2]':'$sd[0]'\nmod_sshc6: '$sc[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd7: '$sd[0]':'$sd[4]'\nmod_sshc7: '$sc[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd7: '$sd[0]':'$sd[4]'\nmod_sshc7: '$sc[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd8: '$sd[1]':'$sd[2]'\nmod_sshc8: '$sc[1]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd8: '$sd[1]':'$sd[2]'\nmod_sshc8: '$sc[1]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">if (@sd) { print "mod_sshd12: GET, no params"; ssh_ls() }</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">if</span> <span class="p">(</span><span class="err">@</span><span class="ni">sd</span><span class="p">)</span> <span class="err">{</span> <span class="ni">print</span> <span class="s">"mod_sshd12: GET, no params"</span><span class="c">; ssh_ls() }</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd14: hash:'$sd[3]':'$sd[4]':'$sd[2]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd14: hash:'$sd[3]':'$sd[4]':'$sd[2]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshc14: hash:'$sd[3]':'$sd[4]':'$sd[2]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshc14: hash:'$sd[3]':'$sd[4]':'$sd[2]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">else { print "mod_sshd14: unknown hash; fpass:'$sd[1]';'$sd[3]'\n" }</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">else</span> <span class="err">{</span> <span class="ni">print</span> <span class="s">"mod_sshd14: unknown hash; fpass:'$sd[1]';'$sd[3]'\n"</span> <span class="err">}</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod14p: $d\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod14p: $d\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd15: '$sd[0]':'$sd[2]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd15: '$sd[0]':'$sd[2]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshc15: '$sc[38]':'$sc[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshc15: '$sc[38]':'$sc[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd16: '$sd[0]':'$sd[1]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd16: '$sd[0]':'$sd[1]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshc16: '$sc[1]':'$sc[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshc16: '$sc[1]':'$sc[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd17: crypt:'$sd[2]':'$sd[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd17: crypt:'$sd[2]':'$sd[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshc17: '$sc[0]':'$sc[1]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshc17: '$sc[0]':'$sc[1]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd17: client_string:'$q[1]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd17: client_string:'$q[1]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd18: md5:'$sd[3]':'$sd[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd18: md5:'$sd[3]':'$sd[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshc18: md5:'$sc[3]':'$sc[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshc18: md5:'$sc[3]':'$sc[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd19: '$sd[0]':'$sd[1]' url:'$sd[5] '$sd[4]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd19: '$sd[0]':'$sd[1]' url:'$sd[5] '$sd[4]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd20: '$sd[0]':'$sd[1]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd20: '$sd[0]':'$sd[1]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshc20: '$sc[0]':'$sc[1]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshc20: '$sc[0]':'$sc[1]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd21: '$sd[0]' mod_sshc21: '$sc[0]':'$sc[1]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd21: '$sd[0]' mod_sshc21: '$sc[0]':'$sc[1]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshc22: '$sd[0]':'$sd[1]':'$sd[2]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshc22: '$sd[0]':'$sd[1]':'$sd[2]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd23: '$sd[2]':'$sd[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd23: '$sd[2]':'$sd[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshc23: '$sc[0]':'$sc[1]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshc23: '$sc[0]':'$sc[1]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd24: '$sd[0]':'$sd[17]':'$sd[18]:$sd[20]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd24: '$sd[0]':'$sd[17]':'$sd[18]:$sd[20]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshc24: '$sc[1]':'$sc[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshc24: '$sc[1]':'$sc[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd25: '$sd[2]':'$sd[0]' mod_sshc25: '$sc[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd25: '$sd[2]':'$sd[0]' mod_sshc25: '$sc[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd27: '$sd[0]':'$sd[2]':'$sd[1]'\nmod_sshc27: '$sc[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd27: '$sd[0]':'$sd[2]':'$sd[1]'\nmod_sshc27: '$sc[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd31: hash:'$sd[2]':'$sd[1]':'$sd[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd31: hash:'$sd[2]':'$sd[1]':'$sd[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd32: md5:'$sd1[0]:'$sd[0]':'$sc[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd32: md5:'$sd1[0]:'$sd[0]':'$sc[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd33: '$sd[0]':'$sd[1]':'$sc[0]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd33: '$sd[0]':'$sd[1]':'$sc[0]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print $q. "\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="err">$q.</span> <span class="s">"\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd36: md5:'$sd[0]':'$sc[0]'; '$sd[1]':'$sc[1]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd36: md5:'$sd[0]':'$sc[0]'; '$sd[1]':'$sc[1]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd37: md5:'$sd[0]'; '$sd[1]':'$sd[3]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd37: md5:'$sd[0]'; '$sd[1]':'$sd[3]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">while (&lt;$fn&gt;) { chomp; print $_ ^ "\x14" x length $_ }</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">while</span> <span class="p">(</span><span class="err">&lt;$</span><span class="ni">fn</span><span class="err">&gt;</span><span class="p">)</span> <span class="err">{</span> <span class="ni">chomp</span><span class="c">; print $_ ^ "\x14" x length $_ }</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_ssh41_cstr: " . join( '\|', sort keys %ostr ) . "\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_ssh41_cstr: "</span> <span class="err">.</span> <span class="ni">join</span><span class="p">(</span> <span class="err">'\|'</span><span class="p">,</span> <span class="ni">sort</span> <span class="ni">keys</span> <span class="err">%</span><span class="ni">ostr</span> <span class="p">)</span> <span class="err">.</span> <span class="s">"\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd41: '$sd[1]' '$sd[0]', crypted\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd41: '$sd[1]' '$sd[0]', crypted\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshc41: '$sc[1]' '$sc[0]', crypted\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshc41: '$sc[1]' '$sc[0]', crypted\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd42: detected; log_useragent:passwd_file:passwd\n" if @sd;</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd42: detected; log_useragent:passwd_file:passwd\n"</span> <span class="ni">if</span> <span class="err">@</span><span class="ni">sd</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshc42: detected\n"                                   if @sc;</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshc42: detected\n"</span>                                   <span class="ni">if</span> <span class="err">@</span><span class="ni">sc</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd44: pass:'$sd[1]' '$sd[0]', '$sd[2]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd44: pass:'$sd[1]' '$sd[0]', '$sd[2]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">if ( $sc[0] ) { print "mod_sshc44: '$sc[0]' '$sc[13]'\n"; ssh_ls( $sd[0] ) }</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">if</span> <span class="p">(</span> <span class="err">$</span><span class="ni">sc</span><span class="err">[</span><span class="m">0</span><span class="err">]</span> <span class="p">)</span> <span class="err">{</span> <span class="ni">print</span> <span class="s">"mod_sshc44: '$sc[0]' '$sc[13]'\n"</span><span class="c">; ssh_ls( $sd[0] ) }</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd45: pass:'$sd[1]' host:'$sd[0]', '$sd[2]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd45: pass:'$sd[1]' host:'$sd[0]', '$sd[2]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">if ( $sc[0] ) { print "mod_sshc45: host:'$sc[0]' '$sc[1]'\n"; ssh_ls() }</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">if</span> <span class="p">(</span> <span class="err">$</span><span class="ni">sc</span><span class="err">[</span><span class="m">0</span><span class="err">]</span> <span class="p">)</span> <span class="err">{</span> <span class="ni">print</span> <span class="s">"mod_sshc45: host:'$sc[0]' '$sc[1]'\n"</span><span class="c">; ssh_ls() }</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd46: crypt:'$sc[1]' v1:'$sd[1]' v2:'$sd[2]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd46: crypt:'$sc[1]' v1:'$sd[1]' v2:'$sd[2]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_sshd47: pass:'$sd[0]' '$sd[1]', '$sd[2]'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_sshd47: pass:'$sd[0]' '$sd[1]', '$sd[2]'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">if (@sc) { print "mod_sshc47: host:'$sc[0]' '$sc[-1]'\n"; ssh_ls( $sc[0] ) }</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">if</span> <span class="p">(</span><span class="err">@</span><span class="ni">sc</span><span class="p">)</span> <span class="err">{</span> <span class="ni">print</span> <span class="s">"mod_sshc47: host:'$sc[0]' '$sc[-1]'\n"</span><span class="c">; ssh_ls( $sc[0] ) }</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">for (@sd)    { print "mod_md5_sshd: '$_'\n" }</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">for</span> <span class="p">(</span><span class="err">@</span><span class="ni">sd</span><span class="p">)</span>    <span class="err">{</span> <span class="ni">print</span> <span class="s">"mod_md5_sshd: '$_'\n"</span> <span class="err">}</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">for (@sc)    { print "mod_md5_ssh: '$_'\n" }</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">for</span> <span class="p">(</span><span class="err">@</span><span class="ni">sc</span><span class="p">)</span>    <span class="err">{</span> <span class="ni">print</span> <span class="s">"mod_md5_ssh: '$_'\n"</span> <span class="err">}</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_md5_static_ssl: $static_ssl\n" if $static_ssl;</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_md5_static_ssl: $static_ssl\n"</span> <span class="ni">if</span> <span class="err">$</span><span class="ni">static_ssl</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_hack_strd: possible hacked, " . join( "\|", @sd ) . "\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_hack_strd: possible hacked, "</span> <span class="err">.</span> <span class="ni">join</span><span class="p">(</span> <span class="s">"\|"</span><span class="p">,</span> <span class="err">@</span><span class="ni">sd</span> <span class="p">)</span> <span class="err">.</span> <span class="s">"\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_hack_strc: possible hacked, " . join( "\|", @sc ) . "\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_hack_strc: possible hacked, "</span> <span class="err">.</span> <span class="ni">join</span><span class="p">(</span> <span class="s">"\|"</span><span class="p">,</span> <span class="err">@</span><span class="ni">sc</span> <span class="p">)</span> <span class="err">.</span> <span class="s">"\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">for (@sd) { print "mod_md5_sshd1: '$_'\n" }</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">for</span> <span class="p">(</span><span class="err">@</span><span class="ni">sd</span><span class="p">)</span> <span class="err">{</span> <span class="ni">print</span> <span class="s">"mod_md5_sshd1: '$_'\n"</span> <span class="err">}</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_str_sshd_str: '" . join( "':'", keys %ostr ) . "'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_str_sshd_str: '"</span> <span class="err">.</span> <span class="ni">join</span><span class="p">(</span> <span class="s">"':'"</span><span class="p">,</span> <span class="ni">keys</span> <span class="err">%</span><span class="ni">ostr</span> <span class="p">)</span> <span class="err">.</span> <span class="s">"'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print "mod_str_sshd_str1: '" . join( "':'", keys %ostr ) . "'\n";</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="s">"mod_str_sshd_str1: '"</span> <span class="err">.</span> <span class="ni">join</span><span class="p">(</span> <span class="s">"':'"</span><span class="p">,</span> <span class="ni">keys</span> <span class="err">%</span><span class="ni">ostr</span> <span class="p">)</span> <span class="err">.</span> <span class="s">"'\n"</span><span class="c">;</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">if (@sd) { print "sshd_str: " . join( '\|', @sd ) . "\n" }</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">if</span> <span class="p">(</span><span class="err">@</span><span class="ni">sd</span><span class="p">)</span> <span class="err">{</span> <span class="ni">print</span> <span class="s">"sshd_str: "</span> <span class="err">.</span> <span class="ni">join</span><span class="p">(</span> <span class="err">'\|'</span><span class="p">,</span> <span class="err">@</span><span class="ni">sd</span> <span class="p">)</span> <span class="err">.</span> <span class="s">"\n"</span> <span class="err">}</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
-      <td><code class="language-plaintext highlighter-rouge">if (@sc) { print "sshc_str: " . join( '\|', @sc ) . "\n" }</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">if</span> <span class="p">(</span><span class="err">@</span><span class="ni">sc</span><span class="p">)</span> <span class="err">{</span> <span class="ni">print</span> <span class="s">"sshc_str: "</span> <span class="err">.</span> <span class="ni">join</span><span class="p">(</span> <span class="err">'\|'</span><span class="p">,</span> <span class="err">@</span><span class="ni">sc</span> <span class="p">)</span> <span class="err">.</span> <span class="s">"\n"</span> <span class="err">}</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/turla/README.adoc">turla</a></td>
-      <td><code class="language-plaintext highlighter-rouge">** </code>ResultQueue::print``</td>
+      <td><code class="language-plaintext highlighter-rouge">** </code>ResultQueue::print``{:.highlight .language-cmhg}</td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/turla/README.adoc">turla</a></td>
-      <td><code class="language-plaintext highlighter-rouge">** </code>TaskQueue::print``</td>
+      <td><code class="language-plaintext highlighter-rouge">** </code>TaskQueue::print``{:.highlight .language-cmhg}</td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc">windigo</a></td>
-      <td><code class="language-plaintext highlighter-rouge">print the dynamic section of the ELF header. Anything NEEDED (type 1) other</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">print</span> <span class="ni">the</span> <span class="ni">dynamic</span> <span class="ni">section</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">ELF</span> <span class="ni">header</span><span class="err">.</span> <span class="ni">Anything</span> <span class="ni">NEEDED</span> <span class="p">(</span><span class="ni">type</span> <span class="m">1</span><span class="p">)</span> <span class="ni">other</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc">windigo</a></td>
-      <td><code class="language-plaintext highlighter-rouge">OpenSSH version 6.7 or earlier. A clean server will print</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">OpenSSH</span> <span class="ni">version</span> <span class="m">6</span><span class="err">.</span><span class="m">7</span> <span class="ni">or</span> <span class="ni">earlier</span><span class="err">.</span> <span class="err">A</span> <span class="ni">clean</span> <span class="ni">server</span> <span class="ni">will</span> <span class="ni">print</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc">windigo</a></td>
-      <td><code class="language-plaintext highlighter-rouge">to </code>stderr<code class="language-plaintext highlighter-rouge"> but an infected server will only print the usage (note the missing</code></td>
+      <td><code class="language-plaintext highlighter-rouge">to </code>stderr<code class="language-plaintext highlight language-cmhg highlighter-rouge"> <span class="ni">but</span> <span class="ni">an</span> <span class="ni">infected</span> <span class="ni">server</span> <span class="ni">will</span> <span class="ni">only</span> <span class="ni">print</span> <span class="ni">the</span> <span class="ni">usage</span> <span class="p">(</span><span class="ni">note</span> <span class="ni">the</span> <span class="ni">missing</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc">windigo</a></td>
-      <td><code class="language-plaintext highlighter-rouge">yields no output if one is not infected and would print a filename if one is.</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">yields</span> <span class="ni">no</span> <span class="ni">output</span> <span class="ni">if</span> <span class="ni">one</span> <span class="ni">is</span> <span class="ni">not</span> <span class="ni">infected</span> <span class="ni">and</span> <span class="ni">would</span> <span class="ni">print</span> <span class="err">a</span> <span class="ni">filename</span> <span class="ni">if</span> <span class="ni">one</span> <span class="ni">is</span><span class="err">.</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc">windigo</a></td>
-      <td><code class="language-plaintext highlighter-rouge">ps -ef \| grep crond \| grep -v grep \| awk '{print $2}'</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">ps</span> <span class="err">-</span><span class="ni">ef</span> <span class="err">\|</span> <span class="ni">grep</span> <span class="ni">crond</span> <span class="err">\|</span> <span class="ni">grep</span> <span class="err">-v</span> <span class="ni">grep</span> <span class="err">\|</span> <span class="ni">awk</span> <span class="err">'{</span><span class="ni">print</span> <span class="err">$</span><span class="m">2</span><span class="err">}'</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/winnti_group/README.adoc">winnti_group</a></td>
-      <td><code class="language-plaintext highlighter-rouge">HKLM\SYSTEM\ControlSet001\Control\Print\Environments\Windows x64\Print Processors\PrintFiiterPipelineSvc\Driver = “DEment.dll”</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">HKLM</span><span class="err">\</span><span class="ni">SYSTEM</span><span class="err">\</span><span class="ni">ControlSet001</span><span class="err">\</span><span class="ni">Control</span><span class="err">\</span><span class="ni">Print</span><span class="err">\</span><span class="ni">Environments</span><span class="err">\</span><span class="ni">Windows</span> <span class="ni">x64</span><span class="err">\</span><span class="ni">Print</span> <span class="ni">Processors</span><span class="err">\</span><span class="ni">PrintFiiterPipelineSvc</span><span class="err">\</span><span class="ni">Driver</span> <span class="err">=</span> <span class="err">“</span><span class="ni">DEment</span><span class="err">.</span><span class="ni">dll</span><span class="err">”</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/winnti_group/README.adoc">winnti_group</a></td>
-      <td><code class="language-plaintext highlighter-rouge">HKLM\SYSTEM\CurrentControlSet\Control\Print\Environments\Windows x64\Print Processors\lltdsvc1\Driver = “EntAppsvc.dll”</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">HKLM</span><span class="err">\</span><span class="ni">SYSTEM</span><span class="err">\</span><span class="ni">CurrentControlSet</span><span class="err">\</span><span class="ni">Control</span><span class="err">\</span><span class="ni">Print</span><span class="err">\</span><span class="ni">Environments</span><span class="err">\</span><span class="ni">Windows</span> <span class="ni">x64</span><span class="err">\</span><span class="ni">Print</span> <span class="ni">Processors</span><span class="err">\</span><span class="ni">lltdsvc1</span><span class="err">\</span><span class="ni">Driver</span> <span class="err">=</span> <span class="err">“</span><span class="ni">EntAppsvc</span><span class="err">.</span><span class="ni">dll</span><span class="err">”</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/winnti_group/README.adoc">winnti_group</a></td>
-      <td><code class="language-plaintext highlighter-rouge">HKLM\SOFTWARE\Microsoft\Print\Components\DC20FD7E-4B1B-4B88-8172-61F0BED7D9E8</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">HKLM</span><span class="err">\</span><span class="ni">SOFTWARE</span><span class="err">\</span><span class="ni">Microsoft</span><span class="err">\</span><span class="ni">Print</span><span class="err">\</span><span class="ni">Components</span><span class="err">\</span><span class="ni">DC20FD7E</span><span class="err">-</span><span class="m">4</span><span class="ni">B1B</span><span class="err">-</span><span class="m">4</span><span class="ni">B88</span><span class="err">-</span><span class="m">8172</span><span class="err">-</span><span class="m">61</span><span class="ni">F0BED7D9E8</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/winnti_group/README.adoc">winnti_group</a></td>
-      <td><code class="language-plaintext highlighter-rouge">HKLM\SOFTWARE\Microsoft\Print\Components\A66F35-4164-45FF-9CB4-69ACAA10E52D</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">HKLM</span><span class="err">\</span><span class="ni">SOFTWARE</span><span class="err">\</span><span class="ni">Microsoft</span><span class="err">\</span><span class="ni">Print</span><span class="err">\</span><span class="ni">Components</span><span class="err">\</span><span class="ni">A66F35</span><span class="err">-</span><span class="m">4164</span><span class="err">-</span><span class="m">45</span><span class="ni">FF</span><span class="err">-</span><span class="m">9</span><span class="ni">CB4</span><span class="err">-</span><span class="m">69</span><span class="ni">ACAA10E52D</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
@@ -1021,6 +1045,18 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1110.003/T1110.003.md">T1110.003.md</a></td>
       <td>This atomic attempts to map the IPC$ share on one of the Domain Controllers using a password of Spring2020 for each user in the %temp%\users.txt list. Any successful authentications will be printed to the screen with a message like “[*] username:password”, whereas a failed auth will simply print a period. Use the input arguments to specify your own password to use for the password spray.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1127.001/T1127.001.md">T1127.001.md</a></td>
+      <td>Executes the code in a project file using msbuild.exe. The default C# project example file (T1127.001.csproj) will simply print “Hello From a Code Fragment” and “Hello From a Class.” to the screen.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1127.001/T1127.001.md">T1127.001.md</a></td>
+      <td>Executes the code in a project file using msbuild.exe. The default Visual Basic example file (vb.xml) will simply print “Hello from a Visual Basic inline task!” to the screen.</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1183,6 +1219,24 @@
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_project_sauron_extras.yar">apt_project_sauron_extras.yar</a></td>
       <td>$s2 = “Print only replying Ips”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_sandworm_centreon.yar">apt_sandworm_centreon.yar</a></td>
+      <td>$pl_socket = “socket(SOCKET, PF_INET, SOCK_STREAM,$tcp) or die print "$l$e$!$l”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_sandworm_centreon.yar">apt_sandworm_centreon.yar</a></td>
+      <td>$msg1 = “print "$l OK! I\‘m successful connected.$l"”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_sandworm_centreon.yar">apt_sandworm_centreon.yar</a></td>
+      <td>$msg2 = “print "$l OK! I\‘m accept connection.$l"”</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>
@@ -1455,6 +1509,24 @@
       <td>$s3 = “print("&lt;p align=\"center\"&gt;&lt;font size=\"5\"&gt;Exploit include “</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/collection/b007fe0c-c6b0-4fda-915c-255bbc070de2.yml">b007fe0c-c6b0-4fda-915c-255bbc070de2.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">copy the contents for the clipboard and print them</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/6e1a53c0-7352-4899-be35-fa7f364d5722.yml">6e1a53c0-7352-4899-be35-fa7f364d5722.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">name</span><span class="pi">:</span> <span class="s">Print Working Directory</span> </code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/6e1a53c0-7352-4899-be35-fa7f364d5722.yml">6e1a53c0-7352-4899-be35-fa7f364d5722.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Print the current working directory on the system</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
   </tbody>
 </table>
 
@@ -1539,7 +1611,7 @@ You can perform many configuration tasks from the command prompt by using the <a
 
 <hr />
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

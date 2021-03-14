@@ -1695,1351 +1695,1399 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/lnx_susp_vsftp.yml">lnx_susp_vsftp.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- "couldn't handle sandbox event"</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s2">"</span><span class="s">couldn't</span><span class="nv"> </span><span class="s">handle</span><span class="nv"> </span><span class="s">sandbox</span><span class="nv"> </span><span class="s">event"</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_sam_registry_hive_handle_request.yml">win_sam_registry_hive_handle_request.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">title: SAM Registry Hive Handle Request</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">SAM Registry Hive Handle Request</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_scm_database_handle_failure.yml">win_scm_database_handle_failure.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">title: SCM Database Handle Failure</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">SCM Database Handle Failure</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_scm_database_handle_failure.yml">win_scm_database_handle_failure.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects non-system users failing to get a handle of the SCM database.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects non-system users failing to get a handle of the SCM database.</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_susp_lsass_dump.yml">win_susp_lsass_dump.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects process handle on LSASS process with certain access mask and object type SAM_DOMAIN</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects process handle on LSASS process with certain access mask and object type SAM_DOMAIN</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_susp_lsass_dump_generic.yml">win_susp_lsass_dump_generic.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects process handle on LSASS process with certain access mask</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects process handle on LSASS process with certain access mask</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_syskey_registry_access.yml">win_syskey_registry_access.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects handle requests and access operations to specific registry keys to calculate the SysKey</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects handle requests and access operations to specific registry keys to calculate the SysKey</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_user_couldnt_call_privileged_service_lsaregisterlogonprocess.yml">win_user_couldnt_call_privileged_service_lsaregisterlogonprocess.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: The 'LsaRegisterLogonProcess' function verifies that the application making the function call is a logon process by checking that it has the SeTcbPrivilege privilege set. Possible Rubeus tries to get a handle to LSA.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">The 'LsaRegisterLogonProcess' function verifies that the application making the function call is a logon process by checking that it has the SeTcbPrivilege privilege set. Possible Rubeus tries to get a handle to LSA.</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_webshell_creation_detect.yml">sysmon_webshell_creation_detect.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge"># kind of ugly but sigmac seems not to handle double parenthesis "(("</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># kind of ugly but sigmac seems not to handle double parenthesis "(("</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/YML-Template.yml">YML-Template.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: @johndoe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="err">@</span><span class="s">johndoe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/YML-Template.yml">YML-Template.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: @olaNor</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="err">@</span><span class="s">olaNor</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/aswrundll.yml">aswrundll.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">handle: https://www.linkedin.com/in/eli-salem-954728150</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">handle</span><span class="pi">:</span> <span class="s">https://www.linkedin.com/in/eli-salem-954728150</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/RunCmd_X64.yml">RunCmd_X64.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: @bartblaze</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="err">@</span><span class="s">bartblaze</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherMSBinaries/Winword.yml">Winword.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@@vysecurity'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@@vysecurity'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherMSBinaries/Winword.yml">Winword.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@Hexacorn'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@Hexacorn'</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/AppInstaller.yml">AppInstaller.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@notwhickey'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/At.yml">At.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle:</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Atbroker.yml">Atbroker.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@hexacorn'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@hexacorn'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Bash.yml">Bash.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@aionescu'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@aionescu'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Bash.yml">Bash.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@d1r4c'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@d1r4c'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Bitsadmin.yml">Bitsadmin.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@mubix'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@mubix'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Bitsadmin.yml">Bitsadmin.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@carnal0wnage'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@carnal0wnage'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Bitsadmin.yml">Bitsadmin.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certreq.yml">Certreq.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@dtmsecurity'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@dtmsecurity'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml">Certutil.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@mattifestation'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@mattifestation'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml">Certutil.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@Moriarty_Meng'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@Moriarty_Meng'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certutil.yml">Certutil.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@egre55'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@egre55'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Cmd.yml">Cmd.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@yeyint_mth'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@yeyint_mth'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Cmdkey.yml">Cmdkey.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle:</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Cmstp.yml">Cmstp.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Cmstp.yml">Cmstp.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@NickTyrer'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@NickTyrer'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/ConfigSecurityPolicy.yml">ConfigSecurityPolicy.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@NtSetDefault'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@NtSetDefault'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Control.yml">Control.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Csc.yml">Csc.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle:</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Cscript.yml">Cscript.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/DataSvcUtil.yml">DataSvcUtil.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@NtSetDefault'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Desktopimgdownldr.yml">Desktopimgdownldr.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@gal_kristal'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@gal_kristal'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dfsvc.yml">Dfsvc.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Diantz.yml">Diantz.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@tim8288'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@tim8288'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Diantz.yml">Diantz.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@vakninhai'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@vakninhai'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Diskshadow.yml">Diskshadow.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dllhost.yml">Dllhost.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@CyberRaiju'</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dllhost.yml">Dllhost.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@nas_bench'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml">Dnscmd.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle:</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml">Dnscmd.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@dim0x69'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@dim0x69'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml">Dnscmd.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@nikhil_mitt'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@nikhil_mitt'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Esentutl.yml">Esentutl.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@egre55'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@egre55'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Esentutl.yml">Esentutl.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: 'grayfold3d'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">grayfold3d'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Eventvwr.yml">Eventvwr.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@enigma0x3'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@enigma0x3'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Eventvwr.yml">Eventvwr.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@mattifestation'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@mattifestation'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Expand.yml">Expand.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@infosecn1nja'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@infosecn1nja'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Expand.yml">Expand.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Explorer.yml">Explorer.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@CyberRaiju'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@CyberRaiju'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Explorer.yml">Explorer.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Extexport.yml">Extexport.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@hexacorn'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@hexacorn'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Extrac32.yml">Extrac32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@egre55'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@egre55'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Extrac32.yml">Extrac32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Extrac32.yml">Extrac32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@VakninHai'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@VakninHai'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Extrac32.yml">Extrac32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@tim8288'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@tim8288'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Findstr.yml">Findstr.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml">Forfiles.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@vector_sec'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@vector_sec'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml">Forfiles.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ftp.yml">Ftp.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ftp.yml">Ftp.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: ''</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ftp.yml">Ftp.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@0xAmit '</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@0xAmit</span><span class="nv"> </span><span class="s">'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/GfxDownloadWrapper.yml">GfxDownloadWrapper.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle:</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Gpscript.yml">Gpscript.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Hh.yml">Hh.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ie4uinit.yml">Ie4uinit.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ieexec.yml">Ieexec.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ilasm.yml">Ilasm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@VakninHai'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@VakninHai'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ilasm.yml">Ilasm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle:</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Infdefaultinstall.yml">Infdefaultinstall.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@kylehanslovan'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@kylehanslovan'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Installutil.yml">Installutil.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml">Jsc.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@DissectMalware'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@DissectMalware'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Makecab.yml">Makecab.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Mavinject.yml">Mavinject.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@gN3mes1s'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@gN3mes1s'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Mavinject.yml">Mavinject.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Microsoft.Workflow.Compiler.yml">Microsoft.Workflow.Compiler.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@mattifestation'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@mattifestation'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Microsoft.Workflow.Compiler.yml">Microsoft.Workflow.Compiler.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@BergbomJohn'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@BergbomJohn'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Microsoft.Workflow.Compiler.yml">Microsoft.Workflow.Compiler.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@FortyNorthSec'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@FortyNorthSec'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Microsoft.Workflow.Compiler.yml">Microsoft.Workflow.Compiler.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@Bank_Security'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@Bank_Security'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Mmc.yml">Mmc.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/MpCmdRun.yml">MpCmdRun.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@mohammadaskar2'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@mohammadaskar2'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/MpCmdRun.yml">MpCmdRun.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/MpCmdRun.yml">MpCmdRun.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: ''</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/MpCmdRun.yml">MpCmdRun.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@th3c3dr1c'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@th3c3dr1c'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Msbuild.yml">Msbuild.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Msbuild.yml">Msbuild.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@Cneelis'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@Cneelis'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Msconfig.yml">Msconfig.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@pabraeken'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@pabraeken'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Msdt.yml">Msdt.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle:</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Mshta.yml">Mshta.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Mshta.yml">Mshta.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Msiexec.yml">Msiexec.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@netbiosX'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@netbiosX'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Msiexec.yml">Msiexec.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@PhilipTsukerman'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@PhilipTsukerman'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Netsh.yml">Netsh.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle:</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Odbcconf.yml">Odbcconf.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Odbcconf.yml">Odbcconf.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@Hexacorn'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@Hexacorn'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Pcalua.yml">Pcalua.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@kylehanslovan'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@kylehanslovan'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Pcalua.yml">Pcalua.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@0rbz_'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@0rbz_'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Pcwrun.yml">Pcwrun.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@pabraeken'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@pabraeken'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Pktmon.yml">Pktmon.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: ''</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">'</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Pnputil.yml">Pnputil.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">LuxNoBulIshit'</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Pnputil.yml">Pnputil.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">aloneliassaf'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Presentationhost.yml">Presentationhost.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Print.yml">Print.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Psr.yml">Psr.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@L3m0nada'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@L3m0nada'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rasautou.yml">Rasautou.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@FireEye'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@FireEye'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Reg.yml">Reg.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regasm.yml">Regasm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regedit.yml">Regedit.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regini.yml">Regini.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@elisalem9'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@elisalem9'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Register-cimprovider.yml">Register-cimprovider.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@PhilipTsukerman'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@PhilipTsukerman'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regsvcs.yml">Regsvcs.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regsvr32.yml">Regsvr32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@elceef'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@elceef'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml">Rpcping.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml">Rpcping.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@vysecurity'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@vysecurity'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rundll32.yml">Rundll32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rundll32.yml">Rundll32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rundll32.yml">Rundll32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rundll32.yml">Rundll32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@404death'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@404death'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rundll32.yml">Rundll32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@Mrtn9'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@Mrtn9'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Runonce.yml">Runonce.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@pabraeken'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@pabraeken'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Runscripthelper.yml">Runscripthelper.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@mattifestation'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@mattifestation'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Sc.yml">Sc.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Schtasks.yml">Schtasks.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle:</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Scriptrunner.yml">Scriptrunner.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@nicktyrer'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@nicktyrer'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Syncappvpublishingserver.yml">Syncappvpublishingserver.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@monoxgas'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@monoxgas'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ttdinject.yml">Ttdinject.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ttdinject.yml">Ttdinject.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@m_nad0'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@m_nad0'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Tttracer.yml">Tttracer.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oulusoyum'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oulusoyum'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Tttracer.yml">Tttracer.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@mattifestation'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@mattifestation'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Vbc.yml">Vbc.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle:</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Verclsid.yml">Verclsid.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@NickTyrer'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@NickTyrer'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wab.yml">Wab.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@Hexacorn'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@Hexacorn'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wscript.yml">Wscript.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wscript.yml">Wscript.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@404death'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@404death'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wsreset.yml">Wsreset.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@ihack4falafel'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@ihack4falafel'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wuauclt.yml">Wuauclt.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@dtmsecurity'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@dtmsecurity'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Xwizard.yml">Xwizard.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@Hexacorn'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@Hexacorn'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Xwizard.yml">Xwizard.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@NickTyrer'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@NickTyrer'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Xwizard.yml">Xwizard.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@harr0ey'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@harr0ey'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Xwizard.yml">Xwizard.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@notwhickey'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@notwhickey'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Advpack.yml">Advpack.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Advpack.yml">Advpack.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@0rbz_'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@0rbz_'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Advpack.yml">Advpack.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@moriarty_meng'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@moriarty_meng'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Advpack.yml">Advpack.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@ItsReallyNick'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@ItsReallyNick'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/comsvcs.yml">comsvcs.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: </code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> </code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Ieadvpack.yml">Ieadvpack.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Ieadvpack.yml">Ieadvpack.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@0rbz_'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@0rbz_'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Ieadvpack.yml">Ieadvpack.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@pabraeken'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@pabraeken'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Ieframe.yml">Ieframe.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Ieframe.yml">Ieframe.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@hexacorn'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@hexacorn'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Mshtml.yml">Mshtml.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@pabraeken'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@pabraeken'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Pcwutl.yml">Pcwutl.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@harr0ey'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@harr0ey'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Setupapi.yml">Setupapi.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@KyleHanslovan'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@KyleHanslovan'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Setupapi.yml">Setupapi.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@HuntressLabs'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@HuntressLabs'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Setupapi.yml">Setupapi.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subTee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subTee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Setupapi.yml">Setupapi.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@ItsReallyNick'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@ItsReallyNick'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shdocvw.yml">Shdocvw.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@hexacorn'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@hexacorn'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shdocvw.yml">Shdocvw.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shell32.yml">Shell32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@hexacorn'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@hexacorn'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shell32.yml">Shell32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@pabraeken'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@pabraeken'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shell32.yml">Shell32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@mattifestation'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@mattifestation'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shell32.yml">Shell32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@KyleHanslovan'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@KyleHanslovan'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Syssetup.yml">Syssetup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@pabraeken'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@pabraeken'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Syssetup.yml">Syssetup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@harr0ey'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@harr0ey'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Syssetup.yml">Syssetup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Url.yml">Url.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@hexacorn'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@hexacorn'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Url.yml">Url.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Url.yml">Url.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@DissectMalware'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@DissectMalware'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Url.yml">Url.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@r0lan'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@r0lan'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Zipfldr.yml">Zipfldr.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@moriarty_meng'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@moriarty_meng'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Zipfldr.yml">Zipfldr.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@r0lan'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@r0lan'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Cl_invocation.yml">Cl_invocation.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Cl_invocation.yml">Cl_invocation.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@pabraeken'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@pabraeken'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/CL_mutexverifiers.yml">CL_mutexverifiers.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@pabraeken'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@pabraeken'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Manage-bde.yml">Manage-bde.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Manage-bde.yml">Manage-bde.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@danielbohannon'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@danielbohannon'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Manage-bde.yml">Manage-bde.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@JohnLaTwC'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@JohnLaTwC'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/pester.yml">pester.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@p0w3rsh3ll'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@p0w3rsh3ll'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Pubprn.yml">Pubprn.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@enigma0x3'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@enigma0x3'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Syncappvpublishingserver.yml">Syncappvpublishingserver.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@monoxgas'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@monoxgas'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Syncappvpublishingserver.yml">Syncappvpublishingserver.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Winrm.yml">Winrm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: '%SystemDrive%\BypassDir\cscript //nologo %windir%\System32\winrm.vbs get wmicimv2/Win32_Process?Handle=4 -format:pretty'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s1">'</span><span class="s">%SystemDrive%\BypassDir\cscript</span><span class="nv"> </span><span class="s">//nologo</span><span class="nv"> </span><span class="s">%windir%\System32\winrm.vbs</span><span class="nv"> </span><span class="s">get</span><span class="nv"> </span><span class="s">wmicimv2/Win32_Process?Handle=4</span><span class="nv"> </span><span class="s">-format:pretty'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Winrm.yml">Winrm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@mattifestation'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@mattifestation'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Winrm.yml">Winrm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@enigma0x3'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@enigma0x3'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Winrm.yml">Winrm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Winrm.yml">Winrm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Winrm.yml">Winrm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@redcanaryco'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@redcanaryco'</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Adplus.yml">Adplus.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@mrd0x'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Agentexecutor.yml">Agentexecutor.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@lefterispan'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@lefterispan'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Appvlp.yml">Appvlp.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@0rbz_'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@0rbz_'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Appvlp.yml">Appvlp.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@moo_hax'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@moo_hax'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Appvlp.yml">Appvlp.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@enigma0x3'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@enigma0x3'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Bginfo.yml">Bginfo.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@oddvarmoe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@oddvarmoe'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Cdb.yml">Cdb.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@mattifestation'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@mattifestation'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Coregen.yml">Coregen.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: </code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> </code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Csi.yml">Csi.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/DefaultPack.yml">DefaultPack.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@checkymander'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@checkymander'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Devtoolslauncher.yml">Devtoolslauncher.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@_felamos'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@_felamos'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Dnx.yml">Dnx.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@enigma0x3'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@enigma0x3'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Dotnet.yml">Dotnet.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@_felamos'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@_felamos'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Dotnet.yml">Dotnet.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bohops'  </code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bohops'</span>  </code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Dxcap.yml">Dxcap.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@harr0ey'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@harr0ey'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Excel.yml">Excel.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@reegun21'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@reegun21'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Mftrace.yml">Mftrace.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@0rbz_'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@0rbz_'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Msdeploy.yml">Msdeploy.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@pabraeken'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@pabraeken'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Msxsl.yml">Msxsl.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subtee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subtee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Ntdsutil.yml">Ntdsutil.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@PyroTek3'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@PyroTek3'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Powerpnt.yml">Powerpnt.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@reegun21'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@reegun21'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Rcsi.yml">Rcsi.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@enigma0x3'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@enigma0x3'</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Remote.yml">Remote.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@mrd0x'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml">Sqldumper.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@countuponsec'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@countuponsec'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqlps.yml">Sqlps.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@bryon_'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@bryon_'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqltoolsps.yml">Sqltoolsps.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@pabraeken'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@pabraeken'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Squirrel.yml">Squirrel.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@reegun21'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@reegun21'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Squirrel.yml">Squirrel.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@Hexacorn'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@Hexacorn'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Te.yml">Te.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@gN3mes1s'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@gN3mes1s'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Tracker.yml">Tracker.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@subTee'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@subTee'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Update.yml">Update.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@reegun21'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@reegun21'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Update.yml">Update.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@MrUn1k0d3r'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@MrUn1k0d3r'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Update.yml">Update.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@Hexacorn'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@Hexacorn'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Vsjitdebugger.yml">Vsjitdebugger.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@pabraeken'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@pabraeken'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Winword.yml">Winword.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@reegun21'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@reegun21'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Wsl.yml">Wsl.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@aionescu'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@aionescu'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Wsl.yml">Wsl.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@NotoriousRebel1'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@NotoriousRebel1'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Wsl.yml">Wsl.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Handle: '@d1r4c'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Handle</span><span class="pi">:</span> <span class="s1">'</span><span class="s">@d1r4c'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt">nouns.txt</a></td>
-      <td><code class="language-plaintext highlighter-rouge">handle</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">handle</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/oceanlotus/oceanlotus-rtf_ocx_campaigns.misp.event.json">oceanlotus-rtf_ocx_campaigns.misp.event.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"description": "Timestomping is a technique that modifies the timestamps of a file (the modify, access, create, and change times), often to mimic files that are in the same folder. This is done, for example, on files that have been modified or created by the adversary so that they do not appear conspicuous to forensic investigators or file analysis tools. Timestomping may be used along with file name Masquerading to hide malware and tools. (Citation: WindowsIR Anti-Forensic Techniques)\n\nDetection: Forensic techniques exist to detect aspects of files that have had their timestamps modified. (Citation: WindowsIR Anti-Forensic Techniques) It may be possible to detect timestomping using file modification monitoring that collects information on file handle opens and can compare timestamp values.\n\nPlatforms: Linux, Windows\n\nData Sources: File monitoring, Process monitoring, Process command-line parameters\n\nDefense Bypassed: Host forensic analysis\n\nPermissions Required: User, Administrator, SYSTEM",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"description"</span><span class="err">:</span> <span class="s">"Timestomping is a technique that modifies the timestamps of a file (the modify, access, create, and change times), often to mimic files that are in the same folder. This is done, for example, on files that have been modified or created by the adversary so that they do not appear conspicuous to forensic investigators or file analysis tools. Timestomping may be used along with file name Masquerading to hide malware and tools. (Citation: WindowsIR Anti-Forensic Techniques)\n\nDetection: Forensic techniques exist to detect aspects of files that have had their timestamps modified. (Citation: WindowsIR Anti-Forensic Techniques) It may be possible to detect timestomping using file modification monitoring that collects information on file handle opens and can compare timestamp values.\n\nPlatforms: Linux, Windows\n\nData Sources: File monitoring, Process monitoring, Process command-line parameters\n\nDefense Bypassed: Host forensic analysis\n\nPermissions Required: User, Administrator, SYSTEM"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-powershell-event.json">misp-turla-powershell-event.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"description": "Timestomping is a technique that modifies the timestamps of a file (the modify, access, create, and change times), often to mimic files that are in the same folder. This is done, for example, on files that have been modified or created by the adversary so that they do not appear conspicuous to forensic investigators or file analysis tools. Timestomping may be used along with file name Masquerading to hide malware and tools. (Citation: WindowsIR Anti-Forensic Techniques)\n\nDetection: Forensic techniques exist to detect aspects of files that have had their timestamps modified. (Citation: WindowsIR Anti-Forensic Techniques) It may be possible to detect timestomping using file modification monitoring that collects information on file handle opens and can compare timestamp values.\n\nPlatforms: Linux, Windows\n\nData Sources: File monitoring, Process monitoring, Process command-line parameters\n\nDefense Bypassed: Host forensic analysis\n\nPermissions Required: User, Administrator, SYSTEM",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"description"</span><span class="err">:</span> <span class="s">"Timestomping is a technique that modifies the timestamps of a file (the modify, access, create, and change times), often to mimic files that are in the same folder. This is done, for example, on files that have been modified or created by the adversary so that they do not appear conspicuous to forensic investigators or file analysis tools. Timestomping may be used along with file name Masquerading to hide malware and tools. (Citation: WindowsIR Anti-Forensic Techniques)\n\nDetection: Forensic techniques exist to detect aspects of files that have had their timestamps modified. (Citation: WindowsIR Anti-Forensic Techniques) It may be possible to detect timestomping using file modification monitoring that collects information on file handle opens and can compare timestamp values.\n\nPlatforms: Linux, Windows\n\nData Sources: File monitoring, Process monitoring, Process command-line parameters\n\nDefense Bypassed: Host forensic analysis\n\nPermissions Required: User, Administrator, SYSTEM"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
@@ -3132,10 +3180,22 @@
       <td>$s2 = “$handle = @opendir($dir) or die("Can’t open directory $dir");” fullword</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/05cda6f6-2b1b-462e-bff1-845af94343f7.yml">05cda6f6-2b1b-462e-bff1-845af94343f7.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">gwmi win32_process \|% {$owners[$_.handle] = $_.getowner().user};</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/3b5db901-2cb8-4df7-8043-c4628a6a5d5a.yml">3b5db901-2cb8-4df7-8043-c4628a6a5d5a.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">gwmi win32_process \|% {$owners[$_.handle] = $_.getowner().user};</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

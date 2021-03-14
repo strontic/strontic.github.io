@@ -270,10 +270,6 @@
       <td><code class="language-plaintext highlighter-rouge">768:/8XcJiMjm2ieHFYPyCsSuJbn8dBhFwjSMF6Iq8KSYDKvc7qWk81:zYMaNyFYPYSAb8dBnWHsPDKvcN91</code></td>
     </tr>
     <tr>
-      <td>IMP</td>
-      <td><code class="language-plaintext highlighter-rouge">n/a</code></td>
-    </tr>
-    <tr>
       <td>PESHA1</td>
       <td><code class="language-plaintext highlighter-rouge">EC1B45DF76B912BCAB4A524A47D2C3EF82EC98B1</code></td>
     </tr>
@@ -405,73 +401,73 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_possible_applocker_bypass.yml">win_possible_applocker_bypass.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '\regasm.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\regasm.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regasm.yml">Regasm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Name: Regasm.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Regasm.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regasm.yml">Regasm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: regasm.exe AllTheThingsx64.dll </code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">regasm.exe AllTheThingsx64.dll</span> </code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regasm.yml">Regasm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: regasm.exe /U AllTheThingsx64.dll </code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">regasm.exe /U AllTheThingsx64.dll</span> </code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regasm.yml">Regasm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\Microsoft.NET\Framework\v2.0.50727\regasm.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\Microsoft.NET\Framework\v2.0.50727\regasm.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regasm.yml">Regasm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\Microsoft.NET\Framework64\v2.0.50727\regasm.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\Microsoft.NET\Framework64\v2.0.50727\regasm.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regasm.yml">Regasm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regasm.yml">Regasm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\regasm.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\regasm.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regasm.yml">Regasm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- IOC: regasm.exe executing dll file</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">regasm.exe executing dll file</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regasm.yml">Regasm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Link: https://pentestlab.blog/2017/05/19/applocker-bypass-regasm-and-regsvcs/</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Link</span><span class="pi">:</span> <span class="s">https://pentestlab.blog/2017/05/19/applocker-bypass-regasm-and-regsvcs/</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regsvcs.yml">Regsvcs.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Regsvcs and Regasm are Windows command-line utilities that are used to register .NET Component Object Model (COM) assemblies</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Regsvcs and Regasm are Windows command-line utilities that are used to register .NET Component Object Model (COM) assemblies</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Regsvcs.yml">Regsvcs.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Link: https://pentestlab.blog/2017/05/19/applocker-bypass-regasm-and-regsvcs/</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Link</span><span class="pi">:</span> <span class="s">https://pentestlab.blog/2017/05/19/applocker-bypass-regasm-and-regsvcs/</span></code></td>
       <td> </td>
     </tr>
     <tr>
@@ -555,7 +551,7 @@
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

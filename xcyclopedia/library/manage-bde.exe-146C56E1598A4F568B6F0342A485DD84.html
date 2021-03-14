@@ -517,43 +517,43 @@
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Manage-bde.yml">Manage-bde.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Name: Manage-bde.wsf</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Manage-bde.wsf</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Manage-bde.yml">Manage-bde.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: set comspec=c:\windows\system32\calc.exe &amp; cscript c:\windows\system32\manage-bde.wsf</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">set comspec=c:\windows\system32\calc.exe &amp; cscript c:\windows\system32\manage-bde.wsf</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Manage-bde.yml">Manage-bde.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Set the comspec variable to another executable prior to calling manage-bde.wsf for execution.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Set the comspec variable to another executable prior to calling manage-bde.wsf for execution.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Manage-bde.yml">Manage-bde.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: copy c:\users\person\evil.exe c:\users\public\manage-bde.exe &amp; cd c:\users\public\ &amp; cscript.exe c:\windows\system32\manage-bde.wsf</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">copy c:\users\person\evil.exe c:\users\public\manage-bde.exe &amp; cd c:\users\public\ &amp; cscript.exe c:\windows\system32\manage-bde.wsf</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Manage-bde.yml">Manage-bde.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Run the manage-bde.wsf script with a payload named manage-bde.exe in the same directory to run the payload file.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Run the manage-bde.wsf script with a payload named manage-bde.exe in the same directory to run the payload file.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Manage-bde.yml">Manage-bde.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\System32\manage-bde.wsf</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\System32\manage-bde.wsf</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Manage-bde.yml">Manage-bde.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- IOC: Manage-bde.wsf should normally not be invoked by a user</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">Manage-bde.wsf should normally not be invoked by a user</span></code></td>
       <td> </td>
     </tr>
     <tr>
@@ -722,7 +722,7 @@ This command-line tool can be used in place of the <strong>BitLocker Drive Encry
 
 <hr />
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

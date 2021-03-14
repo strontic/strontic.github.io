@@ -231,6 +231,7 @@
 
 <ul>
   <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\logger.exe</code></li>
+  <li>Description: Error (Window Title)</li>
 </ul>
 
 <h2 id="screenshot">Screenshot</h2>
@@ -414,13 +415,13 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/lnx_shell_clear_cmd_history.yml">lnx_shell_clear_cmd_history.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge"># (is_empty=false; inotifywait -m .bash_history \| while read file; do if [ $(wc -l &lt;.bash_history) -lt 1  ]; then if  [ "$is_empty" = false ]; then logger -i -p local5.info -t empty_bash_history "$USER : ~/.bash_history is empty "; is_empty=true; fi; else is_empty=false;  fi;  done ) &amp;</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># (is_empty=false; inotifywait -m .bash_history \| while read file; do if [ $(wc -l &lt;.bash_history) -lt 1  ]; then if  [ "$is_empty" = false ]; then logger -i -p local5.info -t empty_bash_history "$USER : ~/.bash_history is empty "; is_empty=true; fi; else is_empty=false;  fi;  done ) &amp;</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/attor/README.adoc">attor</a></td>
-      <td><code class="language-plaintext highlighter-rouge">==== Key/clipboard logger plugin</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">====</span> <span class="ni">Key</span><span class="p">/</span><span class="ni">clipboard</span> <span class="ni">logger</span> <span class="ni">plugin</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
@@ -495,10 +496,16 @@
       <td>$s2 = “<description>Keystroke Logger Plugin.</description>” fullword ascii</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/privilege-escalation/95ad5d69-563e-477b-802b-4855bfb3be09.yml">95ad5d69-563e-477b-802b-4855bfb3be09.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Dll Hijack of WOW64 logger wow64log.dll using Akagi.exe</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

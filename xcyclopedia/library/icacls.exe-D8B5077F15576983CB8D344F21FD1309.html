@@ -455,25 +455,25 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_file_permission_modifications.yml">win_file_permission_modifications.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '\icacls.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\icacls.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_wannacry.yml">win_malware_wannacry.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*icacls * /grant Everyone:F /T /C /Q*'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*icacls</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">/grant</span><span class="nv"> </span><span class="s">Everyone:F</span><span class="nv"> </span><span class="s">/T</span><span class="nv"> </span><span class="s">/C</span><span class="nv"> </span><span class="s">/Q*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml">win_multiple_suspicious_cli.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- icacls.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">icacls.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/oceanlotus/oceanlotus-macOS.misp.event.json">oceanlotus-macOS.misp.event.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"https:\/\/docs.microsoft.com\/windows-server\/administration\/windows-commands\/icacls",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"https:\/\/docs.microsoft.com\/windows-server\/administration\/windows-commands\/icacls"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
@@ -491,7 +491,13 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md">T1222.001.md</a></td>
-      <td>icacls “C:*” /grant Everyone:F /T /C /Q</td>
+      <td><strong>icacls “C:*” /grant Everyone:F /T /C /Q</strong></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md">T1222.001.md</a></td>
+      <td>icacls “#{path}” /grant Everyone:F /T /C /Q</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -800,7 +806,7 @@ icacls &lt;directory&gt; [/substitute &lt;sidold&gt; &lt;sidnew&gt; [...]] [/res
 
 <hr />
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

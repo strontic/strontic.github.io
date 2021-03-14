@@ -377,7 +377,6 @@
 
 <ul>
   <li>VirusTotal Detections: Unknown</li>
-  <li>VirusTotal Link: n/a</li>
 </ul>
 
 <h2 id="possible-misuse">Possible Misuse</h2>
@@ -397,49 +396,134 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/other/win_pcap_drivers.yml">win_pcap_drivers.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*pktmon*'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*pktmon*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Pktmon.yml">Pktmon.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Name: Pktmon.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Pktmon.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Pktmon.yml">Pktmon.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: pktmon.exe start --etw</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">pktmon.exe start --etw</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Pktmon.yml">Pktmon.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Will start a packet capture and store log file as PktMon.etl. Use pktmon.exe stop</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Will start a packet capture and store log file as PktMon.etl. Use pktmon.exe stop</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Pktmon.yml">Pktmon.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: pktmon.exe filter add -p 445</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">pktmon.exe filter add -p 445</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Pktmon.yml">Pktmon.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: c:\windows\system32\pktmon.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">c:\windows\system32\pktmon.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Pktmon.yml">Pktmon.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: c:\windows\syswow64\pktmon.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">c:\windows\syswow64\pktmon.exe</span></code></td>
       <td> </td>
     </tr>
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="pktmon">pktmon</h2>
+
+<blockquote>
+  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows 10, Azure Stack HCI, Azure Stack Hub, Azure</p>
+</blockquote>
+
+<p>Packet Monitor (Pktmon) is an in-box, cross-component network diagnostics tool for Windows. It can be used for packet capture, drop detection, filtering, and counting. Pktmon is especially helpful in virtualization scenarios such as container networking and SDN, because it provides visibility within the networking stack.</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pktmon { filter | comp | reset | counters | format | list | start | stop | pcapng | unload | help } [options]
+</code></pre></div></div>
+
+<h4 id="commands">Commands</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Command</strong></th>
+      <th><strong>Description</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-filter.md">pktmon filter</a></td>
+      <td>Manage packet filters.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-comp.md">pktmon comp</a></td>
+      <td>Manage registered components.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-reset.md">pktmon reset</a></td>
+      <td>Reset counters to zero.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-counters.md">pktmon counters</a></td>
+      <td>Query packet counters.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-format.md">pktmon format</a></td>
+      <td>Convert log file to text.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-list.md">pktmon list</a></td>
+      <td>List all active components.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-start.md">pktmon start</a></td>
+      <td>Start packet monitoring.</td>
+    </tr>
+    <tr>
+      <td>pktmon stop</td>
+      <td>Stop packet monitoring.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-pcapng.md">pktmon pcapng</a></td>
+      <td>Convert log file to pcapng format.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-unload.md">pktmon unload</a></td>
+      <td>Unload pktmon driver.</td>
+    </tr>
+    <tr>
+      <td>pktmon help</td>
+      <td>Displays a short summary of subcommands.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li><a href="/windows-server/networking/technologies/pktmon/pktmon">Packet Monitor overview</a></li>
+  <li><a href="/windows-server/networking/technologies/pktmon/pktmon-netmon-support">Pktmon support for Microsoft Network Monitor (Netmon)</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

@@ -350,91 +350,97 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_powersploit_empire_schtasks.yml">win_powersploit_empire_schtasks.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*schtasks*/Create*/SC *ONLOGON*/TN *Updater*/TR *powershell*'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*schtasks*/Create*/SC</span><span class="nv"> </span><span class="s">*ONLOGON*/TN</span><span class="nv"> </span><span class="s">*Updater*/TR</span><span class="nv"> </span><span class="s">*powershell*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_powersploit_empire_schtasks.yml">win_powersploit_empire_schtasks.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*schtasks*/Create*/SC *DAILY*/TN *Updater*/TR *powershell*'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*schtasks*/Create*/SC</span><span class="nv"> </span><span class="s">*DAILY*/TN</span><span class="nv"> </span><span class="s">*Updater*/TR</span><span class="nv"> </span><span class="s">*powershell*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_powersploit_empire_schtasks.yml">win_powersploit_empire_schtasks.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*schtasks*/Create*/SC *ONIDLE*/TN *Updater*/TR *powershell*'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*schtasks*/Create*/SC</span><span class="nv"> </span><span class="s">*ONIDLE*/TN</span><span class="nv"> </span><span class="s">*Updater*/TR</span><span class="nv"> </span><span class="s">*powershell*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_powersploit_empire_schtasks.yml">win_powersploit_empire_schtasks.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*schtasks*/Create*/SC *Updater*/TN *Updater*/TR *powershell*'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*schtasks*/Create*/SC</span><span class="nv"> </span><span class="s">*Updater*/TN</span><span class="nv"> </span><span class="s">*Updater*/TR</span><span class="nv"> </span><span class="s">*powershell*'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_disable_raccine.yml">win_susp_disable_raccine.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">Raccine</span><span class="nv"> </span><span class="s">Rules</span><span class="nv"> </span><span class="s">Updater'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml">win_susp_gup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects execution of the Notepad++ updater in a suspicious directory, which is often used in DLL side-loading attacks</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects execution of the Notepad++ updater in a suspicious directory, which is often used in DLL side-loading attacks</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml">win_susp_gup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- ':\Users\\*\AppData\Local\Notepad++\updater\GUP.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">:\Users\\*\AppData\Local\Notepad++\updater\GUP.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml">win_susp_gup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- ':\Users\\*\AppData\Roaming\Notepad++\updater\GUP.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">:\Users\\*\AppData\Roaming\Notepad++\updater\GUP.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml">win_susp_gup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- ':\Program Files\Notepad++\updater\GUP.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">:\Program</span><span class="nv"> </span><span class="s">Files\Notepad++\updater\GUP.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml">win_susp_gup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- ':\Program Files (x86)\Notepad++\updater\GUP.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">:\Program</span><span class="nv"> </span><span class="s">Files</span><span class="nv"> </span><span class="s">(x86)\Notepad++\updater\GUP.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml">win_susp_gup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Execution of tools named GUP.exe and located in folders different than Notepad++\updater</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Execution of tools named GUP.exe and located in folders different than Notepad++\updater</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Gpup.yml">Gpup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- 'C:\Program Files (x86)\Notepad++\updater\gpup.exe    '</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">C:\Program</span><span class="nv"> </span><span class="s">Files</span><span class="nv"> </span><span class="s">(x86)\Notepad++\updater\gpup.exe</span><span class="nv">    </span><span class="s">'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Update.yml">Update.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Link: https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/microsoft-teams-updater-living-off-the-land/</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Link</span><span class="pi">:</span> <span class="s">https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/microsoft-teams-updater-living-off-the-land/</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/misp-kryptocibule.json">misp-kryptocibule.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"value": "%ProgramFiles(X86)%\\Adobe\\Acrobat Reader DC\\Reader\\Update\\Updater.exe",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"value"</span><span class="err">:</span> <span class="s">"%ProgramFiles(X86)%\\Adobe\\Acrobat Reader DC\\Reader\\Update\\Updater.exe"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/README.adoc">kryptocibule</a></td>
-      <td><code class="language-plaintext highlighter-rouge">.Updater (</code>Updater.exe<code class="language-plaintext highlighter-rouge">)</code></td>
+      <td><code class="language-plaintext highlighter-rouge">.Updater (</code>Updater.exe<code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="p">)</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/README.adoc">kryptocibule</a></td>
-      <td><code class="language-plaintext highlighter-rouge">%ProgramFiles(X86)%\Adobe\Acrobat Reader DC\Reader\Update\Updater.exe</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">%</span><span class="ni">ProgramFiles</span><span class="p">(</span><span class="ni">X86</span><span class="p">)</span><span class="err">%\</span><span class="ni">Adobe</span><span class="err">\</span><span class="ni">Acrobat</span> <span class="ni">Reader</span> <span class="ni">DC</span><span class="err">\</span><span class="ni">Reader</span><span class="err">\</span><span class="ni">Update</span><span class="err">\</span><span class="ni">Updater</span><span class="err">.</span><span class="ni">exe</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
@@ -485,10 +491,16 @@
       <td>$string10 = “DynDNS\Updater\config.dyndns” wide</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/defense-evasion/1258b063-27d6-489b-a677-4807faacf868.yml">1258b063-27d6-489b-a677-4807faacf868.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s2">"</span><span class="s">microsoft.tri.sensor.updater"</span><span class="err">,</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

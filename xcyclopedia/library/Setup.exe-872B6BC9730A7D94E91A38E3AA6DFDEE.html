@@ -353,193 +353,199 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/.github/workflows/pypi-publish.yml">pypi-publish.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">uses: actions/setup-python@v1</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">uses</span><span class="pi">:</span> <span class="s">actions/setup-python@v1</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/.github/workflows/sigma-test.yml">sigma-test.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">uses: actions/setup-python@v1</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">uses</span><span class="pi">:</span> <span class="s">actions/setup-python@v1</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_update_login_profile.yml">aws_update_login_profile.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: An attacker with the iam:UpdateLoginProfile permission on other users can change the password used to login to the AWS console on any user that already has a login profile setup. With this alert, it is used to detect anyone is changing password on behalf of other users.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">An attacker with the iam:UpdateLoginProfile permission on other users can change the password used to login to the AWS console on any user that already has a login profile setup. With this alert, it is used to detect anyone is changing password on behalf of other users.</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/network/cisco/aaa/cisco_cli_net_sniff.yml">cisco_cli_net_sniff.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Show when a monitor or a span/rspan is setup or modified</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Show when a monitor or a span/rspan is setup or modified</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/network/cisco/aaa/cisco_cli_net_sniff.yml">cisco_cli_net_sniff.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Admins may setup new or modify old spans, or use a monitor for troubleshooting</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Admins may setup new or modify old spans, or use a monitor for troubleshooting</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_susp_security_eventlog_cleared.yml">win_susp_security_eventlog_cleared.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Rollout of log collection agents (the setup routine often includes a reset of the local Eventlog)</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Rollout of log collection agents (the setup routine often includes a reset of the local Eventlog)</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/win_mal_flowcloud.yml">win_mal_flowcloud.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- 'HKLM\SYSTEM\Setup\PrintResponsor\\*'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">HKLM\SYSTEM\Setup\PrintResponsor\\*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_winnti_pipemon.yml">win_apt_winnti_pipemon.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- 'setup.exe -x:0'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">setup.exe</span><span class="nv"> </span><span class="s">-x:0'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_winnti_pipemon.yml">win_apt_winnti_pipemon.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- 'setup.exe -x:1'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">setup.exe</span><span class="nv"> </span><span class="s">-x:1'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_winnti_pipemon.yml">win_apt_winnti_pipemon.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- 'setup.exe -x:2'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">setup.exe</span><span class="nv"> </span><span class="s">-x:2'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1378.yml">win_exploit_cve_2019_1378.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\cmd.exe /c C:\Windows\Setup\Scripts\SetupComplete.cmd'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\cmd.exe</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">C:\Windows\Setup\Scripts\SetupComplete.cmd'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1378.yml">win_exploit_cve_2019_1378.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\cmd.exe /c C:\Windows\Setup\Scripts\PartnerSetupComplete.cmd'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\cmd.exe</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">C:\Windows\Setup\Scripts\PartnerSetupComplete.cmd'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1378.yml">win_exploit_cve_2019_1378.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- 'C:\Windows\Setup\\*'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">C:\Windows\Setup\\*'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Setup.yml">Setup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Name: Setup.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Setup.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Setup.yml">Setup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: Run Setup.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">Run Setup.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Setup.yml">Setup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Hijack hpbcsiServiceMarshaller.exe and run Setup.exe to launch a payload.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Hijack hpbcsiServiceMarshaller.exe and run Setup.exe to launch a payload.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Runonce.yml">Runonce.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- IOC: HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\YOURKEY</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\YOURKEY</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Setupapi.yml">Setupapi.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Windows Setup Application Programming Interface</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Windows Setup Application Programming Interface</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Syssetup.yml">Syssetup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Windows NT System Setup</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Windows NT System Setup</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/attor/README.adoc">attor</a></td>
-      <td><code class="language-plaintext highlighter-rouge">%COMMONAPPDATA%\Adobe\Setup\Replicate\US-sf</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">%</span><span class="ni">COMMONAPPDATA</span><span class="err">%\</span><span class="ni">Adobe</span><span class="err">\</span><span class="ni">Setup</span><span class="err">\</span><span class="ni">Replicate</span><span class="err">\</span><span class="ni">US</span><span class="err">-</span><span class="ni">sf</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/attor/README.adoc">attor</a></td>
-      <td><code class="language-plaintext highlighter-rouge">%COMMONAPPDATA%\Adobe\Setup\Replicate\US-nh</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">%</span><span class="ni">COMMONAPPDATA</span><span class="err">%\</span><span class="ni">Adobe</span><span class="err">\</span><span class="ni">Setup</span><span class="err">\</span><span class="ni">Replicate</span><span class="err">\</span><span class="ni">US</span><span class="err">-</span><span class="ni">nh</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/attor/README.adoc">attor</a></td>
-      <td><code class="language-plaintext highlighter-rouge">%COMMONAPPDATA%\Adobe\Setup\Replicate\US-zn</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">%</span><span class="ni">COMMONAPPDATA</span><span class="err">%\</span><span class="ni">Adobe</span><span class="err">\</span><span class="ni">Setup</span><span class="err">\</span><span class="ni">Replicate</span><span class="err">\</span><span class="ni">US</span><span class="err">-</span><span class="ni">zn</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/attor/README.adoc">attor</a></td>
-      <td><code class="language-plaintext highlighter-rouge">%COMMONAPPDATA%\Adobe\Setup\Replicate\US-pq</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">%</span><span class="ni">COMMONAPPDATA</span><span class="err">%\</span><span class="ni">Adobe</span><span class="err">\</span><span class="ni">Setup</span><span class="err">\</span><span class="ni">Replicate</span><span class="err">\</span><span class="ni">US</span><span class="err">-</span><span class="ni">pq</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/evilnum/README.adoc">evilnum</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>C8458A1568639EA2270E1845B0A386FF75C23421<code class="language-plaintext highlighter-rouge">\|nvstviews.exe     \|ALPS Setup                           \|</code>B1C248AD370D1ACE6FA03572CE1AE6297E14A3F8``{:.highlight .language-cmhg}</td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/glupteba/glupteba.misp-event.json">glupteba.misp-event.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"value": "setup.exe\|f7230b2cab4e4910bca473b39ee8fd4df394ce0d",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"value"</span><span class="err">:</span> <span class="s">"setup.exe\|f7230b2cab4e4910bca473b39ee8fd4df394ce0d"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/glupteba/README.adoc">glupteba</a></td>
-      <td><code class="language-plaintext highlighter-rouge">\|</code>F7230B2CAB4E4910BCA473B39EE8FD4DF394CE0D<code class="language-plaintext highlighter-rouge">\|setup.exe   \|MSIL/Adware.CsdiMonetize.AG</code></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>F7230B2CAB4E4910BCA473B39EE8FD4DF394CE0D<code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">setup</span><span class="err">.</span><span class="ni">exe</span>   <span class="err">\|</span><span class="ni">MSIL</span><span class="p">/</span><span class="ni">Adware</span><span class="err">.</span><span class="ni">CsdiMonetize</span><span class="err">.</span><span class="ni">AG</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/misp-kryptocibule.json">misp-kryptocibule.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"value": "%ProgramFiles(X86)%\\Adobe\\Acrobat Reader DC\\Reader\\Update\\Setup.dll",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"value"</span><span class="err">:</span> <span class="s">"%ProgramFiles(X86)%\\Adobe\\Acrobat Reader DC\\Reader\\Update\\Setup.dll"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/misp-kryptocibule.json">misp-kryptocibule.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"value": "%ProgramFiles(X86)%\\Adobe\\Acrobat Reader DC\\Reader\\Update\\setup-version.json",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"value"</span><span class="err">:</span> <span class="s">"%ProgramFiles(X86)%\\Adobe\\Acrobat Reader DC\\Reader\\Update\\setup-version.json"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/README.adoc">kryptocibule</a></td>
-      <td><code class="language-plaintext highlighter-rouge">%ProgramFiles(X86)%\Adobe\Acrobat Reader DC\Reader\Update\Setup.dll</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">%</span><span class="ni">ProgramFiles</span><span class="p">(</span><span class="ni">X86</span><span class="p">)</span><span class="err">%\</span><span class="ni">Adobe</span><span class="err">\</span><span class="ni">Acrobat</span> <span class="ni">Reader</span> <span class="ni">DC</span><span class="err">\</span><span class="ni">Reader</span><span class="err">\</span><span class="ni">Update</span><span class="err">\</span><span class="ni">Setup</span><span class="err">.</span><span class="ni">dll</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/README.adoc">kryptocibule</a></td>
-      <td><code class="language-plaintext highlighter-rouge">%ProgramFiles(X86)%\Adobe\Acrobat Reader DC\Reader\Update\setup-version.json</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">%</span><span class="ni">ProgramFiles</span><span class="p">(</span><span class="ni">X86</span><span class="p">)</span><span class="err">%\</span><span class="ni">Adobe</span><span class="err">\</span><span class="ni">Acrobat</span> <span class="ni">Reader</span> <span class="ni">DC</span><span class="err">\</span><span class="ni">Reader</span><span class="err">\</span><span class="ni">Update</span><span class="err">\</span><span class="ni">setup</span><span class="err">-</span><span class="ni">version</span><span class="err">.</span><span class="ni">json</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/potao/README.adoc">potao</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Fake TrueCrypt Setup:</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">Fake</span> <span class="ni">TrueCrypt</span> <span class="ni">Setup</span><span class="err">:</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc">windigo</a></td>
-      <td><code class="language-plaintext highlighter-rouge">depending on your setup. For example we know that </code>suPHP<code class="language-plaintext highlighter-rouge"> uses shared memory.</code></td>
+      <td><code class="language-plaintext highlighter-rouge">depending on your setup. For example we know that </code>suPHP<code class="language-plaintext highlight language-cmhg highlighter-rouge"> <span class="ni">uses</span> <span class="ni">shared</span> <span class="ni">memory</span><span class="err">.</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/winnti_group/README.adoc">winnti_group</a></td>
-      <td><code class="language-plaintext highlighter-rouge">setup.exe</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">setup</span><span class="err">.</span><span class="ni">exe</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
@@ -695,7 +701,7 @@
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

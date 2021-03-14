@@ -477,151 +477,151 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_susp_image_load.yml">sysmon_susp_image_load.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\notepad.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\notepad.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_notepad_network_connection.yml">sysmon_notepad_network_connection.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">title: Notepad Making Network Connection</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Notepad Making Network Connection</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_notepad_network_connection.yml">sysmon_notepad_network_connection.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects suspicious network connection by Notepad</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects suspicious network connection by Notepad</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_notepad_network_connection.yml">sysmon_notepad_network_connection.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- https://blog.cobaltstrike.com/2013/08/08/why-is-notepad-exe-connecting-to-the-internet/</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://blog.cobaltstrike.com/2013/08/08/why-is-notepad-exe-connecting-to-the-internet/</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_notepad_network_connection.yml">sysmon_notepad_network_connection.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Image: '*\notepad.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\notepad.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml">win_susp_gup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects execution of the Notepad++ updater in a suspicious directory, which is often used in DLL side-loading attacks</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects execution of the Notepad++ updater in a suspicious directory, which is often used in DLL side-loading attacks</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml">win_susp_gup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- ':\Users\\*\AppData\Local\Notepad++\updater\GUP.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">:\Users\\*\AppData\Local\Notepad++\updater\GUP.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml">win_susp_gup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- ':\Users\\*\AppData\Roaming\Notepad++\updater\GUP.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">:\Users\\*\AppData\Roaming\Notepad++\updater\GUP.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml">win_susp_gup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- ':\Program Files\Notepad++\updater\GUP.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">:\Program</span><span class="nv"> </span><span class="s">Files\Notepad++\updater\GUP.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml">win_susp_gup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- ':\Program Files (x86)\Notepad++\updater\GUP.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">:\Program</span><span class="nv"> </span><span class="s">Files</span><span class="nv"> </span><span class="s">(x86)\Notepad++\updater\GUP.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_gup.yml">win_susp_gup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Execution of tools named GUP.exe and located in folders different than Notepad++\updater</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Execution of tools named GUP.exe and located in folders different than Notepad++\updater</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Gpup.yml">Gpup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Execute another command through gpup.exe (Notepad++ binary).</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Execute another command through gpup.exe (Notepad++ binary).</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Gpup.yml">Gpup.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- 'C:\Program Files (x86)\Notepad++\updater\gpup.exe    '</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">C:\Program</span><span class="nv"> </span><span class="s">Files</span><span class="nv"> </span><span class="s">(x86)\Notepad++\updater\gpup.exe</span><span class="nv">    </span><span class="s">'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Explorer.yml">Explorer.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: explorer.exe C:\Windows\System32\notepad.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">explorer.exe C:\Windows\System32\notepad.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml">Forfiles.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: forfiles /p c:\windows\system32 /m notepad.exe /c calc.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">forfiles /p c:\windows\system32 /m notepad.exe /c calc.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml">Forfiles.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Executes calc.exe since there is a match for notepad.exe in the c:\windows\System32 folder.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Executes calc.exe since there is a match for notepad.exe in the c:\windows\System32 folder.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml">Forfiles.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: forfiles /p c:\windows\system32 /m notepad.exe /c "c:\folder\normal.dll:evil.exe"</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">forfiles /p c:\windows\system32 /m notepad.exe /c "c:\folder\normal.dll:evil.exe"</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml">Forfiles.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Executes the evil.exe Alternate Data Stream (AD) since there is a match for notepad.exe in the c:\windows\system32 folder.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Executes the evil.exe Alternate Data Stream (AD) since there is a match for notepad.exe in the c:\windows\system32 folder.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/pester.yml">pester.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command:  Pester.bat [/help\|?\|-?\|/?] "$null; notepad"</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span>  <span class="s">Pester.bat [/help\|?\|-?\|/?] "$null; notepad"</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/pester.yml">pester.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Execute code using Pester. The third parameter can be anything. The fourth is the payload. Example here executes notepad</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Execute code using Pester. The third parameter can be anything. The fourth is the payload. Example here executes notepad</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Winrm.yml">Winrm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: 'winrm invoke Create wmicimv2/Win32_Process @{CommandLine="notepad.exe"} -r:http://target:5985'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s1">'</span><span class="s">winrm</span><span class="nv"> </span><span class="s">invoke</span><span class="nv"> </span><span class="s">Create</span><span class="nv"> </span><span class="s">wmicimv2/Win32_Process</span><span class="nv"> </span><span class="s">@{CommandLine="notepad.exe"}</span><span class="nv"> </span><span class="s">-r:http://target:5985'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSScripts/Winrm.yml">Winrm.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: 'winrm invoke Create wmicimv2/Win32_Service @{Name="Evil";DisplayName="Evil";PathName="cmd.exe /k c:\windows\system32\notepad.exe"} -r:http://acmedc:5985   \nwinrm invoke StartService wmicimv2/Win32_Service?Name=Evil -r:http://acmedc:5985'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s1">'</span><span class="s">winrm</span><span class="nv"> </span><span class="s">invoke</span><span class="nv"> </span><span class="s">Create</span><span class="nv"> </span><span class="s">wmicimv2/Win32_Service</span><span class="nv"> </span><span class="s">@{Name="Evil";DisplayName="Evil";PathName="cmd.exe</span><span class="nv"> </span><span class="s">/k</span><span class="nv"> </span><span class="s">c:\windows\system32\notepad.exe"}</span><span class="nv"> </span><span class="s">-r:http://acmedc:5985</span><span class="nv">   </span><span class="s">\nwinrm</span><span class="nv"> </span><span class="s">invoke</span><span class="nv"> </span><span class="s">StartService</span><span class="nv"> </span><span class="s">wmicimv2/Win32_Service?Name=Evil</span><span class="nv"> </span><span class="s">-r:http://acmedc:5985'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Cdb.yml">Cdb.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: cdb.exe -cf x64_calc.wds -o notepad.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">cdb.exe -cf x64_calc.wds -o notepad.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Dxcap.yml">Dxcap.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: Dxcap.exe -c C:\Windows\System32\notepad.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">Dxcap.exe -c C:\Windows\System32\notepad.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Dxcap.yml">Dxcap.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Launch notepad as a subprocess of Dxcap.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Launch notepad as a subprocess of Dxcap.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
@@ -1062,10 +1062,16 @@
       <td>filename == “notepad.exe”</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/execution/3796a00b-b11d-4731-b4ca-275a07d83299.yml">3796a00b-b11d-4731-b4ca-275a07d83299.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Start-Process Notepad.exe -NoNewWindow -PassThru -Credential $credential;</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

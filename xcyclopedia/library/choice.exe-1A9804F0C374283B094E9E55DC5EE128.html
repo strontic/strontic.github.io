@@ -416,7 +416,7 @@
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wab.yml">Wab.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Change HKLM\Software\Microsoft\WAB\DLLPath and execute DLL of choice</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Change HKLM\Software\Microsoft\WAB\DLLPath and execute DLL of choice</span></code></td>
       <td> </td>
     </tr>
     <tr>
@@ -562,7 +562,7 @@ When you use <strong>ERRORLEVEL</strong> values in a batch program, you must lis
 
 <p>To hide the choices <strong>Y</strong>, <strong>N</strong>, and <strong>C</strong>, but display the text <strong>Yes</strong>, <strong>No</strong>, or <strong>Continue</strong>, type the following line in a batch file:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>choice /c ync /n /m Yes, No, or Continue?
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>choice /c ync /n /m "Yes, No, or Continue?"
 </code></pre></div></div>
 
 <blockquote>
@@ -572,7 +572,7 @@ If you use the <strong>/n</strong> parameter, but do not use <strong>/m</strong>
 
 <p>To show both the text and the options used in the previous examples, type the following line in a batch file:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>choice /c ync /m Yes, No, or Continue
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>choice /c ync /m "Yes, No, or Continue"
 </code></pre></div></div>
 
 <p>To set a time limit of five seconds and specify <strong>N</strong> as the default value, type the following line in a batch file:</p>
@@ -593,7 +593,7 @@ In this example, if the user doesn’t press a key within five seconds, <strong>
 
 <hr />
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

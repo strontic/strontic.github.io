@@ -310,37 +310,43 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/lnx_apt_equationgroup_lnx.yml">lnx_apt_equationgroup_lnx.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '/bin/telnet locip locport &lt; /dev/console \| /bin/sh'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">/bin/telnet</span><span class="nv"> </span><span class="s">locip</span><span class="nv"> </span><span class="s">locport</span><span class="nv"> </span><span class="s">&lt;</span><span class="nv"> </span><span class="s">/dev/console</span><span class="nv"> </span><span class="s">\|</span><span class="nv"> </span><span class="s">/bin/sh'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/lnx_apt_equationgroup_lnx.yml">lnx_apt_equationgroup_lnx.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '&amp;&amp; telnet * 2&gt;&amp;1 &lt;/dev/console'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">&amp;&amp;</span><span class="nv"> </span><span class="s">telnet</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">2&gt;&amp;1</span><span class="nv"> </span><span class="s">&lt;/dev/console'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/lnx_shell_susp_rev_shells.yml">lnx_shell_susp_rev_shells.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- ' \| /bin/bash \| telnet '</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="nv"> </span><span class="s">\|</span><span class="nv"> </span><span class="s">/bin/bash</span><span class="nv"> </span><span class="s">\|</span><span class="nv"> </span><span class="s">telnet</span><span class="nv"> </span><span class="s">'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_susp_plink_remote_forward.yml">sysmon_susp_plink_remote_forward.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Command-line</span><span class="nv"> </span><span class="s">SSH,</span><span class="nv"> </span><span class="s">Telnet,</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Rlogin</span><span class="nv"> </span><span class="s">client'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml">win_multiple_suspicious_cli.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- telnet.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">telnet.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/moose/LinuxMooseETrules.txt">LinuxMooseETrules.txt</a></td>
-      <td><code class="language-plaintext highlighter-rouge">alert tcp $HOME_NET any -&gt; $EXTERNAL_NET any (msg:"ET TROJAN Possible Linux/Moose Telnet CnC Beacon"; flow:established,to_server; dsize:40; content:"\|0e 00 00 00\|"; offset:4; depth:4; fast_pattern; content:!"\|00\|"; within:1; content:!"\|00\|"; distance:3; within:1; content:"\|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\|"; distance:4; within:28; content:!"\|00 00 00 00\|"; depth:4; reference:url,welivesecurity.com/wp-content/uploads/2015/05/Dissecting-LinuxMoose.pdf; classtype:trojan-activity; sid:2021149; rev:1;)</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">alert</span> <span class="ni">tcp</span> <span class="err">$</span><span class="ni">HOME_NET</span> <span class="ni">any</span> <span class="err">-&gt;</span> <span class="err">$</span><span class="ni">EXTERNAL_NET</span> <span class="ni">any</span> <span class="p">(</span><span class="kd">msg:</span><span class="s">"ET TROJAN Possible Linux/Moose Telnet CnC Beacon"</span><span class="c">; flow:established,to_server; dsize:40; content:"\|0e 00 00 00\|"; offset:4; depth:4; fast_pattern; content:!"\|00\|"; within:1; content:!"\|00\|"; distance:3; within:1; content:"\|00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00\|"; distance:4; within:28; content:!"\|00 00 00 00\|"; depth:4; reference:url,welivesecurity.com/wp-content/uploads/2015/05/Dissecting-LinuxMoose.pdf; classtype:trojan-activity; sid:2021149; rev:1;)</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/moose/README.adoc">moose</a></td>
-      <td><code class="language-plaintext highlighter-rouge">leveraging weak or default usernames and passwords via the Telnet protocol. If</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">leveraging</span> <span class="ni">weak</span> <span class="ni">or</span> <span class="ni">default</span> <span class="ni">usernames</span> <span class="ni">and</span> <span class="ni">passwords</span> <span class="ni">via</span> <span class="ni">the</span> <span class="ni">Telnet</span> <span class="ni">protocol</span><span class="err">.</span> <span class="ni">If</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
@@ -571,7 +577,7 @@ You must install the telnet client software before you can run this command. For
 
 <hr />
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

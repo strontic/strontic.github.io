@@ -267,18 +267,6 @@
       <td>SSDEEP</td>
       <td><code class="language-plaintext highlighter-rouge">3::</code></td>
     </tr>
-    <tr>
-      <td>IMP</td>
-      <td><code class="language-plaintext highlighter-rouge">n/a</code></td>
-    </tr>
-    <tr>
-      <td>PESHA1</td>
-      <td><code class="language-plaintext highlighter-rouge">n/a</code></td>
-    </tr>
-    <tr>
-      <td>PE256</td>
-      <td><code class="language-plaintext highlighter-rouge">n/a</code></td>
-    </tr>
   </tbody>
 </table>
 
@@ -302,7 +290,6 @@
   <li>Product Version:</li>
   <li>Language:</li>
   <li>Legal Copyright:</li>
-  <li>Machine Type: n/a</li>
 </ul>
 
 <h2 id="file-scan">File Scan</h2>
@@ -329,25 +316,25 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2017_11882.yml">win_exploit_cve_2017_11882.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Detects exploits that use CVE-2017-11882 to start EQNEDT32.EXE and other sub processes like mshta.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects exploits that use CVE-2017-11882 to start EQNEDT32.EXE and other sub processes like mshta.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2017_11882.yml">win_exploit_cve_2017_11882.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">ParentImage: '*\EQNEDT32.EXE'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ParentImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\EQNEDT32.EXE'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_office_shell.yml">win_office_shell.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\EQNEDT32.EXE'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\EQNEDT32.EXE'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>

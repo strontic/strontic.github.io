@@ -590,7 +590,6 @@
 
 <ul>
   <li>VirusTotal Detections: Unknown</li>
-  <li>VirusTotal Link: n/a</li>
 </ul>
 
 <h2 id="file-similarity-ssdeep-match">File Similarity (ssdeep match)</h2>
@@ -651,49 +650,49 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_cdb.yml">win_susp_cdb.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Launch 64-bit shellcode from a debugger script file using cdb.exe.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Launch 64-bit shellcode from a debugger script file using cdb.exe.</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_cdb.yml">win_susp_cdb.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Image\|endswith: '\cdb.exe'</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\cdb.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Cdb.yml">Cdb.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Name: Cdb.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Cdb.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Cdb.yml">Cdb.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: cdb.exe -cf x64_calc.wds -o notepad.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">cdb.exe -cf x64_calc.wds -o notepad.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Cdb.yml">Cdb.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Description: Launch 64-bit shellcode from the x64_calc.wds file using cdb.exe.</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Launch 64-bit shellcode from the x64_calc.wds file using cdb.exe.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Cdb.yml">Cdb.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\cdb.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\cdb.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Cdb.yml">Cdb.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\cdb.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\cdb.exe</span></code></td>
       <td> </td>
     </tr>
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
