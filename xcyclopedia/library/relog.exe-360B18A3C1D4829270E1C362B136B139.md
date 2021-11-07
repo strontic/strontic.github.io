@@ -48,7 +48,7 @@ SSDEEP | `768:55Ye2jWct8gE/jtiUOlgc2GNdrXOcq57rWjupScIXMC8VW:55YXjWwEpiUL96SgbXM
 
 ## relog
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Extracts performance counters from performance counter logs into other formats, such as text-TSV (for tab-delimited text), text-CSV (for comma-delimited text), binary-BIN, or SQL.
 

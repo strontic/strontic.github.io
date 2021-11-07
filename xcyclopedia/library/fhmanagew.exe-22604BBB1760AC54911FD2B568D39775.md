@@ -80,6 +80,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 File | Score
 -- | --
 [C:\WINDOWS\system32\fhmanagew.exe](fhmanagew.exe-13FB4BFDB43E0B2991CB4292CCFA9864.md) | 66
+[C:\Windows\system32\fhmanagew.exe](fhmanagew.exe-B57991DDF566C9F467945FD73BA9B38B.md) | 74
 
 
 

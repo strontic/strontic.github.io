@@ -70,6 +70,7 @@ Options:
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_wsl_lolbin.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_wsl_lolbin.yml) | `- '\wsl.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wsl.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Wsl.yml) | `Name: Wsl.exe`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wsl.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Wsl.yml) | `- Command: wsl.exe -e /mnt/c/Windows/System32/calc.exe`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wsl.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Wsl.yml) | `Description: Executes calc.exe from wsl.exe`{:.highlight .language-yaml} | 

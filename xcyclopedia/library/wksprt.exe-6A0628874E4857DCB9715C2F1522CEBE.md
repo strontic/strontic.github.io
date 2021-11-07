@@ -42,6 +42,7 @@ SSDEEP | `6144:XXRhscr7sO8g+RMxZGlK/P2kJLPOYXJjHH/2fEVdnoiEEiEEsfByAwZZS4onQF3W:
 
 File | Score
 -- | --
+[C:\Windows\system32\wksprt.exe](wksprt.exe-2C3BE28E1B8D28A8B326FBB7E06CEDD9.md) | 38
 [C:\Windows\system32\wksprt.exe](wksprt.exe-A500FC34666C2BD1D178B0163748F7F0.md) | 33
 [C:\Windows\system32\wksprt.exe](wksprt.exe-B1A354667950BBBEA757CF91918ED092.md) | 44
 [C:\Windows\system32\wksprt.exe](wksprt.exe-BA81ED5D41505A2311DB75585620A381.md) | 38

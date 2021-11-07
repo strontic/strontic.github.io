@@ -43,7 +43,9 @@ SSDEEP | `1536:wKYbc2+xsCvof6N/uYhjaPCbLqt/6QWSfKYbkkbsFDfSIT0nJ2QC7pFJan1ZQnBF:
 File | Score
 -- | --
 [C:\Windows\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-2F8BF990BEDECF1974DC4189E24F709D.md) | 46
+[C:\Windows\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-AB91C19E6B17B43A226594A8D152BA54.md) | 49
 [C:\Windows\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-FE1414362471F8F2603A41BDA2B81526.md) | 43
+[C:\Windows\system32\AppVNice.exe](AppVNice.exe-33BB656C6280DF146C0C38EFC63CCD90.md) | 49
 [C:\Windows\system32\AppVNice.exe](AppVNice.exe-E4CC15631219560406D2CE920CB2C133.md) | 32
 [C:\WINDOWS\system32\AppVNice.exe](AppVNice.exe-E805EC74A53B64CE1D9D6739B8055579.md) | 38
 [C:\Windows\system32\AppVStreamingUX.dll](AppVStreamingUX.dll-C9966B7BA8CFDCD1D97185C3634763E3.md) | 32

@@ -76,6 +76,7 @@ C:\Windows\system32\WWAHost.exe |
 File | Score
 -- | --
 [C:\Windows\system32\WWAHost.exe](WWAHost.exe-06C544C90C0720263D257A8DE3202E21.md) | 32
+[C:\Windows\system32\WWAHost.exe](WWAHost.exe-7DD41153A8EF9FD79DE8B18229E4AC1D.md) | 32
 
 
 

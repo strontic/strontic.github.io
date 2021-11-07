@@ -65,6 +65,11 @@ C:\Windows\system32\wpnpinst.exe |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/bdbda99cc9903dc782ce7ec2afcb7ea9851dc63333449841c2c3f917b4d8d3b8/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wpnpinst.exe](wpnpinst.exe-BA33571C148659B9003B11C838E68E2A.md) | 68
 
 
 

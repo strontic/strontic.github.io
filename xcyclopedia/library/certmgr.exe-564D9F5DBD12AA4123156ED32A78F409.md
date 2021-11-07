@@ -93,6 +93,13 @@ File | Score
 [C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\arm64\certmgr.exe](certmgr.exe-B18C3F2FD9A7E9C7FC8C91BA0BE5FD89.md) | 46
 [C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\certmgr.exe](certmgr.exe-AFC75CA9510A5A5221222EDC66342935.md) | 44
 
+## Possible Misuse
+
+*The following table contains possible examples of `certmgr.exe` being misused. While `certmgr.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [process_creation_root_certificate_installed.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_root_certificate_installed.yml) | `Image\|endswith: '\CertMgr.exe'      # Example: CertMgr.exe /add CertificateFileName.cer /s /r localMachine root /all`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

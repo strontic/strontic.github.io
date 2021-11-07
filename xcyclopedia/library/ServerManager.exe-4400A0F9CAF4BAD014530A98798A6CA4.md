@@ -44,6 +44,13 @@ SSDEEP | `6144:XixEpwpp+SNdi6gozVvPUHZsGChyB0M8VGQ8b:XiSwpp+SNQtivPyCYy7Gvb`
 
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `ServerManager.exe` being misused. While `ServerManager.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_in_memory_powershell.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_in_memory_powershell.yml) | `- '\ServerManager.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

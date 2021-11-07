@@ -105,10 +105,22 @@ File | Score
 [C:\Windows\splwow64.exe](splwow64.exe-AA4138C0FBC6D41F9EBC5C4EFE20ECCA.md) | 40
 [C:\Windows\splwow64.exe](splwow64.exe-B626F1C0194C73D55529E729A63209A2.md) | 41
 [C:\Windows\splwow64.exe](splwow64.exe-B73202D296AE4FDB8ECC29CC97F8A444.md) | 41
+[C:\Windows\splwow64.exe](splwow64.exe-BD86784ABDA6C4FD8ACFD3912AC192E9.md) | 36
 [C:\windows\splwow64.exe](splwow64.exe-BE96C8815DE31A42E93A3BE09C2EECCC.md) | 43
 [C:\Windows\system32\PrintIsolationHost.exe](PrintIsolationHost.exe-95E50C824C9C9B4362AA3522B8449E29.md) | 44
 [C:\Windows\system32\PrintIsolationHost.exe](PrintIsolationHost.exe-A7BF96D6CC09A5012C1EA0F990D65567.md) | 43
+[C:\Windows\system32\PrintIsolationHost.exe](PrintIsolationHost.exe-B59C716809F72A87CF72C66AB7BD5082.md) | 44
 
+## Possible Misuse
+
+*The following table contains possible examples of `splwow64.exe` being misused. While `splwow64.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_splwow64.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_splwow64.yml) | `title: Suspicious Splwow64 Without Params`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_splwow64.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_splwow64.yml) | `description: Detects suspicious Splwow64.exe process without any command line parameters`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_splwow64.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_splwow64.yml) | `Image\|endswith: '\splwow64.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_splwow64.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_splwow64.yml) | `CommandLine\|endswith: 'splwow64.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

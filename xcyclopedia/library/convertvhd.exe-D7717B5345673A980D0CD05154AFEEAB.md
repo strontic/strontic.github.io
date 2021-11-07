@@ -95,6 +95,7 @@ C:\Windows\System32\ucrtbase.dll |
 File | Score
 -- | --
 [C:\Windows\system32\convertvhd.exe](convertvhd.exe-20C01F0B5F37FC672746A201F339CAAD.md) | 79
+[C:\Windows\system32\convertvhd.exe](convertvhd.exe-5AA11E3B89C7D25777F1BACA172E8C1B.md) | 79
 
 
 

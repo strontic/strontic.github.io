@@ -73,6 +73,11 @@ C:\Windows\System32\ucrtbase.dll |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/16dc4d82c9f77e82378226ba4dd9314f2a49fdbb6b0456fcdaba9182aa8c4ab0/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\omadmprc.exe](omadmprc.exe-F06DAF80820426DF0FE3A74FD83EB8C4.md) | 35
 
 
 

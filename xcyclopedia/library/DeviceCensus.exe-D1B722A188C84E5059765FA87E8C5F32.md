@@ -81,6 +81,7 @@ C:\Windows\system32\WINHTTP.dll |
 
 File | Score
 -- | --
+[C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-954BE99723EB37D0CC782E0DC1992C9F.md) | 79
 [C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-ABA7E7513886979AF8A3B68A1F4E591D.md) | 86
 [C:\Windows\system32\kdhvcom.dll](kdhvcom.dll-A4FAD08A4DDE0DEAE2062FAFF9DFE500.md) | 29
 
@@ -91,6 +92,7 @@ File | Score
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [sysmon_wmi_module_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_wmi_module_load.yml) | `- '\DeviceCensus.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_win_reg_telemetry_persistence.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_win_reg_telemetry_persistence.yml) | `- '\system32\DeviceCensus.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

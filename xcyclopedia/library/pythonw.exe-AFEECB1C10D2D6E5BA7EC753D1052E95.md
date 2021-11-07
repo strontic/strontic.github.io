@@ -83,9 +83,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Python310-32\Lib\venv\scripts\nt\pythonw.exe](pythonw.exe-4120303CF8654D6C7C02877CB49513C8.md) | 38
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\venv\scripts\nt\pythonw.exe](pythonw.exe-42FAD025D3A6ACC48AFED0D4FABA2C06.md) | 30
 [C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\venv\scripts\nt\pythonw.exe](pythonw.exe-F4C32BD5CB9189A69D77D56D4CBCA124.md) | 30
 [C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\venv\scripts\nt\pythonw.exe](pythonw.exe-EBCD7748BA148C3FCA431F9C38D8D714.md) | 30
+[C:\Program Files\Python310\Lib\venv\scripts\nt\pythonw.exe](pythonw.exe-75513C9847FDFFDDE9323C4CB464E04E.md) | 36
 
 
 

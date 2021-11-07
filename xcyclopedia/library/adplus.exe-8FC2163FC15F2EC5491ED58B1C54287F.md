@@ -209,6 +209,7 @@ Source | Source File | Example | License
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Adplus.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Adplus.yml) | `- Command: adplus.exe -hang -pn lsass.exe -o c:\users\mr.d0x\output\folder -quiet`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Adplus.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Adplus.yml) | `- Path: C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\adplus.exe`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Adplus.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Adplus.yml) | `- Path: C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\adplus.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Adplus.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Adplus.yml) | `- Link: https://blog.thecybersecuritytutor.com/adplus-debugging-tool-lsass-dump/`{:.highlight .language-yaml} | 
 
 
 

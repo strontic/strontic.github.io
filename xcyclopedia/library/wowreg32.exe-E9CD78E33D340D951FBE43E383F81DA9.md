@@ -46,6 +46,7 @@ File | Score
 [C:\Windows\SysWOW64\wowreg32.exe](wowreg32.exe-4806AEA6060A7D3809A6BBA3C523668B.md) | 61
 [C:\Windows\SysWOW64\wowreg32.exe](wowreg32.exe-52CEB4B5FED7DA60485818002E26455E.md) | 40
 [C:\Windows\SysWOW64\wowreg32.exe](wowreg32.exe-5C3C994AB427D907A3787B62B744DB69.md) | 46
+[C:\Windows\SysWOW64\wowreg32.exe](wowreg32.exe-BCB6AB94A7F844C08E625290F4C50E80.md) | 44
 
 
 

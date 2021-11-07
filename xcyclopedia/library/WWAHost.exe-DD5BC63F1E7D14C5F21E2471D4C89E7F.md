@@ -64,6 +64,7 @@ C:\Windows\SysWOW64\WWAHost.exe |
 File | Score
 -- | --
 [C:\Windows\SysWOW64\WWAHost.exe](WWAHost.exe-776EE69BF2955CE384816C8BCCC02D41.md) | 75
+[C:\Windows\SysWOW64\WWAHost.exe](WWAHost.exe-7C7EDAD5BDA9C34FD50C3A58429C90F0.md) | 90
 [C:\Windows\SysWOW64\WWAHost.exe](WWAHost.exe-E2C9D690D9FAE1A441ED0447FC2C06DA.md) | 85
 
 

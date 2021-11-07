@@ -23,7 +23,7 @@ SSDEEP | `12288:Z5VnZ6Fc5FgVOv9N/eP6GXTaCNqc+6qOBJoTblzu3snT+tCblZ9/:ZrnZVfjvTO6
 
 ### Usage (stdout):
 ```cmhg
-[2J[?25l[m[30;1H
+[2J[?25l[m[30;1H
 
 
 
@@ -45,7 +45,7 @@ SSDEEP | `12288:Z5VnZ6Fc5FgVOv9N/eP6GXTaCNqc+6qOBJoTblzu3snT+tCblZ9/:ZrnZVfjvTO6
 
 
 
-[HDIR            Displays a list of files and subdirectories in a directory.
+[HDIR            Displays a list of files and subdirectories in a directory.
 DISKPART       Displays or configures Disk Partition properties.
 DOSKEY         Edits command lines, recalls Windows commands, and
                creates macros.
@@ -74,7 +74,7 @@ ICACLS         Display, modify, backup, or restore ACLs for files and
 IF             Performs conditional processing in batch programs.
 LABEL          Creates, changes, or deletes the volume label of a disk.
 MD             Creates a directory.
-]0;C:\Windows\system32\help.exe[?25h[?25l
+]0;C:\Windows\system32\help.exe[?25h[?25l
 
 
 
@@ -121,36 +121,36 @@ MD             Creates a directory.
 
 
 
-[HRENAME         Renames a file or files.[81X[81C
-REPLACE        Replaces files.[90X[90C
-RMDIR          Removes a directory.[85X[85C
-ROBOCOPY       Advanced utility to copy files and directory trees[55X[55C
-SET            Displays, sets, or removes Windows environment variables.[48X[48C
-SETLOCAL       Begins localization of environment changes in a batch file.[46X[46C
-SC             Displays or configures services (background processes).[50X[50C
-SCHTASKS       Schedules commands and programs to run on a computer.[52X[52C
-SHIFT          Shifts the position of replaceable parameters in batch files.[44X[44C
-SHUTDOWN       Allows proper local or remote shutdown of machine.[55X[55C
-SORT           Sorts input.[93X[93C
-START          Starts a separate window to run a specified program or command.[42X[42C
-SUBST          Associates a path with a drive letter.[67X[67C
-SYSTEMINFO     Displays machine specific properties and configuration.[50X[50C
-TASKLIST       Displays all currently running tasks including services.[49X[49C
-TASKKILL       Kill or stop a running process or application.[59X[59C
-TIME           Displays or sets the system time.[72X[72C
-TITLE          Sets the window title for a CMD.EXE session.[61X[61C
-TREE           Graphically displays the directory structure of a drive or[47X[47C
-               path.[100X[100C
-TYPE           Displays the contents of a text file.[68X[68C
-VER            Displays the Windows version.[76X[76C
-VERIFY         Tells Windows whether to verify that your files are written[46X[46C
-               correctly to a disk.[85X[85C
-VOL            Displays a disk volume label and serial number.[58X[58C
-XCOPY          Copies files and directory trees.[72X[72C
-WMIC           Displays WMI information inside interactive command shell.[47X[47C
-[120X[120C
-For more information on tools see the command-line reference in the online help.[40X[40C
-[120X[120C[?25h
+[HRENAME         Renames a file or files.[81X[81C
+REPLACE        Replaces files.[90X[90C
+RMDIR          Removes a directory.[85X[85C
+ROBOCOPY       Advanced utility to copy files and directory trees[55X[55C
+SET            Displays, sets, or removes Windows environment variables.[48X[48C
+SETLOCAL       Begins localization of environment changes in a batch file.[46X[46C
+SC             Displays or configures services (background processes).[50X[50C
+SCHTASKS       Schedules commands and programs to run on a computer.[52X[52C
+SHIFT          Shifts the position of replaceable parameters in batch files.[44X[44C
+SHUTDOWN       Allows proper local or remote shutdown of machine.[55X[55C
+SORT           Sorts input.[93X[93C
+START          Starts a separate window to run a specified program or command.[42X[42C
+SUBST          Associates a path with a drive letter.[67X[67C
+SYSTEMINFO     Displays machine specific properties and configuration.[50X[50C
+TASKLIST       Displays all currently running tasks including services.[49X[49C
+TASKKILL       Kill or stop a running process or application.[59X[59C
+TIME           Displays or sets the system time.[72X[72C
+TITLE          Sets the window title for a CMD.EXE session.[61X[61C
+TREE           Graphically displays the directory structure of a drive or[47X[47C
+               path.[100X[100C
+TYPE           Displays the contents of a text file.[68X[68C
+VER            Displays the Windows version.[76X[76C
+VERIFY         Tells Windows whether to verify that your files are written[46X[46C
+               correctly to a disk.[85X[85C
+VOL            Displays a disk volume label and serial number.[58X[58C
+XCOPY          Copies files and directory trees.[72X[72C
+WMIC           Displays WMI information inside interactive command shell.[47X[47C
+[120X[120C
+For more information on tools see the command-line reference in the online help.[40X[40C
+[120X[120C[?25h
 ```
 
 ### Loaded Modules:
@@ -198,13 +198,14 @@ C:\Windows\System32\ucrtbase.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_creation_system_file.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml) | `- '*\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_creation_system_file.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml) | `- '\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_cobaltstrike_process_patterns.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_cobaltstrike_process_patterns.yml) | `CommandLine\|contains: 'conhost.exe 0xffffffff -ForceV1'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_exploit_cve_2020_1350.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2020_1350.yml) | `- '\System32\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_conhost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml) | `title: Conhost Parent Proces Executions`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_conhost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml) | `title: Conhost Parent Process Executions`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_conhost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml) | `description: Detects the conhost execution as parent process. Can be used to evaded defense mechanism.`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_conhost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml) | `ParentImage: '*\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_conhost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml) | `ParentImage\|endswith: '\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_conhost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml) | `- Unlikely, conhost is a child less process`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_system_exe_anomaly.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml) | `- '*\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_system_exe_anomaly.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml) | `- '\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_uac_wsreset.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_wsreset.yml) | `Image\|endswith: '\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #3: Indirect Command Execution - conhost.exe [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - Atomic Test #3: Indirect Command Execution - conhost.exe [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

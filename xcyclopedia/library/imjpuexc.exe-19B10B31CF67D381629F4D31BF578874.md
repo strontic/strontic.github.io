@@ -1,0 +1,91 @@
+﻿---
+title: imjpuexc.exe | Microsoft IME
+excerpt: What is imjpuexc.exe?
+---
+
+# imjpuexc.exe 
+
+* File Path: `C:\Windows\system32\IME\IMEJP\imjpuexc.exe`
+* Description: Microsoft IME
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `19B10B31CF67D381629F4D31BF578874`
+SHA1 | `6F97B8AFE7E186FA813F3DECA61E899C76464B67`
+SHA256 | `285347777551DEE98ECC8A4AB3B95D4885AABBCF488EF2ADF5B6A327E1705211`
+SHA384 | `76DFC14F1DD828F5AFFEE3B69AD14A68D68D7DC370578A46B6F70FED3819A35C19AED12ACBBAA2DB830A29C8E8331381`
+SHA512 | `B1FDAA1A2147E561EF6CCBE4435E30112AF6C29AFAB86030B827EB9A1625B7079BD0967100951A9CF27FD2A822F3CA4EF1F996401D93CDFE36FEE5BC7A2DD99E`
+SSDEEP | `6144:Ho80H9o8FCceVRbtsHW9UA1T7blV4ZJVGxxCqtleXCty1wM3P/:4d/whzs29UWlV43AxxCqFtYpX`
+IMP | `12743530832F1784677D7A4D739C3D72`
+PESHA1 | `29F527C039DDBA976EF4DE2003A1979EDDF6368C`
+PE256 | `144E5F77B88B4ECBC501295CBF70D5ABACC37626C6C348D33FED747510153118`
+
+## Runtime Data
+
+### Usage (stdout):
+```cmhg
+Microsoft IME Property Command Line Tool (10.0.19041.844)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+The Syntax of this command is:
+
+ IMJPUEXC HELP command
+
+ Commands available are:
+ 
+IMJPUEXC ADDSYSDICT		IMJPUEXC CHECKSYSDICT 
+IMJPUEXC REMOVESYSDICT		IMJPUEXC SETKANAINPUT 
+IMJPUEXC GETKANAINPUT		IMJPUEXC SETCUSTOMDICTPATH 
+IMJPUEXC GETCUSTOMDICTPATH	IMJPUEXC FIXCUSTOMDICT 
+IMJPUEXC CODEAREAFORCONVERT	IMJPUEXC SETOKURIGANAOPTION 
+IMJPUEXC GETOKURIGANAOPTION	IMJPUEXC SETKEYTEMPLATE 
+IMJPUEXC SETKUTOUTEN		IMJPUEXC RESET 
+IMJPUEXC LOADAUTOTUNEDATA	IMJPUEXC SAVEAUTOTUNEDATA 
+IMJPUEXC REMOVEAUTOTUNEDATA	IMJPUEXC SETFILTERDICT 
+IMJPUEXC GETFILTERDICT		IMJPUEXC REMOVEFILTERDICT
+
+```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\Windows\system32\IME\IMEJP\imjpuexc.exe |
+C:\Windows\System32\KERNEL32.DLL |
+C:\Windows\System32\KERNELBASE.dll |
+C:\Windows\SYSTEM32\ntdll.dll |
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000002EC6579AD1E670890130000000002EC`
+* Thumbprint: `F7C2F2C96A328C13CDA8CDB57B715BDEA2CBD1D9`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: imjpuexc.exe
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.19041.844 (WinBuild.160101.0800)
+* Product Version: 10.0.19041.844
+* Language: Language Neutral
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/74
+* VirusTotal Link: https://www.virustotal.com/gui/file/285347777551dee98ecc8a4ab3b95d4885aabbcf488ef2adf5b6a327e1705211/detection
+
+
+
+
+
+MIT License. Copyright (c) 2020-2021 Strontic.
+
+

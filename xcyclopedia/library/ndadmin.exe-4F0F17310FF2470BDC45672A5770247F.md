@@ -42,6 +42,7 @@ SSDEEP | `768:muB9oRIpnKaRs9vrjQAhtqIrn8+1hrpFIUUUUUUUUUUUUqRcxM:2IpnUvrjfFrGUUU
 
 File | Score
 -- | --
+[C:\Windows\system32\ndadmin.exe](ndadmin.exe-3F90D98AC5890CD2D3EBEAF1715B7890.md) | 69
 [C:\Windows\system32\ndadmin.exe](ndadmin.exe-45812186961440717DDD031A5F1D5224.md) | 72
 [C:\WINDOWS\system32\ndadmin.exe](ndadmin.exe-8C1F5AAE02987DEE201A91FE1B42D3CF.md) | 74
 [C:\Windows\system32\ndadmin.exe](ndadmin.exe-C1E5E50078D849CE539FE60B0AAC1C43.md) | 71
@@ -49,17 +50,20 @@ File | Score
 [C:\Windows\system32\newdev.exe](newdev.exe-167BCF4327B033D2B9A4FAD661C12DD4.md) | 47
 [C:\WINDOWS\system32\newdev.exe](newdev.exe-3014FDA5EB6F2873E15335CAFA0C9950.md) | 52
 [C:\Windows\system32\newdev.exe](newdev.exe-4F3EF6C426AE2F5D9949878E7AFF478E.md) | 46
+[C:\Windows\system32\newdev.exe](newdev.exe-53E90F70D88430E8E0AE94CB7C9F3DFE.md) | 50
 [C:\Windows\system32\newdev.exe](newdev.exe-84A870C614ECDF6BF1A4D0D2A8760159.md) | 47
 [C:\Windows\system32\newdev.exe](newdev.exe-FD9D8BCD91AC3ADBE818A312600908DD.md) | 44
 [C:\Windows\system32\pnpclean.dll](pnpclean.dll-C0BD8608E5615391406DEFC369C39DC9.md) | 22
 [C:\Windows\SysWOW64\ndadmin.exe](ndadmin.exe-09D18C2636A83FF07117A4C93C2C8875.md) | 68
 [C:\Windows\SysWOW64\ndadmin.exe](ndadmin.exe-1890F13BD17570D36EFE9AA192F6CE6E.md) | 68
+[C:\Windows\SysWOW64\ndadmin.exe](ndadmin.exe-330E50BFF5E1E69464EE4EC277631A77.md) | 65
 [C:\Windows\SysWOW64\ndadmin.exe](ndadmin.exe-8126A090A1F30D3C9A42F69D55E7E1EC.md) | 69
 [C:\Windows\SysWOW64\ndadmin.exe](ndadmin.exe-87AA258CFC9F60E1F2072D3223030176.md) | 74
 [C:\WINDOWS\SysWOW64\ndadmin.exe](ndadmin.exe-91F10A2C5BBED9CBF919A5951C530D17.md) | 68
 [C:\Windows\SysWOW64\newdev.exe](newdev.exe-0059CE2007BE4AC0F00E2007EB327770.md) | 68
 [C:\Windows\SysWOW64\newdev.exe](newdev.exe-241FF26C3A5760975A3F02A4725BE73D.md) | 66
 [C:\Windows\SysWOW64\newdev.exe](newdev.exe-542B595EFB39F5C7CA74185E6A596E05.md) | 68
+[C:\Windows\SysWOW64\newdev.exe](newdev.exe-775D479963E7ED5969665E44D8859438.md) | 68
 [C:\WINDOWS\SysWOW64\newdev.exe](newdev.exe-C28E74A66F38A5904346250C55FECFBB.md) | 50
 [C:\Windows\SysWOW64\newdev.exe](newdev.exe-E636FCC34E83BA6D6EB415D79AE9A52A.md) | 65
 

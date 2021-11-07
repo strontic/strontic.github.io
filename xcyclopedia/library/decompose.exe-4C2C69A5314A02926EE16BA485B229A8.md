@@ -68,14 +68,6 @@ File | Score
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\file-xwd\file-xwd.exe](file-xwd.exe-DDD149F159F5D2B6521A263F843782A5.md) | 38
 [C:\program files\GIMP 2\lib\gimp\2.0\plug-ins\qbist\qbist.exe](qbist.exe-652D3BC3C02E1ABCCED00FB8254A090A.md) | 44
 
-## Possible Misuse
-
-*The following table contains possible examples of `decompose.exe` being misused. While `decompose.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
-
-Source | Source File | Example | License
--- | -- | -- | --
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [atomic-red-team](https://github.com/redcanaryco/atomic-red-team/blob/master/README.md) | We coined the term "atomic tests" because we felt there was a simple way to decompose tests so most could be | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/docs/index.md) | coined the term “atomic tests” because we felt there was a simple way to decompose tests so most could be run | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 
 

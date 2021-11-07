@@ -42,6 +42,7 @@ SSDEEP | `6144:mCNXmPx4jVmBhphvUwP9bKFiAENm2eK7mnoUSgpAY8ODcDcm7cIs5JmAO1wlER0a:
 
 File | Score
 -- | --
+[C:\Program Files (x86)\WinSCP\PuTTY\pageant.exe](pageant.exe-3F404BCCF6C1EEEF51887F4116C2AB42.md) | 52
 [C:\Windows\SysWOW64\ttdinject.exe](ttdinject.exe-B9269B78B1AEF3900F2864E98B766DE0.md) | 49
 
 

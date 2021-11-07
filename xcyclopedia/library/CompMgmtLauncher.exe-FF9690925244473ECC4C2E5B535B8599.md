@@ -82,6 +82,13 @@ File | Score
 [C:\Windows\system32\ServerManagerLauncher.exe](ServerManagerLauncher.exe-CA3A931A56D4B2429A39871131964101.md) | 36
 [C:\windows\system32\ServerManagerLauncher.exe](ServerManagerLauncher.exe-CF83A07EECB55210ADAA65EF8B4C75D8.md) | 35
 
+## Possible Misuse
+
+*The following table contains possible examples of `CompMgmtLauncher.exe` being misused. While `CompMgmtLauncher.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [win_apt_invisimole_uac_bypass.yml](https://github.com/eset/malware-ioc/blob/master/invisimole/sigma/win_apt_invisimole_uac_bypass.yml) | `- '\CompMgmtLauncher.exe'`{:.highlight .language-yaml} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 
 

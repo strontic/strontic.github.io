@@ -63,6 +63,7 @@ C:\Windows\SysWOW64\EaseOfAccessDialog.exe |
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-94020963940B741B25393F8E23758216.md) | 47
 [C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-E3F4970C45200284908BF474D26FCF3E.md) | 49
 [C:\WINDOWS\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-E76BBB4FA720040460D84005E90D2585.md) | 47
 [C:\WINDOWS\SysWOW64\sethc.exe](sethc.exe-0E6CDF17D71D663ECA4659AAA94735DB.md) | 47

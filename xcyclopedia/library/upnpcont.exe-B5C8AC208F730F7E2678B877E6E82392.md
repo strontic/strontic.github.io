@@ -45,6 +45,7 @@ File | Score
 [C:\Windows\SysWOW64\upnpcont.exe](upnpcont.exe-33ECA4DA1C61D6591702CD667DB50527.md) | 80
 [C:\Windows\SysWOW64\upnpcont.exe](upnpcont.exe-70BE152182D262DCCA2D641422A6501D.md) | 79
 [C:\Windows\SysWOW64\upnpcont.exe](upnpcont.exe-8079BABD3711AEE2371AA54090DAF987.md) | 79
+[C:\Windows\SysWOW64\upnpcont.exe](upnpcont.exe-B0B77651795747C81A50BEFA60922B8E.md) | 44
 
 
 

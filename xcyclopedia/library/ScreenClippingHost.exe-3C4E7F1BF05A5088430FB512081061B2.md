@@ -66,6 +66,7 @@ File | Score
 -- | --
 [C:\Windows\system32\downlevel\api-ms-win-core-threadpool-private-l1-1-0.dll](api-ms-win-core-threadpool-private-l1-1-0.dll-26CEDF47AECFB777EFC169A0740416A2.md) | 33
 [C:\Windows\system32\downlevel\api-ms-win-crt-stdio-l1-1-0.dll](api-ms-win-crt-stdio-l1-1-0.dll-429C26ED27A026442F89C95FF16CE8C2.md) | 30
+[C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\ScreenClipping\ScreenClippingHost.exe](ScreenClippingHost.exe-29541FE72BE8BC85CB4FD88CB4AD1700.md) | 61
 
 
 

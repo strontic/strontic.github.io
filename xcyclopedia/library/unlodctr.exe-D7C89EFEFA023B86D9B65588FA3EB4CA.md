@@ -79,7 +79,7 @@ Double Quotation marks.
 
 ## unlodctr
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Removes **Performance counter names** and **Explain text** for a service or device driver from the system registry.
 

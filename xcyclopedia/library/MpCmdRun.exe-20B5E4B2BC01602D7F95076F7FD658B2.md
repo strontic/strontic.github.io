@@ -262,6 +262,7 @@ C:\Windows\System32\wow64win.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_remove_windows_defender_definition_files.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_remove_windows_defender_definition_files.yml) | `OriginalFileName: MpCmdRun.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_meterpreter_or_cobaltstrike_getsystem_service_start.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_meterpreter_or_cobaltstrike_getsystem_service_start.yml) | `CommandLine\|contains: 'MpCmdRun'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_mpcmdrun_download.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_mpcmdrun_download.yml) | `- https://lolbas-project.github.io/lolbas/Binaries/MpCmdRun/`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_mpcmdrun_download.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_mpcmdrun_download.yml) | `- CommandLine\|contains: 'MpCmdRun.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)

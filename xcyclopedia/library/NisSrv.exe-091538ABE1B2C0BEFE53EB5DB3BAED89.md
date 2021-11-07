@@ -59,6 +59,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/3ab68ddd04335ed4f5a69ec3adb56cc80e2f2ab849394c07a21d66bdcbd67ff5/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `NisSrv.exe` being misused. While `NisSrv.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_reg_disable_sec_services.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_reg_disable_sec_services.yml) | `- '\NisSrv'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

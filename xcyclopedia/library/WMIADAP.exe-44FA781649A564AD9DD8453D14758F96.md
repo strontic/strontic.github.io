@@ -64,7 +64,19 @@ C:\Windows\SYSTEM32\wbemcomn.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/9b1f44ed54a0ab6d1a18d113ba3c946d961f4d652ffba0c3f1b2aa89a6cc7d0e/detection
 
+## File Similarity (ssdeep match)
 
+File | Score
+-- | --
+[C:\Windows\system32\wbem\WMIADAP.exe](WMIADAP.exe-1BFFABBD200C850E6346820E92B915DC.md) | 93
+
+## Possible Misuse
+
+*The following table contains possible examples of `WMIADAP.exe` being misused. While `WMIADAP.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_wmi_module_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_wmi_module_load.yml) | `- '\windows\system32\wbem\WMIADAP.exe'  # https://github.com/SigmaHQ/sigma/issues/1871`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

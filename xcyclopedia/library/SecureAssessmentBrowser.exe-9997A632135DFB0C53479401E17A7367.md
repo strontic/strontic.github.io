@@ -65,6 +65,11 @@ C:\Windows\SystemApps\Microsoft.Windows.SecureAssessmentBrowser_cw5n1h2txyewy\Se
 * VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/aad8b016b42cc5d58b719795d235fd306c14d85f189dc3867c223be9288d940e/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SystemApps\Microsoft.Windows.SecureAssessmentBrowser_cw5n1h2txyewy\SecureAssessmentBrowser.exe](SecureAssessmentBrowser.exe-3E3D708BB39AE766EC62B49BFE12B1F4.md) | 97
 
 
 

@@ -59,6 +59,11 @@ C:\Windows\SysWOW64\WinRTNetMUAHostServer.exe |
 * VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/2167d6c0bdf6067f35e2928d6a8fb96d5ce13dd2a0967e03534ffd3d3dd6e0a8/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\WinRTNetMUAHostServer.exe](WinRTNetMUAHostServer.exe-50514437839F2FC4F80E926718E66A26.md) | 66
 
 
 

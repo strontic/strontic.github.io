@@ -122,6 +122,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 File | Score
 -- | --
 [C:\Program Files (x86)\Windows NT\Accessories\wordpad.exe](wordpad.exe-61173FF6ABB1C40E3D3B580126FC5F66.md) | 61
+[C:\Program Files\Windows NT\Accessories\wordpad.exe](wordpad.exe-334BED13A82786444560DF810A3C8530.md) | 57
 [C:\program files\Windows NT\Accessories\wordpad.exe](wordpad.exe-34B557ACE63A6AF3EC4B02B4A9EC46AF.md) | 77
 
 ## Possible Misuse

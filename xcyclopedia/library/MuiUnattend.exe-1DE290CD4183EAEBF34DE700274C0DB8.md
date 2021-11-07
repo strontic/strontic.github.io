@@ -58,6 +58,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/3fe9fa358a03426ba327b4c70fe581303500ba5791844715acf7911fec5d2def/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\MuiUnattend.exe](MuiUnattend.exe-08F54EFA2B636804C85607CE2511D305.md) | 83
 
 
 

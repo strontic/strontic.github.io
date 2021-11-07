@@ -88,7 +88,7 @@ C:\Windows\SysWOW64\tskill.exe |
 
 ## tskill
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Ends a process running in a session on a Remote Desktop Session Host server.
 

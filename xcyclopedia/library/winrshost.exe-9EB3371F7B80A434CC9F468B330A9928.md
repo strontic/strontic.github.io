@@ -80,6 +80,13 @@ C:\Windows\SysWOW64\winrshost.exe |
 * VirusTotal Link: https://www.virustotal.com/gui/file/233e8ea78906fb63e306dd5ffdbe07716daa9144a2b4715b0ef9c2c990ef60c0/detection
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `winrshost.exe` being misused. While `winrshost.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_in_memory_powershell.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_in_memory_powershell.yml) | `- '\winrshost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

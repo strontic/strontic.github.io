@@ -51,6 +51,7 @@ File | Score
 -- | --
 [C:\Program Files\Windows Defender Advanced Threat Protection\Classification\SenseCE.exe](SenseCE.exe-30259C1A23F104C673021F3D2081A360.md) | 63
 [C:\program files\Windows Defender Advanced Threat Protection\Classification\SenseCE.exe](SenseCE.exe-5FBBFAABA86590F753176B1BF5F15FE9.md) | 61
+[C:\Program Files\Windows Defender Advanced Threat Protection\Classification\SenseCE.exe](SenseCE.exe-B69659DBFCF4FCDA87FD6406A9D49AE8.md) | 50
 
 
 

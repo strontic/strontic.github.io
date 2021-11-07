@@ -67,6 +67,11 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/b4e267fa56ee9aba91f5f645b6a62c9b31ac4a8e530843ef2d3a6af3c4ae5ba9/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_wp.exe](aspnet_wp.exe-3F971B5A45C0651DE2FB53C5EA9A30ED.md) | 74
 
 
 

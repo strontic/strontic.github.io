@@ -39,6 +39,13 @@ SSDEEP | `1536:CvZ7YK/lQt9EXKIAES4cpKror9+NymAucl:cQjEawGKM4yRug`
 
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `SrTasks.exe` being misused. While `SrTasks.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_suspicious_vss_ps_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/win_suspicious_vss_ps_load.yml) | `- '\srtasks.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

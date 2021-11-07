@@ -67,6 +67,8 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Google\Update\1.3.35.452\GoogleUpdateBroker.exe](GoogleUpdateBroker.exe-850406E45F31759D6ECFDACE92A684F6.md) | 61
+[C:\Program Files (x86)\Google\Update\1.3.36.112\GoogleUpdateBroker.exe](GoogleUpdateBroker.exe-60B4F66FF56EE0F7EEF49C6CEE7F40E7.md) | 57
+[C:\Program Files (x86)\Google\Update\1.3.36.112\GoogleUpdateOnDemand.exe](GoogleUpdateOnDemand.exe-CA3F04552E05F0CB80E75F86B3AE4EBD.md) | 80
 
 
 

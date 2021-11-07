@@ -60,6 +60,7 @@ File | Score
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-32070FD581B3C13740432169F764F066.md) | 29
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-334E8E996B23216667D9538CE40D68B5.md) | 32
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-673511D54A34319446EAD0B820D083A6.md) | 29
+[C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-6B5D1BC8B023591838CCC5D5AA502431.md) | 32
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-79242AB9AABF63BB91672F67ECE93C31.md) | 30
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-BB3FEB38673DB103CAB1634AECE1DC21.md) | 30
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-DCE97A7B66E0D4A2BA9B52E7D05B334C.md) | 33
@@ -71,6 +72,7 @@ File | Score
 [C:\Windows\system32\SearchProtocolHost.exe](SearchProtocolHost.exe-C4D33CE329ADDA42557420034702BDB4.md) | 30
 [C:\Windows\SysWOW64\SearchFilterHost.exe](SearchFilterHost.exe-09C9EB6892E603CD4265920E5A29F7CD.md) | 33
 [C:\Windows\SysWOW64\SearchFilterHost.exe](SearchFilterHost.exe-10D15D96253E0625329DF893C210A83F.md) | 35
+[C:\Windows\SysWOW64\SearchFilterHost.exe](SearchFilterHost.exe-3E3E2E16A066917E23B88312E3ECBF55.md) | 27
 [C:\Windows\SysWOW64\SearchFilterHost.exe](SearchFilterHost.exe-8B0EE156EEA810806D285878104C7FF9.md) | 30
 [C:\Windows\SysWOW64\SearchFilterHost.exe](SearchFilterHost.exe-98CAC0FEB32500C7CC15B6FE83F6068D.md) | 32
 [C:\Windows\SysWOW64\SearchFilterHost.exe](SearchFilterHost.exe-A2E770284F3AF4AFA09407862E73ADFB.md) | 35
@@ -80,6 +82,7 @@ File | Score
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-2B0E4C28B9FD8B244644FF7C4064C927.md) | 35
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-3F2C5E10BCC7A67751F042FE148C1B0F.md) | 32
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-76FE9088E3D2BD04A346E480C7863CF7.md) | 38
+[C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-7C22FED393CA0330A10B47848018C225.md) | 33
 [C:\WINDOWS\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-E318AF6C41ABF3FB889EC89164A36A37.md) | 30
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-EDDF12939FEF7AE88C2C2DA5B12E90B2.md) | 35
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-F71E4867152289828CA8063BA1732507.md) | 33

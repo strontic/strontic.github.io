@@ -130,6 +130,9 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_wab_dllpath_reg_change.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_wab_dllpath_reg_change.yml) | `title: Execution DLL of Choice Using WAB.EXE`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_wab_dllpath_reg_change.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_wab_dllpath_reg_change.yml) | `description: This rule detects that the path to the DLL written in the registry is different from the default one. Launched WAB.exe tries to load the DLL from Registry.`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_wab_dllpath_reg_change.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_wab_dllpath_reg_change.yml) | `- http://www.hexacorn.com/blog/2018/05/01/wab-exe-as-a-lolbin/`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wab.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wab.yml) | `Name: Wab.exe`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wab.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wab.yml) | `- Command: wab.exe`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wab.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wab.yml) | `- Path: C:\Program Files\Windows Mail\wab.exe`{:.highlight .language-yaml} | 

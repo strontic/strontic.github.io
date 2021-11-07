@@ -102,6 +102,7 @@ C:\Windows\system32\wbem\mofcomp.exe |
 File | Score
 -- | --
 [C:\Windows\system32\wbem\mofcomp.exe](mofcomp.exe-96AA37E4CF7382B9E939A2F57F4A5C1F.md) | 55
+[C:\Windows\system32\wbem\mofcomp.exe](mofcomp.exe-A5B2B6F692D78B6C1D351C8DC0911162.md) | 88
 
 
 

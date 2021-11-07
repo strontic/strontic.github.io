@@ -47,7 +47,7 @@ SSDEEP | `768:yKdB5gxJdY2i0bN/WJ8LmH+aTH7bed3Jup:HbOvdPbNm8Lw3343Jup`
 ---
 ## tzutil
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Displays the Windows Time Zone utility.
 

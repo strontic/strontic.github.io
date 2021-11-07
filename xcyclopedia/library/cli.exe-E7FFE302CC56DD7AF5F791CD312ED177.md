@@ -60,6 +60,8 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Python310-32\Lib\site-packages\setuptools\cli.exe](cli.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
+[C:\Program Files (x86)\Python310-32\Lib\site-packages\setuptools\cli-32.exe](cli-32.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
 [C:\program files (x86)\Python38-32\Lib\site-packages\setuptools\cli.exe](cli.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
 [C:\program files (x86)\Python38-32\Lib\site-packages\setuptools\cli-32.exe](cli-32.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
 [C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\cli.exe](cli.exe-336E81AA77418FC90E8BC6FC3D392F04.md) | 85
@@ -68,6 +70,8 @@ File | Score
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\cli-32.exe](cli-32.exe-D5E70A5780AEF48C7C8152F79F3AF04F.md) | 85
 [C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\site-packages\setuptools\cli.exe](cli.exe-13AE23885D23D2B9C62CEF7E5B395FB2.md) | 85
 [C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\site-packages\setuptools\cli-32.exe](cli-32.exe-07E68D06F41B060DAA5C8E408D378FF0.md) | 83
+[C:\Program Files\Python310\Lib\site-packages\setuptools\cli.exe](cli.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
+[C:\Program Files\Python310\Lib\site-packages\setuptools\cli-32.exe](cli-32.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
 [C:\Program Files\Python38\Lib\site-packages\setuptools\cli.exe](cli.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
 [C:\Program Files\Python38\Lib\site-packages\setuptools\cli-32.exe](cli-32.exe-A32A382B8A5A906E03A83B4F3E5B7A9B.md) | 99
 

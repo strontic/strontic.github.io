@@ -109,6 +109,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 File | Score
 -- | --
 [C:\Program Files\Common Files\microsoft shared\ink\ShapeCollector.exe](ShapeCollector.exe-12E4B4C222C64376DDE03D9FBF93ED55.md) | 36
+[C:\Program Files\Common Files\microsoft shared\ink\ShapeCollector.exe](ShapeCollector.exe-F8510895EF5782FC1DD312D42C45F049.md) | 41
 
 
 

@@ -70,6 +70,11 @@ C:\Windows\SYSTEM32\wbemcomn.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/5cd0dd3b1454b437362c87c651ee2068ac27cdb725aa1c705cf62ff325a759cc/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wbem\unsecapp.exe](unsecapp.exe-9B782B1E1D7A2C28302755F963EAC907.md) | 93
 
 
 

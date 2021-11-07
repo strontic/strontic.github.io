@@ -47,7 +47,7 @@ SSDEEP | `384:CKKO+SJ/I9io3wZBkFBRakXhUTh5piWbG4uQWMnWW:CnSJYNq5XuY`
 ---
 ## tsdiscon
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Disconnects a session from a Remote Desktop Session Host server. If you don't specify a session ID or session name, this command disconnects the current session.
 

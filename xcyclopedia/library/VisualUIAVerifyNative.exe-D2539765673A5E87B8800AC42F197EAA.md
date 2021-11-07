@@ -121,6 +121,18 @@ File | Score
 [C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\UIAVerify\VisualUIAVerifyNative.resources.dll](VisualUIAVerifyNative.resources.dll-43DA85A32C8292E3BC71CABB43BC1F3B.md) | 72
 [C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86\UIAVerify\VisualUIAVerifyNative.resources.dll](VisualUIAVerifyNative.resources.dll-5633268DBD5CD0996F455FDD97331251.md) | 72
 
+## Possible Misuse
+
+*The following table contains possible examples of `VisualUIAVerifyNative.exe` being misused. While `VisualUIAVerifyNative.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [VisualUiaVerifyNative.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/VisualUiaVerifyNative.yml) | `Name: VisualUiaVerifyNative.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [VisualUiaVerifyNative.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/VisualUiaVerifyNative.yml) | `- Command: VisualUiaVerifyNative.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [VisualUiaVerifyNative.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/VisualUiaVerifyNative.yml) | `- Path: c:\Program Files (x86)\Windows Kits\10\bin\[SDK version]\arm64\UIAVerify\VisualUiaVerifyNative.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [VisualUiaVerifyNative.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/VisualUiaVerifyNative.yml) | `- Path: c:\Program Files (x86)\Windows Kits\10\bin\[SDK version]\x64\UIAVerify\VisualUiaVerifyNative.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [VisualUiaVerifyNative.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/VisualUiaVerifyNative.yml) | `- Path: c:\Program Files (x86)\Windows Kits\10\bin\[SDK version]\UIAVerify\VisualUiaVerifyNative.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [VisualUiaVerifyNative.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/VisualUiaVerifyNative.yml) | `- Link: https://bohops.com/2020/10/15/exploring-the-wdac-microsoft-recommended-block-rules-visualuiaverifynative/`{:.highlight .language-yaml} | 
 
 
 

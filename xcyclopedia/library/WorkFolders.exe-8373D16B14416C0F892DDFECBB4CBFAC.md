@@ -72,10 +72,24 @@ C:\Windows\system32\WorkFolders.exe |
 
 File | Score
 -- | --
+[C:\Windows\system32\WorkFolders.exe](WorkFolders.exe-60B652CC67A3CC3DF4929574E8002738.md) | 57
 [C:\WINDOWS\system32\WorkFolders.exe](WorkFolders.exe-E981562DBC7E8680D21EF6F78ED91006.md) | 57
 [C:\Windows\system32\WorkFoldersRes.dll](WorkFoldersRes.dll-268D2AC1DBF7EBA04E0AE10E8C812331.md) | 50
 [C:\Windows\SysWOW64\WorkFoldersRes.dll](WorkFoldersRes.dll-8B3FDCE08A2D909FD22DA56C2418D5CC.md) | 50
 
+## Possible Misuse
+
+*The following table contains possible examples of `WorkFolders.exe` being misused. While `WorkFolders.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_workfolders.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_workfolders.yml) | `title: Execution via WorkFolders.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_workfolders.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_workfolders.yml) | `description: Detects using WorkFolders.exe to execute an arbitrary control.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_workfolders.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_workfolders.yml) | `ParentImage\|endswith: '\WorkFolders.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [WorkFolders.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/WorkFolders.yml) | `Name: WorkFolders.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [WorkFolders.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/WorkFolders.yml) | `- Command: WorkFolders`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [WorkFolders.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/WorkFolders.yml) | `- Path: C:\Windows\System32\WorkFolders.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [WorkFolders.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/WorkFolders.yml) | `- IOC: WorkFolders.exe should not be run on a normal workstation`{:.highlight .language-yaml} | 
 
 
 

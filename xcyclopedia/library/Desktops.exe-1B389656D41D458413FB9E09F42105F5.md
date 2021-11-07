@@ -60,6 +60,14 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/5a4605c2bd6e363d92723bf54b0ae2c131ea9741373e66558e42220d2f79ba9c/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `Desktops.exe` being misused. While `Desktops.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [av_webshell.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/av_webshell.yml) | `- "VBS/Uxor" # looking for "VBS/" would also find downloaders and droppers meant for desktops`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [av_webshell.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/av_webshell.yml) | `- "ASP_" # looking for "VBS_" would also find downloaders and droppers meant for desktops`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

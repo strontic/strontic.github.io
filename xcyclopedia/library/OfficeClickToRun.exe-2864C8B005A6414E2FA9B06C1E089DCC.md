@@ -71,14 +71,6 @@ File | Score
 [C:\Program Files\Common Files\microsoft shared\ClickToRun\IntegratedOffice.exe](IntegratedOffice.exe-2864C8B005A6414E2FA9B06C1E089DCC.md) | 100
 [C:\Program Files\Microsoft Office 15\ClientX64\IntegratedOffice.exe](IntegratedOffice.exe-2864C8B005A6414E2FA9B06C1E089DCC.md) | 100
 
-## Possible Misuse
-
-*The following table contains possible examples of `OfficeClickToRun.exe` being misused. While `OfficeClickToRun.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
-
-Source | Source File | Example | License
--- | -- | -- | --
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Atomic_Friday.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md) | `(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe CommandLine=*Create* ParentImage!=*\\OfficeClicktoRun.exe \| stats values(CommandLine) by Computer` | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Atomic_Friday.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md) | `(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe CommandLine=*Create* ParentImage!=*\\OfficeClicktoRun.exe \| table Computer, User, CommandLine, _time` | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 
 

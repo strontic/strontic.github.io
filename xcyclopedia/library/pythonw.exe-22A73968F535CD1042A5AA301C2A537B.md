@@ -161,8 +161,12 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Python310-32\Lib\venv\scripts\nt\pythonw.exe](pythonw.exe-4120303CF8654D6C7C02877CB49513C8.md) | 33
+[C:\Program Files (x86)\Python310-32\pythonw.exe](pythonw.exe-B51D3765D11963CCA572DF6AE0C5E332.md) | 75
 [C:\Program Files\Inkscape\bin\pythonw.exe](pythonw.exe-200EDC1FDD2370647A09D869CE5DDD33.md) | 79
 [C:\program files\Inkscape\bin\pythonw.exe](pythonw.exe-9E945D60BBB4991F4E436E7351F3D5C6.md) | 72
+[C:\Program Files\Python310\Lib\venv\scripts\nt\pythonw.exe](pythonw.exe-75513C9847FDFFDDE9323C4CB464E04E.md) | 41
+[C:\Program Files\Python310\pythonw.exe](pythonw.exe-9A4CC0D8E7007F7EF20CA585324E0739.md) | 77
 [C:\Program Files\Python38\pythonw.exe](pythonw.exe-B37D95BFD4A51E2847F3EB6A2F8A427E.md) | 82
 
 

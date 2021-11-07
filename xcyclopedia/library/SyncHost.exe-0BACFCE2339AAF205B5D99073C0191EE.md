@@ -73,6 +73,11 @@ C:\Windows\SysWOW64\SyncHost.exe |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/706b4f7cdd4f85e604ddc69fe8d4faae2401b41c1ebd1186266b6ab0aaa2bd79/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\SyncHost.exe](SyncHost.exe-59E810FBB9C5676F7FE2BA8820B616FF.md) | 44
 
 
 

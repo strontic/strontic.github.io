@@ -67,6 +67,7 @@ C:\Windows\SysWOW64\wscadminui.exe |
 File | Score
 -- | --
 [C:\Windows\system32\wscadminui.exe](wscadminui.exe-99D392604486D81F2F0AC21ED5A13091.md) | 30
+[C:\Windows\SysWOW64\wscadminui.exe](wscadminui.exe-6BBE958817164C150231B1711A97E9CA.md) | 82
 
 
 

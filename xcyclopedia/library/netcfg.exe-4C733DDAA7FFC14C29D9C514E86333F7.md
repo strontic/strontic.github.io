@@ -48,7 +48,7 @@ SSDEEP | `768:4WXpoEpa/OC1w0EsJo1Eha0SNBlVtNQ9foKh/:LpoE8/hSjBBlVtNQ9Xh/`
 
 ## netcfg
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Installs the Windows Preinstallation Environment (WinPE), a lightweight version of Windows used to deploy workstations.
 

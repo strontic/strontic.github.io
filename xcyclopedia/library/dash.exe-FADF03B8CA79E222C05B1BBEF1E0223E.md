@@ -22,7 +22,7 @@ SSDEEP | `3072:hQx0to7tHTPJ/Eqp2Zxm5dKRbqFNk9Ojtjl8F4:hQx0t8tF/tp2Zo5GqFNk9Ojtjl
 
 ### Usage (stderr):
 ```cmhg
-help: 1: help: MSCF,9081Q: not found
+help: 1: help: MSCF,9081Q: not found
 help: 1: help: SIH.20200829.153211.948.1.etl: not found
 help: 1: help: SIH.20200829.153212.370.1.etl: not found
 help: 1: help: SIH.20200829.153212.808.1.etl: not found
@@ -30,9 +30,9 @@ help: 1: help: SIH.20200829.153213.261.1.etl: not found
 help: 1: help: SIH.20200829.153213.703.1.etl: not found
 help: 1: help: SIH.20200829.153214.141.1.etl: not found
 help: 2: help: cannot open 3o+:: No such file
-help: 2: help: r9 WZO]?[q}6c_#gFm@YItvME7UUWBV{?][WE: not found
-help: 2: help: sN: not found
-help: 3: help: !: not found
+help: 2: help: r9 WZO]?[q}6c_#gFm@YItvME7UUWBV{?][WE: not found
+help: 2: help: sN: not found
+help: 3: help: !: not found
 help: 4: help: Syntax error: word unexpected (expecting ")")
 
 ```

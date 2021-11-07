@@ -60,6 +60,11 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 1/66
 * VirusTotal Link: https://www.virustotal.com/gui/file/43bf4010b7b762b088dd6eaae3858182d975c8bf3e3bae6e501b35747c2a3dda/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Notepad++\uninstall.exe](uninstall.exe-CDA1E8069FF25E58AB7173F88438DAE4.md) | 74
 
 ## Possible Misuse
 
@@ -67,6 +72,10 @@ C:\Windows\System32\wow64win.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_software_discovery.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_software_discovery.yml) | `ScriptBlockText\|contains\|all:    # Example: Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\* \| Select-Object DisplayName, DisplayVersion, Publisher, InstallDate \| Format-Table -Autosize`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_uninstall_crowdstrike_falcon.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_uninstall_crowdstrike_falcon.yml) | `title: Uninstall Crowdstrike Falcon`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_uninstall_crowdstrike_falcon.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_uninstall_crowdstrike_falcon.yml) | `- ' /uninstall'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_uninstall_crowdstrike_falcon.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_uninstall_crowdstrike_falcon.yml) | `- Uninstall by admin`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_disable_raccine.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_disable_raccine.yml) | `title: Raccine Uninstall`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_wmic_security_product_uninstall.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_wmic_security_product_uninstall.yml) | `title: Wmic Uninstall Security Product`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_wmic_security_product_uninstall.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_wmic_security_product_uninstall.yml) | `- 'call uninstall'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)

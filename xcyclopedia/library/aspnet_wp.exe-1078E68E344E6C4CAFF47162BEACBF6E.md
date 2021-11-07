@@ -66,6 +66,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/83f96b69b125e09b4529aa449c643fd8e821a4e5187210a07c911836e6baa3dc/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_wp.exe](aspnet_wp.exe-9D8405DA6AE362D2A312AC9A15DF9EB8.md) | 77
 
 
 

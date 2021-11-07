@@ -100,6 +100,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files\Windows NT\Accessories\wordpad.exe](wordpad.exe-334BED13A82786444560DF810A3C8530.md) | 58
 [C:\program files\Windows NT\Accessories\wordpad.exe](wordpad.exe-34B557ACE63A6AF3EC4B02B4A9EC46AF.md) | 60
 [C:\Program Files\Windows NT\Accessories\wordpad.exe](wordpad.exe-DF75D2712714593DA00E662055A46EF1.md) | 61
 

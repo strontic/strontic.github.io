@@ -76,6 +76,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/58920fddca62bc540072ba0eaa17429f9add01985b90768da33c5cd73771e361/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngentask.exe](ngentask.exe-3142937610966B092CA8886C76A3B113.md) | 60
 
 ## Possible Misuse
 

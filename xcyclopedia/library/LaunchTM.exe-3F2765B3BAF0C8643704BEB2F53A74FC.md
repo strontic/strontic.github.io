@@ -66,6 +66,7 @@ C:\Windows\SysWOW64\LaunchTM.exe |
 
 File | Score
 -- | --
+[C:\Windows\SysWOW64\LaunchTM.exe](LaunchTM.exe-0666AA7B9B945F1CFB7357B26347DB6A.md) | 91
 [C:\Windows\SysWOW64\LaunchTM.exe](LaunchTM.exe-313CEFC8B9B33FCA706B08B1F5DC46AF.md) | 97
 [C:\Windows\SysWOW64\LaunchTM.exe](LaunchTM.exe-CEDC8282CFAF5E2CAD92EF53E0556B3A.md) | 90
 

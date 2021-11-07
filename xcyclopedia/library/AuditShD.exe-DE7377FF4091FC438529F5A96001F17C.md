@@ -46,6 +46,7 @@ File | Score
 [C:\Windows\system32\oobe\AuditShD.exe](AuditShD.exe-2404E60A42629FD1242DE3EE440C9AB0.md) | 38
 [C:\Windows\system32\oobe\AuditShD.exe](AuditShD.exe-A3629E170BDCFA586AAD6A75AA99ABC5.md) | 36
 [C:\windows\system32\oobe\AuditShD.exe](AuditShD.exe-D0A1F92B3EE9A1BACB8A00B7039BB8BB.md) | 29
+[C:\Windows\system32\oobe\AuditShD.exe](AuditShD.exe-E93CBE810EC760BB5414C2FF14C80A67.md) | 40
 
 
 

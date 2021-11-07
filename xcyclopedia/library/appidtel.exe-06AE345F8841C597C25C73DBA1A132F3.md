@@ -62,6 +62,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\Windows\system32\appidtel.exe](appidtel.exe-6141E25885E56AB4DF9EE96400892C73.md) | 65
 [C:\Windows\system32\appidtel.exe](appidtel.exe-835B1E0CB85F3616939AFA0DCC57A036.md) | 91
 [C:\Windows\system32\appidtel.exe](appidtel.exe-A54179DCCD31B6F6D23DF8DA147F4748.md) | 66
 

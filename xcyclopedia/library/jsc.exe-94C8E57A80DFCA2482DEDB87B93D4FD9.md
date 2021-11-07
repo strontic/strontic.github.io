@@ -134,7 +134,7 @@ Source | Source File | Example | License
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Jsc.exe`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework\v2.0.50727\Jsc.exe`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- Path: C:\Windows\Microsoft.NET\Framework64\v2.0.50727\Jsc.exe`{:.highlight .language-yaml} | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- IOC: Jsc.exe should normally not run a system unless it is used for development. `{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Jsc.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Jsc.yml) | `- IOC: Jsc.exe should normally not run a system unless it is used for development.`{:.highlight .language-yaml} | 
 
 
 

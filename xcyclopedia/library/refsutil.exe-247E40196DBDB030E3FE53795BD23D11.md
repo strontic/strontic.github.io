@@ -60,7 +60,7 @@ triage    Handle corruptions
 
 ## ReFSUtil
 
-> Applies to: Windows Server 2019, Windows 10
+>Applies to: Windows Server 2022, Windows Server 2019, Windows 10
 
 ReFSUtil is a tool included in Windows and Windows Server that attempts to diagnose heavily damaged ReFS volumes, identify remaining files, and copy those files to another volume. This comes in Windows 10 in the `%SystemRoot%\Windows\System32` folder or in Windows Server in the `%SystemRoot%\System32` folder.
 

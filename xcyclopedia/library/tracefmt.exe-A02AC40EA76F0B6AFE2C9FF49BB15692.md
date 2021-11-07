@@ -167,6 +167,7 @@ File | Score
 [C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\winxp\wmitrace.dll](wmitrace.dll-2B386CB3C2E87D0AE428CDA7EB809640.md) | 47
 [C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\perf_wpp.dll](perf_wpp.dll-5570A1894C91C49766FFF4CFDB1BE221.md) | 49
 [C:\Windows\system32\nltest.exe](nltest.exe-0C96FBA0F1ABEEF164B077D34F5B6F6A.md) | 36
+[C:\Windows\system32\nltest.exe](nltest.exe-1CC927B2EC04AAD119D2C6BD2194DA1F.md) | 35
 [C:\Windows\system32\nltest.exe](nltest.exe-396EC29E0B1F77824E6479D8D810D315.md) | 35
 [C:\Windows\system32\nshwfp.dll](nshwfp.dll-366C76832A6A12850407BF16F2D22441.md) | 33
 

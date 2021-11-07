@@ -178,7 +178,9 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Windows\py.exe](py.exe-058FBBDE5562FB56DAC231BA820AE9D5.md) | 61
 [C:\Windows\pyw.exe](pyw.exe-6EE19289DAA2870459BB8155510B4769.md) | 65
+[C:\Windows\pyw.exe](pyw.exe-82526CE8444D6C0BD8EF8E331E5F73D6.md) | 57
 
 ## Possible Misuse
 
@@ -186,6 +188,10 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_python_image_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_susp_python_image_load.yml) | `title: Python Py2Exe Image Load`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_python_image_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_susp_python_image_load.yml) | `description: Detects the image load of Python Core indicative of a Python script bundled with Py2Exe.`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_python_image_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_susp_python_image_load.yml) | `- https://www.py2exe.org/`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_susp_python_image_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_susp_python_image_load.yml) | `- Legit Py2Exe Binaries`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_file_characteristics.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_file_characteristics.yml) | `description: Detects Executables in the Downloads folder without FileVersion,Description,Product,Company likely created with py2exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 

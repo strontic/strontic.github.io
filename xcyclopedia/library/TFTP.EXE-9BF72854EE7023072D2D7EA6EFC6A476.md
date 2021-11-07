@@ -48,7 +48,7 @@ SSDEEP | `384:xhDp0DZKITPyQk7Ex+WQGxjQS9Q/o6csdSo2lGlUQsmNCD1P2Q0284PWcBjW:xht0D
 
 ## tftp
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Transfers files to and from a remote computer, typically a computer running UNIX, that is running the Trivial File Transfer Protocol (tftp) service or daemon. tftp is typically used by embedded devices or systems that retrieve firmware, configuration information, or a system image during the boot process from a tftp server.
 

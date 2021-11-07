@@ -75,6 +75,7 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\KeePass Password Safe 2\unins000.exe](unins000.exe-8FAB72787C6F65CFEEFE9908289D68CC.md) | 86
+[C:\Program Files (x86)\Microsoft\Skype for Desktop\unins000.exe](unins000.exe-1169F1200B4C246640968E6298DD1441.md) | 97
 [C:\Program Files (x86)\Microsoft\Skype for Desktop\unins000.exe](unins000.exe-C26D6DF4579EF884063859CE3879E798.md) | 99
 [C:\Program Files (x86)\XnView\unins000.exe](unins000.exe-898376CA4B6D0CA96191BD99DAA74243.md) | 90
 [C:\Program Files\CDBurnerXP\unins000.exe](unins000.exe-4980F7BBCE7E809E771D984EA2348F15.md) | 85

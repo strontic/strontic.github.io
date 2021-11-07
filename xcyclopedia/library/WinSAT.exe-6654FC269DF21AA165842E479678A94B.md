@@ -196,7 +196,25 @@ File | Score
 [C:\Windows\system32\WinSAT.exe](WinSAT.exe-715DB53A8064C6DECCF68B7501DF3386.md) | 49
 [C:\Windows\system32\WinSAT.exe](WinSAT.exe-D21AA5C451C43D15B2BA3611F57F2321.md) | 47
 [C:\WINDOWS\system32\WinSAT.exe](WinSAT.exe-ED2505CC79AB0C0008E1A23A731D9107.md) | 47
+[C:\Windows\system32\WinSAT.exe](WinSAT.exe-FC2414F108B613366BDE7AE897AB53A1.md) | 49
 
+## Possible Misuse
+
+*The following table contains possible examples of `WinSAT.exe` being misused. While `WinSAT.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [file_event_uac_bypass_winsat.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_uac_bypass_winsat.yml) | `title: UAC Bypass Abusing Winsat Path Parsing - File`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [file_event_uac_bypass_winsat.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_uac_bypass_winsat.yml) | `description: Detects the pattern of UAC Bypass using a path parsing issue in winsat.exe (UACMe 52)`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [file_event_uac_bypass_winsat.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_uac_bypass_winsat.yml) | `- '\AppData\Local\Temp\system32\winsat.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_uac_bypass_winsat.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_winsat.yml) | `title: UAC Bypass Abusing Winsat Path Parsing - Process`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_uac_bypass_winsat.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_winsat.yml) | `description: Detects the pattern of UAC Bypass using a path parsing issue in winsat.exe (UACMe 52)`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_uac_bypass_winsat.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_winsat.yml) | `ParentImage\|endswith: '\AppData\Local\Temp\system32\winsat.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_uac_bypass_winsat.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_winsat.yml) | `ParentCommandLine\|contains: 'C:\Windows \system32\winsat.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [registry_event_uac_bypass_winsat.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_uac_bypass_winsat.yml) | `title: UAC Bypass Abusing Winsat Path Parsing - Registry`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [registry_event_uac_bypass_winsat.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_uac_bypass_winsat.yml) | `description: Detects the pattern of UAC Bypass using a path parsing issue in winsat.exe (UACMe 52)`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [registry_event_uac_bypass_winsat.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_uac_bypass_winsat.yml) | `TargetObject\|contains: '\Root\InventoryApplicationFile\winsat.exe\|'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [registry_event_uac_bypass_winsat.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_uac_bypass_winsat.yml) | `Details\|endswith: '\appdata\local\temp\system32\winsat.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

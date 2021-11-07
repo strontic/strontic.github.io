@@ -64,6 +64,7 @@ C:\Windows\SysWOW64\TokenBrokerCookies.exe |
 File | Score
 -- | --
 [C:\Windows\SysWOW64\TokenBrokerCookies.exe](TokenBrokerCookies.exe-CA3DDB69977C215B281318847558DF79.md) | 96
+[C:\Windows\SysWOW64\TokenBrokerCookies.exe](TokenBrokerCookies.exe-D07720770FFC91988FB335BE59183652.md) | 86
 
 
 

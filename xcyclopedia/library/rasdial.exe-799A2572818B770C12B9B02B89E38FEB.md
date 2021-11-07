@@ -76,6 +76,11 @@ C:\Windows\SysWOW64\rasdial.exe |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/56572b71f9e7e3151fad06ee724a1cc11c6d56b27981ad2e6feef0a0d759f12c/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\rasdial.exe](rasdial.exe-A280B0F42A83064C41CFFDC1CD35136E.md) | 77
 
 ## Possible Misuse
 

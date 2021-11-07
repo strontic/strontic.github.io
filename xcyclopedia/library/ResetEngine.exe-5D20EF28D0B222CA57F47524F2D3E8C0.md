@@ -79,6 +79,7 @@ File | Score
 [C:\Windows\system32\migwiz\migres.dll](migres.dll-E937B164DC2D2A03490AC3EB9D5875B2.md) | 35
 [C:\Windows\system32\ResetEngine.exe](ResetEngine.exe-09C06B0224F439DF8666CF7B411B7B1C.md) | 57
 [C:\Windows\system32\ResetEngine.exe](ResetEngine.exe-100E032F234550530487627EC8FACAA8.md) | 50
+[C:\Windows\system32\ResetEngine.exe](ResetEngine.exe-81981508054235A7A96A7986D68166B3.md) | 58
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-BD3FC089F0D20F1D9172EA5CD41B2CA8.md) | 35
 [C:\Windows\system32\ScriptRunner.exe](ScriptRunner.exe-C64357854C5214AC178B78EF1A17042F.md) | 41
 [C:\Windows\system32\SysResetErr.exe](SysResetErr.exe-DA3578862503CF81B6BEED9ED90B8144.md) | 35

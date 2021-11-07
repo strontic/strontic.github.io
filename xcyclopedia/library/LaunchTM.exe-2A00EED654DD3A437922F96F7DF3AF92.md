@@ -81,6 +81,7 @@ File | Score
 -- | --
 [C:\Windows\system32\LaunchTM.exe](LaunchTM.exe-1F20DC3E0AA92B3E4A449F65FFAD1A54.md) | 83
 [C:\Windows\system32\LaunchTM.exe](LaunchTM.exe-3BB01913A732B1628B4011724E752805.md) | 71
+[C:\Windows\system32\LaunchTM.exe](LaunchTM.exe-C1748DC6152554D5E8962795DCDC5619.md) | 88
 
 
 

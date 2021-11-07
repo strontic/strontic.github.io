@@ -77,6 +77,7 @@ C:\Windows\System32\RPCRT4.dll |
 File | Score
 -- | --
 [C:\Windows\system32\FsIso.exe](FsIso.exe-63AD8D6E7B22287EB23DFB33DA2BD8FE.md) | 65
+[C:\Windows\system32\FsIso.exe](FsIso.exe-F15BC7477EFFEEEE577553A3D19FC7E7.md) | 91
 
 
 

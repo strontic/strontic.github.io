@@ -48,7 +48,7 @@ SSDEEP | `192:bHz1DjPwQP9T2CoLptpZ72zU4dG3AGT6x4eA08EQmwW6cW2:bHz1DnP9CxDL/Zs4eQ
 
 ## help
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Displays a list of the available commands or detailed help information on a specified command. If used without parameters, **help** lists and briefly describes every system command.
 

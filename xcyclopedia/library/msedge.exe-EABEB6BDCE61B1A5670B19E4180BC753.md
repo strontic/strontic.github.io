@@ -186,6 +186,15 @@ File | Score
 -- | --
 [C:\Program Files (x86)\Microsoft\Edge\Application\85.0.564.68\msedge.exe](msedge.exe-EABEB6BDCE61B1A5670B19E4180BC753.md) | 100
 
+## Possible Misuse
+
+*The following table contains possible examples of `msedge.exe` being misused. While `msedge.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [net_susp_ipify.yml](https://github.com/Neo23x0/sigma/blob/master/rules/network/net_susp_ipify.yml) | `- \msedge.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [file_event_mal_vhd_download.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_mal_vhd_download.yml) | `- msedge.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [process_susp_esentutl_params.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_susp_esentutl_params.yml) | `description: Conti recommendation to its affiliates to use esentult to access NTDS dumped file. Trickbot also uses this utilities to get MSEdge info via its module pwgrab.`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

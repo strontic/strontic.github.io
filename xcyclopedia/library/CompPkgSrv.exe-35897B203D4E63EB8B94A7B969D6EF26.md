@@ -74,6 +74,11 @@ C:\Windows\System32\ucrtbase.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/eed9a14316d718146735fd2b3885992698113db19f2048185b1dcc794640aca3/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\CompPkgSrv.exe](CompPkgSrv.exe-CEFF6949F934D465DB8F19B07E81AC78.md) | 30
 
 
 

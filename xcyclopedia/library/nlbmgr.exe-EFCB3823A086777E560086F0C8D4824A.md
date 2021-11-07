@@ -48,7 +48,7 @@ SSDEEP | `6144:xYhLX8A43oVJDuTCkGNMwt6Jeu1xWk/2yL5Cj0H/i59KfHPf:xOz8A43Iu8WwAJD1
 
 ## nlbmgr
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Configure and manage your Network Load Balancing clusters and all cluster hosts from a single computer, using the Network Load Balancing Manager. You can also use this command to replicate the cluster configuration to other hosts.
 

@@ -68,6 +68,7 @@ File | Score
 -- | --
 [C:\Windows\system32\agentactivationruntimestarter.exe](agentactivationruntimestarter.exe-3AF89FB569117419503CC276BBC1A660.md) | 80
 [C:\Windows\system32\agentactivationruntimestarter.exe](agentactivationruntimestarter.exe-4C47A88676A64840686E8628AAB36B82.md) | 94
+[C:\Windows\system32\agentactivationruntimestarter.exe](agentactivationruntimestarter.exe-A49C26AA0CADD994DE158F51CB7EEFBC.md) | 93
 
 
 

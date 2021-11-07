@@ -47,7 +47,7 @@ SSDEEP | `768:C/j1yRTXpMQ/6rbRpBwtx+PeqT+R9mUqekpva2lkCI8kMjjf4BSx8VgfxO69uGUr:C
 
 ## tlntadmn
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Administers a local or remote computer that is running the telnet Server Service. If used without parameters, **tlntadmn** displays the current server settings.
 

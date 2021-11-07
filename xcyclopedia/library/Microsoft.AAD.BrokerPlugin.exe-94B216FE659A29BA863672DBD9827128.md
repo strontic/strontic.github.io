@@ -65,6 +65,11 @@ C:\Windows\SystemApps\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\Microsoft.AAD.Bro
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/d658782eb8ebabc7dfd4109e68bd396b521cd0c92775c429b7317c1018ace75c/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SystemApps\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\Microsoft.AAD.BrokerPlugin.exe](Microsoft.AAD.BrokerPlugin.exe-9203DA3357F8B210486E5CE380D13A65.md) | 91
 
 
 

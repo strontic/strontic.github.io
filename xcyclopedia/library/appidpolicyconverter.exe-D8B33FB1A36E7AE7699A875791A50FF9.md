@@ -58,6 +58,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/024e4e2e61ae722be8f66267b989b6819028c6b4552b9e8238a5bb7cee1ca4dc/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\appidpolicyconverter.exe](appidpolicyconverter.exe-747A12463FC90DCAFA0246FCCAEBD3C1.md) | 86
 
 
 

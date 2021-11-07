@@ -67,6 +67,7 @@ C:\Windows\system32\WINHTTP.dll |
 File | Score
 -- | --
 [C:\Windows\system32\pacjsworker.exe](pacjsworker.exe-20DF26B602CCCEAE4EF9B532B230B378.md) | 74
+[C:\Windows\system32\pacjsworker.exe](pacjsworker.exe-409FA316A3A28C7DC04C30616344BD0A.md) | 80
 
 
 

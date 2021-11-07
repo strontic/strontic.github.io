@@ -108,6 +108,10 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Python310-32\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
+[C:\Program Files (x86)\Python310-32\Scripts\pip.exe](pip.exe-6AD2D25A7EB0868FD823C0D5BCAA751A.md) | 97
+[C:\Program Files (x86)\Python310-32\Scripts\pip3.10.exe](pip3.10.exe-6AD2D25A7EB0868FD823C0D5BCAA751A.md) | 97
+[C:\Program Files (x86)\Python310-32\Scripts\pip3.exe](pip3.exe-6AD2D25A7EB0868FD823C0D5BCAA751A.md) | 97
 [C:\program files (x86)\Python38-32\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
 [C:\Program Files (x86)\Python38-32\Scripts\easy_install.exe](easy_install.exe-6CE7704025EA5A2B78583854868B924D.md) | 97
 [C:\program files (x86)\Python38-32\Scripts\easy_install-3.8.exe](easy_install-3.8.exe-32D5750EDA663A7BCF0773A1673DC088.md) | 100
@@ -123,6 +127,7 @@ File | Score
 [C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-F7328BF69CD450E444E7C1E48747BDBF.md) | 33
 [C:\program files\GIMP 2\lib\python2.7\site-packages\distlib\t32.exe](t32.exe-F9C699EB172F25C889BC79247E7FEB16.md) | 94
 [C:\program files\GIMP 2\lib\python2.7\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-AD95D8AB51B4991174DC9734C0F332ED.md) | 94
+[C:\Program Files\Python310\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
 [C:\Program Files\Python38\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
 
 

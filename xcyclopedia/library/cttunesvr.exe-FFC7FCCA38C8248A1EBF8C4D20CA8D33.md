@@ -74,6 +74,11 @@ C:\Windows\SysWOW64\cttunesvr.exe |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/bd23f7baa3ea5d4303fd11bbf58132c9732dfcfd4ec61adc0033ab7556b8b8b9/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\cttunesvr.exe](cttunesvr.exe-BD8F6EFE07338BD1D86D3E2CC64BF0A8.md) | 60
 
 
 

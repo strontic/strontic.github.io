@@ -89,6 +89,13 @@ C:\Windows\SysWOW64\credwiz.exe |
 * VirusTotal Link: https://www.virustotal.com/gui/file/2156279eac34cc622f755766de61090290ff8b0960ebb46b03038ae321b3566d/detection
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `credwiz.exe` being misused. While `credwiz.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [badiis.yar](https://github.com/eset/malware-ioc/blob/master/badiis/badiis.yar) | `$s8 = "C:\\Windows\\System32\\credwiz.exe" ascii wide`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 
 

@@ -266,12 +266,13 @@ C:\Windows\System32\WS2_32.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/create_remote_thread/sysmon_suspicious_remote_thread.yml) | `- '\robocopy.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_multiple_suspicious_cli.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml) | `- robocopy.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_suspicious_remote_thread.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml) | `- '\robocopy.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `Name: Robocopy.exe`{:.highlight .language-yaml} | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `- Command: Robocopy.exe C:\SourceFolder C:\DestFolder`{:.highlight .language-yaml} | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `- Command: Robocopy.exe \\SERVER\SourceFolder C:\DestFolder`{:.highlight .language-yaml} | 
-[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml) | `- https://social.technet.microsoft.com/wiki/contents/articles/1073.robocopy-and-a-few-examples.aspx`{:.highlight .language-yaml} | 
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_copy_lateral_movement.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_copy_lateral_movement.yml) | `- '\robocopy.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Robocopy.yml) | `Name: Robocopy.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Robocopy.yml) | `- Command: Robocopy.exe C:\SourceFolder C:\DestFolder`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Robocopy.yml) | `- Command: Robocopy.exe \\SERVER\SourceFolder C:\DestFolder`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Robocopy.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Robocopy.yml) | `- https://social.technet.microsoft.com/wiki/contents/articles/1073.robocopy-and-a-few-examples.aspx`{:.highlight .language-yaml} | 
 
 ## Additional Info*
 
@@ -311,9 +312,9 @@ robocopy c:\reports '\\marketing\videos' yearly-report.mov /mt /z
 | /s | Copies subdirectories. This option automatically excludes empty directories. |
 | /e | Copies subdirectories. This option automatically includes empty directories. |
 | /lev:`<n>` | Copies only the top *n* levels of the source directory tree. |
-| /z | Copies files in restartable mode. |
-| /b | Copies files in Backup mode. |
-| /zb | Uses restartable mode. If access is denied, this option uses Backup mode. |
+| /z | Copies files in restartable mode. In restartable mode, should a file copy be interrupted, Robocopy can pick up where it left off rather than re-copying the entire file. |
+| /b | Copies files in backup mode. Backup mode allows Robocopy to override file and folder permission settings (ACLs). This allows you to copy files you might otherwise not have access to, assuming it's being run under an account with sufficient privileges.|
+| /zb | Copies files in restartable mode. If file access is denied, switches to backup mode. |
 | /j | Copies using unbuffered I/O (recommended for large files). |
 | /efsraw | Copies all encrypted files in EFS RAW mode. |
 | /copy:`<copyflags>` | Specifies which file properties to copy. The valid values for this option are:<ul><li>**D** - Data</li><li>**A** - Attributes</li><li>**T** - Time stamps</li><li>**S** - NTFS access control list (ACL)</li><li>**O** - Owner information</li><li>**U** - Auditing information</li></ul>The default value for this option is **DAT** (data, attributes, and time stamps). |
@@ -367,8 +368,16 @@ robocopy c:\reports '\\marketing\videos' yearly-report.mov /mt /z
 | /xo | Excludes older files. |
 | /xx | Excludes extra files and directories. |
 | /xl | Excludes "lonely" files and directories. |
+| /im | Include modified files (differing change times). |
 | /is | Includes the same files. |
-| /it | Includes modified files. |
+| /it | Includes tweaked files. |
+| /xc | Excludes existing files with the same timestamp, but different file sizes. |
+| /xn | Excludes existing files newer than the copy in the source directory. |
+| /xo | Excludes existing files older than the copy in the source directory. |
+| /xx | Excludes extra files and directories present in the destination but not the source. Excluding extra files will not delete files from the destination.  |
+| /xl | Excludes "lonely" files and directories present in the source but not the destination. Excluding lonely files prevents any new files from being added to the destination. |
+| /is | Includes the same files. Same files are identical in name, size, times, and all attributes. |
+| /it | Includes "tweaked" files. Tweaked files have the same name, size, and times, but different attributes. |
 | /max:`<n>` | Specifies the maximum file size (to exclude files bigger than *n* bytes). |
 | /min:`<n>` | Specifies the minimum file size (to exclude files smaller than *n* bytes). |
 | /maxage:`<n>` | Specifies the maximum file age (to exclude files older than *n* days or date). |

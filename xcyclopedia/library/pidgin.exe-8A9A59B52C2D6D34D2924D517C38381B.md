@@ -118,6 +118,11 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 1/68
 * VirusTotal Link: https://www.virustotal.com/gui/file/7064162a174e1cb12fa4ef8d0cd0f45fd73bbeed7d9c40f83b2f619cdca313e5/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Pidgin\pidgin.exe](pidgin.exe-C283B2379EA584AAB52ABEE0844B02A0.md) | 36
 
 
 

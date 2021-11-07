@@ -49,7 +49,9 @@ SSDEEP | `3072:JKdm6VH3+Q6zaesz1SCCTOphtYAHIG0xR4TBfHnIjZqMNxWDAhT:J6mgh6BszOTO3
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [file_event_mal_adwind.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_mal_adwind.yml) | `description: Detects javaw.exe in AppData folder as used by Adwind / JRAT`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_mal_adwind.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_mal_adwind.yml) | `description: Detects javaw.exe in AppData folder as used by Adwind / JRAT`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [registry_event_mal_adwind.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_mal_adwind.yml) | `description: Detects javaw.exe in AppData folder as used by Adwind / JRAT`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

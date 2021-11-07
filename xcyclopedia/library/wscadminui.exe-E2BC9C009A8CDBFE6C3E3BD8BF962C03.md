@@ -42,6 +42,7 @@ SSDEEP | `96:ffEI0sqZx2UhHHgP32Qj6tcVPSUcgnRqRmUsJ/83U/GluUWRnpeioGEWdhRWw:ffEuK
 
 File | Score
 -- | --
+[C:\Windows\system32\wscadminui.exe](wscadminui.exe-16AEEE0AC40C08C1D8E94D89EE719D03.md) | 41
 [C:\Windows\system32\wscadminui.exe](wscadminui.exe-99D392604486D81F2F0AC21ED5A13091.md) | 46
 
 

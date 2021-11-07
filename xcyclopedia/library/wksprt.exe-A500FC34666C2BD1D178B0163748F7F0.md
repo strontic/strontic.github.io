@@ -108,6 +108,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 
 File | Score
 -- | --
+[C:\Windows\system32\wksprt.exe](wksprt.exe-2C3BE28E1B8D28A8B326FBB7E06CEDD9.md) | 44
 [C:\windows\system32\wksprt.exe](wksprt.exe-6A0628874E4857DCB9715C2F1522CEBE.md) | 33
 [C:\Windows\system32\wksprt.exe](wksprt.exe-B1A354667950BBBEA757CF91918ED092.md) | 50
 [C:\Windows\system32\wksprt.exe](wksprt.exe-BA81ED5D41505A2311DB75585620A381.md) | 41

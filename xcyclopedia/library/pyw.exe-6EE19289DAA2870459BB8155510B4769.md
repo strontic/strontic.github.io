@@ -177,7 +177,9 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Windows\py.exe](py.exe-058FBBDE5562FB56DAC231BA820AE9D5.md) | 63
 [C:\Windows\py.exe](py.exe-25C3B6466E2AA4696B0FA9B94A11AE6C.md) | 65
+[C:\Windows\pyw.exe](pyw.exe-82526CE8444D6C0BD8EF8E331E5F73D6.md) | 61
 
 
 

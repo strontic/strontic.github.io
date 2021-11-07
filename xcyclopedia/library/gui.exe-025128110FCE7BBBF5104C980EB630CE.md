@@ -49,6 +49,8 @@ Cannot open C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\sit
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Python310-32\Lib\site-packages\setuptools\gui.exe](gui.exe-E97C622B03FB2A2598BF019FBBE29F2C.md) | 83
+[C:\Program Files (x86)\Python310-32\Lib\site-packages\setuptools\gui-32.exe](gui-32.exe-E97C622B03FB2A2598BF019FBBE29F2C.md) | 83
 [C:\program files (x86)\Python38-32\Lib\site-packages\setuptools\gui.exe](gui.exe-E97C622B03FB2A2598BF019FBBE29F2C.md) | 83
 [C:\program files (x86)\Python38-32\Lib\site-packages\setuptools\gui-32.exe](gui-32.exe-E97C622B03FB2A2598BF019FBBE29F2C.md) | 83
 [C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\gui.exe](gui.exe-D5B18A957DBBD6F185ED5B228AF0A647.md) | 91
@@ -57,6 +59,8 @@ File | Score
 [C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\site-packages\setuptools\gui.exe](gui.exe-E8FC8D036498673C1FB9EC71777CC049.md) | 91
 [C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\site-packages\setuptools\gui-32.exe](gui-32.exe-1141BC784E846FE5C081B4CCFDC3F7F2.md) | 90
 [C:\program files\GIMP 2\lib\python2.7\site-packages\setuptools\gui.exe](gui.exe-0757D0A43B7FB6C4C0631284DCE0D5CE.md) | 83
+[C:\Program Files\Python310\Lib\site-packages\setuptools\gui.exe](gui.exe-E97C622B03FB2A2598BF019FBBE29F2C.md) | 83
+[C:\Program Files\Python310\Lib\site-packages\setuptools\gui-32.exe](gui-32.exe-E97C622B03FB2A2598BF019FBBE29F2C.md) | 83
 [C:\Program Files\Python38\Lib\site-packages\setuptools\gui.exe](gui.exe-E97C622B03FB2A2598BF019FBBE29F2C.md) | 83
 [C:\Program Files\Python38\Lib\site-packages\setuptools\gui-32.exe](gui-32.exe-E97C622B03FB2A2598BF019FBBE29F2C.md) | 83
 

@@ -47,6 +47,13 @@ PE256 | `B69C31B2C847819C842858EA9765077CCDAA4EB79B2120AD0B1B29C6850BC814`
 * VirusTotal Link: https://www.virustotal.com/gui/file/1fe1f4b5a65aedbbd3676959e5b10d744faba59727f6f58dc141b5211f1f6974/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `NisSrv.exe` being misused. While `NisSrv.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_reg_disable_sec_services.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_reg_disable_sec_services.yml) | `- '\NisSrv'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

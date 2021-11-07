@@ -70,6 +70,7 @@ File | Score
 [C:\Program Files\Common Files\microsoft shared\ClickToRun\MavInject32.exe](MavInject32.exe-AC6978D0FEF8F6F2F07051473D188F02.md) | 33
 [C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-49338D141DD60CA212D85F60521FB1DF.md) | 33
 [C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-644673C741AB152A3E8904A5B4080489.md) | 32
+[C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-651259747F1C4401A88A23AD816BB0ED.md) | 33
 [C:\WINDOWS\SysWOW64\mavinject.exe](mavinject.exe-8FE5871DE2870F39CFA317FA5C28988D.md) | 33
 [C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-B8B01B6A24B8A2BA242D96DB63298120.md) | 36
 
@@ -79,7 +80,10 @@ File | Score
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [win_office_shell.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_office_shell.yml) | `- '*\AppVLP.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_asr_bypass_via_appvlp_re.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_asr_bypass_via_appvlp_re.yml) | `title: Using AppVLP To Circumvent ASR File Path Rule`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_asr_bypass_via_appvlp_re.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_asr_bypass_via_appvlp_re.yml) | `description: 'Application Virtualization Utility is included with Microsoft Office.We are able to abuse “AppVLP” to execute shell commands. Normally, this binary is used for Application Virtualization, but we can use it as an abuse binary to circumvent the ASR file path rule folder or to mark a file as a system file'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_asr_bypass_via_appvlp_re.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_asr_bypass_via_appvlp_re.yml) | `CommandLine\|re: '(?i).*appvlp.exe.*(cmd.exe\|powershell.exe).*(.sh\|.exe\|.dll\|.bin\|.bat\|.cmd\|.js\|.msh\|.reg\|.scr\|.ps\|.vb\|.jar\|.pl\|.inf)'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_office_shell.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_office_shell.yml) | `- '\AppVLP.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Appvlp.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Appvlp.yml) | `Name: Appvlp.exe`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Appvlp.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Appvlp.yml) | `- Command: AppVLP.exe \\webdav\calc.bat`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Appvlp.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Appvlp.yml) | `Description: Executes calc.bat through AppVLP.exe`{:.highlight .language-yaml} | 

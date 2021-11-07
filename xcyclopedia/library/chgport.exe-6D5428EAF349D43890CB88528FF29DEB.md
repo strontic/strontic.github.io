@@ -47,7 +47,7 @@ SSDEEP | `384:v9v/U+7uI9cea54tSGakjnB7+AoWEd55WVdz58+FRmbITAYd+SZea7u04eO8kW95:V
 ---
 ## chgport
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Lists or changes the COM port mappings to be compatible with MS-DOS applications.
 

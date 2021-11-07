@@ -67,10 +67,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Python310-32\Lib\site-packages\setuptools\cli-64.exe](cli-64.exe-D2778164EF643BA8F44CC202EC7EF157.md) | 100
 [C:\program files (x86)\Python38-32\Lib\site-packages\setuptools\cli-64.exe](cli-64.exe-D2778164EF643BA8F44CC202EC7EF157.md) | 100
 [C:\program files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\cli-64.exe](cli-64.exe-1B7B373761B5D63526E6AB7352200B3C.md) | 93
 [C:\Program Files\Blender Foundation\Blender 2.83\2.83\python\lib\site-packages\setuptools\cli-64.exe](cli-64.exe-F4CBE06A74C758B32F75D2BA148A0045.md) | 93
 [C:\Program Files\Blender Foundation\Blender 2.90\2.90\python\lib\site-packages\setuptools\cli-64.exe](cli-64.exe-7AF9D360E55DC04C5834481076380D6B.md) | 93
+[C:\Program Files\Python310\Lib\site-packages\setuptools\cli-64.exe](cli-64.exe-D2778164EF643BA8F44CC202EC7EF157.md) | 100
 
 
 

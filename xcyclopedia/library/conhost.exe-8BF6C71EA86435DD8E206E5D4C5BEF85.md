@@ -26,7 +26,7 @@ PE256 | `7B6A74EAB062DF983BFE67BEBE6DFA84B3F33B277CF5844267373DC853A5C830`
 
 ### Usage (stdout):
 ```cmhg
-[2J[m[HFor more information on a specific command, type HELP command-name
+[2J[m[HFor more information on a specific command, type HELP command-name
 ASSOC          Displays or modifies file extension associations.
 ATTRIB         Displays or changes file attributes.
 BREAK          Sets or clears extended CTRL+C checking.
@@ -53,7 +53,7 @@ DISKPART       Displays or configures Disk Partition properties.
 DOSKEY         Edits command lines, recalls Windows commands, and
                creates macros.
 DRIVERQUERY    Displays current device driver status and properties.
-]0;C:\Windows\system32\conhost.exe[?25h[25l[30;1H
+]0;C:\Windows\system32\conhost.exe[?25h[25l[30;1H
 
 
 
@@ -77,33 +77,33 @@ DRIVERQUERY    Displays current device driver status and properties.
 
 
 
-[4;1HECHO           Displays messages, or turns command echoing on or off.[K
-ENDLOCAL       Ends localization of environment changes in a batch file.[K
-ERASE          Deletes one or more files.[K
-EXIT           Quits the CMD.EXE program (command interpreter).[K
-FC             Compares two files or sets of files, and displays the[K
-               differences between them.[K
-FIND           Searches for a text string in a file or files.[K
-FINDSTR        Searches for strings in files.[K
-FOR            Runs a specified command for each file in a set of files.[K
-FORMAT         Formats a disk for use with Windows.[K
-FSUTIL         Displays or configures the file system properties.[K
-FTYPE          Displays or modifies file types used in file extension[K
-               associations.[K
-GOTO           Directs the Windows command interpreter to a labeled line in[K
-               a batch program.[K
-GPRESULT       Displays Group Policy information for machine or user.[K
-GRAFTABL       Enables Windows to display an extended character set in[K
-               graphics mode.[K
-HELP           Provides Help information for Windows commands.[K
-ICACLS         Display, modify, backup, or restore ACLs for files and[K
-               directories.[K
-IF             Performs conditional processing in batch programs.[K
-LABEL          Creates, changes, or deletes the volume label of a disk.[K
-MD             Creates a directory.[K
-MKDIR          Creates a directory.[K
-MKLINK         Creates Symbolic Links and Hard Links[K
-[K[?25h[25l
+[4;1HECHO           Displays messages, or turns command echoing on or off.[K
+ENDLOCAL       Ends localization of environment changes in a batch file.[K
+ERASE          Deletes one or more files.[K
+EXIT           Quits the CMD.EXE program (command interpreter).[K
+FC             Compares two files or sets of files, and displays the[K
+               differences between them.[K
+FIND           Searches for a text string in a file or files.[K
+FINDSTR        Searches for strings in files.[K
+FOR            Runs a specified command for each file in a set of files.[K
+FORMAT         Formats a disk for use with Windows.[K
+FSUTIL         Displays or configures the file system properties.[K
+FTYPE          Displays or modifies file types used in file extension[K
+               associations.[K
+GOTO           Directs the Windows command interpreter to a labeled line in[K
+               a batch program.[K
+GPRESULT       Displays Group Policy information for machine or user.[K
+GRAFTABL       Enables Windows to display an extended character set in[K
+               graphics mode.[K
+HELP           Provides Help information for Windows commands.[K
+ICACLS         Display, modify, backup, or restore ACLs for files and[K
+               directories.[K
+IF             Performs conditional processing in batch programs.[K
+LABEL          Creates, changes, or deletes the volume label of a disk.[K
+MD             Creates a directory.[K
+MKDIR          Creates a directory.[K
+MKLINK         Creates Symbolic Links and Hard Links[K
+[K[?25h[25l
 
 
 
@@ -122,26 +122,26 @@ MKLINK         Creates Symbolic Links and Hard Links[K
 
 
 
-[11;1HMODE           Configures a system device.[K
-MORE           Displays output one screen at a time.[K
-MOVE           Moves one or more files from one directory to another[K
-               directory.[K
-OPENFILES      Displays files opened by remote users for a file share.[K
-PATH           Displays or sets a search path for executable files.[K
-PAUSE          Suspends processing of a batch file and displays a message.[K
-POPD           Restores the previous value of the current directory saved by[K
-               PUSHD.[K
-PRINT          Prints a text file.[K
-PROMPT         Changes the Windows command prompt.[K
-PUSHD          Saves the current directory then changes it.[K
-RD             Removes a directory.[K
-RECOVER        Recovers readable information from a bad or defective disk.[K
-REM            Records comments (remarks) in batch files or CONFIG.SYS.[K
-REN            Renames a file or files.[K
-RENAME         Renames a file or files.[K
-REPLACE        Replaces files.[K
-RMDIR          Removes a directory.[K
-[K[?25h[25l
+[11;1HMODE           Configures a system device.[K
+MORE           Displays output one screen at a time.[K
+MOVE           Moves one or more files from one directory to another[K
+               directory.[K
+OPENFILES      Displays files opened by remote users for a file share.[K
+PATH           Displays or sets a search path for executable files.[K
+PAUSE          Suspends processing of a batch file and displays a message.[K
+POPD           Restores the previous value of the current directory saved by[K
+               PUSHD.[K
+PRINT          Prints a text file.[K
+PROMPT         Changes the Windows command prompt.[K
+PUSHD          Saves the current directory then changes it.[K
+RD             Removes a directory.[K
+RECOVER        Recovers readable information from a bad or defective disk.[K
+REM            Records comments (remarks) in batch files or CONFIG.SYS.[K
+REN            Renames a file or files.[K
+RENAME         Renames a file or files.[K
+REPLACE        Replaces files.[K
+RMDIR          Removes a directory.[K
+[K[?25h[25l
 
 
 
@@ -167,33 +167,33 @@ RMDIR          Removes a directory.[K
 
 
 
-[4;1HROBOCOPY       Advanced utility to copy files and directory trees[K
-SET            Displays, sets, or removes Windows environment variables.[K
-SETLOCAL       Begins localization of environment changes in a batch file.[K
-SC             Displays or configures services (background processes).[K
-SCHTASKS       Schedules commands and programs to run on a computer.[K
-SHIFT          Shifts the position of replaceable parameters in batch files.[K
-SHUTDOWN       Allows proper local or remote shutdown of machine.[K
-SORT           Sorts input.[K
-START          Starts a separate window to run a specified program or command.[K
-SUBST          Associates a path with a drive letter.[K
-SYSTEMINFO     Displays machine specific properties and configuration.[K
-TASKLIST       Displays all currently running tasks including services.[K
-TASKKILL       Kill or stop a running process or application.[K
-TIME           Displays or sets the system time.[K
-TITLE          Sets the window title for a CMD.EXE session.[K
-TREE           Graphically displays the directory structure of a drive or[K
-               path.[K
-TYPE           Displays the contents of a text file.[K
-VER            Displays the Windows version.[K
-VERIFY         Tells Windows whether to verify that your files are written[K
-               correctly to a disk.[K
-VOL            Displays a disk volume label and serial number.[K
-XCOPY          Copies files and directory trees.[K
-WMIC           Displays WMI information inside interactive command shell.[K
-[K
-For more information on tools see the command-line reference in the online help.[K
-[K[?25h
+[4;1HROBOCOPY       Advanced utility to copy files and directory trees[K
+SET            Displays, sets, or removes Windows environment variables.[K
+SETLOCAL       Begins localization of environment changes in a batch file.[K
+SC             Displays or configures services (background processes).[K
+SCHTASKS       Schedules commands and programs to run on a computer.[K
+SHIFT          Shifts the position of replaceable parameters in batch files.[K
+SHUTDOWN       Allows proper local or remote shutdown of machine.[K
+SORT           Sorts input.[K
+START          Starts a separate window to run a specified program or command.[K
+SUBST          Associates a path with a drive letter.[K
+SYSTEMINFO     Displays machine specific properties and configuration.[K
+TASKLIST       Displays all currently running tasks including services.[K
+TASKKILL       Kill or stop a running process or application.[K
+TIME           Displays or sets the system time.[K
+TITLE          Sets the window title for a CMD.EXE session.[K
+TREE           Graphically displays the directory structure of a drive or[K
+               path.[K
+TYPE           Displays the contents of a text file.[K
+VER            Displays the Windows version.[K
+VERIFY         Tells Windows whether to verify that your files are written[K
+               correctly to a disk.[K
+VOL            Displays a disk volume label and serial number.[K
+XCOPY          Copies files and directory trees.[K
+WMIC           Displays WMI information inside interactive command shell.[K
+[K
+For more information on tools see the command-line reference in the online help.[K
+[K[?25h
 ```
 
 ### Loaded Modules:
@@ -245,13 +245,14 @@ C:\Windows\System32\ucrtbase.dll |
 
 Source | Source File | Example | License
 -- | -- | -- | --
-[sigma](https://github.com/Neo23x0/sigma) | [sysmon_creation_system_file.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml) | `- '*\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_creation_system_file.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml) | `- '\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_cobaltstrike_process_patterns.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_cobaltstrike_process_patterns.yml) | `CommandLine\|contains: 'conhost.exe 0xffffffff -ForceV1'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_exploit_cve_2020_1350.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2020_1350.yml) | `- '\System32\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_conhost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml) | `title: Conhost Parent Proces Executions`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_conhost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml) | `title: Conhost Parent Process Executions`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_conhost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml) | `description: Detects the conhost execution as parent process. Can be used to evaded defense mechanism.`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_susp_conhost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml) | `ParentImage: '*\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_conhost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml) | `ParentImage\|endswith: '\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_susp_conhost.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml) | `- Unlikely, conhost is a child less process`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_system_exe_anomaly.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml) | `- '*\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_system_exe_anomaly.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml) | `- '\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [sigma](https://github.com/Neo23x0/sigma) | [win_uac_wsreset.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_wsreset.yml) | `Image\|endswith: '\conhost.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md) | - Atomic Test #3: Indirect Command Execution - conhost.exe [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 [atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [windows-index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md) | - Atomic Test #3: Indirect Command Execution - conhost.exe [windows] | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)

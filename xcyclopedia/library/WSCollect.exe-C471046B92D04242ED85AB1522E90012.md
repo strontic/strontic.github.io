@@ -56,8 +56,10 @@ File | Score
 [C:\Windows\system32\WSCollect.exe](WSCollect.exe-1C4F7AB2AD0B867487E42F77A637A3F2.md) | 49
 [C:\Windows\system32\WSCollect.exe](WSCollect.exe-4F67D9A480038D06463A43AE66880245.md) | 40
 [C:\Windows\system32\WSCollect.exe](WSCollect.exe-6212500CE0BBE755AFCC8DDF64698A87.md) | 50
+[C:\Windows\system32\WSCollect.exe](WSCollect.exe-74352E0225658E9AAE9A0D7AB4BF3885.md) | 50
 [C:\Windows\system32\WSReset.exe](WSReset.exe-0D2BE4AE7AE5B93B47E12F4EFF38A0D7.md) | 44
 [C:\Windows\system32\WSReset.exe](WSReset.exe-374AB8022CA5EE56684BC28626F36F73.md) | 41
+[C:\Windows\system32\WSReset.exe](WSReset.exe-5E3561D98BD5FB1D20098FAA0384FAA8.md) | 44
 [C:\Windows\system32\WSReset.exe](WSReset.exe-C08D9492A11813196000AF9E4F5EE23F.md) | 40
 [C:\WINDOWS\system32\WSReset.exe](WSReset.exe-FB3CE16149961934341850A6F1ED869E.md) | 43
 

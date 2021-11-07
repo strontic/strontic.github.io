@@ -48,7 +48,7 @@ SSDEEP | `384:XdzXejBImR1Yd0JOsD8tqZDbRNtKYpjV40zjleCiDL0Cajh1sF/No3eqSbWYZrW:tc
 
 ## evntcmd
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Configures the translation of events to traps, trap destinations, or both based on information in a configuration file.
 

@@ -99,6 +99,7 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\WINDOWS\system32\rstrui.exe](rstrui.exe-1D4A8AD1E0012FABABFC7F3B4F0EF4F9.md) | 49
+[C:\Windows\system32\rstrui.exe](rstrui.exe-4CAD10846E93E85790865D5C0AB6FFD9.md) | 46
 
 
 

@@ -67,6 +67,7 @@ C:\Windows\System32\ucrtbase.dll |
 File | Score
 -- | --
 [C:\Windows\system32\agentactivationruntimestarter.exe](agentactivationruntimestarter.exe-4C47A88676A64840686E8628AAB36B82.md) | 75
+[C:\Windows\system32\agentactivationruntimestarter.exe](agentactivationruntimestarter.exe-A49C26AA0CADD994DE158F51CB7EEFBC.md) | 74
 [C:\Windows\system32\agentactivationruntimestarter.exe](agentactivationruntimestarter.exe-B556B608D4B1D770EBAAFD23DECF1F88.md) | 80
 
 

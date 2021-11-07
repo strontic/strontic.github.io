@@ -60,6 +60,11 @@ C:\Windows\system32\runexehelper.exe |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/d0426ae4bdf1c4910aba092396bb1d55eabbd8246b2977cf069d1bde0711cd4b/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\runexehelper.exe](runexehelper.exe-FF82597A4B863A46083998B955772DD1.md) | 90
 
 
 

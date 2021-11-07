@@ -47,7 +47,7 @@ SSDEEP | `384:Cg2dfSlNBvwQVHBv7uM7nVEX55L7A+bAjlTDoCx3t3CRfKoHeOFKWBVW:Cg2grlwi9
 ---
 ## chgusr
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Changes the install mode for the Remote Desktop Session Host server.
 

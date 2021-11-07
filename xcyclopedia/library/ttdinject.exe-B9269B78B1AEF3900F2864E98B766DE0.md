@@ -69,6 +69,7 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 File | Score
 -- | --
 [C:\Program Files (x86)\Steam\steamerrorreporter.exe](steamerrorreporter.exe-061E8A619CA76421823F147AC6F264FD.md) | 49
+[C:\Program Files (x86)\WinSCP\PuTTY\pageant.exe](pageant.exe-3F404BCCF6C1EEEF51887F4116C2AB42.md) | 50
 
 ## Possible Misuse
 

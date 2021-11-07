@@ -48,7 +48,7 @@ SSDEEP | `24576:NR7C+uj9Pf6G5EhDvjoz3MhtNKWUexvRvD:Po9PyG50vjoz3MhtNKW5lFD`
 
 ## autoconv
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Converts file allocation table (Fat) and Fat32 volumes to the NTFS file system, leaving existing files and directories intact at startup after **autochk** runs. volumes converted to the NTFS file system cannot be converted back to Fat or Fat32.
 

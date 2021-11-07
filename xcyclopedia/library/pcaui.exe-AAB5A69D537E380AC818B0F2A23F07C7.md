@@ -59,6 +59,11 @@ C:\Windows\SysWOW64\pcaui.exe |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/d05751968c1691e54724cf46bb14f09f904da98896b4f95f24625f250433c5b7/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SysWOW64\pcaui.exe](pcaui.exe-A8F63C86DEF45A7E48E7F7DF158CFAA9.md) | 36
 
 
 

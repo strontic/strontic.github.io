@@ -65,6 +65,11 @@ C:\Windows\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy\SecHealthUI.ex
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/497bca027194da4500c2facb58ca10af26ef2fb5945d630ac33ed792b13f3267/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\SystemApps\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy\SecHealthUI.exe](SecHealthUI.exe-03A33A07964D6F6EAF43D781A4508DA6.md) | 90
 
 
 

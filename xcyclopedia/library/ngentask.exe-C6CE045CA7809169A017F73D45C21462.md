@@ -77,6 +77,11 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/41019bd2dff58eca53a25ffce26e487af0b693c3d305e67a0d4e8f8cd60c6ef6/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngentask.exe](ngentask.exe-AE933850C93D3B3001AB21BB65C3EFA1.md) | 55
 
 ## Possible Misuse
 

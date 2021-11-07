@@ -92,6 +92,7 @@ File | Score
 [C:\windows\system32\lpksetup.exe](lpksetup.exe-553AC4DBA04F72B7FF6A4FB84009C001.md) | 32
 [C:\Windows\system32\lpksetup.exe](lpksetup.exe-56CCA7441E152D0B0F7F2383521536A2.md) | 27
 [C:\WINDOWS\system32\lpksetup.exe](lpksetup.exe-80F788A37119968744991496358163CE.md) | 25
+[C:\Windows\system32\lpksetup.exe](lpksetup.exe-C75516A32E0AEA02A184074D55D1A997.md) | 33
 
 
 

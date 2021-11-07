@@ -73,14 +73,6 @@ C:\Windows\System32\WS2_32.dll |
 * VirusTotal Link: https://www.virustotal.com/gui/file/1dc68c7eb3fc39e118521c7425c47da841283a076cc422a480bf9ef637c43000/detection/
 
 
-## Possible Misuse
-
-*The following table contains possible examples of `OfficeClickToRun.exe` being misused. While `OfficeClickToRun.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
-
-Source | Source File | Example | License
--- | -- | -- | --
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Atomic_Friday.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md) | `(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe CommandLine=*Create* ParentImage!=*\\OfficeClicktoRun.exe \| stats values(CommandLine) by Computer` | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Atomic_Friday.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md) | `(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe CommandLine=*Create* ParentImage!=*\\OfficeClicktoRun.exe \| table Computer, User, CommandLine, _time` | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 
 

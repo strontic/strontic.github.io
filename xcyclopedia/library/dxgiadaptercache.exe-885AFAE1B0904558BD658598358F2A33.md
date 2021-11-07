@@ -82,6 +82,7 @@ File | Score
 [C:\Windows\system32\directxdatabaseupdater.exe](directxdatabaseupdater.exe-031BCFFEEC62FCA7C05CCBFD5B44B375.md) | 32
 [C:\Windows\system32\dxgiadaptercache.exe](dxgiadaptercache.exe-08F12D5206A2C6910D9C7FED1D87AFAC.md) | 36
 [C:\Windows\system32\dxgiadaptercache.exe](dxgiadaptercache.exe-7FA6A7C7B75AD60502F54021550EE415.md) | 35
+[C:\Windows\system32\dxgiadaptercache.exe](dxgiadaptercache.exe-E62F89130B7253F7780A862ED9AFF294.md) | 38
 [C:\Windows\system32\vbsapi.dll](vbsapi.dll-221E3608470DE69609DCAFAA456CAFE9.md) | 24
 
 

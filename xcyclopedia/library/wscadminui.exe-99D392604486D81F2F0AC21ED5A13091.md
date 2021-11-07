@@ -64,6 +64,7 @@ C:\Windows\system32\WSCAPI.dll |
 
 File | Score
 -- | --
+[C:\Windows\system32\wscadminui.exe](wscadminui.exe-16AEEE0AC40C08C1D8E94D89EE719D03.md) | 69
 [C:\WINDOWS\system32\wscadminui.exe](wscadminui.exe-E2BC9C009A8CDBFE6C3E3BD8BF962C03.md) | 46
 [C:\Windows\SysWOW64\wscadminui.exe](wscadminui.exe-9D156054E1754EDF164F6CF5537B2EE4.md) | 30
 

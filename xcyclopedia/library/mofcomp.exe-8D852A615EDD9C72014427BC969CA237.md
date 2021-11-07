@@ -103,6 +103,7 @@ C:\Windows\SysWOW64\wbem\mofcomp.exe |
 File | Score
 -- | --
 [C:\Windows\SysWOW64\wbem\mofcomp.exe](mofcomp.exe-33DCECD8F1424636308C3244A31BAF02.md) | 94
+[C:\Windows\SysWOW64\wbem\mofcomp.exe](mofcomp.exe-91FCBB7A7FC4DC1EE2CE72730071904E.md) | 90
 
 
 

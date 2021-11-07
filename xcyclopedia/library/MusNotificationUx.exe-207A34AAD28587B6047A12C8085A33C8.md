@@ -67,7 +67,9 @@ C:\Windows\System32\ucrtbase.dll |
 File | Score
 -- | --
 [C:\Windows\system32\MusNotificationUx.exe](MusNotificationUx.exe-0B946B21072675DE6B577267C2565D03.md) | 47
+[C:\Windows\system32\MusNotificationUx.exe](MusNotificationUx.exe-7D1D30F14FF327C47D8F9C95FC09F6B1.md) | 27
 [C:\Windows\system32\MusNotifyIcon.exe](MusNotifyIcon.exe-543E22DE96FD5CD3713D68D7E4FCB7DB.md) | 29
+[C:\Windows\system32\MusNotifyIcon.exe](MusNotifyIcon.exe-AA3FEA7171482C099431F9CD6CB30550.md) | 29
 [C:\Windows\system32\MusNotifyIcon.exe](MusNotifyIcon.exe-CBF5757AE3C5ACF0350E040038B86FFC.md) | 27
 [C:\Windows\system32\MusNotifyIcon.exe](MusNotifyIcon.exe-CD0A38C09977FFA7E18B9183BA7C0F81.md) | 27
 

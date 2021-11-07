@@ -72,6 +72,11 @@ C:\Windows\system32\PerceptionSimulation\PerceptionSimulationService.exe |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/2fbd09d8c423876b4c47211fd878514db630dd38a0ee7292b608051ca2caf137/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\PerceptionSimulation\PerceptionSimulationService.exe](PerceptionSimulationService.exe-217DD189B66B68149ED4F7E8C9BA1DD9.md) | 36
 
 
 

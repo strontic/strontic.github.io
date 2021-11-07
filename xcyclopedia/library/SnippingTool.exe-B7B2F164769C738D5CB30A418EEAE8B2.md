@@ -136,6 +136,7 @@ File | Score
 -- | --
 [C:\Windows\system32\SnippingTool.exe](SnippingTool.exe-0D42E0492585153117F6ECF250EC8993.md) | 94
 [C:\WINDOWS\system32\SnippingTool.exe](SnippingTool.exe-D57CA86AC22DC057456ACC7FDE4E492F.md) | 94
+[C:\Windows\system32\SnippingTool.exe](SnippingTool.exe-F06D69F2FDD4D6A4E16F55769B7DCCC1.md) | 94
 
 
 

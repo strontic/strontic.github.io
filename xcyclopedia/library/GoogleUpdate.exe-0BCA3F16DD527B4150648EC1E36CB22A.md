@@ -87,6 +87,8 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\Google\Update\1.3.35.452\GoogleUpdate.exe](GoogleUpdate.exe-0BCA3F16DD527B4150648EC1E36CB22A.md) | 100
+[C:\Program Files (x86)\Google\Update\1.3.36.112\GoogleUpdate.exe](GoogleUpdate.exe-6BF197B8C7DE4B004C5D6FA415FC7867.md) | 65
+[C:\Program Files (x86)\Google\Update\GoogleUpdate.exe](GoogleUpdate.exe-6BF197B8C7DE4B004C5D6FA415FC7867.md) | 65
 
 ## Possible Misuse
 
@@ -95,8 +97,8 @@ File | Score
 Source | Source File | Example | License
 -- | -- | -- | --
 [sigma](https://github.com/Neo23x0/sigma) | [win_alert_lsass_access.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_alert_lsass_access.yml) | `- Google Chrome GoogleUpdate.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_apt_apt29_tor.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_apt_apt29_tor.yml) | `description: This method detects malicious services mentioned in APT29 report by FireEye. The legitimate path for the Google update service is C:\Program Files (x86)\Google\Update\GoogleUpdate.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
-[sigma](https://github.com/Neo23x0/sigma) | [win_apt_apt29_tor.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_apt_apt29_tor.yml) | `- 'C:\Program Files(x86)\Google\GoogleUpdate.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_apt_apt29_tor.yml](https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/win_apt_apt29_tor.yml) | `description: This method detects malicious services mentioned in APT29 report by FireEye. The legitimate path for the Google update service is C:\Program Files (x86)\Google\Update\GoogleUpdate.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_apt_apt29_tor.yml](https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/win_apt_apt29_tor.yml) | `- 'C:\Program Files(x86)\Google\GoogleUpdate.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wmic.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml) | `- Command: wmic.exe /node:REMOTECOMPUTERNAME PROCESS call create "at 9:00PM c:\GoogleUpdate.exe ^> c:\notGoogleUpdateResults.txt"`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Wmic.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Wmic.yml) | `Description: Create a scheduled execution of C:\GoogleUpdate.exe to run at 9pm.`{:.highlight .language-yaml} | 
 [malware-ioc](https://github.com/eset/malware-ioc) | [misp-machete-event.json](https://github.com/eset/malware-ioc/blob/master/machete/misp-machete-event.json) | `"value": "GoogleUpdate.exe",`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)

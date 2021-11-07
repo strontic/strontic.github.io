@@ -69,14 +69,6 @@ C:\Windows\system32\Spectrum.exe |
 * VirusTotal Link: https://www.virustotal.com/gui/file/aff3d4ab8b126fa099e6b7c6899c0c7fccd04401c5ac1890c96c689a65cd16b1/detection
 
 
-## Possible Misuse
-
-*The following table contains possible examples of `Spectrum.exe` being misused. While `Spectrum.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
-
-Source | Source File | Example | License
--- | -- | -- | --
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [Atomic_Friday.md](https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md) | - https://posts.specterops.io/detection-spectrum-198a0bfb9302 | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
-[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [index.md](https://github.com/redcanaryco/atomic-red-team/blob/master/docs/index.md) | testing their defenses against a broad spectrum of attacks. | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 
 

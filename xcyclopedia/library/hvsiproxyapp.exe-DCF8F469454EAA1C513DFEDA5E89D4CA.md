@@ -70,6 +70,11 @@ C:\Windows\system32\WTSAPI32.dll |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/cb722f4d47e6477c16e7373a8c0c16905c5105aeadc0b4479785103001f070cb/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\hvsiproxyapp.exe](hvsiproxyapp.exe-278670E084D6AB38C59E6CB078E0B568.md) | 93
 
 
 

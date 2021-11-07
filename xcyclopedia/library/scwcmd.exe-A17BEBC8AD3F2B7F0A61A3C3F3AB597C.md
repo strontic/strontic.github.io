@@ -48,7 +48,7 @@ SSDEEP | `1536:5lSvl17gK7zL24Ti9ZgzO9m/o5NvvtwiGenAA10qZvd+AvoLOtuC0c:5gX733TiMy
 
 ## scwcmd
 
-> Applies to: Windows Server 2012 R2 and Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2012 R2 and Windows Server 2012
 
 The Scwcmd.exe command-line tool included with the Security Configuration Wizard (SCW) can be used to perform the following tasks:
 

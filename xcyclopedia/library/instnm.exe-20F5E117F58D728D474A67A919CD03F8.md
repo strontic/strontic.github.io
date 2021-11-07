@@ -43,6 +43,7 @@ SSDEEP | `96:RLtlaijhm/uEp2keirJDGj4fDVHOEMsfP1vEW7JIXuWwxBesb:bEiVm/rItS5NM61sW
 File | Score
 -- | --
 [C:\Windows\SysWOW64\instnm.exe](instnm.exe-1B1261560B0D072A4643A48143C6ECD5.md) | 93
+[C:\Windows\SysWOW64\instnm.exe](instnm.exe-FAA8C00E3C6576B8A13CD488FF892421.md) | 82
 
 
 

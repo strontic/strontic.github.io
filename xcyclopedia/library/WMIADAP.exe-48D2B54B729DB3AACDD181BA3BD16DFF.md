@@ -47,6 +47,13 @@ PE256 | `0DC314D6F673E3C7D6F390594490373E0A4291AF0DB7B0713AD13F0EB0E8E8F3`
 * VirusTotal Link: https://www.virustotal.com/gui/file/e2ba31e0f13310fc4becbecefc0253c4f7a7f76463a774ef3b434d46bf559291/detection/
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `WMIADAP.exe` being misused. While `WMIADAP.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [sysmon_wmi_module_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_wmi_module_load.yml) | `- '\windows\system32\wbem\WMIADAP.exe'  # https://github.com/SigmaHQ/sigma/issues/1871`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

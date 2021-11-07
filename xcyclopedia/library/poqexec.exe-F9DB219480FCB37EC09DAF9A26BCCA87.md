@@ -44,6 +44,7 @@ File | Score
 -- | --
 [C:\Windows\SysWOW64\poqexec.exe](poqexec.exe-321A3CCA44AD6CA3F23572E3BFA14E58.md) | 99
 [C:\Windows\SysWOW64\poqexec.exe](poqexec.exe-74530CC0F5149D38B1F9D694C99CA1A2.md) | 99
+[C:\Windows\SysWOW64\poqexec.exe](poqexec.exe-B505097DB4014E68D258D1FC1B0E7CC6.md) | 93
 [C:\Windows\SysWOW64\poqexec.exe](poqexec.exe-FDEC1A07993B5A85F18F421963DD301D.md) | 97
 
 

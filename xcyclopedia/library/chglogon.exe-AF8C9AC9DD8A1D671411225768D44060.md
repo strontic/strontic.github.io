@@ -48,7 +48,7 @@ SSDEEP | `384:6l/skoa9sQEhEs9mp2j37kYHJE+55HKnmXwZIGgWlW+1ynkjv6e0oKPe5ISWkEW:G/
 
 ## chglogon
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Enables or disables logons from client sessions on an Remote Desktop Session Host server, or displays current logon status.
 

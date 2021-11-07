@@ -120,6 +120,10 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Python310-32\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
+[C:\Program Files (x86)\Python310-32\Scripts\pip.exe](pip.exe-6AD2D25A7EB0868FD823C0D5BCAA751A.md) | 97
+[C:\Program Files (x86)\Python310-32\Scripts\pip3.10.exe](pip3.10.exe-6AD2D25A7EB0868FD823C0D5BCAA751A.md) | 97
+[C:\Program Files (x86)\Python310-32\Scripts\pip3.exe](pip3.exe-6AD2D25A7EB0868FD823C0D5BCAA751A.md) | 97
 [C:\program files (x86)\Python38-32\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
 [C:\program files (x86)\Python38-32\Scripts\easy_install.exe](easy_install.exe-32D5750EDA663A7BCF0773A1673DC088.md) | 97
 [C:\Program Files (x86)\Python38-32\Scripts\easy_install.exe](easy_install.exe-6CE7704025EA5A2B78583854868B924D.md) | 97
@@ -137,6 +141,7 @@ File | Score
 [C:\program files\GIMP 2\lib\python2.7\site-packages\distlib\w32.exe](w32.exe-BA0A8E1736312C7DA2B734D0F7242442.md) | 38
 [C:\program files\GIMP 2\lib\python2.7\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-AD95D8AB51B4991174DC9734C0F332ED.md) | 94
 [C:\program files\GIMP 2\lib\python2.7\site-packages\pip\_vendor\distlib\w32.exe](w32.exe-D4467C3976D9C336693B816E28BD596F.md) | 38
+[C:\Program Files\Python310\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
 [C:\Program Files\Python38\Lib\site-packages\pip\_vendor\distlib\t32.exe](t32.exe-EC5E7403F86990AB23CAEEB4955F5FFB.md) | 99
 
 

@@ -62,6 +62,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Windows\system32\agentactivationruntimestarter.exe](agentactivationruntimestarter.exe-3AF89FB569117419503CC276BBC1A660.md) | 75
+[C:\Windows\system32\agentactivationruntimestarter.exe](agentactivationruntimestarter.exe-A49C26AA0CADD994DE158F51CB7EEFBC.md) | 94
 [C:\Windows\system32\agentactivationruntimestarter.exe](agentactivationruntimestarter.exe-B556B608D4B1D770EBAAFD23DECF1F88.md) | 94
 
 

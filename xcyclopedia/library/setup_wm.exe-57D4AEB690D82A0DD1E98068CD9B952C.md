@@ -134,9 +134,11 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.508
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Windows Media Player\setup_wm.exe](setup_wm.exe-BDDD3080256E68D718E25CD858E35C3A.md) | 49
 [C:\Program Files (x86)\Windows Media Player\setup_wm.exe](setup_wm.exe-D4A68AF9ABEECB326FC06AA17357C105.md) | 47
 [C:\Program Files (x86)\Windows Media Player\setup_wm.exe](setup_wm.exe-E9007E03F71E9651F89A49E4A1AD69A2.md) | 54
 [C:\Program Files\Windows Media Player\setup_wm.exe](setup_wm.exe-2598574253E2F749D1BCDF1975036E46.md) | 49
+[C:\Program Files\Windows Media Player\setup_wm.exe](setup_wm.exe-F32C225D11A5AF5906CF7C15FDA955E4.md) | 46
 
 
 

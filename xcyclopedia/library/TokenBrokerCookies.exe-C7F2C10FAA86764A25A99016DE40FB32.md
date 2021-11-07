@@ -66,6 +66,11 @@ C:\Windows\system32\WININET.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/48ec4693d70e9eb63a21d7a6c8b04bde7c886d786650dd43d952faedbd357ca3/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\TokenBrokerCookies.exe](TokenBrokerCookies.exe-F8DEFE2F54775BC1D6DA00063480C1A4.md) | 91
 
 
 

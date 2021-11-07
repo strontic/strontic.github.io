@@ -82,6 +82,13 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `bzip2.exe` being misused. While `bzip2.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[atomic-red-team](https://github.com/redcanaryco/atomic-red-team) | [T1560.002.md](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.002/T1560.002.md) | Some archival libraries are preinstalled on systems, such as bzip2 on macOS and Linux, and zip on Windows. Note that the libraries are different from the utilities. The libraries can be linked against when compiling, while the utilities require spawning a subshell, or a similar execution mechanism.</blockquote> | [MIT License. © 2018 Red Canary](https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt)
 
 
 

@@ -48,6 +48,7 @@ File | Score
 [C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-5A06B640015F7BBB113AF7FF7E29A3BB.md) | 40
 [C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-67FA4FB09632BC10881316F229E0D128.md) | 36
 [C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-78EBE5D865E3618F6275EFC7A54963C9.md) | 38
+[C:\Windows\system32\wsqmcons.exe](wsqmcons.exe-94CD268C54DB44FBA471C7C47EC47D9B.md) | 40
 
 ## Possible Misuse
 

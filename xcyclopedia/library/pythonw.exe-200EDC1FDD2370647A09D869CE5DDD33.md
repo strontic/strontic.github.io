@@ -174,8 +174,12 @@ C:\Windows\System32\USER32.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Python310-32\Lib\venv\scripts\nt\pythonw.exe](pythonw.exe-4120303CF8654D6C7C02877CB49513C8.md) | 32
+[C:\Program Files (x86)\Python310-32\pythonw.exe](pythonw.exe-B51D3765D11963CCA572DF6AE0C5E332.md) | 79
 [C:\program files (x86)\Python38-32\pythonw.exe](pythonw.exe-22A73968F535CD1042A5AA301C2A537B.md) | 79
 [C:\program files\Inkscape\bin\pythonw.exe](pythonw.exe-9E945D60BBB4991F4E436E7351F3D5C6.md) | 86
+[C:\Program Files\Python310\Lib\venv\scripts\nt\pythonw.exe](pythonw.exe-75513C9847FDFFDDE9323C4CB464E04E.md) | 40
+[C:\Program Files\Python310\pythonw.exe](pythonw.exe-9A4CC0D8E7007F7EF20CA585324E0739.md) | 77
 [C:\Program Files\Python38\pythonw.exe](pythonw.exe-B37D95BFD4A51E2847F3EB6A2F8A427E.md) | 79
 
 

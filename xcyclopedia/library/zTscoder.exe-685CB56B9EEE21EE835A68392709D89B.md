@@ -92,12 +92,15 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\Program Files (x86)\Zoom\bin\Zoom.exe](Zoom.exe-0B1A5820D639D1F99EF6BCA5406F69C6.md) | 40
 [C:\Program Files (x86)\Zoom\bin\Zoom.exe](Zoom.exe-59A1CFFFD1A4736E6C7C31840D6DF90C.md) | 38
 [C:\program files (x86)\Zoom\bin\Zoom.exe](Zoom.exe-65CA9E0DF3C8B0D76BB0126B0C593A3C.md) | 30
 [C:\Program Files (x86)\Zoom\bin\Zoom.exe](Zoom.exe-EF568D198B3DEDB38FCC19FA94950B06.md) | 35
 [C:\Program Files (x86)\Zoom\bin\ZoomDocConverter.exe](ZoomDocConverter.exe-6FA586963D8EACAF21B0B3175E19E14A.md) | 38
+[C:\Program Files (x86)\Zoom\bin\ZoomDocConverter.exe](ZoomDocConverter.exe-8697E1745C1F8819A3B35611FA3B5694.md) | 38
 [C:\program files (x86)\Zoom\bin\ZoomDocConverter.exe](ZoomDocConverter.exe-99C31B5AA52C51669444A916B3C02BB7.md) | 46
 [C:\Program Files (x86)\Zoom\bin\ZoomDocConverter.exe](ZoomDocConverter.exe-F5575E3999B99035CFAC687907102B12.md) | 40
+[C:\Program Files (x86)\Zoom\bin\zTscoder.exe](zTscoder.exe-02B12B5F0587796022DF4C9B71C25F70.md) | 38
 [C:\program files (x86)\Zoom\bin\zTscoder.exe](zTscoder.exe-DEAB73614D4D7C0807C5391FED75035A.md) | 43
 [C:\Program Files (x86)\Zoom\bin\zTscoder.exe](zTscoder.exe-F95816E6ED240884AA0AA47BCE0229B4.md) | 38
 

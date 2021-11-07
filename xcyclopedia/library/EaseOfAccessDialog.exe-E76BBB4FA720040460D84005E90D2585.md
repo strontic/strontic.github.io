@@ -43,6 +43,7 @@ SSDEEP | `1536:/CVX6AvefdIeDmc2zEaeSQcwIjowH//pwt6Gq/v1qzWO0vmTZB1+hKW/GJzNjgvJ:
 File | Score
 -- | --
 [C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-792CA1E7ABC6CED234B0D361093AD0D3.md) | 47
+[C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-94020963940B741B25393F8E23758216.md) | 43
 [C:\Windows\SysWOW64\EaseOfAccessDialog.exe](EaseOfAccessDialog.exe-E3F4970C45200284908BF474D26FCF3E.md) | 46
 [C:\WINDOWS\SysWOW64\sethc.exe](sethc.exe-0E6CDF17D71D663ECA4659AAA94735DB.md) | 43
 [C:\Windows\SysWOW64\sethc.exe](sethc.exe-79B368594321417E6BF79FB308DD9DF3.md) | 44

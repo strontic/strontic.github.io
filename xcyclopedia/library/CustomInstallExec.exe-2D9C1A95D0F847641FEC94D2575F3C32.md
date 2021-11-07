@@ -74,6 +74,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 
 File | Score
 -- | --
+[C:\Windows\system32\CustomInstallExec.exe](CustomInstallExec.exe-75D8C434B403CC1C8A4B27C0A1C24BD4.md) | 60
 [C:\Windows\system32\CustomInstallExec.exe](CustomInstallExec.exe-811DC50EA55C6DB8A04AE00754E16A0A.md) | 91
 
 

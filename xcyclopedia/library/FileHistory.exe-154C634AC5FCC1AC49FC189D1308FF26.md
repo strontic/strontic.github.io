@@ -47,6 +47,7 @@ SSDEEP | `3072:xQcs1zDy8+pSfrasB03w6VD7xvxzYuVD8C+cxICGQWnEcEgMobdmyTVulAyXD0N:G
 File | Score
 -- | --
 [C:\Windows\system32\FileHistory.exe](FileHistory.exe-11FCDD6D3B8F0381AC9E90F9B4EC0865.md) | 77
+[C:\Windows\system32\FileHistory.exe](FileHistory.exe-EEBA3DD643CED2781EC1B7E3CD6FA246.md) | 79
 
 ## Possible Misuse
 

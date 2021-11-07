@@ -45,6 +45,11 @@ PE256 | `4D82584CB0295A7E5C9BA0231FDAD02B915D103615D39F4CB7AB5C11ABD92254`
 * VirusTotal Detections: 0/68
 * VirusTotal Link: https://www.virustotal.com/gui/file/aeb2305726e97b89881f8026d1e5260358a6215cfb615206751e125be62b75f8/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\NVDA\libArm64\2021.2\nvdaHelperRemoteLoader.exe](nvdaHelperRemoteLoader.exe-650A94AD68411768B4E99A8DE1E9AF8A.md) | 36
 
 
 

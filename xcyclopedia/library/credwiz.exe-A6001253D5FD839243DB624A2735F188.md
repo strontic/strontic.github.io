@@ -43,6 +43,13 @@ SSDEEP | `768:dLaECK6c9URwnAU0+tXyJYFOJLta8UbMWVPtCyHbTGsFZ:NY+qA0NYYJLta8wMWVPt
 
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `credwiz.exe` being misused. While `credwiz.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[malware-ioc](https://github.com/eset/malware-ioc) | [badiis.yar](https://github.com/eset/malware-ioc/blob/master/badiis/badiis.yar) | `$s8 = "C:\\Windows\\System32\\credwiz.exe" ascii wide`{:.highlight .language-cmhg} | [© ESET 2014-2018](https://github.com/eset/malware-ioc/blob/master/LICENSE)
 
 
 

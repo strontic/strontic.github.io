@@ -70,6 +70,11 @@ C:\Windows\System32\win32u.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/e6ac49bddbe734097f86e55d1250a29de1196b0c7a260bc36dc171d33ffbed0d/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\SppExtComObj.Exe](SppExtComObj.Exe-728A78909AA69CA0E976E94482350700.md) | 82
 
 
 

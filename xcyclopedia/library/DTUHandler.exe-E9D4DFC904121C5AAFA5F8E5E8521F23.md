@@ -42,6 +42,7 @@ SSDEEP | `3072:n4MJyeF34WSPTrf9OLzh4bJurJ/pJyeoHpM7CDtamBZgNRO5jzw7Qu6zt:4wyeJRS
 
 File | Score
 -- | --
+[C:\Windows\system32\DTUHandler.exe](DTUHandler.exe-2190B4CD9D51F319ED6D40AB133085B5.md) | 54
 [C:\Windows\system32\DTUHandler.exe](DTUHandler.exe-8C39A00C7D56DDA973430424EF88C09C.md) | 52
 
 

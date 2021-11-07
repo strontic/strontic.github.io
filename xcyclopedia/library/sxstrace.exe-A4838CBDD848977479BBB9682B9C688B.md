@@ -48,7 +48,7 @@ SSDEEP | `768:n1azuf+5VdcsZ44ivoD46vY2jKNkKVHEwlzg5N18NyH837K+EOKqN:no625ncd2+hN
 
 ## sxstrace
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Diagnoses side-by-side problems.
 

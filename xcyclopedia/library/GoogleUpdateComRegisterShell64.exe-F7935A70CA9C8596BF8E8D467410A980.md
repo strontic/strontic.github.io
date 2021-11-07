@@ -61,6 +61,11 @@ C:\Windows\System32\sechost.dll |
 * VirusTotal Detections: 0/68
 * VirusTotal Link: https://www.virustotal.com/gui/file/cf8030ca9ad7129d986de4ade755cf74225e18c7ac869786ed7f2edc0afc811d/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Program Files (x86)\Google\Update\1.3.36.112\GoogleUpdateComRegisterShell64.exe](GoogleUpdateComRegisterShell64.exe-3E71EEF771C1753BAED00D207B3F77F5.md) | 36
 
 
 

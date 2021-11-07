@@ -42,6 +42,7 @@ SSDEEP | `1536:2Dhqnd6tSBtkeas6mwpYaxil9BPUebq7scbJ+6bysaw+NhQ:2lfqRaC4Dxknbosct
 
 File | Score
 -- | --
+[C:\Windows\system32\TSWbPrxy.exe](TSWbPrxy.exe-70F7D4806F949550BA5AC0AFEC9C042F.md) | 33
 [C:\Windows\system32\TSWbPrxy.exe](TSWbPrxy.exe-DA0C1265BEF2AFB28473DBE9984802CF.md) | 41
 [C:\Windows\system32\TSWbPrxy.exe](TSWbPrxy.exe-F1C0EECC4E95C1DC84D3A0324F765D4C.md) | 38
 

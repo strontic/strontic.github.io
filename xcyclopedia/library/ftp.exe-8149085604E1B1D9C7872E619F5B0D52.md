@@ -87,6 +87,11 @@ conhost.exe
 
 Source | Source File | Example | License
 -- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ftp.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ftp.yml) | `title: Suspicious ftp.exe `{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ftp.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ftp.yml) | `description: Detects renamed ftp.exe, ftp.exe script execution and child processes ran by ftp.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ftp.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ftp.yml) | `Image\|endswith: 'ftp.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ftp.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ftp.yml) | `OriginalFileName\|contains: 'ftp.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_ftp.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ftp.yml) | `ParentImage\|endswith: 'ftp.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ftp.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ftp.yml) | `Name: Ftp.exe`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ftp.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ftp.yml) | `Usecase: Spawn new process using ftp.exe. Ftp.exe runs cmd /C YourCommand`{:.highlight .language-yaml} | 
 [LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Ftp.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ftp.yml) | `Usecase: Spawn new process using ftp.exe. Ftp.exe downloads the binary.`{:.highlight .language-yaml} | 
@@ -102,7 +107,7 @@ Source | Source File | Example | License
 
 ## ftp
 
-> Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
 
 Transfers files to and from a computer running a File Transfer Protocol (ftp) server service. This command can be used interactively or in batch mode by processing ASCII text files.
 

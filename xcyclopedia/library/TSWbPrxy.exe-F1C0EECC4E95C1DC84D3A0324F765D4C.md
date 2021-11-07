@@ -92,6 +92,7 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\WINDOWS\system32\TSWbPrxy.exe](TSWbPrxy.exe-2395DEF1650E0F426E4FAA1DD22BEA69.md) | 38
+[C:\Windows\system32\TSWbPrxy.exe](TSWbPrxy.exe-70F7D4806F949550BA5AC0AFEC9C042F.md) | 30
 [C:\Windows\system32\TSWbPrxy.exe](TSWbPrxy.exe-DA0C1265BEF2AFB28473DBE9984802CF.md) | 29
 
 

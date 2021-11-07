@@ -64,9 +64,15 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Program Files (x86)\NVDA\nvda.exe](nvda.exe-85A798DF55AE642F0ABC6CBD12A8397E.md) | 69
+[C:\Program Files (x86)\NVDA\nvda.exe](nvda.exe-A61AE8F412C2060035D05172AA483DB1.md) | 38
+[C:\Program Files (x86)\NVDA\nvda_dmp.exe](nvda_dmp.exe-628A5351901FE2EA12A94CD555CAAFE0.md) | 50
+[C:\Program Files (x86)\NVDA\nvda_eoaProxy.exe](nvda_eoaProxy.exe-6BCAA07CF6F0248FEF09FC5EC17CE4C5.md) | 49
 [C:\Program Files (x86)\NVDA\nvda_eoaProxy.exe](nvda_eoaProxy.exe-DE63A0A3E0FE2B162EBA8DDCF7C702D1.md) | 71
 [C:\Program Files (x86)\NVDA\nvda_noUIAccess.exe](nvda_noUIAccess.exe-7B3DEE8C8E3368A7432531303B17A3BB.md) | 69
+[C:\Program Files (x86)\NVDA\nvda_noUIAccess.exe](nvda_noUIAccess.exe-DFF55687DB9476D00D794224C73CDE07.md) | 41
+[C:\Program Files (x86)\NVDA\nvda_slave.exe](nvda_slave.exe-5DEB8FAF8774C4A6903ACC0702503A10.md) | 43
 [C:\Program Files (x86)\NVDA\nvda_uiAccess.exe](nvda_uiAccess.exe-85A798DF55AE642F0ABC6CBD12A8397E.md) | 69
+[C:\Program Files (x86)\NVDA\nvda_uiAccess.exe](nvda_uiAccess.exe-A61AE8F412C2060035D05172AA483DB1.md) | 38
 
 
 

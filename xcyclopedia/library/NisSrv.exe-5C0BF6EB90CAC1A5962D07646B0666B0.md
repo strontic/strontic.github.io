@@ -44,6 +44,13 @@ File | Score
 -- | --
 [C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2004.6-0\NisSrv.exe](NisSrv.exe-D6404DFDB734E1990E35A2BD1808C08A.md) | 32
 
+## Possible Misuse
+
+*The following table contains possible examples of `NisSrv.exe` being misused. While `NisSrv.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_reg_disable_sec_services.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_reg_disable_sec_services.yml) | `- '\NisSrv'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 

@@ -81,6 +81,7 @@ C:\Windows\SysWOW64\InputSwitchToastHandler.exe |
 File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\InputSwitchToastHandler.exe](InputSwitchToastHandler.exe-4CBC2D7E01195E3873DF868AE9F8F820.md) | 41
+[C:\Windows\SysWOW64\InputSwitchToastHandler.exe](InputSwitchToastHandler.exe-AC5A9310E9B722D40DC7CA92A8C62270.md) | 47
 
 
 

@@ -46,6 +46,7 @@ File | Score
 [C:\Windows\system32\wlrmdr.exe](wlrmdr.exe-3B4132776636F37787317DA4E0A75ED3.md) | 33
 [C:\Windows\system32\wlrmdr.exe](wlrmdr.exe-82404475E1FFEEDBFA1758197858C432.md) | 33
 [C:\WINDOWS\system32\wlrmdr.exe](wlrmdr.exe-A6F7BB4E57150E73A60FEB3C0DE8AF7A.md) | 35
+[C:\Windows\system32\wlrmdr.exe](wlrmdr.exe-EF9BBA7A637A11B224A90BF90A8943AC.md) | 35
 
 
 

@@ -63,6 +63,11 @@ C:\Windows\system32\wuapihost.exe |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/ba77d5ebacbad0939b9ee667c59bcb7143a432be91522f4397d458e62f03eedd/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\Windows\system32\wuapihost.exe](wuapihost.exe-AE0133BEE50685C4F3BABB3FA91583F8.md) | 65
 
 
 

@@ -59,6 +59,13 @@ C:\Windows\system32\SrTasks.exe |
 * VirusTotal Link: https://www.virustotal.com/gui/file/40e27a9039a2e4a731ea6a74291840fb13c679a1e8ae5b523016aa15727d8a58/detection
 
 
+## Possible Misuse
+
+*The following table contains possible examples of `SrTasks.exe` being misused. While `SrTasks.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_suspicious_vss_ps_load.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/win_suspicious_vss_ps_load.yml) | `- '\srtasks.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
 
 
 
