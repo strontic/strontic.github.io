@@ -361,6 +361,18 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/auditd/lnx_auditd_hidden_files_directories.yml">lnx_auditd_hidden_files_directories.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">mkdir</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/sigma/win_apt_invisimole_wdigest_chain.yml">win_apt_invisimole_wdigest_chain.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">CommandLine\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="s">rundll32.exe</span><span class="nv"> </span><span class="s">Shell32.dll</span><span class="nv"> </span><span class="s">ShellExec_RunDLL</span><span class="nv"> </span><span class="s">cmd.exe</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">mkdir</span><span class="nv"> </span><span class="s">SMRTNTKY\MessageB.txt'</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/sshdoor/windigo_signatures.pl">windigo_signatures.pl</a></td>
       <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">@</span><span class="ni">sc</span> <span class="err">=</span> <span class="ni">gc</span><span class="p">(</span> <span class="err">'</span><span class="ni">mkdir</span> <span class="err">-p</span> <span class="err">%s'</span><span class="p">,</span> <span class="err">'-A</span> <span class="m">2</span><span class="err">'</span> <span class="p">)</span><span class="c">;</span></code></td>
@@ -417,7 +429,13 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1030/T1030.md">T1030.md</a></td>
-      <td>if [ ! -d #{folder_path} ]; then mkdir -p #{folder_path}; touch #{folder_path}/safe_to_delete; fi;</td>
+      <td>if [ ! -d #{folder_path} ]; then mkdir -p #{folder_path}; touch #{folder_path}/safe_to_delete; fi; dd if=/dev/urandom of=#{folder_path}/#{file_name} bs=25000000 count=1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.005/T1036.005.md">T1036.005.md</a></td>
+      <td>mkdir $HOME/…</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -436,6 +454,12 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1119/T1119.md">T1119.md</a></td>
       <td>mkdir %temp%\T1119_command_prompt_collection &gt;nul 2&gt;&amp;1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1137/T1137.md">T1137.md</a></td>
+      <td>mkdir  %APPDATA%\Microsoft\Outlook\ &gt;nul 2&gt;&amp;1</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>

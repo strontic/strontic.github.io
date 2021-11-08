@@ -460,13 +460,55 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_spn_enum.yml">win_spn_enum.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\setspn.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\setspn.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #3: Extract all accounts in use as SPN using setspn [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- Atomic Test #3: Extract all accounts in use as SPN using setspn [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.003/T1558.003.md">T1558.003.md</a></td>
       <td>Service principal names (SPNs) are used to uniquely identify each instance of a Windows service. To enable authentication, Kerberos requires that SPNs be associated with at least one service logon account (an account specifically tasked with running a service(Citation: Microsoft Detecting Kerberoasting Feb 2018)).(Citation: Microsoft SPN)(Citation: Microsoft SetSPN)(Citation: SANS Attacking Kerberos Nov 2014)(Citation: Harmj0y Kerberoast Nov 2016)</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.003/T1558.003.md">T1558.003.md</a></td>
+      <td>- <a href="#atomic-test-3---extract-all-accounts-in-use-as-spn-using-setspn">Atomic Test #3 - Extract all accounts in use as SPN using setspn</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.003/T1558.003.md">T1558.003.md</a></td>
+      <td>## Atomic Test #3 - Extract all accounts in use as SPN using setspn</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.003/T1558.003.md">T1558.003.md</a></td>
+      <td>The following test will utilize setspn to extract the Service Principal Names. This behavior is typically used during a kerberos or silver ticket attack.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.003/T1558.003.md">T1558.003.md</a></td>
+      <td>setspn -T #{domain_name} -Q <em>/</em></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.003/T1558.003.md">T1558.003.md</a></td>
+      <td>setspn.exe -T #{domain_name} -Q <em>/</em> | Select-String ‘^CN’ -Context 0,1 | % { New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList $_.Context.PostContext[0].Trim() }</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
   </tbody>

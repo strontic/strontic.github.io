@@ -324,12 +324,20 @@
       <td>32</td>
     </tr>
     <tr>
+      <td><a href="/xcyclopedia/library/wusa.exe-E43499EE2B4CF328A81BACE9B1644C5D.html">C:\Windows\system32\wusa.exe</a></td>
+      <td>35</td>
+    </tr>
+    <tr>
       <td><a href="/xcyclopedia/library/wusa.exe-E7A1BF42A43A9031533768B393D5673A.html">C:\Windows\system32\wusa.exe</a></td>
       <td>33</td>
     </tr>
     <tr>
       <td><a href="/xcyclopedia/library/wusa.exe-18DE1F2C1BC5B1AFE3A66DD973C69411.html">C:\Windows\SysWOW64\wusa.exe</a></td>
       <td>52</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/wusa.exe-6B5F21E4B1FA9B4BF6AD402A9EA52887.html">C:\Windows\SysWOW64\wusa.exe</a></td>
+      <td>49</td>
     </tr>
     <tr>
       <td><a href="/xcyclopedia/library/wusa.exe-6C81724C47077509C4CC874E34008FC3.html">C:\Windows\SysWOW64\wusa.exe</a></td>
@@ -360,6 +368,24 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_uac_bypass_ntfs_reparse_point.yml">sysmon_uac_bypass_ntfs_reparse_point.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects the pattern of UAC Bypass using NTFS reparse point and wusa.exe DLL hijacking (UACMe 36)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_ntfs_reparse_point.yml">win_uac_bypass_ntfs_reparse_point.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects the pattern of UAC Bypass using NTFS reparse point and wusa.exe DLL hijacking (UACMe 36)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_ntfs_reparse_point.yml">win_uac_bypass_ntfs_reparse_point.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">CommandLine\|startswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">"C:\Windows\system32\wusa.exe"</span><span class="nv">  </span><span class="s">/quiet</span><span class="nv"> </span><span class="s">C:\Users\'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_thrip.yar">apt_thrip.yar</a></td>

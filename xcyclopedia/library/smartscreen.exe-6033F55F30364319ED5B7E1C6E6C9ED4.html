@@ -304,6 +304,10 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="/xcyclopedia/library/smartscreen.exe-521ED922765BCA8F79BD76188F879311.html">C:\Windows\system32\smartscreen.exe</a></td>
+      <td>35</td>
+    </tr>
+    <tr>
       <td><a href="/xcyclopedia/library/smartscreen.exe-B75FA41284409A6134BF824BEAE59B4E.html">C:\Windows\system32\smartscreen.exe</a></td>
       <td>30</td>
     </tr>
@@ -326,21 +330,27 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/create_remote_thread/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\smartscreen.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml">sysmon_creation_system_file.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\smartscreen.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\smartscreen.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml">win_system_exe_anomaly.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\smartscreen.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\smartscreen.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\smartscreen.exe'</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1553.005/T1553.005.md">T1553.005.md</a></td>
+      <td>&lt;blockquote&gt;Adversaries may abuse specific file formats to subvert Mark-of-the-Web (MOTW) controls. In Windows, when files are downloaded from the Internet, they are tagged with a hidden NTFS Alternate Data Stream (ADS) named <code>Zone.Identifier</code> with a specific value known as the MOTW.(Citation: Microsoft Zone.Identifier 2020) Files that are tagged with MOTW are protected and cannot perform certain actions. For example, starting in MS Office 10, if a MS Office file has the MOTW, it will open in Protected View. Executables tagged with the MOTW will be processed by Windows Defender SmartScreen that compares files with an allowlist of well-known executables. If the file in not known/trusted, SmartScreen will prevent the execution and warn the user not to run it.(Citation: Beek Use of VHD Dec 2020)(Citation: Outflank MotW 2020)(Citation: Intezer Russian APT Dec 2020)</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
   </tbody>
 </table>

@@ -341,6 +341,101 @@
   <li>VirusTotal Link: https://www.virustotal.com/gui/file/32f91b0ce7278e96f19b134722ab5260990d59d1b3381116bc5078b860ae57a8/detection/</li>
 </ul>
 
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">clip.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">clip.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_invoke_obfuscation_clip_services.yml">win_invoke_obfuscation_clip_services.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects Obfuscated use of Clip.exe to execute PowerShell</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_invoke_obfuscation_clip_services_security.yml">win_invoke_obfuscation_clip_services_security.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects Obfuscated use of Clip.exe to execute PowerShell</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_invoke_obfuscation_via_use_clip_services.yml">win_invoke_obfuscation_via_use_clip_services.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects Obfuscated Powershell via use Clip.exe in Scripts</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_invoke_obfuscation_via_use_clip_services_security.yml">win_invoke_obfuscation_via_use_clip_services_security.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects Obfuscated Powershell via use Clip.exe in Scripts</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_module/powershell_invoke_obfuscation_clip.yml">powershell_invoke_obfuscation_clip.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects Obfuscated use of Clip.exe to execute PowerShell</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_module/powershell_invoke_obfuscation_via_use_clip.yml">powershell_invoke_obfuscation_via_use_clip.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects Obfuscated Powershell via use Clip.exe in Scripts</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/powershell_invoke_obfuscation_clip_in_scriptblocktext.yml">powershell_invoke_obfuscation_clip_in_scriptblocktext.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects Obfuscated use of Clip.exe to execute PowerShell</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/powershell_invoke_obfuscation_via_use_clip_in_scriptblocktext.yml">powershell_invoke_obfuscation_via_use_clip_in_scriptblocktext.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects Obfuscated Powershell via use Clip.exe in Scripts</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_clip.yml">process_creation_clip.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">OriginalFileName</span><span class="pi">:</span> <span class="s">clip.exe</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_invoke_obfuscation_clip.yml">win_invoke_obfuscation_clip.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects Obfuscated use of Clip.exe to execute PowerShell</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_invoke_obfuscation_via_use_clip.yml">win_invoke_obfuscation_via_use_clip.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects Obfuscated Powershell via use Clip.exe in Scripts</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/driver_load_invoke_obfuscation_clip+_services.yml">driver_load_invoke_obfuscation_clip+_services.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects Obfuscated use of Clip.exe to execute PowerShell</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/driver_load_invoke_obfuscation_via_use_clip_services.yml">driver_load_invoke_obfuscation_via_use_clip_services.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects Obfuscated Powershell via use Clip.exe in Scripts</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
 <h2 id="additional-info">Additional Info*</h2>
 
 <p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>

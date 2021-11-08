@@ -372,6 +372,10 @@
       <td>32</td>
     </tr>
     <tr>
+      <td><a href="/xcyclopedia/library/mavinject.exe-651259747F1C4401A88A23AD816BB0ED.html">C:\Windows\SysWOW64\mavinject.exe</a></td>
+      <td>33</td>
+    </tr>
+    <tr>
       <td><a href="/xcyclopedia/library/mavinject.exe-8FE5871DE2870F39CFA317FA5C28988D.html">C:\WINDOWS\SysWOW64\mavinject.exe</a></td>
       <td>33</td>
     </tr>
@@ -398,8 +402,26 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_asr_bypass_via_appvlp_re.yml">win_asr_bypass_via_appvlp_re.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Using AppVLP To Circumvent ASR File Path Rule</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_asr_bypass_via_appvlp_re.yml">win_asr_bypass_via_appvlp_re.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Application</span><span class="nv"> </span><span class="s">Virtualization</span><span class="nv"> </span><span class="s">Utility</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">included</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">Microsoft</span><span class="nv"> </span><span class="s">Office.We</span><span class="nv"> </span><span class="s">are</span><span class="nv"> </span><span class="s">able</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">abuse</span><span class="nv"> </span><span class="s">“AppVLP”</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">execute</span><span class="nv"> </span><span class="s">shell</span><span class="nv"> </span><span class="s">commands.</span><span class="nv"> </span><span class="s">Normally,</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">binary</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">used</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Application</span><span class="nv"> </span><span class="s">Virtualization,</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">we</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">as</span><span class="nv"> </span><span class="s">an</span><span class="nv"> </span><span class="s">abuse</span><span class="nv"> </span><span class="s">binary</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">circumvent</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">ASR</span><span class="nv"> </span><span class="s">file</span><span class="nv"> </span><span class="s">path</span><span class="nv"> </span><span class="s">rule</span><span class="nv"> </span><span class="s">folder</span><span class="nv"> </span><span class="s">or</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">mark</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">file</span><span class="nv"> </span><span class="s">as</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">system</span><span class="nv"> </span><span class="s">file'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_asr_bypass_via_appvlp_re.yml">win_asr_bypass_via_appvlp_re.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">CommandLine\|re</span><span class="pi">:</span> <span class="s1">'</span><span class="s">(?i).*appvlp.exe.*(cmd.exe\|powershell.exe).*(.sh\|.exe\|.dll\|.bin\|.bat\|.cmd\|.js\|.msh\|.reg\|.scr\|.ps\|.vb\|.jar\|.pl\|.inf)'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_office_shell.yml">win_office_shell.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\AppVLP.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\AppVLP.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>

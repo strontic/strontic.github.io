@@ -309,6 +309,12 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/create_remote_thread/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\esentutl.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/deprecated/win_susp_esentutl_activity.yml">win_susp_esentutl_activity.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Suspicious Esentutl Use</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
@@ -345,6 +351,24 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_alternate_data_streams.yml">process_creation_alternate_data_streams.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">esentutl</span><span class="nv"> </span><span class="s">'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_susp_esentutl_params.yml">process_susp_esentutl_params.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Esentutl Gather Credentials</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_susp_esentutl_params.yml">process_susp_esentutl_params.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">esentutl'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_copying_sensitive_files_with_credential_data.yml">win_copying_sensitive_files_with_credential_data.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://dfironthemountain.wordpress.com/2018/12/06/locked-file-access-using-esentutl-exe/</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
@@ -353,12 +377,6 @@
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_copying_sensitive_files_with_credential_data.yml">win_copying_sensitive_files_with_credential_data.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\esentutl.exe'</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\esentutl.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>

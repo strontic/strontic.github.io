@@ -427,14 +427,62 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1388.yml">win_exploit_cve_2019_1388.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects an explotation attempt in which the UAC consent dialogue is used to invoke an Internet Explorer process running as LOCAL_SYSTEM</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_uac_bypass_consent_comctl32.yml">sysmon_uac_bypass_consent_comctl32.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">UAC Bypass Using Consent and Comctl32 - File</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_uac_bypass_consent_comctl32.yml">sysmon_uac_bypass_consent_comctl32.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects the pattern of UAC Bypass using consent.exe and comctl32.dll (UACMe 22)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_uac_bypass_consent_comctl32.yml">sysmon_uac_bypass_consent_comctl32.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetFilename\|startswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\Windows\System32\consent.exe.@'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_uac_bypass_ieinstal.yml">sysmon_uac_bypass_ieinstal.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetFilename\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">consent.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1388.yml">win_exploit_cve_2019_1388.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ParentImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\consent.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects an exploitation attempt in which the UAC consent dialogue is used to invoke an Internet Explorer process running as LOCAL_SYSTEM</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1388.yml">win_exploit_cve_2019_1388.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ParentImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\consent.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_consent_comctl32.yml">win_uac_bypass_consent_comctl32.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">UAC Bypass Using Consent and Comctl32 - Process</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_consent_comctl32.yml">win_uac_bypass_consent_comctl32.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects the pattern of UAC Bypass using consent.exe and comctl32.dll (UACMe 22)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_consent_comctl32.yml">win_uac_bypass_consent_comctl32.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ParentImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\consent.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_ieinstal.yml">win_uac_bypass_ieinstal.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">consent.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>

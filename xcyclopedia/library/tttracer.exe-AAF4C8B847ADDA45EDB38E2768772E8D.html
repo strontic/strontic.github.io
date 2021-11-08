@@ -400,6 +400,14 @@
       <td><a href="/xcyclopedia/library/tttracer.exe-61C47B71A25302934A8CFB16E3B4DBD9.html">C:\Windows\system32\tttracer.exe</a></td>
       <td>35</td>
     </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/tttracer.exe-F716498E51219F64BFB4AFABAB44A796.html">C:\Windows\system32\tttracer.exe</a></td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/tttracer.exe-97579953AD08B01659EFE70976BE33E3.html">C:\Windows\SysWOW64\tttracer.exe</a></td>
+      <td>50</td>
+    </tr>
   </tbody>
 </table>
 
@@ -417,6 +425,36 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/process_creation_tttracer_mod_load.yml">process_creation_tttracer_mod_load.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects usage of Time Travel Debugging Utility. Adversaries can execute malicious processes and dump processes, such as lsass.exe, via tttracer.exe.</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/process_creation_tttracer_mod_load.yml">process_creation_tttracer_mod_load.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://lolbas-project.github.io/lolbas/Binaries/Tttracer/</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/process_creation_tttracer_mod_load.yml">process_creation_tttracer_mod_load.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ParentImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\tttracer.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_tttracer_mod_load.yml">sysmon_tttracer_mod_load.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects usage of Time Travel Debugging Utility. Adversaries can execute malicious processes and dump processes, such as lsass.exe, via tttracer.exe.</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_tttracer_mod_load.yml">sysmon_tttracer_mod_load.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://lolbas-project.github.io/lolbas/Binaries/Tttracer/</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Ttdinject.yml">Ttdinject.yml</a></td>

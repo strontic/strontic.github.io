@@ -322,6 +322,53 @@
   </tbody>
 </table>
 
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">changepk.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">changepk.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_changepk_slui.yml">win_uac_bypass_changepk_slui.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">UAC Bypass Using ChangePK and SLUI</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_changepk_slui.yml">win_uac_bypass_changepk_slui.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects an UAC bypass that uses changepk.exe and slui.exe (UACMe 61)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_changepk_slui.yml">win_uac_bypass_changepk_slui.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://mattharr0ey.medium.com/privilege-escalation-uac-bypass-in-changepk-c40b92818d1b</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_changepk_slui.yml">win_uac_bypass_changepk_slui.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\changepk.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md">T1548.002.md</a></td>
+      <td>Target:	\system32\slui.exe, \system32\changepk.exe</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+  </tbody>
+</table>
+
 <p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 

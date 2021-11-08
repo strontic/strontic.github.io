@@ -1,0 +1,643 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>filebeat.exe | Filebeat sends log files to Logstash or directly to Elasticsearch. &#124; STRONTIC</title>
+<meta name="description" content="What is filebeat.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="filebeat.exe | Filebeat sends log files to Logstash or directly to Elasticsearch.">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/filebeat.exe-7E4D560121EB137CD4130974EC9DE835.html">
+
+
+  <meta property="og:description" content="What is filebeat.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="filebeat.exe | Filebeat sends log files to Logstash or directly to Elasticsearch.">
+  <meta name="twitter:description" content="What is filebeat.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/filebeat.exe-7E4D560121EB137CD4130974EC9DE835.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/filebeat.exe-7E4D560121EB137CD4130974EC9DE835.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">filebeat.exe | Filebeat sends log files to Logstash or directly to Elasticsearch.</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            filebeat.exe      Filebeat sends log files to Logstash or directly to Elasticsearch.      ">
+    <meta itemprop="description" content="What is filebeat.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="filebeatexe">filebeat.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\Program Files\Elastic\Agent\data\elastic-agent-5ae799\install\filebeat-7.15.1-windows-x86_64\filebeat.exe</code></li>
+  <li>Description: Filebeat sends log files to Logstash or directly to Elasticsearch.</li>
+  <li>Comments: commit=5ae799cb1c3c490c9a27b14cb463dc23696bc7d3</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">7E4D560121EB137CD4130974EC9DE835</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">34BA04A66117665BC2823008188EB0C576303408</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">393BA05D660901E1034D4C7D0972E2EE3B7E59FD06B95E45AA13A6F04C099C91</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">8D5336B9709D1B613A3D5EED8F7629CB0B4952490C2D7F44294CE4738AC7B7CDEF391864E249C2CDE77CC7D69844D155</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">C5EE1EFD10EA4223832023D771E3AB09EBE981312D7F033DBF504550CC7A768D70CB9046F3DD199EF57C1276C3A690391725E7D364F1D96E510ED99C4D8E8D1D</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">786432:w1uxLGubh717hREuxZEahUCodVIS7W4ouuXV5cS2MzK2dLp0DQaK7y/hqzyXReft:1Kut717tmy</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">3F0F065D59BD9A8EC45FE4CB67BE72E2</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">91BE2562A34B35E525151FF41C8F9DFDDE20E05B</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">071D7A06AE6C277064112055BCD3C2713386AA95004BB4FC563F1954163BF61D</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">Usage</span><span class="err">:</span>
+  <span class="ni">filebeat</span> <span class="err">[</span><span class="ni">flags</span><span class="err">]</span>
+  <span class="ni">filebeat</span> <span class="err">[</span><span class="ni">command</span><span class="err">]</span>
+
+<span class="ni">Available</span> <span class="ni">Commands</span><span class="err">:</span>
+  <span class="ni">export</span>      <span class="ni">Export</span> <span class="ni">current</span> <span class="ni">config</span> <span class="ni">or</span> <span class="ni">index</span> <span class="ni">template</span>
+  <span class="ni">generate</span>    <span class="ni">Generate</span> <span class="ni">Filebeat</span> <span class="ni">modules</span><span class="p">,</span> <span class="ni">filesets</span> <span class="ni">and</span> <span class="ni">fields</span><span class="err">.</span><span class="ni">yml</span>
+  <span class="ni">help</span>        <span class="ni">Help</span> <span class="ni">about</span> <span class="ni">any</span> <span class="ni">command</span>
+  <span class="ni">keystore</span>    <span class="ni">Manage</span> <span class="ni">secrets</span> <span class="ni">keystore</span>
+  <span class="ni">modules</span>     <span class="ni">Manage</span> <span class="ni">configured</span> <span class="ni">modules</span>
+  <span class="ni">run</span>         <span class="ni">Run</span> <span class="ni">filebeat</span>
+  <span class="ni">setup</span>       <span class="ni">Setup</span> <span class="ni">index</span> <span class="ni">template</span><span class="p">,</span> <span class="ni">dashboards</span> <span class="ni">and</span> <span class="ni">ML</span> <span class="ni">jobs</span>
+  <span class="ni">test</span>        <span class="ni">Test</span> <span class="ni">config</span>
+  <span class="ni">version</span>     <span class="ni">Show</span> <span class="ni">current</span> <span class="ni">version</span> <span class="ni">info</span>
+
+<span class="ni">Flags</span><span class="err">:</span>
+  <span class="err">-E</span><span class="p">,</span> <span class="err">--E</span> <span class="ni">setting</span><span class="err">=</span><span class="ni">value</span>              <span class="ni">Configuration</span> <span class="ni">overwrite</span>
+  <span class="err">-M</span><span class="p">,</span> <span class="err">--M</span> <span class="ni">setting</span><span class="err">=</span><span class="ni">value</span>              <span class="ni">Module</span> <span class="ni">configuration</span> <span class="ni">overwrite</span>
+  <span class="err">-N</span><span class="p">,</span> <span class="err">--N</span>                            <span class="ni">Disable</span> <span class="ni">actual</span> <span class="ni">publishing</span> <span class="ni">for</span> <span class="ni">testing</span>
+  <span class="err">-c</span><span class="p">,</span> <span class="err">--c</span> <span class="ni">string</span>                     <span class="ni">Configuration</span> <span class="ni">file</span><span class="p">,</span> <span class="ni">relative</span> <span class="ni">to</span> <span class="ni">path</span><span class="err">.</span><span class="ni">config</span> <span class="p">(</span><span class="ni">default</span> <span class="s">"filebeat.yml"</span><span class="p">)</span>
+      <span class="err">--</span><span class="ni">cpuprofile</span> <span class="ni">string</span>            <span class="ni">Write</span> <span class="ni">cpu</span> <span class="ni">profile</span> <span class="ni">to</span> <span class="ni">file</span>
+  <span class="err">-d</span><span class="p">,</span> <span class="err">--d</span> <span class="ni">string</span>                     <span class="ni">Enable</span> <span class="ni">certain</span> <span class="ni">debug</span> <span class="ni">selectors</span>
+  <span class="err">-e</span><span class="p">,</span> <span class="err">--e</span>                            <span class="ni">Log</span> <span class="ni">to</span> <span class="ni">stderr</span> <span class="ni">and</span> <span class="ni">disable</span> <span class="ni">syslog</span><span class="p">/</span><span class="ni">file</span> <span class="ni">output</span>
+      <span class="err">--</span><span class="ni">environment</span> <span class="ni">environmentVar</span>   <span class="ni">set</span> <span class="ni">environment</span> <span class="ni">being</span> <span class="ni">ran</span> <span class="ni">in</span> <span class="p">(</span><span class="ni">default</span> <span class="ni">default</span><span class="p">)</span>
+  <span class="err">-h</span><span class="p">,</span> <span class="err">--</span><span class="ni">help</span>                         <span class="ni">help</span> <span class="ni">for</span> <span class="ni">filebeat</span>
+      <span class="err">--</span><span class="ni">httpprof</span> <span class="ni">string</span>              <span class="ni">Start</span> <span class="ni">pprof</span> <span class="ni">http</span> <span class="ni">server</span>
+      <span class="err">--</span><span class="ni">memprofile</span> <span class="ni">string</span>            <span class="ni">Write</span> <span class="ni">memory</span> <span class="ni">profile</span> <span class="ni">to</span> <span class="ni">this</span> <span class="ni">file</span>
+      <span class="err">--</span><span class="ni">modules</span> <span class="ni">string</span>               <span class="ni">List</span> <span class="ni">of</span> <span class="ni">enabled</span> <span class="ni">modules</span> <span class="p">(</span><span class="ni">comma</span> <span class="ni">separated</span><span class="p">)</span>
+      <span class="err">--</span><span class="ni">once</span>                         <span class="ni">Run</span> <span class="ni">filebeat</span> <span class="ni">only</span> <span class="ni">once</span> <span class="ni">until</span> <span class="ni">all</span> <span class="ni">harvesters</span> <span class="ni">reach</span> <span class="ni">EOF</span>
+      <span class="err">--</span><span class="ni">path</span><span class="err">.</span><span class="ni">config</span> <span class="ni">string</span>           <span class="ni">Configuration</span> <span class="ni">path</span>
+      <span class="err">--</span><span class="ni">path</span><span class="err">.</span><span class="ni">data</span> <span class="ni">string</span>             <span class="ni">Data</span> <span class="ni">path</span>
+      <span class="err">--</span><span class="ni">path</span><span class="err">.</span><span class="ni">home</span> <span class="ni">string</span>             <span class="ni">Home</span> <span class="ni">path</span>
+      <span class="err">--</span><span class="ni">path</span><span class="err">.</span><span class="ni">logs</span> <span class="ni">string</span>             <span class="ni">Logs</span> <span class="ni">path</span>
+      <span class="err">--</span><span class="ni">strict</span><span class="err">.</span><span class="ni">perms</span>                 <span class="ni">Strict</span> <span class="ni">permission</span> <span class="ni">checking</span> <span class="ni">on</span> <span class="ni">config</span> <span class="ni">files</span> <span class="p">(</span><span class="ni">default</span> <span class="ni">true</span><span class="p">)</span>
+      <span class="err">--</span><span class="ni">system</span><span class="err">.</span><span class="ni">hostfs</span> <span class="ni">string</span>         <span class="ni">Mount</span> <span class="ni">point</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">host</span><span class="err">'s</span> <span class="ni">filesystem</span> <span class="ni">for</span> <span class="ni">use</span> <span class="ni">in</span> <span class="ni">monitoring</span> <span class="err">a</span> <span class="ni">host</span> <span class="ni">from</span> <span class="ni">within</span> <span class="err">a</span> <span class="ni">container</span>
+  <span class="err">-v</span><span class="p">,</span> <span class="err">--v</span>                            <span class="ni">Log</span> <span class="ni">at</span> <span class="ni">INFO</span> <span class="ni">level</span>
+
+<span class="ni">Use</span> <span class="s">"filebeat [command] --help"</span> <span class="ni">for</span> <span class="ni">more</span> <span class="ni">information</span> <span class="ni">about</span> <span class="err">a</span> <span class="ni">command</span><span class="err">.</span>
+
+</code></pre></div></div>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">Error</span><span class="err">:</span> <span class="ni">unknown</span> <span class="ni">command</span> <span class="s">"/?"</span> <span class="ni">for</span> <span class="s">"filebeat"</span>
+<span class="ni">Run</span> <span class="err">'</span><span class="ni">filebeat</span> <span class="err">--</span><span class="ni">help</span><span class="err">'</span> <span class="ni">for</span> <span class="ni">usage</span><span class="err">.</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\Program Files\Elastic\Agent\data\elastic-agent-5ae799\install\filebeat-7.15.1-windows-x86_64\filebeat.exe</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNEL32.DLL</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\System32\KERNELBASE.dll</td>
+    </tr>
+    <tr>
+      <td>C:\Windows\SYSTEM32\ntdll.dll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">0D6AC55C87AAE413A8D7E1303C483495</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">9F1AE2588723FD3E8F374C688D5A9FCE0EC50F44</code></li>
+  <li>Issuer: CN=DigiCert EV Code Signing CA (SHA2), OU=www.digicert.com, O=DigiCert Inc, C=US</li>
+  <li>Subject: CN=”Elasticsearch, Inc.”, O=”Elasticsearch, Inc.”, L=Mountain View, S=California, C=US, SERIALNUMBER=5195380, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: filebeat.exe</li>
+  <li>Product Name: Filebeat</li>
+  <li>Company Name: Elastic</li>
+  <li>File Version: 7.15.1</li>
+  <li>Product Version: 7.15.1</li>
+  <li>Language: Language Neutral</li>
+  <li>Legal Copyright: Copyright Elastic, License Elastic License</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/71</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/393ba05d660901e1034d4c7d0972e2ee3b7e59fd06b95e45aa13a6f04c099c91/detection</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">filebeat.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">filebeat.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/macos_disable_security_tools.yml">macos_disable_security_tools.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">filebeat'</span>                                         <span class="c1"># elastic log file shipper</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/macos_security_software_discovery.yml">macos_security_software_discovery.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">filebeat'</span>       <span class="c1"># elastic log file shipper</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/process_creation/lnx_security_software_discovery.yml">lnx_security_software_discovery.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">filebeat'</span>       <span class="c1"># elastic log file shipper</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-dns.yml">ecs-dns.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">filebeat-*</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-filebeat.yml">ecs-filebeat.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Elastic filebeat (from 7.x) index pattern and field mapping following Elastic Common Schema</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-filebeat.yml">ecs-filebeat.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">defaultindex</span><span class="pi">:</span> <span class="s">filebeat-*</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-proxy.yml">ecs-proxy.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">filebeat-*</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-elastic-beats-implementation.yml">ecs-zeek-elastic-beats-implementation.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Elastic Common Schema (ECS) implementation for Zeek using filebeat modules enabled based on version 7.6.1</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-elastic-beats-implementation.yml">ecs-zeek-elastic-beats-implementation.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">index</span><span class="pi">:</span> <span class="s1">'</span><span class="s">filebeat*'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-zeek-elastic-beats-implementation.yml">ecs-zeek-elastic-beats-implementation.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">defaultindex</span><span class="pi">:</span> <span class="s1">'</span><span class="s">filebeat*'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/elk-defaultindex-filebeat.yml">elk-defaultindex-filebeat.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">ELK default indices filebeat-*</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/elk-defaultindex-filebeat.yml">elk-defaultindex-filebeat.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">filebeat-*</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/elk-defaultindex.yml">elk-defaultindex.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">ELK default indices logstash-* and filebeat-*</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/elk-defaultindex.yml">elk-defaultindex.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">filebeat-*</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/filebeat-defaultindex.yml">filebeat-defaultindex.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Elastic Filebeat default index name</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/filebeat-defaultindex.yml">filebeat-defaultindex.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">filebeat-*</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md">T1518.001.md</a></td>
+      <td>ps aux | egrep ‘Little\ Snitch|CbOsxSensorService|falcond|nessusd|santad|CbDefense|td-agent|packetbeat|filebeat|auditbeat|osqueryd|BlockBlock|LuLu’</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md">T1518.001.md</a></td>
+      <td>ps aux | egrep ‘falcond|nessusd|cbagentd|td-agent|packetbeat|filebeat|auditbeat|osqueryd’</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

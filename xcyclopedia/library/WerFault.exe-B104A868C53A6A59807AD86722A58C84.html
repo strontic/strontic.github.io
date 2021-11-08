@@ -375,6 +375,48 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_suspicious_werfault_connection_outbound.yml">win_suspicious_werfault_connection_outbound.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Suspicious Werfault.exe Network Connection Outbound</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_suspicious_werfault_connection_outbound.yml">win_suspicious_werfault_connection_outbound.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Adversaries can migrate cobalt strike/metasploit/C2 beacons on compromised systems to legitimate werfault.exe process to avoid detection.</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_suspicious_werfault_connection_outbound.yml">win_suspicious_werfault_connection_outbound.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">werfault.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_cve_2021_26857_msexchange.yml">sysmon_cve_2021_26857_msexchange.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">WerFault.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_bad_opsec_sacrificial_processes.yml">win_bad_opsec_sacrificial_processes.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Detects</span><span class="nv"> </span><span class="s">attackers</span><span class="nv"> </span><span class="s">using</span><span class="nv"> </span><span class="s">tooling</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">bad</span><span class="nv"> </span><span class="s">opsec</span><span class="nv"> </span><span class="s">defaults</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">spawning</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">sacrificial</span><span class="nv"> </span><span class="s">process</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">inject</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">capability</span><span class="nv"> </span><span class="s">into</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">process</span><span class="nv"> </span><span class="s">without</span><span class="nv"> </span><span class="s">taking</span><span class="nv"> </span><span class="s">into</span><span class="nv"> </span><span class="s">account</span><span class="nv"> </span><span class="s">how</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">process</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">normally</span><span class="nv"> </span><span class="s">run,</span><span class="nv"> </span><span class="s">one</span><span class="nv"> </span><span class="s">trivial</span><span class="nv"> </span><span class="s">example</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">using</span><span class="nv"> </span><span class="s">rundll32.exe</span><span class="nv"> </span><span class="s">without</span><span class="nv"> </span><span class="s">arguments</span><span class="nv"> </span><span class="s">as</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">sacrificial</span><span class="nv"> </span><span class="s">process</span><span class="nv"> </span><span class="s">(default</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">CS,</span><span class="nv"> </span><span class="s">now</span><span class="nv"> </span><span class="s">highlighted</span><span class="nv"> </span><span class="s">by</span><span class="nv"> </span><span class="s">c2lint),</span><span class="nv"> </span><span class="s">running</span><span class="nv"> </span><span class="s">WerFault</span><span class="nv"> </span><span class="s">without</span><span class="nv"> </span><span class="s">arguments</span><span class="nv"> </span><span class="s">(Kraken</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">credit</span><span class="nv"> </span><span class="s">am0nsec),</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">examples.'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_bad_opsec_sacrificial_processes.yml">win_bad_opsec_sacrificial_processes.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\WerFault.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_bad_opsec_sacrificial_processes.yml">win_bad_opsec_sacrificial_processes.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">CommandLine\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\WerFault.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2020_1350.yml">win_exploit_cve_2020_1350.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\System32\werfault.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
@@ -382,6 +424,12 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_lsass_dump.yml">win_lsass_dump.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\werfault.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_consent_comctl32.yml">win_uac_bypass_consent_comctl32.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\werfault.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>

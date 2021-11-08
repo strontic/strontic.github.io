@@ -359,7 +359,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/other/win_pcap_drivers.yml">win_pcap_drivers.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*pktmon*'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">pktmon'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -410,14 +410,14 @@
 <h2 id="pktmon">pktmon</h2>
 
 <blockquote>
-  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows 10, Azure Stack HCI, Azure Stack Hub, Azure</p>
+  <p>Applies to: Windows Server 2022, Windows Server 2019, Windows 10, Azure Stack HCI, Azure Stack Hub, Azure</p>
 </blockquote>
 
-<p>Packet Monitor (Pktmon) is an in-box, cross-component network diagnostics tool for Windows. It can be used for packet capture, drop detection, filtering, and counting. Pktmon is especially helpful in virtualization scenarios such as container networking and SDN, because it provides visibility within the networking stack.</p>
+<p>Packet Monitor (Pktmon) is an in-box, cross-component network diagnostics tool for Windows. It can be used for advanced packet capture and event collection, drop detection, filtering, and counting. Pktmon is especially helpful in virtualization scenarios such as container networking and SDN, because it provides visibility within the networking stack.</p>
 
 <h3 id="syntax">Syntax</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pktmon { filter | comp | reset | counters | format | list | start | stop | pcapng | unload | help } [options]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pktmon { filter | list | start | stop | status | unload | counters | reset | etl2txt | etl2pcap | hex2pkt | help } [options]
 </code></pre></div></div>
 
 <h4 id="commands">Commands</h4>
@@ -435,44 +435,48 @@
       <td>Manage packet filters.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-comp.md">pktmon comp</a></td>
-      <td>Manage registered components.</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-reset.md">pktmon reset</a></td>
-      <td>Reset counters to zero.</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-counters.md">pktmon counters</a></td>
-      <td>Query packet counters.</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-format.md">pktmon format</a></td>
-      <td>Convert log file to text.</td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-list.md">pktmon list</a></td>
-      <td>List all active components.</td>
+      <td>List packet processing components.</td>
     </tr>
     <tr>
       <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-start.md">pktmon start</a></td>
-      <td>Start packet monitoring.</td>
+      <td>Start packet capture and event collection.</td>
     </tr>
     <tr>
       <td>pktmon stop</td>
-      <td>Stop packet monitoring.</td>
+      <td>Stop data collection.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-pcapng.md">pktmon pcapng</a></td>
-      <td>Convert log file to pcapng format.</td>
+      <td>pktmon status</td>
+      <td>Query current status.</td>
     </tr>
     <tr>
       <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-unload.md">pktmon unload</a></td>
-      <td>Unload pktmon driver.</td>
+      <td>Unload PktMon driver.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-counters.md">pktmon counters</a></td>
+      <td>Display current packet counters.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-reset.md">pktmon reset</a></td>
+      <td>Reset packet counters to zero.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-format.md">pktmon etl2txt</a></td>
+      <td>Convert log file to text format.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/pktmon-pcapng.md">pktmon etl2pcap</a></td>
+      <td>Convert log file to pcapng format.</td>
+    </tr>
+    <tr>
+      <td>pktmon hex2pkt</td>
+      <td>Decode packet in hexadecimal format.</td>
     </tr>
     <tr>
       <td>pktmon help</td>
-      <td>Displays a short summary of subcommands.</td>
+      <td>Show help text for specific command.</td>
     </tr>
   </tbody>
 </table>
@@ -480,8 +484,8 @@
 <h3 id="additional-references">Additional References</h3>
 
 <ul>
-  <li><a href="/windows-server/networking/technologies/pktmon/pktmon">Packet Monitor overview</a></li>
-  <li><a href="/windows-server/networking/technologies/pktmon/pktmon-netmon-support">Pktmon support for Microsoft Network Monitor (Netmon)</a></li>
+  <li><a href="../../networking/technologies/pktmon/pktmon.md">Packet Monitor overview</a></li>
+  <li><a href="../../networking/technologies/pktmon/pktmon-netmon-support.md">Pktmon support for Microsoft Network Monitor (Netmon)</a></li>
 </ul>
 
 <hr />

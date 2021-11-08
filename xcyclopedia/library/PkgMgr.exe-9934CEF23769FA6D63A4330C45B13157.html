@@ -450,6 +450,59 @@
   </tbody>
 </table>
 
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">PkgMgr.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">PkgMgr.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_uac_bypass_msconfig_gui.yml">sysmon_uac_bypass_msconfig_gui.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetFilename\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\AppData\Local\Temp\pkgmgr.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_msconfig_gui.yml">win_uac_bypass_msconfig_gui.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ParentImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\AppData\Local\Temp\pkgmgr.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_pkgmgr_dism.yml">win_uac_bypass_pkgmgr_dism.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">UAC Bypass Using PkgMgr and DISM</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_pkgmgr_dism.yml">win_uac_bypass_pkgmgr_dism.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects the pattern of UAC Bypass using pkgmgr.exe and dism.exe (UACMe 23)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_pkgmgr_dism.yml">win_uac_bypass_pkgmgr_dism.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ParentImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\pkgmgr.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md">T1548.002.md</a></td>
+      <td>Target:	\system32\pkgmgr.exe</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+  </tbody>
+</table>
+
 <p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 

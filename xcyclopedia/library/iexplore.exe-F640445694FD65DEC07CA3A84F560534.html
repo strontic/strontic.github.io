@@ -760,12 +760,20 @@
       <td>97</td>
     </tr>
     <tr>
+      <td><a href="/xcyclopedia/library/iexplore.exe-5E5F63CD0CA3EE94C61A2DB20CE33FC9.html">C:\Program Files (x86)\Internet Explorer\iexplore.exe</a></td>
+      <td>93</td>
+    </tr>
+    <tr>
       <td><a href="/xcyclopedia/library/iexplore.exe-A2CD9CF67DEB267D7A2813F00D47245C.html">C:\Program Files (x86)\Internet Explorer\iexplore.exe</a></td>
       <td>93</td>
     </tr>
     <tr>
       <td><a href="/xcyclopedia/library/iexplore.exe-6BFE7CA23C89FD5809A48355EC5625EE.html">C:\Program Files\Internet Explorer\iexplore.exe</a></td>
       <td>96</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/iexplore.exe-AA094DE5B8EF17848A5926C13EB67E26.html">C:\Program Files\Internet Explorer\iexplore.exe</a></td>
+      <td>94</td>
     </tr>
   </tbody>
 </table>
@@ -786,6 +794,18 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/network/net_susp_ipify.yml">net_susp_ipify.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">\iexplore.exe</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/create_remote_thread/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\iexplore.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_abusing_azure_browser_sso.yml">sysmon_abusing_azure_browser_sso.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">iexplore.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
@@ -793,7 +813,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1388.yml">win_exploit_cve_2019_1388.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\iexplore.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\iexplore.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -804,8 +824,8 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\iexplore.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_dcom_iertutil_dll_hijack.yml">sysmon_dcom_iertutil_dll_hijack.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\Internet</span><span class="nv"> </span><span class="s">Explorer\iexplore.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -829,13 +849,13 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.004/T1134.004.md">T1134.004.md</a></td>
-      <td>| spawnto_process_path | Path of the process to spawn | path | C:\Program Files\Internet Explorer\iexplore.exe|</td>
+      <td>| spawnto_process_path | Path of the process to spawn | Path | C:\Program Files\Internet Explorer\iexplore.exe|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.004/T1134.004.md">T1134.004.md</a></td>
-      <td>| spawnto_process_name | Name of the process to spawn | string | iexplore|</td>
+      <td>| spawnto_process_name | Name of the process to spawn | String | iexplore|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>

@@ -371,7 +371,7 @@
 <h2 id="hostname">hostname</h2>
 
 <blockquote>
-  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
+  <p>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
 </blockquote>
 
 <p>Displays the host name portion of the full computer name of the computer.</p>
@@ -387,15 +387,53 @@ This command is available only if the Internet Protocol (TCP/IP) protocol is ins
 </code></pre></div></div>
 
 <h4 id="parameters">Parameters</h4>
-<p>| Parameter | Description |
-| ——- | ——– |
-| /? | Displays help at the command prompt. |</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/?</td>
+      <td>Displays help at the command prompt.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Any parameter different than <code class="language-plaintext highlighter-rouge">/?</code> produces an error message and sets the errorlevel to 1.</p>
+
+<h4 id="notes">Notes</h4>
+
+<ul>
+  <li>Environment variable <code class="language-plaintext highlighter-rouge">%COMPUTERNAME%</code> usually will print the same string as <code class="language-plaintext highlighter-rouge">hostname</code>, but in uppercase.</li>
+  <li>If environment variable <code class="language-plaintext highlighter-rouge">_CLUSTER_NETWORK_NAME_</code> is defined, <code class="language-plaintext highlighter-rouge">hostname</code> will print its value.</li>
+</ul>
 
 <h4 id="examples">Examples</h4>
 
-<p>To display the name of the computer, type:</p>
+<ul>
+  <li>To display the name of the computer, type:</li>
+</ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hostname
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">hostname</span>
+</code></pre></div></div>
+
+<ul>
+  <li>To display the name of the computer in uppercase:</li>
+</ul>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> %COMPUTERNAME%
+</code></pre></div></div>
+
+<ul>
+  <li>To alter the hostname output:</li>
+</ul>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">set</span> <span class="s2">"_CLUSTER_NETWORK_NAME_=Altered Computer Name"</span>
+<span class="nb">hostname</span>
 </code></pre></div></div>
 
 <h3 id="additional-references">Additional References</h3>

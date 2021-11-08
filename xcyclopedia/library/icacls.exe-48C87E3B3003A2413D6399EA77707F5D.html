@@ -505,7 +505,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_wannacry.yml">win_malware_wannacry.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*icacls</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">/grant</span><span class="nv"> </span><span class="s">Everyone:F</span><span class="nv"> </span><span class="s">/T</span><span class="nv"> </span><span class="s">/C</span><span class="nv"> </span><span class="s">/Q*'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">icacls'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -542,6 +542,18 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md">T1222.001.md</a></td>
       <td>icacls “#{path}” /grant Everyone:F /T /C /Q</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md">T1222.001.md</a></td>
+      <td>icacls ‘#{path}’ /restore #{file_path} /q &gt;nul 2&gt;&amp;1</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md">T1222.001.md</a></td>
+      <td>icacls #{path} /save #{file_path} /t /q &gt;nul 2&gt;&amp;1</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -609,11 +621,11 @@ icacls &lt;directory&gt; [/substitute &lt;sidold&gt; &lt;sidnew&gt; [...]] [/res
   </thead>
   <tbody>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></td>
+      <td>&lt;filename&gt;</td>
       <td>Specifies the file for which to display DACLs.</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">&lt;directory&gt;</code></td>
+      <td>&lt;directory&gt;</td>
       <td>Specifies the directory for which to display DACLs.</td>
     </tr>
     <tr>
@@ -633,15 +645,15 @@ icacls &lt;directory&gt; [/substitute &lt;sidold&gt; &lt;sidnew&gt; [...]] [/res
       <td>Suppresses success messages.</td>
     </tr>
     <tr>
-      <td>[/save <code class="language-plaintext highlighter-rouge">&lt;ACLfile&gt;</code> [/t] [/c] [/l] [/q]]</td>
+      <td>[/save &lt;ACLfile&gt; [/t] [/c] [/l] [/q]]</td>
       <td>Stores DACLs for all matching files into <em>ACLfile</em> for later use with <strong>/restore</strong>.</td>
     </tr>
     <tr>
-      <td>[/setowner <code class="language-plaintext highlighter-rouge">&lt;username&gt;</code> [/t] [/c] [/l] [/q]]</td>
+      <td>[/setowner &lt;username&gt; [/t] [/c] [/l] [/q]]</td>
       <td>Changes the owner of all matching files to the specified user.</td>
     </tr>
     <tr>
-      <td>[/findsid <code class="language-plaintext highlighter-rouge">&lt;sid&gt;</code> [/t] [/c] [/l] [/q]]</td>
+      <td>[/findsid &lt;sid&gt; [/t] [/c] [/l] [/q]]</td>
       <td>Finds all matching files that contain a DACL explicitly mentioning the specified security identifier (SID).</td>
     </tr>
     <tr>
@@ -653,31 +665,31 @@ icacls &lt;directory&gt; [/substitute &lt;sidold&gt; &lt;sidnew&gt; [...]] [/res
       <td>Replaces ACLs with default inherited ACLs for all matching files.</td>
     </tr>
     <tr>
-      <td>[/grant[:r] &lt;sid&gt;:<perm>[...]]</perm></td>
+      <td>[/grant[:r] &lt;sid&gt;:&lt;perm&gt;[…]]</td>
       <td>Grants specified user access rights. Permissions replace previously granted explicit permissions.&lt;p&gt;Not adding the <strong>:r</strong>, means that permissions are added to any previously granted explicit permissions.</td>
     </tr>
     <tr>
-      <td>[/deny &lt;sid&gt;:<perm>[...]]</perm></td>
+      <td>[/deny &lt;sid&gt;:&lt;perm&gt;[…]]</td>
       <td>Explicitly denies specified user access rights. An explicit deny ACE is added for the stated permissions and the same permissions in any explicit grant are removed.</td>
     </tr>
     <tr>
-      <td>[/remove<code class="language-plaintext highlighter-rouge">[:g | :d]]</code> <code class="language-plaintext highlighter-rouge">&lt;sid&gt;</code>[…] [/t] [/c] [/l] [/q]</td>
+      <td>[/remove[:g | :d]] &lt;sid&gt;[…] [/t] [/c] [/l] [/q]</td>
       <td>Removes all occurrences of the specified SID from the DACL. This command can also use:&lt;ul&gt;&lt;li&gt;<strong>:g</strong> - Removes all occurrences of granted rights to the specified SID.&lt;/li&gt;&lt;li&gt;<strong>:d</strong> - Removes all occurrences of denied rights to the specified SID.</td>
     </tr>
     <tr>
-      <td>[/setintegritylevel [(CI)(OI)] <code class="language-plaintext highlighter-rouge">&lt;Level&gt;:&lt;Policy&gt;</code>[…]]</td>
+      <td>[/setintegritylevel [(CI)(OI)] &lt;Level&gt;:&lt;Policy&gt;[…]]</td>
       <td>Explicitly adds an integrity ACE to all matching files. The level can be specified as:&lt;ul&gt;&lt;li&gt;<strong>l</strong> - Low&lt;/li&gt;&lt;li&gt;<strong>m</strong>- Medium&lt;/li&gt;&lt;li&gt;<strong>h</strong> - High&lt;/li&gt;&lt;/ul&gt;Inheritance options for the integrity ACE may precede the level and are applied only to directories.</td>
     </tr>
     <tr>
-      <td>[/substitute <code class="language-plaintext highlighter-rouge">&lt;sidold&gt; &lt;sidnew&gt;</code> […]]</td>
+      <td>[/substitute &lt;sidold&gt;&lt;sidnew&gt; […]]</td>
       <td>Replaces an existing SID (<em>sidold</em>) with a new SID (<em>sidnew</em>). Requires using with the <code class="language-plaintext highlighter-rouge">&lt;directory&gt;</code> parameter.</td>
     </tr>
     <tr>
-      <td>/restore <code class="language-plaintext highlighter-rouge">&lt;ACLfile&gt;</code> [/c] [/l] [/q]</td>
+      <td>/restore &lt;ACLfile&gt; [/c] [/l] [/q]</td>
       <td>Applies stored DACLs from <code class="language-plaintext highlighter-rouge">&lt;ACLfile&gt;</code> to files in the specified directory. Requires using with the <code class="language-plaintext highlighter-rouge">&lt;directory&gt;</code> parameter.</td>
     </tr>
     <tr>
-      <td>/inheritancelevel:<code class="language-plaintext highlighter-rouge">[e | d | r]</code></td>
+      <td>/inheritancelevel: [e | d | r]</td>
       <td>Sets the inheritance level, which can be:&lt;ul&gt;&lt;li&gt;<strong>e</strong> - Enables inheritance&lt;/li&gt;&lt;li&gt;<strong>d</strong> - Disables inheritance and copies the ACEs&lt;/li&gt;&lt;li&gt;<strong>r</strong> - Removes all inherited ACEs&lt;/li&gt;&lt;/ul&gt;</td>
     </tr>
   </tbody>

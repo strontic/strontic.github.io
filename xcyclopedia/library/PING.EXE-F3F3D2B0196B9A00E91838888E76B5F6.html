@@ -369,8 +369,14 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/create_remote_thread/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\ping.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_qbot.yml">win_malware_qbot.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">CommandLine</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">ping.exe</span><span class="nv"> </span><span class="s">-n</span><span class="nv"> </span><span class="s">6</span><span class="nv"> </span><span class="s">127.0.0.1</span><span class="nv"> </span><span class="s">&amp;</span><span class="nv"> </span><span class="s">type</span><span class="nv"> </span><span class="s">*'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">CommandLine\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">ping.exe</span><span class="nv"> </span><span class="s">-n</span><span class="nv"> </span><span class="s">6</span><span class="nv"> </span><span class="s">127.0.0.1</span><span class="nv"> </span><span class="s">&amp;</span><span class="nv"> </span><span class="s">type</span><span class="nv"> </span><span class="s">'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -382,19 +388,13 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ping_hex_ip.yml">win_susp_ping_hex_ip.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\ping.exe</span><span class="nv"> </span><span class="s">0x'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\ping.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_ping_hex_ip.yml">win_susp_ping_hex_ip.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">ping.exe'</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\ping.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_webshell_detection.yml">win_webshell_detection.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\ping.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -415,7 +415,7 @@
 <h2 id="ping">ping</h2>
 
 <blockquote>
-  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
+  <p>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
 </blockquote>
 
 <p>Verifies IP-level connectivity to another TCP/IP computer by sending Internet Control Message Protocol (ICMP) echo Request messages. The receipt of corresponding echo Reply messages are displayed, along with round-trip times. ping is the primary TCP/IP command used to troubleshoot connectivity, reachability, and name resolution. Used without parameters, this command displays Help content.</p>

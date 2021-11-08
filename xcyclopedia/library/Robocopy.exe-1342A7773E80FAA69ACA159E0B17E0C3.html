@@ -499,37 +499,43 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/create_remote_thread/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\robocopy.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml">win_multiple_suspicious_cli.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">robocopy.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_copy_lateral_movement.yml">win_susp_copy_lateral_movement.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\robocopy.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml">Robocopy.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Robocopy.yml">Robocopy.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Robocopy.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml">Robocopy.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Robocopy.yml">Robocopy.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">Robocopy.exe C:\SourceFolder C:\DestFolder</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml">Robocopy.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Robocopy.yml">Robocopy.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">Robocopy.exe \\SERVER\SourceFolder C:\DestFolder</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Robocopy.yml">Robocopy.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Robocopy.yml">Robocopy.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://social.technet.microsoft.com/wiki/contents/articles/1073.robocopy-and-a-few-examples.aspx</span></code></td>
       <td> </td>
     </tr>
@@ -609,15 +615,15 @@
     </tr>
     <tr>
       <td>/z</td>
-      <td>Copies files in restartable mode.</td>
+      <td>Copies files in restartable mode. In restartable mode, should a file copy be interrupted, Robocopy can pick up where it left off rather than re-copying the entire file.</td>
     </tr>
     <tr>
       <td>/b</td>
-      <td>Copies files in Backup mode.</td>
+      <td>Copies files in backup mode. Backup mode allows Robocopy to override file and folder permission settings (ACLs). This allows you to copy files you might otherwise not have access to, assuming it’s being run under an account with sufficient privileges.</td>
     </tr>
     <tr>
       <td>/zb</td>
-      <td>Uses restartable mode. If access is denied, this option uses Backup mode.</td>
+      <td>Copies files in restartable mode. If file access is denied, switches to backup mode.</td>
     </tr>
     <tr>
       <td>/j</td>
@@ -802,12 +808,44 @@ When using the <strong>/secfix</strong> copy option, specify the type of securit
       <td>Excludes “lonely” files and directories.</td>
     </tr>
     <tr>
+      <td>/im</td>
+      <td>Include modified files (differing change times).</td>
+    </tr>
+    <tr>
       <td>/is</td>
       <td>Includes the same files.</td>
     </tr>
     <tr>
       <td>/it</td>
-      <td>Includes modified files.</td>
+      <td>Includes tweaked files.</td>
+    </tr>
+    <tr>
+      <td>/xc</td>
+      <td>Excludes existing files with the same timestamp, but different file sizes.</td>
+    </tr>
+    <tr>
+      <td>/xn</td>
+      <td>Excludes existing files newer than the copy in the source directory.</td>
+    </tr>
+    <tr>
+      <td>/xo</td>
+      <td>Excludes existing files older than the copy in the source directory.</td>
+    </tr>
+    <tr>
+      <td>/xx</td>
+      <td>Excludes extra files and directories present in the destination but not the source. Excluding extra files will not delete files from the destination.</td>
+    </tr>
+    <tr>
+      <td>/xl</td>
+      <td>Excludes “lonely” files and directories present in the source but not the destination. Excluding lonely files prevents any new files from being added to the destination.</td>
+    </tr>
+    <tr>
+      <td>/is</td>
+      <td>Includes the same files. Same files are identical in name, size, times, and all attributes.</td>
+    </tr>
+    <tr>
+      <td>/it</td>
+      <td>Includes “tweaked” files. Tweaked files have the same name, size, and times, but different attributes.</td>
     </tr>
     <tr>
       <td>/max:<code class="language-plaintext highlighter-rouge">&lt;n&gt;</code></td>

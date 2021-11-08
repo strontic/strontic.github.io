@@ -368,6 +368,10 @@
       <td><a href="/xcyclopedia/library/firefox.exe-2E9D3F170BE8451F3DAE9D0EB8EE2A6E.html">C:\Program Files\Mozilla Firefox\firefox.exe</a></td>
       <td>41</td>
     </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/firefox.exe-FAEAF27CD3F8B9D750E1C0DA85F1527A.html">C:\Program Files\Mozilla Firefox\firefox.exe</a></td>
+      <td>46</td>
+    </tr>
   </tbody>
 </table>
 
@@ -385,6 +389,12 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/network/net_susp_ipify.yml">net_susp_ipify.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">\firefox.exe</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_ua_apt.yml">proxy_ua_apt.yml</a></td>
@@ -425,6 +435,12 @@
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_ua_apt.yml">proxy_ua_apt.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">Mozilla</span><span class="nv"> </span><span class="s">v5.1</span><span class="nv"> </span><span class="s">(Windows</span><span class="nv"> </span><span class="s">NT</span><span class="nv"> </span><span class="s">6.1;</span><span class="nv"> </span><span class="s">rv:6.0.1)</span><span class="nv"> </span><span class="s">Gecko/20100101</span><span class="nv"> </span><span class="s">Firefox/6.0.1'</span>  <span class="c1"># Delphi downloader https://www.welivesecurity.com/2018/04/24/sednit-update-analysis-zebrocy/</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_ua_apt.yml">proxy_ua_apt.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">Mozilla/5.0</span><span class="nv"> </span><span class="s">(X11;</span><span class="nv"> </span><span class="s">Linux</span><span class="nv"> </span><span class="s">i686;</span><span class="nv"> </span><span class="s">rv:22.0)</span><span class="nv"> </span><span class="s">Firefox/22.0'</span>  <span class="c1"># BackdoorDiplomacy https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -471,6 +487,12 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_mal_vhd_download.yml">file_event_mal_vhd_download.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">firefox.exe</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_suspicious_outbound_kerberos_connection.yml">sysmon_suspicious_outbound_kerberos_connection.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\firefox.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
@@ -479,6 +501,18 @@
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_powershell_parent_process.yml">win_susp_powershell_parent_process.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\firefox.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_dns_over_https_enabled.yml">sysmon_dns_over_https_enabled.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://admx.help/HKLM/Software/Policies/Mozilla/Firefox/DNSOverHTTPS</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_dns_over_https_enabled.yml">sysmon_dns_over_https_enabled.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetObject\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\SOFTWARE\Policies\Mozilla\Firefox\DNSOverHTTPS\Enabled'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -580,18 +614,12 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/linux-index.md">linux-index.md</a></td>
-      <td>- Atomic Test #3: Firefox [linux, windows, macos]</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/linux-index.md">linux-index.md</a></td>
       <td>- Atomic Test #1: List Mozilla Firefox Bookmark Database Files on Linux [linux]</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/macos-index.md">macos-index.md</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/linux-index.md">linux-index.md</a></td>
       <td>- Atomic Test #3: Firefox [linux, windows, macos]</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
@@ -599,6 +627,12 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/macos-index.md">macos-index.md</a></td>
       <td>- Atomic Test #2: List Mozilla Firefox Bookmark Database Files on macOS [macos]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/macos-index.md">macos-index.md</a></td>
+      <td>- Atomic Test #3: Firefox [linux, windows, macos]</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -700,13 +734,19 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555.003/T1555.003.md">T1555.003.md</a></td>
-      <td>Adversaries have executed similar procedures for common web browsers such as FireFox, Safari, Edge, etc. (Citation: Proofpoint Vega Credential Stealer May 2018)(Citation: FireEye HawkEye Malware July 2017)</td>
+      <td>Adversaries have executed similar procedures for common web browsers such as FireFox, Safari, Edge, etc.(Citation: Proofpoint Vega Credential Stealer May 2018)(Citation: FireEye HawkEye Malware July 2017) Windows stores Internet Explorer and Microsoft Edge credentials in Credential Lockers managed by the <a href="https://attack.mitre.org/techniques/T1555/004">Windows Credential Manager</a>.</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt30_backspace.yar">apt_apt30_backspace.yar</a></td>
       <td>$s4 = “(C)Firefox and Mozilla Developers, according to the MPL 1.1/GPL 2.0/LGPL” wide</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt37_bluelight.yar">apt_apt37_bluelight.yar</a></td>
+      <td>$chrome9 = “Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0”</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>
@@ -881,6 +921,12 @@
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_rombertik_carbongrabber.yar">crime_rombertik_carbongrabber.yar</a></td>
       <td>$s5 = “firefox.exe” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_socgholish.yar">crime_socgholish.yar</a></td>
+      <td>$b1 = “Firefox.js” ascii</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>

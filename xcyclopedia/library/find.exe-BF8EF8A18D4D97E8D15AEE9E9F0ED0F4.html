@@ -353,7 +353,7 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/create_remote_thread/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\find.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
@@ -372,7 +372,7 @@
 
 <h3 id="syntax">Syntax</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find [/v] [/c] [/n] [/i] [/off[line]] &lt;string&gt; [[&lt;drive&gt;:][&lt;path&gt;]&lt;filename&gt;[...]]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find [/v] [/c] [/n] [/i] [/off[line]] &lt;"string"&gt; [[&lt;drive&gt;:][&lt;path&gt;]&lt;filename&gt;[...]]
 </code></pre></div></div>
 
 <h4 id="parameters">Parameters</h4>
@@ -406,7 +406,7 @@
       <td>Doesn’t skip files that have the offline attribute set.</td>
     </tr>
     <tr>
-      <td><code class="language-plaintext highlighter-rouge">&lt;string&gt;</code></td>
+      <td><code class="language-plaintext highlighter-rouge">&lt;"string"&gt;</code></td>
       <td>Required. Specifies the group of characters (enclosed in quotation marks) that you want to search for.</td>
     </tr>
     <tr>
@@ -420,14 +420,39 @@
   </tbody>
 </table>
 
+<h4 id="exit-codes">Exit codes</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Exit code</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>The searched string was found</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Searched string not found</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Searched file not found or invalid command line switch was given</td>
+    </tr>
+  </tbody>
+</table>
+
 <h5 id="remarks">Remarks</h5>
 
 <ul>
   <li>
-    <p>If you don’t use <strong>/i</strong>, this command searches for exactly what you specify for <em>string</em>. For example, this command treats the characters <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">A</code> differently. If you use <strong>/i</strong>, however, the search becomes non-case-sensitive, and it treats <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">A</code> as the same character.</p>
+    <p>If you don’t use <strong>/i</strong>, this command searches for exactly what you specify for <em>string</em>. For example, this command treats the characters <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">A</code> differently. If you use <strong>/i</strong>, however, the search becomes case insensitive, and it treats <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">A</code> as the same character.</p>
   </li>
   <li>
-    <p>If the string you want to search for contains quotation marks, you must use double quotation marks for each quotation mark contained within the string (for example, ““This string contains quotation marks””).</p>
+    <p>If the string you want to search for contains quotation marks, you must use double quotation marks for each quotation mark contained within the string (for example, “"”This string contains quotation marks”””).</p>
   </li>
   <li>
     <table>
@@ -440,47 +465,64 @@
     </table>
   </li>
   <li>
+    <p>To exit the console search use <code class="language-plaintext highlighter-rouge">CTRL-X</code> or <code class="language-plaintext highlighter-rouge">CTRL-z</code>.</p>
+  </li>
+  <li>
     <p>You can type parameters and command-line options for the <strong>find</strong> command in any order.</p>
   </li>
   <li>
-    <p>You can’t use wildcards (<strong>*</strong> and <strong>?</strong>) in file names or extensions that you specify while using this command. To search for a string in a set of files that you specify with wildcards, you can use this command within a <strong>for</strong> command.</p>
+    <p>You can’t use wildcards (<strong>*</strong> and <strong>?</strong>) in the searched string. To search for a string with wild cards and regex patterns, you can use the <strong>FINDSTR</strong> command.</p>
   </li>
   <li>
     <p>If you use <strong>/c</strong> and <strong>/v</strong> in the same command line, this command displays a count of the lines that don’t contain the specified string. If you specify <strong>/c</strong> and <strong>/n</strong> in the same command line, <strong>find</strong> ignores <strong>/n</strong>.</p>
   </li>
-  <li>This command doesn’t recognize carriage returns. When you use this command to search for text in a file that includes carriage returns, you must limit the search string to text that can be found between carriage returns (that is, a string that is not likely to be interrupted by a carriage return). For example, this command doesn’t report a match for the string tax file if a carriage return occurs between the words tax and file.</li>
+  <li>
+    <p>This command doesn’t recognize carriage returns. When you use this command to search for text in a file that includes carriage returns, you must limit the search string to text that can be found between carriage returns (that is, a string that is not likely to be interrupted by a carriage return). For example, this command doesn’t report a match for the string tax file if a carriage return occurs between the words tax and file.</p>
+  </li>
+  <li>
+    <p>The command accepts wildcards for file names. When searching in file (or files) it will print the file of the processed file predeceased by ten dashes.</p>
+  </li>
+  <li><strong>Find</strong> command cannot read alternate data streams. For searching in alternate data streams use <strong>findstr</strong>, <strong>more</strong> or <strong>for /f</strong> commands.</li>
 </ul>
 
 <h4 id="examples">Examples</h4>
 
-<p>To display all lines from <em>pencil.ad</em> that contain the string <em>pencil sharpener</em>, type:</p>
+<p>To display all lines from <em>pencil.md</em> that contain the string <em>pencil sharpener</em>, type:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find pencil sharpener pencil.ad
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find "pencil sharpener" pencil.md
 </code></pre></div></div>
 
-<p>To find the text, “The scientists labeled their paper for discussion only. It is not a final report.” in the <em>report.doc</em> file, type:</p>
+<p>To find the text, <em>“The scientists labeled their paper for discussion only. It is not a final report.”</em> (including the quotes) in the <em>report.txt</em> file, type:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find ""The scientists labeled their paper for discussion only. It is not a final report."" report.doc
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find """The scientists labeled their paper for discussion only. It is not a final report.""" &lt; report.txt
 </code></pre></div></div>
 
-<p>To search for a set of files, you can use the <strong>find</strong> command within the <strong>for</strong> command. To search the current directory for files that have the extension .bat and that contain the string PROMPT, type:</p>
+<p>To search for a set of files, you can use wildcards. To search the current directory for files that have the extension <em>.bat</em> and that contain the string <em>PROMPT</em> ignoring the case, type:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>for %f in (*.bat) do find PROMPT %f
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find /i "PROMPT" *.bat
 </code></pre></div></div>
 
 <table>
   <tbody>
     <tr>
-      <td>To search your hard disk to find and display the file names on drive C that contain the string CPU, use the pipe (</td>
-      <td>) to direct the output of the <strong>dir</strong> command to the <strong>find</strong> command as follows:</td>
+      <td>To find files names in a directory that contain the string <em>CPU</em>, use the pipe (</td>
+      <td>) to direct the output of the <em>dir</em> command to the find command as follows:</td>
     </tr>
   </tbody>
 </table>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dir c:\ /s /b | find CPU
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dir c:\temp /s /b | find "CPU"
 </code></pre></div></div>
 
-<p>Because <strong>find</strong> searches are case-sensitive and <strong>dir</strong> produces uppercase output, you must either type the string CPU in uppercase letters or use the <strong>/i</strong> command-line option with <strong>find</strong>.</p>
+<p>Find all running processes that do NOT contain  <em>agent</em>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tasklist | find /v /i "agent"
+</code></pre></div></div>
+
+<p>Check if a service is running:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sc query  Winmgmt | find "RUNNING" &gt;nul 2&gt;&amp;1 &amp;&amp; (echo service is started) || (echo service is stopped)
+</code></pre></div></div>
 
 <h3 id="additional-references">Additional References</h3>
 
@@ -489,7 +531,7 @@
     <p><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></p>
   </li>
   <li>
-    <p><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/for.md">for command</a></p>
+    <p><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/findstr.md">findstr command</a></p>
   </li>
 </ul>
 

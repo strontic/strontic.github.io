@@ -429,32 +429,38 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_invoke_obfuscation_obfuscated_iex_services.yml">win_invoke_obfuscation_obfuscated_iex_services.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/file_create/cron_files.yml">cron_files.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://github.com/microsoft/MSTIC-Sysmon/blob/main/linux/configs/attack-based/persistence/T1053.003_Cron_Activity.xml</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_mal_creddumper.yml">win_mal_creddumper.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_sysmon_channel_reference_deletion.yml">win_sysmon_channel_reference_deletion.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Sysmon Channel Reference Deletion</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_meterpreter_or_cobaltstrike_getsystem_service_installation.yml">win_meterpreter_or_cobaltstrike_getsystem_service_installation.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_sysmon_channel_reference_deletion.yml">win_sysmon_channel_reference_deletion.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Potential threat actor tampering with Sysmon manifest and eventually disabling it</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_net_ntlm_downgrade.yml">win_net_ntlm_downgrade.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_sysmon_channel_reference_deletion.yml">win_sysmon_channel_reference_deletion.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://securityjosh.github.io/2020/04/23/Mute-Sysmon.html</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_tap_driver_installation.yml">win_tap_driver_installation.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_sysmon_channel_reference_deletion.yml">win_sysmon_channel_reference_deletion.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">WINEVT\Channels\Microsoft-Windows-Sysmon/Operational'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_sysmon_channel_reference_deletion.yml">win_sysmon_channel_reference_deletion.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">WINEVT\Channels\Microsoft-Windows-Sysmon/Operational'</span> </code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -465,8 +471,26 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/deprecated/sysmon_mimikatz_detection_lsass.yml">sysmon_mimikatz_detection_lsass.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/create_stream_hash/sysmon_ads_executable.yml">sysmon_ads_executable.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Requirements:</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">Imphash</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">activated'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_mal_adwind.yml">file_event_mal_adwind.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://www.first.org/resources/papers/conf2017/Advanced-Incident-Detection-and-Threat-Hunting-using-Sysmon-and-Splunk.pdf</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_mal_vhd_download.yml">file_event_mal_vhd_download.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s">in sysmon add "&lt;TargetFilename condition="end with"&gt;.vhd&lt;/TargetFilename&gt; &lt;!--vhd files for ZLoader and lazarus malware vectors --&gt;"</span>   </code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_tool_psexec.yml">file_event_tool_psexec.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects PsExec service installation and execution events (service and Sysmon)</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -483,32 +507,14 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/mal_azorult_reg.yml">mal_azorult_reg.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/registry_event_mal_netwire.yml">registry_event_mal_netwire.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Note</span><span class="pi">:</span> <span class="s">You likely will have to change the sysmon configuration file.</span> </code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/win_mal_blue_mockingbird.yml">win_mal_blue_mockingbird.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/win_mal_flowcloud.yml">win_mal_flowcloud.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/win_mal_octopus_scanner.yml">win_mal_octopus_scanner.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/win_mal_ursnif.yml">win_mal_ursnif.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/registry_event_mal_netwire.yml">registry_event_mal_netwire.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Per SwiftOnSecurity "Because Sysmon runs as a service, it has no filtering ability for,</span> </code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -519,13 +525,73 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_suspicious_profile_create.yml">powershell_suspicious_profile_create.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/pipe_created/pipe_created_tool_psexec.yml">pipe_created_tool_psexec.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects PsExec service installation and execution events (service and Sysmon)</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_cmstp_execution.yml">sysmon_cmstp_execution.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/pipe_created/pipe_created_tool_psexec.yml">pipe_created_tool_psexec.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Note</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">have</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">configure</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Named</span><span class="nv"> </span><span class="s">Pipe</span><span class="nv"> </span><span class="s">Events</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">(Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">17</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">18).</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">basic</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">popular</span><span class="nv"> </span><span class="s">sysmon</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">(https://github.com/SwiftOnSecurity/sysmon-config),</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">worth</span><span class="nv"> </span><span class="s">verifying.</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">repo,</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">https://github.com/Neo23x0/sysmon-config,</span><span class="nv"> </span><span class="s">https://github.com/olafhartong/sysmon-modular.</span><span class="nv"> </span><span class="s">How</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">test</span><span class="nv"> </span><span class="s">detection?</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">check</span><span class="nv"> </span><span class="s">powershell</span><span class="nv"> </span><span class="s">script</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">site</span><span class="nv"> </span><span class="s">https://svch0st.medium.com/guide-to-named-pipes-and-hunting-for-cobalt-strike-pipes-dc46b2c5f575'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/pipe_created/sysmon_apt_turla_namedpipes.yml">sysmon_apt_turla_namedpipes.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Note</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">have</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">configure</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Named</span><span class="nv"> </span><span class="s">Pipe</span><span class="nv"> </span><span class="s">Events</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">(Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">17</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">18).</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">basic</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">popular</span><span class="nv"> </span><span class="s">sysmon</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">(https://github.com/SwiftOnSecurity/sysmon-config),</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">worth</span><span class="nv"> </span><span class="s">verifying.</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">repo,</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">https://github.com/Neo23x0/sysmon-config,</span><span class="nv"> </span><span class="s">https://github.com/olafhartong/sysmon-modular.</span><span class="nv"> </span><span class="s">How</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">test</span><span class="nv"> </span><span class="s">detection?</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">check</span><span class="nv"> </span><span class="s">powershell</span><span class="nv"> </span><span class="s">script</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">site</span><span class="nv"> </span><span class="s">https://svch0st.medium.com/guide-to-named-pipes-and-hunting-for-cobalt-strike-pipes-dc46b2c5f575'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/pipe_created/sysmon_cred_dump_tools_named_pipes.yml">sysmon_cred_dump_tools_named_pipes.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Note</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">have</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">configure</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Named</span><span class="nv"> </span><span class="s">Pipe</span><span class="nv"> </span><span class="s">Events</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">(Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">17</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">18).</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">basic</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">popular</span><span class="nv"> </span><span class="s">sysmon</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">(https://github.com/SwiftOnSecurity/sysmon-config),</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">worth</span><span class="nv"> </span><span class="s">verifying.</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">repo,</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">https://github.com/Neo23x0/sysmon-config,</span><span class="nv"> </span><span class="s">https://github.com/olafhartong/sysmon-modular.</span><span class="nv"> </span><span class="s">How</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">test</span><span class="nv"> </span><span class="s">detection?</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">check</span><span class="nv"> </span><span class="s">powershell</span><span class="nv"> </span><span class="s">script</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">site</span><span class="nv"> </span><span class="s">https://svch0st.medium.com/guide-to-named-pipes-and-hunting-for-cobalt-strike-pipes-dc46b2c5f575'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/pipe_created/sysmon_efspotato_namedpipe.yml">sysmon_efspotato_namedpipe.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Note</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">have</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">configure</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Named</span><span class="nv"> </span><span class="s">Pipe</span><span class="nv"> </span><span class="s">Events</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">(Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">17</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">18).</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">basic</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">popular</span><span class="nv"> </span><span class="s">sysmon</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">(https://github.com/SwiftOnSecurity/sysmon-config),</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">worth</span><span class="nv"> </span><span class="s">verifying.</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">repo,</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">https://github.com/Neo23x0/sysmon-config,</span><span class="nv"> </span><span class="s">https://github.com/olafhartong/sysmon-modular.</span><span class="nv"> </span><span class="s">How</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">test</span><span class="nv"> </span><span class="s">detection?</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">check</span><span class="nv"> </span><span class="s">powershell</span><span class="nv"> </span><span class="s">script</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">site</span><span class="nv"> </span><span class="s">https://svch0st.medium.com/guide-to-named-pipes-and-hunting-for-cobalt-strike-pipes-dc46b2c5f575'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/pipe_created/sysmon_mal_cobaltstrike.yml">sysmon_mal_cobaltstrike.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Note</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">have</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">configure</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Named</span><span class="nv"> </span><span class="s">Pipe</span><span class="nv"> </span><span class="s">Events</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">(Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">17</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">18).</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">basic</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">popular</span><span class="nv"> </span><span class="s">sysmon</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">(https://github.com/SwiftOnSecurity/sysmon-config),</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">worth</span><span class="nv"> </span><span class="s">verifying.</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">repo,</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">https://github.com/Neo23x0/sysmon-config,</span><span class="nv"> </span><span class="s">https://github.com/olafhartong/sysmon-modular.</span><span class="nv"> </span><span class="s">How</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">test</span><span class="nv"> </span><span class="s">detection?</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">always</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">Cobalt</span><span class="nv"> </span><span class="s">Strike,</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">check</span><span class="nv"> </span><span class="s">powershell</span><span class="nv"> </span><span class="s">script</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">site</span><span class="nv"> </span><span class="s">https://svch0st.medium.com/guide-to-named-pipes-and-hunting-for-cobalt-strike-pipes-dc46b2c5f575'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/pipe_created/sysmon_mal_cobaltstrike_re.yml">sysmon_mal_cobaltstrike_re.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Note</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">have</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">configure</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Named</span><span class="nv"> </span><span class="s">Pipe</span><span class="nv"> </span><span class="s">Events</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">(Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">17</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">18).</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">basic</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">popular</span><span class="nv"> </span><span class="s">sysmon</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">(https://github.com/SwiftOnSecurity/sysmon-config),</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">worth</span><span class="nv"> </span><span class="s">verifying.</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">repo,</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">https://github.com/Neo23x0/sysmon-config,</span><span class="nv"> </span><span class="s">https://github.com/olafhartong/sysmon-modular</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">repo,</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">https://github.com/Neo23x0/sysmon-config,</span><span class="nv"> </span><span class="s">https://github.com/olafhartong/sysmon-modular.</span><span class="nv"> </span><span class="s">How</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">test</span><span class="nv"> </span><span class="s">detection?</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">always</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">Cobalt</span><span class="nv"> </span><span class="s">Strike,</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">check</span><span class="nv"> </span><span class="s">powershell</span><span class="nv"> </span><span class="s">script</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">site</span><span class="nv"> </span><span class="s">https://svch0st.medium.com/guide-to-named-pipes-and-hunting-for-cobalt-strike-pipes-dc46b2c5f575'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/pipe_created/sysmon_mal_namedpipes.yml">sysmon_mal_namedpipes.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Note</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">have</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">configure</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Named</span><span class="nv"> </span><span class="s">Pipe</span><span class="nv"> </span><span class="s">Events</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">(Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">17</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">18).</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">basic</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">popular</span><span class="nv"> </span><span class="s">sysmon</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">(https://github.com/SwiftOnSecurity/sysmon-config),</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">worth</span><span class="nv"> </span><span class="s">verifying.</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">repo,</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">https://github.com/Neo23x0/sysmon-config,</span><span class="nv"> </span><span class="s">https://github.com/olafhartong/sysmon-modular.</span><span class="nv"> </span><span class="s">How</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">test</span><span class="nv"> </span><span class="s">detection?</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">check</span><span class="nv"> </span><span class="s">powershell</span><span class="nv"> </span><span class="s">script</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">site</span><span class="nv"> </span><span class="s">https://svch0st.medium.com/guide-to-named-pipes-and-hunting-for-cobalt-strike-pipes-dc46b2c5f575'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/pipe_created/sysmon_psexec_pipes_artifacts.yml">sysmon_psexec_pipes_artifacts.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Note</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">have</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">configure</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Named</span><span class="nv"> </span><span class="s">Pipe</span><span class="nv"> </span><span class="s">Events</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">(Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">17</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">18).</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">basic</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">popular</span><span class="nv"> </span><span class="s">sysmon</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">(https://github.com/SwiftOnSecurity/sysmon-config),</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">worth</span><span class="nv"> </span><span class="s">verifying.</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">repo,</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">https://github.com/Neo23x0/sysmon-config,</span><span class="nv"> </span><span class="s">https://github.com/olafhartong/sysmon-modular.</span><span class="nv"> </span><span class="s">How</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">test</span><span class="nv"> </span><span class="s">detection?</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">check</span><span class="nv"> </span><span class="s">powershell</span><span class="nv"> </span><span class="s">script</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">site</span><span class="nv"> </span><span class="s">https://svch0st.medium.com/guide-to-named-pipes-and-hunting-for-cobalt-strike-pipes-dc46b2c5f575'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/pipe_created/sysmon_susp_cobaltstrike_pipe_patterns.yml">sysmon_susp_cobaltstrike_pipe_patterns.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Note</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">have</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">configure</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Named</span><span class="nv"> </span><span class="s">Pipe</span><span class="nv"> </span><span class="s">Events</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">(Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">17</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">18).</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">basic</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">popular</span><span class="nv"> </span><span class="s">sysmon</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">(https://github.com/SwiftOnSecurity/sysmon-config),</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">worth</span><span class="nv"> </span><span class="s">verifying.</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">repo,</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">https://github.com/Neo23x0/sysmon-config,</span><span class="nv"> </span><span class="s">https://github.com/olafhartong/sysmon-modular</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">repo,</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">https://github.com/Neo23x0/sysmon-config,</span><span class="nv"> </span><span class="s">https://github.com/olafhartong/sysmon-modular.</span><span class="nv"> </span><span class="s">How</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">test</span><span class="nv"> </span><span class="s">detection?</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">always</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">Cobalt</span><span class="nv"> </span><span class="s">Strike,</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">check</span><span class="nv"> </span><span class="s">powershell</span><span class="nv"> </span><span class="s">script</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">site</span><span class="nv"> </span><span class="s">https://svch0st.medium.com/guide-to-named-pipes-and-hunting-for-cobalt-strike-pipes-dc46b2c5f575'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/pipe_created/sysmon_susp_wmi_consumer_namedpipe.yml">sysmon_susp_wmi_consumer_namedpipe.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Note</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">you</span><span class="nv"> </span><span class="s">have</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">configure</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Named</span><span class="nv"> </span><span class="s">Pipe</span><span class="nv"> </span><span class="s">Events</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">(Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">17</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">18).</span><span class="nv"> </span><span class="s">The</span><span class="nv"> </span><span class="s">basic</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">popular</span><span class="nv"> </span><span class="s">sysmon</span><span class="nv"> </span><span class="s">configuration</span><span class="nv"> </span><span class="s">(https://github.com/SwiftOnSecurity/sysmon-config),</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">worth</span><span class="nv"> </span><span class="s">verifying.</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">repo,</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">https://github.com/Neo23x0/sysmon-config,</span><span class="nv"> </span><span class="s">https://github.com/olafhartong/sysmon-modular.</span><span class="nv"> </span><span class="s">How</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">test</span><span class="nv"> </span><span class="s">detection?</span><span class="nv"> </span><span class="s">You</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">check</span><span class="nv"> </span><span class="s">powershell</span><span class="nv"> </span><span class="s">script</span><span class="nv"> </span><span class="s">from</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">site</span><span class="nv"> </span><span class="s">https://svch0st.medium.com/guide-to-named-pipes-and-hunting-for-cobalt-strike-pipes-dc46b2c5f575'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_cmstp_execution_by_access.yml">sysmon_cmstp_execution_by_access.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://web.archive.org/web/20190720093911/http://www.endurant.io/cmstp/detecting-cmstp-enabled-code-execution-and-uac-bypass-with-sysmon/</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
@@ -543,26 +609,14 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/cmstp_execution.yml">cmstp_execution.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_tool_psexec.yml">process_creation_tool_psexec.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects PsExec service installation and execution events (service and Sysmon)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_cmstp_execution_by_creation.yml">sysmon_cmstp_execution_by_creation.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://web.archive.org/web/20190720093911/http://www.endurant.io/cmstp/detecting-cmstp-enabled-code-execution-and-uac-bypass-with-sysmon/</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_chafer_mar18.yml">win_apt_chafer_mar18.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_unidentified_nov_18.yml">win_apt_unidentified_nov_18.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># Sysmon: File Creation (ID 11)</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_unidentified_nov_18.yml">win_apt_unidentified_nov_18.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -580,13 +634,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1388.yml">win_exploit_cve_2019_1388.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">User</span><span class="pi">:</span> <span class="s1">'</span><span class="s">NT</span><span class="nv"> </span><span class="s">AUTHORITY\SYSTEM'</span>  <span class="c1"># for non-Sysmon users - English language settings</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_hktl_createminidump.yml">win_hktl_createminidump.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">NT</span><span class="nv"> </span><span class="s">AUTHORITY\SYSTEM'</span>  <span class="c1"># for non-Sysmon users - English language settings</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -603,14 +651,14 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_mal_adwind.yml">win_mal_adwind.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_mshta_javascript.yml">win_mshta_javascript.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">## todo — add sysmon eid 3 for this rule</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_mshta_javascript.yml">win_mshta_javascript.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">## todo — add sysmon eid 3 for this rule</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_rasautou_dll_execution.yml">win_rasautou_dll_execution.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s">Since options '-d' and '-p' were removed in Windows 10 this rule is relevant only for Windows before 10. And as Windows 7 doesn't log command line in 4688 by default, to detect this attack you need Sysmon 1 configured or KB3004375 installed for command-line auditing (https://support.microsoft.com/en-au/help/3004375/microsoft-security-advisory-update-to-improve-windows-command-line-aud)</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -627,8 +675,26 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_silenttrinity_stage_use.yml">win_silenttrinity_stage_use.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_child_process_as_system_.yml">win_susp_child_process_as_system_.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s">ParentUser field needs sysmon &gt;= 13.30</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_diskshadow.yml">win_susp_diskshadow.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Requirements:</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">ProcessCreation</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">must</span><span class="nv"> </span><span class="s">be</span><span class="nv"> </span><span class="s">activated</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Windows</span><span class="nv"> </span><span class="s">audit</span><span class="nv"> </span><span class="s">must</span><span class="nv"> </span><span class="s">Include</span><span class="nv"> </span><span class="s">command</span><span class="nv"> </span><span class="s">line</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">process</span><span class="nv"> </span><span class="s">creation</span><span class="nv"> </span><span class="s">events'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_register_cimprovider.yml">win_susp_register_cimprovider.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Requirements:</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">ProcessCreation</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">must</span><span class="nv"> </span><span class="s">be</span><span class="nv"> </span><span class="s">activated</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">Windows</span><span class="nv"> </span><span class="s">audit</span><span class="nv"> </span><span class="s">msut</span><span class="nv"> </span><span class="s">Include</span><span class="nv"> </span><span class="s">command</span><span class="nv"> </span><span class="s">line</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">process</span><span class="nv"> </span><span class="s">creation</span><span class="nv"> </span><span class="s">events'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_workfolders.yml">win_susp_workfolders.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Requirements:</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">ProcessCreation</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">must</span><span class="nv"> </span><span class="s">be</span><span class="nv"> </span><span class="s">activated'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -651,8 +717,38 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_cmstp_execution.yml">sysmon_cmstp_execution.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_wsreset.yml">win_uac_bypass_wsreset.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects the pattern of UAC Bypass via WSReset usable by default sysmon-config</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_mal_adwind.yml">registry_event_mal_adwind.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://www.first.org/resources/papers/conf2017/Advanced-Incident-Detection-and-Threat-Hunting-using-Sysmon-and-Splunk.pdf</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_cmstp_execution_by_registry.yml">sysmon_cmstp_execution_by_registry.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://web.archive.org/web/20190720093911/http://www.endurant.io/cmstp/detecting-cmstp-enabled-code-execution-and-uac-bypass-with-sysmon/</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_cobaltstrike_service_installs.yml">sysmon_cobaltstrike_service_installs.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">In some SIEM you can catch those events also in HKLM\System\ControlSet001\Services or HKLM\System\ControlSet002\Services, however, this rule is based on a regular sysmon's events.</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_disable_microsoft_office_security_features.yml">sysmon_disable_microsoft_office_security_features.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s">key must be add to the sysmon configuration to works</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_disable_microsoft_office_security_features.yml">sysmon_disable_microsoft_office_security_features.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># Sysmon</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -665,6 +761,18 @@
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_new_dll_added_to_appcertdlls_registry_key.yml">sysmon_new_dll_added_to_appcertdlls_registry_key.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="c1"># Sysmon gives us HKLM\SYSTEM\CurrentControlSet\.. if ControlSetXX is the selected one</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_registry_add_local_hidden_user.yml">sysmon_registry_add_local_hidden_user.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Sysmon registry detection of a local hidden user account.</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_removal_amsi_registry_key.yml">sysmon_removal_amsi_registry_key.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s">key must be add to the sysmon configuration to works</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -687,98 +795,68 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_ads_executable.yml">sysmon_ads_executable.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_win_reg_telemetry_persistence.yml">sysmon_win_reg_telemetry_persistence.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Requirements:</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">that</span><span class="nv"> </span><span class="s">monitors</span><span class="nv"> </span><span class="s">\SOFTWARE\Microsoft\Windows</span><span class="nv"> </span><span class="s">NT\CurrentVersion\AppCompatFlags\TelemetryController</span><span class="nv"> </span><span class="s">subkey</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">HKLU</span><span class="nv"> </span><span class="s">hives'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_accessing_winapi_in_powershell_credentials_dumping.yml">sysmon_accessing_winapi_in_powershell_credentials_dumping.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_ads_executable.yml">sysmon_ads_executable.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Requirements:</span><span class="nv"> </span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">Imphash</span><span class="nv"> </span><span class="s">logging</span><span class="nv"> </span><span class="s">activated'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_config_modification_error.yml">sysmon_config_modification_error.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Sysmon Configuration Error</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_alternate_powershell_hosts_pipe.yml">sysmon_alternate_powershell_hosts_pipe.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_config_modification_error.yml">sysmon_config_modification_error.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Someone try to hide from Sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_config_modification_error.yml">sysmon_config_modification_error.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://talesfrominfosec.blogspot.com/2017/12/killing-sysmon-silently.html</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_config_modification_status.yml">sysmon_config_modification_status.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Sysmon Configuration Modification</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_config_modification_status.yml">sysmon_config_modification_status.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Someone try to hide from Sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_config_modification_status.yml">sysmon_config_modification_status.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://talesfrominfosec.blogspot.com/2017/12/killing-sysmon-silently.html</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_config_modification_status.yml">sysmon_config_modification_status.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">Sysmon</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">state</span><span class="nv"> </span><span class="s">changed'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_dcom_iertutil_dll_hijack.yml">sysmon_dcom_iertutil_dll_hijack.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_apt_turla_namedpipes.yml">sysmon_apt_turla_namedpipes.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_cactustorch.yml">sysmon_cactustorch.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_cobaltstrike_process_injection.yml">sysmon_cobaltstrike_process_injection.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_createremotethread_loadlibrary.yml">sysmon_createremotethread_loadlibrary.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_cred_dump_tools_named_pipes.yml">sysmon_cred_dump_tools_named_pipes.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_mal_namedpipes.yml">sysmon_mal_namedpipes.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_password_dumper_lsass.yml">sysmon_password_dumper_lsass.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_possible_dns_rebinding.yml">sysmon_possible_dns_rebinding.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_raw_disk_access_using_illegitimate_tools.yml">sysmon_raw_disk_access_using_illegitimate_tools.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_susp_powershell_rundll32.yml">sysmon_susp_powershell_rundll32.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_wmi_event_subscription.yml">sysmon_wmi_event_subscription.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_wmi_susp_scripting.yml">sysmon_wmi_susp_scripting.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/sysmon_always_install_elevated_msi_spawned_cmd_and_powershell_spawned_processes.yml">sysmon_always_install_elevated_msi_spawned_cmd_and_powershell_spawned_processes.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s">Works only if  Enrich Sysmon events with additional information about process in ParentOfParentImage check enrichment section</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -791,6 +869,18 @@
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/sysmon_process_reimaging.yml">sysmon_process_reimaging.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/win_kernel_and_3rd_party_drivers_exploits_token_stealing.yml">win_kernel_and_3rd_party_drivers_exploits_token_stealing.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s">Works only if  Enrich Sysmon events with additional information about process in ParentIntegrityLevel check enrichment section</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/win_possible_privilege_escalation_using_rotten_potato.yml">win_possible_privilege_escalation_using_rotten_potato.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s">Works only if  Enrich Sysmon events with additional information about process in ParentUser check enrichment section</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -819,6 +909,12 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/chronicle.yml">chronicle.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">#DestinationIsIpv6: winlog.event_data.DestinationIsIpv6 #=gets deleted and not boolean...https://github.com/elastic/beats/blob/71eee76e7cfb8d5b18dfacad64864370ddb14ce7/x-pack/winlogbeat/module/sysmon/config/winlogbeat-sysmon.js#L278-L279</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/crowdstrike.yml">crowdstrike.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">windows-sysmon</span><span class="pi">:</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
@@ -827,6 +923,12 @@
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/crowdstrike.yml">crowdstrike.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/devo-windows.yml">devo-windows.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">windows-service-sysmon</span><span class="pi">:</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -903,6 +1005,24 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/hawk.yml">hawk.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">windows-sysmon</span><span class="pi">:</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/hawk.yml">hawk.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/hawk.yml">hawk.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">product_name</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Sysmon'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/helk.yml">helk.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">windows-sysmon</span><span class="pi">:</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
@@ -947,24 +1067,6 @@
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/netwitness.yml">netwitness.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/powershell-windows-all.yml">powershell-windows-all.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">windows-sysmon</span><span class="pi">:</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/powershell-windows-all.yml">powershell-windows-all.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/powershell-windows-all.yml">powershell-windows-all.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">LogName</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Microsoft-Windows-Sysmon/Operational'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -1035,20 +1137,14 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/sysmon.yml">sysmon.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Sysmon</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/sysmon.yml">sysmon.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">sysmon</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/thor.yml">thor.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/thor.yml">thor.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span>       </code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -1066,7 +1162,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/thor.yml">thor.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">WinEventLog:Microsoft-Windows-Sysmon/Operational'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s2">"</span><span class="s">WinEventLog:Microsoft-Windows-Sysmon/Operational"</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -1090,13 +1186,61 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/winlogbeat-modules-enabled.yml">winlogbeat-modules-enabled.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">#DestinationIsIpv6: winlog.event_data.DestinationIsIpv6 #=gets deleted and not boolean...https://github.com/elastic/beats/blob/71eee76e7cfb8d5b18dfacad64864370ddb14ce7/x-pack/winlogbeat/module/sysmon/config/winlogbeat-sysmon.js#L278-L279</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># Sysmon/Operational up to ID 25</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/winlogbeat-modules-enabled.yml">winlogbeat-modules-enabled.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ParentUser</span><span class="pi">:</span> <span class="s">winlog.event_data.ParentUser</span>  <span class="c1">#Sysmon 13.30</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/winlogbeat-modules-enabled.yml">winlogbeat-modules-enabled.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">SourceUser</span><span class="pi">:</span> <span class="s">winlog.event_data.SourceUser</span>  <span class="c1">#Sysmon 13.30</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/winlogbeat-modules-enabled.yml">winlogbeat-modules-enabled.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">TargetUser</span><span class="pi">:</span> <span class="s">winlog.event_data.TargetUser</span>  <span class="c1">#Sysmon 13.30</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/winlogbeat-modules-enabled.yml">winlogbeat-modules-enabled.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">#SourceIsIpv6: winlog.event_data.SourceIsIpv6 #=gets deleted and not boolean...https://github.com/elastic/beats/blob/71eee76e7cfb8d5b18dfacad64864370ddb14ce7/x-pack/winlogbeat/module/sysmon/config/winlogbeat-sysmon.js#L278-L279</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/winlogbeat-modules-enabled.yml">winlogbeat-modules-enabled.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">#DestinationIsIpv6: winlog.event_data.DestinationIsIpv6 #=gets deleted and not boolean...https://github.com/elastic/beats/blob/71eee76e7cfb8d5b18dfacad64864370ddb14ce7/x-pack/winlogbeat/module/sysmon/config/winlogbeat-sysmon.js#L278-L279</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/winlogbeat-modules-enabled.yml">winlogbeat-modules-enabled.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">QueryStatus</span><span class="pi">:</span> <span class="s">sysmon.dns.status</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/winlogbeat-modules-enabled.yml">winlogbeat-modules-enabled.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">IsExecutable</span><span class="pi">:</span> <span class="s">sysmon.file.is_executable</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/winlogbeat-modules-enabled.yml">winlogbeat-modules-enabled.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Archived</span><span class="pi">:</span> <span class="s">sysmon.file.archived</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/winlogbeat-modules-enabled.yml">winlogbeat-modules-enabled.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># SYSMON Hashes</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -1148,6 +1292,48 @@
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/generic/sysmon.yml">sysmon.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">service</span><span class="pi">:</span> <span class="s">sysmon</span>       </code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Aspnet_Compiler.yml">Aspnet_Compiler.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">Sysmon Event ID 1 - Process Creation</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/FltMC.yml">FltMC.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Link</span><span class="pi">:</span> <span class="s">https://www.darkoperator.com/blog/2018/10/5/operating-offensively-against-sysmon</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Fsi.yml">Fsi.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">Sysmon Event ID 1 - Process Creation</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/FsiAnyCpu.yml">FsiAnyCpu.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">Sysmon Event ID 1 - Process Creation</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/VisualUiaVerifyNative.yml">VisualUiaVerifyNative.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">Sysmon Event ID 1 - Process Creation</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Wfc.yml">Wfc.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">Sysmon Event ID 1 - Process Creation</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/misp_invisimole.json">misp_invisimole.json</a></td>
       <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"https://docs.microsoft.com/sysinternals/downloads/sysmon"</span><span class="p">,</span></code></td>
@@ -1179,72 +1365,6 @@
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td>(index=”botsv3” OR index=”botsv2”) powershell.exe source=”WinEventLog:Microsoft-Windows-Sysmon/Operational” | stats values(CommandLine) by Computer</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe \| stats values(Image) by ParentImage</code></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe ParentImage=*\\powershell.exe\| stats values(Image) by ParentImage ParentCommandLine</code></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe CommandLine=*powershell.exe*\| stats values(CommandLine) by Computer</code></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe CommandLine!="*\Office Automatic Updates*" CommandLine!="*\Office ClickToRun*" \| stats values(CommandLine) by Computer</code></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe CommandLine=*Create* ParentImage!=*\\OfficeClicktoRun.exe \| stats values(CommandLine) by Computer</code></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe \| table Computer, User, CommandLine, _time</code></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe CommandLine=*Create* ParentImage!=*\\OfficeClicktoRun.exe \| table Computer, User, CommandLine, _time</code></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td>Sometimes we may not see the whole picture looking at process command line (Sysmon). What if we had Powershell transactions logs?</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td>Sysmon -</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") powershell.exe source="WinEventLog:Microsoft-Windows-Sysmon/Operational" \| stats values(CommandLine) by Computer</code></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
       <td>- Atomic Test #10: Unload Sysmon Filter Driver [windows]</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
@@ -1258,7 +1378,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
-      <td>- Atomic Test #4: Security Software Discovery - Sysmon Service [windows]</td>
+      <td>- Atomic Test #5: Security Software Discovery - Sysmon Service [windows]</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1276,19 +1396,19 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
-      <td>- Atomic Test #4: Security Software Discovery - Sysmon Service [windows]</td>
+      <td>- Atomic Test #5: Security Software Discovery - Sysmon Service [windows]</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md">T1518.001.md</a></td>
-      <td>- <a href="#atomic-test-4---security-software-discovery---sysmon-service">Atomic Test #4 - Security Software Discovery - Sysmon Service</a></td>
+      <td>- <a href="#atomic-test-5---security-software-discovery---sysmon-service">Atomic Test #5 - Security Software Discovery - Sysmon Service</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518.001/T1518.001.md">T1518.001.md</a></td>
-      <td>## Atomic Test #4 - Security Software Discovery - Sysmon Service</td>
+      <td>## Atomic Test #5 - Security Software Discovery - Sysmon Service</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1336,7 +1456,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md">T1562.001.md</a></td>
-      <td>| sysmon_driver | The name of the Sysmon filter driver (this can change from the default) | string | SysmonDrv|</td>
+      <td>| sysmon_driver | The name of the Sysmon filter driver (this can change from the default) | String | SysmonDrv|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>

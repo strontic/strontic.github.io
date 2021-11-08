@@ -444,20 +444,14 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/.github/workflows/pypi-publish.yml">pypi-publish.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">uses</span><span class="pi">:</span> <span class="s">actions/setup-python@v1</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/.github/workflows/sigma-test.yml">sigma-test.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">uses</span><span class="pi">:</span> <span class="s">actions/setup-python@v1</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_update_login_profile.yml">aws_update_login_profile.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">An attacker with the iam:UpdateLoginProfile permission on other users can change the password used to login to the AWS console on any user that already has a login profile setup. With this alert, it is used to detect anyone is changing password on behalf of other users.</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws/aws_update_login_profile.yml">aws_update_login_profile.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">An attacker with the iam:UpdateLoginProfile permission on other users can change the password used to login to the AWS console on any user that already has a login profile setup.</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -474,68 +468,104 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_susp_security_eventlog_cleared.yml">win_susp_security_eventlog_cleared.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_susp_eventlog_cleared.yml">win_susp_eventlog_cleared.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Rollout of log collection agents (the setup routine often includes a reset of the local Eventlog)</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/win_mal_flowcloud.yml">win_mal_flowcloud.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">HKLM\SYSTEM\Setup\PrintResponsor\\*'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_system_susp_eventlog_cleared.yml">win_system_susp_eventlog_cleared.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Rollout of log collection agents (the setup routine often includes a reset of the local Eventlog)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_cve_2021_31979_cve_2021_33771_exploits.yml">file_event_cve_2021_31979_cve_2021_33771_exploits.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">C:\Windows\system32\config\cy-GB\Setup\SKB\InputMethod\TupTask.dat'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/registry_event_mal_flowcloud.yml">registry_event_mal_flowcloud.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">HKLM\SYSTEM\Setup\PrintResponsor\'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_vmtoolsd_susp_child_process.yml">sysmon_vmtoolsd_susp_child_process.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects suspicious child process creations of VMware Tools process which may indicate persistence setup</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_winnti_pipemon.yml">win_apt_winnti_pipemon.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">setup.exe</span><span class="nv"> </span><span class="s">-x:0'</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_winnti_pipemon.yml">win_apt_winnti_pipemon.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">setup.exe</span><span class="nv"> </span><span class="s">-x:1'</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_winnti_pipemon.yml">win_apt_winnti_pipemon.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">setup.exe</span><span class="nv"> </span><span class="s">-x:2'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">setup.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1378.yml">win_exploit_cve_2019_1378.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\cmd.exe</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">C:\Windows\Setup\Scripts\SetupComplete.cmd'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">C:\Windows\Setup\Scripts\'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1378.yml">win_exploit_cve_2019_1378.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\cmd.exe</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">C:\Windows\Setup\Scripts\PartnerSetupComplete.cmd'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">C:\Windows\Setup\'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1378.yml">win_exploit_cve_2019_1378.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">C:\Windows\Setup\\*'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_asep_reg_keys_modification.yml">sysmon_asep_reg_keys_modification.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\SOFTWARE\Wow6432Node\Microsoft\Active</span><span class="nv"> </span><span class="s">Setup\Installed</span><span class="nv"> </span><span class="s">Components'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_asep_reg_keys_modification.yml">sysmon_asep_reg_keys_modification.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\SYSTEM\Setup\CmdLine'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_asep_reg_keys_modification.yml">sysmon_asep_reg_keys_modification.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\SOFTWARE\Microsoft\Active</span><span class="nv"> </span><span class="s">Setup\Installed</span><span class="nv"> </span><span class="s">Components'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_new_application_appcompat.yml">sysmon_new_application_appcompat.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Newly setup system.</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_runonce_persistence.yml">sysmon_runonce_persistence.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetObject\|startswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">HKLM\SOFTWARE\Microsoft\Active</span><span class="nv"> </span><span class="s">Setup\Installed</span><span class="nv"> </span><span class="s">Components'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Setup.yml">Setup.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OtherBinaries/Setup.yml">Setup.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Setup.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Setup.yml">Setup.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OtherBinaries/Setup.yml">Setup.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">Run Setup.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Setup.yml">Setup.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OtherBinaries/Setup.yml">Setup.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Hijack hpbcsiServiceMarshaller.exe and run Setup.exe to launch a payload.</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/OneDriveStandaloneUpdater.yml">OneDriveStandaloneUpdater.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">Reports of downloading from suspicious URLs in %localappdata%\OneDrive\setup\logs\StandaloneUpdate_*.log files</span></code></td>
       <td> </td>
     </tr>
     <tr>
@@ -600,6 +630,24 @@
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/sigma/win_apt_invisimole_wdigest_chain.yml">win_apt_invisimole_wdigest_chain.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Legitimate use of the Wireless Network Setup Wizard</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/sigma/win_lolbin_setupSNK.yml">win_lolbin_setupSNK.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Wireless Network Setup Settings Changed</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/sigma/win_lolbin_setupSNK.yml">win_lolbin_setupSNK.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Legitimate use of the Wireless Network Setup Wizard</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/kryptocibule/misp-kryptocibule.json">misp-kryptocibule.json</a></td>
       <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"value"</span><span class="err">:</span> <span class="s">"%ProgramFiles(X86)%\\Adobe\\Acrobat Reader DC\\Reader\\Update\\Setup.dll"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
@@ -630,6 +678,12 @@
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/quarterly_reports/2021_T2/README.adoc">2021_T2</a></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">Setup</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc">windigo</a></td>
       <td><code class="language-plaintext highlighter-rouge">depending on your setup. For example we know that </code>suPHP<code class="language-plaintext highlight language-cmhg highlighter-rouge"> <span class="ni">uses</span> <span class="ni">shared</span> <span class="ni">memory</span><span class="err">.</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
@@ -642,20 +696,44 @@
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-05-01/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td>## Setup</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- T1547.014 Active Setup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-05-01/Getting_Lateral.md">Getting_Lateral.md</a></td>
-      <td>## Setup</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- T1547.014 Active Setup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
+      <td>| Compromise Software Dependencies and Development Tools <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1053.002/T1053.002.md">At (Windows)</a> | Active Setup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1546.008/T1546.008.md">Accessibility Features</a> | Application Access Token <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1558.004/T1558.004.md">AS-REP Roasting</a> | <a href="../../T1217/T1217.md">Browser Bookmark Discovery</a> | <a href="../../T1021.003/T1021.003.md">Distributed Component Object Model</a> | Archive via Custom Method <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1048/T1048.md">Exfiltration Over Alternative Protocol</a> | Bidirectional Communication <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Application or System Exploitation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
+      <td>| Compromise Software Supply Chain <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Command and Scripting Interpreter <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Add Office 365 Global Administrator Role <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Active Setup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1055.004/T1055.004.md">Asynchronous Procedure Call</a> | <a href="../../T1552.003/T1552.003.md">Bash History</a> | Cloud Account <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Exploitation of Remote Services <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1560.002/T1560.002.md">Archive via Library</a> | Exfiltration Over Asymmetric Encrypted Non-C2 Protocol <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Commonly Used Port <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1485/T1485.md">Data Destruction</a> |</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
+      <td>| Compromise Software Supply Chain <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Component Object Model <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Active Setup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1546.008/T1546.008.md">Accessibility Features</a> | <a href="../../T1055.004/T1055.004.md">Asynchronous Procedure Call</a> | Brute Force <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1217/T1217.md">Browser Bookmark Discovery</a> | Exploitation of Remote Services <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Archive via Custom Method <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1048/T1048.md">Exfiltration Over Alternative Protocol</a> | Bidirectional Communication <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Application or System Exploitation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
+      <td>| <a href="../../T1078.001/T1078.001.md">Default Accounts</a> | Component Object Model and Distributed COM <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1137.006/T1137.006.md">Add-ins</a> | Active Setup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1197/T1197.md">BITS Jobs</a> | Cached Domain Credentials <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1087.002/T1087.002.md">Domain Account</a> | Internal Spearphishing <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Archive via Library <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Exfiltration Over Asymmetric Encrypted Non-C2 Protocol <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Commonly Used Port <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1485/T1485.md">Data Destruction</a> |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1046/T1046.md">T1046.md</a></td>
-      <td>| nmap_url | NMap installer download URL | url | https://nmap.org/dist/nmap-7.80-setup.exe|</td>
+      <td>| nmap_url | NMap installer download URL | Url | https://nmap.org/dist/nmap-7.80-setup.exe|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -668,6 +746,12 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1046/T1046.md">T1046.md</a></td>
       <td>Start-Process $env:temp\nmap-7.80-setup.exe /S</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1484.002/T1484.002.md">T1484.002.md</a></td>
+      <td>if ($new) { Write-Host “<code class="language-plaintext highlighter-rouge">nFederation successfully added to Azure AD" } else { Write-Host "</code>nThe federation setup failed” }</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>

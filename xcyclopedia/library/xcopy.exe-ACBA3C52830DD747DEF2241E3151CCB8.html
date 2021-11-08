@@ -423,7 +423,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_bear_activity_gtr19.yml">win_apt_bear_activity_gtr19.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\xcopy.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\xcopy.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -434,14 +434,20 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_copy_lateral_movement.yml">win_susp_copy_lateral_movement.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\xcopy.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_copy_system32.yml">win_susp_copy_system32.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">xcopy*\System32\'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">xcopy'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1505.003/T1505.003.md">T1505.003.md</a></td>
-      <td>xcopy #{web_shells} #{web_shell_path}</td>
+      <td>xcopy /I /Y #{web_shells} #{web_shell_path}</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
   </tbody>
@@ -461,7 +467,7 @@
 
 <h3 id="syntax">Syntax</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Xcopy &lt;Source&gt; [&lt;Destination&gt;] [/w] [/p] [/c] [/v] [/q] [/f] [/l] [/g] [/d [:MM-DD-YYYY]] [/u] [/i] [/s [/e]] [/t] [/k] [/r] [/h] [{/a | /m}] [/n] [/o] [/x] [/exclude:FileName1[+[FileName2]][+[FileName3]] [{/y | /-y}] [/z] [/b] [/j]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Xcopy &lt;Source&gt; [&lt;Destination&gt;] [/w] [/p] [/c] [/v] [/q] [/f] [/l] [/g] [/d [:MM-DD-YYYY]] [/u] [/i] [/s [/e]] [/t] [/k] [/r] [/h] [{/a | /m}] [/n] [/o] [/x] [/exclude:FileName1[+[FileName2]][+[FileName3]]] [{/y | /-y}] [/z] [/b] [/j]
 </code></pre></div></div>
 
 <h4 id="parameters">Parameters</h4>
@@ -571,7 +577,7 @@
       <td>Copies file audit settings and system access control list (SACL) information (implies <strong>/o</strong>).</td>
     </tr>
     <tr>
-      <td>/exclude:FileName1[+[FileName2][+<a href="\">FileName3</a>]</td>
+      <td>/exclude:FileName1[+[FileName2]][+<a href="\">FileName3</a>]</td>
       <td>Specifies a list of files. At least one file must be specified. Each file will contain search strings with each string on a separate line in the file.&lt;/br&gt;When any of the strings match any part of the absolute path of the file to be copied, that file will be excluded from being copied. For example, specifying the string <strong>obj</strong> will exclude all files underneath the directory <strong>obj</strong> or all files with the <strong>.obj</strong> extension.</td>
     </tr>
     <tr>

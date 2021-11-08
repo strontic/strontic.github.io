@@ -449,6 +449,29 @@
   <li>VirusTotal Link: https://www.virustotal.com/gui/file/02abc26a1f1fb25cb24992bf62eeab05b570e1310f64aaa1cb1433f7ba77b3bb/detection/</li>
 </ul>
 
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">winrs.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">winrs.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_susp_logon_explicit_credentials.yml">win_susp_logon_explicit_credentials.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\winrs.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
 <h2 id="additional-info">Additional Info*</h2>
 
 <p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
@@ -457,7 +480,7 @@
 <h2 id="winrs">winrs</h2>
 
 <blockquote>
-  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
+  <p>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
 </blockquote>
 
 <p>Windows remote Management allows you to manage and execute programs remotely.</p>
@@ -476,7 +499,7 @@
   <tbody>
     <tr>
       <td>/remote:&lt;endpoint&gt;</td>
-      <td>Specifies the target endpoint using a NetBIOS name or the standard connection:&lt;p&gt;-   <url>: [\<transport>://]\<target>[:\<port>]&lt;p&gt;if not specified, **/r:localhost** is used.</port></target></transport></url></td>
+      <td>Specifies the target endpoint using a NetBIOS name or the standard connection:&lt;p&gt;-   &lt;url&gt;: [&lt;transport&gt;://]&lt;target&gt;[:&lt;port&gt;]&lt;p&gt;if not specified, <strong>/r:localhost</strong> is used.</td>
     </tr>
     <tr>
       <td>/unencrypted</td>
@@ -499,7 +522,7 @@
       <td>Specifies starting directory for remote shell.&lt;p&gt;if not specified, the remote shell will start in the user’s home directory defined by the environment variable <strong>%USERPROFILE%</strong>.</td>
     </tr>
     <tr>
-      <td>/environment:&lt;string&gt;=<value></value></td>
+      <td>/environment:&lt;string&gt;=&lt;value&gt;</td>
       <td>Specifies a single environment variable to be set when shell starts, which allows changing default environment for shell.&lt;p&gt;Multiple occurrences of this switch must be used to specify multiple environment variables.</td>
     </tr>
     <tr>

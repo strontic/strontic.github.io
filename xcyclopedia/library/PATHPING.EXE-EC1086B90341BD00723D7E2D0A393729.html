@@ -317,6 +317,29 @@
   <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
 </ul>
 
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">PATHPING.EXE</code> being misused. While <code class="language-plaintext highlighter-rouge">PATHPING.EXE</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_webshell_detection.yml">win_webshell_detection.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\pathping.exe'</span> </code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
 <h2 id="additional-info">Additional Info*</h2>
 
 <p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
@@ -326,7 +349,7 @@
 <h2 id="pathping">pathping</h2>
 
 <blockquote>
-  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
+  <p>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
 </blockquote>
 
 <p>Provides information about network latency and network loss at intermediate hops between a source and destination. This command sends multiple echo Request messages to each router between a source and destination, over a period of time, and then computes results based on the packets returned from each router. Because this command displays the degree of packet loss at any given router or link, you can determine which routers or subnets might be having network problems. Used without parameters, this command displays help.</p>

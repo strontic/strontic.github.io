@@ -314,6 +314,180 @@
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/network/zeek/zeek_dce_rpc_printnightmare_print_driver_install.yml">zeek_dce_rpc_printnightmare_print_driver_install.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Possible PrintNightmare Print Driver Install</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/network/zeek/zeek_dce_rpc_printnightmare_print_driver_install.yml">zeek_dce_rpc_printnightmare_print_driver_install.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Detects the remote installation of a print driver which is possible indication of the exploitation of PrintNightmare (CVE-2021-1675).</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/network/zeek/zeek_dce_rpc_printnightmare_print_driver_install.yml">zeek_dce_rpc_printnightmare_print_driver_install.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">The occurrence of print drivers being installed remotely via RPC functions should be rare, as print drivers are normally installed locally and or through group policy.</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_exploit_cve_2021_1675_printspooler.yml">win_exploit_cve_2021_1675_printspooler.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Possible CVE-2021-1675 Print Spooler Exploitation</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_exploit_cve_2021_1675_printspooler.yml">win_exploit_cve_2021_1675_printspooler.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects events of driver load errors in print service logs that could be a sign of successful exploitation attempts of print spooler vulnerability CVE-2021-1675</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_exploit_cve_2021_1675_printspooler.yml">win_exploit_cve_2021_1675_printspooler.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">The</span><span class="nv"> </span><span class="s">print</span><span class="nv"> </span><span class="s">spooler</span><span class="nv"> </span><span class="s">failed</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">load</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">plug-in</span><span class="nv"> </span><span class="s">module'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_exploit_cve_2021_1675_printspooler_operational.yml">win_exploit_cve_2021_1675_printspooler_operational.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">CVE-2021-1675 Print Spooler Exploitation</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_exploit_cve_2021_1675_printspooler_operational.yml">win_exploit_cve_2021_1675_printspooler_operational.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects driver load events print service operational log that are a sign of successful exploitation attempts against print spooler vulnerability CVE-2021-1675</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_exploit_cve_2021_1675_printspooler_security.yml">win_exploit_cve_2021_1675_printspooler_security.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">CVE-2021-1675 Print Spooler Exploitation IPC Access</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_exploit_cve_2021_1675_printspooler_security.yml">win_exploit_cve_2021_1675_printspooler_security.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects remote printer driver load from Detailed File Share in Security logs that are a sign of successful exploitation attempts against print spooler vulnerability CVE-2021-1675 and CVE-2021-34527</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/win_cve_2021_1675_printspooler.yml">win_cve_2021_1675_printspooler.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">CVE-2021-1675 Print Spooler Exploitation Filename Pattern</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/win_cve_2021_1675_printspooler.yml">win_cve_2021_1675_printspooler.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects the default filename used in PoC code against print spooler vulnerability CVE-2021-1675</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/av_printernightmare_cve_2021_34527.yml">av_printernightmare_cve_2021_34527.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects the suspicious file that is created from PoC code against Windows Print Spooler Remote Code Execution Vulnerability CVE-2021-34527 (PrinterNightmare), CVE-2021-1675 .</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_print.yml">win_susp_print.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Abusing Print Executable</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_print.yml">win_susp_print.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Attackers can use print.exe for remote file copy</span>                   </code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_print.yml">win_susp_print.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Print.yml</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_print.yml">win_susp_print.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">\print.exe</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_print.yml">win_susp_print.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">print</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_print.yml">win_susp_print.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">print.exe</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_spoolsv_child_processes.yml">win_susp_spoolsv_child_processes.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects suspicious print spool service (spoolsv.exe) child processes.</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_spoolsv_child_processes.yml">win_susp_spoolsv_child_processes.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://github.com/microsoft/Microsoft-365-Defender-Hunting-Queries/blob/master/Exploits/Print%20Spooler%20RCE/Suspicious%20Spoolsv%20Child%20Process.md</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_asep_reg_keys_modification.yml">sysmon_asep_reg_keys_modification.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\Print\Providers'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_asep_reg_keys_modification.yml">sysmon_asep_reg_keys_modification.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\Print\Monitors'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_registry_susp_printer_driver.yml">sysmon_registry_susp_printer_driver.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\Control\Print\Environments\Windows</span><span class="nv"> </span><span class="s">x64\Drivers'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/win_registry_mimikatz_printernightmare.yml">win_registry_mimikatz_printernightmare.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\Control\Print\Environments\Windows</span><span class="nv"> </span><span class="s">x64\Drivers\Version-3\QMS</span><span class="nv"> </span><span class="s">810\'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/win_registry_mimikatz_printernightmare.yml">win_registry_mimikatz_printernightmare.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\Control\Print\Environments\Windows</span><span class="nv"> </span><span class="s">x64\Drivers\Version-3\mimikatz'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/win_registry_mimikatz_printernightmare.yml">win_registry_mimikatz_printernightmare.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\Control\Print\Environments\Windows'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/win_registry_mimikatz_printernightmare.yml">win_registry_mimikatz_printernightmare.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\Control\Print\Environments'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/win_registry_mimikatz_printernightmare.yml">win_registry_mimikatz_printernightmare.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\CurrentVersion\Print\Printers'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Print.yml">Print.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Print.exe</span></code></td>
@@ -928,25 +1102,25 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | Outlook Forms <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Print Processors <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Indicator Removal from Tools <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |  |</td>
+      <td>|  |  | Outlook Forms <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Print Processors <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Impair Defenses <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | Print Processors <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1546.002/T1546.002.md">Screensaver</a> | <a href="../../T1036.004/T1036.004.md">Masquerade Task or Service</a> |  |  |  |  |  |  |  |</td>
+      <td>|  |  | Print Processors <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Services File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1036.004/T1036.004.md">Masquerade Task or Service</a> |  |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | Outlook Rules <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Print Processors <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Indicator Blocking <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |  |</td>
+      <td>|  |  | <a href="../../T1556.002/T1556.002.md">Password Filter DLL</a> | Print Processors <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Indicator Removal from Tools <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | Print Processors <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1547.005/T1547.005.md">Security Support Provider</a> | Make and Impersonate Token <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |  |</td>
+      <td>|  |  | Print Processors <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1547.005/T1547.005.md">Security Support Provider</a> | <a href="../../T1553.005/T1553.005.md">Mark-of-the-Web Bypass</a> |  |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -981,6 +1155,12 @@
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1082/T1082.md">T1082.md</a></td>
+      <td>in order simply print the recon results to the screen as opposed to exfiltrating them. <a href="https://gist.github.com/kirk-sayre-work/7cb5bf4e2c7c77fa5684ddc17053f1e5">Script</a>.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1083/T1083.md">T1083.md</a></td>
       <td>cd $HOME &amp;&amp; find . -print | sed -e ‘s;[^/]*/;|<strong>;g;s;</strong>|; |;g’ &gt; #{output_file}</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
@@ -1001,6 +1181,78 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1127.001/T1127.001.md">T1127.001.md</a></td>
       <td>Executes the code in a project file using msbuild.exe. The default Visual Basic example file (vb.xml) will simply print “Hello from a Visual Basic inline task!” to the screen.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
+      <td>| message | Message to print to the screen | String | Hello from Atomic Red Team test T1140!|</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
+      <td>ENCODED=$(python3 -c ‘import base64;enc=base64.b64encode(“#{message}”.encode());print(enc.decode())’)</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
+      <td>python3 -c “import base64;dec=base64.b64decode("$ENCODED");print(dec.decode())”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
+      <td>python3 -c “import base64 as d;dec=d.b64decode("$ENCODED");print(dec.decode())”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
+      <td>python3 -c “from base64 import b64decode;dec=b64decode("$ENCODED");print(dec.decode())”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
+      <td>python3 -c “from base64 import b64decode as d;dec=d("$ENCODED");print(dec.decode())”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
+      <td>echo $ENCODED | python3 -c “import base64,sys;dec=base64.b64decode(sys.stdin.read());print(dec.decode())”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
+      <td>echo $ENCODED &gt; #{encoded_file} &amp;&amp; python3 -c “import base64;dec=base64.b64decode(open(‘#{encoded_file}’).read());print(dec.decode())”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
+      <td>ENCODED=$(perl -e “use MIME::Base64;print(encode_base64(‘#{message}’));”)</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
+      <td>perl -le “use MIME::Base64;print(decode_base64(‘$ENCODED’));”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
+      <td>echo $ENCODED | perl -le ‘use MIME::Base64;print(decode_base64(<STDIN>));'</STDIN></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
+      <td>echo $ENCODED &gt; #{encoded_file} &amp;&amp; perl -le ‘use MIME::Base64;open($f,”&lt;”,”#{encoded_file}”);print(decode_base64(&lt;$f&gt;));’</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1035,14 +1287,32 @@
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564.004/T1564.004.md">T1564.004.md</a></td>
-      <td>print /D:#{path}\file.txt:autoruns.exe #{path}\Autoruns.exe</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.010/T1547.010.md">T1547.010.md</a></td>
+      <td>&lt;blockquote&gt;Adversaries may use port monitors to run an attacker supplied DLL during system boot for persistence or privilege escalation. A port monitor can be set through the <code>AddMonitor</code> API call to set a DLL to be loaded at startup. (Citation: AddMonitor) This DLL can be located in <code>C:\Windows\System32</code> and will be loaded by the print spooler service, spoolsv.exe, on boot. The spoolsv.exe process also runs under SYSTEM level permissions. (Citation: Bloxham) Alternatively, an arbitrary DLL can be loaded if permissions allow writing a fully-qualified pathname for that DLL to <code>HKLM\SYSTEM\CurrentControlSet\Control\Print\Monitors</code>.</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/docs/apis.md">apis.md</a></td>
-      <td>### Example: print all the Atomic Tests by ATT&amp;CK technique</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.010/T1547.010.md">T1547.010.md</a></td>
+      <td>reg add “hklm\system\currentcontrolset\control\print\monitors\ART” /v “Atomic Red Team” /d “#{monitor_dll}” /t REG_SZ</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.010/T1547.010.md">T1547.010.md</a></td>
+      <td>reg delete “hklm\system\currentcontrolset\control\print\monitors\ART”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.004/T1562.004.md">T1562.004.md</a></td>
+      <td>Print  the last 10 lines of the Uncomplicated Firewall (UFW) log file</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564.004/T1564.004.md">T1564.004.md</a></td>
+      <td>print /D:#{path}\file.txt:autoruns.exe #{path}\Autoruns.exe</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1163,6 +1433,36 @@
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_project_sauron_extras.yar">apt_project_sauron_extras.yar</a></td>
       <td>$s2 = “Print only replying Ips”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_pulsesecure.yar">apt_pulsesecure.yar</a></td>
+      <td>$s3 = /if[\x09\x20]{0,32}(CGI::param([\x22\x27]\w{1,64}[\x22\x27]))\s{0,128}{[\x09\x20]{0,32}print [\x22\x27]Cache-Control: no-cache\n[\x22\x27][\x09\x20]{0,32};\s{0,128}print [\x22\x27]Content-type: text\/html\n\n[\x22\x27][\x09\x20]{0,32};\s{0,128}my $\w{1,64}[\x09\x20]{0,32}=[\x09\x20]{0,32}CGI::param([\x22\x27]\w{1,64}[\x22\x27])[\x09\x20]{0,32};\s{0,128}system([\x22\x27]$/</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_pulsesecure.yar">apt_pulsesecure.yar</a></td>
+      <td>$s4 = /sed -i [^\r\n]{1,128}CGI::param([^\r\n]{1,128}print[\x20\x09]{1,32}[^\r\n]{1,128}Cache-Control: no-cache[^\r\n]{1,128}print[\x20\x09]{1,32}[^\r\n]{1,128}Content-type: text\/html[^\r\n]{1,128}my [^\r\n]{1,128}=[\x09\x20]{0,32}CGI::param([^\r\n]{1,128}system(/</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_pulsesecure.yar">apt_pulsesecure.yar</a></td>
+      <td>$r3 = /if[\x09\x20]{0,32}($\w{1,64}[\x09\x20]{1,32}eq[\x09\x20]{1,32}[\x22\x27]\w{1,64}[\x22\x27])\s{0,128}{\s{1,128}print[\x09\x20]{0,32}[\x22\x27]Content-type/</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_pulsesecure.yar">apt_pulsesecure.yar</a></td>
+      <td>$s4 = “print $_”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_pulsesecure.yar">apt_pulsesecure.yar</a></td>
+      <td>$s6 = “print MIME::Base64::encode(RC4(“</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>
@@ -1461,6 +1761,18 @@
     </tr>
     <tr>
       <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/6c91884e-11ec-422f-a6ed-e76774b0daac.yml">6c91884e-11ec-422f-a6ed-e76774b0daac.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">source</span><span class="pi">:</span> <span class="s">host.print.file</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/6c91884e-11ec-422f-a6ed-e76774b0daac.yml">6c91884e-11ec-422f-a6ed-e76774b0daac.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">target</span><span class="pi">:</span> <span class="s">host.print.size</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
       <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/6e1a53c0-7352-4899-be35-fa7f364d5722.yml">6e1a53c0-7352-4899-be35-fa7f364d5722.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">name</span><span class="pi">:</span> <span class="s">Print Working Directory</span> </code></td>
       <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
@@ -1469,6 +1781,12 @@
       <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
       <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/6e1a53c0-7352-4899-be35-fa7f364d5722.yml">6e1a53c0-7352-4899-be35-fa7f364d5722.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Print the current working directory on the system</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/discovery/a41c2324-8c63-4b15-b3c5-84f920d1f226.yml">a41c2324-8c63-4b15-b3c5-84f920d1f226.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">command</span><span class="pi">:</span> <span class="s1">'</span><span class="s">find</span><span class="nv"> </span><span class="s">~</span><span class="nv"> </span><span class="s">-type</span><span class="nv"> </span><span class="s">f</span><span class="nv"> </span><span class="s">-name</span><span class="nv"> </span><span class="s">#{host.print.file}</span><span class="nv"> </span><span class="s">2&gt;/dev/null'</span></code></td>
       <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
     </tr>
   </tbody>

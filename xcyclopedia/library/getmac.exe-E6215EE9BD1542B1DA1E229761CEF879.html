@@ -302,7 +302,7 @@
 <h2 id="getmac">getmac</h2>
 
 <blockquote>
-  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
+  <p>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
 </blockquote>
 
 <p>Returns the media access control (MAC) address and list of network protocols associated with each address for all network cards in each computer, either locally or across a network. This command is particularly useful either when you want to enter the MAC address into a network analyzer, or when you need to know what protocols are currently in use on each network adapter on a computer.</p>
@@ -319,52 +319,36 @@
     <tr>
       <th>Parameter</th>
       <th>Description</th>
-      <th> </th>
-      <th> </th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>/s <code class="language-plaintext highlighter-rouge">&lt;computer&gt;</code></td>
       <td>Specifies the name or IP address of a remote computer (do not use backslashes). The default is the local computer.</td>
-      <td> </td>
-      <td> </td>
     </tr>
     <tr>
       <td>/u <code class="language-plaintext highlighter-rouge">&lt;domain&gt;\&lt;user&gt;</code></td>
       <td>Runs the command with the account permissions of the user specified by <em>user</em> or <em>domain\user</em>. The default is the permissions of the current logged on user on the computer issuing the command.</td>
-      <td> </td>
-      <td> </td>
     </tr>
     <tr>
       <td>/p <code class="language-plaintext highlighter-rouge">&lt;password&gt;</code></td>
       <td>Specifies the password of the user account that is specified in the <strong>/u</strong> parameter.</td>
-      <td> </td>
-      <td> </td>
     </tr>
     <tr>
-      <td>/fo {table</td>
-      <td>list</td>
-      <td>csv}</td>
+      <td>/fo {table | list | csv}</td>
       <td>Specifies the format to use for the query output. Valid values are <strong>table</strong>, <strong>list</strong>, and <strong>csv</strong>. The default format for output is <strong>table</strong>.</td>
     </tr>
     <tr>
       <td>/nh</td>
       <td>Suppresses column header in output. Valid when the <strong>/fo</strong> parameter is set to <strong>table</strong> or <strong>csv</strong>.</td>
-      <td> </td>
-      <td> </td>
     </tr>
     <tr>
       <td>/v</td>
       <td>Specifies that the output display verbose information.</td>
-      <td> </td>
-      <td> </td>
     </tr>
     <tr>
       <td>/?</td>
       <td>Displays help at the command prompt.</td>
-      <td> </td>
-      <td> </td>
     </tr>
   </tbody>
 </table>

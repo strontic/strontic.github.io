@@ -366,59 +366,48 @@
     <tr>
       <th>Parameter</th>
       <th>Description</th>
-      <th> </th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>/id <code class="language-plaintext highlighter-rouge">&lt;packagename&gt;</code></td>
       <td>Specifies which diagnostic package to run. For a list of available packages, see <a href="/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/ee424379(v=ws.11)#available-troubleshooting-packs">Available Troubleshooting packs</a>.</td>
-      <td> </td>
     </tr>
     <tr>
       <td>/path <code class="language-plaintext highlighter-rouge">&lt;directory|.diagpkg file|.diagcfg file&gt;</code></td>
       <td>Specifies the full path to a diagnostic package. If you specify a directory, the directory must contain a diagnostic package. You cannot use the <strong>/path</strong> parameter in conjunction with the** /id<strong>, **/dci</strong>, or <strong>/cab</strong> parameters.</td>
-      <td> </td>
     </tr>
     <tr>
       <td>/dci <code class="language-plaintext highlighter-rouge">&lt;passkey&gt;</code></td>
       <td>Prepopulates the passkey field. This parameter is only used when a support provider has supplied a passkey.</td>
-      <td> </td>
     </tr>
     <tr>
       <td>/dt <code class="language-plaintext highlighter-rouge">&lt;directory&gt;</code></td>
       <td>Displays the troubleshooting history in the specified directory. Diagnostic results are stored in the userâ€™s <strong>%LOCALAPPDATA%\Diagnostics</strong> or <strong>%LOCALAPPDATA%\ElevatedDiagnostics</strong> directories.</td>
-      <td> </td>
     </tr>
     <tr>
       <td>/af <code class="language-plaintext highlighter-rouge">&lt;answerfile&gt;</code></td>
       <td>Specifies an answer file in XML format that contains responses to one or more diagnostic interactions.</td>
-      <td> </td>
     </tr>
     <tr>
       <td>/modal <code class="language-plaintext highlighter-rouge">&lt;ownerHWND&gt;</code></td>
       <td>Makes the troubleshooting pack modal to a window designated by the parent Console Window Handle (HWND), in decimal. This parameter is typically used by applications that launch a troubleshooting pack. For more information about obtaining Console Window Handles, see <a href="https://support.microsoft.com/help/124103/how-to-obtain-a-console-window-handle-hwnd">How to Obtain a Console Window Handle (HWND)</a>.</td>
-      <td> </td>
     </tr>
     <tr>
       <td>/moreoptions <code class="language-plaintext highlighter-rouge">&lt;true|false&gt;</code></td>
       <td>Enables (true) or suppresses (false) the final troubleshooting screen that asks if the user wants to explore additional options. This parameter is typically used when the troubleshooting pack is launched by a troubleshooter that isn’t part of the operating system.</td>
-      <td> </td>
     </tr>
     <tr>
       <td>/param <code class="language-plaintext highlighter-rouge">&lt;parameters&gt;</code></td>
       <td>Specifies a set of interaction responses at the command line, similar to an answer file. This parameter isn’t typically used within the context of troubleshooting packs created with TSP Designer. For more information about developing custom parameters, see <a href="/previous-versions/windows/desktop/wintt/windows-troubleshooting-toolkit-portal">Windows Troubleshooting Platform</a>.</td>
-      <td> </td>
     </tr>
     <tr>
       <td>/advanced</td>
       <td>Expands the advanced link on the Welcome page by default when the troubleshooting pack is started.</td>
-      <td> </td>
     </tr>
     <tr>
       <td>/custom</td>
       <td>Prompts the user to confirm each possible resolution before it is applied.</td>
-      <td> </td>
     </tr>
   </tbody>
 </table>

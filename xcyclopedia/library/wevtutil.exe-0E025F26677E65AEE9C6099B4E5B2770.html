@@ -406,6 +406,23 @@
   <li>VirusTotal Link: https://www.virustotal.com/gui/file/f1f16a423959485a949536e61cc63d55879cd7d58f6fd563e918a719b59f8803/detection</li>
 </ul>
 
+<h2 id="file-similarity-ssdeep-match">File Similarity (ssdeep match)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/xcyclopedia/library/wevtutil.exe-32E667838935D3310876C6B62396C6C0.html">C:\Windows\SysWOW64\wevtutil.exe</a></td>
+      <td>50</td>
+    </tr>
+  </tbody>
+</table>
+
 <h2 id="possible-misuse">Possible Misuse</h2>
 
 <p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">wevtutil.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">wevtutil.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
@@ -423,6 +440,12 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_susp_eventlog_cleared.yml">win_susp_eventlog_cleared.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">One of the Windows Eventlogs has been cleared. e.g. caused by "wevtutil cl" command execution</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_system_susp_eventlog_cleared.yml">win_system_susp_eventlog_cleared.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">One of the Windows Eventlogs has been cleared. e.g. caused by "wevtutil cl" command execution</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
@@ -465,7 +488,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_eventlog_clear.yml">win_susp_eventlog_clear.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects clearing or configuration of eventlogs uwing wevtutil, powershell and wmic. Might be used by ransomwares during the attack (seen by NotPetya and others)</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects clearing or configuration of eventlogs using wevtutil, powershell and wmic. Might be used by ransomwares during the attack (seen by NotPetya and others).</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -476,9 +499,27 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_webshell_detection.yml">win_webshell_detection.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*wevtutil*'</span> </code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_spoolsv_child_processes.yml">win_susp_spoolsv_child_processes.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">\wevtutil.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_webshell_detection.yml">win_webshell_detection.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\wevtutil.exe'</span> </code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #5: Disable Event Logging with wevtutil [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- Atomic Test #5: Disable Event Logging with wevtutil [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
@@ -502,6 +543,36 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.001/T1070.001.md">T1070.001.md</a></td>
       <td>wevtutil cl #{log_name}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.002/T1562.002.md">T1562.002.md</a></td>
+      <td>- <a href="#atomic-test-5---disable-event-logging-with-wevtutil">Atomic Test #5 - Disable Event Logging with wevtutil</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.002/T1562.002.md">T1562.002.md</a></td>
+      <td>## Atomic Test #5 - Disable Event Logging with wevtutil</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.002/T1562.002.md">T1562.002.md</a></td>
+      <td>Wevtutil can be used to disable logs.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.002/T1562.002.md">T1562.002.md</a></td>
+      <td>wevtutil sl “#{log_name}” /e:false</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.002/T1562.002.md">T1562.002.md</a></td>
+      <td>wevtutil sl “#{log_name}” /e:true</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -661,7 +732,7 @@
     </tr>
     <tr>
       <td>/l:&lt;Level&gt;</td>
-      <td>Defines the level filter of the log. &lt;Level&gt; can be any valid level value. This option is only applicable to logs with a dedicated session. You can remove a level filter by setting <Level> to 0.</Level></td>
+      <td>Defines the level filter of the log. &lt;Level&gt; can be any valid level value. This option is only applicable to logs with a dedicated session. You can remove a level filter by setting &lt;Level&gt; to 0.</td>
     </tr>
     <tr>
       <td>/k:&lt;Keywords&gt;</td>
@@ -673,7 +744,7 @@
     </tr>
     <tr>
       <td>/c:&lt;Config&gt;</td>
-      <td>Specifies the path to a configuration file. This option will cause log properties to be read from the configuration file defined in &lt;Config&gt;. If you use this option, you must not specify a <Logname> parameter. The log name will be read from the configuration file.</Logname></td>
+      <td>Specifies the path to a configuration file. This option will cause log properties to be read from the configuration file defined in &lt;Config&gt;. If you use this option, you must not specify a &lt;Logname&gt; parameter. The log name will be read from the configuration file.</td>
     </tr>
     <tr>
       <td>/ge:&lt;Metadata&gt;</td>
@@ -689,7 +760,7 @@
     </tr>
     <tr>
       <td>/sq:&lt;Structquery&gt;</td>
-      <td>Specifies that events should be obtained with a structured query. &lt;Structquery&gt; can be true or false. If true, <Path> is the path to a file that contains a structured query.</Path></td>
+      <td>Specifies that events should be obtained with a structured query. &lt;Structquery&gt; can be true or false. If true, &lt;Path&gt; is the path to a file that contains a structured query.</td>
     </tr>
     <tr>
       <td>/q:&lt;Query&gt;</td>
@@ -721,7 +792,7 @@
     </tr>
     <tr>
       <td>/ow:&lt;Overwrite&gt;</td>
-      <td>Specifies that the export file should be overwritten. &lt;Overwrite&gt; can be true or false. If true, and the export file specified in <Exportfile> already exists, it will be overwritten without confirmation.</Exportfile></td>
+      <td>Specifies that the export file should be overwritten. &lt;Overwrite&gt; can be true or false. If true, and the export file specified in &lt;Exportfile&gt; already exists, it will be overwritten without confirmation.</td>
     </tr>
     <tr>
       <td>/bu:&lt;Backup&gt;</td>
@@ -737,7 +808,7 @@
     </tr>
     <tr>
       <td>/p:&lt;Password&gt;</td>
-      <td>Specifies the password for the user. If the <strong>/u</strong> option is used and this option is not specified or &lt;Password&gt; is <em>, the user will be prompted to enter a password. This option is only applicable when the **/u</em>* option is specified.</td>
+      <td>Specifies the password for the user. If the <strong>/u</strong> option is used and this option is not specified or &lt;Password&gt; is *, the user will be prompted to enter a password. This option is only applicable when the <strong>/u</strong> option is specified.</td>
     </tr>
     <tr>
       <td>/a:&lt;Auth&gt;</td>
@@ -745,7 +816,7 @@
     </tr>
     <tr>
       <td>/uni:&lt;Unicode&gt;</td>
-      <td>Displays the output in Unicode. &lt;Unicode&gt; can be true or false. If <Unicode> is true then the output is in Unicode.</Unicode></td>
+      <td>Displays the output in Unicode. &lt;Unicode&gt; can be true or false. If &lt;Unicode&gt; is true then the output is in Unicode.</td>
     </tr>
   </tbody>
 </table>

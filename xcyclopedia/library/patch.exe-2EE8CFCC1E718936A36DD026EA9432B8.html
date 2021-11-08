@@ -469,6 +469,54 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/gcp/gcp_bucket_modified_or_deleted.yml">gcp_bucket_modified_or_deleted.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">storage.buckets.patch</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/gcp/gcp_dns_zone_modified_or_deleted.yml">gcp_dns_zone_modified_or_deleted.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Dns.ManagedZones.Patch</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/gcp/gcp_firewall_rule_modified_or_deleted.yml">gcp_firewall_rule_modified_or_deleted.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">v*.Compute.Firewalls.Patch</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/gcp/gcp_full_network_traffic_packet_capture.yml">gcp_full_network_traffic_packet_capture.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">v*.Compute.PacketMirrorings.Patch</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/gcp/gcp_kubernetes_rolebinding.yml">gcp_kubernetes_rolebinding.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">io.k8s.authorization.rbac.v*.clusterrolebindings.patch</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/gcp/gcp_kubernetes_rolebinding.yml">gcp_kubernetes_rolebinding.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">io.k8s.authorization.rbac.v*.rolebindings.patch</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/gcp/gcp_kubernetes_secrets_modified_or_deleted.yml">gcp_kubernetes_secrets_modified_or_deleted.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">io.k8s.core.v*.secrets.patch</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/gcp/gcp_service_account_modified.yml">gcp_service_account_modified.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">.serviceAccounts.patch</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_termserv_proc_spawn.yml">win_termserv_proc_spawn.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/rdp-stands-for-really-do-patch-understanding-the-wormable-rdp-vulnerability-cve-2019-0708/</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
@@ -608,7 +656,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/linux-matrix.md">linux-matrix.md</a></td>
-      <td>|  |  | Valid Accounts <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Patch System Image <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |  |</td>
+      <td>|  |  | <a href="../../T1546.004/T1546.004.md">Unix Shell Configuration Modification</a> |  | Patch System Image <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -634,6 +682,12 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md">T1562.001.md</a></td>
       <td>Any easy way to bypass AMSI inspection is it patch the dll in memory setting the “amsiInitFailed” function to true.</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_hafnium.yar">apt_hafnium.yar</a></td>
+      <td>description = “Detects a Windows Error Report (WER) that indicates and exploitation attempt of the Exchange server as described in CVE-2021-26857 after the corresponding patches have been applied. WER files won’t be written upon successful exploitation before applying the patch. Therefore, this indicates an unsuccessful attempt.”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>

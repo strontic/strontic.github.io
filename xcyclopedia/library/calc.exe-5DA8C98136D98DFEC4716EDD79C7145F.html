@@ -424,78 +424,84 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_calc.yml">win_susp_calc.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">CommandLine</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\calc.exe</span><span class="nv"> </span><span class="s">*'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">CommandLine\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\calc.exe</span><span class="nv"> </span><span class="s">'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_calc.yml">win_susp_calc.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\calc.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\calc.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rundll32_setupapi_installhinfsection.yml">win_susp_rundll32_setupapi_installhinfsection.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://gist.githubusercontent.com/bohops/0cc6586f205f3691e04a1ebf1806aabd/raw/baf7b29891bb91e76198e30889fbf7d6642e8974/calc_exe.inf</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Explorer.yml">Explorer.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Explorer.yml">Explorer.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">explorer.exe calc.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Explorer.yml">Explorer.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Explorer.yml">Explorer.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Executes</span><span class="nv"> </span><span class="s">calc.exe</span><span class="nv"> </span><span class="s">as</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">subprocess</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">explorer.exe.'</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Gpup.yml">Gpup.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OtherBinaries/Gpup.yml">Gpup.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">Gpup.exe -w whatever -e c:\Windows\System32\calc.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Nvudisp.yml">Nvudisp.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OtherBinaries/Nvudisp.yml">Nvudisp.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">Nvudisp.exe System calc.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Nvudisp.yml">Nvudisp.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OtherBinaries/Nvudisp.yml">Nvudisp.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Execute calc.exe as a subprocess.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Nvudisp.yml">Nvudisp.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OtherBinaries/Nvudisp.yml">Nvudisp.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">Nvudisp.exe CreateShortcut test.lnk,"Test","c:\windows\system32\calc.exe\","","c:\windows\system32\"</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Nvuhda6.yml">Nvuhda6.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OtherBinaries/Nvuhda6.yml">Nvuhda6.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">nvuhda6.exe System calc.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Nvuhda6.yml">Nvuhda6.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OtherBinaries/Nvuhda6.yml">Nvuhda6.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Execute calc.exe as a subprocess.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Nvuhda6.yml">Nvuhda6.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OtherBinaries/Nvuhda6.yml">Nvuhda6.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">nvuhda6.exe CreateShortcut test.lnk,"Test","C:\Windows\System32\calc.exe","","C:\Windows\System32\"</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Nvuhda6.yml">Nvuhda6.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OtherBinaries/Nvuhda6.yml">Nvuhda6.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">nvuhda6.exe KillApp calc.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OtherBinaries/Usbinst.yml">Usbinst.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OtherBinaries/Usbinst.yml">Usbinst.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Execute calc.exe through DefaultInstall Section Directive in INF file.</span></code></td>
       <td> </td>
     </tr>
@@ -741,24 +747,6 @@
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/hta.md">hta.md</a></td>
-      <td>SW.Document.Application.ShellExecute(“cmd.exe”, “/c calc.exe”, ‘C:\Windows\System32’, null, 0);</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/hta.md">hta.md</a></td>
-      <td>Mshta spawns child process of calc.exe.</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Initial_Access/hta.md">hta.md</a></td>
-      <td>var r = new ActiveXObject(“WScript.Shell”).Run(“calc.exe”);</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.003/T1021.003.md">T1021.003.md</a></td>
       <td>Upon successful execution, cmd will spawn calc.exe on a remote computer.</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
@@ -778,7 +766,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md">T1036.003.md</a></td>
-      <td>| exe_path | path to exe to use when creating masquerading files | path | C:\Windows\System32\calc.exe|</td>
+      <td>| exe_path | path to exe to use when creating masquerading files | Path | C:\Windows\System32\calc.exe|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -801,18 +789,6 @@
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.012/T1055.012.md">T1055.012.md</a></td>
-      <td>| sponsor_binary_path | Path of the sponsor binary (executable that will host the binary) | string | C:\Windows\System32\calc.exe|</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.012/T1055.012.md">T1055.012.md</a></td>
-      <td>This module executes calc.exe from within the WINWORD.EXE process</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1106/T1106.md">T1106.md</a></td>
       <td>Execute program by leveraging Win32 API’s. By default, this will launch calc.exe from the command prompt.</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
@@ -820,7 +796,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1112/T1112.md">T1112.md</a></td>
-      <td>| new_executable | New executable to run on startup instead of Windows Defender | string | calc.exe|</td>
+      <td>| new_executable | New executable to run on startup instead of Windows Defender | String | calc.exe|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -832,13 +808,13 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
-      <td>| executable | name of executable | path | C:\Windows\System32\calc.exe|</td>
+      <td>| executable | name of executable | Path | C:\Windows\System32\calc.exe|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1140/T1140.md">T1140.md</a></td>
-      <td>| executable | name of executable/file to decode | path | C:\Windows\System32\calc.exe|</td>
+      <td>| executable | name of executable/file to decode | Path | C:\Windows\System32\calc.exe|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -850,13 +826,13 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md">T1202.md</a></td>
-      <td>| payload_path | Path to payload | path | C:\Windows\System32\calc.exe|</td>
+      <td>| payload_path | Path to payload | Path | C:\Windows\System32\calc.exe|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md">T1202.md</a></td>
-      <td>| process | Process to execute | string | calc.exe|</td>
+      <td>| process | Process to execute | String | calc.exe|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -904,7 +880,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218/T1218.md">T1218.md</a></td>
-      <td>| powershell_code | PowerShell code to execute | string | Start-Process calc.exe|</td>
+      <td>| powershell_code | PowerShell code to execute | String | Start-Process calc.exe|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -964,7 +940,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.011/T1218.011.md">T1218.011.md</a></td>
-      <td>| command_to_execute | Command for rundll32.exe to execute | string | calc.exe|</td>
+      <td>| command_to_execute | Command for rundll32.exe to execute | String | calc.exe|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>

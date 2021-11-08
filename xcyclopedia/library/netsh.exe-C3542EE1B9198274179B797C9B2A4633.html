@@ -354,7 +354,7 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_wocao.yml">win_apt_wocao.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_apt_wocao.yml">process_creation_apt_wocao.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">netsh</span><span class="nv"> </span><span class="s">advfirewall</span><span class="nv"> </span><span class="s">firewall</span><span class="nv"> </span><span class="s">add</span><span class="nv"> </span><span class="s">rule</span><span class="nv"> </span><span class="s">name=powershell</span><span class="nv"> </span><span class="s">dir=in'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
@@ -391,7 +391,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_fw_add.yml">win_netsh_fw_add.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*netsh*'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\netsh.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -409,13 +409,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_fw_add_susp_image.yml">win_netsh_fw_add_susp_image.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">netsh'</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_fw_add_susp_image.yml">win_netsh_fw_add_susp_image.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">netsh</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\netsh.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -451,13 +445,19 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_port_fwd.yml">win_netsh_port_fwd.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects netsh commands that configure a port forwarding</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects netsh commands that configure a port forwarding (PortProxy)</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_port_fwd.yml">win_netsh_port_fwd.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">netsh interface portproxy add v4tov4 *</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://adepts.of0x.cc/netsh-portproxy-code/</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_port_fwd.yml">win_netsh_port_fwd.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\netsh.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -475,7 +475,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_port_fwd_3389.yml">win_netsh_port_fwd_3389.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">netsh i* p*=3389 c*</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\netsh.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -493,7 +493,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_netsh_wifi_credential_harvesting.yml">win_netsh_wifi_credential_harvesting.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">netsh</span><span class="nv"> </span><span class="s">wlan</span><span class="nv"> </span><span class="s">s*</span><span class="nv"> </span><span class="s">p*</span><span class="nv"> </span><span class="s">k*=clear'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\netsh.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -557,38 +557,50 @@
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_spoolsv_child_processes.yml">win_susp_spoolsv_child_processes.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s">\netsh.exe</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/win_portproxy_registry_key.yml">win_portproxy_registry_key.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://adepts.of0x.cc/netsh-portproxy-code/</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Netsh.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">netsh.exe trace start capture=yes filemode=append persistent=yes tracefile=\\server\share\file.etl IPv4.Address=!(&lt;IPofRemoteFileShare&gt;)</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">netsh.exe trace show status</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">netsh.exe add helper C:\Path\file.dll</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Description</span><span class="pi">:</span> <span class="s">Load (execute) NetSh.exe helper DLL file.</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/Archive-Old-Version/LOLUtilz/OSBinaries/Netsh.yml">Netsh.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">netsh interface portproxy add v4tov4 listenport=8080 listenaddress=0.0.0.0 connectport=8000 connectaddress=192.168.1.1</span></code></td>
       <td> </td>
     </tr>
@@ -667,25 +679,25 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | <a href="../../T1543.004/T1543.004.md">Launch Daemon</a> | <a href="../../T1546.007/T1546.007.md">Netsh Helper DLL</a> | <a href="../../T1553.001/T1553.001.md">Gatekeeper Bypass</a> | Unsecured Credentials <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |</td>
+      <td>|  |  | <a href="../../T1136.001/T1136.001.md">Local Account</a> | <a href="../../T1546.007/T1546.007.md">Netsh Helper DLL</a> | <a href="../../T1070.004/T1070.004.md">File Deletion</a> | Unsecured Credentials <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | <a href="../../T1546.007/T1546.007.md">Netsh Helper DLL</a> | <a href="../../T1574.009/T1574.009.md">Path Interception by Unquoted Path</a> | <a href="../../T1564/T1564.md">Hide Artifacts</a> |  |  |  |  |  |  |  |</td>
+      <td>|  |  | <a href="../../T1546.007/T1546.007.md">Netsh Helper DLL</a> | Path Interception by Search Order Hijacking <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1564.001/T1564.001.md">Hidden Files and Directories</a> |  |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | <a href="../../T1136.001/T1136.001.md">Local Account</a> | <a href="../../T1546.007/T1546.007.md">Netsh Helper DLL</a> | <a href="../../T1070.004/T1070.004.md">File Deletion</a> | <a href="../../T1003.002/T1003.002.md">Security Account Manager</a> |  |  |  |  | <a href="../../T1219/T1219.md">Remote Access Software</a> |  |</td>
+      <td>|  |  | <a href="../../T1037.001/T1037.001.md">Logon Script (Windows)</a> | <a href="../../T1546.007/T1546.007.md">Netsh Helper DLL</a> | File and Directory Permissions Modification <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Silver Ticket <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  | Traffic Signaling <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | <a href="../../T1546.007/T1546.007.md">Netsh Helper DLL</a> | Path Interception <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Hidden File System <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Steal or Forge Kerberos Tickets <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  | Symmetric Cryptography <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  |  | <a href="../../T1546.007/T1546.007.md">Netsh Helper DLL</a> | <a href="../../T1134.004/T1134.004.md">Parent PID Spoofing</a> | Hidden File System <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Steal or Forge Kerberos Tickets <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  | Web Service <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -710,6 +722,18 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1016/T1016.md">T1016.md</a></td>
       <td>netsh advfirewall firewall show rule name=all</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.001/T1021.001.md">T1021.001.md</a></td>
+      <td>netsh advfirewall firewall add rule name=”RDPPORTLatest-TCP-In” dir=in action=allow protocol=TCP localport=#{NEW_Remote_Port}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.001/T1021.001.md">T1021.001.md</a></td>
+      <td>netsh advfirewall firewall delete rule name=”RDPPORTLatest-TCP-In” &gt;nul 2&gt;&amp;1</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -946,7 +970,7 @@
 <h2 id="netsh">netsh</h2>
 
 <blockquote>
-  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2016</p>
+  <p>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016</p>
 </blockquote>
 
 <p>The Network Shell command-line scripting utility that allows you to, either locally or remotely, display or modify the network configuration of a currently running computer. You can start this utility at the command prompt or in Windows PowerShell.</p>

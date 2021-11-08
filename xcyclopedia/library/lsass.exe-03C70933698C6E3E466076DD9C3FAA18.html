@@ -334,7 +334,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_alert_lsass_access.yml">win_alert_lsass_access.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Path</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\lsass.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Path\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -376,7 +376,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_susp_lsass_dump.yml">win_susp_lsass_dump.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ProcessName</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\Windows\System32\lsass.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ProcessName\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -411,6 +411,24 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/create_remote_thread/sysmon_password_dumper_lsass.yml">sysmon_password_dumper_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Password Dumper Remote Thread in LSASS</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/create_remote_thread/sysmon_password_dumper_lsass.yml">sysmon_password_dumper_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects password dumper activity by monitoring remote thread creation EventID 8 in combination with the lsass.exe process as TargetImage. The process in field Process is the malicious program. A single execution can lead to hundreds of events.</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/create_remote_thread/sysmon_password_dumper_lsass.yml">sysmon_password_dumper_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/deprecated/sysmon_mimikatz_detection_lsass.yml">sysmon_mimikatz_detection_lsass.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Mimikatz Detection LSASS Access</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
@@ -424,7 +442,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/deprecated/sysmon_mimikatz_detection_lsass.yml">sysmon_mimikatz_detection_lsass.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">TargetImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\windows\system32\lsass.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -435,14 +453,32 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml">sysmon_creation_system_file.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\lsass.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_hack_dumpert.yml">file_event_hack_dumpert.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects the use of Dumpert process dumper, which dumps the lsass.exe process memory</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_hack_dumpert.yml">sysmon_hack_dumpert.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects the use of Dumpert process dumper, which dumps the lsass.exe process memory</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_hktl_createminidump.yml">file_event_hktl_createminidump.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects the use of CreateMiniDump hack tool used to dump the LSASS process memory for credential extraction on the attacker's machine</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_hktl_createminidump.yml">file_event_hktl_createminidump.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://ired.team/offensive-security/credential-access-and-credential-dumping/dumping-lsass-passwords-without-mimikatz-minidumpwritedump-av-signature-bypass</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_hktl_createminidump.yml">file_event_hktl_createminidump.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetFilename\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\lsass.dmp'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml">sysmon_creation_system_file.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -471,8 +507,26 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_lsass_memory_dump_file_creation.yml">sysmon_lsass_memory_dump_file_creation.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Dumps of another process that contains lsass in its process name (substring)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/process_creation_tttracer_mod_load.yml">process_creation_tttracer_mod_load.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects usage of Time Travel Debugging Utility. Adversaries can execute malicious processes and dump processes, such as lsass.exe, via tttracer.exe.</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_suspicious_dbghelp_dbgcore_load.yml">sysmon_suspicious_dbghelp_dbgcore_load.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">API found in dbghelp.dll or dbgcore.dll. As an example, SilentTrynity C2 Framework has a module that leverages this API to dump the contents of Lsass.exe and</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_tttracer_mod_load.yml">sysmon_tttracer_mod_load.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects usage of Time Travel Debugging Utility. Adversaries can execute malicious processes and dump processes, such as lsass.exe, via tttracer.exe.</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -497,6 +551,24 @@
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_suspicious_outbound_kerberos_connection.yml">sysmon_suspicious_outbound_kerberos_connection.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/powershell_suspicious_getprocess_lsass.yml">powershell_suspicious_getprocess_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">PowerShell Get-Process LSASS in ScriptBlock</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/powershell_suspicious_getprocess_lsass.yml">powershell_suspicious_getprocess_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects a Get-Process command on lsass process, which is in almost all cases a sign of malicious activity</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/powershell_suspicious_getprocess_lsass.yml">powershell_suspicious_getprocess_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ScriptBlockText\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Get-Process</span><span class="nv"> </span><span class="s">lsass'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -532,7 +604,25 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_lazagne_cred_dump_lsass_access.yml">sysmon_lazagne_cred_dump_lsass_access.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">TargetImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\lsass.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_lsass_dump_comsvcs_dll.yml">sysmon_lsass_dump_comsvcs_dll.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Lsass Memory Dump via Comsvcs DLL</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_lsass_dump_comsvcs_dll.yml">sysmon_lsass_dump_comsvcs_dll.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects adversaries leveraging the MiniDump export function from comsvcs.dll via rundll32 to perform a memory dump from lsass.</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_lsass_dump_comsvcs_dll.yml">sysmon_lsass_dump_comsvcs_dll.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -550,7 +640,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_lsass_memdump.yml">sysmon_lsass_memdump.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">TargetImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\windows\system32\lsass.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -562,7 +652,37 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_mimikatz_trough_winrm.yml">sysmon_mimikatz_trough_winrm.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">TargetImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\windows\system32\lsass.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_pypykatz_cred_dump_lsass_access.yml">sysmon_pypykatz_cred_dump_lsass_access.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects LSASS process access by pypykatz for credential dumping.</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_pypykatz_cred_dump_lsass_access.yml">sysmon_pypykatz_cred_dump_lsass_access.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_hack_dumpert.yml">process_creation_hack_dumpert.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects the use of Dumpert process dumper, which dumps the lsass.exe process memory</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_abusing_debug_privilege.yml">sysmon_abusing_debug_privilege.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_credential_access_via_password_filter.yml">win_credential_access_via_password_filter.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects dropping of dll files in system32 that may be used to retrieve user credentials from LSASS</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -575,12 +695,6 @@
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_hktl_createminidump.yml">win_hktl_createminidump.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://ired.team/offensive-security/credential-access-and-credential-dumping/dumping-lsass-passwords-without-mimikatz-minidumpwritedump-av-signature-bypass</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_hktl_createminidump.yml">win_hktl_createminidump.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetFilename\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\lsass.dmp'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -610,31 +724,97 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_proc_wrong_parent.yml">win_proc_wrong_parent.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\lsass.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_procdump.yml">win_susp_procdump.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_powershell_getprocess_lsass.yml">win_susp_powershell_getprocess_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">PowerShell Get-Process LSASS</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_powershell_getprocess_lsass.yml">win_susp_powershell_getprocess_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects a Get-Process command on lsass process, which is in almost all cases a sign of malicious activity</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_powershell_getprocess_lsass.yml">win_susp_powershell_getprocess_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">Get-Process</span><span class="nv"> </span><span class="s">lsass'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_procdump_lsass.yml">win_susp_procdump_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Suspicious Use of Procdump on LSASS</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_procdump_lsass.yml">win_susp_procdump_lsass.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects suspicious uses of the SysInternals Procdump utility by using a special command line parameter in combination with the lsass.exe process. This way we're also able to catch cases in which the attacker has renamed the procdump executable.</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_procdump.yml">win_susp_procdump.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*</span><span class="nv"> </span><span class="s">lsass*'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_procdump_lsass.yml">win_susp_procdump_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">CommandLine\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="nv"> </span><span class="s">lsass'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_procdump.yml">win_susp_procdump.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_procdump_lsass.yml">win_susp_procdump_lsass.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Unlikely, because no one should dump an lsass process memory</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml">win_system_exe_anomaly.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\lsass.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/raw_access_thread/sysmon_raw_disk_access_using_illegitimate_tools.yml">sysmon_raw_disk_access_using_illegitimate_tools.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_registry_add_local_hidden_user.yml">sysmon_registry_add_local_hidden_user.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s2">"</span><span class="s">lsass.exe"</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_reg_silentprocessexit.yml">sysmon_reg_silentprocessexit.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://www.deepinstinct.com/2021/02/16/lsass-memory-dumps-are-stealthier-than-ever-before-part-2/</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_reg_silentprocessexit_lsass.yml">sysmon_reg_silentprocessexit_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">SilentProcessExit Monitor Registrytion for LSASS</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_reg_silentprocessexit_lsass.yml">sysmon_reg_silentprocessexit_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects changes to the Registry in which a monitor program gets registered to dump process memory of the lsass.exe process memory</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_reg_silentprocessexit_lsass.yml">sysmon_reg_silentprocessexit_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://www.deepinstinct.com/2021/02/16/lsass-memory-dumps-are-stealthier-than-ever-before-part-2/</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_reg_silentprocessexit_lsass.yml">sysmon_reg_silentprocessexit_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetObject\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Microsoft\Windows</span><span class="nv"> </span><span class="s">NT\CurrentVersion\SilentProcessExit\lsass.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -651,26 +831,14 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_password_dumper_lsass.yml">sysmon_password_dumper_lsass.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Password Dumper Remote Thread in LSASS</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_accessing_winapi_in_powershell_credentials_dumping.yml">sysmon_accessing_winapi_in_powershell_credentials_dumping.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects Accessing to lsass.exe by Powershell</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_password_dumper_lsass.yml">sysmon_password_dumper_lsass.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects password dumper activity by monitoring remote thread creation EventID 8 in combination with the lsass.exe process as TargetImage. The process in field Process is the malicious program. A single execution can lead to hundreds of events.</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_password_dumper_lsass.yml">sysmon_password_dumper_lsass.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">TargetImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\Windows\System32\lsass.exe'</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_raw_disk_access_using_illegitimate_tools.yml">sysmon_raw_disk_access_using_illegitimate_tools.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_accessing_winapi_in_powershell_credentials_dumping.yml">sysmon_accessing_winapi_in_powershell_credentials_dumping.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\lsass.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -693,9 +861,27 @@
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Adplus.yml">Adplus.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Link</span><span class="pi">:</span> <span class="s">https://blog.thecybersecuritytutor.com/adplus-debugging-tool-lsass-dump/</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OtherMSBinaries/Sqldumper.yml">Sqldumper.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Usecase</span><span class="pi">:</span> <span class="s">Dump LSASS.exe to Mimikatz compatible dump using PID.</span></code></td>
       <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/exchange_exploitation/README.adoc">exchange_exploitation</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>af421b1f5a08499e130d24f448f6d79f7c76af2b<code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Win64</span><span class="p">/</span><span class="ni">Riskware</span><span class="err">.</span><span class="ni">LsassDumper</span><span class="err">.J</span>          <span class="err">\|</span><span class="ni">LSASS</span> <span class="ni">dumper</span> <span class="ni">used</span> <span class="ni">by</span> <span class="ni">Tonto</span> <span class="ni">Team</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/famoussparrow/README.adoc">famoussparrow</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>76C430B55F180A85F4E1A1E40E4A2EA37DB97599<code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Win64</span><span class="p">/</span><span class="ni">Kryptik</span><span class="err">.</span><span class="ni">BSQ</span><span class="err">\|</span><span class="ni">Lsass</span> <span class="ni">dumper</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
@@ -706,18 +892,6 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
-      <td>- T1547.008 LSASS Driver <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
-      <td>- Atomic Test #3: Remote Process Injection in LSASS via mimikatz [windows]</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
       <td>- <a href="../../T1003.001/T1003.001.md">T1003.001 LSASS Memory</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
@@ -761,6 +935,30 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
       <td>- Atomic Test #9: Create Mini Dump of LSASS.exe using ProcDump [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #11: Dump LSASS with .Net 5 createdump.exe [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #12: Dump LSASS.exe using imported Microsoft DLLs [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- T1547.008 LSASS Driver <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #2: Remote Process Injection in LSASS via mimikatz [windows]</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -820,13 +1018,25 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- Atomic Test #11: Dump LSASS with .Net 5 createdump.exe [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- Atomic Test #12: Dump LSASS.exe using imported Microsoft DLLs [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
       <td>- T1547.008 LSASS Driver <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
-      <td>- Atomic Test #3: Remote Process Injection in LSASS via mimikatz [windows]</td>
+      <td>- Atomic Test #2: Remote Process Injection in LSASS via mimikatz [windows]</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -838,37 +1048,37 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  | Source <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1053.003/T1053.003.md">Cron</a> | Dynamic-link Library Injection <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1140/T1140.md">Deobfuscate/Decode Files or Information</a> | <a href="../../T1003.001/T1003.001.md">LSASS Memory</a> | <a href="../../T1497.001/T1497.001.md">System Checks</a> |  | Man-in-the-Middle <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Non-Standard Encoding <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  | Shared Modules <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1574.001/T1574.001.md">DLL Search Order Hijacking</a> | Dylib Hijacking <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1140/T1140.md">Deobfuscate/Decode Files or Information</a> | <a href="../../T1003.001/T1003.001.md">LSASS Memory</a> | <a href="../../T1497.001/T1497.001.md">System Checks</a> |  | Remote Data Staging <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | One-Way Communication <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | Hypervisor <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | LSASS Driver <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Elevated Execution with Prompt <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Proc Filesystem <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  | Web Service <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  |  | <a href="../../T1546.012/T1546.012.md">Image File Execution Options Injection</a> | LSASS Driver <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1574.006/T1574.006.md">Dynamic Linker Hijacking</a> | <a href="../../T1606.002/T1606.002.md">SAML Tokens</a> |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | LSASS Driver <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1037.001/T1037.001.md">Logon Script (Windows)</a> | <a href="../../T1070.004/T1070.004.md">File Deletion</a> | Steal or Forge Kerberos Tickets <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |</td>
+      <td>|  |  | LSASS Driver <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1078.003/T1078.003.md">Local Accounts</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Steal Application Access Token <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  | <a href="../../T1059.005/T1059.005.md">Visual Basic</a> | <a href="../../T1078.001/T1078.001.md">Default Accounts</a> | Event Triggered Execution <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1562.002/T1562.002.md">Disable Windows Event Logging</a> | <a href="../../T1003.001/T1003.001.md">LSASS Memory</a> | <a href="../../T1082/T1082.md">System Information Discovery</a> |  | Man in the Browser <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Multi-Stage Channels <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1489/T1489.md">Service Stop</a> |</td>
+      <td>|  | <a href="../../T1059.003/T1059.003.md">Windows Command Shell</a> | <a href="../../T1078.001/T1078.001.md">Default Accounts</a> | Domain Trust Modification <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1562.002/T1562.002.md">Disable Windows Event Logging</a> | <a href="../../T1003.001/T1003.001.md">LSASS Memory</a> | <a href="../../T1082/T1082.md">System Information Discovery</a> |  | Man-in-the-Middle <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Multi-hop Proxy <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Stored Data Manipulation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | Hijack Execution Flow <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | LSASS Driver <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1556.002/T1556.002.md">Password Filter DLL</a> | User Activity Based Checks <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Web Portal Capture <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Port Knocking <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  |  | <a href="../../T1546.012/T1546.012.md">Image File Execution Options Injection</a> | LSASS Driver <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Execution Guardrails <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1110.003/T1110.003.md">Password Spraying</a> |  |  |  |  | <a href="../../T1219/T1219.md">Remote Access Software</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | LSASS Driver <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Make and Impersonate Token <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Extra Window Memory Injection <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1552.004/T1552.004.md">Private Keys</a> |  |  |  |  | Proxy <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  |  | LSASS Driver <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1078.003/T1078.003.md">Local Accounts</a> | Exploitation for Defense Evasion <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1552.004/T1552.004.md">Private Keys</a> |  |  |  |  | <a href="../../T1132.001/T1132.001.md">Standard Encoding</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -935,6 +1145,18 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a></td>
       <td>- <a href="#atomic-test-9---create-mini-dump-of-lsassexe-using-procdump">Atomic Test #9 - Create Mini Dump of LSASS.exe using ProcDump</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a></td>
+      <td>- <a href="#atomic-test-11---dump-lsass-with-net-5-createdumpexe">Atomic Test #11 - Dump LSASS with .Net 5 createdump.exe</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a></td>
+      <td>- <a href="#atomic-test-12---dump-lsassexe-using-imported-microsoft-dlls">Atomic Test #12 - Dump LSASS.exe using imported Microsoft DLLs</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1107,6 +1329,66 @@
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a></td>
+      <td>## Atomic Test #11 - Dump LSASS with .Net 5 createdump.exe</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a></td>
+      <td>(https://twitter.com/bopin2020/status/1366400799199272960?s=20) from @bopin2020 in order to dump lsass</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a></td>
+      <td>| output_file | Path where resulting dump should be placed | Path | C:\Windows\Temp\dotnet-lsass.dmp|</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a></td>
+      <td>$LSASS = tasklist | findstr “lsass”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a></td>
+      <td>$FIELDS = $LSASS -split “\s+”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a></td>
+      <td>## Atomic Test #12 - Dump LSASS.exe using imported Microsoft DLLs</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a></td>
+      <td>The memory of lsass.exe is often dumped for offline credential theft attacks. This can be achieved by</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a></td>
+      <td>file and delete it immediately to avoid brittle EDR detections that signature lsass minidump files.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a></td>
+      <td>Upon successful execution, you should see the following file created $env:TEMP\lsass-xordump.t1003.001.dmp.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.001/T1003.001.md">T1003.001.md</a></td>
+      <td>| output_file | Path where resulting dump should be placed | Path | C:\Windows\Temp\lsass-xordump.t1003.001.dmp|</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.003/T1036.003.md">T1036.003.md</a></td>
       <td>- <a href="#atomic-test-1---masquerading-as-windows-lsass-process">Atomic Test #1 - Masquerading as Windows LSASS process</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
@@ -1144,19 +1426,25 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055/T1055.md">T1055.md</a></td>
-      <td>- <a href="#atomic-test-3---remote-process-injection-in-lsass-via-mimikatz">Atomic Test #3 - Remote Process Injection in LSASS via mimikatz</a></td>
+      <td>- <a href="#atomic-test-2---remote-process-injection-in-lsass-via-mimikatz">Atomic Test #2 - Remote Process Injection in LSASS via mimikatz</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055/T1055.md">T1055.md</a></td>
-      <td>## Atomic Test #3 - Remote Process Injection in LSASS via mimikatz</td>
+      <td>## Atomic Test #2 - Remote Process Injection in LSASS via mimikatz</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055/T1055.md">T1055.md</a></td>
       <td>Use mimikatz to remotely (via psexec) dump LSASS process content for RID 500 via code injection (new thread).</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.002/T1134.002.md">T1134.002.md</a></td>
+      <td>.\T1134.002\src\GetToken.ps1; [MyProcess]::CreateProcessFromParent((Get-Process lsass).Id,”cmd.exe”)</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1169,6 +1457,12 @@
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp.yar">apt_eqgrp.yar</a></td>
       <td>$s1 = “LSASS.EXE” fullword wide</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_hafnium.yar">apt_hafnium.yar</a></td>
+      <td>$s1 = “lsass.exe C:\windows\temp\lsass” ascii wide fullword</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>

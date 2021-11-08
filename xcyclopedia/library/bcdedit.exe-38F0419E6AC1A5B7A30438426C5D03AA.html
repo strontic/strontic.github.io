@@ -417,7 +417,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_wannacry.yml">win_malware_wannacry.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*bcdedit</span><span class="nv"> </span><span class="s">/set</span><span class="nv"> </span><span class="s">{default}</span><span class="nv"> </span><span class="s">recoveryenabled</span><span class="nv"> </span><span class="s">no*'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">bcdedit'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -435,7 +435,13 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_bcdedit.yml">win_susp_bcdedit.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\bcdedit.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\bcdedit.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_spoolsv_child_processes.yml">win_susp_spoolsv_child_processes.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">\bcdedit.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -707,7 +713,7 @@ Administrative privileges are required to use BCDEdit to modify BCD.</p>
     </tr>
     <tr>
       <td>/dbgsettings</td>
-      <td>Specifies or displays the global debugger settings for the system. This command does not enablepose. To set an individual global debugger setting, use the <strong>bcdedit /set</strong> <code class="language-plaintext highlighter-rouge">&lt;dbgsettings&gt; &lt;type&gt; &lt;value&gt;</code> command.</td>
+      <td>Specifies or displays the global debugger settings for the system. This command does not enable or disable the kernel debugger; use the <strong>/debug</strong> option for that purpose. To set an individual global debugger setting, use the <strong>bcdedit /set</strong> <code class="language-plaintext highlighter-rouge">&lt;dbgsettings&gt; &lt;type&gt; &lt;value&gt;</code> command.</td>
     </tr>
     <tr>
       <td>/debug</td>

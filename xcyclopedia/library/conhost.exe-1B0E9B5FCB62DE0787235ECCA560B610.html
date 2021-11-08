@@ -286,7 +286,7 @@
 <h2 id="runtime-data">Runtime Data</h2>
 
 <h3 id="usage-stdout">Usage (stdout):</h3>
-<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">[</span><span class="m">2</span><span class="err">J[?</span><span class="m">25</span><span class="err">l[m[</span><span class="m">30</span><span class="c">;1H</span>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">[</span><span class="m">2</span><span class="err">J[?</span><span class="m">25</span><span class="err">l[m[</span><span class="m">30</span><span class="c">;1H</span>
 
 
 
@@ -355,7 +355,7 @@
 
 
 
-<span class="err">[</span><span class="ni">HRENAME</span>         <span class="ni">Renames</span> <span class="err">a</span> <span class="ni">file</span> <span class="ni">or</span> <span class="ni">files</span><span class="err">.</span>
+<span class="err">[</span><span class="ni">HRENAME</span>         <span class="ni">Renames</span> <span class="err">a</span> <span class="ni">file</span> <span class="ni">or</span> <span class="ni">files</span><span class="err">.</span>
 <span class="ni">REPLACE</span>        <span class="ni">Replaces</span> <span class="ni">files</span><span class="err">.</span>
 <span class="ni">RMDIR</span>          <span class="ni">Removes</span> <span class="err">a</span> <span class="ni">directory</span><span class="err">.</span>
 <span class="ni">ROBOCOPY</span>       <span class="ni">Advanced</span> <span class="ni">utility</span> <span class="ni">to</span> <span class="ni">copy</span> <span class="ni">files</span> <span class="ni">and</span> <span class="ni">directory</span> <span class="ni">trees</span>
@@ -385,7 +385,7 @@
 
 <span class="ni">For</span> <span class="ni">more</span> <span class="ni">information</span> <span class="ni">on</span> <span class="ni">tools</span> <span class="ni">see</span> <span class="ni">the</span> <span class="ni">command</span><span class="err">-</span><span class="ni">line</span> <span class="ni">reference</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">online</span> <span class="ni">help</span><span class="err">.</span>
 
-<span class="err">]</span><span class="m">0</span><span class="c">;C:\Windows\system32\help.exe[?25h[HR[30;1H</span>
+<span class="err">]</span><span class="m">0</span><span class="c">;C:\Windows\system32\help.exe[?25h[HR[30;1H</span>
 </code></pre></div></div>
 
 <h3 id="loaded-modules">Loaded Modules:</h3>
@@ -486,7 +486,13 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/sysmon_creation_system_file.yml">sysmon_creation_system_file.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\conhost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\conhost.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_cobaltstrike_process_patterns.yml">win_cobaltstrike_process_patterns.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">CommandLine\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="s">conhost.exe</span><span class="nv"> </span><span class="s">0xffffffff</span><span class="nv"> </span><span class="s">-ForceV1'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -498,7 +504,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml">win_susp_conhost.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Conhost Parent Proces Executions</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Conhost Parent Process Executions</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -510,7 +516,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_conhost.yml">win_susp_conhost.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ParentImage</span><span class="pi">:</span> <span class="s1">'</span><span class="s">*\conhost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ParentImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\conhost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -522,7 +528,7 @@
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_system_exe_anomaly.yml">win_system_exe_anomaly.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\conhost.exe'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\conhost.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>

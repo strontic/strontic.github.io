@@ -381,35 +381,6 @@
   <li>VirusTotal Link: https://www.virustotal.com/gui/file/1dc68c7eb3fc39e118521c7425c47da841283a076cc422a480bf9ef637c43000/detection/</li>
 </ul>
 
-<h2 id="possible-misuse">Possible Misuse</h2>
-
-<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">OfficeClickToRun.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">OfficeClickToRun.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Source</th>
-      <th>Source File</th>
-      <th>Example</th>
-      <th>License</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe CommandLine=*Create* ParentImage!=*\\OfficeClicktoRun.exe \| stats values(CommandLine) by Computer</code></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-06-05/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td><code class="language-plaintext highlighter-rouge">(index="botsv3" OR index="botsv2") source="WinEventLog:Microsoft-Windows-Sysmon/Operational" schtasks.exe CommandLine=*Create* ParentImage!=*\\OfficeClicktoRun.exe \| table Computer, User, CommandLine, _time</code></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-  </tbody>
-</table>
-
 <p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 

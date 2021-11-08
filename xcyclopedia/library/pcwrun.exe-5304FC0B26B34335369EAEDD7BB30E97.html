@@ -378,6 +378,23 @@
   <li>VirusTotal Link: https://www.virustotal.com/gui/file/e3d136c667662a2198da3d45a4637df1efe1f61b2b948f421fc0f8eee6d83c3a/detection</li>
 </ul>
 
+<h2 id="file-similarity-ssdeep-match">File Similarity (ssdeep match)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/xcyclopedia/library/pcwrun.exe-7DD1E2F336B3AED22BACFA711B1B6865.html">C:\Windows\system32\pcwrun.exe</a></td>
+      <td>58</td>
+    </tr>
+  </tbody>
+</table>
+
 <h2 id="possible-misuse">Possible Misuse</h2>
 
 <p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">pcwrun.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">pcwrun.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
@@ -392,6 +409,24 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_indirect_cmd_compatibility_assistant.yml">win_indirect_cmd_compatibility_assistant.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detect indirect command execution via Program Compatibility Assistant pcwrun.exe</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_indirect_cmd_compatibility_assistant.yml">win_indirect_cmd_compatibility_assistant.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://lolbas-project.github.io/lolbas/Binaries/Pcwrun/</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_indirect_cmd_compatibility_assistant.yml">win_indirect_cmd_compatibility_assistant.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ParentImage\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\pcwrun.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Pcwrun.yml">Pcwrun.yml</a></td>

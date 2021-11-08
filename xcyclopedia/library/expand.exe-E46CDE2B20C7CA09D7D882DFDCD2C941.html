@@ -334,7 +334,25 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/create_remote_thread/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\expand.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_module/powershell_decompress_commands.yml">powershell_decompress_commands.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Payload\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Expand-Archive'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_expand_cabinet_files.yml">sysmon_expand_cabinet_files.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Adversaries can use the inbuilt expand utility to decompress cab files as seen in recent Iranian MeteorExpress attack</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_expand_cabinet_files.yml">sysmon_expand_cabinet_files.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\expand.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
@@ -412,6 +430,12 @@
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.002/T1021.002.md">T1021.002.md</a></td>
+      <td>Expand-Archive $env:TEMP\PsTools.zip $env:TEMP\PsTools -Force</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027/T1027.md">T1027.md</a></td>
       <td>Expand-Archive -path “$env:temp\T1027.zip” -DestinationPath “$env:temp\temp_T1027.zip" -Force</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
@@ -448,6 +472,12 @@
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md">T1105.md</a></td>
+      <td>Expand-Archive -Path $env:temp\curl.zip -DestinationPath $env:temp\curl</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.004/T1134.004.md">T1134.004.md</a></td>
       <td>$ppid=Get-Process #{parent_process_name} | select -expand id</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
@@ -468,6 +498,12 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1485/T1485.md">T1485.md</a></td>
       <td>Expand-Archive $env:TEMP\SDelete.zip $env:TEMP\Sdelete -Force</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1548.002/T1548.002.md">T1548.002.md</a></td>
+      <td>Expand-Archive $env:TEMP\uacme.zip $env:TEMP\uacme -Force</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -560,6 +596,12 @@
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Expand-Archive -LiteralPath $download_folder"Procdump.zip" -DestinationPath $staging_folder;</span></code></td>
       <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/impact/46da2385-cf37-49cb-ba4b-a739c7a19de4.yml">46da2385-cf37-49cb-ba4b-a739c7a19de4.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Expand-Archive -LiteralPath xmrig-6.11.2-msvc-win64.zip -DestinationPath .\;</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
   </tbody>
 </table>
 
@@ -572,7 +614,7 @@
 <h2 id="expand">expand</h2>
 
 <blockquote>
-  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
+  <p>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
 </blockquote>
 
 <p>Expands one or more compressed files. You can also use this command to retrieve compressed files from distribution disks.</p>

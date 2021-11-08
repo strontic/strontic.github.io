@@ -370,20 +370,38 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_uac_bypass_wmp.yml">file_event_uac_bypass_wmp.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">TargetFilename</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\Program</span><span class="nv"> </span><span class="s">Files\Windows</span><span class="nv"> </span><span class="s">Media</span><span class="nv"> </span><span class="s">Player\osk.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_stickykey_like_backdoor.yml">process_creation_stickykey_like_backdoor.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">osk.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_install_reg_debugger_backdoor.yml">win_install_reg_debugger_backdoor.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\CurrentVersion\Image</span><span class="nv"> </span><span class="s">File</span><span class="nv"> </span><span class="s">Execution</span><span class="nv"> </span><span class="s">Options\osk.exe*'</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">osk.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_stickykey_like_backdoor.yml">sysmon_stickykey_like_backdoor.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*\SOFTWARE\Microsoft\Windows</span><span class="nv"> </span><span class="s">NT\CurrentVersion\Image</span><span class="nv"> </span><span class="s">File</span><span class="nv"> </span><span class="s">Execution</span><span class="nv"> </span><span class="s">Options\osk.exe\Debugger'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_bypass_wmp.yml">win_uac_bypass_wmp.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\Program</span><span class="nv"> </span><span class="s">Files\Windows</span><span class="nv"> </span><span class="s">Media</span><span class="nv"> </span><span class="s">Player\osk.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_stickykey_like_backdoor.yml">sysmon_stickykey_like_backdoor.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*cmd.exe</span><span class="nv"> </span><span class="s">osk.exe</span><span class="nv"> </span><span class="s">*'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_stickykey_like_backdoor.yml">registry_event_stickykey_like_backdoor.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\SOFTWARE\Microsoft\Windows</span><span class="nv"> </span><span class="s">NT\CurrentVersion\Image</span><span class="nv"> </span><span class="s">File</span><span class="nv"> </span><span class="s">Execution</span><span class="nv"> </span><span class="s">Options\osk.exe\Debugger'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_uac_bypass_wmp.yml">registry_event_uac_bypass_wmp.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetObject\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\SOFTWARE\Microsoft\Windows</span><span class="nv"> </span><span class="s">NT\CurrentVersion\AppCompatFlags\Compatibility</span><span class="nv"> </span><span class="s">Assistant\Store\C:\Program</span><span class="nv"> </span><span class="s">Files\Windows</span><span class="nv"> </span><span class="s">Media</span><span class="nv"> </span><span class="s">Player\osk.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>

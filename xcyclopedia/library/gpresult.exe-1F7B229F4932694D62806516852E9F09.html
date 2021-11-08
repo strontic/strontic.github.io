@@ -401,7 +401,7 @@
 <h2 id="gpresult">gpresult</h2>
 
 <blockquote>
-  <p>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
+  <p>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012</p>
 </blockquote>
 
 <p>Displays the Resultant Set of Policy (RSoP) information for a remote user and computer. To use RSoP reporting for remotely targeted computers through the firewall, you must have firewall rules that enable inbound network traffic on the ports.</p>
@@ -484,6 +484,9 @@ Except when using <strong>/?</strong>, you must include an output option, <stron
   </li>
   <li>
     <p>Because <strong>/v</strong> and <strong>/z</strong> produce a lot of information, it’s useful to redirect output to a text file (for example, <code class="language-plaintext highlighter-rouge">gpresult/z &gt;policy.txt</code>).</p>
+  </li>
+  <li>
+    <p>On ARM64 versions of Windows, only the <code class="language-plaintext highlighter-rouge">gpresult</code> in SysWow64 works with the <code class="language-plaintext highlighter-rouge">/h</code> parameter.</p>
   </li>
 </ul>
 

@@ -389,6 +389,12 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_susp_del.yml">process_creation_susp_del.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">#cmd.exe (PID: 1044 cmdline: 'C:\Windows\System32\cmd.exe' /c taskkill /im A8D4.exe /f &amp; timeout /t 6 &amp; del /f /q 'C:\Users\user~1\AppData\Local\Temp\A8D4.exe' &amp; del C:\ProgramData\*.dll &amp; exit </span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/nukesped_lazarus/README.adoc">nukesped_lazarus</a></td>
       <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">====</span> <span class="err">:</span><span class="ni">timeout</span></code></td>
@@ -438,6 +444,36 @@
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md">T1105.md</a></td>
+      <td>| timeout | Timeout period before ending process (seconds) | Integer | 1|</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md">T1105.md</a></td>
+      <td>timeout –preserve-status #{timeout} whois -h #{remote_host} -p #{remote_port} “#{query}” &gt; #{output_file}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md">T1105.md</a></td>
+      <td>##### Description: The whois and timeout commands must be present</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md">T1105.md</a></td>
+      <td>which whois &amp;&amp; which timeout</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1105/T1105.md">T1105.md</a></td>
+      <td>echo “Please install timeout and the whois package”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md">T1113.md</a></td>
       <td>cmd /c “timeout #{recording_time} &gt; NULL &amp;&amp; psr.exe /stop”</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
@@ -451,7 +487,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1529/T1529.md">T1529.md</a></td>
-      <td>| timeout | Timeout period before shutdown (seconds) | string | 1|</td>
+      <td>| timeout | Timeout period before shutdown (seconds) | Integer | 1|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -463,7 +499,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1529/T1529.md">T1529.md</a></td>
-      <td>| timeout | Timeout period before restart (seconds) | string | 1|</td>
+      <td>| timeout | Timeout period before restart (seconds) | Integer | 1|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -475,7 +511,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1529/T1529.md">T1529.md</a></td>
-      <td>| timeout | Time to restart (can be minutes or specific time) | string | now|</td>
+      <td>| timeout | Time to restart (can be minutes or specific time) | String | now|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -487,7 +523,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1529/T1529.md">T1529.md</a></td>
-      <td>| timeout | Time to shutdown (can be minutes or specific time) | string | now|</td>
+      <td>| timeout | Time to shutdown (can be minutes or specific time) | String | now|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -662,6 +698,36 @@
       <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
       <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/execution/95727b87-175c-4a69-8c7a-a5d82746a753.yml">95727b87-175c-4a69-8c7a-a5d82746a753.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">timeout</span><span class="pi">:</span> <span class="s">300</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/impact/46da2385-cf37-49cb-ba4b-a739c7a19de4.yml">46da2385-cf37-49cb-ba4b-a739c7a19de4.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge"># Linux distros should include </code>timeout<code class="language-plaintext highlight language-yaml highlighter-rouge"> <span class="s">making this easy.</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/impact/46da2385-cf37-49cb-ba4b-a739c7a19de4.yml">46da2385-cf37-49cb-ba4b-a739c7a19de4.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># We expect timeout to return a 124, which needs to then return a 0</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/impact/46da2385-cf37-49cb-ba4b-a739c7a19de4.yml">46da2385-cf37-49cb-ba4b-a739c7a19de4.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">timeout 60 ./xmrig-6.11.2/xmrig;</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/impact/46da2385-cf37-49cb-ba4b-a739c7a19de4.yml">46da2385-cf37-49cb-ba4b-a739c7a19de4.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">timeout</span><span class="pi">:</span> <span class="s">120</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/impact/46da2385-cf37-49cb-ba4b-a739c7a19de4.yml">46da2385-cf37-49cb-ba4b-a739c7a19de4.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># MacOS does not include timeout, but can mimic the process with screen.</span></code></td>
       <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
     </tr>
     <tr>

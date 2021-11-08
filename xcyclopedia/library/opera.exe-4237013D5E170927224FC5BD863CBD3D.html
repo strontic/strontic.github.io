@@ -474,6 +474,12 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/network/net_susp_ipify.yml">net_susp_ipify.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">\opera.exe</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_ua_malware.yml">proxy_ua_malware.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">Opera/8.81</span><span class="nv"> </span><span class="s">(Windows</span><span class="nv"> </span><span class="s">NT</span><span class="nv"> </span><span class="s">6.0;</span><span class="nv"> </span><span class="s">U;</span><span class="nv"> </span><span class="s">en)'</span>  <span class="c1"># Sality</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
@@ -492,9 +498,39 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_mal_vhd_download.yml">file_event_mal_vhd_download.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">opera.exe</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_suspicious_outbound_kerberos_connection.yml">sysmon_suspicious_outbound_kerberos_connection.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\opera.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_hafnium.yml">win_apt_hafnium.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Users\Public\opera\Opera_browser.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/exchange_exploitation/README.adoc">exchange_exploitation</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>02886f9daa13f7d9855855048c54f1d6b1231b0a<code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">\|</span><span class="ni">Win32</span><span class="p">/</span><span class="ni">Agent</span><span class="err">.</span><span class="ni">ACUQ</span>                      <span class="err">\|</span><span class="ni">Opera</span> <span class="ni">Cobalt</span> <span class="ni">Strike</span> <span class="ni">loader</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/exchange_exploitation/README.adoc">exchange_exploitation</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>86.105.18[.]116<code class="language-plaintext highlight language-cmhg highlighter-rouge">        <span class="err">\|“</span><span class="ni">Opera</span> <span class="ni">Cobalt</span> <span class="ni">Strike</span><span class="err">”</span> <span class="err">C</span><span class="mh">&amp;C</span> <span class="err">&amp;</span> <span class="ni">distribution</span> <span class="ni">server</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/exchange_exploitation/README.adoc">exchange_exploitation</a></td>
+      <td><code class="language-plaintext highlighter-rouge">\|</code>89.34.111[.]11<code class="language-plaintext highlight language-cmhg highlighter-rouge">         <span class="err">\|“</span><span class="ni">Opera</span> <span class="ni">Cobalt</span> <span class="ni">Strike</span><span class="err">”</span> <span class="ni">distribution</span> <span class="ni">server</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
@@ -590,6 +626,12 @@
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_ragna_locker.yar">crime_ransom_ragna_locker.yar</a></td>
       <td>$s3 = “Opera Software” fullword wide  /* Don’t touch browsers for contact him*/</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_socgholish.yar">crime_socgholish.yar</a></td>
+      <td>$a3 = “Opera” ascii</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>

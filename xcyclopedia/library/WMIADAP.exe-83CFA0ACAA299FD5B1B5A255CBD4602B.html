@@ -356,8 +356,35 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="/xcyclopedia/library/WMIADAP.exe-E55850C519ACD5B173DB5B01894D49B5.html">C:\Windows\SysWOW64\wbem\WMIADAP.exe</a></td>
+      <td>82</td>
+    </tr>
+    <tr>
       <td><a href="/xcyclopedia/library/WMIADAP.exe-F9BBB6D53ED2EC2929CB58FD3673C1DE.html">C:\Windows\SysWOW64\wbem\WMIADAP.exe</a></td>
       <td>85</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">WMIADAP.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">WMIADAP.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_wmi_module_load.yml">sysmon_wmi_module_load.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\windows\system32\wbem\WMIADAP.exe'</span>  <span class="c1"># https://github.com/SigmaHQ/sigma/issues/1871</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
   </tbody>
 </table>

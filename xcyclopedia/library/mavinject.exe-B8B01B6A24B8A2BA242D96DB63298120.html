@@ -373,6 +373,10 @@
       <td>43</td>
     </tr>
     <tr>
+      <td><a href="/xcyclopedia/library/mavinject.exe-651259747F1C4401A88A23AD816BB0ED.html">C:\Windows\SysWOW64\mavinject.exe</a></td>
+      <td>85</td>
+    </tr>
+    <tr>
       <td><a href="/xcyclopedia/library/mavinject.exe-8FE5871DE2870F39CFA317FA5C28988D.html">C:\WINDOWS\SysWOW64\mavinject.exe</a></td>
       <td>50</td>
     </tr>
@@ -401,6 +405,18 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_creation_mavinject_dll.yml">sysmon_creation_mavinject_dll.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Mavinject Inject DLL Into Running Process</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_creation_mavinject_dll.yml">sysmon_creation_mavinject_dll.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">OriginalFileName\|contains</span><span class="pi">:</span> <span class="s">mavinject</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_mavinject_proc_inj.yml">win_mavinject_proc_inj.yml</a></td>
@@ -475,25 +491,25 @@
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055/T1055.md">T1055.md</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.001/T1055.001.md">T1055.001.md</a></td>
       <td>- <a href="#atomic-test-1---process-injection-via-mavinjectexe">Atomic Test #1 - Process Injection via mavinject.exe</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055/T1055.md">T1055.md</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.001/T1055.001.md">T1055.001.md</a></td>
       <td>## Atomic Test #1 - Process Injection via mavinject.exe</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055/T1055.md">T1055.md</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.001/T1055.001.md">T1055.001.md</a></td>
       <td>Upon successful execution, powershell.exe will download T1055.dll to disk. Powershell will then spawn mavinject.exe to perform process injection in T1055.dll.</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055/T1055.md">T1055.md</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.001/T1055.001.md">T1055.001.md</a></td>
       <td>mavinject $mypid /INJECTRUNNING #{dll_payload}</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>

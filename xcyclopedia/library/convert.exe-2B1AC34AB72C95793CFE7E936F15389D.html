@@ -389,8 +389,32 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_suspicious_invocation_specific.yml">powershell_suspicious_invocation_specific.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">*</span><span class="nv"> </span><span class="s">-nop</span><span class="nv"> </span><span class="s">-w</span><span class="nv"> </span><span class="s">hidden</span><span class="nv"> </span><span class="s">-c</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">[Convert]::FromBase64String*'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/deprecated/powershell_suspicious_invocation_specific.yml">powershell_suspicious_invocation_specific.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">[Convert]::FromBase64String'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_module/powershell_suspicious_invocation_specific_in_contextinfo.yml">powershell_suspicious_invocation_specific_in_contextinfo.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">[Convert]::FromBase64String'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/powershell_powerview_malicious_commandlets.yml">powershell_powerview_malicious_commandlets.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Convert-NameToSid</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/powershell_powerview_malicious_commandlets.yml">powershell_powerview_malicious_commandlets.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Convert-ADName</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/powershell_suspicious_invocation_specific_in_scripblocktext.yml">powershell_suspicious_invocation_specific_in_scripblocktext.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">[Convert]::FromBase64String'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -409,6 +433,12 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.001/T1059.001.md">T1059.001.md</a></td>
       <td>iex ([Text.Encoding]::ASCII.GetString([Convert]::FromBase64String((gp ‘HKCU:\Software\Classes\AtomicRedTeam’).ART)))</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1098.001/T1098.001.md">T1098.001.md</a></td>
+      <td>$keyValue = [System.Convert]::ToBase64String($cert.GetRawCertData())</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -467,6 +497,12 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_hafnium.yar">apt_hafnium.yar</a></td>
+      <td>$s2 = “System.Text.Encoding.Default.GetString(Convert.FromBase64String(StrTr(Request.Headers.Get”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_muddywater.yar">apt_muddywater.yar</a></td>
       <td>/* iex([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String( */</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
@@ -505,6 +541,18 @@
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_turla_neuron.yar">apt_turla_neuron.yar</a></td>
       <td>$ = “Convert.FromBase64String(temp[1])” fullword ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_unc2447_sombrat.yar">apt_unc2447_sombrat.yar</a></td>
+      <td>$x1 = “powershell.exe -c "[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String([IO.File]::” ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/expl_proxyshell.yar">expl_proxyshell.yar</a></td>
+      <td>$s01 = “.LoadXml(System.Text.Encoding.UTF8.GetString(System.Convert.FromBase64String(Request[” ascii wide</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>
@@ -583,6 +631,12 @@
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar">thor-hacktools.yar</a></td>
       <td>$s2 = “System.Convert.FromBase64String(“ ascii</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/webshell_xsl_transform.yar">webshell_xsl_transform.yar</a></td>
+      <td>$x2 = “.LoadXml(System.Text.Encoding.UTF8.GetString(System.Convert.FromBase64String(“</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
   </tbody>

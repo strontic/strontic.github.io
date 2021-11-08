@@ -473,6 +473,12 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_spoolsv_child_processes.yml">win_susp_spoolsv_child_processes.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">\cipher.exe</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/arcsight-zeek.yml">arcsight-zeek.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">cipher</span><span class="pi">:</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
@@ -487,6 +493,18 @@
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/arcsight-zeek.yml">arcsight-zeek.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">#cipher: deviceCustomString4</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-auditbeat-modules-enabled.yml">ecs-auditbeat-modules-enabled.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">cipher</span><span class="pi">:</span> <span class="s">auditd.data.cipher</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-auditd.yml">ecs-auditd.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">cipher</span><span class="pi">:</span> <span class="s">cipher</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -620,6 +638,12 @@
       <td><a href="https://github.com/eset/malware-ioc/blob/master/windigo/README.adoc">windigo</a></td>
       <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="err">[-Q</span> <span class="ni">cipher</span> <span class="err">\|</span> <span class="ni">cipher</span><span class="err">-</span><span class="ni">auth</span> <span class="err">\|</span> <span class="ni">mac</span> <span class="err">\|</span> <span class="ni">kex</span> <span class="err">\|</span> <span class="ni">key</span><span class="err">]</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1486/T1486.md">T1486.md</a></td>
+      <td>echo “#{pwd_for_encrypted_file}” | $which_gpg –batch –yes –passphrase-fd 0 –cipher-algo #{encryption_alg} -o #{encrypted_file_path} -c #{input_file_path}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
