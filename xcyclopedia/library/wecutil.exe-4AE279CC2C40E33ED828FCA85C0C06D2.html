@@ -1,0 +1,808 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>wecutil.exe | Event Collector Command Line Utility &#124; STRONTIC</title>
+<meta name="description" content="What is wecutil.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="wecutil.exe | Event Collector Command Line Utility">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/wecutil.exe-4AE279CC2C40E33ED828FCA85C0C06D2.html">
+
+
+  <meta property="og:description" content="What is wecutil.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="wecutil.exe | Event Collector Command Line Utility">
+  <meta name="twitter:description" content="What is wecutil.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/wecutil.exe-4AE279CC2C40E33ED828FCA85C0C06D2.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/wecutil.exe-4AE279CC2C40E33ED828FCA85C0C06D2.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">wecutil.exe | Event Collector Command Line Utility</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            wecutil.exe      Event Collector Command Line Utility      ">
+    <meta itemprop="description" content="What is wecutil.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="wecutilexe">wecutil.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\WINDOWS\SysWOW64\wecutil.exe</code></li>
+  <li>Description: Event Collector Command Line Utility</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">4AE279CC2C40E33ED828FCA85C0C06D2</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">BA04AAD6E13B59A8CF5E89BAC32C97124233B642</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">6F4DA7F4CFAFEDA512FF12C9BBBC576F2394A95B2E17F6417F0D0917F3C3A7F2</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">1CF9E617E18CEA4C13B6B96A8A5B42F858A5C3711A799939CCDF6545AABA79DBC28B13DDF7336F4A2390DEE77E6BB9D5</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">980A900AF6C1644C0FB6532179BE6443110CD1DB40FA43619E4DD53BFEE9CFA7DD50AB3049B51DDF825C017EF794E90F28248B3246B582D974F3A5F2966F5599</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">1536:hq+kyHncKYWut5W65P5uidWZJPGd3pGc7+6g:w+keYWy5X9wiWZEd3pGIE</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">F141144A8C900E10BC889D966F888141</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">504D7B942A12D9562F5BB724F289D64285BB0AEE</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">CF116197B9E1A85AF67E8DA0EDF21EB06CC5904B2449EBA74753CDFA6BBC0DA4</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">Windows</span> <span class="ni">Event</span> <span class="ni">Collector</span> <span class="ni">Utility</span>
+
+<span class="ni">Enables</span> <span class="ni">you</span> <span class="ni">to</span> <span class="ni">create</span> <span class="ni">and</span> <span class="ni">manage</span> <span class="ni">subscriptions</span> <span class="ni">to</span> <span class="ni">events</span> <span class="ni">forwarded</span> <span class="ni">from</span> <span class="ni">remote</span>
+<span class="ni">event</span> <span class="ni">sources</span> <span class="ni">that</span> <span class="ni">support</span> <span class="ni">WS</span><span class="err">-</span><span class="ni">Management</span> <span class="ni">protocol</span><span class="err">.</span>
+
+<span class="ni">Usage</span><span class="err">:</span>
+
+<span class="ni">You</span> <span class="ni">can</span> <span class="ni">use</span> <span class="ni">either</span> <span class="ni">the</span> <span class="ni">short</span> <span class="p">(</span><span class="err">i.e.</span> <span class="ni">es</span><span class="p">,</span> <span class="p">/</span><span class="err">f</span><span class="p">)</span> <span class="ni">or</span> <span class="ni">long</span> <span class="p">(</span><span class="err">i.e.</span> <span class="ni">enum</span><span class="err">-</span><span class="ni">subscription</span><span class="p">,</span> <span class="p">/</span><span class="ni">format</span><span class="p">)</span>
+<span class="ni">version</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">command</span> <span class="ni">and</span> <span class="ni">option</span> <span class="ni">names</span><span class="err">.</span> <span class="ni">Commands</span><span class="p">,</span> <span class="ni">options</span> <span class="ni">and</span> <span class="ni">option</span> <span class="ni">values</span> <span class="ni">are</span>
+<span class="ni">case</span><span class="err">-</span><span class="ni">insensitive</span><span class="err">.</span>
+
+<span class="p">(</span><span class="ni">ALL</span> <span class="ni">UPPER</span><span class="err">-</span><span class="ni">CASE</span> <span class="err">=</span> <span class="ni">VARIABLE</span><span class="p">)</span>
+
+<span class="ni">wecutil</span> <span class="ni">COMMAND</span> <span class="err">[</span><span class="ni">ARGUMENT</span> <span class="err">[</span><span class="ni">ARGUMENT</span><span class="err">]</span> <span class="err">...]</span> <span class="err">[</span><span class="p">/</span><span class="ni">OPTION</span><span class="err">:</span><span class="ni">VALUE</span> <span class="err">[</span><span class="p">/</span><span class="ni">OPTION</span><span class="err">:</span><span class="ni">VALUE</span><span class="err">]</span> <span class="err">...]</span>
+
+<span class="ni">Commands</span><span class="err">:</span>
+
+<span class="ni">es</span> <span class="p">(</span><span class="ni">enum</span><span class="err">-</span><span class="ni">subscription</span><span class="p">)</span>               <span class="ni">List</span> <span class="ni">existent</span> <span class="ni">subscriptions</span><span class="err">.</span>
+<span class="ni">gs</span> <span class="p">(</span><span class="ni">get</span><span class="err">-</span><span class="ni">subscription</span><span class="p">)</span>                <span class="ni">Get</span> <span class="ni">subscription</span> <span class="ni">configuration</span><span class="err">.</span>
+<span class="ni">gr</span> <span class="p">(</span><span class="ni">get</span><span class="err">-</span><span class="ni">subscriptionruntimestatus</span><span class="p">)</span>   <span class="ni">Get</span> <span class="ni">subscription</span> <span class="ni">runtime</span> <span class="ni">status</span><span class="err">.</span>
+<span class="ni">ss</span> <span class="p">(</span><span class="ni">set</span><span class="err">-</span><span class="ni">subscription</span><span class="p">)</span>                <span class="ni">Set</span> <span class="ni">subscription</span> <span class="ni">configuration</span><span class="err">.</span>
+<span class="ni">cs</span> <span class="p">(</span><span class="ni">create</span><span class="err">-</span><span class="ni">subscription</span><span class="p">)</span>             <span class="ni">Create</span> <span class="ni">new</span> <span class="ni">subscription</span><span class="err">.</span>
+<span class="ni">ds</span> <span class="p">(</span><span class="ni">delete</span><span class="err">-</span><span class="ni">subscription</span><span class="p">)</span>             <span class="ni">Delete</span> <span class="ni">subscription</span><span class="err">.</span>
+<span class="ni">rs</span> <span class="p">(</span><span class="ni">retry</span><span class="err">-</span><span class="ni">subscription</span><span class="p">)</span>              <span class="ni">Retry</span> <span class="ni">subscription</span><span class="err">.</span>
+<span class="ni">qc</span> <span class="p">(</span><span class="ni">quick</span><span class="err">-</span><span class="ni">config</span><span class="p">)</span>                    <span class="ni">Configure</span> <span class="ni">Windows</span> <span class="ni">Event</span> <span class="ni">Collector</span> <span class="ni">service</span><span class="err">.</span>
+
+<span class="ni">Common</span> <span class="kd">options:</span>
+
+<span class="p">/</span><span class="err">h|?</span> <span class="p">(</span><span class="ni">help</span><span class="p">)</span>
+<span class="ni">Get</span> <span class="ni">general</span> <span class="ni">help</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">wecutil</span> <span class="ni">program</span><span class="err">.</span>
+
+<span class="ni">wecutil</span> <span class="err">{</span> <span class="err">-</span><span class="ni">help</span> <span class="err">|</span> <span class="err">-h</span> <span class="err">|</span> <span class="err">-?</span> <span class="err">}</span>
+
+<span class="ni">For</span> <span class="ni">arguments</span> <span class="ni">and</span> <span class="ni">options</span><span class="p">,</span> <span class="ni">see</span> <span class="ni">usage</span> <span class="ni">of</span> <span class="ni">specific</span> <span class="kd">commands:</span>
+
+<span class="ni">wecutil</span> <span class="ni">COMMAND</span> <span class="err">-?</span>
+
+</code></pre></div></div>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">Command</span> <span class="ni">help</span> <span class="ni">is</span> <span class="ni">not</span> <span class="ni">supported</span><span class="err">.</span> <span class="ni">Error</span> <span class="err">=</span> <span class="mh">0x57</span><span class="err">.</span>
+<span class="ni">The</span> <span class="ni">parameter</span> <span class="ni">is</span> <span class="ni">incorrect</span><span class="err">.</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\WINDOWS\SYSTEM32\ntdll.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\wow64.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\wow64base.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\wow64con.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\wow64cpu.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\wow64win.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\SysWOW64\wecutil.exe</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">33000002ED2C45E4C145CF48440000000002ED</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">312860D2047EB81F8F58C29FF19ECDB4C634CF6A</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: WECUTIL.EXE.MUI</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.22000.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.22000.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 32-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/72</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/6f4da7f4cfafeda512ff12c9bbbc576f2394a95b2e17f6417f0d0917f3c3a7f2/detection</li>
+</ul>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="wecutil">wecutil</h2>
+
+<p>Enables you to create and manage subscriptions to events that are forwarded from remote computers. The remote computer must support the WS-Management protocol.</p>
+
+<blockquote>
+  <p>[!IMPORTANT]
+If you receive the message, â€œThe RPC server is unavailable? when you try to run wecutil, you need to start the Windows Event Collector service (wecsvc). To start wecsvc, at an elevated command prompt type <code class="language-plaintext highlighter-rouge">net start wecsvc</code>.</p>
+</blockquote>
+
+<h3 id="syntax">Syntax</h3>
+
+<pre><code class="language-command">wecutil [{es | enum-subscription}] [{gs | get-subscription} &lt;Subid&gt; [/f:&lt;Format&gt;] [/uni:&lt;Unicode&gt;]] [{gr | get-subscriptionruntimestatus} &lt;Subid&gt; [&lt;Eventsource&gt; â€¦]] [{ss | set-subscription} [&lt;Subid&gt; [/e:[&lt;Subenabled&gt;]] [/esa:&lt;Address&gt;] [/ese:[&lt;Srcenabled&gt;]] [/aes] [/res] [/un:&lt;Username&gt;] [/up:&lt;Password&gt;] [/d:&lt;Desc&gt;] [/uri:&lt;Uri&gt;] [/cm:&lt;Configmode&gt;] [/ex:&lt;Expires&gt;] [/q:&lt;Query&gt;] [/dia:&lt;Dialect&gt;] [/tn:&lt;Transportname&gt;] [/tp:&lt;Transportport&gt;] [/dm:&lt;Deliverymode&gt;] [/dmi:&lt;Deliverymax&gt;] [/dmlt:&lt;Deliverytime&gt;] [/hi:&lt;Heartbeat&gt;] [/cf:&lt;Content&gt;] [/l:&lt;Locale&gt;] [/ree:[&lt;Readexist&gt;]] [/lf:&lt;Logfile&gt;] [/pn:&lt;Publishername&gt;] [/essp:&lt;Enableport&gt;] [/hn:&lt;Hostname&gt;] [/ct:&lt;Type&gt;]] [/c:&lt;Configfile&gt; [/cun:&lt;Username&gt; /cup:&lt;Password&gt;]]] [{cs | create-subscription} &lt;Configfile&gt; [/cun:&lt;Username&gt; /cup:&lt;Password&gt;]] [{ds | delete-subscription} &lt;Subid&gt;] [{rs | retry-subscription} &lt;Subid&gt; [&lt;Eventsource&gt;â€¦]] [{qc | quick-config} [/q:[&lt;quiet&gt;]]]
+</code></pre>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">{es | enum-subscription}</code></td>
+      <td>Displays the names of all remote event subscriptions that exist.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">{gs | get-subscription} &lt;Subid&gt; [/f:&lt;Format&gt;] [/uni:&lt;Unicode&gt;]</code></td>
+      <td>Displays remote subscription configuration information. <code class="language-plaintext highlighter-rouge">&lt;Subid&gt;</code> is a string that uniquely identifies a subscription. It’s the same as the string that was specified in the <code class="language-plaintext highlighter-rouge">&lt;SubscriptionId&gt;</code> tag of the XML configuration file, which was used to create the subscription.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">{gr | get-subscriptionruntimestatus} &lt;Subid&gt; [&lt;Eventsource&gt; â€¦]</code></td>
+      <td>Displays the runtime status of a subscription. <code class="language-plaintext highlighter-rouge">&lt;Subid&gt;</code> is a string that uniquely identifies a subscription. It’s the same as the string that was specified in the <code class="language-plaintext highlighter-rouge">&lt;SubscriptionId&gt;</code> tag of the XML configuration file, which was used to create the subscription. <code class="language-plaintext highlighter-rouge">&lt;Eventsource&gt;</code> is a string that identifies a computer that serves as a source of events. It should be a fully qualified domain name, a NetBIOS name, or an IP address.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">{ss | set-subscription} &lt;Subid&gt; [/e:[&lt;Subenabled&gt;]] [/esa:&lt;Address&gt;] [/ese:[&lt;Srcenabled&gt;]] [/aes] [/res] [/un:&lt;Username&gt;] [/up:&lt;Password&gt;] [/d:&lt;Desc&gt;] [/uri:&lt;Uri&gt;] [/cm:&lt;Configmode&gt;] [/ex:&lt;Expires&gt;] [/q:&lt;Query&gt;] [/dia:&lt;Dialect&gt;] [/tn:&lt;Transportname&gt;] [/tp:&lt;Transportport&gt;] [/dm:&lt;Deliverymode&gt;] [/dmi:&lt;Deliverymax&gt;] [/dmlt:&lt;Deliverytime&gt;] [/hi:&lt;Heartbeat&gt;] [/cf:&lt;Content&gt;] [/l:&lt;Locale&gt;] [/ree:[&lt;Readexist&gt;]] [/lf:&lt;Logfile&gt;] [/pn:&lt;Publishername&gt;] [/essp:&lt;Enableport&gt;] [/hn:&lt;Hostname&gt;] [/ct:&lt;Type&gt;]</code> <br /><strong>OR</strong><br /><code class="language-plaintext highlighter-rouge">{ss | set-subscription /c:&lt;Configfile&gt; [/cun:&lt;Comusername&gt; /cup:&lt;Compassword&gt;]</code></td>
+      <td>Changes the subscription configuration. You can specify the subscription ID and the appropriate options to change subscription parameters, or you can specify an XML configuration file to change subscription parameters.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">{cs | create-subscription} &lt;Configfile&gt; [/cun:&lt;Username&gt; /cup:&lt;Password&gt;]</code></td>
+      <td>Creates a remote subscription. <code class="language-plaintext highlighter-rouge">&lt;Configfile&gt;</code> specifies the path to the XML file that contains the subscription configuration. The path can be absolute or relative to the current directory.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">{ds | delete-subscription} &lt;Subid&gt;</code></td>
+      <td>Deletes a subscription and unsubscribes from all event sources that deliver events into the event log for the subscription. Any events already received and logged are not deleted. <code class="language-plaintext highlighter-rouge">&lt;Subid&gt;</code> is a string that uniquely identifies a subscription. It’s the same as the string that was specified in the <code class="language-plaintext highlighter-rouge">&lt;SubscriptionId&gt;</code> tag of the XML configuration file, which was used to create the subscription.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">{rs | retry-subscription} &lt;Subid&gt; [&lt;Eventsource&gt;â€¦]</code></td>
+      <td>Retries to establish a connection and send a remote subscription request to an inactive subscription. Attempts to reactivate all event sources or specified event sources. Disabled sources are not retried. <code class="language-plaintext highlighter-rouge">&lt;Subid&gt;</code> is a string that uniquely identifies a subscription. It’s the same as the string that was specified in the <code class="language-plaintext highlighter-rouge">&lt;SubscriptionId&gt;</code> tag of the XML configuration file, which was used to create the subscription. <code class="language-plaintext highlighter-rouge">&lt;Eventsource&gt;</code> is a string that identifies a computer that serves as a source of events. It should be a fully qualified domain name, a NetBIOS name, or an IP address.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">{qc | quick-config} [/q:[&lt;Quiet&gt;]]</code></td>
+      <td>Configures the Windows Event Collector service to ensure a subscription can be created and sustained through reboots. This includes the following steps:&lt;ol&gt;&lt;li&gt;Enable the ForwardedEvents channel if it is disabled.&lt;/li&gt;&lt;li&gt;Set the Windows Event Collector service to delay start.&lt;/li&gt;&lt;li&gt;Start the Windows Event Collector service if it is not running.&lt;/li&gt;&lt;/ol&gt;</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="options">Options</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Option</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/f:<code class="language-plaintext highlighter-rouge">&lt;Format&gt;</code></td>
+      <td>Specifies the format of the information that is displayed. <code class="language-plaintext highlighter-rouge">&lt;Format&gt;</code> can be XML or Terse. If it’s <strong>XML</strong>, the output is displayed in XML format. If it’s <strong>Terse</strong>, the output is displayed in name-value pairs. The default is <strong>Terse</strong>.</td>
+    </tr>
+    <tr>
+      <td>/c:<code class="language-plaintext highlighter-rouge">&lt;Configfile&gt;</code></td>
+      <td>Specifies the path to the XML file that contains a subscription configuration. The path can be absolute or relative to the current directory. This option can only be used with the <strong>/cun</strong> and <strong>/cup</strong> options and is mutually exclusive with all other options.</td>
+    </tr>
+    <tr>
+      <td>/e:[<code class="language-plaintext highlighter-rouge">&lt;Subenabled&gt;</code>]</td>
+      <td>Enables or disables a subscription. <code class="language-plaintext highlighter-rouge">&lt;Subenabled&gt;</code> can be true or false. The default value of this option is <strong>true</strong>.</td>
+    </tr>
+    <tr>
+      <td>/esa:<code class="language-plaintext highlighter-rouge">&lt;Address&gt;</code></td>
+      <td>Specifies the address of an event source. <code class="language-plaintext highlighter-rouge">&lt;Address&gt;</code> is a string that contains a fully qualified domain name, a NetBIOS name, or an IP address, which identifies a computer that serves as a source of events. This option should be used with the <strong>/ese</strong>, <strong>/aes</strong>, <strong>/res</strong>, or <strong>/un</strong> and <strong>/up</strong> options.</td>
+    </tr>
+    <tr>
+      <td>/ese:[<code class="language-plaintext highlighter-rouge">&lt;Srcenabled&gt;</code>]</td>
+      <td>Enables or disables an event source. <code class="language-plaintext highlighter-rouge">&lt;Srcenabled&gt;</code> can be true or false. This option is allowed only if the <strong>/esa</strong> option is specified. The default value of this option is <strong>true</strong>.</td>
+    </tr>
+    <tr>
+      <td>/aes</td>
+      <td>Adds the event source that is specified by the <strong>/esa</strong> option if it is not already a part of the subscription. If the address specified by the <strong>/esa</strong> option is already a part of the subscription, an error is reported. This option is only allowed if the <strong>/esa</strong> option is specified.</td>
+    </tr>
+    <tr>
+      <td>/res</td>
+      <td>Removes the event source that is specified by the <strong>/esa</strong> option if it is already a part of the subscription. If the address specified by the <strong>/esa</strong> option is not a part of the subscription, an error is reported. This option is only allowed if <strong>/esa</strong> option is specified.</td>
+    </tr>
+    <tr>
+      <td>/un:<code class="language-plaintext highlighter-rouge">&lt;Username&gt;</code></td>
+      <td>Specifies the user credential to use with the event source specified by the <strong>/esa</strong> option. This option is only allowed if the <strong>/esa</strong> option is specified.</td>
+    </tr>
+    <tr>
+      <td>/up:<code class="language-plaintext highlighter-rouge">&lt;Password&gt;</code></td>
+      <td>Specifies the password that corresponds to the user credential. This option is only allowed if the <strong>/un</strong> option is specified.</td>
+    </tr>
+    <tr>
+      <td>/d:<code class="language-plaintext highlighter-rouge">&lt;Desc&gt;</code></td>
+      <td>Provides a description for the subscription.</td>
+    </tr>
+    <tr>
+      <td>/uri:<code class="language-plaintext highlighter-rouge">&lt;Uri&gt;</code></td>
+      <td>Specifies the type of the events that are consumed by the subscription. <code class="language-plaintext highlighter-rouge">&lt;Uri&gt;</code> contains a URI string that is combined with the address of the event source computer to uniquely identify the source of the events. The URI string is used for all event source addresses in the subscription.</td>
+    </tr>
+    <tr>
+      <td>/cm:<code class="language-plaintext highlighter-rouge">&lt;Configmode&gt;</code></td>
+      <td>Sets the configuration mode. <code class="language-plaintext highlighter-rouge">&lt;Configmode&gt;</code> can be one of the following strings: <strong>Normal</strong>, <strong>Custom</strong>, <strong>MinLatency</strong> or <strong>MinBandwidth</strong>. The <strong>Normal</strong>, <strong>MinLatency</strong>, and <strong>MinBandwidth</strong> modes set delivery mode, delivery max items, heartbeat interval, and delivery max latency time. The <strong>/dm</strong>, <strong>/dmi</strong>, <strong>/hi</strong> or <strong>/dmlt</strong> options may only be specified if the configuration mode is set to <strong>Custom</strong>.</td>
+    </tr>
+    <tr>
+      <td>/ex:<code class="language-plaintext highlighter-rouge">&lt;Expires&gt;</code></td>
+      <td>Sets the time when the subscription expires. <code class="language-plaintext highlighter-rouge">&lt;Expires&gt;</code> should be defined in standard XML or ISO8601 date-time format: <code class="language-plaintext highlighter-rouge">yyyy-MM-ddThh:mm:ss[.sss][Z]</code>, where <em>T</em> is the time separator and <em>Z</em> indicates UTC time.</td>
+    </tr>
+    <tr>
+      <td>/q:<code class="language-plaintext highlighter-rouge">&lt;Query&gt;</code></td>
+      <td>Specifies the query string for the subscription. The format of <code class="language-plaintext highlighter-rouge">&lt;Query&gt;</code> may be different for different URI values and applies to all sources in the subscription.</td>
+    </tr>
+    <tr>
+      <td>/dia:<code class="language-plaintext highlighter-rouge">&lt;Dialect&gt;</code></td>
+      <td>Defines the dialect that the query string uses.</td>
+    </tr>
+    <tr>
+      <td>/tn:<code class="language-plaintext highlighter-rouge">&lt;Transportname&gt;</code></td>
+      <td>Specifies the name of the transport that is used to connect to a remote event source.</td>
+    </tr>
+    <tr>
+      <td>/tp:<code class="language-plaintext highlighter-rouge">&lt;Transportport&gt;</code></td>
+      <td>Sets the port number that is used by the transport when connecting to a remote event source.</td>
+    </tr>
+    <tr>
+      <td>/dm:<code class="language-plaintext highlighter-rouge">&lt;Deliverymode&gt;</code></td>
+      <td>Specifies the delivery mode. <code class="language-plaintext highlighter-rouge">&lt;Deliverymode&gt;</code> can be either pull or push. This option is only valid if the <strong>/cm</strong> option is set to <strong>Custom</strong>.</td>
+    </tr>
+    <tr>
+      <td>/dmi:<code class="language-plaintext highlighter-rouge">&lt;Deliverymax&gt;</code></td>
+      <td>Sets the maximum number of items for batched delivery. This option is only valid if <strong>/cm</strong> is set to <strong>Custom</strong>.</td>
+    </tr>
+    <tr>
+      <td>/dmlt:<code class="language-plaintext highlighter-rouge">&lt;Deliverytime&gt;</code></td>
+      <td>Sets the maximum latency in delivering a batch of events. <code class="language-plaintext highlighter-rouge">&lt;Deliverytime&gt;</code> is the number of milliseconds. This option is only valid if <strong>/cm</strong> is set to Custom.</td>
+    </tr>
+    <tr>
+      <td>/hi:<code class="language-plaintext highlighter-rouge">&lt;Heartbeat&gt;</code></td>
+      <td>Defines the heartbeat interval. <code class="language-plaintext highlighter-rouge">&lt;Heartbeat&gt;</code> is the number of milliseconds. This option is only valid if <strong>/cm</strong> is set to <strong>Custom</strong>.</td>
+    </tr>
+    <tr>
+      <td>/cf:<code class="language-plaintext highlighter-rouge">&lt;Content&gt;</code></td>
+      <td>Specifies the format of the events that are returned. <code class="language-plaintext highlighter-rouge">&lt;Content&gt;</code> can be Events or RenderedText. When the value is <strong>RenderedText</strong>, the events are returned with the localized strings (such as event description) attached to the event. The default value is <strong>RenderedText</strong>.</td>
+    </tr>
+    <tr>
+      <td>/l:<code class="language-plaintext highlighter-rouge">&lt;Locale&gt;</code></td>
+      <td>Specifies the locale for delivery of the localized strings in RenderedText format. <code class="language-plaintext highlighter-rouge">&lt;Locale&gt;</code> is a language and country/region identifier, for example, EN-us. This option is only valid if the <strong>/cf</strong> option is set to <strong>RenderedText</strong>.</td>
+    </tr>
+    <tr>
+      <td>/ree:[<code class="language-plaintext highlighter-rouge">&lt;Readexist&gt;</code>]</td>
+      <td>Identifies the events that are delivered for the subscription. <code class="language-plaintext highlighter-rouge">&lt;Readexist&gt;</code> can true or false. When the <code class="language-plaintext highlighter-rouge">&lt;Readexist&gt;</code> is true, all existing events are read from the subscription event sources. When the <code class="language-plaintext highlighter-rouge">&lt;Readexist&gt;</code> is false, only future (arriving) events are delivered. The default value is <strong>true</strong> for a <strong>/ree</strong> option without a value. If no <strong>/ree</strong> option is specified, the default value is <strong>false</strong>.</td>
+    </tr>
+    <tr>
+      <td>/lf:<code class="language-plaintext highlighter-rouge">&lt;Logfile&gt;</code></td>
+      <td>Specifies the local event log that is used to store events received from the event sources.</td>
+    </tr>
+    <tr>
+      <td>/pn:<code class="language-plaintext highlighter-rouge">&lt;Publishername&gt;</code></td>
+      <td>Specifies the publisher name. It must be a publisher that owns or imports the log specified by the <strong>/lf</strong> option.</td>
+    </tr>
+    <tr>
+      <td>/essp:<code class="language-plaintext highlighter-rouge">&lt;Enableport&gt;</code></td>
+      <td>Specifies that the port number must be appended to the service principal name of the remote service. <code class="language-plaintext highlighter-rouge">&lt;Enableport&gt;</code> can be true or false. The port number is appended when <code class="language-plaintext highlighter-rouge">&lt;Enableport&gt;</code> is true. When the port number is appended, some configuration may be required to prevent the access to event sources from being denied.</td>
+    </tr>
+    <tr>
+      <td>/hn:<code class="language-plaintext highlighter-rouge">&lt;Hostname&gt;</code></td>
+      <td>Specifies the DNS name of the local computer. This name is used by remote event source to push back events and must be used only for a push subscription.</td>
+    </tr>
+    <tr>
+      <td>/ct:<code class="language-plaintext highlighter-rouge">&lt;Type&gt;</code></td>
+      <td>Sets the credential type for the remote source access. <code class="language-plaintext highlighter-rouge">&lt;Type&gt;</code> should be one of the following values: <strong>default</strong>, <strong>negotiate</strong>, <strong>digest</strong>, <strong>basic</strong> or <strong>localmachine</strong>. The default value is <strong>default</strong>.</td>
+    </tr>
+    <tr>
+      <td>/cun:<code class="language-plaintext highlighter-rouge">&lt;Comusername&gt;</code></td>
+      <td>Sets the shared user credential to be used for event sources that do not have their own user credentials. If this option is specified with the <strong>/c</strong> option, UserName and UserPassword settings for individual event sources from the configuration file are ignored. If you want to use a different credential for a specific event source, you should override this value by specifying the <strong>/un</strong> and <strong>/up</strong> options for a specific event source on the command line of another <strong>ss</strong> command.</td>
+    </tr>
+    <tr>
+      <td>/cup:<code class="language-plaintext highlighter-rouge">&lt;Compassword&gt;</code></td>
+      <td>Sets the user password for the shared user credential. When <code class="language-plaintext highlighter-rouge">&lt;Compassword&gt;</code> is set to * (asterisk), the password is read from the console. This option is only valid when the <strong>/cun</strong> option is specified.</td>
+    </tr>
+    <tr>
+      <td>/q:[<code class="language-plaintext highlighter-rouge">&lt;Quiet&gt;</code>]</td>
+      <td>Specifies whether the configuration procedure prompts for confirmation. <code class="language-plaintext highlighter-rouge">&lt;Quiet&gt;</code> can be true or false. If <code class="language-plaintext highlighter-rouge">&lt;Quiet&gt;</code> is true, the configuration procedure does not prompt for confirmation. The default value of this option is <strong>false</strong>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="examples">Examples</h3>
+
+<p>To show the contents of a configuration file, type:</p>
+
+<pre><code class="language-XML">&lt;Subscription xmlns=https://schemas.microsoft.com/2006/03/windows/events/subscription&gt;
+&lt;Uri&gt;https://schemas.microsoft.com/wbem/wsman/1/windows/EventLog&lt;/Uri&gt;
+&lt;!-- Use Normal (default), Custom, MinLatency, MinBandwidth --&gt;
+&lt;ConfigurationMode&gt;Normal&lt;/ConfigurationMode&gt;
+  &lt;Description&gt;Forward Sample Subscription&lt;/Description&gt;
+  &lt;SubscriptionId&gt;SampleSubscription&lt;/SubscriptionId&gt;
+  &lt;Query&gt;&lt;![CDATA[
+    &lt;QueryList&gt;
+      &lt;Query Path=Application&gt;
+        &lt;Select&gt;*&lt;/Select&gt;
+      &lt;/Query&gt;
+    &lt;/QueryList&gt;]]
+  &lt;/Query&gt;
+&lt;EventSources&gt;
+  &lt;EventSource Enabled=true&gt;
+    &lt;Address&gt;mySource.myDomain.com&lt;/Address&gt;
+    &lt;UserName&gt;myUserName&lt;/UserName&gt;
+    &lt;Password&gt;*&lt;/Password&gt;
+  &lt;/EventSource&gt;
+&lt;/EventSources&gt;
+&lt;CredentialsType&gt;Default&lt;/CredentialsType&gt;
+&lt;Locale Language=EN-US&gt;&lt;/Locale&gt;
+&lt;/Subscription&gt;
+</code></pre>
+
+<p>To view the output configuration information for a subscription named <em>sub1</em>, type:</p>
+
+<pre><code class="language-command">wecutil gs sub1
+</code></pre>
+
+<p>Example output:</p>
+
+<pre><code class="language-output">EventSource[0]:
+Address: localhost
+Enabled: true
+Description: Subscription 1
+Uri: wsman:microsoft/logrecord/sel
+DeliveryMode: pull
+DeliveryMaxSize: 16000
+DeliveryMaxItems: 15
+DeliveryMaxLatencyTime: 1000
+HeartbeatInterval: 10000
+Locale:
+ContentFormat: renderedtext
+LogFile: HardwareEvents
+</code></pre>
+
+<p>To display the runtime status of a subscription named sub1, type:</p>
+
+<pre><code class="language-command">wecutil gr sub1
+</code></pre>
+
+<p>To update the subscription configuration named <em>sub1</em> from a new XML file called <em>WsSelRg2.xml</em>, type:</p>
+
+<pre><code class="language-command">wecutil ss sub1 /c:%Windir%system32WsSelRg2.xml
+</code></pre>
+
+<p>To update the subscription configuration named <em>sub2</em> with multiple parameters, type:</p>
+
+<pre><code class="language-command">wecutil ss sub2 /esa:myComputer /ese /un:uname /up:* /cm:Normal
+</code></pre>
+
+<p>To delete a subscription named <em>sub1</em>, type:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wecutil ds sub1
+</code></pre></div></div>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

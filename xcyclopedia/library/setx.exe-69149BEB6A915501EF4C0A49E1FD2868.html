@@ -1,0 +1,807 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>setx.exe | Setx - Sets environment variables &#124; STRONTIC</title>
+<meta name="description" content="What is setx.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="setx.exe | Setx - Sets environment variables">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/setx.exe-69149BEB6A915501EF4C0A49E1FD2868.html">
+
+
+  <meta property="og:description" content="What is setx.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="setx.exe | Setx - Sets environment variables">
+  <meta name="twitter:description" content="What is setx.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/setx.exe-69149BEB6A915501EF4C0A49E1FD2868.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/setx.exe-69149BEB6A915501EF4C0A49E1FD2868.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">setx.exe | Setx - Sets environment variables</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            setx.exe      Setx - Sets environment variables      ">
+    <meta itemprop="description" content="What is setx.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="setxexe">setx.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\WINDOWS\SysWOW64\setx.exe</code></li>
+  <li>Description: Setx - Sets environment variables</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">69149BEB6A915501EF4C0A49E1FD2868</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">B748D4155CCCCAD6BBA3E32D7DFE8DC66C700AB2</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">586D6111428F263847009B670FDC4D13F10CD4843BA415B772C409B58948510E</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">27F26D348B1D38BCD21ECF01AD12DC2A3A441CE0424BEDEB563C9C4BCE3093F7E5CEB0331CEA4F5DB7571BF03BD60302</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">426D80C74FF5324BEAA3023BE2C76FE699A6847CE0D2019F3C94FE8F1D8D6131672273729A717A3E16CC04E4C4784A7A25C33B62D72361F05524499D808DF2B8</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">768:Jmvkksbxo02weslhjP9E5UHdSXUaxJvVE2nrWkPh5T7LDjf4BDM1dYaXH1coa1UX:EvkNSWjP65kSEaxVrJPLrJNXH1Va1UFw</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">118566F8BC62D0C4DD5D6FABB7491816</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">A39950A107916C8D67B9F03C288495E21BD63A42</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">AF8ACEA7BF51CB911995750EAE9D3414B43CABB4ACC544DDB8BA21C349679688</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="ni">SetX</span> <span class="ni">has</span> <span class="ni">three</span> <span class="ni">ways</span> <span class="ni">of</span> <span class="kd">working:</span> 
+
+<span class="ni">Syntax</span> <span class="m">1</span><span class="err">:</span>
+    <span class="ni">SETX</span> <span class="err">[</span><span class="p">/</span><span class="err">S</span> <span class="ni">system</span> <span class="err">[</span><span class="p">/</span><span class="err">U</span> <span class="err">[</span><span class="ni">domain</span><span class="err">\]</span><span class="ni">user</span> <span class="err">[</span><span class="p">/</span><span class="err">P</span> <span class="err">[</span><span class="ni">password</span><span class="err">]]]]</span> <span class="ni">var</span> <span class="ni">value</span> <span class="err">[</span><span class="p">/</span><span class="err">M]</span>
+
+<span class="ni">Syntax</span> <span class="m">2</span><span class="err">:</span>
+    <span class="ni">SETX</span> <span class="err">[</span><span class="p">/</span><span class="err">S</span> <span class="ni">system</span> <span class="err">[</span><span class="p">/</span><span class="err">U</span> <span class="err">[</span><span class="ni">domain</span><span class="err">\]</span><span class="ni">user</span> <span class="err">[</span><span class="p">/</span><span class="err">P</span> <span class="err">[</span><span class="ni">password</span><span class="err">]]]]</span> <span class="ni">var</span> <span class="p">/</span><span class="err">K</span> <span class="ni">regpath</span> <span class="err">[</span><span class="p">/</span><span class="err">M]</span>
+
+<span class="ni">Syntax</span> <span class="m">3</span><span class="err">:</span>
+    <span class="ni">SETX</span> <span class="err">[</span><span class="p">/</span><span class="err">S</span> <span class="ni">system</span> <span class="err">[</span><span class="p">/</span><span class="err">U</span> <span class="err">[</span><span class="ni">domain</span><span class="err">\]</span><span class="ni">user</span> <span class="err">[</span><span class="p">/</span><span class="err">P</span> <span class="err">[</span><span class="ni">password</span><span class="err">]]]]</span>
+         <span class="p">/</span><span class="err">F</span> <span class="ni">file</span> <span class="err">{</span><span class="ni">var</span> <span class="err">{</span><span class="p">/</span><span class="err">A</span> <span class="err">x</span><span class="p">,</span><span class="err">y</span> <span class="err">|</span> <span class="p">/</span><span class="err">R</span> <span class="err">x</span><span class="p">,</span><span class="err">y</span> <span class="ni">string</span><span class="err">}[</span><span class="p">/</span><span class="err">M]</span> <span class="err">|</span> <span class="p">/</span><span class="err">X}</span> <span class="err">[</span><span class="p">/</span><span class="err">D</span> <span class="ni">delimiters</span><span class="err">]</span>
+
+<span class="ni">Description</span><span class="err">:</span>
+    <span class="ni">Creates</span> <span class="ni">or</span> <span class="ni">modifies</span> <span class="ni">environment</span> <span class="ni">variables</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">user</span> <span class="ni">or</span> <span class="ni">system</span>
+    <span class="ni">environment</span><span class="err">.</span> <span class="ni">Can</span> <span class="ni">set</span> <span class="ni">variables</span> <span class="ni">based</span> <span class="ni">on</span> <span class="ni">arguments</span><span class="p">,</span> <span class="ni">regkeys</span> <span class="ni">or</span>
+    <span class="ni">file</span> <span class="ni">input</span><span class="err">.</span>
+
+<span class="ni">Parameter</span> <span class="ni">List</span><span class="err">:</span>
+    <span class="p">/</span><span class="err">S</span>     <span class="ni">system</span>          <span class="ni">Specifies</span> <span class="ni">the</span> <span class="ni">remote</span> <span class="ni">system</span> <span class="ni">to</span> <span class="ni">connect</span> <span class="ni">to</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">U</span>     <span class="err">[</span><span class="ni">domain</span><span class="err">\]</span><span class="ni">user</span>   <span class="ni">Specifies</span> <span class="ni">the</span> <span class="ni">user</span> <span class="ni">context</span> <span class="ni">under</span> <span class="ni">which</span>
+                           <span class="ni">the</span> <span class="ni">command</span> <span class="ni">should</span> <span class="ni">execute</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">P</span>     <span class="err">[</span><span class="ni">password</span><span class="err">]</span>      <span class="ni">Specifies</span> <span class="ni">the</span> <span class="ni">password</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">given</span>
+                           <span class="ni">user</span> <span class="ni">context</span><span class="err">.</span> <span class="ni">Prompts</span> <span class="ni">for</span> <span class="ni">input</span> <span class="ni">if</span> <span class="ni">omitted</span><span class="err">.</span>
+
+    <span class="ni">var</span>                    <span class="ni">Specifies</span> <span class="ni">the</span> <span class="ni">environment</span> <span class="ni">variable</span> <span class="ni">to</span> <span class="ni">set</span><span class="err">.</span>
+
+    <span class="ni">value</span>                  <span class="ni">Specifies</span> <span class="err">a</span> <span class="ni">value</span> <span class="ni">to</span> <span class="ni">be</span> <span class="ni">assigned</span> <span class="ni">to</span> <span class="ni">the</span> 
+                           <span class="ni">environment</span> <span class="ni">variable</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">K</span>     <span class="ni">regpath</span>         <span class="ni">Specifies</span> <span class="ni">that</span> <span class="ni">the</span> <span class="ni">variable</span> <span class="ni">is</span> <span class="ni">set</span> <span class="ni">based</span>
+                           <span class="ni">on</span> <span class="ni">information</span> <span class="ni">from</span> <span class="err">a</span> <span class="ni">registry</span> <span class="ni">key</span><span class="err">.</span>
+                           <span class="ni">Path</span> <span class="ni">should</span> <span class="ni">be</span> <span class="ni">specified</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">format</span> <span class="ni">of</span>
+                           <span class="ni">hive</span><span class="err">\</span><span class="ni">key</span><span class="err">\...\</span><span class="ni">value</span><span class="err">.</span> <span class="ni">For</span> <span class="ni">example</span><span class="p">,</span>
+                           <span class="ni">HKEY_LOCAL_MACHINE</span><span class="err">\</span><span class="ni">System</span><span class="err">\</span><span class="ni">CurrentControlSet</span><span class="err">\</span>
+                           <span class="ni">Control</span><span class="err">\</span><span class="ni">TimeZoneInformation</span><span class="err">\</span><span class="ni">StandardName</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">F</span>     <span class="ni">file</span>            <span class="ni">Specifies</span> <span class="ni">the</span> <span class="ni">filename</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">text</span> <span class="ni">file</span>
+                           <span class="ni">to</span> <span class="ni">use</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">A</span>     <span class="err">x</span><span class="p">,</span><span class="err">y</span>             <span class="ni">Specifies</span> <span class="ni">absolute</span> <span class="ni">file</span> <span class="ni">coordinates</span>
+                           <span class="p">(</span><span class="ni">line</span> <span class="err">X</span><span class="p">,</span> <span class="ni">item</span> <span class="err">Y</span><span class="p">)</span> <span class="ni">as</span> <span class="ni">parameters</span> <span class="ni">to</span> <span class="ni">search</span> 
+                           <span class="ni">within</span> <span class="ni">the</span> <span class="ni">file</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">R</span>     <span class="err">x</span><span class="p">,</span><span class="err">y</span> <span class="ni">string</span>      <span class="ni">Specifies</span> <span class="ni">relative</span> <span class="ni">file</span> <span class="ni">coordinates</span> <span class="ni">with</span>
+                           <span class="ni">respect</span> <span class="ni">to</span> <span class="s">"string"</span> <span class="ni">as</span> <span class="ni">the</span> <span class="ni">search</span> <span class="ni">parameters</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">M</span>                     <span class="ni">Specifies</span> <span class="ni">that</span> <span class="ni">the</span> <span class="ni">variable</span> <span class="ni">should</span> <span class="ni">be</span> <span class="ni">set</span> <span class="ni">in</span>
+                           <span class="ni">the</span> <span class="ni">system</span> <span class="ni">wide</span> <span class="p">(</span><span class="ni">HKEY_LOCAL_MACHINE</span><span class="p">)</span>
+                           <span class="ni">environment</span><span class="err">.</span> <span class="ni">The</span> <span class="ni">default</span> <span class="ni">is</span> <span class="ni">to</span> <span class="ni">set</span> <span class="ni">the</span>
+                           <span class="ni">variable</span> <span class="ni">under</span> <span class="ni">the</span> <span class="ni">HKEY_CURRENT_USER</span> 
+                           <span class="ni">environment</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">X</span>                     <span class="ni">Displays</span> <span class="ni">file</span> <span class="ni">contents</span> <span class="ni">with</span> <span class="err">x</span><span class="p">,</span><span class="err">y</span> <span class="ni">coordinates</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">D</span>     <span class="ni">delimiters</span>      <span class="ni">Specifies</span> <span class="ni">additional</span> <span class="ni">delimiters</span> <span class="ni">such</span> <span class="ni">as</span> <span class="s">","</span>
+                           <span class="ni">or</span> <span class="s">"\"</span><span class="err">.</span> <span class="ni">The</span> <span class="ni">built</span><span class="err">-</span><span class="ni">in</span> <span class="ni">delimiters</span> <span class="ni">are</span> <span class="ni">space</span><span class="p">,</span>
+                           <span class="ni">tab</span><span class="p">,</span> <span class="ni">carriage</span> <span class="ni">return</span><span class="p">,</span> <span class="ni">and</span> <span class="ni">linefeed</span><span class="err">.</span> <span class="ni">Any</span> 
+                           <span class="ni">ASCII</span> <span class="ni">character</span> <span class="ni">can</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">as</span> <span class="ni">an</span> <span class="ni">additional</span>
+                           <span class="ni">delimiter</span><span class="err">.</span> <span class="ni">The</span> <span class="ni">maximum</span> <span class="ni">number</span> <span class="ni">of</span> <span class="ni">delimiters</span><span class="p">,</span>
+                           <span class="ni">including</span> <span class="ni">the</span> <span class="ni">built</span><span class="err">-</span><span class="ni">in</span> <span class="ni">delimiters</span><span class="p">,</span> <span class="ni">is</span> <span class="m">15</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">?</span>                     <span class="ni">Displays</span> <span class="ni">this</span> <span class="ni">help</span> <span class="ni">message</span><span class="err">.</span>
+
+<span class="ni">NOTE</span><span class="err">:</span> <span class="m">1</span><span class="p">)</span> <span class="ni">SETX</span> <span class="ni">writes</span> <span class="ni">variables</span> <span class="ni">to</span> <span class="ni">the</span> <span class="ni">master</span> <span class="ni">environment</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">registry</span><span class="err">.</span>
+
+      <span class="m">2</span><span class="p">)</span> <span class="ni">On</span> <span class="err">a</span> <span class="ni">local</span> <span class="ni">system</span><span class="p">,</span> <span class="ni">variables</span> <span class="ni">created</span> <span class="ni">or</span> <span class="ni">modified</span> <span class="ni">by</span> <span class="ni">this</span> <span class="ni">tool</span>
+         <span class="ni">will</span> <span class="ni">be</span> <span class="ni">available</span> <span class="ni">in</span> <span class="ni">future</span> <span class="ni">command</span> <span class="ni">windows</span> <span class="ni">but</span> <span class="ni">not</span> <span class="ni">in</span> <span class="ni">the</span>
+         <span class="ni">current</span> <span class="ni">CMD</span><span class="err">.</span><span class="ni">exe</span> <span class="ni">command</span> <span class="ni">window</span><span class="err">.</span>
+
+      <span class="m">3</span><span class="p">)</span> <span class="ni">On</span> <span class="err">a</span> <span class="ni">remote</span> <span class="ni">system</span><span class="p">,</span> <span class="ni">variables</span> <span class="ni">created</span> <span class="ni">or</span> <span class="ni">modified</span> <span class="ni">by</span> <span class="ni">this</span> <span class="ni">tool</span>
+         <span class="ni">will</span> <span class="ni">be</span> <span class="ni">available</span> <span class="ni">at</span> <span class="ni">the</span> <span class="ni">next</span> <span class="ni">logon</span> <span class="ni">session</span><span class="err">.</span>
+
+      <span class="m">4</span><span class="p">)</span> <span class="ni">The</span> <span class="ni">valid</span> <span class="ni">Registry</span> <span class="ni">Key</span> <span class="ni">data</span> <span class="ni">types</span> <span class="ni">are</span> <span class="ni">REG_DWORD</span><span class="p">,</span> <span class="ni">REG_EXPAND_SZ</span><span class="p">,</span>
+         <span class="ni">REG_SZ</span><span class="p">,</span> <span class="ni">REG_MULTI_SZ</span><span class="err">.</span>
+
+      <span class="m">5</span><span class="p">)</span> <span class="ni">Supported</span> <span class="kd">hives:</span>  <span class="ni">HKEY_LOCAL_MACHINE</span> <span class="p">(</span><span class="ni">HKLM</span><span class="p">),</span>
+         <span class="ni">HKEY_CURRENT_USER</span> <span class="p">(</span><span class="ni">HKCU</span><span class="p">)</span><span class="err">.</span>
+
+      <span class="m">6</span><span class="p">)</span> <span class="ni">Delimiters</span> <span class="ni">are</span> <span class="ni">case</span> <span class="ni">sensitive</span><span class="err">.</span>
+
+      <span class="m">7</span><span class="p">)</span> <span class="ni">REG_DWORD</span> <span class="ni">values</span> <span class="ni">are</span> <span class="ni">extracted</span> <span class="ni">from</span> <span class="ni">the</span> <span class="ni">registry</span> <span class="ni">in</span> <span class="ni">decimal</span> 
+         <span class="ni">format</span><span class="err">.</span>
+
+<span class="ni">Examples</span><span class="err">:</span>
+    <span class="ni">SETX</span> <span class="ni">MACHINE</span> <span class="ni">COMPAQ</span> 
+    <span class="ni">SETX</span> <span class="ni">MACHINE</span> <span class="s">"COMPAQ COMPUTER"</span> <span class="p">/</span><span class="err">M</span>
+    <span class="ni">SETX</span> <span class="ni">MYPATH</span> <span class="s">"%PATH%"</span>
+    <span class="ni">SETX</span> <span class="ni">MYPATH</span> <span class="err">~</span><span class="ni">PATH</span><span class="err">~</span>
+    <span class="ni">SETX</span> <span class="p">/</span><span class="err">S</span> <span class="ni">system</span> <span class="p">/</span><span class="err">U</span> <span class="ni">user</span> <span class="p">/</span><span class="err">P</span> <span class="ni">password</span>  <span class="ni">MACHINE</span> <span class="ni">COMPAQ</span> 
+    <span class="ni">SETX</span> <span class="p">/</span><span class="err">S</span> <span class="ni">system</span> <span class="p">/</span><span class="err">U</span> <span class="ni">user</span> <span class="p">/</span><span class="err">P</span> <span class="ni">password</span> <span class="ni">MYPATH</span> <span class="err">^%</span><span class="ni">PATH</span><span class="err">^%</span> 
+    <span class="ni">SETX</span> <span class="ni">TZONE</span> <span class="p">/</span><span class="err">K</span> <span class="ni">HKEY_LOCAL_MACHINE</span><span class="err">\</span><span class="ni">System</span><span class="err">\</span><span class="ni">CurrentControlSet</span><span class="err">\</span>
+         <span class="ni">Control</span><span class="err">\</span><span class="ni">TimeZoneInformation</span><span class="err">\</span><span class="ni">StandardName</span>
+    <span class="ni">SETX</span> <span class="ni">BUILD</span> <span class="p">/</span><span class="err">K</span> <span class="s">"HKEY_LOCAL_MACHINE\Software\Microsoft\Windows
+         NT\CurrentVersion\CurrentBuildNumber"</span> <span class="p">/</span><span class="err">M</span>
+    <span class="ni">SETX</span> <span class="p">/</span><span class="err">S</span> <span class="ni">system</span> <span class="p">/</span><span class="err">U</span> <span class="ni">user</span> <span class="p">/</span><span class="err">P</span> <span class="ni">password</span> <span class="ni">TZONE</span> <span class="p">/</span><span class="err">K</span> <span class="ni">HKEY_LOCAL_MACHINE</span><span class="err">\</span>
+         <span class="ni">System</span><span class="err">\</span><span class="ni">CurrentControlSet</span><span class="err">\</span><span class="ni">Control</span><span class="err">\</span><span class="ni">TimeZoneInformation</span><span class="err">\</span>
+         <span class="ni">StandardName</span>
+    <span class="ni">SETX</span> <span class="p">/</span><span class="err">S</span> <span class="ni">system</span> <span class="p">/</span><span class="err">U</span> <span class="ni">user</span> <span class="p">/</span><span class="err">P</span> <span class="ni">password</span>  <span class="ni">BUILD</span> <span class="p">/</span><span class="err">K</span> 
+         <span class="s">"HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\
+         CurrentVersion\CurrentBuildNumber"</span> <span class="p">/</span><span class="err">M</span>
+    <span class="ni">SETX</span> <span class="p">/</span><span class="err">F</span> <span class="ni">ipconfig</span><span class="err">.</span><span class="ni">out</span> <span class="p">/</span><span class="err">X</span> 
+    <span class="ni">SETX</span> <span class="ni">IPADDR</span> <span class="p">/</span><span class="err">F</span> <span class="ni">ipconfig</span><span class="err">.</span><span class="ni">out</span> <span class="p">/</span><span class="err">A</span> <span class="m">5</span><span class="p">,</span><span class="m">11</span> 
+    <span class="ni">SETX</span> <span class="ni">OCTET1</span> <span class="p">/</span><span class="err">F</span> <span class="ni">ipconfig</span><span class="err">.</span><span class="ni">out</span> <span class="p">/</span><span class="err">A</span> <span class="m">5</span><span class="p">,</span><span class="m">3</span> <span class="p">/</span><span class="err">D</span> <span class="s">"#$*."</span> 
+    <span class="ni">SETX</span> <span class="ni">IPGATEWAY</span> <span class="p">/</span><span class="err">F</span> <span class="ni">ipconfig</span><span class="err">.</span><span class="ni">out</span> <span class="p">/</span><span class="err">R</span> <span class="m">0</span><span class="p">,</span><span class="m">7</span> <span class="ni">Gateway</span>
+    <span class="ni">SETX</span> <span class="p">/</span><span class="err">S</span> <span class="ni">system</span> <span class="p">/</span><span class="err">U</span> <span class="ni">user</span> <span class="p">/</span><span class="err">P</span> <span class="ni">password</span>  <span class="p">/</span><span class="err">F</span> <span class="kd">c:</span><span class="err">\</span><span class="ni">ipconfig</span><span class="err">.</span><span class="ni">out</span> <span class="p">/</span><span class="err">X</span>
+
+</code></pre></div></div>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">ERROR</span><span class="err">:</span> <span class="ni">Invalid</span> <span class="ni">syntax</span><span class="err">.</span>
+<span class="ni">Type</span> <span class="s">"SETX /?"</span> <span class="ni">for</span> <span class="ni">usage</span><span class="err">.</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\WINDOWS\SYSTEM32\ntdll.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\wow64.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\wow64base.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\wow64con.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\wow64cpu.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\wow64win.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\SysWOW64\setx.exe</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">33000002ED2C45E4C145CF48440000000002ED</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">312860D2047EB81F8F58C29FF19ECDB4C634CF6A</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: setx.exe</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.22000.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.22000.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 32-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/71</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/586d6111428f263847009b670fdc4d13f10cd4843ba415b772c409b58948510e/detection</li>
+</ul>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="setx">setx</h2>
+
+<p>Creates or modifies environment variables in the user or system environment, without requiring programming or scripting. The <strong>Setx</strong> command also retrieves the values of registry keys and writes them to text files.</p>
+
+<blockquote>
+  <p>[!NOTE]
+This command provides the only command-line or programmatic way to directly and permanently set system environment values. System environment variables are manually configurable through <strong>Control Panel</strong> or through a registry editor. The <strong>set</strong> command, which is internal to the command interpreter (Cmd.exe), sets user environment variables for the current console window only.</p>
+</blockquote>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx [/s &lt;computer&gt; [/u [&lt;domain&gt;\]&lt;user name&gt; [/p [&lt;password&gt;]]]] &lt;variable&gt; &lt;value&gt; [/m]
+setx [/s &lt;computer&gt; [/u [&lt;domain&gt;\]&lt;user name&gt; [/p [&lt;password&gt;]]]] &lt;variable&gt;] /k &lt;path&gt; [/m]
+setx [/s &lt;computer&gt; [/u [&lt;domain&gt;\]&lt;user name&gt; [/p [&lt;password&gt;]]]] /f &lt;filename&gt; {[&lt;variable&gt;] {/a &lt;X&gt;,&lt;Y&gt; | /r &lt;X&gt;,&lt;Y&gt; &lt;String&gt;} [/m] | /x} [/d &lt;delimiters&gt;]
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/s <code class="language-plaintext highlighter-rouge">&lt;computer&gt;</code></td>
+      <td>Specifies the name or IP address of a remote computer. Do not use backslashes. The default value is the name of the local computer.</td>
+    </tr>
+    <tr>
+      <td>/u <code class="language-plaintext highlighter-rouge">[&lt;domain&gt;\]&lt;user name&gt;</code></td>
+      <td>Runs the script with the credentials of the specified user account. The default value is the system permissions.</td>
+    </tr>
+    <tr>
+      <td>/p [<code class="language-plaintext highlighter-rouge">&lt;password&gt;</code>]</td>
+      <td>Specifies the password of the user account that is specified in the <strong>/u</strong> parameter.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;variable&gt;</code></td>
+      <td>Specifies the name of the environment variable that you want to set.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">&lt;value&gt;</code></td>
+      <td>Specifies the value to which you want to set the environment variable.</td>
+    </tr>
+    <tr>
+      <td>/k <code class="language-plaintext highlighter-rouge">&lt;path&gt;</code></td>
+      <td>Specifies that the variable is set based on information from a registry key. The <em>path</em> uses the following syntax: <code class="language-plaintext highlighter-rouge">\\&lt;HIVE&gt;\&lt;KEY&gt;\...\&lt;Value&gt;</code>. For example, you might specify the following path: <code class="language-plaintext highlighter-rouge">HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation\StandardName</code></td>
+    </tr>
+    <tr>
+      <td>/f <code class="language-plaintext highlighter-rouge">&lt;filename&gt;</code></td>
+      <td>Specifies the file that you want to use.</td>
+    </tr>
+    <tr>
+      <td>/a <code class="language-plaintext highlighter-rouge">&lt;X&gt;,&lt;Y&gt;</code></td>
+      <td>Specifies absolute coordinates and offset as search parameters.</td>
+    </tr>
+    <tr>
+      <td>/r <code class="language-plaintext highlighter-rouge">&lt;X&gt;,&lt;Y&gt; &lt;String&gt;</code></td>
+      <td>Specifies relative coordinates and offset from <strong>String</strong> as search parameters.</td>
+    </tr>
+    <tr>
+      <td>/m</td>
+      <td>Specifies to set the variable in the system environment. The default setting is the local environment.</td>
+    </tr>
+    <tr>
+      <td>/x</td>
+      <td>Displays file coordinates, ignoring the <strong>/a</strong>, <strong>/r</strong>, and <strong>/d</strong> command-line options.</td>
+    </tr>
+    <tr>
+      <td>/d <code class="language-plaintext highlighter-rouge">&lt;delimiters&gt;</code></td>
+      <td>Specifies delimiters such as <strong>,</strong> or <strong>\</strong> to be used in addition to the four built-in delimiters â€” SPACE, TAB, ENTER, and LINEFEED. Valid delimiters include any ASCII character. The maximum number of delimiters is 15, including built-in delimiters.</td>
+    </tr>
+    <tr>
+      <td>/?</td>
+      <td>Displays help at the command prompt.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="remarks">Remarks</h5>
+
+<ul>
+  <li>
+    <p>This command is similar to the UNIX utility SETENV.</p>
+  </li>
+  <li>
+    <p>You can use this command to set values for user and system environment variables from one of three sources (modes): Command Line Mode, Registry Mode, or File Mode.</p>
+  </li>
+  <li>
+    <p>This command writes variables to the master environment in the registry. Variables set with <strong>setx</strong> variables are available in future command windows only, not in the current command window.</p>
+  </li>
+  <li>
+    <p><strong>HKEY_CURRENT_USER</strong> and <strong>HKEY_LOCAL_MACHINE</strong> are the only supported hives. REG_DWORD, REG_EXPAND_SZ, REG_SZ, and REG_MULTI_SZ are the valid <strong>RegKey</strong> data types.</p>
+  </li>
+  <li>
+    <p>If you gain access to <strong>REG_MULTI_SZ</strong> values in the registry, only the first item is extracted and used.</p>
+  </li>
+  <li>
+    <p>You can’t use this command to remove values added to the local or system environments. You can use this command with a variable name and no value to remove a corresponding value from the local environment.</p>
+  </li>
+  <li>
+    <p>REG_DWORD registry values are extracted and used in hexadecimal mode.</p>
+  </li>
+  <li>
+    <p>File mode supports the parsing of carriage return and line feed (CRLF) text files only.</p>
+  </li>
+  <li>
+    <p>Running this command on an existing variable removes any variable references and uses expanded values.</p>
+
+    <p>For instance, if the variable %PATH% has a reference to %JAVADIR%, and %PATH% is manipulated using <strong>setx</strong>, %JAVADIR% is expanded and its value is assigned directly to the target variable %PATH%. This means that future updates to %JAVADIR% <strong>will not</strong> be reflected in the %PATH% variable.</p>
+  </li>
+  <li>
+    <p>Be aware there’s a limit of 1024 characters when assigning contents to a variable using <strong>setx</strong>.</p>
+
+    <p>This means that the content is cropped if you go over 1024 characters, and that the cropped text is what’s applied to the target variable. If this cropped text is applied to an existing variable, it can result in loss of data previously held by the target variable.</p>
+  </li>
+</ul>
+
+<h3 id="examples">Examples</h3>
+
+<p>To set the <em>MACHINE</em> environment variable in the local environment to the value <em>Brand1</em>, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx MACHINE Brand1
+</code></pre></div></div>
+
+<p>To set the <em>MACHINE</em> environment variable in the system environment to the value <em>Brand1 Computer</em>, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx MACHINE Brand1 Computer /m
+</code></pre></div></div>
+
+<p>To set the <em>MYPATH</em> environment variable in the local environment to use the search path defined in the <em>PATH</em> environment variable, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx MYPATH %PATH%
+</code></pre></div></div>
+
+<p>To set the <em>MYPATH</em> environment variable in the local environment to use the search path defined in the <em>PATH</em> environment variable after replacing <strong>~</strong> with <strong>%</strong>, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx MYPATH ~PATH~
+</code></pre></div></div>
+
+<p>To set the <em>MACHINE</em> environment variable in the local environment to <em>Brand1</em> on a remote computer named <em>computer1</em>, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx /s computer1 /u maindom\hiropln /p p@ssW23 MACHINE Brand1
+</code></pre></div></div>
+
+<p>To set the <em>MYPATH</em> environment variable in the local environment to use the search path defined in the <em>PATH</em> environment variable on a remote computer named <em>computer1</em>, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx /s computer1 /u maindom\hiropln /p p@ssW23 MYPATH %PATH%
+</code></pre></div></div>
+
+<p>To set the <em>TZONE</em> environment variable in the local environment to the value found in the <strong>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation\StandardName</strong> registry key, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx TZONE /k HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation\StandardName
+</code></pre></div></div>
+
+<p>To set the <em>TZONE</em> environment variable in the local environment of a remote computer named <em>computer1</em> to the value found in the <strong>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation\StandardName</strong> registry key, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx /s computer1 /u maindom\hiropln /p p@ssW23 TZONE /k HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation\StandardName
+</code></pre></div></div>
+
+<p>To set the <em>BUILD</em> environment variable in the system environment to the value found in the <strong>HKEY_LOCAL_MACHINE\Software\Microsoft\WindowsNT\CurrentVersion\CurrentBuildNumber</strong> registry key, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx BUILD /k HKEY_LOCAL_MACHINE\Software\Microsoft\WindowsNT\CurrentVersion\CurrentBuildNumber /m
+</code></pre></div></div>
+
+<p>To set the BUILD environment variable in the system environment of a remote computer named Computer1 to the value found in the <strong>HKEY_LOCAL_MACHINE\Software\Microsoft\WindowsNT\CurrentVersion\CurrentBuildNumber</strong> registry key, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx /s computer1 /u maindom\hiropln /p p@ssW23  BUILD /k HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\CurrentBuildNumber /m
+</code></pre></div></div>
+
+<p>To display the contents of a file named <em>Ipconfig.out</em>, along with the contents’ corresponding coordinates, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx /f ipconfig.out /x
+</code></pre></div></div>
+
+<p>To set the <em>IPADDR</em> environment variable in the local environment to the value found at the coordinate <em>5,11</em> in the <em>Ipconfig.out</em> file, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx IPADDR /f ipconfig.out /a 5,11
+</code></pre></div></div>
+
+<p>To set the <em>OCTET1</em> environment variable in the local environment to the value found at the coordinate <em>5,3</em> in the <em>Ipconfig.out</em> file with delimiters <strong>#$*.</strong>, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx OCTET1 /f ipconfig.out /a 5,3 /d #$*.
+</code></pre></div></div>
+
+<p>To set the <em>IPGATEWAY</em> environment variable in the local environment to the value found at the coordinate <em>0,7</em> with respect to the coordinate of <em>Gateway</em> in the <em>Ipconfig.out</em> file, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx IPGATEWAY /f ipconfig.out /r 0,7 Gateway
+</code></pre></div></div>
+
+<p>To display the contents of the <em>Ipconfig.out</em> file, along with the contents’ corresponding coordinates, on a computer named <em>computer1</em>, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>setx /s computer1 /u maindom\hiropln /p p@ssW23 /f ipconfig.out /x
+</code></pre></div></div>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

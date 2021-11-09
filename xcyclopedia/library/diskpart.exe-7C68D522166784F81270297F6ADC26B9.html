@@ -1,0 +1,804 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>diskpart.exe | DiskPart &#124; STRONTIC</title>
+<meta name="description" content="What is diskpart.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="diskpart.exe | DiskPart">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/diskpart.exe-7C68D522166784F81270297F6ADC26B9.html">
+
+
+  <meta property="og:description" content="What is diskpart.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="diskpart.exe | DiskPart">
+  <meta name="twitter:description" content="What is diskpart.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/diskpart.exe-7C68D522166784F81270297F6ADC26B9.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/diskpart.exe-7C68D522166784F81270297F6ADC26B9.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">diskpart.exe | DiskPart</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            diskpart.exe      DiskPart      ">
+    <meta itemprop="description" content="What is diskpart.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="diskpartexe">diskpart.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\WINDOWS\system32\diskpart.exe</code></li>
+  <li>Description: DiskPart</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">7C68D522166784F81270297F6ADC26B9</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">CFDD720D3B4927DDDA025445BBBC736DE655F99F</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">E1AC914C4109A596C0DE80AF5F70FF8177F9E893DFF07EBC169685D4C1DB08DD</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">1733488EA7591E275B410195F18A79728774BD41D52EE24E05A7C5EAD7003B5F1DF06F59657644968309285BE935F113</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">E569E5E28FAE02685436E482A7999C8B233D46A86978FDBEE1E5466A7C0E5113C5F984835D939277ABF499AE5B83CBFACDEDC8ED8A263B5A1E32C06911EF08B3</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">3072:yjXWl6xZSlyogMWDtba8AQh4szeaGgNwq8MBducDorVOI9VF5KF1NswE9vMjYuKC:yjXA6xZSlyogMWDtbaxQh4szeaGewq8g</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">118596C58B789852789B781D0AF467C7</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">6EF546C5DBDA7FB3CF67DC23E9CDB1F954315949</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">DC0D8A74131F7F2D169E5C2CCD0A0FEEB68782CD5D55AEFA8EB0D2EBBE710950</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="ni">Microsoft</span> <span class="ni">DiskPart</span> <span class="ni">version</span> <span class="m">10</span><span class="err">.</span><span class="m">0</span><span class="err">.</span><span class="m">22000</span><span class="err">.</span><span class="m">1</span>
+
+<span class="ni">Copyright</span> <span class="p">(</span><span class="err">C</span><span class="p">)</span> <span class="ni">Microsoft</span> <span class="ni">Corporation</span><span class="err">.</span>
+<span class="ni">On</span> <span class="kd">computer:</span> <span class="ni">default</span><span class="err">-</span><span class="ni">pc</span>
+
+<span class="ni">DiskPart</span> <span class="ni">was</span> <span class="ni">unable</span> <span class="ni">to</span> <span class="ni">process</span> <span class="ni">the</span> <span class="ni">parameters</span><span class="err">.</span>
+<span class="ni">Use</span> <span class="err">'</span><span class="ni">diskpart</span> <span class="p">/</span><span class="err">?'</span> <span class="ni">for</span> <span class="ni">more</span> <span class="ni">information</span><span class="err">.</span>
+
+</code></pre></div></div>
+
+<h3 id="child-processes">Child Processes:</h3>
+<p>conhost.exe</p>
+
+<h3 id="open-handles">Open Handles:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>(R-D)   C:\Windows\System32\en-US\diskpart.exe.mui</td>
+      <td>File</td>
+    </tr>
+    <tr>
+      <td>(RW-)   C:\Windows\System32</td>
+      <td>File</td>
+    </tr>
+    <tr>
+      <td>\BaseNamedObjects__ComCatalogCache__</td>
+      <td>Section</td>
+    </tr>
+    <tr>
+      <td>\BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000001.db</td>
+      <td>Section</td>
+    </tr>
+    <tr>
+      <td>\BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000001.db</td>
+      <td>Section</td>
+    </tr>
+    <tr>
+      <td>\BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro</td>
+      <td>Section</td>
+    </tr>
+    <tr>
+      <td>\Sessions\2\BaseNamedObjects\NLS_CodePage_1252_3_2_0_0</td>
+      <td>Section</td>
+    </tr>
+    <tr>
+      <td>\Sessions\2\BaseNamedObjects\NLS_CodePage_437_3_2_0_0</td>
+      <td>Section</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\WINDOWS\system32\diskpart.exe</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\KERNEL32.DLL</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\KERNELBASE.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\SYSTEM32\ntdll.dll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">33000002ED2C45E4C145CF48440000000002ED</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">312860D2047EB81F8F58C29FF19ECDB4C634CF6A</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: diskpart.exe.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.22000.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.22000.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/74</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/e1ac914c4109a596c0de80af5f70ff8177f9e893dff07ebc169685d4c1db08dd/detection</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">diskpart.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">diskpart.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_wannacry.yml">win_malware_wannacry.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\diskpart.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_malware_wannacry.yml">win_malware_wannacry.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Diskpart.exe usage to manage partitions on the local hard drive</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml">win_multiple_suspicious_cli.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">diskpart.exe</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="diskpart">diskpart</h2>
+
+<blockquote>
+  <p>Applies to: Windows Server 2022, Windows 10, Windows 8.1, Windows 8, Windows 7, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, and Windows Server 2008 R2, Windows Server 2008</p>
+</blockquote>
+
+<p>The diskpart command interpreter helps you manage your computer’s drives (disks, partitions, volumes, or virtual hard disks).</p>
+
+<p>Before you can use <strong>diskpart</strong> commands, you must first list, and then select an object to give it focus. After an object has focus, any diskpart commands that you type will act on that object.</p>
+
+<h3 id="list-available-objects">List available objects</h3>
+
+<p>You can list the available objects and determine an object’s number or drive letter by using:</p>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">list disk</code> - Displays all the disks on the computer.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">list volume</code> - Displays all the volumes on the computer.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">list partition</code> - Displays the partitions on the disk that has focus on the computer.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">list vdisk</code> - Displays all the virtual disks on the computer.</p>
+  </li>
+</ul>
+
+<p>After you run the <strong>list</strong> commands, an asterisk (*) appears next to the object with focus.</p>
+
+<h3 id="determine-focus">Determine focus</h3>
+
+<p>When you select an object, the focus remains on that object until you select a different object. For example, if the focus is set on disk 0 and you select volume 8 on disk 2, the focus shifts from disk 0 to disk 2, volume 8.</p>
+
+<p>Some commands automatically change the focus. For example, when you create a new partition, the focus automatically switches to the new partition.</p>
+
+<p>You can only give focus to a partition on the selected disk. After a partition has focus, the related volume (if any) also has focus. After a volume has focus, the related disk and partition also have focus if the volume maps to a single specific partition. If this isn’t the case, focus on the disk and partition is lost.</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<p>To start the diskpart command interpreter, at the command prompt type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>diskpart &lt;parameter&gt;
+</code></pre></div></div>
+
+<blockquote>
+  <p>[!IMPORTANT]
+You must be in your local <strong>Administrators</strong> group, or a group with similar permissions, to run diskpart.</p>
+</blockquote>
+
+<h4 id="parameters">Parameters</h4>
+
+<p>You can run the following commands from the Diskpart command interpreter:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/active.md">active</a></td>
+      <td>Marks the disk’s partition with focus, as active.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/add.md">add</a></td>
+      <td>Mirrors the simple volume with focus to the specified disk.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/assign.md">assign</a></td>
+      <td>Assigns a drive letter or mount point to the volume with focus.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/attach-vdisk.md">attach vdisk</a></td>
+      <td>Attaches (sometimes called mounts or surfaces) a virtual hard disk (VHD) so that it appears on the host computer as a local hard disk drive.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/attributes.md">attributes</a></td>
+      <td>Displays, sets, or clears the attributes of a disk or volume.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/automount.md">automount</a></td>
+      <td>Enables or disables the automount feature.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/break.md">break</a></td>
+      <td>Breaks the mirrored volume with focus into two simple volumes.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/clean.md">clean</a></td>
+      <td>Removes any and all partition or volume formatting from the disk with focus.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/compact-vdisk.md">compact vdisk</a></td>
+      <td>Reduces the physical size of a dynamically expanding virtual hard disk (VHD) file.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/convert.md">convert</a></td>
+      <td>Converts file allocation table (FAT) and FAT32 volumes to the NTFS file system, leaving existing files and directories intact.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/create.md">create</a></td>
+      <td>Creates a partition on a disk, a volume on one or more disks, or a virtual hard disk (VHD).</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/delete.md">delete</a></td>
+      <td>Deletes a partition or a volume.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/detach-vdisk.md">detach vdisk</a></td>
+      <td>Stops the selected virtual hard disk (VHD) from appearing as a local hard disk drive on the host computer.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/detail.md">detail</a></td>
+      <td>Displays information about the selected disk, partition, volume, or virtual hard disk (VHD).</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/exit.md">exit</a></td>
+      <td>Exits the diskpart command interpreter.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/expand-vdisk.md">expand vdisk</a></td>
+      <td>Expands a virtual hard disk (VHD) to the size that you specify.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/extend.md">extend</a></td>
+      <td>Extends the volume or partition with focus, along with its file system, into free (unallocated) space on a disk.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/filesystems.md">filesystems</a></td>
+      <td>Displays information about the current file system of the volume with focus and lists the file systems that are supported for formatting the volume.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/format.md">format</a></td>
+      <td>Formats a disk to accept Windows files.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/gpt.md">gpt</a></td>
+      <td>Assigns the gpt attribute(s) to the partition with focus on basic GUID partition table (gpt) disks.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/help.md">help</a></td>
+      <td>Displays a list of the available commands or detailed help information on a specified command.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/import_1.md">import</a></td>
+      <td>Imports a foreign disk group into the disk group of the local computer.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/inactive.md">inactive</a></td>
+      <td>Marks the system partition or boot partition with focus as inactive on basic master boot record (MBR) disks.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/list.md">list</a></td>
+      <td>Displays a list of disks, of partitions in a disk, of volumes in a disk, or of virtual hard disks (VHDs).</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/merge-vdisk.md">merge vdisk</a></td>
+      <td>Merges a differencing virtual hard disk (VHD) with its corresponding parent VHD.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/offline.md">offline</a></td>
+      <td>Takes an online disk or volume to the offline state.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/online.md">online</a></td>
+      <td>Takes an offline disk or volume to the online state.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/recover.md">recover</a></td>
+      <td>Refreshes the state of all disks in a disk group, attempt to recover disks in an invalid disk group, and resynchronizes mirrored volumes and RAID-5 volumes that have stale data.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/rem.md">rem</a></td>
+      <td>Provides a way to add comments to a script.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/remove.md">remove</a></td>
+      <td>Removes a drive letter or mount point from a volume.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/repair.md">repair</a></td>
+      <td>Repairs the RAID-5 volume with focus by replacing the failed disk region with the specified dynamic disk.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/rescan.md">rescan</a></td>
+      <td>Locates new disks that may have been added to the computer.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/retain.md">retain</a></td>
+      <td>Prepares an existing dynamic simple volume to be used as a boot or system volume.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/san.md">san</a></td>
+      <td>Displays or sets the storage area network (san) policy for the operating system.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/select.md">select</a></td>
+      <td>Shifts the focus to a disk, partition, volume, or virtual hard disk (VHD).</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/set-id.md">set id</a></td>
+      <td>Changes the partition type field for the partition with focus.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/shrink.md">shrink</a></td>
+      <td>Reduces the size of the selected volume by the amount you specify.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/uniqueid.md">uniqueid</a></td>
+      <td>Displays or sets the GUID partition table (GPT) identifier or master boot record (MBR) signature for the disk with focus.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li>
+    <p><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></p>
+  </li>
+  <li>
+    <p><a href="../../storage/disk-management/overview-of-disk-management.md">Disk management overview</a></p>
+  </li>
+  <li>
+    <p><a href="/powershell/module/storage/">Storage Cmdlets in Windows PowerShell</a></p>
+  </li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

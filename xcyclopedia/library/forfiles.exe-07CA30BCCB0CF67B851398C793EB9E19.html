@@ -1,0 +1,886 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.2 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>forfiles.exe | ForFiles - Executes a command on selected files &#124; STRONTIC</title>
+<meta name="description" content="What is forfiles.exe?">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="STRONTIC">
+<meta property="og:title" content="forfiles.exe | ForFiles - Executes a command on selected files">
+<meta property="og:url" content="https://strontic.github.io/xcyclopedia/library/forfiles.exe-07CA30BCCB0CF67B851398C793EB9E19.html">
+
+
+  <meta property="og:description" content="What is forfiles.exe?">
+
+
+
+
+
+  <meta name="twitter:site" content="@strontic20">
+  <meta name="twitter:title" content="forfiles.exe | ForFiles - Executes a command on selected files">
+  <meta name="twitter:description" content="What is forfiles.exe?">
+  <meta name="twitter:url" content="https://strontic.github.io/xcyclopedia/library/forfiles.exe-07CA30BCCB0CF67B851398C793EB9E19.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://strontic.github.io/xcyclopedia/library/forfiles.exe-07CA30BCCB0CF67B851398C793EB9E19.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Organization",
+      "url": "https://strontic.github.io/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="STRONTIC Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strontic-favicon_large_gray.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          STRONTIC
+          <span class="site-subtitle">Security. Automation. Analytics.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/xcyclopedia/intro">xCyclopedia</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/strontic">Github</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="https://strontic.github.io/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia" itemprop="item"><span itemprop="name">Xcyclopedia</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        
+		
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/xcyclopedia/library" itemprop="item"><span itemprop="name">Library</span></a>
+          <meta itemprop="position" content="3" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">forfiles.exe | ForFiles - Executes a command on selected files</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="            forfiles.exe      ForFiles - Executes a command on selected files      ">
+    <meta itemprop="description" content="What is forfiles.exe?">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <h1 id="forfilesexe">forfiles.exe</h1>
+
+<ul>
+  <li>File Path: <code class="language-plaintext highlighter-rouge">C:\WINDOWS\system32\forfiles.exe</code></li>
+  <li>Description: ForFiles - Executes a command on selected files</li>
+</ul>
+
+<h2 id="hashes">Hashes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MD5</td>
+      <td><code class="language-plaintext highlighter-rouge">07CA30BCCB0CF67B851398C793EB9E19</code></td>
+    </tr>
+    <tr>
+      <td>SHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">1C6937D4CB47EE07226C9157775BD1AE79350C6A</code></td>
+    </tr>
+    <tr>
+      <td>SHA256</td>
+      <td><code class="language-plaintext highlighter-rouge">12D8883320640E9BDDCFC4E37FCC25A592B3E818AB717FDFD0418C6C0AAABE20</code></td>
+    </tr>
+    <tr>
+      <td>SHA384</td>
+      <td><code class="language-plaintext highlighter-rouge">881BEF4321EACE9D0EE6DF9A3DB847104CF59FFB1254435E848F623A7E4AB7FF8E3BB4D6B2FFE465768A994C892B116E</code></td>
+    </tr>
+    <tr>
+      <td>SHA512</td>
+      <td><code class="language-plaintext highlighter-rouge">35708421AB02E4A90120F9B5C03C7FDF216DFF09304B3A459B63C75A78080210B87689FEFA7EFF7A12C102FF586DEF1982500184C68AABB98E86795531A13C18</code></td>
+    </tr>
+    <tr>
+      <td>SSDEEP</td>
+      <td><code class="language-plaintext highlighter-rouge">1536:GuzbZy7ZopI9tod244vxa2/XOQBjdDmZJ85t6SOxgnShU:G+y7ZZ9tog44vxa2/XOojdD1LOxgnJ</code></td>
+    </tr>
+    <tr>
+      <td>IMP</td>
+      <td><code class="language-plaintext highlighter-rouge">A8949F425F8427BF3F7E4A794CE5BB87</code></td>
+    </tr>
+    <tr>
+      <td>PESHA1</td>
+      <td><code class="language-plaintext highlighter-rouge">525554988F68664BE660495E5B5E24442EADCC35</code></td>
+    </tr>
+    <tr>
+      <td>PE256</td>
+      <td><code class="language-plaintext highlighter-rouge">97247B3E99BC59AA429D4F250012DB7E1C7FDDA7AF60A2E33E4DBC80AF4B8C32</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="runtime-data">Runtime Data</h2>
+
+<h3 id="usage-stdout">Usage (stdout):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="ni">FORFILES</span> <span class="err">[</span><span class="p">/</span><span class="err">P</span> <span class="ni">pathname</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="err">M</span> <span class="ni">searchmask</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="err">S]</span>
+         <span class="err">[</span><span class="p">/</span><span class="err">C</span> <span class="ni">command</span><span class="err">]</span> <span class="err">[</span><span class="p">/</span><span class="err">D</span> <span class="err">[+</span> <span class="err">|</span> <span class="err">-]</span> <span class="err">{</span><span class="ni">MM</span><span class="p">/</span><span class="ni">dd</span><span class="p">/</span><span class="ni">yyyy</span> <span class="err">|</span> <span class="ni">dd</span><span class="err">}]</span>
+
+<span class="ni">Description</span><span class="err">:</span>
+    <span class="ni">Selects</span> <span class="err">a</span> <span class="ni">file</span> <span class="p">(</span><span class="ni">or</span> <span class="ni">set</span> <span class="ni">of</span> <span class="ni">files</span><span class="p">)</span> <span class="ni">and</span> <span class="ni">executes</span> <span class="err">a</span> 
+    <span class="ni">command</span> <span class="ni">on</span> <span class="ni">that</span> <span class="ni">file</span><span class="err">.</span> <span class="ni">This</span> <span class="ni">is</span> <span class="ni">helpful</span> <span class="ni">for</span> <span class="ni">batch</span> <span class="ni">jobs</span><span class="err">.</span>
+
+<span class="ni">Parameter</span> <span class="ni">List</span><span class="err">:</span>
+    <span class="p">/</span><span class="err">P</span>    <span class="ni">pathname</span>      <span class="ni">Indicates</span> <span class="ni">the</span> <span class="ni">path</span> <span class="ni">to</span> <span class="ni">start</span> <span class="ni">searching</span><span class="err">.</span>
+                        <span class="ni">The</span> <span class="ni">default</span> <span class="ni">folder</span> <span class="ni">is</span> <span class="ni">the</span> <span class="ni">current</span> <span class="ni">working</span>
+                        <span class="ni">directory</span> <span class="p">(</span><span class="err">.</span><span class="p">)</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">M</span>    <span class="ni">searchmask</span>    <span class="ni">Searches</span> <span class="ni">files</span> <span class="ni">according</span> <span class="ni">to</span> <span class="err">a</span> <span class="ni">searchmask</span><span class="err">.</span>
+                        <span class="ni">The</span> <span class="ni">default</span> <span class="ni">searchmask</span> <span class="ni">is</span> <span class="err">'*'</span> <span class="err">.</span>
+
+    <span class="p">/</span><span class="err">S</span>                  <span class="ni">Instructs</span> <span class="ni">forfiles</span> <span class="ni">to</span> <span class="ni">recurse</span> <span class="ni">into</span>
+                        <span class="ni">subdirectories</span><span class="err">.</span> <span class="ni">Like</span> <span class="s">"DIR /S"</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">C</span>    <span class="ni">command</span>       <span class="ni">Indicates</span> <span class="ni">the</span> <span class="ni">command</span> <span class="ni">to</span> <span class="ni">execute</span> <span class="ni">for</span> <span class="ni">each</span> <span class="ni">file</span><span class="err">.</span>
+                        <span class="ni">Command</span> <span class="ni">strings</span> <span class="ni">should</span> <span class="ni">be</span> <span class="ni">wrapped</span> <span class="ni">in</span> <span class="ni">double</span>
+                        <span class="ni">quotes</span><span class="err">.</span> 
+
+                        <span class="ni">The</span> <span class="ni">default</span> <span class="ni">command</span> <span class="ni">is</span> <span class="s">"cmd /c echo @file"</span><span class="err">.</span>
+
+                        <span class="ni">The</span> <span class="ni">following</span> <span class="ni">variables</span> <span class="ni">can</span> <span class="ni">be</span> <span class="ni">used</span> <span class="ni">in</span> <span class="ni">the</span>
+                        <span class="ni">command</span> <span class="kd">string:</span>
+                        <span class="err">@</span><span class="ni">file</span>    <span class="err">-</span> <span class="ni">returns</span> <span class="ni">the</span> <span class="ni">name</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">file</span><span class="err">.</span>
+                        <span class="err">@</span><span class="ni">fname</span>   <span class="err">-</span> <span class="ni">returns</span> <span class="ni">the</span> <span class="ni">file</span> <span class="ni">name</span> <span class="ni">without</span>
+                                   <span class="ni">extension</span><span class="err">.</span>
+                        <span class="err">@</span><span class="ni">ext</span>     <span class="err">-</span> <span class="ni">returns</span> <span class="ni">only</span> <span class="ni">the</span> <span class="ni">extension</span> <span class="ni">of</span> <span class="ni">the</span>
+                                   <span class="ni">file</span><span class="err">.</span>
+                        <span class="err">@</span><span class="ni">path</span>    <span class="err">-</span> <span class="ni">returns</span> <span class="ni">the</span> <span class="ni">full</span> <span class="ni">path</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">file</span><span class="err">.</span>
+                        <span class="err">@</span><span class="ni">relpath</span> <span class="err">-</span> <span class="ni">returns</span> <span class="ni">the</span> <span class="ni">relative</span> <span class="ni">path</span> <span class="ni">of</span> <span class="ni">the</span>
+                                   <span class="ni">file</span><span class="err">.</span>
+                        <span class="err">@</span><span class="ni">isdir</span>   <span class="err">-</span> <span class="ni">returns</span> <span class="s">"TRUE"</span> <span class="ni">if</span> <span class="err">a</span> <span class="ni">file</span> <span class="ni">type</span> <span class="ni">is</span>
+                                   <span class="err">a</span> <span class="ni">directory</span><span class="p">,</span> <span class="ni">and</span> <span class="s">"FALSE"</span> <span class="ni">for</span> <span class="ni">files</span><span class="err">.</span>
+                        <span class="err">@</span><span class="ni">fsize</span>   <span class="err">-</span> <span class="ni">returns</span> <span class="ni">the</span> <span class="ni">size</span> <span class="ni">of</span> <span class="ni">the</span> <span class="ni">file</span> <span class="ni">in</span>
+                                   <span class="ni">bytes</span><span class="err">.</span>
+                        <span class="err">@</span><span class="ni">fdate</span>   <span class="err">-</span> <span class="ni">returns</span> <span class="ni">the</span> <span class="ni">last</span> <span class="ni">modified</span> <span class="ni">date</span> <span class="ni">of</span> <span class="ni">the</span>
+                                   <span class="ni">file</span><span class="err">.</span>
+                        <span class="err">@</span><span class="ni">ftime</span>   <span class="err">-</span> <span class="ni">returns</span> <span class="ni">the</span> <span class="ni">last</span> <span class="ni">modified</span> <span class="ni">time</span> <span class="ni">of</span> <span class="ni">the</span>
+                                   <span class="ni">file</span><span class="err">.</span>
+
+                        <span class="ni">To</span> <span class="ni">include</span> <span class="ni">special</span> <span class="ni">characters</span> <span class="ni">in</span> <span class="ni">the</span> <span class="ni">command</span> 
+                        <span class="ni">line</span><span class="p">,</span> <span class="ni">use</span> <span class="ni">the</span> <span class="ni">hexadecimal</span> <span class="ni">code</span> <span class="ni">for</span> <span class="ni">the</span> <span class="ni">character</span>
+                        <span class="ni">in</span> <span class="m">0</span><span class="ni">xHH</span> <span class="ni">format</span> <span class="p">(</span><span class="ni">ex</span><span class="err">.</span> <span class="mh">0x09</span> <span class="ni">for</span> <span class="ni">tab</span><span class="p">)</span><span class="err">.</span> <span class="ni">Internal</span>
+                        <span class="ni">CMD</span><span class="err">.</span><span class="ni">exe</span> <span class="ni">commands</span> <span class="ni">should</span> <span class="ni">be</span> <span class="ni">preceded</span> <span class="ni">with</span>
+                        <span class="s">"cmd /c"</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">D</span>    <span class="ni">date</span>          <span class="ni">Selects</span> <span class="ni">files</span> <span class="ni">with</span> <span class="err">a</span> <span class="ni">last</span> <span class="ni">modified</span> <span class="ni">date</span> <span class="ni">greater</span>
+                        <span class="ni">than</span> <span class="ni">or</span> <span class="ni">equal</span> <span class="ni">to</span> <span class="p">(</span><span class="err">+</span><span class="p">),</span> <span class="ni">or</span> <span class="ni">less</span> <span class="ni">than</span> <span class="ni">or</span> <span class="ni">equal</span> <span class="ni">to</span>
+                        <span class="p">(</span><span class="err">-</span><span class="p">),</span> <span class="ni">the</span> <span class="ni">specified</span> <span class="ni">date</span> <span class="ni">using</span> <span class="ni">the</span>
+                        <span class="s">"MM/dd/yyyy"</span> <span class="ni">format</span><span class="c">; or selects files with a</span>
+                        <span class="ni">last</span> <span class="ni">modified</span> <span class="ni">date</span> <span class="ni">greater</span> <span class="ni">than</span> <span class="ni">or</span> <span class="ni">equal</span> <span class="ni">to</span> <span class="p">(</span><span class="err">+</span><span class="p">)</span>
+                        <span class="ni">the</span> <span class="ni">current</span> <span class="ni">date</span> <span class="ni">plus</span> <span class="s">"dd"</span> <span class="ni">days</span><span class="p">,</span> <span class="ni">or</span> <span class="ni">less</span> <span class="ni">than</span> <span class="ni">or</span>
+                        <span class="ni">equal</span> <span class="ni">to</span> <span class="p">(</span><span class="err">-</span><span class="p">)</span> <span class="ni">the</span> <span class="ni">current</span> <span class="ni">date</span> <span class="ni">minus</span> <span class="s">"dd"</span> <span class="ni">days</span><span class="err">.</span> <span class="err">A</span>
+                        <span class="ni">valid</span> <span class="s">"dd"</span> <span class="ni">number</span> <span class="ni">of</span> <span class="ni">days</span> <span class="ni">can</span> <span class="ni">be</span> <span class="ni">any</span> <span class="ni">number</span> <span class="ni">in</span>
+                        <span class="ni">the</span> <span class="ni">range</span> <span class="ni">of</span> <span class="m">0</span> <span class="err">-</span> <span class="m">32768</span><span class="err">.</span>
+                        <span class="s">"+"</span> <span class="ni">is</span> <span class="ni">taken</span> <span class="ni">as</span> <span class="ni">default</span> <span class="ni">sign</span> <span class="ni">if</span> <span class="ni">not</span> <span class="ni">specified</span><span class="err">.</span>
+
+    <span class="p">/</span><span class="err">?</span>                  <span class="ni">Displays</span> <span class="ni">this</span> <span class="ni">help</span> <span class="ni">message</span><span class="err">.</span>
+
+<span class="ni">Examples</span><span class="err">:</span>
+    <span class="ni">FORFILES</span> <span class="p">/</span><span class="err">?</span>
+    <span class="ni">FORFILES</span>  
+    <span class="ni">FORFILES</span> <span class="p">/</span><span class="err">P</span> <span class="err">C:\</span><span class="ni">WINDOWS</span> <span class="p">/</span><span class="err">S</span> <span class="p">/</span><span class="err">M</span> <span class="ni">DNS</span><span class="err">*.*</span> 
+    <span class="ni">FORFILES</span> <span class="p">/</span><span class="err">S</span> <span class="p">/</span><span class="err">M</span> <span class="err">*.</span><span class="ni">txt</span> <span class="p">/</span><span class="err">C</span> <span class="s">"cmd /c type @file | more"</span>
+    <span class="ni">FORFILES</span> <span class="p">/</span><span class="err">P</span> <span class="err">C:\</span> <span class="p">/</span><span class="err">S</span> <span class="p">/</span><span class="err">M</span> <span class="err">*.</span><span class="ni">bat</span>
+    <span class="ni">FORFILES</span> <span class="p">/</span><span class="err">D</span> <span class="err">-</span><span class="m">30</span> <span class="p">/</span><span class="err">M</span> <span class="err">*.</span><span class="ni">exe</span>
+             <span class="p">/</span><span class="err">C</span> <span class="s">"cmd /c echo @path 0x09 was changed 30 days ago"</span>
+    <span class="ni">FORFILES</span> <span class="p">/</span><span class="err">D</span> <span class="m">01</span><span class="p">/</span><span class="m">01</span><span class="p">/</span><span class="m">2001</span>
+             <span class="p">/</span><span class="err">C</span> <span class="s">"cmd /c echo @fname is new since Jan 1st 2001"</span>
+    <span class="ni">FORFILES</span> <span class="p">/</span><span class="err">D</span> <span class="err">+</span><span class="m">11</span><span class="p">/</span><span class="m">7</span><span class="p">/</span><span class="m">2021</span> <span class="p">/</span><span class="err">C</span> <span class="s">"cmd /c echo @fname is new today"</span>
+    <span class="ni">FORFILES</span> <span class="p">/</span><span class="err">M</span> <span class="err">*.</span><span class="ni">exe</span> <span class="p">/</span><span class="err">D</span> <span class="err">+</span><span class="m">1</span>
+    <span class="ni">FORFILES</span> <span class="p">/</span><span class="err">S</span> <span class="p">/</span><span class="err">M</span> <span class="err">*.</span><span class="ni">doc</span> <span class="p">/</span><span class="err">C</span> <span class="s">"cmd /c echo @fsize"</span> 
+    <span class="ni">FORFILES</span> <span class="p">/</span><span class="err">M</span> <span class="err">*.</span><span class="ni">txt</span> <span class="p">/</span><span class="err">C</span> <span class="s">"cmd /c if @isdir==FALSE notepad.exe @file"</span>
+
+</code></pre></div></div>
+
+<h3 id="usage-stderr">Usage (stderr):</h3>
+<div class="language-cmhg highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ni">ERROR</span><span class="err">:</span> <span class="ni">Invalid</span> <span class="ni">argument</span><span class="p">/</span><span class="ni">option</span> <span class="err">-</span> <span class="err">'--</span><span class="ni">help</span><span class="err">'.</span>
+<span class="ni">Type</span> <span class="s">"FORFILES /?"</span> <span class="ni">for</span> <span class="ni">usage</span><span class="err">.</span>
+
+</code></pre></div></div>
+
+<h3 id="loaded-modules">Loaded Modules:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C:\WINDOWS\system32\forfiles.exe</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\KERNEL32.DLL</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\System32\KERNELBASE.dll</td>
+    </tr>
+    <tr>
+      <td>C:\WINDOWS\SYSTEM32\ntdll.dll</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="signature">Signature</h2>
+
+<ul>
+  <li>Status: Signature verified.</li>
+  <li>Serial: <code class="language-plaintext highlighter-rouge">33000002ED2C45E4C145CF48440000000002ED</code></li>
+  <li>Thumbprint: <code class="language-plaintext highlighter-rouge">312860D2047EB81F8F58C29FF19ECDB4C634CF6A</code></li>
+  <li>Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+  <li>Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</li>
+</ul>
+
+<h2 id="file-metadata">File Metadata</h2>
+
+<ul>
+  <li>Original Filename: forfiles.exe.mui</li>
+  <li>Product Name: Microsoft Windows Operating System</li>
+  <li>Company Name: Microsoft Corporation</li>
+  <li>File Version: 10.0.22000.1 (WinBuild.160101.0800)</li>
+  <li>Product Version: 10.0.22000.1</li>
+  <li>Language: English (United States)</li>
+  <li>Legal Copyright:  Microsoft Corporation. All rights reserved.</li>
+  <li>Machine Type: 64-bit</li>
+</ul>
+
+<h2 id="file-scan">File Scan</h2>
+
+<ul>
+  <li>VirusTotal Detections: 0/71</li>
+  <li>VirusTotal Link: https://www.virustotal.com/gui/file/12d8883320640e9bddcfc4e37fcc25a592b3e818ab717fdfd0418c6c0aaabe20/detection</li>
+</ul>
+
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">forfiles.exe</code> being misused. While <code class="language-plaintext highlighter-rouge">forfiles.exe</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/other/godmode_sigma_rule.yml">godmode_sigma_rule.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\forfiles.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/create_remote_thread/sysmon_suspicious_remote_thread.yml">sysmon_suspicious_remote_thread.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\forfiles.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_indirect_cmd.yml">win_indirect_cmd.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detect indirect command execution via Program Compatibility Assistant (pcalua.exe or forfiles.exe).</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_indirect_cmd.yml">win_indirect_cmd.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\forfiles.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_office_shell.yml">win_office_shell.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\forfiles.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_servu_process_pattern.yml">win_susp_servu_process_pattern.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\forfiles.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml">Forfiles.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Forfiles.exe</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml">Forfiles.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">forfiles /p c:\windows\system32 /m notepad.exe /c calc.exe</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml">Forfiles.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Usecase</span><span class="pi">:</span> <span class="s">Use forfiles to start a new process to evade defensive counter measures</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml">Forfiles.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">forfiles /p c:\windows\system32 /m notepad.exe /c "c:\folder\normal.dll:evil.exe"</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml">Forfiles.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Usecase</span><span class="pi">:</span> <span class="s">Use forfiles to start a new process from a binary hidden in an alternate data stream</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml">Forfiles.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\System32\forfiles.exe</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Forfiles.yml">Forfiles.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">C:\Windows\SysWOW64\forfiles.exe</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/misp_invisimole.json">misp_invisimole.json</a></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"description"</span><span class="err">:</span> <span class="s">"Various Windows utilities may be used to execute commands, possibly without invoking [cmd](https://attack.mitre.org/software/S0106). For example, [Forfiles](https://attack.mitre.org/software/S0193), the Program Compatibility Assistant (pcalua.exe), components of the Windows Subsystem for Linux (WSL), as well as other utilities may invoke the execution of programs and commands from a [Command-Line Interface](https://attack.mitre.org/techniques/T1059), Run window, or via scripts. (Citation: VectorSec ForFiles Aug 2017) (Citation: Evi1cg Forfiles Nov 2017)\n\nAdversaries may abuse these features for [Defense Evasion](https://attack.mitre.org/tactics/TA0005), specifically to perform arbitrary execution while subverting detections and/or mitigation controls (such as Group Policy) that limit/prevent the usage of [cmd](https://attack.mitre.org/software/S0106) or file extensions more commonly associated with malicious payloads."</span><span class="p">,</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
+      <td>- Atomic Test #2: Indirect Command Execution - forfiles.exe [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
+      <td>- Atomic Test #2: Indirect Command Execution - forfiles.exe [windows]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md">T1202.md</a></td>
+      <td>&lt;blockquote&gt;Adversaries may abuse utilities that allow for command execution to bypass security restrictions that limit the use of command-line interpreters. Various Windows utilities may be used to execute commands, possibly without invoking <a href="https://attack.mitre.org/software/S0106">cmd</a>. For example, <a href="https://attack.mitre.org/software/S0193">Forfiles</a>, the Program Compatibility Assistant (pcalua.exe), components of the Windows Subsystem for Linux (WSL), as well as other utilities may invoke the execution of programs and commands from a <a href="https://attack.mitre.org/techniques/T1059">Command and Scripting Interpreter</a>, Run window, or via scripts. (Citation: VectorSec ForFiles Aug 2017) (Citation: Evi1cg Forfiles Nov 2017)</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md">T1202.md</a></td>
+      <td>- <a href="#atomic-test-2---indirect-command-execution---forfilesexe">Atomic Test #2 - Indirect Command Execution - forfiles.exe</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md">T1202.md</a></td>
+      <td>## Atomic Test #2 - Indirect Command Execution - forfiles.exe</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md">T1202.md</a></td>
+      <td>forfiles.exe may invoke the execution of programs and commands from a Command-Line Interface.</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md">T1202.md</a></td>
+      <td><a href="https://github.com/api0cradle/LOLBAS/blob/master/OSBinaries/Forfiles.md">Reference</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md">T1202.md</a></td>
+      <td>forfiles /p c:\windows\system32 /m notepad.exe /c #{process}</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md">T1202.md</a></td>
+      <td>forfiles /p c:\windows\system32 /m notepad.exe /c “c:\folder\normal.dll:evil.exe”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_sofacy_xtunnel_bundestag.yar">apt_sofacy_xtunnel_bundestag.yar</a></td>
+      <td>$s3 = “forfiles”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="additional-info">Additional Info*</h2>
+
+<p><em>*The information below is copied from <a href="https://github.com/MicrosoftDocs/windowsserverdocs">MicrosoftDocs</a>, which is maintained by <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft</a>. Available under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license.</em></p>
+
+<hr />
+
+<h2 id="forfiles">forfiles</h2>
+
+<p>Selects and runs a command on a file or set of files. This command is most commonly used in batch files.</p>
+
+<h3 id="syntax">Syntax</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>forfiles [/P pathname] [/M searchmask] [/S] [/C command] [/D [+ | -] [{&lt;date&gt; | &lt;days&gt;}]]
+</code></pre></div></div>
+
+<h4 id="parameters">Parameters</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/P <code class="language-plaintext highlighter-rouge">&lt;pathname&gt;</code></td>
+      <td>Specifies the path from which to start the search. By default, searching starts in the current working directory.</td>
+    </tr>
+    <tr>
+      <td>/M <code class="language-plaintext highlighter-rouge">&lt;searchmask&gt;</code></td>
+      <td>Searches files according to the specified search mask. The default searchmask is <code class="language-plaintext highlighter-rouge">*</code>.</td>
+    </tr>
+    <tr>
+      <td>/S</td>
+      <td>Instructs the <strong>forfiles</strong> command to search in subdirectories recursively.</td>
+    </tr>
+    <tr>
+      <td>/C <code class="language-plaintext highlighter-rouge">&lt;command&gt;</code></td>
+      <td>Runs the specified command on each file. Command strings should be wrapped in double quotes. The default command is <code class="language-plaintext highlighter-rouge">"cmd /c echo @file"</code>.</td>
+    </tr>
+    <tr>
+      <td>/D <code class="language-plaintext highlighter-rouge">[{+\|-}][{&lt;date&gt; | &lt;days&gt;}]</code></td>
+      <td>Selects files with a last modified date within the specified time frame:&lt;ul&gt;&lt;li&gt;Selects files with a last modified date later than or equal to (<strong>+</strong>) or earlier than or equal to (<strong>-</strong>) the specified date, where <em>date</em> is in the format MM/DD/YYYY.&lt;/li&gt;&lt;li&gt;Selects files with a last modified date later than or equal to (<strong>+</strong>) the current date plus the number of days specified, or earlier than or equal to (<strong>-</strong>) the current date minus the number of days specified.&lt;/li&gt;&lt;li&gt;Valid values for <em>days</em> include any number in the range 0â€“32,768. If no sign is specified, <strong>+</strong> is used by default.&lt;/li&gt;&lt;/ul&gt;</td>
+    </tr>
+    <tr>
+      <td>/?</td>
+      <td>Displays the help text in the cmd window.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="remarks">Remarks</h5>
+
+<ul>
+  <li>
+    <p>The <code class="language-plaintext highlighter-rouge">forfiles /S</code> command is similar to <code class="language-plaintext highlighter-rouge">dir /S</code>.</p>
+  </li>
+  <li>
+    <p>You can use the following variables in the command string as specified by the <strong>/C</strong> command-line option:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Variable</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>@FILE</td>
+          <td>File name.</td>
+        </tr>
+        <tr>
+          <td>@FNAME</td>
+          <td>File name without extension.</td>
+        </tr>
+        <tr>
+          <td>@EXT</td>
+          <td>File name extension.</td>
+        </tr>
+        <tr>
+          <td>@PATH</td>
+          <td>Full path of the file.</td>
+        </tr>
+        <tr>
+          <td>@RELPATH</td>
+          <td>Relative path of the file.</td>
+        </tr>
+        <tr>
+          <td>@ISDIR</td>
+          <td>Evaluates to TRUE if a file type is a directory. Otherwise, this variable evaluates to FALSE.</td>
+        </tr>
+        <tr>
+          <td>@FSIZE</td>
+          <td>File size, in bytes.</td>
+        </tr>
+        <tr>
+          <td>@FDATE</td>
+          <td>Last modified date stamp on the file.</td>
+        </tr>
+        <tr>
+          <td>@FTIME</td>
+          <td>Last modified time stamp on the file.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p>The <strong>forfiles</strong> command lets you run a command on or pass arguments to multiple files. For example, you could run the <strong>type</strong> command on all files in a tree with the .txt file name extension. Or you could execute every batch file (*.bat) on drive C, with the file name Myinput.txt as the first argument.</p>
+  </li>
+  <li>
+    <p>This command can:</p>
+
+    <ul>
+      <li>
+        <p>Select files by an absolute date or a relative date by using the <strong>/d</strong> parameter.</p>
+      </li>
+      <li>
+        <p>Build an archive tree of files by using variables such as @FSIZE and @FDATE.</p>
+      </li>
+      <li>
+        <p>Differentiate files from directories by using the @ISDIR variable.</p>
+      </li>
+      <li>
+        <p>Include special characters in the command line by using the hexadecimal code for the character, in 0x<em>HH</em> format (for example, 0x09 for a tab).</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>This command works by implementing the <code class="language-plaintext highlighter-rouge">recurse subdirectories</code> flag on tools that are designed to process only a single file.</p>
+  </li>
+</ul>
+
+<h4 id="examples">Examples</h4>
+
+<p>To list all of the batch files on drive C, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>forfiles /P c:\ /S /M *.bat /C "cmd /c echo @file is a batch file"
+</code></pre></div></div>
+
+<p>To list all of the directories on drive C, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>forfiles /P c:\ /S /M * /C "cmd /c if @isdir==TRUE echo @file is a directory"
+</code></pre></div></div>
+
+<p>To list all of the files in the current directory that are at least one year old, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>forfiles /S /M *.* /D -365 /C "cmd /c echo @file is at least one year old."
+</code></pre></div></div>
+
+<p>To display the text <em>file</em> is outdated for each of the files in the current directory that are older than January 1, 2007, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>forfiles /S /M *.* /D -01/01/2007 /C "cmd /c echo @file is outdated."
+</code></pre></div></div>
+
+<p>To list the file name extensions of all the files in the current directory in column format, and add a tab before the extension, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>forfiles /S /M *.* /C "cmd /c echo The extension of @file is 0x09@ext"
+</code></pre></div></div>
+
+<h3 id="additional-references">Additional References</h3>
+
+<ul>
+  <li><a href="https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md">Command-Line Syntax Key</a></li>
+</ul>
+
+<hr />
+
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
+
+
+    </section>
+  </article>
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
+    <label class="sr-only" for="cse-search-input-box-id">
+      Enter your search term...
+    </label>
+    <input type="search" id="cse-search-input-box-id" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results">
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://strontic.com" rel="nofollow noopener noreferrer"><i class="fab fa-blogger" aria-hidden="true"></i> strontic.com</a></li>
+        
+      
+        
+          <li><a href="https://twitter.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/strontic20" rel="nofollow noopener noreferrer"><i class="fab fa-instagram-square" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/company/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://www.facebook.com/strontic" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        
+      
+        
+          <li><a href="mailto:info@strontic.com" rel="nofollow noopener noreferrer"><i class="fas fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<script>
+  (function () {
+    var cx = '31f5caf6441fb12c8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+
+  function googleCustomSearchExecute() {
+    var input = document.getElementById('cse-search-input-box-id');
+    var element = google.search.cse.element.getElement('searchresults-only0');
+    if (input.value == '') {
+      element.clearAllResults();
+    } else {
+      element.execute(input.value);
+    }
+    return false;
+  }
+
+  
+</script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-179392403-1', { 'anonymize_ip': true});
+</script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
