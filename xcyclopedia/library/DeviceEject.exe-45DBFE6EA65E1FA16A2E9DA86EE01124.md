@@ -43,6 +43,7 @@ SSDEEP | `384:mfAm+y3Vvrc92z0DOZ969eNopxWvyDyK5TYWpwWJJY0ehA/9gnl0:mAczcq0D19eg0
 File | Score
 -- | --
 [C:\WINDOWS\system32\DeviceEject.exe](DeviceEject.exe-668B64378328E7559105C81BEE39A1FA.md) | 50
+[C:\WINDOWS\system32\DeviceEject.exe](DeviceEject.exe-A33C0390E9FA46F1477B5233050ABEDE.md) | 43
 [C:\Windows\system32\DeviceEject.exe](DeviceEject.exe-ABCCD41E21586BB8A669E9B2F04CB65E.md) | 46
 [C:\Windows\system32\DeviceEject.exe](DeviceEject.exe-CC08386BEF1A9846F41D1F7381B5661E.md) | 46
 [C:\windows\system32\DeviceEject.exe](DeviceEject.exe-CFDE553A358ADA7F73A48421BD2BDBF4.md) | 49

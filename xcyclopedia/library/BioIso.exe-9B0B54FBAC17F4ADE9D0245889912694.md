@@ -44,6 +44,7 @@ File | Score
 -- | --
 [C:\Windows\system32\bcryptprimitives.dll](bcryptprimitives.dll-BE8C33CD5A83B698EEE876403CCC3929.md) | 33
 [C:\Windows\system32\BioIso.exe](BioIso.exe-665BD4984DED1F24585A2DCD6F17351A.md) | 44
+[C:\WINDOWS\system32\BioIso.exe](BioIso.exe-817924A557C7AB65DF0D424FD9111F51.md) | 32
 [C:\Windows\system32\BioIso.exe](BioIso.exe-CA90DB02AAF23C6D9E81896B63913B85.md) | 38
 [C:\Windows\system32\ci.dll](ci.dll-2D3C21DC26898B49E4FF25B9B755BB61.md) | 33
 [C:\Windows\system32\skci.dll](skci.dll-7E88E785DFD6D6A343770C1BADD19D2E.md) | 44

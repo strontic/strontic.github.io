@@ -58,6 +58,11 @@ C:\Windows\system32\RMActivate_isv.exe |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/29638e099f526f7ac9e85099bd380122a6cb4c656bc24837639b62ff11910254/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\RMActivate_isv.exe](RMActivate_isv.exe-8073528D3C738344C58797DD6493BA51.md) | 35
 
 
 

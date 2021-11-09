@@ -64,11 +64,13 @@ File | Score
 -- | --
 [C:\Windows\system32\recdisc.exe](recdisc.exe-18AFEE6824C84BF5115BADA75FF0A3E7.md) | 46
 [C:\Windows\system32\recdisc.exe](recdisc.exe-8EF7D941809838D9672680F72F060DEC.md) | 43
+[C:\WINDOWS\system32\recdisc.exe](recdisc.exe-D2D2BF7A40B2A58E8FF723C6437CDBD5.md) | 43
 [C:\WINDOWS\system32\recdisc.exe](recdisc.exe-DDE26EAF7CE76090F825775D9FC318A7.md) | 47
 [C:\Windows\system32\RelPost.exe](RelPost.exe-1291A9F82F82C0B57F312300A1B09895.md) | 49
 [C:\Windows\system32\RelPost.exe](RelPost.exe-932819A3B3ED8CF19348D7B349E7B49A.md) | 46
 [C:\WINDOWS\system32\RelPost.exe](RelPost.exe-9499F2E28D56464FCB187BAD92F8076D.md) | 54
 [C:\windows\system32\RelPost.exe](RelPost.exe-A0158E92E454D6457DA72789C9E43108.md) | 50
+[C:\WINDOWS\system32\RelPost.exe](RelPost.exe-FFB8F6B90554E147356415930CEACD95.md) | 50
 
 
 

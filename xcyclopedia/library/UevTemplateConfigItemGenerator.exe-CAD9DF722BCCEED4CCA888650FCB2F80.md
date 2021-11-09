@@ -49,6 +49,7 @@ File | Score
 [C:\Windows\system32\UevTemplateConfigItemGenerator.exe](UevTemplateConfigItemGenerator.exe-45FB133A09574504B7548E74E3A27992.md) | 90
 [C:\Windows\system32\UevTemplateConfigItemGenerator.exe](UevTemplateConfigItemGenerator.exe-57C26AF3682374941B185A50C4DBFA8A.md) | 93
 [C:\Windows\system32\UevTemplateConfigItemGenerator.exe](UevTemplateConfigItemGenerator.exe-6A804B9E53D255F4F7828E8C08A5635B.md) | 71
+[C:\WINDOWS\system32\UevTemplateConfigItemGenerator.exe](UevTemplateConfigItemGenerator.exe-BF6C2ECA0D2641FD6260146BEBD7A799.md) | 60
 
 
 

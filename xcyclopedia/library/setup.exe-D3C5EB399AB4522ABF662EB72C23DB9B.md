@@ -89,7 +89,7 @@ C:\Windows\SysWOW64\InstallShield\setup.exe |
 
 File | Score
 -- | --
-[C:\Windows\SysWOW64\InstallShield\setup.exe](setup.exe-54A14F2C14537FA57BB31F52080733F4.md) | 99
+[C:\WINDOWS\SysWOW64\InstallShield\setup.exe](setup.exe-54A14F2C14537FA57BB31F52080733F4.md) | 99
 
 ## Possible Misuse
 

@@ -101,6 +101,7 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\Windows\system32\mblctr.exe](mblctr.exe-0EC4ADC3149C9F85BF96B83C6AD174F5.md) | 63
+[C:\WINDOWS\system32\mblctr.exe](mblctr.exe-415EE6A6F6569A1F6351B7322E46B9DC.md) | 68
 [C:\WINDOWS\system32\mblctr.exe](mblctr.exe-4E49EEB5BAE4BDB35A7C3F1C853DD76D.md) | 65
 [C:\Windows\system32\mblctr.exe](mblctr.exe-BF6E710F30D7981EF0F90225D9C51001.md) | 68
 

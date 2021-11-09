@@ -44,6 +44,7 @@ File | Score
 -- | --
 [C:\Windows\system32\fhmanagew.exe](fhmanagew.exe-22604BBB1760AC54911FD2B568D39775.md) | 66
 [C:\Windows\system32\fhmanagew.exe](fhmanagew.exe-B57991DDF566C9F467945FD73BA9B38B.md) | 66
+[C:\WINDOWS\system32\fhmanagew.exe](fhmanagew.exe-E576A1D2240C9E47D44978DAF25C048D.md) | 74
 
 
 

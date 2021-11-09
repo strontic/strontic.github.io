@@ -121,6 +121,7 @@ File | Score
 -- | --
 [C:\Windows\system32\sigverif.exe](sigverif.exe-2151A535274B53BA8A728E542CBC07A8.md) | 36
 [C:\WINDOWS\system32\sigverif.exe](sigverif.exe-234A397E2F6C9EB0A395E3C46F1D1A3F.md) | 43
+[C:\WINDOWS\system32\sigverif.exe](sigverif.exe-9F93792D64E42187EA739174FFF84389.md) | 44
 [C:\Windows\system32\sigverif.exe](sigverif.exe-CDE35CFE5B9950DC07671EC79E2E9A9C.md) | 43
 [C:\windows\system32\sigverif.exe](sigverif.exe-FCB04C83D9B0810CA08A63F72B59831B.md) | 41
 

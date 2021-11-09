@@ -1172,18 +1172,18 @@ Microsoft (R) Windows (R) 10.00. 19041 ? Multiprocessor Free.
    Type:     INFORMATION 
    Computer: 37aacd8d-548a-4e5b-8f88-125853a1ecae
    Time:     9/9/2020 6:07:59 AM   ID:       6011 
-The NetBIOS name and DNS host name of this machine have been changed from DESKTOP-11ON0OT to 37AACD8D-548A-4.
+The NetBIOS name and DNS host name of this machine have been changed from default-pc to 37AACD8D-548A-4.
 
 [377] Microsoft-Windows-Dhcp-Client
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:46 PM   ID:       50037 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv4 client service is stopped. ShutDown Flag value is 1
 
 [376] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:46 PM   ID:       1 
    User:     NT AUTHORITY\LOCAL SERVICE
 Possible detection of CVE: 2020-09-06T21:26:46.6345344Z
@@ -1193,21 +1193,21 @@ This Event is raised by a User mode process.
   
 [375] Microsoft-Windows-Dhcp-Client
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:46 PM   ID:       50106 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv4 is waiting on DHCPv6 service to stop
 
 [374] Microsoft-Windows-DHCPv6-Client
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:46 PM   ID:       51047 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv6 client service is stopped. ShutDown Flag value is 1
 
 [373] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:46 PM   ID:       24 
    User:     NT AUTHORITY\LOCAL SERVICE
 Message text not available.  Insertion strings:
@@ -1215,41 +1215,41 @@ Message text not available.  Insertion strings:
 
 [372] Microsoft-Windows-Dhcp-Client
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:46 PM   ID:       50105 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv4 client ProcessDHCPRequestForever received TERMINATE_EVENT
 
 [371] Microsoft-Windows-Dhcp-Client
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:46 PM   ID:       50104 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv4 client received shutdown notification
 
 [370] EventLog
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:46 PM   ID:       6006 
 The Event log service was stopped.
 
 [369] Service Control Manager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:46 PM   ID:       7040 
    User:     NT AUTHORITY\SYSTEM
 The start type of the Windows Modules Installer service was changed from auto start to demand start.
 
 [368] Microsoft-Windows-Winlogon
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:45 PM   ID:       7002 
    User:     NT AUTHORITY\SYSTEM
 User Logoff Notification for Customer Experience Improvement Program
 
 [367] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1257,7 +1257,7 @@ Message text not available.  Insertion strings:
 
 [366] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1265,7 +1265,7 @@ Message text not available.  Insertion strings:
 
 [365] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1273,7 +1273,7 @@ Message text not available.  Insertion strings:
 
 [364] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1281,7 +1281,7 @@ Message text not available.  Insertion strings:
 
 [363] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1289,7 +1289,7 @@ Message text not available.  Insertion strings:
 
 [362] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1297,7 +1297,7 @@ Message text not available.  Insertion strings:
 
 [361] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1305,14 +1305,14 @@ Message text not available.  Insertion strings:
 
 [360] Service Control Manager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       7040 
    User:     NT AUTHORITY\SYSTEM
 The start type of the Windows Modules Installer service was changed from demand start to auto start.
 
 [359] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1320,7 +1320,7 @@ Message text not available.  Insertion strings:
 
 [358] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1328,7 +1328,7 @@ Message text not available.  Insertion strings:
 
 [357] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1336,7 +1336,7 @@ Message text not available.  Insertion strings:
 
 [356] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1344,7 +1344,7 @@ Message text not available.  Insertion strings:
 
 [355] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1352,7 +1352,7 @@ Message text not available.  Insertion strings:
 
 [354] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:44 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1360,7 +1360,7 @@ Message text not available.  Insertion strings:
 
 [353] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:43 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1368,7 +1368,7 @@ Message text not available.  Insertion strings:
 
 [352] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:43 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1376,7 +1376,7 @@ Message text not available.  Insertion strings:
 
 [351] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:43 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1384,7 +1384,7 @@ Message text not available.  Insertion strings:
 
 [350] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:43 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1392,7 +1392,7 @@ Message text not available.  Insertion strings:
 
 [349] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:43 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1400,7 +1400,7 @@ Message text not available.  Insertion strings:
 
 [348] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:43 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1408,7 +1408,7 @@ Message text not available.  Insertion strings:
 
 [347] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:43 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1416,7 +1416,7 @@ Message text not available.  Insertion strings:
 
 [346] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:43 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1424,7 +1424,7 @@ Message text not available.  Insertion strings:
 
 [345] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:43 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1432,7 +1432,7 @@ Message text not available.  Insertion strings:
 
 [344] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:43 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1440,7 +1440,7 @@ Message text not available.  Insertion strings:
 
 [343] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:43 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1448,7 +1448,7 @@ Message text not available.  Insertion strings:
 
 [342] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:43 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1456,7 +1456,7 @@ Message text not available.  Insertion strings:
 
 [341] DCOM
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:43 PM   ID:       10010 
    User:     37AACD8D-548A-4\user
 Message text not available.  Insertion strings:
@@ -1464,17 +1464,17 @@ Message text not available.  Insertion strings:
 
 [340] User32
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:42 PM   ID:       1074 
    User:     NT AUTHORITY\SYSTEM
-The process C:\Windows\System32\wcsetupagent.exe (Default-PC) has initiated the shutdown of computer DESKTOP-11ON0OT on behalf of user NT AUTHORITY\SYSTEM for the following reason: Operating System: Reconfiguration (Planned)
+The process C:\Windows\System32\wcsetupagent.exe (Default-PC) has initiated the shutdown of computer default-pc on behalf of user NT AUTHORITY\SYSTEM for the following reason: Operating System: Reconfiguration (Planned)
  Reason Code: 0x80020004
  Shutdown Type: shutdown
  Comment: ?
 
 [339] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:42 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1482,7 +1482,7 @@ Message text not available.  Insertion strings:
 
 [338] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:42 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1490,7 +1490,7 @@ Message text not available.  Insertion strings:
 
 [337] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:42 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1498,7 +1498,7 @@ Message text not available.  Insertion strings:
 
 [336] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:42 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1506,7 +1506,7 @@ Message text not available.  Insertion strings:
 
 [335] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:42 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1514,7 +1514,7 @@ Message text not available.  Insertion strings:
 
 [334] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:42 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1522,7 +1522,7 @@ Message text not available.  Insertion strings:
 
 [333] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:42 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1530,7 +1530,7 @@ Message text not available.  Insertion strings:
 
 [332] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:42 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1538,7 +1538,7 @@ Message text not available.  Insertion strings:
 
 [331] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:26:42 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1546,14 +1546,14 @@ Message text not available.  Insertion strings:
 
 [330] Microsoft-Windows-Time-Service
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:46 PM   ID:       35 
    User:     NT AUTHORITY\LOCAL SERVICE
 The time service is now synchronizing the system time with the time source VM IC Time Synchronization Provider with reference id 1347702102. Current local stratum number is 6.
 
 [329] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:42 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1561,7 +1561,7 @@ Message text not available.  Insertion strings:
 
 [328] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:41 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1569,7 +1569,7 @@ Message text not available.  Insertion strings:
 
 [327] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:41 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1577,7 +1577,7 @@ Message text not available.  Insertion strings:
 
 [326] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:40 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1585,48 +1585,48 @@ Message text not available.  Insertion strings:
 
 [325] Microsoft-Windows-GroupPolicy
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:35 PM   ID:       1501 
    User:     37AACD8D-548A-4\user
 The Group Policy settings for the user were processed successfully. There were no changes detected since the last successful processing of Group Policy.
 
 [324] Microsoft-Windows-Winlogon
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:35 PM   ID:       7001 
    User:     NT AUTHORITY\SYSTEM
 User Logon Notification for Customer Experience Improvement Program
 
 [323] Service Control Manager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:35 PM   ID:       7040 
    User:     NT AUTHORITY\NETWORK SERVICE
 The start type of the Delivery Optimization service was changed from demand start to auto start.
 
 [322] Microsoft-Windows-GroupPolicy
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:34 PM   ID:       1500 
    User:     NT AUTHORITY\SYSTEM
 The Group Policy settings for the computer were processed successfully. There were no changes detected since the last successful processing of Group Policy.
 
 [321] Service Control Manager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:34 PM   ID:       7040 
    User:     NT AUTHORITY\SYSTEM
 The start type of the Windows Modules Installer service was changed from auto start to demand start.
 
 [320] Service Control Manager
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:34 PM   ID:       7030 
 The Printer Extensions and Notifications service is marked as an interactive service.  However, the system is configured to not allow interactive services.  This service may not function properly.
 
 [319] Service Control Manager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:34 PM   ID:       7045 
    User:     NT AUTHORITY\SYSTEM
 A service was installed in the system.
@@ -1638,104 +1638,104 @@ Service Account:  LocalSystem
 
 [318] Microsoft-Windows-Time-Service
    Type:     WARNING 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:32 PM   ID:       134 
    User:     NT AUTHORITY\LOCAL SERVICE
 NtpClient was unable to set a manual peer to use as a time source because of DNS resolution error on 'time.windows.com,0x9'. NtpClient will try again in 15 minutes and double the reattempt interval thereafter. The error was: No such host is known. (0x80072AF9)
 
 [317] TermService
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:32 PM   ID:       1056 
-A new self signed certificate to be used for RD Session Host Server authentication on SSL connections was generated. The name on this certificate is DESKTOP-11ON0OT. The SHA1 hash of the certificate is in the event data.
+A new self signed certificate to be used for RD Session Host Server authentication on SSL connections was generated. The name on this certificate is default-pc. The SHA1 hash of the certificate is in the event data.
 
 [316] Service Control Manager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:31 PM   ID:       7026 
 The following boot-start or system-start driver(s) did not load: 
 dam
 
 [315] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'bindflt' (10.0, 2006-02-06T13:00:56.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [314] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'storqosflt' (10.0, 2007-04-09T11:08:30.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [313] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'CldFlt' (10.0, 2003-03-20T16:36:50.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [312] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       1 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'CldFlt' (Version 10.0, 2003-03-20T16:36:50.0000000Z) unloaded successfully.
 
 [311] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'CldFlt' (10.0, 2003-03-20T16:36:50.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [310] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'wcifs' (10.0, 1971-08-10T04:27:38.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [309] Service Control Manager
    Type:     ERROR 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       7000 
 The luafv service failed to start due to the following error: 
 %%1275
 
 [308] Microsoft-Windows-Time-Service
    Type:     WARNING 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       134 
    User:     NT AUTHORITY\LOCAL SERVICE
 NtpClient was unable to set a manual peer to use as a time source because of DNS resolution error on 'time.windows.com,0x9'. NtpClient will try again in 15 minutes and double the reattempt interval thereafter. The error was: No such host is known. (0x80072AF9)
 
 [307] Microsoft-Windows-DHCPv6-Client
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       51046 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv6 client service is started
 
 [306] Microsoft-Windows-Dhcp-Client
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       50103 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv4 client registered for shutdown notification
 
 [305] Microsoft-Windows-Dhcp-Client
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       50036 
    User:     NT AUTHORITY\LOCAL SERVICE
 DHCPv4 client service is started
 
 [304] Microsoft-Windows-Directory-Services-SAM
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:29 PM   ID:       16977 
    User:     NT AUTHORITY\SYSTEM
 The domain is configured with the following minimum password length-related settings.
@@ -1746,7 +1746,7 @@ The domain is configured with the following minimum password length-related sett
   
 [303] Microsoft-Windows-Directory-Services-SAM
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:24 PM   ID:       16977 
    User:     NT AUTHORITY\SYSTEM
 The domain is configured with the following minimum password length-related settings.
@@ -1757,7 +1757,7 @@ The domain is configured with the following minimum password length-related sett
   
 [302] Microsoft-Windows-Directory-Services-SAM
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:24 PM   ID:       16962 
    User:     NT AUTHORITY\SYSTEM
 Remote calls to the SAM database are being restricted using the default security descriptor: O:SYG:SYD:(A;;RC;;;BA).
@@ -1765,14 +1765,14 @@ For more information please see http://go.microsoft.com/fwlink/?LinkId=787651.
 
 [301] Microsoft-Windows-Wininit
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:24 PM   ID:       14 
    User:     NT AUTHORITY\SYSTEM
 Credential Guard configuration: 0, 0
 
 [300] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       24 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -1780,7 +1780,7 @@ Message text not available.  Insertion strings:
 
 [299] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 35 exposes the following power management capabilities:
@@ -1793,7 +1793,7 @@ Minimum throttle percentage: 100
 
 [298] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 34 exposes the following power management capabilities:
@@ -1806,7 +1806,7 @@ Minimum throttle percentage: 100
 
 [297] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 33 exposes the following power management capabilities:
@@ -1819,7 +1819,7 @@ Minimum throttle percentage: 100
 
 [296] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 32 exposes the following power management capabilities:
@@ -1832,7 +1832,7 @@ Minimum throttle percentage: 100
 
 [295] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 31 exposes the following power management capabilities:
@@ -1845,7 +1845,7 @@ Minimum throttle percentage: 100
 
 [294] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 30 exposes the following power management capabilities:
@@ -1858,7 +1858,7 @@ Minimum throttle percentage: 100
 
 [293] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 29 exposes the following power management capabilities:
@@ -1871,7 +1871,7 @@ Minimum throttle percentage: 100
 
 [292] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 28 exposes the following power management capabilities:
@@ -1884,7 +1884,7 @@ Minimum throttle percentage: 100
 
 [291] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 27 exposes the following power management capabilities:
@@ -1897,7 +1897,7 @@ Minimum throttle percentage: 100
 
 [290] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 26 exposes the following power management capabilities:
@@ -1910,7 +1910,7 @@ Minimum throttle percentage: 100
 
 [289] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 25 exposes the following power management capabilities:
@@ -1923,7 +1923,7 @@ Minimum throttle percentage: 100
 
 [288] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 24 exposes the following power management capabilities:
@@ -1936,7 +1936,7 @@ Minimum throttle percentage: 100
 
 [287] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 23 exposes the following power management capabilities:
@@ -1949,7 +1949,7 @@ Minimum throttle percentage: 100
 
 [286] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 22 exposes the following power management capabilities:
@@ -1962,7 +1962,7 @@ Minimum throttle percentage: 100
 
 [285] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 21 exposes the following power management capabilities:
@@ -1975,7 +1975,7 @@ Minimum throttle percentage: 100
 
 [284] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 20 exposes the following power management capabilities:
@@ -1988,7 +1988,7 @@ Minimum throttle percentage: 100
 
 [283] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 19 exposes the following power management capabilities:
@@ -2001,7 +2001,7 @@ Minimum throttle percentage: 100
 
 [282] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 18 exposes the following power management capabilities:
@@ -2014,7 +2014,7 @@ Minimum throttle percentage: 100
 
 [281] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 17 exposes the following power management capabilities:
@@ -2027,7 +2027,7 @@ Minimum throttle percentage: 100
 
 [280] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 16 exposes the following power management capabilities:
@@ -2040,7 +2040,7 @@ Minimum throttle percentage: 100
 
 [279] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 15 exposes the following power management capabilities:
@@ -2053,7 +2053,7 @@ Minimum throttle percentage: 100
 
 [278] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 14 exposes the following power management capabilities:
@@ -2066,7 +2066,7 @@ Minimum throttle percentage: 100
 
 [277] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 13 exposes the following power management capabilities:
@@ -2079,7 +2079,7 @@ Minimum throttle percentage: 100
 
 [276] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 12 exposes the following power management capabilities:
@@ -2092,7 +2092,7 @@ Minimum throttle percentage: 100
 
 [275] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 11 exposes the following power management capabilities:
@@ -2105,7 +2105,7 @@ Minimum throttle percentage: 100
 
 [274] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 10 exposes the following power management capabilities:
@@ -2118,7 +2118,7 @@ Minimum throttle percentage: 100
 
 [273] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 9 exposes the following power management capabilities:
@@ -2131,7 +2131,7 @@ Minimum throttle percentage: 100
 
 [272] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 8 exposes the following power management capabilities:
@@ -2144,7 +2144,7 @@ Minimum throttle percentage: 100
 
 [271] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 7 exposes the following power management capabilities:
@@ -2157,7 +2157,7 @@ Minimum throttle percentage: 100
 
 [270] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 6 exposes the following power management capabilities:
@@ -2170,7 +2170,7 @@ Minimum throttle percentage: 100
 
 [269] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 5 exposes the following power management capabilities:
@@ -2183,7 +2183,7 @@ Minimum throttle percentage: 100
 
 [268] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 4 exposes the following power management capabilities:
@@ -2196,7 +2196,7 @@ Minimum throttle percentage: 100
 
 [267] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 3 exposes the following power management capabilities:
@@ -2209,7 +2209,7 @@ Minimum throttle percentage: 100
 
 [266] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 2 exposes the following power management capabilities:
@@ -2222,7 +2222,7 @@ Minimum throttle percentage: 100
 
 [265] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 1 exposes the following power management capabilities:
@@ -2235,7 +2235,7 @@ Minimum throttle percentage: 100
 
 [264] Microsoft-Windows-Kernel-Processor-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:23 PM   ID:       55 
    User:     NT AUTHORITY\SYSTEM
 Hyper-V logical processor 0 exposes the following power management capabilities:
@@ -2248,7 +2248,7 @@ Minimum throttle percentage: 100
 
 [263] Microsoft-Windows-Kernel-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       172 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2256,21 +2256,21 @@ Message text not available.  Insertion strings:
 
 [262] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'npsvctrig' (10.0, 2025-01-05T19:41:12.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [261] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'FileCrypt' (10.0, 2002-03-01T04:12:42.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [260] Microsoft-Windows-Ntfs
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       98 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2278,35 +2278,35 @@ Message text not available.  Insertion strings:
 
 [259] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'WdFilter' (10.0, 2066-04-08T21:52:09.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [258] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'Wof' (10.0, 2050-10-18T06:21:08.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [257] Microsoft-Windows-FilterManager
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       6 
    User:     NT AUTHORITY\SYSTEM
 File System Filter 'FileInfo' (10.0, 2062-12-22T22:21:06.0000000Z) has successfully loaded and registered with Filter Manager.
 
 [256] Microsoft-Windows-HAL
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       16 
    User:     NT AUTHORITY\SYSTEM
 The iommu fault reporting has been initialized.
 
 [255] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       20 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2314,7 +2314,7 @@ Message text not available.  Insertion strings:
 
 [254] Microsoft-Windows-Kernel-Boot
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       32 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2322,7 +2322,7 @@ Message text not available.  Insertion strings:
 
 [253] Microsoft-Windows-Kernel-Boot
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       18 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2330,7 +2330,7 @@ Message text not available.  Insertion strings:
 
 [252] Microsoft-Windows-Kernel-Boot
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       27 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2338,7 +2338,7 @@ Message text not available.  Insertion strings:
 
 [251] Microsoft-Windows-Kernel-Boot
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       25 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2346,7 +2346,7 @@ Message text not available.  Insertion strings:
 
 [250] Microsoft-Windows-Kernel-Boot
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       238 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2354,7 +2354,7 @@ Message text not available.  Insertion strings:
 
 [249] Microsoft-Windows-Kernel-Boot
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       20 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2362,7 +2362,7 @@ Message text not available.  Insertion strings:
 
 [248] Microsoft-Windows-Kernel-Boot
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       153 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2370,7 +2370,7 @@ Message text not available.  Insertion strings:
 
 [247] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:22 PM   ID:       12 
    User:     NT AUTHORITY\SYSTEM
 Message text not available.  Insertion strings:
@@ -2378,41 +2378,41 @@ Message text not available.  Insertion strings:
 
 [246] Microsoft-Windows-Kernel-General
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:05 PM   ID:       13 
 Message text not available.  Insertion strings:
 	2020-09-06T21:25:05.8666705Z  
 
 [245] Microsoft-Windows-Kernel-Power
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:05 PM   ID:       109 
 Message text not available.  Insertion strings:
 	5 0 5  
 
 [244] EventLog
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       6013 
 The system uptime is 9 seconds.
 
 [243] EventLog
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       6005 
 The Event log service was started.
 
 [242] EventLog
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       6009 
 Microsoft (R) Windows (R) 10.00. 19041 ? Multiprocessor Free.
 
 [241] EventLog
    Type:     INFORMATION 
-   Computer: DESKTOP-11ON0OT
+   Computer: default-pc
    Time:     9/6/2020 5:25:30 PM   ID:       6011 
-The NetBIOS name and DNS host name of this machine have been changed from Default-PC to DESKTOP-11ON0OT.
+The NetBIOS name and DNS host name of this machine have been changed from Default-PC to default-pc.
 
 [240] Microsoft-Windows-Dhcp-Client
    Type:     INFORMATION 

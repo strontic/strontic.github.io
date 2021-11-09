@@ -73,6 +73,7 @@ C:\Windows\System32\win32u.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\HelpPane.exe](HelpPane.exe-4C082991729EC909E361DE7864E25D21.md) | 41
 [C:\WINDOWS\HelpPane.exe](HelpPane.exe-67094590E3D57130C587CD6D8AFB6597.md) | 63
 [C:\windows\HelpPane.exe](HelpPane.exe-95DBA7370490F85BD8A48B913A3D8541.md) | 63
 [C:\Windows\HelpPane.exe](HelpPane.exe-9A6D44491772E8AA3EBDDC63C1CEF991.md) | 57

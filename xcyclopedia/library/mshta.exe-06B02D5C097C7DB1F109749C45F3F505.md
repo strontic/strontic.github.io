@@ -64,6 +64,7 @@ C:\Windows\SysWOW64\mshta.exe |
 File | Score
 -- | --
 [C:\windows\SysWOW64\mshta.exe](mshta.exe-3FA76B67F25D84B3C2A4E8A8C0919E6E.md) | 35
+[C:\WINDOWS\SysWOW64\mshta.exe](mshta.exe-7909FE33D4982656286C501DF1375EA0.md) | 41
 
 ## Possible Misuse
 

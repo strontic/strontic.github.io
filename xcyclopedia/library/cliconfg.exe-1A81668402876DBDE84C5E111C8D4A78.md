@@ -48,8 +48,10 @@ File | Score
 -- | --
 [C:\WINDOWS\system32\cliconfg.exe](cliconfg.exe-23270B94D888BC3AC565E97C8DD6F4BB.md) | 55
 [C:\Windows\system32\cliconfg.exe](cliconfg.exe-2F01F4A027E09027DBD2651FF3359DF9.md) | 57
+[C:\WINDOWS\system32\cliconfg.exe](cliconfg.exe-7C009C4F186A7AB8D9958E4D1E61528D.md) | 55
 [C:\Windows\system32\cliconfg.exe](cliconfg.exe-E06C0D21FFE629D45E3F0067B86D2CEA.md) | 61
 [C:\Windows\system32\cliconfg.exe](cliconfg.exe-FF9932C30F72B19E57D9B07F230487E7.md) | 60
+[C:\WINDOWS\SysWOW64\cliconfg.exe](cliconfg.exe-36E2CB28B685271CBCE42DB1B802B671.md) | 61
 [C:\WINDOWS\SysWOW64\cliconfg.exe](cliconfg.exe-588677B78E8431F7822DB276E75D4DD7.md) | 63
 [C:\Windows\SysWOW64\cliconfg.exe](cliconfg.exe-5924FC77AC5B646CCF8CEF54DBED2D69.md) | 66
 [C:\Windows\SysWOW64\cliconfg.exe](cliconfg.exe-5EE49921CB7AEA9FDF2938F99DB69FFA.md) | 68

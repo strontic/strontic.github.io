@@ -100,12 +100,14 @@ File | Score
 [C:\Windows\system32\DevicePairingWizard.exe](DevicePairingWizard.exe-D1D2077CFFDFA3AA3D8B0D165E0D4056.md) | 38
 [C:\Windows\system32\hdwwiz.exe](hdwwiz.exe-03D43D90394DCF6D10F0AA4C4D2F8605.md) | 50
 [C:\Windows\system32\hdwwiz.exe](hdwwiz.exe-1127C71A9213CB60B3F8CF26DF9F2988.md) | 49
+[C:\WINDOWS\system32\hdwwiz.exe](hdwwiz.exe-6F06938232D6BC76FFA3F6D1D34BA2CC.md) | 50
 [C:\WINDOWS\system32\hdwwiz.exe](hdwwiz.exe-B43E4960582BAAB50CC42141EA782F35.md) | 50
 [C:\Windows\system32\hdwwiz.exe](hdwwiz.exe-F56E9258DA93E144BF62C4E0BADB349A.md) | 43
 [C:\Windows\SysWOW64\DevicePairingWizard.exe](DevicePairingWizard.exe-2A4C038870FD0083037A7B07FEAAEDE5.md) | 33
 [C:\WINDOWS\SysWOW64\DevicePairingWizard.exe](DevicePairingWizard.exe-C1C61B9A1EBE38489E6873CB60B67266.md) | 57
 [C:\Windows\SysWOW64\DevicePairingWizard.exe](DevicePairingWizard.exe-E051296DB680CC2F1F7AD1547394073A.md) | 47
 [C:\Windows\SysWOW64\hdwwiz.exe](hdwwiz.exe-35F1D1DBCEDE7F2385BE75D5CCF75F71.md) | 49
+[C:\WINDOWS\SysWOW64\hdwwiz.exe](hdwwiz.exe-627E742B0846441122B07B602ACDF6D6.md) | 49
 [C:\WINDOWS\SysWOW64\hdwwiz.exe](hdwwiz.exe-A83F19002C3BB7565CEA38EEB39BCBC7.md) | 49
 [C:\Windows\SysWOW64\hdwwiz.exe](hdwwiz.exe-AAB85DCBD157E87F02D6CA30E31A5CB4.md) | 50
 [C:\Windows\SysWOW64\hdwwiz.exe](hdwwiz.exe-AD95D55FFCEA88F38021920924E4C971.md) | 49

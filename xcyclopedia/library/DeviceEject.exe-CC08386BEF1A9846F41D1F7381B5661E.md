@@ -52,6 +52,7 @@ File | Score
 -- | --
 [C:\Windows\system32\DeviceEject.exe](DeviceEject.exe-45DBFE6EA65E1FA16A2E9DA86EE01124.md) | 46
 [C:\WINDOWS\system32\DeviceEject.exe](DeviceEject.exe-668B64378328E7559105C81BEE39A1FA.md) | 40
+[C:\WINDOWS\system32\DeviceEject.exe](DeviceEject.exe-A33C0390E9FA46F1477B5233050ABEDE.md) | 50
 [C:\Windows\system32\DeviceEject.exe](DeviceEject.exe-ABCCD41E21586BB8A669E9B2F04CB65E.md) | 43
 [C:\windows\system32\DeviceEject.exe](DeviceEject.exe-CFDE553A358ADA7F73A48421BD2BDBF4.md) | 44
 

@@ -91,10 +91,12 @@ C:\Windows\SysWOW64\eudcedit.exe |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\eudcedit.exe](eudcedit.exe-16D7B37DEB74B65E8BABE1FF84DD99B0.md) | 32
 [C:\Windows\system32\eudcedit.exe](eudcedit.exe-408DC5DB105FFCE3B70B09AF77E12AEC.md) | 30
 [C:\Windows\system32\eudcedit.exe](eudcedit.exe-A9DE6557179D371938FBE52511B551CE.md) | 38
 [C:\WINDOWS\system32\eudcedit.exe](eudcedit.exe-AAEC4A29B995CA1079E84C7862C1A239.md) | 32
 [C:\Windows\system32\eudcedit.exe](eudcedit.exe-BE25BBC85EB503BF8128ADAD7D971A61.md) | 30
+[C:\WINDOWS\SysWOW64\eudcedit.exe](eudcedit.exe-712BA3000712F72680AD2AE845DA0F6B.md) | 25
 [C:\Windows\SysWOW64\eudcedit.exe](eudcedit.exe-D3AEA350CE4203ACC780D2FD85E19CAE.md) | 30
 [C:\WINDOWS\SysWOW64\eudcedit.exe](eudcedit.exe-E838E1BBF3FFC2B40CABA383624422E4.md) | 33
 [C:\Windows\SysWOW64\eudcedit.exe](eudcedit.exe-EA7665A5FFB3B16DE571F6386BD76851.md) | 33

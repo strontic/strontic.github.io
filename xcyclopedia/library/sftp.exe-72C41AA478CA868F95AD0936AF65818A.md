@@ -83,6 +83,11 @@ C:\Windows\system32\OpenSSH\sftp.exe |
 * VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/a354eb6416ab635ab8059fe07fb87488793eee30fab09429e00974dbf38f90c1/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\OpenSSH\sftp.exe](sftp.exe-9192C66BA3B23AE67325D320D585BCE3.md) | 97
 
 
 

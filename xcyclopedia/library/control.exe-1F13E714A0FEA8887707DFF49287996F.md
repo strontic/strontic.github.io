@@ -64,6 +64,7 @@ C:\Windows\SysWOW64\control.exe |
 File | Score
 -- | --
 [C:\Windows\system32\control.exe](control.exe-3011923664DA91ED45B0FA6AE852DD1A.md) | 66
+[C:\WINDOWS\system32\control.exe](control.exe-44A936B4839A614723811EA66423B432.md) | 85
 [C:\windows\system32\control.exe](control.exe-4B605DF70C49B6B9D65652879ACAEE32.md) | 85
 [C:\WINDOWS\system32\control.exe](control.exe-62D970D8B60F75C12D21C740F2D8A5DA.md) | 86
 [C:\Windows\system32\control.exe](control.exe-88EA810385F455C74306D71C4879C61C.md) | 85
@@ -73,6 +74,7 @@ File | Score
 [C:\Windows\SysWOW64\control.exe](control.exe-4DBD69D4C9DA5AAAC731F518EF8EBEA0.md) | 63
 [C:\WINDOWS\SysWOW64\control.exe](control.exe-C7C91F18B0F90ABE6C09D3CEAA895E83.md) | 85
 [C:\Windows\SysWOW64\control.exe](control.exe-C8FA632CEF3B25E6AAD2C3ACFCF98E59.md) | 86
+[C:\WINDOWS\SysWOW64\control.exe](control.exe-DB53126BF65990E37E3A3B12D3DEDBCE.md) | 88
 [C:\windows\SysWOW64\control.exe](control.exe-F74B09C54E47526BB0679F8F0967AD0E.md) | 86
 
 ## Possible Misuse

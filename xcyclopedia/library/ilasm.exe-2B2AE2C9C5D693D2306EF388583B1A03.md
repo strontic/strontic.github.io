@@ -130,6 +130,11 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/2bd4200161fc147790022f47f90a2e08a2e058bb8269d7d4035d5d46deffce6a/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\ilasm.exe](ilasm.exe-9FBD826E2AC6D3E03F5A39930B7100D7.md) | 86
 
 ## Possible Misuse
 

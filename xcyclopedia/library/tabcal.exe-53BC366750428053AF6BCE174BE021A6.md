@@ -47,11 +47,13 @@ SSDEEP | `1536:AI+3D4Up0l6b0CmChvsMQ+rHOekYoG1dfW2jbJK:AI+3EUp0l6wC93ruzYB1dfZbs
 File | Score
 -- | --
 [C:\Windows\system32\MultiDigiMon.exe](MultiDigiMon.exe-22E44F19E1150076CC57D13EA2AD1299.md) | 38
+[C:\WINDOWS\system32\MultiDigiMon.exe](MultiDigiMon.exe-56DF403385A132A536B2192D09DEBFCD.md) | 30
 [C:\windows\system32\MultiDigiMon.exe](MultiDigiMon.exe-ADCAA1A801398178EBFE38447D5A24E0.md) | 36
 [C:\WINDOWS\system32\MultiDigiMon.exe](MultiDigiMon.exe-C20A8C29A5A64854E01771BE46056B41.md) | 38
 [C:\Windows\system32\MultiDigiMon.exe](MultiDigiMon.exe-D4528F060A28F12A6BEB746785D77193.md) | 43
 [C:\Windows\system32\MultiDigiMon.exe](MultiDigiMon.exe-DF6AA1B1C7732809E42EC4B28738B813.md) | 46
 [C:\Windows\system32\tabcal.exe](tabcal.exe-0F1D05D267CB743E0C1FCB7C9BE3920A.md) | 38
+[C:\WINDOWS\system32\tabcal.exe](tabcal.exe-3F704AC828A45FC06CE144FB1754F672.md) | 33
 [C:\Windows\system32\tabcal.exe](tabcal.exe-40F4014416FF0CBF92A9509F67A69754.md) | 35
 [C:\WINDOWS\system32\tabcal.exe](tabcal.exe-C6D89BAA07C0779C2F21B1072FAD2C02.md) | 36
 [C:\Windows\system32\tabcal.exe](tabcal.exe-E32FFD826EFE0B0620244A64362CC275.md) | 38

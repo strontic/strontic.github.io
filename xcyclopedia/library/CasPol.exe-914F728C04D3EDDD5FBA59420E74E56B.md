@@ -116,6 +116,8 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\CasPol.exe](CasPol.exe-2E04D855450CC4F84FA7094665DD9B08.md) | 80
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\CasPol.exe](CasPol.exe-406D13CE1CCCB72C7DC01A883A0E8CCF.md) | 72
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\CasPol.exe](CasPol.exe-C91C5994E9C0F1690C296B57DFCD2EDF.md) | 77
 
 

@@ -47,6 +47,7 @@ msra.exe
 
 File | Score
 -- | --
+[C:\WINDOWS\SysWOW64\msra.exe](msra.exe-9D5DCC7963F937BA42962C35BA3E4463.md) | 91
 [C:\Windows\SysWOW64\msra.exe](msra.exe-C672D655B862EB54B57B678D506F58E4.md) | 88
 [C:\Windows\SysWOW64\msra.exe](msra.exe-DAE6D5681EAFB97B23DC1C4E08A848C6.md) | 88
 

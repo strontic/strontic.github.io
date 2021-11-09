@@ -90,6 +90,7 @@ C:\Windows\SysWOW64\cleanmgr.exe |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\cleanmgr.exe](cleanmgr.exe-0175A2F1BE0AC718308443C56CD460B3.md) | 72
 [C:\Windows\system32\cleanmgr.exe](cleanmgr.exe-B6A5162D28FDCB87869A2ED87F46C8A6.md) | 71
 [C:\Windows\system32\cleanmgr.exe](cleanmgr.exe-CD0D99EBE88D11F55136EAE39CCF8F6E.md) | 68
 [C:\Windows\system32\cleanmgr.exe](cleanmgr.exe-D17E532DB343357FC9EBF5E559820BD4.md) | 71
@@ -97,6 +98,7 @@ File | Score
 [C:\Windows\SysWOW64\cleanmgr.exe](cleanmgr.exe-3DF1CA27764BE371A667B72A664B4C65.md) | 66
 [C:\Windows\SysWOW64\cleanmgr.exe](cleanmgr.exe-485C3639234C59ED6BF09F73704B110E.md) | 74
 [C:\Windows\SysWOW64\cleanmgr.exe](cleanmgr.exe-5AB8F80E61D780F31585E612B83FFFAD.md) | 65
+[C:\WINDOWS\SysWOW64\cleanmgr.exe](cleanmgr.exe-9855C03A532F925141FCC891C5513D43.md) | 63
 
 ## Possible Misuse
 

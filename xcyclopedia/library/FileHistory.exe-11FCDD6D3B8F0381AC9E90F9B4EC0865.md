@@ -122,6 +122,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 File | Score
 -- | --
 [C:\WINDOWS\system32\FileHistory.exe](FileHistory.exe-154C634AC5FCC1AC49FC189D1308FF26.md) | 77
+[C:\WINDOWS\system32\FileHistory.exe](FileHistory.exe-3129670515262343340A94EB94192C25.md) | 72
 [C:\Windows\system32\FileHistory.exe](FileHistory.exe-EEBA3DD643CED2781EC1B7E3CD6FA246.md) | 83
 
 ## Possible Misuse

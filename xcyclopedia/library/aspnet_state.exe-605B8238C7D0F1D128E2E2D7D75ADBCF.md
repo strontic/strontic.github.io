@@ -69,6 +69,11 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/1c40ab0928e25ea20065147023b3984e88c959e7b93725fed3b7044f03565319/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\aspnet_state.exe](aspnet_state.exe-9B4DD91F6C3B5D4F1226C62C58270D2C.md) | 79
 
 
 

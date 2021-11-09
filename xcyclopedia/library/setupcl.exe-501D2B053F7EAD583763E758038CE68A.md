@@ -46,6 +46,11 @@ PE256 | `A578E1CB815F3B7FF1F1E1BC59A4220899FFF6B3A60FCCCC4793765108460DEF`
 * VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/913c6ecfeb0e6b7347682c7ca9e7bf5cf5d875bb52e7a4332d305b10c5f16db1/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\setupcl.exe](setupcl.exe-7DFCA3567F4F6C52E31B1A60D4C39CFE.md) | 43
 
 
 

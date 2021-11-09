@@ -109,6 +109,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\InfDefaultInstall.exe](InfDefaultInstall.exe-68D873F4D2C51EA4D0C02E77D7A5159C.md) | 33
 [C:\Windows\system32\InfDefaultInstall.exe](InfDefaultInstall.exe-6E4ACBE95965D394FE042E1C0B5D7206.md) | 29
 [C:\WINDOWS\system32\InfDefaultInstall.exe](InfDefaultInstall.exe-8A91DEC7CD83D38314AD072EE568D1CB.md) | 27
 [C:\Windows\system32\InfDefaultInstall.exe](InfDefaultInstall.exe-A18B52BBC5C39DAD58703CF92ACAA37C.md) | 33

@@ -42,6 +42,7 @@ SSDEEP | `768:FzpSzHgMsnY6gzbKGpfUrh6WeENiJDBPrxZt4ynaA:FigMZiGMeWSDBPrxZayna`
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\Netplwiz.exe](Netplwiz.exe-02EACF7BA4A0C7F34623108BC5524C80.md) | 47
 [C:\Windows\system32\Netplwiz.exe](Netplwiz.exe-520A7B7065DCB406D7ECA847B81FD4EC.md) | 49
 [C:\Windows\system32\Netplwiz.exe](Netplwiz.exe-75DCFA9FCA3B674DB727C88FE734144B.md) | 57
 [C:\windows\system32\Netplwiz.exe](Netplwiz.exe-78CE8CDC02FFBA84FE890D48B10A7E49.md) | 58
@@ -51,6 +52,7 @@ File | Score
 [C:\Windows\SysWOW64\Netplwiz.exe](Netplwiz.exe-2CCA5ECF833419FFD7140A4E189C1FC9.md) | 57
 [C:\WINDOWS\SysWOW64\Netplwiz.exe](Netplwiz.exe-5C356B86E15FB91B62AB373580CAA4FE.md) | 60
 [C:\windows\SysWOW64\Netplwiz.exe](Netplwiz.exe-B58F08DF50F5553E249500CD325CAD7D.md) | 58
+[C:\WINDOWS\SysWOW64\Netplwiz.exe](Netplwiz.exe-ED3311FF576F0B9309E79CE9C50985E8.md) | 57
 
 
 

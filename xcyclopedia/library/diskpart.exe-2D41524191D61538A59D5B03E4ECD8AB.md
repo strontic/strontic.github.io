@@ -30,7 +30,7 @@ PE256 | `AC827282C81E12C3FED49F34F53E5759A440B7A49F001377854122F5E2B49CED`
 Microsoft DiskPart version 10.0.19041.964
 
 Copyright (C) Microsoft Corporation.
-On computer: E607C267-5976-4
+On computer: default-pc
 
 Microsoft DiskPart syntax:
 	diskpart [/s <script>] [/?]

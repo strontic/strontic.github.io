@@ -73,10 +73,12 @@ C:\Windows\System32\win32u.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\calc.exe](calc.exe-CAA5DA86744BF7FF31E445ADAC00DA1C.md) | 41
 [C:\WINDOWS\system32\calc.exe](calc.exe-F88CC05134C555D4E1CD1DEF78162A9A.md) | 38
 [C:\WINDOWS\SysWOW64\calc.exe](calc.exe-0F47684C213A9A4E77E9CB5CD3A1C70D.md) | 41
 [C:\Windows\SysWOW64\calc.exe](calc.exe-60FF7F830695B46E4E978968D9A995FE.md) | 38
 [C:\Windows\SysWOW64\calc.exe](calc.exe-961E093BE1F666FD38602AD90A5F480F.md) | 46
+[C:\WINDOWS\SysWOW64\calc.exe](calc.exe-B96A10D57B142F06904B1531A478998B.md) | 41
 
 ## Possible Misuse
 

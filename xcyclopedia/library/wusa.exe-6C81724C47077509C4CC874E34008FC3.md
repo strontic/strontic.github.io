@@ -93,6 +93,7 @@ C:\Windows\SysWOW64\wusa.exe |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\wusa.exe](wusa.exe-297CE1CB7C6CE8EF6F5655EC78E4C667.md) | 38
 [C:\Windows\system32\wusa.exe](wusa.exe-59701FE9C8BA85BCEB73A9B1B3E8E1C4.md) | 46
 [C:\WINDOWS\system32\wusa.exe](wusa.exe-7E8AE39BE13B6F0A7CAD480B7148123F.md) | 46
 [C:\windows\system32\wusa.exe](wusa.exe-8930570F7F76840334962EFC6C173438.md) | 38
@@ -101,6 +102,7 @@ File | Score
 [C:\Windows\system32\wusa.exe](wusa.exe-E7A1BF42A43A9031533768B393D5673A.md) | 40
 [C:\Windows\SysWOW64\wusa.exe](wusa.exe-18DE1F2C1BC5B1AFE3A66DD973C69411.md) | 50
 [C:\Windows\SysWOW64\wusa.exe](wusa.exe-6B5F21E4B1FA9B4BF6AD402A9EA52887.md) | 57
+[C:\WINDOWS\SysWOW64\wusa.exe](wusa.exe-79499499551D1B2AE037EC1B339C7C36.md) | 38
 [C:\Windows\SysWOW64\wusa.exe](wusa.exe-A60D32269A6A6E7BFDC50E22A70B8F54.md) | 55
 [C:\WINDOWS\SysWOW64\wusa.exe](wusa.exe-C46BE74BD433DD95952142967E3F1F9A.md) | 54
 [C:\windows\SysWOW64\wusa.exe](wusa.exe-F3EF56F76D69361022B47EF1E6201644.md) | 50

@@ -77,6 +77,7 @@ C:\Windows\System32\win32u.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\easinvoker.exe](easinvoker.exe-063FAEF9D9673C617502727B7BCDA8BE.md) | 44
 [C:\Windows\system32\easinvoker.exe](easinvoker.exe-BEBA5F5A62E1E3A01F1ADB028192E475.md) | 47
 [C:\WINDOWS\system32\easinvoker.exe](easinvoker.exe-F47E2120BD53F5802269247171FF293E.md) | 50
 

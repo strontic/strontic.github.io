@@ -212,6 +212,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/038f55a19b3eb3b4b5c6433b96f2e0bc1bda40b071820f16ac3b5c74c56e308d/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe](aspnet_regiis.exe-D44232C1A1300F973333BF1874B84F65.md) | 65
 
 
 

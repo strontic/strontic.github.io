@@ -44,6 +44,7 @@ File | Score
 -- | --
 [C:\Windows\system32\Locator.exe](Locator.exe-A0DD6042F7734F61D55D6A62D60FE498.md) | 66
 [C:\Windows\system32\Locator.exe](Locator.exe-D45676C47616B9ABBFAEC97DD3B240A8.md) | 43
+[C:\WINDOWS\system32\Locator.exe](Locator.exe-ED6AED6107F0D15135C24B6364BA13A6.md) | 43
 
 ## Possible Misuse
 

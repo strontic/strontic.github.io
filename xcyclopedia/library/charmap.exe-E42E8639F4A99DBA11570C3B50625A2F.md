@@ -48,8 +48,10 @@ File | Score
 -- | --
 [C:\Windows\system32\charmap.exe](charmap.exe-56007E9A525980A3F904798CF2A65DF6.md) | 57
 [C:\WINDOWS\system32\charmap.exe](charmap.exe-763D2F95751F734633EA53F15ADE3893.md) | 57
+[C:\WINDOWS\system32\charmap.exe](charmap.exe-7EC9632E683CE09924E14E79E4E10E7B.md) | 50
 [C:\Windows\system32\charmap.exe](charmap.exe-9FE7E5B2973E876A0A48A2B3C3104AEB.md) | 57
 [C:\Windows\system32\charmap.exe](charmap.exe-AD1FC94B3D6E12283B0E1AF32F53005D.md) | 52
+[C:\WINDOWS\SysWOW64\charmap.exe](charmap.exe-2FBC08764E129F0DBF900C820F998349.md) | 55
 [C:\Windows\SysWOW64\charmap.exe](charmap.exe-436AB8366C52C59543BEB03F4599C01B.md) | 57
 [C:\WINDOWS\SysWOW64\charmap.exe](charmap.exe-9F65E094BBB947E7AC3BB4ABB2749156.md) | 52
 [C:\Windows\SysWOW64\charmap.exe](charmap.exe-B21D8C4FBAF5C9324EA279F4EE38D733.md) | 55

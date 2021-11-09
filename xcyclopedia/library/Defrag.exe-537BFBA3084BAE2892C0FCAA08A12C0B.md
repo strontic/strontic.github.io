@@ -43,6 +43,7 @@ SSDEEP | `3072:Iw3qMDpKdhTivZeCCwpVb4C6c5Q3eSjlR+8qxLijgJyfFOG83Yj34YFnw6OC2c9+:
 File | Score
 -- | --
 [C:\WINDOWS\system32\Defrag.exe](Defrag.exe-15EFD404D3065B560876BBE567CE981A.md) | 75
+[C:\WINDOWS\system32\Defrag.exe](Defrag.exe-4DC461ACA28988B93236664F7E2CA393.md) | 61
 [C:\Windows\system32\Defrag.exe](Defrag.exe-BCBD8C0BFD620A4761C8ACDF96D9CDAE.md) | 71
 [C:\Windows\system32\Defrag.exe](Defrag.exe-D340F5AE00E1C33F8BDC538D9888C459.md) | 71
 [C:\Windows\system32\Defrag.exe](Defrag.exe-E2601E315E9A9837279A23963F5819B0.md) | 75

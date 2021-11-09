@@ -119,6 +119,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 File | Score
 -- | --
 [C:\WINDOWS\regedit.exe](regedit.exe-29409008DF22243BB320333F9FD5C060.md) | 77
+[C:\WINDOWS\regedit.exe](regedit.exe-6C33B7C73246C26B6EE51D635CF74BA1.md) | 71
 [C:\Windows\regedit.exe](regedit.exe-999A30979F6195BF562068639FFC4426.md) | 79
 [C:\Windows\regedit.exe](regedit.exe-A3668018735B59050AD123A5A8CDC184.md) | 74
 [C:\Windows\regedit.exe](regedit.exe-BF5D30514FEA913E25CCC9E546257088.md) | 71
@@ -126,6 +127,7 @@ File | Score
 [C:\Windows\SysWOW64\regedit.exe](regedit.exe-08D8384279EB3E25242B270860193E1C.md) | 100
 [C:\Windows\SysWOW64\regedit.exe](regedit.exe-092D4E7FA32499F18B879080AA994C46.md) | 74
 [C:\Windows\SysWOW64\regedit.exe](regedit.exe-2E327F27B5B836D8304DF46E8E20341A.md) | 71
+[C:\WINDOWS\SysWOW64\regedit.exe](regedit.exe-4506B1C9773B2400B44FBD5C2D70A13F.md) | 71
 [C:\Windows\SysWOW64\regedit.exe](regedit.exe-BD63D72DB4FA96A1E0250B1D36B7A827.md) | 79
 
 ## Possible Misuse

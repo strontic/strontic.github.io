@@ -76,6 +76,7 @@ C:\Windows\system32\oobe\Setup.exe |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\oobe\Setup.exe](Setup.exe-238E356EFAAF330B0D5669321660DBD2.md) | 47
 [C:\Windows\system32\oobe\Setup.exe](Setup.exe-76BC388FC9021985BC478C9B101649C6.md) | 44
 [C:\Windows\system32\oobe\Setup.exe](Setup.exe-872B6BC9730A7D94E91A38E3AA6DFDEE.md) | 43
 [C:\Windows\system32\oobe\Setup.exe](Setup.exe-8BBDBD0FA1F6AD661B85FC8A5BD3E2B3.md) | 44

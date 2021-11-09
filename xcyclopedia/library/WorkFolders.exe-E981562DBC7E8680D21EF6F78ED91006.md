@@ -47,6 +47,7 @@ control.exe
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\WorkFolders.exe](WorkFolders.exe-1DB54E2E5D713F1B7B3B0D4E3B6CED52.md) | 54
 [C:\Windows\system32\WorkFolders.exe](WorkFolders.exe-60B652CC67A3CC3DF4929574E8002738.md) | 49
 [C:\Windows\system32\WorkFolders.exe](WorkFolders.exe-8373D16B14416C0F892DDFECBB4CBFAC.md) | 57
 [C:\Windows\system32\WorkFoldersRes.dll](WorkFoldersRes.dll-268D2AC1DBF7EBA04E0AE10E8C812331.md) | 55

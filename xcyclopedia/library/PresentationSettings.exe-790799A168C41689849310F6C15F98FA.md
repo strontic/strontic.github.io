@@ -106,6 +106,7 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\Windows\system32\PresentationSettings.exe](PresentationSettings.exe-658873DCA615D9692113B0240F2B17AC.md) | 44
+[C:\WINDOWS\system32\PresentationSettings.exe](PresentationSettings.exe-6813E3E9314D3CC71A05EAFA13680508.md) | 47
 [C:\WINDOWS\system32\PresentationSettings.exe](PresentationSettings.exe-B70F0B64ADB8B30223043D1C8F104252.md) | 52
 [C:\Windows\system32\PresentationSettings.exe](PresentationSettings.exe-D95F3087AC0C9E29F7C9D56EC4D85E93.md) | 49
 

@@ -114,6 +114,11 @@ C:\Windows\system32\OpenSSH\ssh-keygen.exe |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/731befcb1a1655fe46ef91b3a02982b71d841e439de362ef3b1eca5644fc8dae/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\OpenSSH\ssh-keygen.exe](ssh-keygen.exe-8ADFD65D8B2D8AAA602D966B6AD94C81.md) | 96
 
 ## Possible Misuse
 

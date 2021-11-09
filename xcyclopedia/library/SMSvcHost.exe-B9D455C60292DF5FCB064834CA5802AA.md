@@ -100,7 +100,9 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\SMSvcHost.exe](SMSvcHost.exe-DE2AFB6FE857A1C5C1FCF02A82459256.md) | 86
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe](SMSvcHost.exe-B9D455C60292DF5FCB064834CA5802AA.md) | 100
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe](SMSvcHost.exe-DE2AFB6FE857A1C5C1FCF02A82459256.md) | 86
 
 
 

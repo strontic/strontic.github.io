@@ -124,14 +124,24 @@ File | Score
 [C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.ApplicationServices.dll](System.Web.ApplicationServices.dll-0C1A4B54901395498BADC6CD91C6C59C.md) | 46
 [C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Web.DynamicData.Design.dll](System.Web.DynamicData.Design.dll-B2AB11DE28D8499277978488AF4C471F.md) | 63
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\AddInProcess.exe](AddInProcess.exe-929EA1AF28AFEA2A3311FD4297425C94.md) | 63
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\AddInProcess.exe](AddInProcess.exe-B67A67922F2BF068F52C8128459309B6.md) | 63
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\AddInProcess32.exe](AddInProcess32.exe-816A42D47AA933E55428DF42C2BA8505.md) | 66
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\AddInProcess32.exe](AddInProcess32.exe-9827FF3CDF4B83F9C86354606736CA9C.md) | 66
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\AddInUtil.exe](AddInUtil.exe-11BED2C86507F7DF04BA52CFC7EB7276.md) | 65
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\AddInUtil.exe](AddInUtil.exe-A22D448037901AAF7AE785369075DD4D.md) | 65
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\aspnet_regbrowsers.exe](aspnet_regbrowsers.exe-4C506220CA3C082D31AF7C725CC33A3F.md) | 65
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_regbrowsers.exe](aspnet_regbrowsers.exe-BB8B6B54FD50C08AB579B84BF07918CF.md) | 63
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe](InstallUtil.exe-3C94B02364BA067E6C181191A5273824.md) | 88
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe](InstallUtil.exe-5D4073B2EB6D217C19F2B22F21BF8D57.md) | 91
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\AddInProcess.exe](AddInProcess.exe-929EA1AF28AFEA2A3311FD4297425C94.md) | 63
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\AddInProcess.exe](AddInProcess.exe-B67A67922F2BF068F52C8128459309B6.md) | 63
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\AddInProcess32.exe](AddInProcess32.exe-816A42D47AA933E55428DF42C2BA8505.md) | 66
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\AddInProcess32.exe](AddInProcess32.exe-9827FF3CDF4B83F9C86354606736CA9C.md) | 66
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\AddInUtil.exe](AddInUtil.exe-11BED2C86507F7DF04BA52CFC7EB7276.md) | 65
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\AddInUtil.exe](AddInUtil.exe-A22D448037901AAF7AE785369075DD4D.md) | 65
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\aspnet_regbrowsers.exe](aspnet_regbrowsers.exe-05993DA6AFECB2867DB00BFAE87A4A27.md) | 63
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_regbrowsers.exe](aspnet_regbrowsers.exe-542F3F799FC63406802309E9D6415BA7.md) | 63
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe](InstallUtil.exe-B3C141D48E14652BFFA508E1C6BDDC6B.md) | 93
 
 ## Possible Misuse
 

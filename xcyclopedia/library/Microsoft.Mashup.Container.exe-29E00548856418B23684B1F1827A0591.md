@@ -61,6 +61,12 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/febd3b264c2881dc4e7f49d92d4472ca1626bad4b5a173fb2de57114445aa2fa/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\dfsvc.exe](dfsvc.exe-B1C06C3F89538F7B4F892D0A8F5E7EB9.md) | 32
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\dfsvc.exe](dfsvc.exe-B1C06C3F89538F7B4F892D0A8F5E7EB9.md) | 32
 
 
 

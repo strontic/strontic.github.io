@@ -108,9 +108,11 @@ C:\Windows\system32\tttracer.exe |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\tttracer.exe](tttracer.exe-7A5725DA28274C3109BDEBD22B012855.md) | 36
 [C:\Windows\system32\tttracer.exe](tttracer.exe-F716498E51219F64BFB4AFABAB44A796.md) | 40
 [C:\Windows\SysWOW64\tttracer.exe](tttracer.exe-97579953AD08B01659EFE70976BE33E3.md) | 36
 [C:\Windows\SysWOW64\tttracer.exe](tttracer.exe-AAF4C8B847ADDA45EDB38E2768772E8D.md) | 35
+[C:\WINDOWS\SysWOW64\tttracer.exe](tttracer.exe-DA73F0AE0A8FD026654816C7C78E140B.md) | 33
 
 ## Possible Misuse
 

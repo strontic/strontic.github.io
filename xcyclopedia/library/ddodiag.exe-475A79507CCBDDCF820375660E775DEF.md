@@ -45,6 +45,7 @@ File | Score
 [C:\windows\SysWOW64\ddodiag.exe](ddodiag.exe-A1B3D10AE7E90DB636E09048B3743B99.md) | 72
 [C:\WINDOWS\SysWOW64\ddodiag.exe](ddodiag.exe-A8816FB7E1EC305DA72AE297B0F8BCA5.md) | 74
 [C:\Windows\SysWOW64\ddodiag.exe](ddodiag.exe-B99A1EA960AA12EA6A972335999D2B1F.md) | 74
+[C:\WINDOWS\SysWOW64\ddodiag.exe](ddodiag.exe-CD55C8ECAAD24E86B41DEC2A551D8528.md) | 74
 [C:\Windows\SysWOW64\ddodiag.exe](ddodiag.exe-FB0CD493A4A666D652D4468E19008A61.md) | 74
 
 

@@ -68,6 +68,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/64fae007652f3f416e3f700bd4c80bfca19b5076abb231a549167a2c7d9a5a1a/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\aspnet_state.exe](aspnet_state.exe-80230CF70CACA5299A84D94D3F688C89.md) | 85
 
 
 

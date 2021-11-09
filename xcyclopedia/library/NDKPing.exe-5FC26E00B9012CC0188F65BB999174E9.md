@@ -240,6 +240,7 @@ File | Score
 [C:\Windows\system32\microsoft-windows-hal-events.dll](microsoft-windows-hal-events.dll-5202D4DD0414D7C7BBB6C1C9EC1943CB.md) | 29
 [C:\Windows\system32\microsoft-windows-sleepstudy-events.dll](microsoft-windows-sleepstudy-events.dll-E64A4BD172A3F839B4C34B5C7EDA448D.md) | 32
 [C:\Windows\system32\msdmo.dll](msdmo.dll-68D389886647D860E57426F081626201.md) | 30
+[C:\WINDOWS\system32\NDKPing.exe](NDKPing.exe-22AB14352EF4D54B2B40770A6982CFDC.md) | 46
 [C:\WINDOWS\system32\NDKPing.exe](NDKPing.exe-E9AD6C80432ABCAF0F562FA3452C92F4.md) | 41
 [C:\Windows\system32\oobe\FirstLogonAnim.exe](FirstLogonAnim.exe-EA059E3BA7E07347BDE08EF016E09D50.md) | 29
 [C:\Windows\system32\pcwum.dll](pcwum.dll-642D98F94F04A764B0FD6ED931FF6BB3.md) | 30

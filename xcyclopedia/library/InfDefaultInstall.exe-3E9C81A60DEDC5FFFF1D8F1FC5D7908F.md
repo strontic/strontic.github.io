@@ -96,6 +96,7 @@ C:\Windows\SysWOW64\InfDefaultInstall.exe |
 
 File | Score
 -- | --
+[C:\WINDOWS\SysWOW64\InfDefaultInstall.exe](InfDefaultInstall.exe-310F6C1B3B98576F84C2ABC567260B00.md) | 35
 [C:\WINDOWS\SysWOW64\InfDefaultInstall.exe](InfDefaultInstall.exe-517E03BB228B5B32CE45C0C7C9D4370D.md) | 50
 [C:\Windows\SysWOW64\InfDefaultInstall.exe](InfDefaultInstall.exe-85449C56339BFEF1AF92EA9E034D5D84.md) | 36
 [C:\Windows\SysWOW64\InfDefaultInstall.exe](InfDefaultInstall.exe-95BE9B12D200216D84F4D4BFED75FB30.md) | 38

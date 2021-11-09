@@ -1,0 +1,66 @@
+﻿---
+title: ClipDLS.exe | 
+excerpt: What is ClipDLS.exe?
+---
+
+# ClipDLS.exe 
+
+* File Path: `C:\WINDOWS\system32\ClipDLS.exe`
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `F639C3DB25DD91B17902FEC921F4C261`
+SHA1 | `5BE0C1630B5B03B1E57821C32FFBD0A332AD3D85`
+SHA256 | `A072FC788F95636B1D39EE0C6C1CDF8059CE4A5F2298B09EE1C9DDD512859BC7`
+SHA384 | `CB9A8DFBCD75DF8CBD4FE553EC105BF4947D1F1B6A29AE335B7511C9855EC0EC4F82C77D005724C933B99AC890E50829`
+SHA512 | `F1678A8CAFD090F8CEABAB4EC7CB41283DD4D4AE2E81F987E241CAB7866E82F1E4F27E3E4F93A263EAAFA27FABD543C20B448E94A92D789BD44C8BF366D48F53`
+SSDEEP | `1536:dD8+hpRcEuMGWY+B+gw89WrsxeFXh0WQDAHddYWBqi4:dBhpVY+B+wYrsxeblBs`
+IMP | `8E0731DFC7519408AE0F391C6D96FA28`
+PESHA1 | `7E26F64DF1F759BA153DD69DD472D12BBCD22FD2`
+PE256 | `6D1D9A4ABE518C995C7FE70F0C7D6A61EC9018C53489EE81034CAFAB2A33C9B1`
+
+## Runtime Data
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\WINDOWS\system32\ClipDLS.exe |
+C:\WINDOWS\System32\KERNEL32.DLL |
+C:\WINDOWS\System32\KERNELBASE.dll |
+C:\WINDOWS\SYSTEM32\ntdll.dll |
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000002ED2C45E4C145CF48440000000002ED`
+* Thumbprint: `312860D2047EB81F8F58C29FF19ECDB4C634CF6A`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: 
+* Product Name: 
+* Company Name: 
+* File Version: 
+* Product Version: 
+* Language: 
+* Legal Copyright: 
+* Machine Type: 64-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/a072fc788f95636b1d39ee0c6c1cdf8059ce4a5f2298b09ee1c9ddd512859bc7/detection
+
+
+
+
+
+MIT License. Copyright (c) 2020-2021 Strontic.
+
+

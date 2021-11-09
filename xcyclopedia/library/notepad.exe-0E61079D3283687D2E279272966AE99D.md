@@ -121,10 +121,13 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 File | Score
 -- | --
 [C:\Windows\notepad.exe](notepad.exe-0E61079D3283687D2E279272966AE99D.md) | 100
+[C:\WINDOWS\notepad.exe](notepad.exe-FB95DE2DB64BEB631E865E2EDB7E93E6.md) | 38
 [C:\Windows\system32\notepad.exe](notepad.exe-3B508CAE5DEBCBA928B5BC355517E2E6.md) | 46
+[C:\WINDOWS\system32\notepad.exe](notepad.exe-FB95DE2DB64BEB631E865E2EDB7E93E6.md) | 38
 [C:\windows\system32\notepad.exe](notepad.exe-FC2EA5BD5307D2CFA5AAA38E0C0DDCE9.md) | 46
 [C:\Windows\SysWOW64\notepad.exe](notepad.exe-87E35E5F0B085E0D29BBDF6659C6D3D7.md) | 46
 [C:\windows\SysWOW64\notepad.exe](notepad.exe-9D12A01443D52BB25A8AD0F100F91B83.md) | 44
+[C:\WINDOWS\SysWOW64\notepad.exe](notepad.exe-DC65A5D2046FC8D33878CEBAB6968EEE.md) | 47
 
 ## Possible Misuse
 

@@ -78,6 +78,7 @@ C:\Windows\system32\WINSTA.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\ctfmon.exe](ctfmon.exe-21B46001EA61CDC46A43435F873E3BB8.md) | 40
 [C:\windows\system32\ctfmon.exe](ctfmon.exe-9929D83891B1C86F4E12C0C90BD8632E.md) | 38
 
 ## Possible Misuse

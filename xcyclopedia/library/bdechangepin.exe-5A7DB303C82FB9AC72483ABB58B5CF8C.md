@@ -112,6 +112,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\bdechangepin.exe](bdechangepin.exe-05FCF704DD7CB4BEF64CA0B4EDDB13FB.md) | 83
 [C:\WINDOWS\system32\bdechangepin.exe](bdechangepin.exe-237877714A318D9E9766014BA859831F.md) | 75
 [C:\Windows\system32\bdechangepin.exe](bdechangepin.exe-5EEE93027DABB96684475B1041B1CA5D.md) | 75
 [C:\Windows\system32\bdechangepin.exe](bdechangepin.exe-601A28EB2D845D729DDD7330CBAE6FD6.md) | 90

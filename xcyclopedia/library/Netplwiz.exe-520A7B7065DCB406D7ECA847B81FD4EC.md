@@ -94,6 +94,7 @@ C:\Windows\System32\win32u.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\Netplwiz.exe](Netplwiz.exe-02EACF7BA4A0C7F34623108BC5524C80.md) | 50
 [C:\Windows\system32\Netplwiz.exe](Netplwiz.exe-75DCFA9FCA3B674DB727C88FE734144B.md) | 46
 [C:\windows\system32\Netplwiz.exe](Netplwiz.exe-78CE8CDC02FFBA84FE890D48B10A7E49.md) | 50
 [C:\Windows\system32\Netplwiz.exe](Netplwiz.exe-A8581BA45F03CBC449DED52F9D09D4E0.md) | 47
@@ -103,6 +104,7 @@ File | Score
 [C:\WINDOWS\SysWOW64\Netplwiz.exe](Netplwiz.exe-5C356B86E15FB91B62AB373580CAA4FE.md) | 50
 [C:\windows\SysWOW64\Netplwiz.exe](Netplwiz.exe-B58F08DF50F5553E249500CD325CAD7D.md) | 50
 [C:\Windows\SysWOW64\Netplwiz.exe](Netplwiz.exe-E1A1217142FB0EC85120E211E5C607DF.md) | 49
+[C:\WINDOWS\SysWOW64\Netplwiz.exe](Netplwiz.exe-ED3311FF576F0B9309E79CE9C50985E8.md) | 46
 
 
 

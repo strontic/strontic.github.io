@@ -80,7 +80,7 @@ C:\Windows\SysWOW64\InstallShield\_isdel.exe |
 
 File | Score
 -- | --
-[C:\Windows\SysWOW64\InstallShield\_isdel.exe](isdel.exe-51161BF79F25FF278912005078AD93D5.md) | 99
+[C:\WINDOWS\SysWOW64\InstallShield\_isdel.exe](isdel.exe-51161BF79F25FF278912005078AD93D5.md) | 99
 
 
 

@@ -213,6 +213,11 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/ed99c2402ac2ccc1ca9ebf21f10c12ee27e8d33f1e67bea3cb34da9cd0b4b58c/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\aspnet_regiis.exe](aspnet_regiis.exe-F4B268DA0A02E5AB500AF7AF57C12888.md) | 85
 
 
 

@@ -67,10 +67,12 @@ C:\Windows\SysWOW64\calc.exe |
 File | Score
 -- | --
 [C:\Windows\system32\calc.exe](calc.exe-5DA8C98136D98DFEC4716EDD79C7145F.md) | 38
+[C:\WINDOWS\system32\calc.exe](calc.exe-CAA5DA86744BF7FF31E445ADAC00DA1C.md) | 46
 [C:\Windows\system32\calc.exe](calc.exe-DEAD69D07BC33B762ABD466FB6F53E11.md) | 38
 [C:\WINDOWS\system32\calc.exe](calc.exe-F88CC05134C555D4E1CD1DEF78162A9A.md) | 43
 [C:\WINDOWS\SysWOW64\calc.exe](calc.exe-0F47684C213A9A4E77E9CB5CD3A1C70D.md) | 57
 [C:\Windows\SysWOW64\calc.exe](calc.exe-961E093BE1F666FD38602AD90A5F480F.md) | 60
+[C:\WINDOWS\SysWOW64\calc.exe](calc.exe-B96A10D57B142F06904B1531A478998B.md) | 46
 
 ## Possible Misuse
 

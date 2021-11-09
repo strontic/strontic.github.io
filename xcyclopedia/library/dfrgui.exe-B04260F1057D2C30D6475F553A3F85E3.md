@@ -46,6 +46,7 @@ SSDEEP | `12288:xy2B8XS3lRkRc4YFwjsWOfRg6gtPbcTTn7qxerx7:wiWS3/kRc4l6g6gtPbcHn7q
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\Defrag.exe](Defrag.exe-4DC461ACA28988B93236664F7E2CA393.md) | 43
 [C:\Windows\system32\dfrgui.exe](dfrgui.exe-5D773715386E186D1FAEADDA6AA75384.md) | 85
 [C:\Windows\system32\dfrgui.exe](dfrgui.exe-DE723C6B0D294576C1258CC6925D4E7B.md) | 88
 [C:\Windows\system32\shwebsvc.dll](shwebsvc.dll-EB1AC593EA9EB9650BC66622031E0051.md) | 57

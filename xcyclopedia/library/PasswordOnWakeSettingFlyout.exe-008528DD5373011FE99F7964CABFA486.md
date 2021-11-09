@@ -50,6 +50,7 @@ PE256 | `D2575A902F5B30D45C889F6FAAC85D51CCFD8D7AD88EFB3C13F8E464CBD7CD1B`
 
 File | Score
 -- | --
+[C:\WINDOWS\SysWOW64\PasswordOnWakeSettingFlyout.exe](PasswordOnWakeSettingFlyout.exe-0604A7184989DFECA47C205A4573EC70.md) | 41
 [C:\WINDOWS\SysWOW64\PasswordOnWakeSettingFlyout.exe](PasswordOnWakeSettingFlyout.exe-19A4571087F17527019F1D440389213B.md) | 47
 [C:\Windows\SysWOW64\PasswordOnWakeSettingFlyout.exe](PasswordOnWakeSettingFlyout.exe-9E9747DF3D5A7F1C095D23FDF5A874F8.md) | 49
 [C:\Windows\SysWOW64\PasswordOnWakeSettingFlyout.exe](PasswordOnWakeSettingFlyout.exe-B6CA7279DAD5B748772B7E5D4B8B2C36.md) | 49

@@ -43,6 +43,7 @@ SSDEEP | `3072:o8TRN4WRNsoGlAi++KWwrZsQgWlUHQbPRyZ2pPTZ:BTRN4yNsoGlAi2tsFUU8AZ2`
 File | Score
 -- | --
 [C:\Windows\splwow64.exe](splwow64.exe-09EC082A13633BAEDE8FF155A0ACCF9E.md) | 72
+[C:\WINDOWS\splwow64.exe](splwow64.exe-7FF9B78730CCCCEE4DA267DED5C5C7DA.md) | 33
 [C:\WINDOWS\splwow64.exe](splwow64.exe-906E1DFC3A3A64D3452C5BA124AC9A4C.md) | 41
 [C:\Windows\splwow64.exe](splwow64.exe-93A8D365CB20A105CB97FF41451B85D5.md) | 41
 [C:\Windows\splwow64.exe](splwow64.exe-AA4138C0FBC6D41F9EBC5C4EFE20ECCA.md) | 86
@@ -52,6 +53,7 @@ File | Score
 [C:\windows\splwow64.exe](splwow64.exe-BE96C8815DE31A42E93A3BE09C2EECCC.md) | 44
 [C:\Windows\system32\PrintIsolationHost.exe](PrintIsolationHost.exe-95E50C824C9C9B4362AA3522B8449E29.md) | 43
 [C:\Windows\system32\PrintIsolationHost.exe](PrintIsolationHost.exe-A7BF96D6CC09A5012C1EA0F990D65567.md) | 49
+[C:\WINDOWS\system32\PrintIsolationHost.exe](PrintIsolationHost.exe-A9C07279ACC0EF6251C200B4688849CF.md) | 44
 [C:\Windows\system32\PrintIsolationHost.exe](PrintIsolationHost.exe-B59C716809F72A87CF72C66AB7BD5082.md) | 41
 
 ## Possible Misuse

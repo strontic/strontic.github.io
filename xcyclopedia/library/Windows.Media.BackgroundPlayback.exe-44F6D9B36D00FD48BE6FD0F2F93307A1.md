@@ -66,6 +66,7 @@ C:\Windows\system32\Windows.Media.BackgroundPlayback.exe |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\Windows.Media.BackgroundPlayback.exe](Windows.Media.BackgroundPlayback.exe-90A195B35A31DC3A52750F8FCAEC57AD.md) | 35
 [C:\Windows\system32\Windows.Media.BackgroundPlayback.exe](Windows.Media.BackgroundPlayback.exe-C5C44621AAF823D1833EE9AAEA296259.md) | 32
 
 

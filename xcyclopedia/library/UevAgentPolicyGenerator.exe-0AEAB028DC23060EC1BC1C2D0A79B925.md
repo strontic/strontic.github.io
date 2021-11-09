@@ -53,6 +53,7 @@ File | Score
 -- | --
 [C:\Windows\system32\UevAgentPolicyGenerator.exe](UevAgentPolicyGenerator.exe-23DEA2A17AB38BB991A593070F4CEC6A.md) | 66
 [C:\Windows\system32\UevAgentPolicyGenerator.exe](UevAgentPolicyGenerator.exe-C048906265AB5C4EA7118084A1E316CF.md) | 66
+[C:\WINDOWS\system32\UevAgentPolicyGenerator.exe](UevAgentPolicyGenerator.exe-D0FAE5B975B76D12F35EA91C6DFFD198.md) | 52
 [C:\WINDOWS\system32\UevAgentPolicyGenerator.exe](UevAgentPolicyGenerator.exe-DB9581764DBE3AC8FF9AB2F52F2C7A2D.md) | 66
 
 

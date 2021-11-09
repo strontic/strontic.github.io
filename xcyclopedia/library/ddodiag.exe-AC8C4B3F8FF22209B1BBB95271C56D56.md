@@ -45,6 +45,7 @@ File | Score
 [C:\windows\system32\ddodiag.exe](ddodiag.exe-0BE4FCCB6BE4FCCF4A449755B71D9277.md) | 66
 [C:\WINDOWS\system32\ddodiag.exe](ddodiag.exe-55E9A8CC0C0E0A8B3F2CA6B8635958F0.md) | 69
 [C:\Windows\system32\ddodiag.exe](ddodiag.exe-85FEEE634A6AEE90F0108E26D3D9BC1F.md) | 69
+[C:\WINDOWS\system32\ddodiag.exe](ddodiag.exe-C03EF94B7B4163746909DD4E53557CAB.md) | 58
 [C:\Windows\system32\ddodiag.exe](ddodiag.exe-DECF7B40F170889DA82C0F54749AE3E9.md) | 72
 
 

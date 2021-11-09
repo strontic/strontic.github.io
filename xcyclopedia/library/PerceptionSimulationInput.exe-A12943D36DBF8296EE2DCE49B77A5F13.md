@@ -43,6 +43,7 @@ SSDEEP | `1536:Ng0qeYCprYI/VbD3efO9pMj8DAmpfhNokN:NLqeYCprYI/VXqOKWJN/N`
 File | Score
 -- | --
 [C:\Windows\system32\PerceptionSimulation\PerceptionSimulationInput.exe](PerceptionSimulationInput.exe-BD77981903F642E483C2EAD1F153E305.md) | 85
+[C:\WINDOWS\system32\PerceptionSimulation\PerceptionSimulationInput.exe](PerceptionSimulationInput.exe-E64611E28226B5928A42DB9413FACC05.md) | 88
 [C:\Windows\system32\PerceptionSimulation\PerceptionSimulationInput.exe](PerceptionSimulationInput.exe-E9700994FB95782727D038F8750671EA.md) | 88
 
 

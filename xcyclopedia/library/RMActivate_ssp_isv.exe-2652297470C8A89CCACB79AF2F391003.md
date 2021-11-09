@@ -58,6 +58,11 @@ C:\Windows\system32\RMActivate_ssp_isv.exe |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/aead49ca461086872d44d6b4c749a961fbfe39a3f6d51a9b46756f854c574356/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\RMActivate_ssp_isv.exe](RMActivate_ssp_isv.exe-B21C404B9E550DF52658165CF9F667BB.md) | 27
 
 
 

@@ -46,6 +46,7 @@ File | Score
 [C:\Windows\system32\msdtc.exe](msdtc.exe-308F08347923DEEDE7BC03EC7D485841.md) | 66
 [C:\Windows\system32\msdtc.exe](msdtc.exe-7215CE218BDEAD41B708F098258CF972.md) | 66
 [C:\WINDOWS\system32\msdtc.exe](msdtc.exe-DC59FE37CFF118B6DAC426FE9923B32C.md) | 66
+[C:\WINDOWS\system32\msdtc.exe](msdtc.exe-ED13DCE3E438FD8BD3DAEC15460C42A0.md) | 65
 
 ## Possible Misuse
 

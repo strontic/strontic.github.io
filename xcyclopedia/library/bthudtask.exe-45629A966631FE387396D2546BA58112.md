@@ -66,8 +66,10 @@ File | Score
 [C:\Windows\system32\bthudtask.exe](bthudtask.exe-4DCD6FCABF20FBC8BFB11A9F6E4B77F0.md) | 55
 [C:\Windows\system32\bthudtask.exe](bthudtask.exe-84E6105AB4B8F6949F123A56B5C5DBA4.md) | 55
 [C:\WINDOWS\system32\bthudtask.exe](bthudtask.exe-AA060C5F96D87FF96730C6295FC0B748.md) | 55
+[C:\WINDOWS\system32\bthudtask.exe](bthudtask.exe-B8BE55FF919719E9254C7CDB24AEDF80.md) | 55
 [C:\Windows\system32\bthudtask.exe](bthudtask.exe-CCDD2D8B1E499BFC883BA7436B480DE3.md) | 55
 [C:\Windows\SysWOW64\bthudtask.exe](bthudtask.exe-2233C4A464523B33B42762ED74C9B88D.md) | 63
+[C:\WINDOWS\SysWOW64\bthudtask.exe](bthudtask.exe-3630637B25B0A2D50EDA1B687E796F3C.md) | 60
 [C:\Windows\SysWOW64\bthudtask.exe](bthudtask.exe-B36FAA5A0A116A114DDD387853D0BFCF.md) | 60
 [C:\WINDOWS\SysWOW64\bthudtask.exe](bthudtask.exe-D2E1480FF0B3A60B857268CFE353D20E.md) | 66
 

@@ -42,6 +42,7 @@ SSDEEP | `96:4+IYPI5Y80MF1v2gSnW2Qd6BZTLjlsDqf17plruADJVpRKLwEWjgWwBed:oYPD9M+np
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\ctfmon.exe](ctfmon.exe-21B46001EA61CDC46A43435F873E3BB8.md) | 38
 [C:\Windows\system32\ctfmon.exe](ctfmon.exe-B625C18E177D5BEB5A6F6432CCF46FB3.md) | 38
 [C:\windows\SysWOW64\ctfmon.exe](ctfmon.exe-BE80808B5FE1D9C9351653EEC814A75A.md) | 36
 

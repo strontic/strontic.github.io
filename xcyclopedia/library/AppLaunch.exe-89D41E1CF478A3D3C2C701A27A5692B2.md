@@ -81,6 +81,11 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/dc5ac8d4d6d5b230ab73415c80439b4da77da1cfde18214ef601897f661abdac/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\AppLaunch.exe](AppLaunch.exe-77656F8297803D4B5C9D6804F2DA62F9.md) | 85
 
 
 

@@ -94,6 +94,7 @@ COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]]
 
 File | Score
 -- | --
+[C:\WINDOWS\SysWOW64\compact.exe](compact.exe-0BB18C2EFD6001613974ADB7AB53F6C7.md) | 38
 [C:\Windows\SysWOW64\compact.exe](compact.exe-5CB107F69062D6D387F4F7A14737220E.md) | 49
 [C:\Windows\SysWOW64\compact.exe](compact.exe-D9A6C940D8AF7BFBA08D010B85F155A2.md) | 41
 [C:\Windows\SysWOW64\WofUtil.dll](WofUtil.dll-14ABE0012FF8B7BA24C775A664E65772.md) | 36

@@ -64,6 +64,7 @@ C:\Windows\SysWOW64\SearchFilterHost.exe |
 File | Score
 -- | --
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-1B3706231F1003B03717691C5AFCD361.md) | 43
+[C:\WINDOWS\system32\SearchFilterHost.exe](SearchFilterHost.exe-1E494BC759BD7E799F725285D37A8126.md) | 43
 [C:\WINDOWS\system32\SearchFilterHost.exe](SearchFilterHost.exe-2296B4F9F71EFB1FCC195C85B8EA3ED9.md) | 44
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-32070FD581B3C13740432169F764F066.md) | 40
 [C:\Windows\system32\SearchFilterHost.exe](SearchFilterHost.exe-334E8E996B23216667D9538CE40D68B5.md) | 41
@@ -80,6 +81,7 @@ File | Score
 [C:\Windows\system32\SearchProtocolHost.exe](SearchProtocolHost.exe-C4D33CE329ADDA42557420034702BDB4.md) | 27
 [C:\Windows\SysWOW64\SearchFilterHost.exe](SearchFilterHost.exe-09C9EB6892E603CD4265920E5A29F7CD.md) | 43
 [C:\Windows\SysWOW64\SearchFilterHost.exe](SearchFilterHost.exe-3E3E2E16A066917E23B88312E3ECBF55.md) | 41
+[C:\WINDOWS\SysWOW64\SearchFilterHost.exe](SearchFilterHost.exe-585A835BEAC7247DAE4846B5DCA8AD02.md) | 46
 [C:\Windows\SysWOW64\SearchFilterHost.exe](SearchFilterHost.exe-8B0EE156EEA810806D285878104C7FF9.md) | 55
 [C:\Windows\SysWOW64\SearchFilterHost.exe](SearchFilterHost.exe-98CAC0FEB32500C7CC15B6FE83F6068D.md) | 47
 [C:\Windows\SysWOW64\SearchFilterHost.exe](SearchFilterHost.exe-A2E770284F3AF4AFA09407862E73ADFB.md) | 54
@@ -90,6 +92,7 @@ File | Score
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-3F2C5E10BCC7A67751F042FE148C1B0F.md) | 40
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-76FE9088E3D2BD04A346E480C7863CF7.md) | 35
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-7C22FED393CA0330A10B47848018C225.md) | 32
+[C:\WINDOWS\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-CCBCB187970A9955988382A68A6E3A3F.md) | 35
 [C:\WINDOWS\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-E318AF6C41ABF3FB889EC89164A36A37.md) | 30
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-E503AEEC8FA45CF5A5B530E41B7E1156.md) | 35
 [C:\Windows\SysWOW64\SearchProtocolHost.exe](SearchProtocolHost.exe-EDDF12939FEF7AE88C2C2DA5B12E90B2.md) | 33

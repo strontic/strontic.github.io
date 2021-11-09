@@ -42,6 +42,7 @@ SSDEEP | `6144:duAnRId7ybTaaGkPzffts2xmhfGKraEH:d/nRId7ybTa8K2Gfn`
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\PresentationSettings.exe](PresentationSettings.exe-6813E3E9314D3CC71A05EAFA13680508.md) | 50
 [C:\Windows\system32\PresentationSettings.exe](PresentationSettings.exe-790799A168C41689849310F6C15F98FA.md) | 44
 [C:\WINDOWS\system32\PresentationSettings.exe](PresentationSettings.exe-B70F0B64ADB8B30223043D1C8F104252.md) | 47
 [C:\Windows\system32\PresentationSettings.exe](PresentationSettings.exe-D95F3087AC0C9E29F7C9D56EC4D85E93.md) | 44

@@ -66,6 +66,11 @@ C:\Windows\system32\OpenSSH\scp.exe |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/9f109ced3d575702764073be91f83e46501db38659c6192e76a30e219f7ca9ac/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\OpenSSH\scp.exe](scp.exe-081B0E7084CA833E0C6B7F026D25D1AD.md) | 96
 
 
 

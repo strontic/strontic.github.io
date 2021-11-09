@@ -72,6 +72,11 @@ C:\Windows\System32\win32u.dll |
 * VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/da1087ba2641efd77d85e5838aeb6c333e80caa9f24c889fd2de2e0b58f8d1a5/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe](mscorsvw.exe-3FF8ED8F93BED9F1840A05BAECACA6E5.md) | 85
 
 ## Possible Misuse
 

@@ -45,6 +45,7 @@ File | Score
 [C:\Windows\SysWOW64\regini.exe](regini.exe-075434A31ACB3954337BE18A1B336B87.md) | 43
 [C:\Windows\SysWOW64\regini.exe](regini.exe-8E9CB202467E209A7C4C5C15A7727DA2.md) | 35
 [C:\WINDOWS\SysWOW64\regini.exe](regini.exe-92D7CDD79F53E56612F8252B1BCD562E.md) | 36
+[C:\WINDOWS\SysWOW64\regini.exe](regini.exe-97FE65B8AF228A06489332528960B4B4.md) | 38
 [C:\Windows\SysWOW64\regini.exe](regini.exe-C99C3BB423097FCF4990539FC1ED60E3.md) | 40
 
 ## Possible Misuse

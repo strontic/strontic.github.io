@@ -95,6 +95,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe](RegAsm.exe-0D5DF43AF2916F47D00C1573797C1A13.md) | 83
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe](RegAsm.exe-42AB6E035DF99A43DBB879C86B620B91.md) | 75
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe](RegAsm.exe-15D0F3ABFB5A3E38E83EA61A082EF934.md) | 80
 
 ## Possible Misuse
 

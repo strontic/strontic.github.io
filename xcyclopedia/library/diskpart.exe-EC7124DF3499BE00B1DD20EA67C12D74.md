@@ -30,7 +30,7 @@ PE256 | `7851D19308FA48C5A11265E96ED60D960C6FBDE2859664324DE629EED6134A38`
 Microsoft DiskPart version 10.0.19041.964
 
 Copyright (C) Microsoft Corporation.
-On computer: DESKTOP-INJVON7
+On computer: default-pc
 
 DiskPart has encountered an error: No mapping between account names and security IDs was done.
 See the System Event Log for more information.

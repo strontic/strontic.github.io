@@ -67,6 +67,7 @@ C:\Windows\system32\WinRTNetMUAHostServer.exe |
 File | Score
 -- | --
 [C:\Windows\system32\WinRTNetMUAHostServer.exe](WinRTNetMUAHostServer.exe-24F075C40FA979B9152A3E643940A387.md) | 54
+[C:\WINDOWS\system32\WinRTNetMUAHostServer.exe](WinRTNetMUAHostServer.exe-A2B1339723ED3D34AF1828701B54DDEA.md) | 29
 
 
 

@@ -46,6 +46,7 @@ SSDEEP | `6144:I0ZXOZ2Sxhqn66VhQMUbC+J6yihdIbmbVobH3AdKy9HGeofJgDEvr6slnCUGw/xl:
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\osk.exe](osk.exe-1B72421A2AD1B293DBF91C94BC886E17.md) | 50
 [C:\Windows\system32\osk.exe](osk.exe-745F2DF5BEED97B8C751DF83938CB418.md) | 50
 [C:\WINDOWS\system32\osk.exe](osk.exe-9237BD6C14767145300EA58ACC2F20F9.md) | 52
 [C:\Windows\system32\osk.exe](osk.exe-B160BA195ACC126E2ECA539094914688.md) | 50

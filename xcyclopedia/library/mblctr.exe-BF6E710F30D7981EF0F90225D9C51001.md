@@ -100,6 +100,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.151
 File | Score
 -- | --
 [C:\Windows\system32\mblctr.exe](mblctr.exe-0EC4ADC3149C9F85BF96B83C6AD174F5.md) | 65
+[C:\WINDOWS\system32\mblctr.exe](mblctr.exe-415EE6A6F6569A1F6351B7322E46B9DC.md) | 65
 [C:\WINDOWS\system32\mblctr.exe](mblctr.exe-4E49EEB5BAE4BDB35A7C3F1C853DD76D.md) | 60
 [C:\Windows\system32\mblctr.exe](mblctr.exe-D3DB14EABB2679E08020BCD0C96FA9F6.md) | 68
 

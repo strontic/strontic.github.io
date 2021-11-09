@@ -148,6 +148,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/4a6d0864e19c0368a47217c129b075dddf61a6a262388f9d21045d82f3423ed7/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\csc.exe](csc.exe-C7E54B9571F63873FE3539F4AA13FD9A.md) | 96
 
 ## Possible Misuse
 

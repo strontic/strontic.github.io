@@ -64,6 +64,7 @@ C:\Windows\SysWOW64\PasswordOnWakeSettingFlyout.exe |
 File | Score
 -- | --
 [C:\Windows\SysWOW64\PasswordOnWakeSettingFlyout.exe](PasswordOnWakeSettingFlyout.exe-008528DD5373011FE99F7964CABFA486.md) | 49
+[C:\WINDOWS\SysWOW64\PasswordOnWakeSettingFlyout.exe](PasswordOnWakeSettingFlyout.exe-0604A7184989DFECA47C205A4573EC70.md) | 49
 [C:\WINDOWS\SysWOW64\PasswordOnWakeSettingFlyout.exe](PasswordOnWakeSettingFlyout.exe-19A4571087F17527019F1D440389213B.md) | 49
 [C:\Windows\SysWOW64\PasswordOnWakeSettingFlyout.exe](PasswordOnWakeSettingFlyout.exe-9E9747DF3D5A7F1C095D23FDF5A874F8.md) | 60
 [C:\Windows\SysWOW64\Windows.StateRepositoryCore.dll](Windows.StateRepositoryCore.dll-4DA9D6305A1EE833B10EC20D0AA3A616.md) | 33

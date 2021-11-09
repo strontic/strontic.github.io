@@ -76,6 +76,7 @@ C:\Windows\System32\win32u.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\ApproveChildRequest.exe](ApproveChildRequest.exe-5224FA8FA26F867C98514E723C68C77E.md) | 46
 [C:\Windows\system32\ApproveChildRequest.exe](ApproveChildRequest.exe-8A9273F02903EAFF641334180E9FA312.md) | 47
 [C:\Windows\system32\ApproveChildRequest.exe](ApproveChildRequest.exe-A0105B22267A0AB8B5EA13274434E928.md) | 44
 [C:\WINDOWS\system32\ApproveChildRequest.exe](ApproveChildRequest.exe-A281DD9C3249DF62516109F43567DBBB.md) | 49

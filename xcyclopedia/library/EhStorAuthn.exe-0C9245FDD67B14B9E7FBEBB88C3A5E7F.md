@@ -63,6 +63,7 @@ C:\Windows\SysWOW64\EhStorAuthn.exe |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\EhStorAuthn.exe](EhStorAuthn.exe-0B09E3F16945DDFC23C2523459B68485.md) | 44
 [C:\windows\system32\EhStorAuthn.exe](EhStorAuthn.exe-2E862F8AAA85563A8C8DFBF869F30DE9.md) | 57
 [C:\Windows\system32\EhStorAuthn.exe](EhStorAuthn.exe-3A8D87E31C85B5F949BF26436D7DD02A.md) | 54
 [C:\Windows\system32\EhStorAuthn.exe](EhStorAuthn.exe-9657C921DC6703DE71288C1BE50A7826.md) | 50
@@ -70,6 +71,7 @@ File | Score
 [C:\WINDOWS\system32\EhStorAuthn.exe](EhStorAuthn.exe-F6C6BB7C8DB07549BE3D04DA75F79E1A.md) | 54
 [C:\Windows\system32\EhStorPwdMgr.dll](EhStorPwdMgr.dll-4FA3A4A9F8077A1877FBAB012EA4054F.md) | 61
 [C:\WINDOWS\SysWOW64\EhStorAuthn.exe](EhStorAuthn.exe-221A99BF3CBDF3A42D8FEC661CCC67C9.md) | 72
+[C:\WINDOWS\SysWOW64\EhStorAuthn.exe](EhStorAuthn.exe-78CAAB6EAD9D6F6CF03E4484AEFD0186.md) | 61
 [C:\Windows\SysWOW64\EhStorAuthn.exe](EhStorAuthn.exe-CF4CA1BB022BF8C53FD8E02A9E783C78.md) | 69
 [C:\Windows\SysWOW64\EhStorAuthn.exe](EhStorAuthn.exe-FA27C3D81CC5E8E13913771FC785BC5B.md) | 69
 [C:\Windows\SysWOW64\EhStorPwdMgr.dll](EhStorPwdMgr.dll-D536E2E1AA8A4E1BE55D0B235590E17D.md) | 61

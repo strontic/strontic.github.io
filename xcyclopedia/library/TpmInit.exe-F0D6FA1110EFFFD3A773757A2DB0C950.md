@@ -47,6 +47,7 @@ SSDEEP | `3072:wmSiXu1OD9fzgmH5i/ctkvFYPz4PYfSFkx1:iQDdgmJ+GMcSA`
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\TpmInit.exe](TpmInit.exe-19C208A19DF23B1E29C87827A77D819D.md) | 33
 [C:\Windows\system32\TpmInit.exe](TpmInit.exe-2EF855672A91AA4443E8B4C2E1AE278E.md) | 38
 [C:\Windows\system32\TpmInit.exe](TpmInit.exe-578EF2B7D0C63504C39DD1BF3CADB2A8.md) | 44
 [C:\Windows\system32\TpmInit.exe](TpmInit.exe-8828BBB0A8A2EC40E4A976DCE47BD15F.md) | 33
@@ -54,6 +55,7 @@ File | Score
 [C:\WINDOWS\SysWOW64\TpmInit.exe](TpmInit.exe-12FAFE0BEEE577E091F1781FDDF57CB3.md) | 41
 [C:\Windows\SysWOW64\TpmInit.exe](TpmInit.exe-22A202B729CB70DF605D7E81D77B9B41.md) | 33
 [C:\Windows\SysWOW64\TpmInit.exe](TpmInit.exe-23E73EAD4C5304744E76E8ECE21273BC.md) | 38
+[C:\WINDOWS\SysWOW64\TpmInit.exe](TpmInit.exe-56FFC2D70D4BC13886245ECE35498CAA.md) | 36
 [C:\windows\SysWOW64\TpmInit.exe](TpmInit.exe-6C56049244A18816695CA8719A6A1BB2.md) | 44
 [C:\Windows\SysWOW64\TpmInit.exe](TpmInit.exe-BD19D000F87EA4CD0DEC6203207E9D03.md) | 38
 

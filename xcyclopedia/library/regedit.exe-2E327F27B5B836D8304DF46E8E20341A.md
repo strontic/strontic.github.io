@@ -49,12 +49,14 @@ File | Score
 -- | --
 [C:\Windows\regedit.exe](regedit.exe-0EE48CC819E58D266827F8605AF17ABD.md) | 71
 [C:\WINDOWS\regedit.exe](regedit.exe-29409008DF22243BB320333F9FD5C060.md) | 72
+[C:\WINDOWS\regedit.exe](regedit.exe-6C33B7C73246C26B6EE51D635CF74BA1.md) | 69
 [C:\Windows\regedit.exe](regedit.exe-999A30979F6195BF562068639FFC4426.md) | 69
 [C:\Windows\regedit.exe](regedit.exe-A3668018735B59050AD123A5A8CDC184.md) | 69
 [C:\Windows\regedit.exe](regedit.exe-BF5D30514FEA913E25CCC9E546257088.md) | 100
 [C:\WINDOWS\SysWOW64\regedit.exe](regedit.exe-01CE651BAE4DB16618DF8FF1A517E6E4.md) | 72
 [C:\Windows\SysWOW64\regedit.exe](regedit.exe-08D8384279EB3E25242B270860193E1C.md) | 71
 [C:\Windows\SysWOW64\regedit.exe](regedit.exe-092D4E7FA32499F18B879080AA994C46.md) | 69
+[C:\WINDOWS\SysWOW64\regedit.exe](regedit.exe-4506B1C9773B2400B44FBD5C2D70A13F.md) | 69
 [C:\Windows\SysWOW64\regedit.exe](regedit.exe-BD63D72DB4FA96A1E0250B1D36B7A827.md) | 69
 
 ## Possible Misuse

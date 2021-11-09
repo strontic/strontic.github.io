@@ -247,6 +247,7 @@ File | Score
 [C:\Windows\SysWOW64\backgroundTaskHost.exe](backgroundTaskHost.exe-8B50BFD5811304543479B20D0A281C56.md) | 29
 [C:\Windows\SysWOW64\BOOTVID.DLL](BOOTVID.DLL-51FB33A072A2245B15AB6A6C2E9F0EFA.md) | 30
 [C:\Windows\SysWOW64\CameraSettingsUIHost.exe](CameraSettingsUIHost.exe-443AFE0E4385A46CFE2AD14890DC1FD4.md) | 36
+[C:\WINDOWS\SysWOW64\CameraSettingsUIHost.exe](CameraSettingsUIHost.exe-7E8813E966FC2F85EA86B446FD51E807.md) | 36
 [C:\WINDOWS\SysWOW64\CameraSettingsUIHost.exe](CameraSettingsUIHost.exe-8E0D0D53CA176DDA94850F7A3B406408.md) | 32
 [C:\Windows\SysWOW64\DefaultDeviceManager.dll](DefaultDeviceManager.dll-5BA7E83984833D6E302B6438799554DF.md) | 30
 [C:\Windows\SysWOW64\dllhost.exe](dllhost.exe-BE467A8F33CDEB0538E98CF10101E9E0.md) | 25

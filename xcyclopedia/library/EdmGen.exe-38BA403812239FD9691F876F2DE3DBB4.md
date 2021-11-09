@@ -133,7 +133,9 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\EdmGen.exe](EdmGen.exe-78D242062ED195B69A6303F41A069B27.md) | 75
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\EdmGen.exe](EdmGen.exe-38BA403812239FD9691F876F2DE3DBB4.md) | 100
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\EdmGen.exe](EdmGen.exe-78D242062ED195B69A6303F41A069B27.md) | 75
 
 
 

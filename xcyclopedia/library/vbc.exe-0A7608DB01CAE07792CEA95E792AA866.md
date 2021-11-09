@@ -152,6 +152,11 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/c16336ab32195b08c1678220fbe0256fee865f623e2b32fcfa4d9825fd68977e/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\vbc.exe](vbc.exe-A731372E6F6978CE25617AE01B143351.md) | 93
 
 ## Possible Misuse
 

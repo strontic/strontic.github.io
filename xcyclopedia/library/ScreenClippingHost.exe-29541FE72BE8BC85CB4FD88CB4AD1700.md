@@ -65,6 +65,7 @@ C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\ScreenClipping\S
 File | Score
 -- | --
 [C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\ScreenClipping\ScreenClippingHost.exe](ScreenClippingHost.exe-3C4E7F1BF05A5088430FB512081061B2.md) | 61
+[C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\ScreenClippingHost.exe](ScreenClippingHost.exe-7140BCF8EAE58E7A63CF167B866402DA.md) | 71
 
 
 

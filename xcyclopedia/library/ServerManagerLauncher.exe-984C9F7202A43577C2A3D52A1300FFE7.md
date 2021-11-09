@@ -85,6 +85,7 @@ C:\Windows\System32\windows.storage.dll |
 File | Score
 -- | --
 [C:\Windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-28317A51B8F874BCF5220872269FEC2C.md) | 33
+[C:\WINDOWS\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-BEC3F5CE1CACCF010912D35A2AD53039.md) | 35
 [C:\WINDOWS\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-E0861FA9E0A4B441C6A11405D12D0C30.md) | 33
 [C:\Windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-ED3867E805501925E10070A1430E13DF.md) | 41
 [C:\windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-EF0DB115967BFB1996403434AA3C9D7E.md) | 30

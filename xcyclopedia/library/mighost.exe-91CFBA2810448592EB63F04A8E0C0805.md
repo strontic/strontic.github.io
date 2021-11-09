@@ -117,6 +117,7 @@ C:\Windows\System32\windows.storage.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\migwiz\mighost.exe](mighost.exe-28AD78E9D3B13D496EA9B7206989CFE9.md) | 77
 [C:\WINDOWS\system32\migwiz\mighost.exe](mighost.exe-2EE2E416B39FEC55EC78CAF390A0E465.md) | 90
 [C:\Windows\system32\migwiz\mighost.exe](mighost.exe-79BBFF97E65EED53564150A9B4CE1372.md) | 82
 [C:\Windows\system32\migwiz\mighost.exe](mighost.exe-89C50106DF2063F9918622E2042437C8.md) | 40

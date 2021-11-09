@@ -125,6 +125,11 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/d0105566bc22ef92204e163428e5feda866f8a9b2be19be3b95e6327fff3f8c6/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\ngen.exe](ngen.exe-9C08637FF87D15B20C9BECC03F975F16.md) | 83
 
 ## Possible Misuse
 

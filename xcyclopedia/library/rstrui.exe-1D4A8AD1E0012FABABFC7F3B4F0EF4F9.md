@@ -43,6 +43,7 @@ SSDEEP | `6144:6GEtHges25EgmpBaAc6WrpDZ9Oangx2+UvQ/KpmOq:6GWAXppBaAcdrxZ9OKFvQ/K
 File | Score
 -- | --
 [C:\Windows\system32\rstrui.exe](rstrui.exe-4CAD10846E93E85790865D5C0AB6FFD9.md) | 44
+[C:\WINDOWS\system32\rstrui.exe](rstrui.exe-50E7733B39D3187BB8E80C04FA3C8F71.md) | 47
 [C:\Windows\system32\rstrui.exe](rstrui.exe-CC4FD2CAEAB42F55A7EB6A29D0F0759B.md) | 49
 
 

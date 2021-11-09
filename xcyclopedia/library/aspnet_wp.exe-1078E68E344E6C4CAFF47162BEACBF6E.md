@@ -70,6 +70,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\aspnet_wp.exe](aspnet_wp.exe-949E50C5D2C9FAF8BB57B6B0323FF029.md) | 75
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_wp.exe](aspnet_wp.exe-9D8405DA6AE362D2A312AC9A15DF9EB8.md) | 77
 
 

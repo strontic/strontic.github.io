@@ -66,6 +66,7 @@ File | Score
 [C:\Program Files (x86)\Microsoft Office\root\Client\AppVLP.exe](AppVLP.exe-F8CF92A63D69595CE0E6ECB9265EA7F7.md) | 36
 [C:\Program Files\Common Files\microsoft shared\ClickToRun\MavInject32.exe](MavInject32.exe-AC6978D0FEF8F6F2F07051473D188F02.md) | 35
 [C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-49338D141DD60CA212D85F60521FB1DF.md) | 50
+[C:\WINDOWS\SysWOW64\mavinject.exe](mavinject.exe-639104A1BBEE03C2101A3FDC4FB4DF8A.md) | 33
 [C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-644673C741AB152A3E8904A5B4080489.md) | 38
 [C:\Windows\SysWOW64\mavinject.exe](mavinject.exe-651259747F1C4401A88A23AD816BB0ED.md) | 46
 [C:\WINDOWS\SysWOW64\mavinject.exe](mavinject.exe-8FE5871DE2870F39CFA317FA5C28988D.md) | 46

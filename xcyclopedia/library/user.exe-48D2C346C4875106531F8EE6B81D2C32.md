@@ -110,6 +110,7 @@ File | Score
 [C:\Windows\SysWOW64\user.exe](user.exe-75743455895DF7D19188C13DA687D9F2.md) | 50
 [C:\Windows\SysWOW64\user.exe](user.exe-B30709F69A03714334BC7E1123D4DA48.md) | 54
 [C:\Windows\SysWOW64\user.exe](user.exe-D4D86D15435CC99BDF659FFF6784092D.md) | 54
+[C:\WINDOWS\SysWOW64\user.exe](user.exe-F2B8054852D423E4C0627251EA32EBAA.md) | 49
 [C:\Windows\SysWOW64\user.exe](user.exe-FD94F4868778F6142F68AC32928EDB58.md) | 54
 [C:\Windows\SysWOW64\WindowsPowerShell\v1.0\pwrshmsg.dll](pwrshmsg.dll-7A948891A13A5B9DFAAE6F8E61EB116A.md) | 49
 [C:\Windows\SysWOW64\winrsmgr.dll](winrsmgr.dll-55502E7D2D056327139999DD9F3E77B6.md) | 49

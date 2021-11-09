@@ -124,6 +124,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/a446d35f5e60bdae1a7117b71d90abb0fea424ee416b0e0ecd2c485dc5939a68/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\ngen.exe](ngen.exe-5AE92211A53BD5C9006222AFA31C85B7.md) | 74
 
 ## Possible Misuse
 

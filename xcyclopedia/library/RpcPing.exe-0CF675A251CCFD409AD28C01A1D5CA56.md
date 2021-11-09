@@ -1,0 +1,365 @@
+﻿---
+title: RpcPing.exe | RPC Ping Utility
+excerpt: What is RpcPing.exe?
+---
+
+# RpcPing.exe 
+
+* File Path: `C:\WINDOWS\SysWOW64\RpcPing.exe`
+* Description: RPC Ping Utility
+
+## Hashes
+
+Type | Hash
+-- | --
+MD5 | `0CF675A251CCFD409AD28C01A1D5CA56`
+SHA1 | `6E60F0563591A091416DCA2A967267A4BAE5D89E`
+SHA256 | `E38A5750C888BBE4F0CB5D2D81B66C24C5842B9D3F936F7E61D3A7A2507CAC40`
+SHA384 | `FF0E6A178075A3D2DDB08288B5B03840F1F26FA370CC6784C68CCB2504C720B3973848227FF7D419A42E9C18209112E1`
+SHA512 | `C19F706040B7446035FB233D3B8BF09D7BD7406FE59958899218896F2F720C560738A5658C42FFBF4ECCAEE5E16568F534FBCC5F979072D715DFE8950D41F189`
+SSDEEP | `384:fm7FQ9m9LE5NOO1cRC3ZnUW5EnSaUigMvrd0+LNGpTOk8+WnbQQFf7Wl0WKhHIj:um9m1cOU3Z15x8d0+LglU+mbPfeY2`
+IMP | `19813C5F838DD3B1151D1518F2F49579`
+PESHA1 | `CC478FA5E75066EFC76AB350D53CCBBAFA6D3E33`
+PE256 | `531E925809BF74A678774B0E45807EBC8B26C7CBB1B300ABAF4ACB3C455C8DED`
+
+## Runtime Data
+
+### Usage (stdout):
+```cmhg
+Usage: 
+rpcping [-t <protseq>] [-s <server_addr>] [-e <endpoint>            
+        |-f <interface UUID>[,MajorVer]] [-O <Interface Object UUID]
+        [-i <#_iterations>] [-u <security_package_id>] [-a <authn_level>]                             
+        [-N <server_princ_name>] [-I <auth_identity>] [-C <capabilities>]
+        [-T <identity_tracking>] [-M <impersonation_type>]
+        [-S <server_sid>] [-P <proxy_auth_identity>] [-F <RPCHTTP_flags>]
+        [-H <RPC/HTTP_authn_schemes>] [-o <binding_options>]
+        [-B <server_certificate_subject>] [-b] [-E] [-q] [-c]
+        [-A <http_proxy_auth_identity>] [-U <HTTP_proxy_authn_schemes>]
+        [-r <report_results_interval>] [-v <verbose_level>] 
+
+Pings a server using RPC. Options are:
+
+-t <protseq> - protocol sequence to use. Can be one of the standard
+    RPC protocol sequences - ncacn_ip_tcp, ncacn_np, ncacn_http, etc.
+    If not specified, default is ncacn_ip_tcp.
+    
+-s <server_addr> - the server address. If not specified, the local
+    machine will be pinged. E.g. server, server.com, 157.59.244.141
+        
+-e <endpoint> - the endpoint to ping. If none is specified, the endpoint
+    mapper on the target machine will be pinged. This option is mutually
+    exclusive with the interface (-f) option.
+
+-o <binding_options> - the binding options for the RPC ping. See the
+    MSDN for more details (RpcStringBindingCompose and RPC over HTTP).
+    
+-f <interface UUID>[,MajorVer] - the interface to ping. This option is
+    mutually exclusive with the endpoint option. The interface is specified
+    as a UUID. If the MajorVer is not specified, version 1 of the interface
+    will be sought. When interface is specified, rpcping will query the
+    endpoint mapper on the target machine to retrieve the endpoint for the
+    specified interface. The endpoint mapper will be queried using the
+    options specified in the command line.
+    
+-O <Object UUID> - Object Uuid if the interface registerd one.
+
+-i <#_iterations> - number of calls to make. The default is 1. This
+    option is useful for measuring connection latency if multiple
+    iterations are specified.
+    
+-u <security_package_id> - the security package (security provider) RPC
+    will use to make the call. The security package is identified as a
+    number or a name. If a number is used it is the same number as in the
+    RpcBindingSetAuthInfoEx API. The table below gives the names and
+    numbers. Names are not case sensitive:
+        Negotiate - 9 or one of nego, snego or negotiate
+        NTLM - 10 or NTLM
+        SChannel - 14 or SChannel
+        Kerberos - 16 or Kerberos
+        Kernel - 20 or Kernel
+    If you specify this option you must specify authentication level other
+    than none. There is no default for this option. If it is not specified,
+    RPC will not use security for the ping.
+    
+-a <authn_level> - the authentication level to use. Possible values are
+    connect, call, pkt, integrity and privacy. If this option is
+    specified, the security package id (-u) must also be specified. There
+    is no default for this option. If this option is not specified, RPC
+    will not use security for the ping.
+
+-N <server_princ_name> - specifies a server principal name. Same semantics
+    as the ServerPrincName argument to RpcBindingSetAuthInfoEx. See the
+    MSDN for more information on RpcBidningSetAuthInfoEx. This field can be
+    used only when authentication level and security package are selected.
+    
+-I <auth_identity> - allows you to specify alternative identity to connect
+    to the server. The identity is in the form user,domain,password where
+    the three fields have the obvious meaning. If the user name, domain or
+    password have special characters that can be interpreted by the shell
+    be sure to enclose the identity in double quotes. You can specify *
+    instead of the password and RPC will prompt you to enter the password
+    without echoing it on the screen. If this field is not specified, the
+    identity of the logged on user will be used. This field can be used
+    only when authentication level and security package are selected.
+  
+-C <capabilities> - a hex bitmask of flags. It has the same meaning as
+    the Capabilities field in the RPC_SECURITY_QOS structure described
+    in the MSDN. This field can be used only when authentication level and
+    security package are selected.
+    
+-T <identity_tracking> - can be static or dynamic. If not specified,
+    dynamic is the default. This field can be used only when authentication
+    level and security package are selected.
+
+-M <impersonation_type> - can be anonymous, identify, impersonate or
+    delegate. Default is impersonate. This field can be used only when
+    authentication level and security package are selected.  
+
+-S <server_sid> - the expected SID of the server. For more information
+    see the Sid field in the RPC_SECURITY_QOS structure in the MSDN. Using      
+    this option requires Windows .NET Server 2003 or higher. This field can
+    be used only when authentication level and security package are
+    selected.
+    
+-Z <effectiveonly> - the EffectiveOnly setting to use.  For more information
+    see the EffectiveOnly field in the RPC_SECURITY_QOS structure in MSDN.
+    Using this option requires Windows Vista or higher. This field can be
+    used only when authentication level and security package are selected.
+
+-D <serversecuritydescriptor> - the security descriptor (in string format)
+    of the server when using mutual authentication.  For more information
+    see the ServerSecurityDescriptor field in the RPC_SECURITY_QOS structure
+    in MSDN. Using this option requires Windows 8 or higher. This field can
+    be used only when authentication level and security package are
+    selected.
+
+-P <proxy_auth_identity> - specifies the identity to authenticate with to
+    the RPC/HTTP proxy. Has the same format as for the -I option. 
+    Also, you must specify security package (-u), authentication level 
+    (-a), and authentication schemes (-H) in order to use this option.
+    
+-F <RPCHTTP_flags> - the flags to pass for RPC/HTTP front end
+    authentication. The flags may be specified as numbers or names
+    The currently recognized flags are:
+        Use SSL - 1 or ssl or use_ssl
+        Use first auth scheme - 2 or first or use_first
+    See the Flags field in RPC_HTTP_TRANSPORT_CREDENTIALS for more 
+    information. Also, you must specify security package (-u) and 
+    authentication level (-a) in order to use this option.
+    
+-H <RPC/HTTP_authn_schemes> - the authentication schemes to use for
+    RPC/HTTP front end authentication. This option is a list of numerical
+    values or names separated by comma. E.g. Basic,NTLM. Recognized values
+    are (names are not case sensitive:
+        Basic - 1 or Basic
+        NTLM - 2 or NTLM
+        Certificate - 65536 or Cert
+    Also, you must specify security package (-u) and authentication level 
+    (-a) in order to use this option.
+    
+-B <server_certificate_subject> - the server certificate subject. For
+    more information, see the ServerCertificateSubject field in the
+    RPC_HTTP_TRANSPORT_CREDENTIALS structure in the MSDN. You must use
+    SSL for this option to work. Also, you must specify security package 
+    (-u) and authentication level (-a) in order to use this option.
+    
+-b - retrieves the server certificate subject from the certificate sent
+    by the server and prints it to a screen or a log file. Valid only when
+    the Proxy Echo only option (-E) and the use SSL options are specified.
+    Also, you must specify security package (-u) and authentication level 
+    (-a) in order to use this option.
+    
+-R - specifies the HTTP proxy. if it's 'none', we will not use HTTP proxy but
+    directly attempt the RPC proxy. the value 'default' means to use the IE
+    settings in your client machine. any other value will be treated as the
+    explicit HTTP proxy. if you don't specify this flag, the default value
+    is assumed, that is, the IE settings are checked. this flag is valid
+    only when the -E (Echo Only) flag is enabled.
+
+-E - restricts the ping to the RPC/HTTP proxy only. The ping does not
+    reach the server. Useful when trying to establish whether the RPC/HTTP
+    proxy is reachable. Also, you must specify security package (-u) and 
+    authentication level (-a) in order to use this option. To specify an 
+    HTTP proxy, use the -R flag. If an HTTP proxy is specified in the -o 
+    flag, this option will be ignored.
+ 
+-q - quiet mode. Does not issue any prompts except for passwords. Assumes
+    'Y' response to all queries. Use this option with care.
+    
+-c - use smart card certificate. RPCPing will prompt user to choose
+    smart card.
+    
+-A <http_proxy_auth_identity> - specifies the identity to authenticate
+    with to the HTTP proxy. Has the same format as for the -I option. 
+    Also, you must specify authentication schemes (-U), security package 
+    (-u) and authentication level (-a) in order to use this option.
+    
+-U <HTTP_proxy_authn_schemes> - the authentication schemes to use for
+    HTTP proxy authentication. This option is a list of numerical
+    values or names separated by comma. E.g. Basic,NTLM. Recognized values 
+    are (names are not case sensitive:
+        Basic - 1 or Basic
+        NTLM - 2 or NTLM
+    You must specify security package (-u) and authentication level (-a) 
+    in order to use this option.
+
+-r <report_results_interval> - if multiple iterations are specified, this
+    option will make rpcping display current execution statistics
+    periodically instead after the last call. The report interval is given
+    in seconds. Default is 15.
+    
+-v <verbose_level> - tells rpcping how verbose to make the output. Default
+    value is 1. 2 and 3 provide more output from rpcping.
+       
+Example: Find out if your Exchange server that you connect through
+RPC/HTTP is accessible:
+    rpcping -t ncacn_http -s exchange_server -o RpcProxy=front_end_proxy
+        -P "username,domain,*" -H Basic -u NTLM -a connect -F 3
+When prompted for the password, enter it. exchange_server is the name of
+your exchange server, front_end_proxy is the name of your proxy, username
+and domain are your user name and domain as you would enter them in the
+Outlook prompt. The other parameters will ask rpcping to ping your
+Exchange server in exactly the same way as Outlook will connect to it for
+the typical profile.
+
+-p - Prompt for credentials if authentication fails.
+
+```
+
+### Loaded Modules:
+
+Path |
+-- |
+C:\WINDOWS\SYSTEM32\ntdll.dll |
+C:\WINDOWS\System32\wow64.dll |
+C:\WINDOWS\System32\wow64base.dll |
+C:\WINDOWS\System32\wow64con.dll |
+C:\WINDOWS\System32\wow64cpu.dll |
+C:\WINDOWS\System32\wow64win.dll |
+C:\WINDOWS\SysWOW64\RpcPing.exe |
+
+
+## Signature
+
+* Status: Signature verified.
+* Serial: `33000002ED2C45E4C145CF48440000000002ED`
+* Thumbprint: `312860D2047EB81F8F58C29FF19ECDB4C634CF6A`
+* Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+* Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+## File Metadata
+
+* Original Filename: RpcPing.exe.mui
+* Product Name: Microsoft Windows Operating System
+* Company Name: Microsoft Corporation
+* File Version: 10.0.22000.1 (WinBuild.160101.0800)
+* Product Version: 10.0.22000.1
+* Language: English (United States)
+* Legal Copyright:  Microsoft Corporation. All rights reserved.
+* Machine Type: 32-bit
+
+## File Scan
+
+* VirusTotal Detections: 0/73
+* VirusTotal Link: https://www.virustotal.com/gui/file/e38a5750c888bbe4f0cb5d2d81b66c24c5842b9d3f936f7e61d3a7a2507cac40/detection
+
+
+## Possible Misuse
+
+*The following table contains possible examples of `RpcPing.exe` being misused. While `RpcPing.exe` is **not** inherently malicious, its legitimate functionality can be abused for malicious purposes.*
+
+Source | Source File | Example | License
+-- | -- | -- | --
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_rpcping.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rpcping.yml) | `title: Capture Credentials with Rpcping.exe`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_rpcping.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rpcping.yml) | `description: Detects using Rpcping.exe to send a RPC test connection to the target server (-s) and force the NTLM hash to be sent in the process.`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_rpcping.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rpcping.yml) | `- https://lolbas-project.github.io/lolbas/Binaries/Rpcping/`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[sigma](https://github.com/Neo23x0/sigma) | [win_susp_rpcping.yml](https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rpcping.yml) | `Image\|endswith: '\rpcping.exe'`{:.highlight .language-yaml} | [DRL 1.0](https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md)
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `Name: Rpcping.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `- Command: rpcping -s 127.0.0.1 -e 1234 -a privacy -u NTLM`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `- Command: rpcping /s 10.0.0.35 /e 9997 /a connect /u NTLM`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `- Path: C:\Windows\System32\rpcping.exe`{:.highlight .language-yaml} | 
+[LOLBAS](https://github.com/LOLBAS-Project/LOLBAS) | [Rpcping.yml](https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml) | `- Path: C:\Windows\SysWOW64\rpcping.exe`{:.highlight .language-yaml} | 
+
+## Additional Info*
+
+**The information below is copied from [MicrosoftDocs](https://github.com/MicrosoftDocs/windowsserverdocs), which is maintained by [Microsoft](https://opensource.microsoft.com/codeofconduct/). Available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.*
+
+---
+
+## rpcping
+
+>Applies to: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012
+
+Confirms the RPC connectivity between the computer running Microsoft Exchange Server and any of the supported Microsoft Exchange Client workstations on the network. This utility can be used to check if the Microsoft Exchange Server services are responding to RPC requests from the client workstations via the network.
+
+### Syntax
+
+```
+rpcping [/t <protseq>] [/s <server_addr>] [/e <endpoint>
+        |/f <interface UUID>[,majorver]] [/O <interface object UUID]
+        [/i <#_iterations>] [/u <security_package_id>] [/a <authn_level>]
+        [/N <server_princ_name>] [/I <auth_identity>] [/C <capabilities>]
+        [/T <identity_tracking>] [/M <impersonation_type>]
+        [/S <server_sid>] [/P <proxy_auth_identity>] [/F <RPCHTTP_flags>]
+        [/H <RPC/HTTP_authn_schemes>] [/o <binding_options>]
+        [/B <server_certificate_subject>] [/b] [/E] [/q] [/c]
+        [/A <http_proxy_auth_identity>] [/U <HTTP_proxy_authn_schemes>]
+        [/r <report_results_interval>] [/v <verbose_level>] [/d]
+```
+
+#### Parameters
+
+| Parameter | Description |
+|--|--|
+| /t `<protseq>` | Specifies the protocol sequence to use. Can be one of the standard RPC protocol sequences: ncacn_ip_tcp, ncacn_np, or ncacn_http.<p>If not specified, default is ncacn_ip_tcp. |
+| /s `<server_addr>` | Specifies the server address. If not specified, the local machine will be pinged. |
+| /e `<endpoint>` | Specifies the endpoint to ping. If none is specified, the endpoint mapper on the target machine will be pinged.<p>This option is mutually exclusive with the interface (**/f**) option. |
+| /o `<binding_options>` | Specifies the binding options for the RPC ping. |
+| /f `<interface UUID>[,Majorver]` | Specifies the interface to ping. This option is mutually exclusive with the endpoint option. The interface is specified as a UUID.<p>if the *majorver* is not specified, version 1 of the interface will be sought.<p>When interface is specified, **rpcping** will query the endpoint mapper on the target machine to retrieve the endpoint for the specified interface. The endpoint mapper will be queried using the options specified in the command line. |
+| /O `<object UUID>` | Specifies the object UUID if the interface registered one. |
+| /i `<#_iterations>` | Specifies the number of calls to make. The default is 1. This option is useful for measuring connection latency if multiple iterations are specified. |
+| /u `<security_package_id>` | Specifies the security package (security provider) RPC will use to make the call. The security package is identified as a number or a name. If a number is used it is the same number as in the RpcBindingSetAuthInfoEx API. If you specify this option, you must specify an authentication level other than *none*. There's no default for this option. If it isn't specified, RPC won't use security for the ping. The list below shows the names and numbers. Names are not case sensitive:<ul><li>Negotiate / 9 or one of nego, snego or negotiate</li><li>NTLM / 10 or NTLM</li><li>SChannel / 14 or SChannel</li><li>Kerberos / 16 or Kerberos</li><li>Kernel / 20 or Kernel</li></ul> |
+| /a `<authn_level>` | Specifies the authentication level to use. If this option is specified, the security package ID (**/u**) must also be specified. If this option isn't specified, RPC won't use security for the ping. There's no default for this option. Possible values are:<ul><li>connect</li><li>call</li><li>pkt</li><li>integrity</li><li>privacy</li></ul> |
+| /N `<server_princ_name>` | Specifies a server principal name.<p>This field can be used only when authentication level and security package are selected. |
+| /I `<auth_identity>` | Allows you to specify alternative identity to connect to the server. The identity is in the form user,domain,password. If the user name, domain, or password have special characters that can be interpreted by the shell, enclose the identity in double quotes. You can specify `\*` instead of the password and RPC will prompt you to enter the password without echoing it on the screen. If this field is not specified, the identity of the logged on user will be used.<p>This field can be used only when authentication level and security package are selected. |
+| /C `<capabilities>` | Specifies a hexadecimal bitmask of flags. This field can be used only when authentication level and security package are selected. |
+| /T `<identity_tracking>` | Specifies static or dynamic. If not specified, dynamic is the default.<p>This field can be used only when authentication level and security package are selected. |
+| /M `<impersonation_type>` | Specifies anonymous, identify, impersonate or delegate. Default is impersonate.<p>This field can be used only when authentication level and security package are selected. |
+| /S `<server_sid>` | Specifies the expected SID of the server.<p>This field can be used only when authentication level and security package are selected. |
+| /P `<proxy_auth_identity>` | Specifies the identity to authenticate with to the RPC/HTTP proxy. Has the same format as for the **/I** option. You must specify security package (**/u**), authentication level (**/a**), and authentication schemes (**/H**) in order to use this option. |
+| /F `<RPCHTTP_flags>` | Specifies the flags to pass for RPC/HTTP front end authentication. The flags may be specified as numbers or names The currently recognized flags are:<ul><li>Use SSL / 1 or ssl or use_ssl</li><li>Use first auth scheme / 2 or first or use_first</li></ul>You must specify security package (**/u**) and authentication level (**/a**) to use this option. |
+| /H `<RPC/HTTP_authn_schemes>` | Specifies the authentication schemes to use for RPC/HTTP front end authentication. This option is a list of numerical values or names separated by comma. Example: Basic,NTLM. Recognized values are (names are not case sensitive):<ul><li>Basic / 1 or Basic</li><li>NTLM / 2 or NTLM</li><li>Certificate / 65536 or Cert</li></ul><p>You must specify security package (**/u**) and authentication level (**/a**) in order to use this option. |
+| /B `<server_certificate_subject>` | Specifies the server certificate subject. You must use SSL for this option to work.<p>You must specify security package (**/u**) and authentication level (**/a**) in order to use this option. |
+| /b | Retrieves the server certificate subject from the certificate sent by the server and prints it to a screen or a log file. Valid only when the Proxy echo only option (/E) and the use SSL options are specified.<p>You must specify security package (**/u**) and authentication level (**/a**) in order to use this option. |
+| /R | Specifies the HTTP proxy. If *none*, the RPC proxy is used. The value *default* means to use the IE settings in your client machine. Any other value will be treated as the explicit HTTP proxy. If you do not specify this flag, the default value is assumed, that is, the IE settings are checked. This flag is valid only when the **/E** (echo Only) flag is enabled. |
+| /E | Restricts the ping to the RPC/HTTP proxy only. The ping does not reach the server. Useful when trying to establish whether the RPC/HTTP proxy is reachable. To specify an HTTP proxy, use the /R flag. If an HTTP proxy is specified in the /o flag, this option will be ignored.<p>You must specify security package (**/u**) and authentication level (**/a**) in order to use this option. |
+| /q | Specifies quiet mode. Does not issue any prompts except for passwords. Assumes *Y* response to all queries. Use this option with care. |
+| /c | Use smart card certificate. rpcping will prompt user to choose smart card. |
+| /A | Specifies the identity with which to authenticate to the HTTP proxy. Has the same format as for the /I option.<p>You must specify authentication schemes (/U), security package (**/u**) and authentication level (**/a**) in order to use this option. |
+| /U | Specifies the authentication schemes to use for HTTP proxy authentication. This option is a list of numerical values or names separated by comma. Example: Basic,NTLM. Recognized values are (names are not case sensitive):<ul><li>Basic / 1 or Basic</li><li>NTLM / 2 or NTLM</li></ul>You must specify security package (**/u**) and authentication level (**/a**) in order to use this option. |
+| /r | If multiple iterations are specified, this option will make **rpcping** display current execution statistics periodically instead after the last call. The report interval is given in seconds. Default is 15. |
+| /v | Tells **rpcping** how verbose to make the output. Default value is 1. 2 and 3 provide more output from **rpcping**. |
+| /d | Launches RPC network diagnostic UI. |
+| /p | Specifies to prompt for credentials if authentication fails. |
+| /? | Displays help at the command prompt. |
+
+### Examples
+
+To find out if the Exchange server you connect through RPC/HTTP is accessible, type:
+
+```
+rpcping /t ncacn_http /s exchange_server /o RpcProxy=front_end_proxy /P username,domain,* /H Basic /u NTLM /a connect /F 3
+```
+
+### Additional References
+
+- [Command-Line Syntax Key](https://github.com/MicrosoftDocs/windowsserverdocs/tree/master/WindowsServerDocs/administration/windows-commands/command-line-syntax-key.md)
+
+---
+
+
+
+MIT License. Copyright (c) 2020-2021 Strontic.
+
+

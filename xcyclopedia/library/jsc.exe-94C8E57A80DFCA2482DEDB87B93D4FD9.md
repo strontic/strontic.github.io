@@ -117,6 +117,8 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\jsc.exe](jsc.exe-1B0E9D39693B026B951BBF2A25BA61A0.md) | 74
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\jsc.exe](jsc.exe-1B0E9D39693B026B951BBF2A25BA61A0.md) | 74
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\jsc.exe](jsc.exe-94C8E57A80DFCA2482DEDB87B93D4FD9.md) | 100
 
 ## Possible Misuse

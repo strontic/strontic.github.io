@@ -109,6 +109,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\WsatConfig.exe](WsatConfig.exe-37022D63226636484118C28197DB08B4.md) | 82
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\WsatConfig.exe](WsatConfig.exe-37022D63226636484118C28197DB08B4.md) | 82
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\WsatConfig.exe](WsatConfig.exe-D7F8F9FE510F05C919F07DEEF56B8B3E.md) | 100
 
 

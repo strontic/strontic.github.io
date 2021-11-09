@@ -53,6 +53,8 @@ File | Score
 [C:\Windows\system32\IME\SHARED\imecfmui.exe](imecfmui.exe-9582ED52FF5E064107941111316B4756.md) | 46
 [C:\WINDOWS\system32\IME\SHARED\imecfmui.exe](imecfmui.exe-9D88FE39CFD94AECCC9161C3FC54D28F.md) | 43
 [C:\Windows\system32\IME\SHARED\imecfmui.exe](imecfmui.exe-CA2AFE86E64242CE78A5FC41F8D774CB.md) | 38
+[C:\WINDOWS\system32\IME\SHARED\imecfmui.exe](imecfmui.exe-FE0E34B0CB56664E9D276A8FBD1B0752.md) | 30
+[C:\WINDOWS\SysWOW64\IME\SHARED\imecfmui.exe](imecfmui.exe-4F0BCD58BCCF7D81C0933CF905791191.md) | 27
 [C:\Windows\SysWOW64\IME\SHARED\imecfmui.exe](imecfmui.exe-7834F4F5292780581414F6B6B289D5E7.md) | 27
 [C:\WINDOWS\SysWOW64\IME\SHARED\imecfmui.exe](imecfmui.exe-BCDCDA8BF1BD998A89B860B4916C5821.md) | 33
 [C:\Windows\SysWOW64\IME\shared\imecfmui.exe](imecfmui.exe-C0C05DDCFB5489B02F27886C773B6EC2.md) | 35

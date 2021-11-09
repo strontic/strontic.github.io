@@ -30,7 +30,7 @@ PE256 | `11C4C432EF757443FA7635EBF0A84C240176D14AA023F4AFF636DED54A17168D`
 Microsoft DiskPart version 10.0.19041.1
 
 Copyright (C) Microsoft Corporation.
-On computer: DESKTOP-DVEMHUO
+On computer: default-pc
 
 DiskPart has encountered an error: No mapping between account names and security IDs was done.
 See the System Event Log for more information.

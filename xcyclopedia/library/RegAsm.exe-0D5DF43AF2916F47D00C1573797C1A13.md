@@ -95,6 +95,8 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe](RegAsm.exe-42AB6E035DF99A43DBB879C86B620B91.md) | 77
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe](RegAsm.exe-15D0F3ABFB5A3E38E83EA61A082EF934.md) | 72
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe](RegAsm.exe-A4EB36BAE72C5CB7392F2B85609D4A7E.md) | 83
 
 ## Possible Misuse

@@ -110,11 +110,6 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/e510ae1a59dd629d0c03425bcc4457e68926fe7b204154d9eebce9d2985925a1/detection
 
-## File Similarity (ssdeep match)
-
-File | Score
--- | --
-[C:\Users\user\AppData\Local\Discord\Update.exe](Update.exe-E039F56DC6315942BC3E3D9AD4D586E7.md) | 100
 
 ## Possible Misuse
 

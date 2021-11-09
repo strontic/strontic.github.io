@@ -132,6 +132,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\Defrag.exe](Defrag.exe-4DC461ACA28988B93236664F7E2CA393.md) | 43
 [C:\windows\system32\dfrgui.exe](dfrgui.exe-B04260F1057D2C30D6475F553A3F85E3.md) | 85
 [C:\Windows\system32\dfrgui.exe](dfrgui.exe-DE723C6B0D294576C1258CC6925D4E7B.md) | 85
 [C:\Windows\system32\shwebsvc.dll](shwebsvc.dll-EB1AC593EA9EB9650BC66622031E0051.md) | 50

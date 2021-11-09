@@ -232,8 +232,12 @@ File | Score
 [C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\UIAutomationClientsideProviders.dll](UIAutomationClientsideProviders.dll-49BFB24F8C960F5E51BA9A09E8239433.md) | 43
 [C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\UIAutomationProvider.dll](UIAutomationProvider.dll-A8FDECB01D3D519E7CC1B542CFE283BA.md) | 44
 [C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\XamlBuildTask.dll](XamlBuildTask.dll-940800B93FEA3076DC7A7CEB176A2C03.md) | 32
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\dfsvc.exe](dfsvc.exe-B1C06C3F89538F7B4F892D0A8F5E7EB9.md) | 61
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Workflow.Compiler.exe](Microsoft.Workflow.Compiler.exe-CC3FC0B1818A22ADB086F2785A3E5A00.md) | 32
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Workflow.Compiler.exe](Microsoft.Workflow.Compiler.exe-FC9DE0484A269CE25C09B5B1D25139D1.md) | 40
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\dfsvc.exe](dfsvc.exe-B1C06C3F89538F7B4F892D0A8F5E7EB9.md) | 61
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\dfsvc.exe](dfsvc.exe-B4088F44B80D363902E11F897A7BAC09.md) | 100
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Workflow.Compiler.exe](Microsoft.Workflow.Compiler.exe-CC3FC0B1818A22ADB086F2785A3E5A00.md) | 32
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Workflow.Compiler.exe](Microsoft.Workflow.Compiler.exe-FC9DE0484A269CE25C09B5B1D25139D1.md) | 40
 [C:\Windows\system32\aspnet_counters.dll](aspnet_counters.dll-E5D9781623B04FB02D65C63B64B78CAA.md) | 41
 [C:\Windows\system32\msvcr100_clr0400.dll](msvcr100_clr0400.dll-F08548EEB911DFA5B0D22C5CFCBABA06.md) | 50

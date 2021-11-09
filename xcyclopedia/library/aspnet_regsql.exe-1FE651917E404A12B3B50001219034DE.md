@@ -77,6 +77,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_regsql.exe](aspnet_regsql.exe-7A7139F35BC6A57AD087D1502E8B4047.md) | 82
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\aspnet_regsql.exe](aspnet_regsql.exe-E629D7B5362A131823EDFF9CD2327144.md) | 79
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\aspnet_regsql.exe](aspnet_regsql.exe-C9924FA1A037F1FC1E30645C016880A8.md) | 83
 
 
 

@@ -151,6 +151,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/23c34ff2bb98f028fefab008f83af6c74a5f7b99114e6140cd69212644bf8d3e/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\vbc.exe](vbc.exe-C189626864BC267D0321B7CCA6DD5586.md) | 94
 
 ## Possible Misuse
 

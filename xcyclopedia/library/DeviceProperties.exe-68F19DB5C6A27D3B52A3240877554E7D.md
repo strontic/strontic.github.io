@@ -44,6 +44,7 @@ File | Score
 -- | --
 [C:\Windows\system32\DeviceProperties.exe](DeviceProperties.exe-02C5A4C5A452E248F805186B8BF41BF7.md) | 90
 [C:\Windows\system32\DeviceProperties.exe](DeviceProperties.exe-24AC8FD0EA0CDE206D34CD41C7168248.md) | 91
+[C:\WINDOWS\system32\DeviceProperties.exe](DeviceProperties.exe-65B28F4E01B936D1ADE618762CDEC893.md) | 88
 [C:\WINDOWS\system32\DeviceProperties.exe](DeviceProperties.exe-B7352C06F8FCC2FD9E715CFC3077294A.md) | 90
 [C:\Windows\system32\DeviceProperties.exe](DeviceProperties.exe-C799FC7C577BA8AFF1B73EBD54210C50.md) | 93
 [C:\Windows\SysWOW64\DeviceProperties.exe](DeviceProperties.exe-4BE4A5A9E90122607ADF050E231760BB.md) | 91

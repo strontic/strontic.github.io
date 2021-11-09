@@ -62,6 +62,7 @@ C:\Windows\system32\ofdeploy.exe |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\ofdeploy.exe](ofdeploy.exe-42457D1773425C16D67E43FBF6705071.md) | 32
 [C:\WINDOWS\system32\ofdeploy.exe](ofdeploy.exe-D2DCAEBF55BC9F19F882F639E6FBD898.md) | 32
 [C:\Windows\system32\ofdeploy.exe](ofdeploy.exe-F09C49AD23CECE014B1244ED86CF5E3B.md) | 40
 

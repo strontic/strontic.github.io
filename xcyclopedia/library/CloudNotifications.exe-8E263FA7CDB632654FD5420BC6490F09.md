@@ -42,6 +42,7 @@ SSDEEP | `1536:jb+YR3wgD0Nuoh44/cJ6x0ZOOLAqiKTy+YMXPhJ:jb++sNrhnKO+ZX`
 
 File | Score
 -- | --
+[C:\WINDOWS\SysWOW64\CloudNotifications.exe](CloudNotifications.exe-9FA79402F5A2589827D6C98857D3C1C2.md) | 44
 [C:\Windows\SysWOW64\CloudNotifications.exe](CloudNotifications.exe-AD462B17677CFBD5F39350D3BEFC79B2.md) | 46
 [C:\Windows\SysWOW64\CloudNotifications.exe](CloudNotifications.exe-CC6E14967CA55471701693EB47C00369.md) | 46
 

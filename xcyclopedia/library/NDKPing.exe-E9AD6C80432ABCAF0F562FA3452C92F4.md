@@ -87,6 +87,7 @@ Error: Unable to stop NDKPing driver.
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\NDKPing.exe](NDKPing.exe-22AB14352EF4D54B2B40770A6982CFDC.md) | 44
 [C:\Windows\system32\NDKPing.exe](NDKPing.exe-5FC26E00B9012CC0188F65BB999174E9.md) | 41
 
 

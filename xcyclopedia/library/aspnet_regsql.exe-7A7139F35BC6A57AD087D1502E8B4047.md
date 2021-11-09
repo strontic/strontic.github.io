@@ -77,7 +77,9 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\aspnet_regsql.exe](aspnet_regsql.exe-E629D7B5362A131823EDFF9CD2327144.md) | 85
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_regsql.exe](aspnet_regsql.exe-1FE651917E404A12B3B50001219034DE.md) | 82
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\aspnet_regsql.exe](aspnet_regsql.exe-C9924FA1A037F1FC1E30645C016880A8.md) | 82
 
 
 

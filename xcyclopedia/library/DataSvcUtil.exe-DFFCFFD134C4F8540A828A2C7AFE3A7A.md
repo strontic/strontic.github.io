@@ -96,6 +96,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\DataSvcUtil.exe](DataSvcUtil.exe-D524E11B25628D3CEA3AD5B0907669A3.md) | 71
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\DataSvcUtil.exe](DataSvcUtil.exe-D524E11B25628D3CEA3AD5B0907669A3.md) | 71
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\DataSvcUtil.exe](DataSvcUtil.exe-DFFCFFD134C4F8540A828A2C7AFE3A7A.md) | 100
 
 ## Possible Misuse

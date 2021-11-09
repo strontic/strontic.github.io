@@ -44,12 +44,14 @@ File | Score
 -- | --
 [C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-04029E121A0CFA5991749937DD22A1D9.md) | 74
 [C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-097CE5761C89434367598B34FE32893B.md) | 79
+[C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-0E9CCD796E251916133392539572A374.md) | 74
 [C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-7353F60B1739074EB17C5F4DDDEFE239.md) | 74
 [C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-CDA48FC75952AD12D99E526D0B6BF70A.md) | 71
 [C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-F8278DB78BE164632C57002E82B07813.md) | 75
 [C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-5B16D54F2AE6B74DCF863BC0F5E502B5.md) | 74
 [C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-65D86C34814C02569E2AD53FD24E7F61.md) | 75
 [C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-83767E18DB29B51A804A9E312D0ED99C.md) | 75
+[C:\WINDOWS\SysWOW64\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-BC4535F575200446E698610C00E1483D.md) | 72
 [C:\WINDOWS\SysWOW64\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-BCC5A6493E0641AA1E60CBF69469E579.md) | 71
 [C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-C32CA4ACFCC635EC1EA6ED8A34DF5FAC.md) | 74
 [C:\windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe](powershell.exe-EF8FA4F195C6239273C100AB370FCFDC.md) | 91

@@ -71,6 +71,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\aspnet_wp.exe](aspnet_wp.exe-560371FAC2E9E2E9F6C2380BE81C2A95.md) | 75
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_wp.exe](aspnet_wp.exe-98C345E7F21D40B5D9102B83BC670DC6.md) | 74
 
 

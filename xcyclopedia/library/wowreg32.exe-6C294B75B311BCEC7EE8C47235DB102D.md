@@ -38,6 +38,11 @@ SSDEEP | `384:YBEmVonZnuwRGSzPDwSyzfy9kIqU4TMkLrWgcZjHW:YBRWZn3LPDcq9ITMmaZj`
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\wowreg32.exe](wowreg32.exe-E31D2FB166DA8CEBB8CFAA9E19590A58.md) | 33
 
 
 

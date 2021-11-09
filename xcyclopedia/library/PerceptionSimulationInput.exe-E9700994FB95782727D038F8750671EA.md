@@ -67,6 +67,7 @@ File | Score
 -- | --
 [C:\WINDOWS\system32\PerceptionSimulation\PerceptionSimulationInput.exe](PerceptionSimulationInput.exe-A12943D36DBF8296EE2DCE49B77A5F13.md) | 88
 [C:\Windows\system32\PerceptionSimulation\PerceptionSimulationInput.exe](PerceptionSimulationInput.exe-BD77981903F642E483C2EAD1F153E305.md) | 96
+[C:\WINDOWS\system32\PerceptionSimulation\PerceptionSimulationInput.exe](PerceptionSimulationInput.exe-E64611E28226B5928A42DB9413FACC05.md) | 91
 
 
 

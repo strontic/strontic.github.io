@@ -59,6 +59,7 @@ File | Score
 [C:\windows\SysWOW64\mmc.exe](mmc.exe-8096658A9A034257022ADF125B85F904.md) | 27
 [C:\Windows\SysWOW64\mmc.exe](mmc.exe-9012E43AD3F261742257A1234A006746.md) | 32
 [C:\Windows\SysWOW64\mmc.exe](mmc.exe-A40546440A81D2E36FB1F6F18AC376BC.md) | 33
+[C:\WINDOWS\SysWOW64\mmc.exe](mmc.exe-BA18900E566A9BDC1330E5ADE7BF4590.md) | 29
 
 ## Possible Misuse
 

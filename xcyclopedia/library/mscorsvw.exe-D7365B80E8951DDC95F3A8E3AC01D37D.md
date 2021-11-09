@@ -61,6 +61,11 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/72
 * VirusTotal Link: https://www.virustotal.com/gui/file/3e5099f573601926e59862fba2495974688e72677c73f10e4c99e26a76cdcf37/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\mscorsvw.exe](mscorsvw.exe-C17EBBA87A1484B3A72BE5F241045B70.md) | 86
 
 ## Possible Misuse
 

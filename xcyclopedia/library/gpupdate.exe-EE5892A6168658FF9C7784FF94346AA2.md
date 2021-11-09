@@ -114,6 +114,7 @@ File | Score
 [C:\Windows\system32\gpupdate.exe](gpupdate.exe-2F23BC7F66D9C1CA02F7777616285874.md) | 30
 [C:\Windows\system32\gpupdate.exe](gpupdate.exe-5BC3021BF9F2787FA17442B68739755E.md) | 30
 [C:\WINDOWS\system32\gpupdate.exe](gpupdate.exe-D4F01BEC9CA921C13ED1BDD1BF1D2D24.md) | 30
+[C:\WINDOWS\system32\gpupdate.exe](gpupdate.exe-D632D949D09F861F3D1B1097BBC5E4B3.md) | 25
 
 ## Possible Misuse
 

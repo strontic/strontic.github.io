@@ -112,6 +112,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/4e6240e12755d0f48534a42f78b860ffba993d94d386a7d64063a89afa250814/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\ServiceModelReg.exe](ServiceModelReg.exe-4350366F27DE5C8C1FCB24228862F814.md) | 94
 
 
 

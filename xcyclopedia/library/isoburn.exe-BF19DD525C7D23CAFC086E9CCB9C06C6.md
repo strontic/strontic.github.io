@@ -94,6 +94,7 @@ File | Score
 [C:\WINDOWS\system32\isoburn.exe](isoburn.exe-78164919675FD6B09CDE384C2A3310BC.md) | 35
 [C:\Windows\system32\isoburn.exe](isoburn.exe-C03E53FF88AEE435050361147F76FF75.md) | 33
 [C:\WINDOWS\SysWOW64\isoburn.exe](isoburn.exe-022E216F1DA247426B2E56C73BEE14F6.md) | 35
+[C:\WINDOWS\SysWOW64\isoburn.exe](isoburn.exe-1E8B003D3D7F449E17E76B24B5AC8728.md) | 40
 [C:\Windows\SysWOW64\isoburn.exe](isoburn.exe-4133422034F384BC58988D75844A4BD5.md) | 41
 [C:\Windows\SysWOW64\isoburn.exe](isoburn.exe-BDC61F9F6F634563BF1DB9C6F92C1DF5.md) | 46
 [C:\Windows\SysWOW64\isoburn.exe](isoburn.exe-C599384D60BD0D4609004177762F2480.md) | 32

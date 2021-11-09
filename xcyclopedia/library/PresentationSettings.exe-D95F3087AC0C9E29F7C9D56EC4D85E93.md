@@ -92,6 +92,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.151
 File | Score
 -- | --
 [C:\Windows\system32\PresentationSettings.exe](PresentationSettings.exe-658873DCA615D9692113B0240F2B17AC.md) | 44
+[C:\WINDOWS\system32\PresentationSettings.exe](PresentationSettings.exe-6813E3E9314D3CC71A05EAFA13680508.md) | 46
 [C:\Windows\system32\PresentationSettings.exe](PresentationSettings.exe-790799A168C41689849310F6C15F98FA.md) | 49
 [C:\WINDOWS\system32\PresentationSettings.exe](PresentationSettings.exe-B70F0B64ADB8B30223043D1C8F104252.md) | 54
 

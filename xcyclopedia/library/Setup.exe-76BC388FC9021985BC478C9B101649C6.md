@@ -112,6 +112,7 @@ C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.1
 File | Score
 -- | --
 [C:\Windows\system32\oobe\Setup.exe](Setup.exe-0B67469C1455F18FF86E3B61A608C24F.md) | 44
+[C:\WINDOWS\system32\oobe\Setup.exe](Setup.exe-238E356EFAAF330B0D5669321660DBD2.md) | 40
 [C:\Windows\system32\oobe\Setup.exe](Setup.exe-872B6BC9730A7D94E91A38E3AA6DFDEE.md) | 44
 [C:\Windows\system32\oobe\Setup.exe](Setup.exe-8BBDBD0FA1F6AD661B85FC8A5BD3E2B3.md) | 43
 [C:\Windows\system32\oobe\Setup.exe](Setup.exe-C50F9DE218E09BB839C0D58727D7857D.md) | 43

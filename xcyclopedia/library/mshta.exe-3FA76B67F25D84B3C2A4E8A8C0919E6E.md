@@ -43,6 +43,7 @@ SSDEEP | `96:u4c5BDMXp5IRe+pYX9rnpkYi6y1XDWPT8mp0Hsd3yrO+zJUw0Fcg2DJ+PjGGsEWG:uT
 File | Score
 -- | --
 [C:\Windows\SysWOW64\mshta.exe](mshta.exe-06B02D5C097C7DB1F109749C45F3F505.md) | 35
+[C:\WINDOWS\SysWOW64\mshta.exe](mshta.exe-7909FE33D4982656286C501DF1375EA0.md) | 38
 
 ## Possible Misuse
 

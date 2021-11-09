@@ -46,6 +46,7 @@ SSDEEP | `1536:VDep0Ef77YAmocVoyg1e1qpTBPvzj07j5Ufcc1PiL:WH7YAdQoyR1cBXK5Ufcc16L
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\changepk.exe](changepk.exe-1379B19A1C5D68C64E5602B23DC6632B.md) | 35
 [C:\Windows\system32\changepk.exe](changepk.exe-712C2F1E1A8AC13E7DB69B2253294484.md) | 44
 [C:\Windows\system32\changepk.exe](changepk.exe-E158157A57E322D9BB683FE2378724BA.md) | 44
 [C:\Windows\system32\changepk.exe](changepk.exe-E1CF89FC48F0C246C7FFDAC3727CFFCB.md) | 38

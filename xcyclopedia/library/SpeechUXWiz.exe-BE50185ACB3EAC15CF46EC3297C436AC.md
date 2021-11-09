@@ -50,6 +50,7 @@ File | Score
 [C:\Windows\system32\Speech\SpeechUX\speechuxcpl.dll](speechuxcpl.dll-F80452AD1ED856C3C07F4EC41188A22B.md) | 43
 [C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-02BCE04D6192EB6BC85A195E0187E707.md) | 75
 [C:\Windows\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-12BEDBBE10C9281CADB3A1CE54F716E5.md) | 69
+[C:\WINDOWS\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-9D1E6FB81C0550862FDEF8112DF97ED0.md) | 43
 [C:\WINDOWS\system32\Speech\SpeechUX\SpeechUXWiz.exe](SpeechUXWiz.exe-FAE658436615C362C1DE0464C028F227.md) | 71
 [C:\Windows\SysWOW64\Speech\SpeechUX\sapi.cpl](sapi.cpl-17C07E2F8D1EC3FA10F83523ACD38829.md) | 47
 

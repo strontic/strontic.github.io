@@ -52,6 +52,7 @@ File | Score
 [C:\Windows\SysWOW64\PkgMgr.exe](PkgMgr.exe-24DFD1EFE2837C760511CE773DF3E9CA.md) | 47
 [C:\Windows\SysWOW64\PkgMgr.exe](PkgMgr.exe-299F9CBA823CFB6F7AD965877154902B.md) | 47
 [C:\Windows\SysWOW64\PkgMgr.exe](PkgMgr.exe-2F98A0859C8F75D8EEE78E0C8DB2F59F.md) | 54
+[C:\WINDOWS\SysWOW64\PkgMgr.exe](PkgMgr.exe-694A2798122C9BE0043DD732C33BC4CE.md) | 49
 [C:\Windows\SysWOW64\wusa.exe](wusa.exe-18DE1F2C1BC5B1AFE3A66DD973C69411.md) | 46
 
 ## Possible Misuse

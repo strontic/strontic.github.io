@@ -124,6 +124,7 @@ C:\Windows\SysWOW64\ReAgentc.exe |
 File | Score
 -- | --
 [C:\Windows\SysWOW64\ReAgentc.exe](ReAgentc.exe-1C8ED08C898D73964B98AAA5F06A0F63.md) | 38
+[C:\WINDOWS\SysWOW64\ReAgentc.exe](ReAgentc.exe-72EF0D4773609C34A78D082E41EEF6CE.md) | 32
 [C:\Windows\SysWOW64\ReAgentc.exe](ReAgentc.exe-C73CD2CAD0C74A17E53B0B72DAA1509E.md) | 41
 
 

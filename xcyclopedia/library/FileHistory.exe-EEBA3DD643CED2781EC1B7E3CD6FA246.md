@@ -113,6 +113,7 @@ File | Score
 -- | --
 [C:\Windows\system32\FileHistory.exe](FileHistory.exe-11FCDD6D3B8F0381AC9E90F9B4EC0865.md) | 83
 [C:\WINDOWS\system32\FileHistory.exe](FileHistory.exe-154C634AC5FCC1AC49FC189D1308FF26.md) | 79
+[C:\WINDOWS\system32\FileHistory.exe](FileHistory.exe-3129670515262343340A94EB94192C25.md) | 71
 
 ## Possible Misuse
 

@@ -88,6 +88,7 @@ C:\Windows\SysWOW64\odbcconf.exe |
 File | Score
 -- | --
 [C:\windows\SysWOW64\odbcconf.exe](odbcconf.exe-607DDC78852AE90B118040B3E4CC96D2.md) | 29
+[C:\WINDOWS\SysWOW64\odbcconf.exe](odbcconf.exe-666D4A8753A62D3B291A6364EDE9BED4.md) | 30
 [C:\WINDOWS\SysWOW64\odbcconf.exe](odbcconf.exe-86D1F10725566E818EEDB82ACBCD5CBE.md) | 60
 [C:\Windows\SysWOW64\odbcconf.exe](odbcconf.exe-B38C108A8DB4B97EA352287BF796A273.md) | 40
 [C:\Windows\SysWOW64\odbcconf.exe](odbcconf.exe-D567FFF92055255DBE43BF8F989A4B7E.md) | 41

@@ -45,6 +45,7 @@ File | Score
 [C:\Windows\SysWOW64\systray.exe](systray.exe-28D565BB24D30E5E3DE8AFF6900AF098.md) | 40
 [C:\Windows\SysWOW64\systray.exe](systray.exe-6621A1811053A752B0DE76F8EEFEC12D.md) | 38
 [C:\Windows\SysWOW64\systray.exe](systray.exe-75421841331F0516CC52932028383DDE.md) | 38
+[C:\WINDOWS\SysWOW64\systray.exe](systray.exe-C5916E681629CA803A3E2EB542500F8A.md) | 32
 [C:\WINDOWS\SysWOW64\systray.exe](systray.exe-D11C2C0C960BF32AF69214465005348F.md) | 40
 
 

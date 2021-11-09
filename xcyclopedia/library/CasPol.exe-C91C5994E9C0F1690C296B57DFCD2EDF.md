@@ -114,7 +114,9 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\CasPol.exe](CasPol.exe-2E04D855450CC4F84FA7094665DD9B08.md) | 69
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\CasPol.exe](CasPol.exe-914F728C04D3EDDD5FBA59420E74E56B.md) | 77
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\CasPol.exe](CasPol.exe-406D13CE1CCCB72C7DC01A883A0E8CCF.md) | 77
 
 
 

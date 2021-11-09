@@ -88,6 +88,7 @@ File | Score
 [C:\Windows\system32\wiaacmgr.exe](wiaacmgr.exe-28195E69188E35791856476067DDCEA0.md) | 33
 [C:\WINDOWS\system32\wiaacmgr.exe](wiaacmgr.exe-5F31742F489000AE4E8049AD854601E3.md) | 30
 [C:\Windows\system32\wiaacmgr.exe](wiaacmgr.exe-7CAFCC5FAAA4FDDC3BDFED3BAD0FF147.md) | 35
+[C:\WINDOWS\SysWOW64\wiaacmgr.exe](wiaacmgr.exe-34CD661615034C8610C6900A91BB9F06.md) | 44
 [C:\Windows\SysWOW64\wiaacmgr.exe](wiaacmgr.exe-73C072230BF92531ACB1B7EC25AF3593.md) | 38
 [C:\Windows\SysWOW64\wiaacmgr.exe](wiaacmgr.exe-C31CE844CCF0E1AE69A38E499C03416B.md) | 50
 [C:\Windows\SysWOW64\wiaacmgr.exe](wiaacmgr.exe-C70D3C03ABE289C699D52D5C2F866FC9.md) | 40

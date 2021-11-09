@@ -43,6 +43,7 @@ SSDEEP | `1536:q0KilEIexVQW0wg5qawCJr8cG5iamb0e9BZUhlOo+vi6Uf:qz1VQWVEq5CJr8x3mb
 File | Score
 -- | --
 [C:\Windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-28317A51B8F874BCF5220872269FEC2C.md) | 30
+[C:\WINDOWS\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-BEC3F5CE1CACCF010912D35A2AD53039.md) | 38
 [C:\WINDOWS\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-E0861FA9E0A4B441C6A11405D12D0C30.md) | 41
 [C:\Windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-ED3867E805501925E10070A1430E13DF.md) | 32
 [C:\windows\system32\CompMgmtLauncher.exe](CompMgmtLauncher.exe-EF0DB115967BFB1996403434AA3C9D7E.md) | 38

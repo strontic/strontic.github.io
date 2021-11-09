@@ -92,7 +92,9 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\RegSvcs.exe](RegSvcs.exe-96C201253A2A277D7E6D40167548991A.md) | 60
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegSvcs.exe](RegSvcs.exe-9D352BC46709F0CB5EC974633A0C3C94.md) | 74
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\RegSvcs.exe](RegSvcs.exe-1584EBF1F8E089B8DF6BFC165A194D96.md) | 65
 
 ## Possible Misuse
 

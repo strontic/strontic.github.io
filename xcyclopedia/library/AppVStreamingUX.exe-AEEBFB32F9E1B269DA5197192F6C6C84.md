@@ -69,6 +69,7 @@ File | Score
 [C:\WINDOWS\system32\AppV\AppVStreamingUX.exe](AppVStreamingUX.exe-3B4E3EC4711F640798E46AF3DC0AD5D3.md) | 90
 [C:\Windows\system32\AppV\AppVStreamingUX.exe](AppVStreamingUX.exe-95FF56D9254F8E3B18CD72AA88E19160.md) | 97
 [C:\Windows\system32\AppV\AppVStreamingUX.exe](AppVStreamingUX.exe-C40113C178B800D5B422462D56A5CEFE.md) | 97
+[C:\WINDOWS\system32\AppV\AppVStreamingUX.exe](AppVStreamingUX.exe-C4ECDF0F698AD83085A4BDBC2AF1A663.md) | 94
 [C:\Windows\system32\AppVStreamingUX.exe](AppVStreamingUX.exe-71F4D0AC9EB0985E1F01EB8FAFFE7220.md) | 69
 [C:\Windows\system32\en\AppVStreamingUX.resources.dll](AppVStreamingUX.resources.dll-0A83E6BA33AB4E47B9C2D7278B572671.md) | 52
 

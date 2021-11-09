@@ -73,6 +73,7 @@ C:\Windows\System32\ucrtbase.dll |
 File | Score
 -- | --
 [C:\Windows\system32\ApproveChildRequest.exe](ApproveChildRequest.exe-0774A755163023FFA8A42AC2851C9CC1.md) | 47
+[C:\WINDOWS\system32\ApproveChildRequest.exe](ApproveChildRequest.exe-5224FA8FA26F867C98514E723C68C77E.md) | 44
 [C:\Windows\system32\ApproveChildRequest.exe](ApproveChildRequest.exe-A0105B22267A0AB8B5EA13274434E928.md) | 58
 [C:\WINDOWS\system32\ApproveChildRequest.exe](ApproveChildRequest.exe-A281DD9C3249DF62516109F43567DBBB.md) | 49
 

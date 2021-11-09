@@ -225,6 +225,7 @@ File | Score
 -- | --
 [C:\WINDOWS\SysWOW64\verifiergui.exe](verifiergui.exe-1FFDE5339B78158668EDF02922258208.md) | 63
 [C:\Windows\SysWOW64\verifiergui.exe](verifiergui.exe-4DC139CE2F54F89EF5876272DC590D3C.md) | 40
+[C:\WINDOWS\SysWOW64\verifiergui.exe](verifiergui.exe-C52445F1AD490322ADC5D1AC5EFEEA61.md) | 57
 [C:\Windows\SysWOW64\verifiergui.exe](verifiergui.exe-F61085E8A94C91AE6FF47F0D6FF449AF.md) | 55
 
 

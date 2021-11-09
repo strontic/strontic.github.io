@@ -46,17 +46,21 @@ SSDEEP | `3072:e75U501s8Wp1icKAArDZz4N9GhbkUNEk959:Jz9p0yN90vE`
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\wextract.exe](wextract.exe-23AB926BA48BA307B204447C2109C58A.md) | 71
 [C:\windows\system32\wextract.exe](wextract.exe-4B9C652BD0FD95A9E6123913C35519D6.md) | 72
 [C:\Windows\system32\wextract.exe](wextract.exe-56E501E3E49CFDE55EB1CAABE6913E45.md) | 72
 [C:\Windows\system32\wextract.exe](wextract.exe-91243AFCF25E3A7705CAAA03492996B7.md) | 71
 [C:\WINDOWS\system32\wextract.exe](wextract.exe-A740582789B3622EAAA53D2D31955363.md) | 71
 [C:\Windows\system32\wextract.exe](wextract.exe-EF82872F2141313EF07C49405145DF3B.md) | 75
+[C:\WINDOWS\system32\wusa.exe](wusa.exe-297CE1CB7C6CE8EF6F5655EC78E4C667.md) | 57
 [C:\Windows\system32\wusa.exe](wusa.exe-59701FE9C8BA85BCEB73A9B1B3E8E1C4.md) | 44
+[C:\WINDOWS\SysWOW64\wextract.exe](wextract.exe-04F48C26664C64B8D3C6496FF17ADB08.md) | 77
 [C:\WINDOWS\SysWOW64\wextract.exe](wextract.exe-3035914DF08E473A10745C662047A63D.md) | 77
 [C:\Windows\SysWOW64\wextract.exe](wextract.exe-7CD5F431EA58317F3B2E582F2D1DDFE9.md) | 74
 [C:\windows\SysWOW64\wextract.exe](wextract.exe-A66A88FFE53BBB9DDAACE0110A8232EC.md) | 71
 [C:\Windows\SysWOW64\wextract.exe](wextract.exe-B9CC7E24DB7DE2E75678761B1D8BAC3E.md) | 77
 [C:\Windows\SysWOW64\wusa.exe](wusa.exe-18DE1F2C1BC5B1AFE3A66DD973C69411.md) | 32
+[C:\WINDOWS\SysWOW64\wusa.exe](wusa.exe-79499499551D1B2AE037EC1B339C7C36.md) | 58
 
 
 

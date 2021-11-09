@@ -75,6 +75,7 @@ File | Score
 [C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2006.10-0\MpDlpCmd.exe](MpDlpCmd.exe-22487937223E8A233830FA3823F4A5F9.md) | 80
 [C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2007.8-0\MpDlpCmd.exe](MpDlpCmd.exe-C97B4BF420EB28F996FB2FC881D3864F.md) | 80
 [C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2009.7-0\MpDlpCmd.exe](MpDlpCmd.exe-8552968F117AECCD72B5CCC5C092BD83.md) | 83
+[C:\WINDOWS\system32\SecurityHealthSystray.exe](SecurityHealthSystray.exe-B60F07358B742C487CF05A2477EF84CC.md) | 80
 
 
 

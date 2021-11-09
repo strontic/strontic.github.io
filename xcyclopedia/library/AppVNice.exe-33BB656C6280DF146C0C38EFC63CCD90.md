@@ -61,6 +61,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-2716BDC0F85BE8C06E64BA6B1B81CF08.md) | 35
 [C:\Windows\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-2F8BF990BEDECF1974DC4189E24F709D.md) | 54
 [C:\WINDOWS\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-4564AEECEED25F34A2A6156A355C09B6.md) | 43
 [C:\Windows\system32\AppVDllSurrogate.exe](AppVDllSurrogate.exe-AB91C19E6B17B43A226594A8D152BA54.md) | 49
@@ -70,6 +71,7 @@ File | Score
 [C:\Windows\system32\AppVNice.exe](AppVNice.exe-23AFC486E58A3841A015F2F45E34F781.md) | 49
 [C:\Windows\system32\AppVNice.exe](AppVNice.exe-47C060EF467EB3E4461D26BCBC858377.md) | 46
 [C:\Windows\system32\AppVNice.exe](AppVNice.exe-8F6A8E7CEF9833166DE4A29920B48F42.md) | 50
+[C:\WINDOWS\system32\AppVNice.exe](AppVNice.exe-C9217465C2E8FD31F1A27220E991E2B2.md) | 29
 [C:\Windows\system32\AppVNice.exe](AppVNice.exe-E4CC15631219560406D2CE920CB2C133.md) | 32
 [C:\WINDOWS\system32\AppVNice.exe](AppVNice.exe-E805EC74A53B64CE1D9D6739B8055579.md) | 35
 [C:\Windows\system32\AppVShNotify.exe](AppVShNotify.exe-0CF148AAF0F5BE5768BEBDC3C0EB0F87.md) | 32
@@ -84,6 +86,7 @@ File | Score
 [C:\Windows\system32\mavinject.exe](mavinject.exe-750E7456BAA3820527FFA4653EF5A516.md) | 49
 [C:\WINDOWS\system32\mavinject.exe](mavinject.exe-80EAEBA49FFD53712F4304A442C95F0D.md) | 36
 [C:\Windows\system32\mavinject.exe](mavinject.exe-AEB0A9377147392D401D172089C371D3.md) | 38
+[C:\WINDOWS\system32\mavinject.exe](mavinject.exe-CB272877A7CDD93C57BDFFE95981932B.md) | 32
 [C:\Windows\system32\mavinject.exe](mavinject.exe-E354F3D93A7639FCE4D649874766D624.md) | 36
 
 

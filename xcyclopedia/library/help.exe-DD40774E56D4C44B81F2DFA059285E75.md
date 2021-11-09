@@ -69,6 +69,11 @@ C:\Windows\SysWOW64\help.exe |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/53827a12373901fca002c3fc012d0bce0c4af422a7cf12cad19c655c903314e3/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\help.exe](help.exe-C00C091EF0328E92268E0D00616A3EBF.md) | 40
 
 
 ## Additional Info*

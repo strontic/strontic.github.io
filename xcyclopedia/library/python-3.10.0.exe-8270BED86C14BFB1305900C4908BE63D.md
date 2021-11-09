@@ -84,7 +84,6 @@ C:\Windows\System32\wow64win.dll |
 File | Score
 -- | --
 [C:\Users\user\AppData\Local\Package Cache\{21b42743-c8f9-49d7-b8b6-b5855317c7ed}\python-3.10.0-amd64.exe](python-3.10.0-amd64.exe-88DD1CED12AD9008E65E5C9C53A91E92.md) | 60
-[C:\Users\user\AppData\Local\Package Cache\{5821f5cd-f914-460c-ab51-4301814e1920}\python-3.10.0.exe](python-3.10.0.exe-8270BED86C14BFB1305900C4908BE63D.md) | 100
 
 
 

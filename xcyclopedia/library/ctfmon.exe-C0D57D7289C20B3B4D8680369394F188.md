@@ -44,6 +44,7 @@ File | Score
 -- | --
 [C:\Windows\SysWOW64\ctfmon.exe](ctfmon.exe-1B19D302D7FFA3D0901B3D990A4E8E12.md) | 55
 [C:\Windows\SysWOW64\ctfmon.exe](ctfmon.exe-29656B9E6B04C85E7BF4018B6844BE28.md) | 33
+[C:\WINDOWS\SysWOW64\ctfmon.exe](ctfmon.exe-82FEE2FD4957DD49F911D12C082AA49C.md) | 35
 [C:\Windows\SysWOW64\ctfmon.exe](ctfmon.exe-97D7FF9EED95ADF3785F2D0219EEED46.md) | 61
 [C:\windows\SysWOW64\ctfmon.exe](ctfmon.exe-BE80808B5FE1D9C9351653EEC814A75A.md) | 33
 

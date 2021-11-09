@@ -82,6 +82,7 @@ File | Score
 [C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-core-timezone-l1-1-0.dll](api-ms-win-core-timezone-l1-1-0.dll-F0F891D08E0E358327B323B38F3FFCA2.md) | 33
 [C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\api-ms-win-crt-environment-l1-1-0.dll](api-ms-win-crt-environment-l1-1-0.dll-36A4F9AF7C7D93C49C973DA11475D81E.md) | 35
 [C:\Windows\system32\6bea57fb-8dfb-4177-9ae8-42e8b3529933_RuntimeDeviceInstall.dll](6bea57fb-8dfb-4177-9ae8-42e8b3529933_RuntimeDeviceInstall.dll-513E16B14C2E8DE6AEA439153A9733FD.md) | 40
+[C:\WINDOWS\system32\csrss.exe](csrss.exe-01CDE2D68D2B5B8C5F8EB4E9829D28FC.md) | 33
 [C:\Windows\system32\DeviceCensus.exe](DeviceCensus.exe-ABA7E7513886979AF8A3B68A1F4E591D.md) | 29
 [C:\Windows\system32\LocationFrameworkPS.dll](LocationFrameworkPS.dll-FBF3B3CCC037AD1D9FC36C28D0E29A25.md) | 27
 [C:\Windows\system32\migwiz\migres.dll](migres.dll-E937B164DC2D2A03490AC3EB9D5875B2.md) | 35

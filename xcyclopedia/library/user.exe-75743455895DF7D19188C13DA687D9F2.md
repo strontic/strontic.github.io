@@ -67,6 +67,7 @@ File | Score
 [C:\Windows\SysWOW64\user.exe](user.exe-48D2C346C4875106531F8EE6B81D2C32.md) | 50
 [C:\Windows\SysWOW64\user.exe](user.exe-B30709F69A03714334BC7E1123D4DA48.md) | 79
 [C:\Windows\SysWOW64\user.exe](user.exe-D4D86D15435CC99BDF659FFF6784092D.md) | 47
+[C:\WINDOWS\SysWOW64\user.exe](user.exe-F2B8054852D423E4C0627251EA32EBAA.md) | 50
 [C:\Windows\SysWOW64\user.exe](user.exe-FD94F4868778F6142F68AC32928EDB58.md) | 79
 
 

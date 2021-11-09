@@ -81,6 +81,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 File | Score
 -- | --
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngentask.exe](ngentask.exe-3142937610966B092CA8886C76A3B113.md) | 60
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\ngentask.exe](ngentask.exe-5CC0818E8E6FC3920A7BAFF21F6DEDA4.md) | 55
 
 ## Possible Misuse
 

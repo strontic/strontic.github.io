@@ -113,6 +113,7 @@ File | Score
 [C:\Windows\system32\wksprt.exe](wksprt.exe-B1A354667950BBBEA757CF91918ED092.md) | 50
 [C:\Windows\system32\wksprt.exe](wksprt.exe-BA81ED5D41505A2311DB75585620A381.md) | 41
 [C:\WINDOWS\system32\wksprt.exe](wksprt.exe-E4F33F52B519BB8C4214054DC8866730.md) | 47
+[C:\WINDOWS\system32\wksprt.exe](wksprt.exe-ECD64FB82B679CEED8CE74454BBB9B30.md) | 38
 
 
 

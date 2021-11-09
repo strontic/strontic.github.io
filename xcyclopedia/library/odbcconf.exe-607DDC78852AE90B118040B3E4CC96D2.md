@@ -47,6 +47,7 @@ SSDEEP | `384:uHVrAigT9ML6OxeMVJgS/SfwKG4ur/XztoELa29t3NCVws6p4pdSXlRnvT8B7qUp:u
 File | Score
 -- | --
 [C:\Windows\SysWOW64\odbcconf.exe](odbcconf.exe-35CDB46FD7E96B9357D75FF285099B14.md) | 29
+[C:\WINDOWS\SysWOW64\odbcconf.exe](odbcconf.exe-666D4A8753A62D3B291A6364EDE9BED4.md) | 27
 [C:\WINDOWS\SysWOW64\odbcconf.exe](odbcconf.exe-86D1F10725566E818EEDB82ACBCD5CBE.md) | 33
 [C:\Windows\SysWOW64\odbcconf.exe](odbcconf.exe-B38C108A8DB4B97EA352287BF796A273.md) | 30
 [C:\Windows\SysWOW64\odbcconf.exe](odbcconf.exe-D567FFF92055255DBE43BF8F989A4B7E.md) | 32

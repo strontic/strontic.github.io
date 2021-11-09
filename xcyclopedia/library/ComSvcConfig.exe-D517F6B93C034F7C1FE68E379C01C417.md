@@ -129,6 +129,8 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\ComSvcConfig.exe](ComSvcConfig.exe-64F14E3BB2E3E1FFF089FDB76E8315F5.md) | 82
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\ComSvcConfig.exe](ComSvcConfig.exe-64F14E3BB2E3E1FFF089FDB76E8315F5.md) | 82
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ComSvcConfig.exe](ComSvcConfig.exe-D517F6B93C034F7C1FE68E379C01C417.md) | 100
 
 

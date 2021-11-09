@@ -44,6 +44,7 @@ File | Score
 -- | --
 [C:\windows\system32\write.exe](write.exe-73E19BE0E0ECD88616B5762F621B0226.md) | 35
 [C:\Windows\SysWOW64\write.exe](write.exe-3D6FDBA2878656FA9ECB81F6ECE45703.md) | 44
+[C:\WINDOWS\SysWOW64\write.exe](write.exe-6F738A98257D152943A9E5DFAE1FBC44.md) | 43
 [C:\WINDOWS\SysWOW64\write.exe](write.exe-7FBA1268E8C8AEC66A7BF9420F54A745.md) | 40
 [C:\Windows\SysWOW64\write.exe](write.exe-ED73F0253A4C10F6B7C221FF6E8BD8B4.md) | 54
 [C:\windows\write.exe](write.exe-73E19BE0E0ECD88616B5762F621B0226.md) | 35

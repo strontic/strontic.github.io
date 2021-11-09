@@ -48,6 +48,7 @@ SSDEEP | `1536:ly137w0Kk1wBu1Ur6fJpvFcdf4nrsEb3wtgpdR5+F03RhHP30cYOuGiceY0lA3CZ:
 File | Score
 -- | --
 [C:\Windows\system32\tpmcompc.dll](tpmcompc.dll-72B06E97FDB4367DB82EADABAF2AE0F3.md) | 30
+[C:\WINDOWS\system32\TpmInit.exe](TpmInit.exe-19C208A19DF23B1E29C87827A77D819D.md) | 40
 [C:\Windows\system32\TpmInit.exe](TpmInit.exe-2EF855672A91AA4443E8B4C2E1AE278E.md) | 41
 [C:\Windows\system32\TpmInit.exe](TpmInit.exe-578EF2B7D0C63504C39DD1BF3CADB2A8.md) | 43
 [C:\Windows\system32\TpmInit.exe](TpmInit.exe-8828BBB0A8A2EC40E4A976DCE47BD15F.md) | 44
@@ -57,6 +58,7 @@ File | Score
 [C:\WINDOWS\SysWOW64\TpmInit.exe](TpmInit.exe-12FAFE0BEEE577E091F1781FDDF57CB3.md) | 44
 [C:\Windows\SysWOW64\TpmInit.exe](TpmInit.exe-22A202B729CB70DF605D7E81D77B9B41.md) | 43
 [C:\Windows\SysWOW64\TpmInit.exe](TpmInit.exe-23E73EAD4C5304744E76E8ECE21273BC.md) | 50
+[C:\WINDOWS\SysWOW64\TpmInit.exe](TpmInit.exe-56FFC2D70D4BC13886245ECE35498CAA.md) | 44
 [C:\windows\SysWOW64\TpmInit.exe](TpmInit.exe-6C56049244A18816695CA8719A6A1BB2.md) | 36
 
 ## Possible Misuse

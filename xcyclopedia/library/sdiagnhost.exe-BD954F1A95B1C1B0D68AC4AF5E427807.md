@@ -42,6 +42,7 @@ SSDEEP | `384:FHm8MXAvartizJWNBtoUX34d4UXiqwcI1KEac/sG/XLeitWj7DWf:irtzdnw4uw6tc
 
 File | Score
 -- | --
+[C:\WINDOWS\SysWOW64\sdiagnhost.exe](sdiagnhost.exe-05A10B350BD6058DDDBFB937DB68A3DB.md) | 29
 [C:\WINDOWS\SysWOW64\sdiagnhost.exe](sdiagnhost.exe-258F58247AACD6568910D85E33A07886.md) | 41
 [C:\Windows\SysWOW64\sdiagnhost.exe](sdiagnhost.exe-43353191117C9236DDCCE362A8E74BA7.md) | 41
 [C:\Windows\SysWOW64\sdiagnhost.exe](sdiagnhost.exe-48582EF64F96E054C0CDCF3055258101.md) | 35

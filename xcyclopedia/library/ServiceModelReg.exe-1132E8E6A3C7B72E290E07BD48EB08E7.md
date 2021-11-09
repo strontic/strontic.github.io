@@ -113,6 +113,11 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/2b7e4dd728f186ad6f6e55f53f863a560006773cc97d17ac847a305b29f96782/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\ServiceModelReg.exe](ServiceModelReg.exe-EE9BF9C33A42813D7986D3C822D65195.md) | 93
 
 
 

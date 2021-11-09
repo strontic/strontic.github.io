@@ -131,6 +131,8 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\aspnet_compiler.exe](aspnet_compiler.exe-1888E453E7FC66D13903009B2C68832E.md) | 68
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\aspnet_compiler.exe](aspnet_compiler.exe-209965064648C56880D8E9DFA3C15793.md) | 66
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_compiler.exe](aspnet_compiler.exe-DF5419B32657D2896514B6A1D041FE08.md) | 75
 
 ## Possible Misuse

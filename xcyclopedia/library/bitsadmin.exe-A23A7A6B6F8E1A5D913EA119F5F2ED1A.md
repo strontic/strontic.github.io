@@ -294,6 +294,7 @@ GUID inside braces.  BITSADMIN reports an error if a name is ambiguous.
 File | Score
 -- | --
 [C:\Windows\system32\bitsadmin.exe](bitsadmin.exe-01AAB62D5799F75B0D69EB29C1CA6855.md) | 40
+[C:\WINDOWS\system32\bitsadmin.exe](bitsadmin.exe-17816F445F61CA1915C5A7247E05AC1F.md) | 36
 
 ## Possible Misuse
 

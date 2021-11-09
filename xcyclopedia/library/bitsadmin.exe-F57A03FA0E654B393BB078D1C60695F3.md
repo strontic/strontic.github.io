@@ -308,6 +308,11 @@ C:\Windows\SysWOW64\bitsadmin.exe |
 * VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/c93b7734470cf96c5170f7b21f361cdf3f74ca819626c83c4b8a68210deeb35c/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\SysWOW64\bitsadmin.exe](bitsadmin.exe-539C7CF53B0158E6DEC1E6AEF9FB6C14.md) | 32
 
 ## Possible Misuse
 

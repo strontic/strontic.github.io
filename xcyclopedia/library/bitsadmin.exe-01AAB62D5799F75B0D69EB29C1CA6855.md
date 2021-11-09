@@ -311,6 +311,7 @@ C:\Windows\SYSTEM32\ntdll.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\system32\bitsadmin.exe](bitsadmin.exe-17816F445F61CA1915C5A7247E05AC1F.md) | 33
 [C:\WINDOWS\system32\bitsadmin.exe](bitsadmin.exe-A23A7A6B6F8E1A5D913EA119F5F2ED1A.md) | 40
 
 ## Possible Misuse

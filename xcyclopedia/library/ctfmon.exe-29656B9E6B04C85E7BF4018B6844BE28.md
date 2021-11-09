@@ -43,6 +43,7 @@ SSDEEP | `96:TekkA3GX9c27oo90tPDWPT4u14HbJV/s/iDm9os0Tz0DJ7pRKRNEW6gWw0ee0qZ:Skk
 File | Score
 -- | --
 [C:\Windows\SysWOW64\ctfmon.exe](ctfmon.exe-1B19D302D7FFA3D0901B3D990A4E8E12.md) | 43
+[C:\WINDOWS\SysWOW64\ctfmon.exe](ctfmon.exe-82FEE2FD4957DD49F911D12C082AA49C.md) | 33
 [C:\Windows\SysWOW64\ctfmon.exe](ctfmon.exe-97D7FF9EED95ADF3785F2D0219EEED46.md) | 36
 [C:\windows\SysWOW64\ctfmon.exe](ctfmon.exe-BE80808B5FE1D9C9351653EEC814A75A.md) | 46
 [C:\WINDOWS\SysWOW64\ctfmon.exe](ctfmon.exe-C0D57D7289C20B3B4D8680369394F188.md) | 33

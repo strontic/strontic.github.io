@@ -81,6 +81,7 @@ C:\Windows\System32\wow64win.dll |
 
 File | Score
 -- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\ngentask.exe](ngentask.exe-6AECCABE4B645C8DFAC19279ED9CEAA6.md) | 57
 [C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngentask.exe](ngentask.exe-AE933850C93D3B3001AB21BB65C3EFA1.md) | 55
 
 ## Possible Misuse

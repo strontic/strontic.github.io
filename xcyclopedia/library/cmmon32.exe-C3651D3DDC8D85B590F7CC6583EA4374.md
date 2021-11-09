@@ -75,6 +75,7 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\Windows\system32\cmmon32.exe](cmmon32.exe-527B257B270FE03BB7C2CA5BC54CC71B.md) | 43
+[C:\WINDOWS\system32\cmmon32.exe](cmmon32.exe-9B6557CEF93DD47E885B7B236CB4371A.md) | 38
 [C:\WINDOWS\system32\cmmon32.exe](cmmon32.exe-B1A905D46687E473DB8DA01D089C37EC.md) | 43
 [C:\Windows\system32\cmmon32.exe](cmmon32.exe-BAFEC2E2CA3D475942E001907B9597BC.md) | 44
 

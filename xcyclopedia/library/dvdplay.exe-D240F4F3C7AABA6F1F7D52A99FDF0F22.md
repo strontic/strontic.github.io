@@ -69,6 +69,7 @@ File | Score
 [C:\Windows\system32\dvdplay.exe](dvdplay.exe-5AEA5B5787AF2AD9DB4CE8B0E8FF2A62.md) | 40
 [C:\WINDOWS\SysWOW64\dvdplay.exe](dvdplay.exe-42364CF7A02E3FB931237931A5EF0BD0.md) | 54
 [C:\Windows\SysWOW64\dvdplay.exe](dvdplay.exe-5E6A3BE2A3A85CCB85430027EFDDDECA.md) | 44
+[C:\WINDOWS\SysWOW64\dvdplay.exe](dvdplay.exe-6AF1C8D496F9384F461DF8246C9B55B8.md) | 33
 [C:\windows\SysWOW64\dvdplay.exe](dvdplay.exe-B0231148BAA81C21A914185A8410AA14.md) | 44
 [C:\Windows\SysWOW64\dvdplay.exe](dvdplay.exe-D388610A1DE600E01277AECF3B1280A3.md) | 44
 

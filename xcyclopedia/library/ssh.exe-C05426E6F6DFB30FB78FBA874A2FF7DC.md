@@ -85,6 +85,11 @@ C:\Windows\system32\OpenSSH\ssh.exe |
 * VirusTotal Detections: 0/73
 * VirusTotal Link: https://www.virustotal.com/gui/file/722bee41ccf54b88660c0e67adeb2c9612c18d739e5a8eb8c35c3d7066a95871/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\OpenSSH\ssh.exe](ssh.exe-1A3F4B4B3DD985287A3CDF97D9288F13.md) | 96
 
 ## Possible Misuse
 

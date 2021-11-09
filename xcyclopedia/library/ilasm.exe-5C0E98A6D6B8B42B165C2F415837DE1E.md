@@ -129,6 +129,11 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/75
 * VirusTotal Link: https://www.virustotal.com/gui/file/584dbdaa56a351bd6ec6e02165060bcfab6e6b572ff8e3e694d4b3f90475aac9/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\ilasm.exe](ilasm.exe-D7DD99CCEA186AEBF467FC25C5C5EBB5.md) | 90
 
 ## Possible Misuse
 

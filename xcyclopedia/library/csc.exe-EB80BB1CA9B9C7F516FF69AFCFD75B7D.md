@@ -149,6 +149,11 @@ C:\Windows\System32\wow64win.dll |
 * VirusTotal Detections: 0/76
 * VirusTotal Link: https://www.virustotal.com/gui/file/38c407dbf41e99396b78d00dd796930d8838dcb4af77c3f23ba0e800d1213ebe/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\csc.exe](csc.exe-749B60EA8762B3BC3494906FD7025497.md) | 96
 
 ## Possible Misuse
 

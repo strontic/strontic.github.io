@@ -46,11 +46,13 @@ File | Score
 [C:\WINDOWS\system32\odbcad32.exe](odbcad32.exe-35DF6D2F992F336A3BB3E971FBC10936.md) | 85
 [C:\Windows\system32\odbcad32.exe](odbcad32.exe-4BE67E1672D32EBEB5D8EE8317B2760A.md) | 85
 [C:\Windows\system32\odbcad32.exe](odbcad32.exe-5A39C66F76F4629666BADC65370744FD.md) | 88
+[C:\WINDOWS\system32\odbcad32.exe](odbcad32.exe-67D8A6FED65A5206F9C687B81DE18E31.md) | 85
 [C:\Windows\system32\odbcad32.exe](odbcad32.exe-E2E95A7A343DE93C4F5FD57BF8DA5F16.md) | 90
 [C:\Windows\SysWOW64\odbcad32.exe](odbcad32.exe-270A8ECB4852CE263591DBBCEDE32EDA.md) | 91
 [C:\Windows\SysWOW64\odbcad32.exe](odbcad32.exe-28AD5E456CCF3D267F7370671B52AD5E.md) | 93
 [C:\WINDOWS\SysWOW64\odbcad32.exe](odbcad32.exe-39F4994EFCF25880A7CE77B620C27676.md) | 93
 [C:\Windows\SysWOW64\odbcad32.exe](odbcad32.exe-3CF7DB52FEF9AD31F647BF50E6DEA420.md) | 94
+[C:\WINDOWS\SysWOW64\odbcad32.exe](odbcad32.exe-3F4EF95F7EB35FEB3986E6F2D64B1F1B.md) | 91
 
 
 

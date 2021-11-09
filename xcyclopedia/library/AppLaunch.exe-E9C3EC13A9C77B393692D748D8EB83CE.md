@@ -95,6 +95,11 @@ C:\Windows\System32\win32u.dll |
 * VirusTotal Detections: 0/74
 * VirusTotal Link: https://www.virustotal.com/gui/file/3682f6c9357e653150b1b7a96c30347e1abfa368a356db7c65a4c805f4eeb25e/detection
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\AppLaunch.exe](AppLaunch.exe-A02165EB7EAE850920373112145B1B3F.md) | 85
 
 
 

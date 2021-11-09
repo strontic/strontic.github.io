@@ -81,6 +81,12 @@ C:\Windows\SYSTEM32\ntdll.dll |
 * VirusTotal Detections: 0/68
 * VirusTotal Link: https://www.virustotal.com/gui/file/29f0173f255b115f107b0899f90f05a4a9e77d28a3dcb0fd66ab3fdb2f6a6200/detection/
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\dfsvc.exe](dfsvc.exe-B1C06C3F89538F7B4F892D0A8F5E7EB9.md) | 27
+[C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\dfsvc.exe](dfsvc.exe-B1C06C3F89538F7B4F892D0A8F5E7EB9.md) | 27
 
 
 

@@ -47,6 +47,11 @@ ERROR: WriteConsole failed = 00000001
 * Legal Copyright:  Microsoft Corporation. All rights reserved.
 
 
+## File Similarity (ssdeep match)
+
+File | Score
+-- | --
+[C:\WINDOWS\system32\Com\comrepl.exe](comrepl.exe-FAC1D0D3A73502D82FB006B5D80AF401.md) | 40
 
 
 

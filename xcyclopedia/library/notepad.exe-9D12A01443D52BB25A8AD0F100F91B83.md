@@ -47,10 +47,13 @@ SSDEEP | `3072:yOVtvOX1sptKYqiKEye4P0GzT8GrJLgf7nDVF6PUp1Yo3ICg6g:yOmItKlihyv//r
 File | Score
 -- | --
 [C:\Windows\notepad.exe](notepad.exe-0E61079D3283687D2E279272966AE99D.md) | 44
+[C:\WINDOWS\notepad.exe](notepad.exe-FB95DE2DB64BEB631E865E2EDB7E93E6.md) | 36
 [C:\Windows\system32\notepad.exe](notepad.exe-0E61079D3283687D2E279272966AE99D.md) | 44
 [C:\Windows\system32\notepad.exe](notepad.exe-3B508CAE5DEBCBA928B5BC355517E2E6.md) | 47
+[C:\WINDOWS\system32\notepad.exe](notepad.exe-FB95DE2DB64BEB631E865E2EDB7E93E6.md) | 36
 [C:\windows\system32\notepad.exe](notepad.exe-FC2EA5BD5307D2CFA5AAA38E0C0DDCE9.md) | 55
 [C:\Windows\SysWOW64\notepad.exe](notepad.exe-87E35E5F0B085E0D29BBDF6659C6D3D7.md) | 49
+[C:\WINDOWS\SysWOW64\notepad.exe](notepad.exe-DC65A5D2046FC8D33878CEBAB6968EEE.md) | 43
 
 ## Possible Misuse
 

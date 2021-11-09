@@ -50,6 +50,7 @@ File | Score
 [C:\Windows\system32\write.exe](write.exe-E87C6A38E61A712C48025A6AD54C1113.md) | 36
 [C:\windows\SysWOW64\write.exe](write.exe-1EFA647F97009893CC54BD677751A958.md) | 54
 [C:\Windows\SysWOW64\write.exe](write.exe-3D6FDBA2878656FA9ECB81F6ECE45703.md) | 49
+[C:\WINDOWS\SysWOW64\write.exe](write.exe-6F738A98257D152943A9E5DFAE1FBC44.md) | 47
 [C:\WINDOWS\SysWOW64\write.exe](write.exe-7FBA1268E8C8AEC66A7BF9420F54A745.md) | 47
 
 ## Possible Misuse

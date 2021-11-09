@@ -71,6 +71,7 @@ C:\Windows\System32\win32u.dll |
 File | Score
 -- | --
 [C:\Windows\system32\DeviceProperties.exe](DeviceProperties.exe-02C5A4C5A452E248F805186B8BF41BF7.md) | 93
+[C:\WINDOWS\system32\DeviceProperties.exe](DeviceProperties.exe-65B28F4E01B936D1ADE618762CDEC893.md) | 88
 [C:\windows\system32\DeviceProperties.exe](DeviceProperties.exe-68F19DB5C6A27D3B52A3240877554E7D.md) | 91
 [C:\WINDOWS\system32\DeviceProperties.exe](DeviceProperties.exe-B7352C06F8FCC2FD9E715CFC3077294A.md) | 93
 [C:\Windows\system32\DeviceProperties.exe](DeviceProperties.exe-C799FC7C577BA8AFF1B73EBD54210C50.md) | 91
