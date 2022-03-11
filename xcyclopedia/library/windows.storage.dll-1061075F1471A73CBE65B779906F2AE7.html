@@ -1537,7 +1537,30 @@
   <li>VirusTotal Link: https://www.virustotal.com/gui/file/02aff6ea7ba2e0f3bcfebf0ddd38badc0ec69d37a02aba48f758a8d04c922ae2/detection/</li>
 </ul>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">windows.storage.dll</code> being misused. While <code class="language-plaintext highlighter-rouge">windows.storage.dll</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/proc_access_win_in_memory_assembly_execution.yml">proc_access_win_in_memory_assembly_execution.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\|C:\Windows\SYSTEM32\windows.storage.dll+'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -1608,7 +1631,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

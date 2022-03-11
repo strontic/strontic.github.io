@@ -893,16 +893,32 @@
       <td>25</td>
     </tr>
     <tr>
+      <td><a href="/xcyclopedia/library/dfsvc.exe-B1C06C3F89538F7B4F892D0A8F5E7EB9.html">C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\dfsvc.exe</a></td>
+      <td>40</td>
+    </tr>
+    <tr>
       <td><a href="/xcyclopedia/library/dfsvc.exe-B4088F44B80D363902E11F897A7BAC09.html">C:\Windows\Microsoft.NET\Framework\v4.0.30319\dfsvc.exe</a></td>
       <td>49</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/Microsoft.Workflow.Compiler.exe-CC3FC0B1818A22ADB086F2785A3E5A00.html">C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Workflow.Compiler.exe</a></td>
+      <td>30</td>
     </tr>
     <tr>
       <td><a href="/xcyclopedia/library/Microsoft.Workflow.Compiler.exe-FC9DE0484A269CE25C09B5B1D25139D1.html">C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Workflow.Compiler.exe</a></td>
       <td>40</td>
     </tr>
     <tr>
+      <td><a href="/xcyclopedia/library/dfsvc.exe-B1C06C3F89538F7B4F892D0A8F5E7EB9.html">C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\dfsvc.exe</a></td>
+      <td>40</td>
+    </tr>
+    <tr>
       <td><a href="/xcyclopedia/library/dfsvc.exe-B4088F44B80D363902E11F897A7BAC09.html">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\dfsvc.exe</a></td>
       <td>49</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/Microsoft.Workflow.Compiler.exe-CC3FC0B1818A22ADB086F2785A3E5A00.html">C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Workflow.Compiler.exe</a></td>
+      <td>30</td>
     </tr>
     <tr>
       <td><a href="/xcyclopedia/library/Microsoft.Workflow.Compiler.exe-FC9DE0484A269CE25C09B5B1D25139D1.html">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Workflow.Compiler.exe</a></td>
@@ -927,54 +943,7 @@
   </tbody>
 </table>
 
-<h2 id="possible-misuse">Possible Misuse</h2>
-
-<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">System.IO.dll</code> being misused. While <code class="language-plaintext highlighter-rouge">System.IO.dll</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Source</th>
-      <th>Source File</th>
-      <th>Example</th>
-      <th>License</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564/T1564.md">T1564.md</a></td>
-      <td>$macro = [System.IO.File]::ReadAllText(“PathToAtomicsFolder\T1564\src\T1564-macrocode.txt”)</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1573/T1573.md">T1573.md</a></td>
-      <td>$writer = new-object System.IO.StreamWriter($sslStream)</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_irontiger.yar">apt_irontiger.yar</a></td>
-      <td>$s5 = “System.IO.Compression” fullword ascii /* Goodware String - occured 6 times */</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_molerats_jul17.yar">apt_molerats_jul17.yar</a></td>
-      <td>$x2 = “O.Run C &amp; chrw(34) &amp; "[System.IO.File]::” wide</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_gen_cactustorch.yar">gen_gen_cactustorch.yar</a></td>
-      <td>$s3 = “Set stm = CreateObject("System.IO.MemoryStream")” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -1045,7 +1014,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

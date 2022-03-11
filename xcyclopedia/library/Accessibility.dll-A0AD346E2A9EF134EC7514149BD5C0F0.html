@@ -893,16 +893,32 @@
       <td>27</td>
     </tr>
     <tr>
+      <td><a href="/xcyclopedia/library/dfsvc.exe-B1C06C3F89538F7B4F892D0A8F5E7EB9.html">C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\dfsvc.exe</a></td>
+      <td>43</td>
+    </tr>
+    <tr>
       <td><a href="/xcyclopedia/library/dfsvc.exe-B4088F44B80D363902E11F897A7BAC09.html">C:\Windows\Microsoft.NET\Framework\v4.0.30319\dfsvc.exe</a></td>
       <td>57</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/Microsoft.Workflow.Compiler.exe-CC3FC0B1818A22ADB086F2785A3E5A00.html">C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Workflow.Compiler.exe</a></td>
+      <td>29</td>
     </tr>
     <tr>
       <td><a href="/xcyclopedia/library/Microsoft.Workflow.Compiler.exe-FC9DE0484A269CE25C09B5B1D25139D1.html">C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Workflow.Compiler.exe</a></td>
       <td>36</td>
     </tr>
     <tr>
+      <td><a href="/xcyclopedia/library/dfsvc.exe-B1C06C3F89538F7B4F892D0A8F5E7EB9.html">C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\dfsvc.exe</a></td>
+      <td>43</td>
+    </tr>
+    <tr>
       <td><a href="/xcyclopedia/library/dfsvc.exe-B4088F44B80D363902E11F897A7BAC09.html">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\dfsvc.exe</a></td>
       <td>57</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/Microsoft.Workflow.Compiler.exe-CC3FC0B1818A22ADB086F2785A3E5A00.html">C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Workflow.Compiler.exe</a></td>
+      <td>29</td>
     </tr>
     <tr>
       <td><a href="/xcyclopedia/library/Microsoft.Workflow.Compiler.exe-FC9DE0484A269CE25C09B5B1D25139D1.html">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Workflow.Compiler.exe</a></td>
@@ -927,138 +943,7 @@
   </tbody>
 </table>
 
-<h2 id="possible-misuse">Possible Misuse</h2>
-
-<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">Accessibility.dll</code> being misused. While <code class="language-plaintext highlighter-rouge">Accessibility.dll</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Source</th>
-      <th>Source File</th>
-      <th>Example</th>
-      <th>License</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Atbroker.yml">Atbroker.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- IOC: Changes to HKCU\Software\Microsoft\Windows NT\CurrentVersion\Accessibility\Configuration</code></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
-      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Atbroker.yml">Atbroker.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- IOC: Changes to HKLM\Software\Microsoft\Windows NT\CurrentVersion\Accessibility\ATs</code></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/oceanlotus/oceanlotus-macOS.misp.event.json">oceanlotus-macOS.misp.event.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"description": "File permissions are commonly managed by discretionary access control lists (DACLs) specified by the file owner. File DACL implementation may vary by platform, but generally explicitly designate which users\/groups can perform which actions (ex: read, write, execute, etc.). (Citation: Microsoft DACL May 2018) (Citation: Microsoft File Rights May 2018) (Citation: Unix File Permissions)\n\nAdversaries may modify file permissions\/attributes to evade intended DACLs. (Citation: Hybrid Analysis Icacls1 June 2018) (Citation: Hybrid Analysis Icacls2 May 2018) Modifications may include changing specific access rights, which may require taking ownership of a file and\/or elevated permissions such as Administrator\/root depending on the file's existing permissions to enable malicious activity such as modifying, replacing, or deleting specific files. Specific file modifications may be a required step for many techniques, such as establishing Persistence via [Accessibility Features](https:\/\/attack.mitre.org\/techniques\/T1015), [Logon Scripts](https:\/\/attack.mitre.org\/techniques\/T1037), or tainting\/hijacking other instrumental binary\/configuration files.",</code></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
-      <td>- <a href="../../T1546.008/T1546.008.md">T1546.008 Accessibility Features</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
-      <td>- <a href="../../T1546.008/T1546.008.md">T1546.008 Accessibility Features</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>| Compromise Hardware Supply Chain <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1053.001/T1053.001.md">At (Linux)</a> | <a href="../../T1546.008/T1546.008.md">Accessibility Features</a> | Abuse Elevation Control Mechanism <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Access Token Manipulation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | ARP Cache Poisoning <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1010/T1010.md">Application Window Discovery</a> | Component Object Model and Distributed COM <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1560/T1560.md">Archive Collected Data</a> | <a href="../../T1030/T1030.md">Data Transfer Size Limits</a> | Asymmetric Cryptography <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Application Exhaustion Flood <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>| Compromise Software Supply Chain <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Command and Scripting Interpreter <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Add Office 365 Global Administrator Role <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1546.008/T1546.008.md">Accessibility Features</a> | <a href="../../T1055.004/T1055.004.md">Asynchronous Procedure Call</a> | <a href="../../T1552.003/T1552.003.md">Bash History</a> | Cloud Account <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Exploitation of Remote Services <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Archive via Library <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Exfiltration Over Asymmetric Encrypted Non-C2 Protocol <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Commonly Used Port <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1485/T1485.md">Data Destruction</a> |</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>| Compromise Hardware Supply Chain <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1053.002/T1053.002.md">At (Windows)</a> | <a href="../../T1546.008/T1546.008.md">Accessibility Features</a> | Abuse Elevation Control Mechanism <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Abuse Elevation Control Mechanism <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | ARP Cache Poisoning <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Account Discovery <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Component Object Model and Distributed COM <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | ARP Cache Poisoning <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1020/T1020.md">Automated Exfiltration</a> | Application Layer Protocol <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1531/T1531.md">Account Access Removal</a> |</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>| Compromise Software Supply Chain <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Component Object Model <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Add-ins <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1546.008/T1546.008.md">Accessibility Features</a> | <a href="../../T1055.004/T1055.004.md">Asynchronous Procedure Call</a> | Brute Force <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1217/T1217.md">Browser Bookmark Discovery</a> | Exploitation of Remote Services <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Archive via Custom Method <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Exfiltration Over Alternative Protocol <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Bidirectional Communication <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Application or System Exploitation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.001/T1021.001.md">T1021.001.md</a></td>
-      <td>Adversaries may connect to a remote system over RDP/RDS to expand access if the service is enabled and allows access to accounts with known credentials. Adversaries will likely use Credential Access techniques to acquire credentials to use with RDP. Adversaries may also use RDP in conjunction with the <a href="https://attack.mitre.org/techniques/T1546/008">Accessibility Features</a> technique for Persistence.(Citation: Alperovitch Malware)&lt;/blockquote&gt;</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1222.001/T1222.001.md">T1222.001.md</a></td>
-      <td>Adversaries can interact with the DACLs using built-in Windows commands, such as <code class="language-plaintext highlighter-rouge">icacls</code>, <code class="language-plaintext highlighter-rouge">cacls</code>, <code class="language-plaintext highlighter-rouge">takeown</code>, and <code class="language-plaintext highlighter-rouge">attrib</code>, which can grant adversaries higher permissions on specific files and folders. Further, <a href="https://attack.mitre.org/techniques/T1059/001">PowerShell</a> provides cmdlets that can be used to retrieve or modify file and directory DACLs. Specific file and directory modifications may be a required step for many techniques, such as establishing Persistence via <a href="https://attack.mitre.org/techniques/T1546/008">Accessibility Features</a>, <a href="https://attack.mitre.org/techniques/T1037">Boot or Logon Initialization Scripts</a>, or tainting/hijacking other instrumental binary/configuration files via <a href="https://attack.mitre.org/techniques/T1574">Hijack Execution Flow</a>.&lt;/blockquote&gt;</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md">T1546.008.md</a></td>
-      <td># T1546.008 - Accessibility Features</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md">T1546.008.md</a></td>
-      <td>&lt;blockquote&gt;Adversaries may establish persistence and/or elevate privileges by executing malicious content triggered by accessibility features. Windows contains accessibility features that may be launched with a key combination before a user has logged in (ex: when the user is on the Windows logon screen). An adversary can modify the way these programs are launched to get a command prompt or backdoor without logging in to the system.</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md">T1546.008.md</a></td>
-      <td>Two common accessibility programs are <code>C:\Windows\System32\sethc.exe</code>, launched when the shift key is pressed five times and <code>C:\Windows\System32\utilman.exe</code>, launched when the Windows + U key combination is pressed. The sethc.exe program is often referred to as “sticky keys”, and has been used by adversaries for unauthenticated access through a remote desktop login screen. (Citation: FireEye Hikit Rootkit)</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md">T1546.008.md</a></td>
-      <td>Depending on the version of Windows, an adversary may take advantage of these features in different ways. Common methods used by adversaries include replacing accessibility feature binaries or pointers/references to these binaries in the Registry. In newer versions of Windows, the replaced binary needs to be digitally signed for x64 systems, the binary must reside in <code>%systemdir%\</code>, and it must be protected by Windows File or Resource Protection (WFP/WRP). (Citation: DEFCON2016 Sticky Keys) The <a href="https://attack.mitre.org/techniques/T1546/012">Image File Execution Options Injection</a> debugger method was likely discovered as a potential workaround because it does not require the corresponding accessibility feature binary to be replaced.</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.008/T1546.008.md">T1546.008.md</a></td>
-      <td>Other accessibility features exist that may also be leveraged in a similar fashion: (Citation: DEFCON2016 Sticky Keys)(Citation: Narrator Accessibility Abuse)</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.012/T1546.012.md">T1546.012.md</a></td>
-      <td>Similar to <a href="https://attack.mitre.org/techniques/T1546/008">Accessibility Features</a>, on Windows Vista and later as well as Windows Server 2008 and later, a Registry key may be modified that configures “cmd.exe,” or another program that provides backdoor access, as a “debugger” for an accessibility program (ex: utilman.exe). After the Registry is modified, pressing the appropriate key combination at the login screen while at the keyboard or when connected with <a href="https://attack.mitre.org/techniques/T1021/001">Remote Desktop Protocol</a> will cause the “debugger” program to be executed with SYSTEM privileges. (Citation: Tilbury 2014)</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/docs/apis.md">apis.md</a></td>
-      <td>Exploit Public-Facing Application, CMSTP, Accessibility Features, Accessibility Features, BITS Jobs, Bash History, Application Window Discovery, Application Deployment Software, Automated Collection, Data Compressed, Communication Through Removable Media</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor_inverse_matches.yar">thor_inverse_matches.yar</a></td>
-      <td>$s1 = “Accessibility On-Screen Keyboard” wide fullword</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -1129,7 +1014,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

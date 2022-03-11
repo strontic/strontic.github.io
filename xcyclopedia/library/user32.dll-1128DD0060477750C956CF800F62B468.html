@@ -5345,26 +5345,32 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_download_susp_dyndns.yml">proxy_download_susp_dyndns.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*.user32.com'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/posh_ps_keylogging.yml">posh_ps_keylogging.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">Get-ProcAddress</span><span class="nv"> </span><span class="s">user32.dll</span><span class="nv"> </span><span class="s">GetAsyncKeyState'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_new_dll_added_to_appinit_dlls_registry_key.yml">sysmon_new_dll_added_to_appinit_dlls_registry_key.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: DLLs that are specified in the AppInit_DLLs value in the Registry key HKLM\Software\Microsoft\Windows NT\CurrentVersion\Windows are loaded by user32.dll</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/posh_ps_keylogging.yml">posh_ps_keylogging.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">Get-ProcAddress</span><span class="nv"> </span><span class="s">user32.dll</span><span class="nv"> </span><span class="s">GetForegroundWindow'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_new_dll_added_to_appinit_dlls_registry_key.yml">sysmon_new_dll_added_to_appinit_dlls_registry_key.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">into every process that loads user32.dll</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_new_dll_added_to_appinit_dlls_registry_key.yml">registry_event_new_dll_added_to_appinit_dlls_registry_key.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">DLLs that are specified in the AppInit_DLLs value in the Registry key HKLM\Software\Microsoft\Windows NT\CurrentVersion\Windows are loaded by user32.dll</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_new_dll_added_to_appinit_dlls_registry_key.yml">registry_event_new_dll_added_to_appinit_dlls_registry_key.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">into every process that loads user32.dll</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/rtm/README.adoc">rtm</a></td>
-      <td><code class="language-plaintext highlighter-rouge">user32.dll</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">user32</span><span class="err">.</span><span class="ni">dll</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
@@ -5375,8 +5381,14 @@
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1491.001/T1491.001.md">T1491.001.md</a></td>
+      <td>[DllImport(“user32.dll”, CharSet=CharSet.Auto)]</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.010/T1546.010.md">T1546.010.md</a></td>
-      <td>&lt;blockquote&gt;Adversaries may establish persistence and/or elevate privileges by executing malicious content triggered by AppInit DLLs loaded into processes. Dynamic-link libraries (DLLs) that are specified in the <code>AppInit_DLLs</code> value in the Registry keys <code>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows</code> or <code>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows</code> are loaded by user32.dll into every process that loads user32.dll. In practice this is nearly every program, since user32.dll is a very common library. (Citation: Endgame Process Injection July 2017)</td>
+      <td>&lt;blockquote&gt;Adversaries may establish persistence and/or elevate privileges by executing malicious content triggered by AppInit DLLs loaded into processes. Dynamic-link libraries (DLLs) that are specified in the <code>AppInit_DLLs</code> value in the Registry keys <code>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows</code> or <code>HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows</code> are loaded by user32.dll into every process that loads user32.dll. In practice this is nearly every program, since user32.dll is a very common library. (Citation: Elastic Process Injection July 2017)</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -5411,6 +5423,12 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_darkside.yar">crime_ransom_darkside.yar</a></td>
+      <td>$CommonDLLs2 = “USER32.dll” fullword</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_cve_2015_1701.yar">exploit_cve_2015_1701.yar</a></td>
       <td>$w1 = “user32.dll” wide</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
@@ -5419,12 +5437,6 @@
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktools.yar">gen_cn_hacktools.yar</a></td>
       <td>$s9 = “USER32.DLL” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_cn_hacktools.yar">gen_cn_hacktools.yar</a></td>
-      <td>$s2 = “user32.dlly” ascii</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>
@@ -5451,16 +5463,10 @@
       <td>$z2 = “USER32.DLL” fullword ascii</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar">thor-hacktools.yar</a></td>
-      <td>$s8 = “Declare Function ExitWindowsEx Lib "user32" (ByVal uFlags As Long, ByVal “ ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -5531,7 +5537,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

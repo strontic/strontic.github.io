@@ -347,48 +347,7 @@
   <li>VirusTotal Link: https://www.virustotal.com/gui/file/27c3d1287c45ea8b8d75fee2ddfcf585a860196bbe64f8eabc318aeb077bbb4b/detection/</li>
 </ul>
 
-<h2 id="possible-misuse">Possible Misuse</h2>
-
-<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">ntevt.dll</code> being misused. While <code class="language-plaintext highlighter-rouge">ntevt.dll</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Source</th>
-      <th>Source File</th>
-      <th>Example</th>
-      <th>License</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp.yar">apt_eqgrp.yar</a></td>
-      <td>description = “EquationGroup Malware - file ntevt.sys”</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp.yar">apt_eqgrp.yar</a></td>
-      <td>$s1 = “ntevt.sys” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp.yar">apt_eqgrp.yar</a></td>
-      <td>$s2 = “c:\ntevt.pdb” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_eqgrp_apr17.yar">apt_eqgrp_apr17.yar</a></td>
-      <td>$x1 = “c:\ntevt.pdb” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -459,7 +418,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

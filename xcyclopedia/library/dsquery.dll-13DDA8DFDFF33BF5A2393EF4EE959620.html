@@ -367,96 +367,7 @@
   <li>VirusTotal Link: https://www.virustotal.com/gui/file/73447ca6422c5e1eaa8fea7a53282eba7512a7935675f2e2f69b1caaf944a743/detection/</li>
 </ul>
 
-<h2 id="possible-misuse">Possible Misuse</h2>
-
-<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">dsquery.dll</code> being misused. While <code class="language-plaintext highlighter-rouge">dsquery.dll</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Source</th>
-      <th>Source File</th>
-      <th>Example</th>
-      <th>License</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_dsquery_domain_trust_discovery.yml">win_dsquery_domain_trust_discovery.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Image\|endswith: '\dsquery.exe'</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_multiple_suspicious_cli.yml">win_multiple_suspicious_cli.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- dsquery.exe</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_trust_discovery.yml">win_trust_discovery.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">description: Identifies execution of nltest.exe and dsquery.exe for domain trust discovery. This technique is used by attackers to enumerate Active Directory trusts.</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_trust_discovery.yml">win_trust_discovery.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Image\|endswith: '\dsquery.exe'</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/misp_invisimole.json">misp_invisimole.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"description": "Adversaries may attempt to get a listing of local system or domain accounts. \n\n### Windows\n\nExample commands that can acquire this information are &lt;code&gt;net user&lt;/code&gt;, &lt;code&gt;net group &lt;groupname&gt;&lt;/code&gt;, and &lt;code&gt;net localgroup &lt;groupname&gt;&lt;/code&gt; using the [Net](https://attack.mitre.org/software/S0039) utility or through use of [dsquery](https://attack.mitre.org/software/S0105). If adversaries attempt to identify the primary user, currently logged in user, or set of users that commonly uses a system, [System Owner/User Discovery](https://attack.mitre.org/techniques/T1033) may apply.\n\n### Mac\n\nOn Mac, groups can be enumerated through the &lt;code&gt;groups&lt;/code&gt; and &lt;code&gt;id&lt;/code&gt; commands. In mac specifically, &lt;code&gt;dscl . list /Groups&lt;/code&gt; and &lt;code&gt;dscacheutil -q group&lt;/code&gt; can also be used to enumerate groups and users.\n\n### Linux\n\nOn Linux, local users can be enumerated through the use of the &lt;code&gt;/etc/passwd&lt;/code&gt; file which is world readable. In mac, this same file is only used in single-user mode in addition to the &lt;code&gt;/etc/master.passwd&lt;/code&gt; file.\n\nAlso, groups can be enumerated through the &lt;code&gt;groups&lt;/code&gt; and &lt;code&gt;id&lt;/code&gt; commands.\n\n### Office 365 and Azure AD\n\nWith authenticated access there are several tools that can be used to find accounts. The &lt;code&gt;Get-MsolRoleMember&lt;/code&gt; PowerShell cmdlet can be used to obtain account names given a role or permissions group.(Citation: Microsoft msolrolemember)(Citation: GitHub Raindance)\n\nAzure CLI (AZ CLI) also provides an interface to obtain user accounts with authenticated access to a domain. The command &lt;code&gt;az ad user list&lt;/code&gt; will list all users within a domain.(Citation: Microsoft AZ CLI)(Citation: Black Hills Red Teaming MS AD Azure, 2018) \n\nThe &lt;code&gt;Get-GlobalAddressList&lt;/code&gt; PowerShell cmdlet can be used to obtain email addresses and accounts from a domain using an authenticated session.(Citation: Microsoft getglobaladdresslist)(Citation: Black Hills Attacking Exchange MailSniper, 2016)",</code></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
-      <td>- Atomic Test #1: Windows - Discover domain trusts with dsquery [windows]</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
-      <td>- Atomic Test #1: Windows - Discover domain trusts with dsquery [windows]</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1482/T1482.md">T1482.md</a></td>
-      <td>- <a href="#atomic-test-1---windows---discover-domain-trusts-with-dsquery">Atomic Test #1 - Windows - Discover domain trusts with dsquery</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1482/T1482.md">T1482.md</a></td>
-      <td>## Atomic Test #1 - Windows - Discover domain trusts with dsquery</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1482/T1482.md">T1482.md</a></td>
-      <td>Uses the dsquery command to discover domain trusts.</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1482/T1482.md">T1482.md</a></td>
-      <td>Requires the installation of dsquery via Windows RSAT or the Windows Server AD DS role.</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1482/T1482.md">T1482.md</a></td>
-      <td>dsquery * -filter “(objectClass=trustedDomain)” -attr *</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -527,7 +438,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

@@ -1419,32 +1419,32 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_susp_winword_vbadll_load.yml">sysmon_susp_winword_vbadll_load.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\VBE7.DLL'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/image_load_susp_winword_vbadll_load.yml">image_load_susp_winword_vbadll_load.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\VBE7.DLL'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/sysmon_malware_backconnect_ports.yml">sysmon_malware_backconnect_ports.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">definition: 'Use the following config to generate the necessary Event ID 10 Process Access events: &lt;ProcessAccess onmatch="include"&gt;&lt;CallTrace condition="contains"&gt;VBE7.DLL&lt;/CallTrace&gt;&lt;/ProcessAccess&gt;&lt;ProcessAccess onmatch="exclude"&gt;&lt;CallTrace condition="excludes"&gt;UNKNOWN&lt;/CallTrace&gt;&lt;/ProcessAccess&gt;'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/net_connection_win_malware_backconnect_ports.yml">net_connection_win_malware_backconnect_ports.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Use</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">following</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">generate</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">necessary</span><span class="nv"> </span><span class="s">Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">10</span><span class="nv"> </span><span class="s">Process</span><span class="nv"> </span><span class="s">Access</span><span class="nv"> </span><span class="s">events:</span><span class="nv"> </span><span class="s">&lt;ProcessAccess</span><span class="nv"> </span><span class="s">onmatch="include"&gt;&lt;CallTrace</span><span class="nv"> </span><span class="s">condition="contains"&gt;VBE7.DLL&lt;/CallTrace&gt;&lt;/ProcessAccess&gt;&lt;ProcessAccess</span><span class="nv"> </span><span class="s">onmatch="exclude"&gt;&lt;CallTrace</span><span class="nv"> </span><span class="s">condition="excludes"&gt;UNKNOWN&lt;/CallTrace&gt;&lt;/ProcessAccess&gt;'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_malware_verclsid_shellcode.yml">sysmon_malware_verclsid_shellcode.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">definition: 'Use the following config to generate the necessary Event ID 10 Process Access events: &lt;ProcessAccess onmatch="include"&gt;&lt;CallTrace condition="contains"&gt;VBE7.DLL&lt;/CallTrace&gt;&lt;/ProcessAccess&gt;&lt;ProcessAccess onmatch="exclude"&gt;&lt;CallTrace condition="excludes"&gt;UNKNOWN&lt;/CallTrace&gt;&lt;/ProcessAccess&gt;'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/proc_access_win_malware_verclsid_shellcode.yml">proc_access_win_malware_verclsid_shellcode.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">definition</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Use</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">following</span><span class="nv"> </span><span class="s">config</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">generate</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">necessary</span><span class="nv"> </span><span class="s">Event</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">10</span><span class="nv"> </span><span class="s">Process</span><span class="nv"> </span><span class="s">Access</span><span class="nv"> </span><span class="s">events:</span><span class="nv"> </span><span class="s">&lt;ProcessAccess</span><span class="nv"> </span><span class="s">onmatch="include"&gt;&lt;CallTrace</span><span class="nv"> </span><span class="s">condition="contains"&gt;VBE7.DLL&lt;/CallTrace&gt;&lt;/ProcessAccess&gt;&lt;ProcessAccess</span><span class="nv"> </span><span class="s">onmatch="exclude"&gt;&lt;CallTrace</span><span class="nv"> </span><span class="s">condition="excludes"&gt;UNKNOWN&lt;/CallTrace&gt;&lt;/ProcessAccess&gt;'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_malware_verclsid_shellcode.yml">sysmon_malware_verclsid_shellcode.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">CallTrace: '*\|UNKNOWN(*VBE7.DLL*'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/proc_access_win_malware_verclsid_shellcode.yml">proc_access_win_malware_verclsid_shellcode.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">VBE7.DLL'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -1515,7 +1515,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

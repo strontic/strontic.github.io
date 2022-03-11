@@ -522,7 +522,66 @@
   <li>VirusTotal Link: https://www.virustotal.com/gui/file/83059d16408d52752d0d93e5cad700754ef4624a13b638068d258fffede5c89d/detection/</li>
 </ul>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<h2 id="possible-misuse">Possible Misuse</h2>
+
+<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">iertutil.dll</code> being misused. While <code class="language-plaintext highlighter-rouge">iertutil.dll</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Source File</th>
+      <th>Example</th>
+      <th>License</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/security/win_dcom_iertutil_dll_hijack.yml">win_dcom_iertutil_dll_hijack.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">T1021 DCOM InternetExplorer.Application Iertutil DLL Hijack</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/security/win_dcom_iertutil_dll_hijack.yml">win_dcom_iertutil_dll_hijack.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects a threat actor creating a file named </code>iertutil.dll<code class="language-plaintext highlighter-rouge"> in the </code>C:\Program Files\Internet Explorer` directory over the network for a DCOM InternetExplorer DLL Hijack scenario.`{:.highlight .language-yaml}</td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/security/win_dcom_iertutil_dll_hijack.yml">win_dcom_iertutil_dll_hijack.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">RelativeTargetName\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\Internet</span><span class="nv"> </span><span class="s">Explorer\iertutil.dll'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_dcom_iertutil_dll_hijack.yml">sysmon_dcom_iertutil_dll_hijack.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">T1021 DCOM InternetExplorer.Application Iertutil DLL Hijack</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_dcom_iertutil_dll_hijack.yml">sysmon_dcom_iertutil_dll_hijack.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects a threat actor creating a file named </code>iertutil.dll<code class="language-plaintext highlighter-rouge"> in the </code>C:\Program Files\Internet Explorer` directory over the network and loading it for a DCOM InternetExplorer DLL Hijack scenario.`{:.highlight .language-yaml}</td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_dcom_iertutil_dll_hijack.yml">sysmon_dcom_iertutil_dll_hijack.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetFilename\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\Internet</span><span class="nv"> </span><span class="s">Explorer\iertutil.dll'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/sysmon/sysmon_dcom_iertutil_dll_hijack.yml">sysmon_dcom_iertutil_dll_hijack.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ImageLoaded\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\Internet</span><span class="nv"> </span><span class="s">Explorer\iertutil.dll'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -593,7 +652,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

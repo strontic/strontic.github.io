@@ -450,26 +450,26 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/process_creation_susp_7z.yml">process_creation_susp_7z.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">7z.exe'</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_unc2452_cmds.yml">win_apt_unc2452_cmds.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_apt_unc2452_cmds.yml">proc_creation_win_apt_unc2452_cmds.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">7z.exe</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">-v500m</span><span class="nv"> </span><span class="s">-mx9</span><span class="nv"> </span><span class="s">-r0</span><span class="nv"> </span><span class="s">-p'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml">win_renamed_binary.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_renamed_binary.yml">proc_creation_win_renamed_binary.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">7z.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_renamed_binary.yml">win_renamed_binary.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_renamed_binary.yml">proc_creation_win_renamed_binary.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\7z.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_7z.yml">proc_creation_win_susp_7z.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">7z.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -483,6 +483,18 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.001/T1560.001.md">T1560.001.md</a></td>
       <td>| 7zip_exe | Path to installed 7zip executable | Path | %ProgramFiles%\7-zip\7z.exe|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/collection/30a8cf10-73dc-497c-8261-a64cc9e91505.yml">30a8cf10-73dc-497c-8261-a64cc9e91505.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="err">&amp;</span> <span class="s2">"</span><span class="s">C:</span><span class="se">\P</span><span class="s">rogram</span><span class="nv"> </span><span class="s">Files</span><span class="err">\</span><span class="s">7-Zip</span><span class="err">\</span><span class="s">7z.exe"</span> <span class="s">a "#{host.dir.staged}.7z" "#{host.dir.staged}\*" "-p#{host.archive.password}" \| Out-Null;</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/5c5b0392-1daa-45e1-967c-2f361ce78849.yml">5c5b0392-1daa-45e1-967c-2f361ce78849.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="err">&amp;</span> <span class="s2">"</span><span class="s">C:</span><span class="se">\P</span><span class="s">rogram</span><span class="nv"> </span><span class="s">Files</span><span class="err">\</span><span class="s">7-Zip</span><span class="err">\</span><span class="s">7z.exe"</span> <span class="s">a "#{host.dir.staged}.7z" "#{host.dir.staged}\*" '-p#{host.archive.password}' \| Out-Null;</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
     </tr>
   </tbody>
 </table>
@@ -558,7 +570,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

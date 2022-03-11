@@ -348,26 +348,50 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_module/powershell_suspicious_invocation_specific_in_contextinfo.yml">powershell_suspicious_invocation_specific_in_contextinfo.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_module/posh_pm_suspicious_invocation_specific.yml">posh_pm_suspicious_invocation_specific.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">[Convert]::FromBase64String'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/powershell_powerview_malicious_commandlets.yml">powershell_powerview_malicious_commandlets.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/posh_ps_powerview_malicious_commandlets.yml">posh_ps_powerview_malicious_commandlets.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Convert-NameToSid</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/powershell_powerview_malicious_commandlets.yml">powershell_powerview_malicious_commandlets.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/posh_ps_powerview_malicious_commandlets.yml">posh_ps_powerview_malicious_commandlets.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Convert-ADName</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/powershell_suspicious_invocation_specific_in_scripblocktext.yml">powershell_suspicious_invocation_specific_in_scripblocktext.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/powershell/powershell_script/posh_ps_suspicious_invocation_specific.yml">posh_ps_suspicious_invocation_specific.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">[Convert]::FromBase64String'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_mimikatz_command_line.yml">proc_creation_win_mimikatz_command_line.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">function</span><span class="nv"> </span><span class="s">Convert-GuidToCompressedGuid'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_ransom_blackbyte.yml">proc_creation_win_ransom_blackbyte.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">powershell</span><span class="nv"> </span><span class="s">-command</span><span class="nv"> </span><span class="s">"$x</span><span class="nv"> </span><span class="s">=[System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_sharpview.yml">proc_creation_win_susp_sharpview.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Convert-ADName</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_sharpview.yml">proc_creation_win_susp_sharpview.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Convert-SidToName</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -380,6 +404,12 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027/T1027.md">T1027.md</a></td>
       <td>powershell.exe -Command “IEX ([Text.Encoding]::UNICODE.GetString([Convert]::FromBase64String((gp #{registry_key_storage} #{registry_entry_storage}).#{registry_entry_storage})))”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1053.005/T1053.005.md">T1053.005.md</a></td>
+      <td>schtasks.exe /Create /F /TN “ATOMIC-T1053.005” /TR “cmd /c start /min "" powershell.exe -Command IEX([System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String((Get-ItemProperty -Path HKCU:\SOFTWARE\ATOMIC-T1053.005).test)))” /sc daily /st #{time}</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -592,6 +622,48 @@
       <td>$x2 = “.LoadXml(System.Text.Encoding.UTF8.GetString(System.Convert.FromBase64String(“</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/0582dc26-e0cf-4645-88cf-f37a02279976.yml">0582dc26-e0cf-4645-88cf-f37a02279976.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">(Powershell) [Convert]::FromBase64String($(Get-Content b64.txt)) \| set-content archive.extension -encoding byte ----</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/0582dc26-e0cf-4645-88cf-f37a02279976.yml">0582dc26-e0cf-4645-88cf-f37a02279976.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">$EncodedToken = [System.Convert]::ToBase64String([char[]]$Token);</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/0582dc26-e0cf-4645-88cf-f37a02279976.yml">0582dc26-e0cf-4645-88cf-f37a02279976.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">$FileContent = [Convert]::ToBase64String([IO.File]::ReadAllBytes($File));</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/4a1120a5-971c-457f-bb07-60641b4723fd.yml">4a1120a5-971c-457f-bb07-60641b4723fd.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">$basetoken = [System.Convert]::ToBase64String([char[]]$token);</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/4a1120a5-971c-457f-bb07-60641b4723fd.yml">4a1120a5-971c-457f-bb07-60641b4723fd.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">$Base64EncodedFileBytes = [System.Convert]::ToBase64String($FileBytes);</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/a201bec2-a193-4b58-bf0e-57fa621da474.yml">a201bec2-a193-4b58-bf0e-57fa621da474.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">$basetoken = [System.Convert]::ToBase64String([char[]]$token);</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/a201bec2-a193-4b58-bf0e-57fa621da474.yml">a201bec2-a193-4b58-bf0e-57fa621da474.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">$Base64EncodedFileBytes = [System.Convert]::ToBase64String($FileBytes);</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
   </tbody>
 </table>
 
@@ -721,7 +793,7 @@ convert mbr
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

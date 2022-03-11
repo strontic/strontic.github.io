@@ -447,116 +447,188 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/sysmon_suspicious_dbghelp_dbgcore_load.yml">sysmon_suspicious_dbghelp_dbgcore_load.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/windefend/win_alert_lsass_access.yml">win_alert_lsass_access.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">C:\WINDOWS\Installer\'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/image_load_suspicious_dbghelp_dbgcore_load.yml">image_load_suspicious_dbghelp_dbgcore_load.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># - '\msiexec.exe'  an installer installing a program using one of those DLL will raise an alert</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/sysmon_cmstp_execution_by_access.yml">sysmon_cmstp_execution_by_access.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/network_connection/net_connection_win_msiexec.yml">net_connection_win_msiexec.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Msiexec.exe is the command-line utility for the Windows Installer and is thus commonly associated with executing installation packages (.msi)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/proc_access_win_cmstp_execution_by_access.yml">proc_access_win_cmstp_execution_by_access.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects various indicators of Microsoft Connection Manager Profile Installer execution</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_always_install_elevated_msi_spawned_cmd_and_powershell.yml">sysmon_always_install_elevated_msi_spawned_cmd_and_powershell.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">This rule will looks for Windows Installer service (msiexec.exe) spawned command line and/or powershell</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/proc_access_win_cred_dump_lsass_access.yml">proc_access_win_cred_dump_lsass_access.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">SourceImage\|endswith</span><span class="pi">:</span> <span class="s">\Installer\setup.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_always_install_elevated_msi_spawned_cmd_and_powershell.yml">sysmon_always_install_elevated_msi_spawned_cmd_and_powershell.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_always_install_elevated_msi_spawned_cmd_powershell.yml">proc_creation_win_always_install_elevated_msi_spawned_cmd_powershell.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">This rule looks for Windows Installer service (msiexec.exe) spawned command line and/or powershell</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_always_install_elevated_msi_spawned_cmd_powershell.yml">proc_creation_win_always_install_elevated_msi_spawned_cmd_powershell.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\Windows\Installer\'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_always_install_elevated_windows_installer.yml">sysmon_always_install_elevated_windows_installer.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Always Install Elevated Windows Installer</span> </code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_always_install_elevated_windows_installer.yml">proc_creation_win_always_install_elevated_windows_installer.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Always Install Elevated Windows Installer</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_always_install_elevated_windows_installer.yml">sysmon_always_install_elevated_windows_installer.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">This rule will looks for Windows Installer service (msiexec.exe) when it tries to install MSI packages with SYSTEM privilege</span> </code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_always_install_elevated_windows_installer.yml">proc_creation_win_always_install_elevated_windows_installer.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">This rule looks for Windows Installer service (msiexec.exe) trying to install MSI packages with SYSTEM privilege</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_always_install_elevated_windows_installer.yml">sysmon_always_install_elevated_windows_installer.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_always_install_elevated_windows_installer.yml">proc_creation_win_always_install_elevated_windows_installer.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\Windows\Installer\'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_cmstp_execution_by_creation.yml">sysmon_cmstp_execution_by_creation.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects various indicators of Microsoft Connection Manager Profile Installer execution</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_cmstp_com_object_access.yml">win_cmstp_com_object_access.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_cmstp_com_object_access.yml">proc_creation_win_cmstp_com_object_access.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects UAC Bypass Attempt Using Microsoft Connection Manager Profile Installer Autoelevate-capable COM Objects (e.g. UACMe ID of 41, 43, 58 or 65)</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_disable_eventlog.yml">win_susp_disable_eventlog.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Installer tools that disable services, e.g. before log collection agent installation</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_disable_ie_features.yml">win_susp_disable_ie_features.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Unknown, maybe some security software installer disables these features temporarily</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_msiexec_web_install.yml">win_susp_msiexec_web_install.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://blog.trendmicro.com/trendlabs-security-intelligence/attack-using-windows-installer-msiexec-exe-leads-lokibot/</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_razorinstaller_explorer.yml">win_susp_razorinstaller_explorer.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects a explorer.exe sub process of the RazerInstaller software which can be invoked from the installer to select a different installation folder but can also be exploited to escalate privileges to LOCAL SYSTEM</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_razorinstaller_explorer.yml">win_susp_razorinstaller_explorer.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|startswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\Windows\Installer\Razer\Installer\'</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_regedit_trustedinstaller.yml">win_susp_regedit_trustedinstaller.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Regedit as Trusted Installer</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_tap_installer_execution.yml">win_tap_installer_execution.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Tap Installer Execution</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_uac_cmstp.yml">win_uac_cmstp.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detect child processes of automatically elevated instances of Microsoft Connection Manager Profile Installer (cmstp.exe).</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_cmstp_execution_by_registry.yml">sysmon_cmstp_execution_by_registry.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_cmstp_execution_by_creation.yml">proc_creation_win_cmstp_execution_by_creation.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects various indicators of Microsoft Connection Manager Profile Installer execution</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_msiexec_execute_dll.yml">proc_creation_win_msiexec_execute_dll.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Msiexec.exe is the command-line utility for the Windows Installer and is thus commonly associated with executing installation packages (.msi)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_msiexec_install_quiet.yml">proc_creation_win_msiexec_install_quiet.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Msiexec.exe is the command-line utility for the Windows Installer and is thus commonly associated with executing installation packages (.msi)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_disable_eventlog.yml">proc_creation_win_susp_disable_eventlog.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Installer tools that disable services, e.g. before log collection agent installation</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_disable_ie_features.yml">proc_creation_win_susp_disable_ie_features.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Unknown, maybe some security software installer disables these features temporarily</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_instalutil.yml">proc_creation_win_susp_instalutil.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://docs.microsoft.com/en-us/dotnet/framework/tools/installutil-exe-installer-tool</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_msiexec_web_install.yml">proc_creation_win_susp_msiexec_web_install.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">https://blog.trendmicro.com/trendlabs-security-intelligence/attack-using-windows-installer-msiexec-exe-leads-lokibot/</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_non_exe_image.yml">proc_creation_win_susp_non_exe_image.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|startswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\Windows\Installer\MSI'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_razorinstaller_explorer.yml">proc_creation_win_susp_razorinstaller_explorer.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects a explorer.exe sub process of the RazerInstaller software which can be invoked from the installer to select a different installation folder but can also be exploited to escalate privileges to LOCAL SYSTEM</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_razorinstaller_explorer.yml">proc_creation_win_susp_razorinstaller_explorer.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|startswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">C:\Windows\Installer\Razer\Installer\'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_regedit_trustedinstaller.yml">proc_creation_win_susp_regedit_trustedinstaller.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Regedit as Trusted Installer</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_run_folder.yml">proc_creation_win_susp_run_folder.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">C:\Program</span><span class="nv"> </span><span class="s">Files</span><span class="nv"> </span><span class="s">(x86)\Microsoft</span><span class="nv"> </span><span class="s">Visual</span><span class="nv"> </span><span class="s">Studio\Installer\resources\app\ServiceHub\Services\Microsoft.VisualStudio.Setup.Service\BackgroundDownload.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_tap_installer_execution.yml">proc_creation_win_tap_installer_execution.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Tap Installer Execution</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_uac_cmstp.yml">proc_creation_win_uac_cmstp.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detect child processes of automatically elevated instances of Microsoft Connection Manager Profile Installer (cmstp.exe).</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_win_lolbas_dump64.yml">proc_creation_win_win_lolbas_dump64.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\Installer\Feedback\dump64.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_asep_reg_keys_modification_currentversion.yml">registry_event_asep_reg_keys_modification_currentversion.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Details</span><span class="pi">:</span> <span class="s1">'</span><span class="s">"C:\Program</span><span class="nv"> </span><span class="s">Files\Zoom\bin\installer.exe"</span><span class="nv"> </span><span class="s">/repair'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_cmstp_execution_by_registry.yml">registry_event_cmstp_execution_by_registry.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects various indicators of Microsoft Connection Manager Profile Installer execution</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_runonce_persistence.yml">registry_event_runonce_persistence.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Details\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\Installer\chrmstp.exe"</span><span class="nv"> </span><span class="s">--configure-user-settings</span><span class="nv"> </span><span class="s">--verbose-logging</span><span class="nv"> </span><span class="s">--system-level'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_vbs_payload_stored.yml">registry_event_vbs_payload_stored.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetObject\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules-unsupported/sysmon_always_install_elevated_msi_spawned_cmd_and_powershell_spawned_processes.yml">sysmon_always_install_elevated_msi_spawned_cmd_and_powershell_spawned_processes.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">This rule will looks for Windows Installer service (msiexec.exe) spawned command line and/or powershell that spawned other processes</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">This rule looks for Windows Installer service (msiexec.exe) spawning command line and/or powershell that spawns other processes</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -826,55 +898,55 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
-      <td>- T1574.005 Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a></td>
+      <td>- T1574.005 Executable Installer File Permissions Weakness <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
-      <td>- T1574.005 Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a></td>
+      <td>- T1574.005 Executable Installer File Permissions Weakness <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  | <a href="../../T1059.005/T1059.005.md">Visual Basic</a> | <a href="../../T1574.006/T1574.006.md">Dynamic Linker Hijacking</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1562.004/T1562.004.md">Disable or Modify System Firewall</a> | <a href="../../T1110.002/T1110.002.md">Password Cracking</a> | <a href="../../T1124/T1124.md">System Time Discovery</a> |  |  |  | Steganography <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  | <a href="../../T1059.005/T1059.005.md">Visual Basic</a> | <a href="../../T1574.006/T1574.006.md">Dynamic Linker Hijacking</a> | Executable Installer File Permissions Weakness <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1562.004/T1562.004.md">Disable or Modify System Firewall</a> | <a href="../../T1110.002/T1110.002.md">Password Cracking</a> | <a href="../../T1124/T1124.md">System Time Discovery</a> |  |  |  | Steganography <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Hijack Execution Flow <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Domain Policy Modification <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1110.003/T1110.003.md">Password Spraying</a> |  |  |  |  | Web Service <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  |  | Executable Installer File Permissions Weakness <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Hijack Execution Flow <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Domain Policy Modification <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1110.003/T1110.003.md">Password Spraying</a> |  |  |  |  | Web Service <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | LSASS Driver <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1078.003/T1078.003.md">Local Accounts</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Steal Application Access Token <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |</td>
+      <td>|  |  | LSASS Driver <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1078.003/T1078.003.md">Local Accounts</a> | Executable Installer File Permissions Weakness <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Steal Application Access Token <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | Event Triggered Execution <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Domain Controller Authentication <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1040/T1040.md">Network Sniffing</a> | <a href="../../T1033/T1033.md">System Owner/User Discovery</a> |  | Sharepoint <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | <a href="../../T1571/T1571.md">Non-Standard Port</a> |  |</td>
+      <td>|  |  | Event Triggered Execution <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Executable Installer File Permissions Weakness <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Domain Controller Authentication <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1040/T1040.md">Network Sniffing</a> | <a href="../../T1033/T1033.md">System Owner/User Discovery</a> |  | Sharepoint <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> |  | <a href="../../T1571/T1571.md">Non-Standard Port</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Extra Window Memory Injection <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Domain Trust Modification <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1110.002/T1110.002.md">Password Cracking</a> | <a href="../../T1124/T1124.md">System Time Discovery</a> |  | Web Portal Capture <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Port Knocking <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  |  | Executable Installer File Permissions Weakness <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Extra Window Memory Injection <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Domain Trust Modification <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1110.002/T1110.002.md">Password Cracking</a> | <a href="../../T1124/T1124.md">System Time Discovery</a> |  | Web Portal Capture <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> |  | Port Knocking <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>|  |  | Hypervisor <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1546.012/T1546.012.md">Image File Execution Options Injection</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Password Managers <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Virtualization/Sandbox Evasion <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  | Proxy <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |</td>
+      <td>|  |  | Hypervisor <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1546.012/T1546.012.md">Image File Execution Options Injection</a> | Executable Installer File Permissions Weakness <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Password Managers <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Virtualization/Sandbox Evasion <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> |  |  |  | Proxy <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> |  |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1040/T1040.md">T1040.md</a></td>
-      <td>| wireshark_url | wireshark installer download URL | Url | https://1.eu.dl.wireshark.org/win64/Wireshark-win64-3.4.5.exe|</td>
+      <td>| wireshark_url | wireshark installer download URL | Url | https://1.eu.dl.wireshark.org/win64/Wireshark-win64-latest.exe|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -922,7 +994,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1135/T1135.md">T1135.md</a></td>
-      <td>| package_installer | Package installer command. Debian - apt install samba | String | yum install -y samba|</td>
+      <td>| package_installer | Package installer command. Debian - apt install samba | String | (which yum &amp;&amp; yum -y install epel-release samba)||(which apt-get &amp;&amp; DEBIAN_FRONTEND=noninteractive apt-get install -y samba)|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1060,7 +1132,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1219/T1219.md">T1219.md</a></td>
-      <td>$installer = “C:\Users$env:username\Downloads\ScreenConnect.msi” msiexec /x $installer /qn</td>
+      <td>msiexec /x $installer /qn</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1085,6 +1157,36 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555.003/T1555.003.md">T1555.003.md</a></td>
       <td>msiexec /i $installer /qn</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555.003/T1555.003.md">T1555.003.md</a></td>
+      <td>$installer = “$env:temp\OperaStandaloneInstaller.exe”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555.003/T1555.003.md">T1555.003.md</a></td>
+      <td>Start-Process $installer -ArgumentList ‘/install /silent /launchopera=1 /setdefaultbrowser=0’</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555.003/T1555.003.md">T1555.003.md</a></td>
+      <td>$installer = “$env:temp\firefoxsetup.exe”</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555.003/T1555.003.md">T1555.003.md</a></td>
+      <td>(New-Object Net.WebClient).DownloadFile($url,$installer)</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555.003/T1555.003.md">T1555.003.md</a></td>
+      <td>Start-Process $installer -ArgumentList ‘/S’ -Wait</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1114,7 +1216,7 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.001/T1562.001.md">T1562.001.md</a></td>
-      <td>| package_installer | Package installer command for linux. Default yum | String | yum install -y rsyslog|</td>
+      <td>| package_installer | Package installer command for linux. Default yum | String | (which yum &amp;&amp; yum -y install epel-release rsyslog)||(which apt-get &amp;&amp; apt-get install -y rsyslog)|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -1161,6 +1263,12 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_unc1151_ua.yar">apt_unc1151_ua.yar</a></td>
+      <td>$s2 = “CreateObject("WindowsInstaller.Installer")”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_wildneutron.yar">apt_wildneutron.yar</a></td>
       <td>$s4 = “ Player Installer/Uninstaller” fullword wide /* PEStudio Blacklist: strings <em>/ /</em> score: ‘11.42’ */</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
@@ -1181,6 +1289,18 @@
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_dde_in_office_docs.yar">gen_dde_in_office_docs.yar</a></td>
       <td>$r2 = “Adobe ARM Installer”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_maldoc.yar">gen_maldoc.yar</a></td>
+      <td>description = “Triggers on docfiles executing windows installer. Used for deploying ThinBasic scripts.”</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_maldoc.yar">gen_maldoc.yar</a></td>
+      <td>$ = “WindowsInstaller.Installer$”</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>
@@ -1281,7 +1401,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

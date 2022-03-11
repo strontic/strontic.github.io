@@ -4627,15 +4627,15 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt15.yar">apt_apt15.yar</a></td>
-      <td>( pe.imports(“advapi32.dll”, “CryptDecrypt”) and pe.imports(“advapi32.dll”, “CryptEncrypt”) and</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/image_load_susp_advapi32_dll.yml">image_load_susp_advapi32_dll.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">ImageLoaded\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\advapi32.dll'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_poisonivy.yar">apt_poisonivy.yar</a></td>
-      <td>$s12 = “advAPI32” fullword ascii /* score: ‘6.015’ */</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_apt15.yar">apt_apt15.yar</a></td>
+      <td>( pe.imports(“advapi32.dll”, “CryptDecrypt”) and pe.imports(“advapi32.dll”, “CryptEncrypt”) and</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>
@@ -4654,6 +4654,12 @@
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_turla_png_dropper_nov18.yar">apt_turla_png_dropper_nov18.yar</a></td>
       <td>pe.imports(“advapi32.dll”, “RegEnumKeyExA”) and</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_darkside.yar">crime_ransom_darkside.yar</a></td>
+      <td>$CommonDLLs3 = “ADVAPI32.dll” fullword</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>
@@ -4684,18 +4690,6 @@
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_excel_xll_addin_suspicious.yar">gen_excel_xll_addin_suspicious.yar</a></td>
       <td>and pe.imports(“ADVAPI32.dll”, “CryptImportKey”))</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_suite.yar">gen_powershell_suite.yar</a></td>
-      <td>$ = “[&gt;] Calling Advapi32::LookupPrivilegeValue –&gt; SeDebugPrivilege” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_suite.yar">gen_powershell_suite.yar</a></td>
-      <td>$ = “Calling Advapi32::OpenProcessToken –&gt; LSASS” ascii</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>
@@ -4737,7 +4731,7 @@
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -4808,7 +4802,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

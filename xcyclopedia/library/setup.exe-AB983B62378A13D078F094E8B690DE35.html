@@ -339,79 +339,133 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_susp_eventlog_cleared.yml">win_susp_eventlog_cleared.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/security/win_iso_mount.yml">win_iso_mount.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">ObjectName</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\Device\CdRom0\setup.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/security/win_susp_eventlog_cleared.yml">win_susp_eventlog_cleared.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Rollout of log collection agents (the setup routine often includes a reset of the local Eventlog)</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_system_susp_eventlog_cleared.yml">win_system_susp_eventlog_cleared.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/system/win_system_susp_eventlog_cleared.yml">win_system_susp_eventlog_cleared.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Rollout of log collection agents (the setup routine often includes a reset of the local Eventlog)</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_cve_2021_31979_cve_2021_33771_exploits.yml">file_event_cve_2021_31979_cve_2021_33771_exploits.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_win_cve_2021_31979_cve_2021_33771_exploits.yml">file_event_win_cve_2021_31979_cve_2021_33771_exploits.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">C:\Windows\system32\config\cy-GB\Setup\SKB\InputMethod\TupTask.dat'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/malware/registry_event_mal_flowcloud.yml">registry_event_mal_flowcloud.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">HKLM\SYSTEM\Setup\PrintResponsor\'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/proc_access_win_cred_dump_lsass_access.yml">proc_access_win_cred_dump_lsass_access.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">SourceImage\|endswith</span><span class="pi">:</span> <span class="s">\Installer\setup.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/sysmon_vmtoolsd_susp_child_process.yml">sysmon_vmtoolsd_susp_child_process.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects suspicious child process creations of VMware Tools process which may indicate persistence setup</span></code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_apt_winnti_pipemon.yml">win_apt_winnti_pipemon.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_apt_winnti_pipemon.yml">proc_creation_win_apt_winnti_pipemon.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">setup.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1378.yml">win_exploit_cve_2019_1378.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_exploit_cve_2019_1378.yml">proc_creation_win_exploit_cve_2019_1378.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">C:\Windows\Setup\Scripts\'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_exploit_cve_2019_1378.yml">win_exploit_cve_2019_1378.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_exploit_cve_2019_1378.yml">proc_creation_win_exploit_cve_2019_1378.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">C:\Windows\Setup\'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_asep_reg_keys_modification.yml">sysmon_asep_reg_keys_modification.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_powershell_cmdline_special_characters.yml">proc_creation_win_powershell_cmdline_special_characters.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Amazon SSM Document Worker</span> <span class="c1"># fp example: powershell " [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 $keyExists = Test-Path "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\OC Manager\Subcomponents" $jsonObj = @() if ($keyExists) { $key = Get-Item "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\OC Manager\Subcomponents" $valueNames = $key.GetValueNames(); foreach ($valueName in $valueNames) { $value = $key.GetValue($valueName); if ($value -gt 0) { $installed = "True" } else { $installed = "False" } $jsonObj += @" {"Name": "$valueName", "Installed": "$installed"} "@ } } $result = $jsonObj -join "," $result = "[" + $result + "]" [Console]::WriteLine($result)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_run_folder.yml">proc_creation_win_susp_run_folder.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">C:\Program</span><span class="nv"> </span><span class="s">Files</span><span class="nv"> </span><span class="s">(x86)\Microsoft</span><span class="nv"> </span><span class="s">Visual</span><span class="nv"> </span><span class="s">Studio\Installer\resources\app\ServiceHub\Services\Microsoft.VisualStudio.Setup.Service\BackgroundDownload.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_vmtoolsd_susp_child_process.yml">proc_creation_win_vmtoolsd_susp_child_process.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects suspicious child process creations of VMware Tools process which may indicate persistence setup</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_asep_reg_keys_modification.yml">registry_event_asep_reg_keys_modification.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\SOFTWARE\Wow6432Node\Microsoft\Active</span><span class="nv"> </span><span class="s">Setup\Installed</span><span class="nv"> </span><span class="s">Components'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_asep_reg_keys_modification.yml">sysmon_asep_reg_keys_modification.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_asep_reg_keys_modification.yml">registry_event_asep_reg_keys_modification.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\SYSTEM\Setup\CmdLine'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_asep_reg_keys_modification.yml">sysmon_asep_reg_keys_modification.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_asep_reg_keys_modification.yml">registry_event_asep_reg_keys_modification.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\SOFTWARE\Microsoft\Active</span><span class="nv"> </span><span class="s">Setup\Installed</span><span class="nv"> </span><span class="s">Components'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_new_application_appcompat.yml">sysmon_new_application_appcompat.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_asep_reg_keys_modification_common.yml">registry_event_asep_reg_keys_modification_common.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\SOFTWARE\Wow6432Node\Microsoft\Active</span><span class="nv"> </span><span class="s">Setup\Installed</span><span class="nv"> </span><span class="s">Components'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_asep_reg_keys_modification_common.yml">registry_event_asep_reg_keys_modification_common.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\SYSTEM\Setup\CmdLine'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_asep_reg_keys_modification_common.yml">registry_event_asep_reg_keys_modification_common.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\SOFTWARE\Microsoft\Active</span><span class="nv"> </span><span class="s">Setup\Installed</span><span class="nv"> </span><span class="s">Components'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_asep_reg_keys_modification_common.yml">registry_event_asep_reg_keys_modification_common.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetObject\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\SOFTWARE\Microsoft\Active</span><span class="nv"> </span><span class="s">Setup\Installed</span><span class="nv"> </span><span class="s">Components\{8A69D345-D564-463c-AFF1-A69D9E530F96}\'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_asep_reg_keys_modification_wow6432node.yml">registry_event_asep_reg_keys_modification_wow6432node.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\setup.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_mal_flowcloud.yml">registry_event_mal_flowcloud.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">HKLM\SYSTEM\Setup\PrintResponsor\'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_new_application_appcompat.yml">registry_event_new_application_appcompat.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s">Newly setup system.</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_runonce_persistence.yml">sysmon_runonce_persistence.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_runonce_persistence.yml">registry_event_runonce_persistence.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetObject\|startswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">HKLM\SOFTWARE\Microsoft\Active</span><span class="nv"> </span><span class="s">Setup\Installed</span><span class="nv"> </span><span class="s">Components'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
@@ -442,7 +496,7 @@
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Runonce.yml">Runonce.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\YOURKEY</span></code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">IOC</span><span class="pi">:</span> <span class="s">Registy key add - HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\YOURKEY</span></code></td>
       <td> </td>
     </tr>
     <tr>
@@ -568,37 +622,37 @@
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
-      <td>- T1547.014 Active Setup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a></td>
+      <td>- T1547.014 Active Setup <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md">windows-index.md</a></td>
-      <td>- T1547.014 Active Setup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a></td>
+      <td>- T1547.014 Active Setup <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>| Compromise Software Dependencies and Development Tools <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1053.002/T1053.002.md">At (Windows)</a> | Active Setup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1546.008/T1546.008.md">Accessibility Features</a> | Application Access Token <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1558.004/T1558.004.md">AS-REP Roasting</a> | <a href="../../T1217/T1217.md">Browser Bookmark Discovery</a> | <a href="../../T1021.003/T1021.003.md">Distributed Component Object Model</a> | Archive via Custom Method <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1048/T1048.md">Exfiltration Over Alternative Protocol</a> | Bidirectional Communication <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Application or System Exploitation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |</td>
+      <td>| Compromise Software Dependencies and Development Tools <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1053.002/T1053.002.md">At (Windows)</a> | Active Setup <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1546.008/T1546.008.md">Accessibility Features</a> | Application Access Token <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1558.004/T1558.004.md">AS-REP Roasting</a> | <a href="../../T1217/T1217.md">Browser Bookmark Discovery</a> | <a href="../../T1021.003/T1021.003.md">Distributed Component Object Model</a> | Archive via Custom Method <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1048/T1048.md">Exfiltration Over Alternative Protocol</a> | Bidirectional Communication <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Application or System Exploitation <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>| Compromise Software Supply Chain <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Command and Scripting Interpreter <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Add Office 365 Global Administrator Role <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Active Setup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1055.004/T1055.004.md">Asynchronous Procedure Call</a> | <a href="../../T1552.003/T1552.003.md">Bash History</a> | Cloud Account <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Exploitation of Remote Services <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1560.002/T1560.002.md">Archive via Library</a> | Exfiltration Over Asymmetric Encrypted Non-C2 Protocol <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Commonly Used Port <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1485/T1485.md">Data Destruction</a> |</td>
+      <td>| Compromise Software Supply Chain <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Command and Scripting Interpreter <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Add Office 365 Global Administrator Role <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Active Setup <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1055.004/T1055.004.md">Asynchronous Procedure Call</a> | <a href="../../T1552.003/T1552.003.md">Bash History</a> | Cloud Account <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Exploitation of Remote Services <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1560.002/T1560.002.md">Archive via Library</a> | <a href="../../T1048.002/T1048.002.md">Exfiltration Over Asymmetric Encrypted Non-C2 Protocol</a> | Commonly Used Port <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1485/T1485.md">Data Destruction</a> |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>| Compromise Software Supply Chain <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Component Object Model <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Active Setup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1546.008/T1546.008.md">Accessibility Features</a> | <a href="../../T1055.004/T1055.004.md">Asynchronous Procedure Call</a> | Brute Force <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1217/T1217.md">Browser Bookmark Discovery</a> | Exploitation of Remote Services <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Archive via Custom Method <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1048/T1048.md">Exfiltration Over Alternative Protocol</a> | Bidirectional Communication <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Application or System Exploitation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |</td>
+      <td>| Compromise Software Supply Chain <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Component Object Model <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Active Setup <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1546.008/T1546.008.md">Accessibility Features</a> | <a href="../../T1055.004/T1055.004.md">Asynchronous Procedure Call</a> | Brute Force <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1217/T1217.md">Browser Bookmark Discovery</a> | Exploitation of Remote Services <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Archive via Custom Method <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1048/T1048.md">Exfiltration Over Alternative Protocol</a> | Bidirectional Communication <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Application or System Exploitation <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/windows-matrix.md">windows-matrix.md</a></td>
-      <td>| <a href="../../T1078.001/T1078.001.md">Default Accounts</a> | Component Object Model and Distributed COM <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1137.006/T1137.006.md">Add-ins</a> | Active Setup <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1197/T1197.md">BITS Jobs</a> | Cached Domain Credentials <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1087.002/T1087.002.md">Domain Account</a> | Internal Spearphishing <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Archive via Library <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Exfiltration Over Asymmetric Encrypted Non-C2 Protocol <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Commonly Used Port <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1485/T1485.md">Data Destruction</a> |</td>
+      <td>| <a href="../../T1078.001/T1078.001.md">Default Accounts</a> | Component Object Model and Distributed COM <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1137.006/T1137.006.md">Add-ins</a> | Active Setup <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1197/T1197.md">BITS Jobs</a> | Cached Domain Credentials <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1087.002/T1087.002.md">Domain Account</a> | Internal Spearphishing <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | Archive via Library <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1048.002/T1048.002.md">Exfiltration Over Asymmetric Encrypted Non-C2 Protocol</a> | Commonly Used Port <a href="https://github.com/redcanaryco/atomic-red-team/wiki/Contributing">CONTRIBUTE A TEST</a> | <a href="../../T1485/T1485.md">Data Destruction</a> |</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -617,6 +671,12 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1046/T1046.md">T1046.md</a></td>
       <td>Start-Process $env:temp\nmap-7.80-setup.exe /S</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md">T1047.md</a></td>
+      <td>Invoke-WebRequest ‘https://www.tightvnc.com/download/2.8.63/tightvnc-2.8.63-gpl-setup-64bit.msi’ -OutFile PathToAtomicsFolder\T1047\bin\tightvncinstaller.msi</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -819,7 +879,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

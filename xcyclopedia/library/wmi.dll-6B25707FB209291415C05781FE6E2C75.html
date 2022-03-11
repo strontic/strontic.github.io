@@ -269,10 +269,6 @@
       <td><code class="language-plaintext highlighter-rouge">96:BMZ/KvusBSHxf/ZgwHghkyPFtXmKAEqmF9u6McEWMiWw:O/KvusBSHxf/6wAhkyyWMiW</code></td>
     </tr>
     <tr>
-      <td>IMP</td>
-      <td><code class="language-plaintext highlighter-rouge">n/a</code></td>
-    </tr>
-    <tr>
       <td>PESHA1</td>
       <td><code class="language-plaintext highlighter-rouge">BBB1F8D063CC456D4F6BFFDD3690EA864B853098</code></td>
     </tr>
@@ -584,6 +580,24 @@
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/security/win_wmiprvse_wbemcomn_dll_hijack.yml">win_wmiprvse_wbemcomn_dll_hijack.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects a threat actor creating a file named </code>wbemcomn.dll<code class="language-plaintext highlighter-rouge"> in the </code>C:\Windows\System32\wbem` directory over the network for a WMI DLL Hijack scenario.`{:.highlight .language-yaml}</td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/file_event/file_event_win_wmiprvse_wbemcomn_dll_hijack.yml">file_event_win_wmiprvse_wbemcomn_dll_hijack.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects a threat actor creating a file named </code>wbemcomn.dll<code class="language-plaintext highlighter-rouge"> in the </code>C:\Windows\System32\wbem` directory over the network and loading it for a WMI DLL Hijack scenario.`{:.highlight .language-yaml}</td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/image_load/image_load_wmiprvse_wbemcomn_dll_hijack.yml">image_load_wmiprvse_wbemcomn_dll_hijack.yml</a></td>
+      <td><code class="language-plaintext highlighter-rouge">description: Detects a threat actor creating a file named </code>wbemcomn.dll<code class="language-plaintext highlighter-rouge"> in the </code>C:\Windows\System32\wbem` directory over the network and loading it for a WMI DLL Hijack scenario.`{:.highlight .language-yaml}</td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_op_cloudhopper.yar">apt_op_cloudhopper.yar</a></td>
       <td>$s1 = “wmi.dll 2&gt;&amp;1” ascii</td>
@@ -598,7 +612,7 @@
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -669,7 +683,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

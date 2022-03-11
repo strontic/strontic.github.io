@@ -893,16 +893,32 @@
       <td>29</td>
     </tr>
     <tr>
+      <td><a href="/xcyclopedia/library/dfsvc.exe-B1C06C3F89538F7B4F892D0A8F5E7EB9.html">C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\dfsvc.exe</a></td>
+      <td>43</td>
+    </tr>
+    <tr>
       <td><a href="/xcyclopedia/library/dfsvc.exe-B4088F44B80D363902E11F897A7BAC09.html">C:\Windows\Microsoft.NET\Framework\v4.0.30319\dfsvc.exe</a></td>
       <td>50</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/Microsoft.Workflow.Compiler.exe-CC3FC0B1818A22ADB086F2785A3E5A00.html">C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Workflow.Compiler.exe</a></td>
+      <td>30</td>
     </tr>
     <tr>
       <td><a href="/xcyclopedia/library/Microsoft.Workflow.Compiler.exe-FC9DE0484A269CE25C09B5B1D25139D1.html">C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Workflow.Compiler.exe</a></td>
       <td>36</td>
     </tr>
     <tr>
+      <td><a href="/xcyclopedia/library/dfsvc.exe-B1C06C3F89538F7B4F892D0A8F5E7EB9.html">C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\dfsvc.exe</a></td>
+      <td>43</td>
+    </tr>
+    <tr>
       <td><a href="/xcyclopedia/library/dfsvc.exe-B4088F44B80D363902E11F897A7BAC09.html">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\dfsvc.exe</a></td>
       <td>50</td>
+    </tr>
+    <tr>
+      <td><a href="/xcyclopedia/library/Microsoft.Workflow.Compiler.exe-CC3FC0B1818A22ADB086F2785A3E5A00.html">C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Workflow.Compiler.exe</a></td>
+      <td>30</td>
     </tr>
     <tr>
       <td><a href="/xcyclopedia/library/Microsoft.Workflow.Compiler.exe-FC9DE0484A269CE25C09B5B1D25139D1.html">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Workflow.Compiler.exe</a></td>
@@ -927,96 +943,7 @@
   </tbody>
 </table>
 
-<h2 id="possible-misuse">Possible Misuse</h2>
-
-<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">System.Text.Encoding.dll</code> being misused. While <code class="language-plaintext highlighter-rouge">System.Text.Encoding.dll</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Source</th>
-      <th>Source File</th>
-      <th>Example</th>
-      <th>License</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027/T1027.md">T1027.md</a></td>
-      <td>$Bytes = [System.Text.Encoding]::Unicode.GetBytes($OriginalCommand)</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1566.001/T1566.001.md">T1566.001.md</a></td>
-      <td>$wc.Encoding = [System.Text.Encoding]::UTF8</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_aus_parl_compromise.yar">apt_aus_parl_compromise.yar</a></td>
-      <td>$x1 = “Request.Item[System.Text.Encoding.UTF8.GetString(Convert.FromBase64String("[password]"))];” ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_aus_parl_compromise.yar">apt_aus_parl_compromise.yar</a></td>
-      <td>$x2 = “eval(arguments,System.Text.Encoding.UTF8.GetString(Convert.FromBase64String("” ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_aus_parl_compromise.yar">apt_aus_parl_compromise.yar</a></td>
-      <td>$s1 = “&lt;%@ Page Language="Jscript" validateRequest="false"%&gt;&lt;%try{eval(System.Text.Encoding.UTF8.GetString(Convert.FromBase64String” ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_aus_parl_compromise.yar">apt_aus_parl_compromise.yar</a></td>
-      <td>$s2 = “{return System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(“ ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_aus_parl_compromise.yar">apt_aus_parl_compromise.yar</a></td>
-      <td>$a1 = “function DEC(d){return System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(d));}” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_aus_parl_compromise.yar">apt_aus_parl_compromise.yar</a></td>
-      <td>$a2 = “function ENC(d){return Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(d));}” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_muddywater.yar">apt_muddywater.yar</a></td>
-      <td>/* iex([System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String( */</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_oilrig.yar">apt_oilrig.yar</a></td>
-      <td>$s2 = “$fdn=[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String(‘” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_invoke_psimage.yar">gen_invoke_psimage.yar</a></td>
-      <td>$ = “IEX([System.Text.Encoding]::ASCII.GetString(“ ascii wide</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_powershell_empire.yar">gen_powershell_empire.yar</a></td>
-      <td>$s4 = “$temp = [System.Text.Encoding]::UNICODE.GetBytes($szTempDllPath)” fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -1087,7 +1014,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

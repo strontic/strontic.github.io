@@ -487,78 +487,7 @@
   <li>VirusTotal Link: https://www.virustotal.com/gui/file/d04200edd7de6013727793bdd34b63e590d7a9625c4a669b78dc586b0f6181cf/detection/</li>
 </ul>
 
-<h2 id="possible-misuse">Possible Misuse</h2>
-
-<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">container.dll</code> being misused. While <code class="language-plaintext highlighter-rouge">container.dll</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Source</th>
-      <th>Source File</th>
-      <th>Example</th>
-      <th>License</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/turla/turla-outlook.yar">turla-outlook.yar</a></td>
-      <td><code class="language-plaintext highlighter-rouge">$s17 = "cmd container" ascii wide</code></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/ARTifacts/Atomic_Friday/2020-05-01/Atomic_Friday.md">Atomic_Friday.md</a></td>
-      <td>Resolved Collection Methods: Group, Sessions, Trusts, ACL, ObjectProps, LocalGroups, SPNTargets, Container</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/index.md">index.md</a></td>
-      <td>- T1525 Implant Container Image <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/linux-index.md">linux-index.md</a></td>
-      <td>- T1525 Implant Container Image <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/linux-matrix.md">linux-matrix.md</a></td>
-      <td>|  |  | Implant Container Image <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Systemd Timers <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1070.004/T1070.004.md">File Deletion</a> | Securityd Memory <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1082/T1082.md">System Information Discovery</a> |  | Remote Data Staging <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  | Multi-hop Proxy <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Stored Data Manipulation <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Matrices/matrix.md">matrix.md</a></td>
-      <td>|  |  | Implant Container Image <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | <a href="../../T1543.004/T1543.004.md">Launch Daemon</a> | Executable Installer File Permissions Weakness <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> | Securityd Memory <a href="https://atomicredteam.io/contributing">CONTRIBUTE A TEST</a> |  |  |  |  |  |  |</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564.004/T1564.004.md">T1564.004.md</a></td>
-      <td>if (!(Test-Path C:\Users\Public\Libraries\yanki -PathType Container)) {</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_project_sauron.yara">apt_project_sauron.yara</a></td>
-      <td>description = “Rule to detect ProjectSauron samples encrypted container”</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-webshells.yar">thor-webshells.yar</a></td>
-      <td>$s5 = “A new key container has been created.”</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -629,7 +558,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

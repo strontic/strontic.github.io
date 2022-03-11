@@ -394,19 +394,19 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/macos_system_network_discovery.yml">macos_system_network_discovery.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/linux/macos/process_creation/proc_creation_macos_system_network_discovery.yml">proc_creation_macos_system_network_discovery.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Image</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/usr/bin/defaults'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_bad_opsec_sacrificial_processes.yml">win_bad_opsec_sacrificial_processes.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_bad_opsec_sacrificial_processes.yml">proc_creation_win_bad_opsec_sacrificial_processes.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Bad Opsec Defaults Sacrificial Processes With Improper Arguments</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_bad_opsec_sacrificial_processes.yml">win_bad_opsec_sacrificial_processes.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_bad_opsec_sacrificial_processes.yml">proc_creation_win_bad_opsec_sacrificial_processes.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Detects</span><span class="nv"> </span><span class="s">attackers</span><span class="nv"> </span><span class="s">using</span><span class="nv"> </span><span class="s">tooling</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">bad</span><span class="nv"> </span><span class="s">opsec</span><span class="nv"> </span><span class="s">defaults</span><span class="nv"> </span><span class="s">e.g.</span><span class="nv"> </span><span class="s">spawning</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">sacrificial</span><span class="nv"> </span><span class="s">process</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">inject</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">capability</span><span class="nv"> </span><span class="s">into</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">process</span><span class="nv"> </span><span class="s">without</span><span class="nv"> </span><span class="s">taking</span><span class="nv"> </span><span class="s">into</span><span class="nv"> </span><span class="s">account</span><span class="nv"> </span><span class="s">how</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">process</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">normally</span><span class="nv"> </span><span class="s">run,</span><span class="nv"> </span><span class="s">one</span><span class="nv"> </span><span class="s">trivial</span><span class="nv"> </span><span class="s">example</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">using</span><span class="nv"> </span><span class="s">rundll32.exe</span><span class="nv"> </span><span class="s">without</span><span class="nv"> </span><span class="s">arguments</span><span class="nv"> </span><span class="s">as</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">sacrificial</span><span class="nv"> </span><span class="s">process</span><span class="nv"> </span><span class="s">(default</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">CS,</span><span class="nv"> </span><span class="s">now</span><span class="nv"> </span><span class="s">highlighted</span><span class="nv"> </span><span class="s">by</span><span class="nv"> </span><span class="s">c2lint),</span><span class="nv"> </span><span class="s">running</span><span class="nv"> </span><span class="s">WerFault</span><span class="nv"> </span><span class="s">without</span><span class="nv"> </span><span class="s">arguments</span><span class="nv"> </span><span class="s">(Kraken</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">credit</span><span class="nv"> </span><span class="s">am0nsec),</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">other</span><span class="nv"> </span><span class="s">examples.'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
@@ -438,6 +438,12 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1037.002/T1037.002.md">T1037.002.md</a></td>
       <td>defaults write com.apple.loginwindow LoginHook /Library/Scripts/AtomicRedTeam.sh</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1047/T1047.md">T1047.md</a></td>
+      <td>| node | Computer the action is being executed against but defaults to the localhost. | string | 127.0.0.1|</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -518,6 +524,12 @@
       <td>$s0 = “action=mysqlread&amp;mass=loadmass"&gt;load all defaults”</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/collection/10fad81e-3f68-47be-83b6-fbee7711c6a9.yml">10fad81e-3f68-47be-83b6-fbee7711c6a9.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">defaults to the current user's Recycle Bin (Windows) and /tmp (Linux). Payload files include default values for all</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
   </tbody>
 </table>
 
@@ -592,7 +604,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

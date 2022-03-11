@@ -402,25 +402,43 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_asr_bypass_via_appvlp_re.yml">win_asr_bypass_via_appvlp_re.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/security/win_asr_bypass_via_appvlp_re.yml">win_asr_bypass_via_appvlp_re.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Using AppVLP To Circumvent ASR File Path Rule</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_asr_bypass_via_appvlp_re.yml">win_asr_bypass_via_appvlp_re.yml</a></td>
-      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Application</span><span class="nv"> </span><span class="s">Virtualization</span><span class="nv"> </span><span class="s">Utility</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">included</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">Microsoft</span><span class="nv"> </span><span class="s">Office.We</span><span class="nv"> </span><span class="s">are</span><span class="nv"> </span><span class="s">able</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">abuse</span><span class="nv"> </span><span class="s">“AppVLP”</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">execute</span><span class="nv"> </span><span class="s">shell</span><span class="nv"> </span><span class="s">commands.</span><span class="nv"> </span><span class="s">Normally,</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">binary</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">used</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Application</span><span class="nv"> </span><span class="s">Virtualization,</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">we</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">as</span><span class="nv"> </span><span class="s">an</span><span class="nv"> </span><span class="s">abuse</span><span class="nv"> </span><span class="s">binary</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">circumvent</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">ASR</span><span class="nv"> </span><span class="s">file</span><span class="nv"> </span><span class="s">path</span><span class="nv"> </span><span class="s">rule</span><span class="nv"> </span><span class="s">folder</span><span class="nv"> </span><span class="s">or</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">mark</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">file</span><span class="nv"> </span><span class="s">as</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">system</span><span class="nv"> </span><span class="s">file'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/security/win_asr_bypass_via_appvlp_re.yml">win_asr_bypass_via_appvlp_re.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Application</span><span class="nv"> </span><span class="s">Virtualization</span><span class="nv"> </span><span class="s">Utility</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">included</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">Microsoft</span><span class="nv"> </span><span class="s">Office.We</span><span class="nv"> </span><span class="s">are</span><span class="nv"> </span><span class="s">able</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">abuse</span><span class="nv"> </span><span class="s">"AppVLP"</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">execute</span><span class="nv"> </span><span class="s">shell</span><span class="nv"> </span><span class="s">commands.</span><span class="nv"> </span><span class="s">Normally,</span><span class="nv"> </span><span class="s">this</span><span class="nv"> </span><span class="s">binary</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">used</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Application</span><span class="nv"> </span><span class="s">Virtualization,</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">we</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">use</span><span class="nv"> </span><span class="s">it</span><span class="nv"> </span><span class="s">as</span><span class="nv"> </span><span class="s">an</span><span class="nv"> </span><span class="s">abuse</span><span class="nv"> </span><span class="s">binary</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">circumvent</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">ASR</span><span class="nv"> </span><span class="s">file</span><span class="nv"> </span><span class="s">path</span><span class="nv"> </span><span class="s">rule</span><span class="nv"> </span><span class="s">folder</span><span class="nv"> </span><span class="s">or</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">mark</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">file</span><span class="nv"> </span><span class="s">as</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">system</span><span class="nv"> </span><span class="s">file'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/win_asr_bypass_via_appvlp_re.yml">win_asr_bypass_via_appvlp_re.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/security/win_asr_bypass_via_appvlp_re.yml">win_asr_bypass_via_appvlp_re.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">CommandLine\|re</span><span class="pi">:</span> <span class="s1">'</span><span class="s">(?i).*appvlp.exe.*(cmd.exe\|powershell.exe).*(.sh\|.exe\|.dll\|.bin\|.bat\|.cmd\|.js\|.msh\|.reg\|.scr\|.ps\|.vb\|.jar\|.pl\|.inf)'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_office_shell.yml">win_office_shell.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_office_shell.yml">proc_creation_win_office_shell.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\AppVLP.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_outlook_shell.yml">proc_creation_win_outlook_shell.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\AppVLP.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_shell_spawn_by_java.yml">proc_creation_win_susp_shell_spawn_by_java.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\AppVLP.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_shell_spawn_by_java_keytool.yml">proc_creation_win_susp_shell_spawn_by_java_keytool.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\AppVLP.exe'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
@@ -546,7 +564,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

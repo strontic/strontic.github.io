@@ -312,48 +312,7 @@
   <li>VirusTotal Link: https://www.virustotal.com/gui/file/e2386b60a73fa7c95a8968161fb1c84dd9143462b2880133778a3027f75730f2/detection/</li>
 </ul>
 
-<h2 id="possible-misuse">Possible Misuse</h2>
-
-<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">adodb.dll</code> being misused. While <code class="language-plaintext highlighter-rouge">adodb.dll</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Source</th>
-      <th>Source File</th>
-      <th>Example</th>
-      <th>License</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.002/T1204.002.md">T1204.002.md</a></td>
-      <td>echo var url = “#{file_url}”, fso = WScript.CreateObject(‘Scripting.FileSystemObject’), request, stream; request = WScript.CreateObject(‘MSXML2.ServerXMLHTTP’); request.open(‘GET’, url, false); request.send(); if (request.status === 200) {stream = WScript.CreateObject(‘ADODB.Stream’); stream.Open(); stream.Type = 1; stream.Write(request.responseBody); stream.Position = 0; stream.SaveToFile(filename, 1); stream.Close();} else {WScript.Quit(1);}WScript.Quit(0); &gt; #{script_file}</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.002/T1204.002.md">T1204.002.md</a></td>
-      <td>$sheet.Cells.Item(12,1) = “=FWRITELN(A5, <code class="language-plaintext highlighter-rouge">"Set oStream = CreateObject(</code>”<code class="language-plaintext highlighter-rouge">"ADODB.Stream</code>”<code class="language-plaintext highlighter-rouge">")</code>”)”</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_stuxnet.yar">apt_stuxnet.yar</a></td>
-      <td>$s6 = “@abf varbinary(4096) EXEC @hr = sp_OACreate ‘ADODB.Stream’, @aods OUT IF @hr &lt;&gt; 0 GOTO endq EXEC @hr = sp_OASetProperty @” wide</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/thor-hacktools.yar">thor-hacktools.yar</a></td>
-      <td>$s7 = “&lt;%set Conn = Server.CreateObject("ADODB.Connection") “ fullword ascii</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -424,7 +383,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

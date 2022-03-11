@@ -267,18 +267,6 @@
       <td>SSDEEP</td>
       <td><code class="language-plaintext highlighter-rouge">3::</code></td>
     </tr>
-    <tr>
-      <td>IMP</td>
-      <td><code class="language-plaintext highlighter-rouge">n/a</code></td>
-    </tr>
-    <tr>
-      <td>PESHA1</td>
-      <td><code class="language-plaintext highlighter-rouge">n/a</code></td>
-    </tr>
-    <tr>
-      <td>PE256</td>
-      <td><code class="language-plaintext highlighter-rouge">n/a</code></td>
-    </tr>
   </tbody>
 </table>
 
@@ -302,7 +290,6 @@
   <li>Product Version:</li>
   <li>Language:</li>
   <li>Legal Copyright:</li>
-  <li>Machine Type: n/a</li>
 </ul>
 
 <h2 id="file-scan">File Scan</h2>
@@ -329,96 +316,7 @@
   </tbody>
 </table>
 
-<h2 id="possible-misuse">Possible Misuse</h2>
-
-<p><em>The following table contains possible examples of <code class="language-plaintext highlighter-rouge">EventSource.dll</code> being misused. While <code class="language-plaintext highlighter-rouge">EventSource.dll</code> is <strong>not</strong> inherently malicious, its legitimate functionality can be abused for malicious purposes.</em></p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Source</th>
-      <th>Source File</th>
-      <th>Example</th>
-      <th>License</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_cloudtrail_disable_logging.yml">aws_cloudtrail_disable_logging.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- eventSource: cloudtrail.amazonaws.com</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_config_disable_recording.yml">aws_config_disable_recording.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- eventSource: config.amazonaws.com</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_ec2_download_userdata.yml">aws_ec2_download_userdata.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- eventSource: ec2.amazonaws.com</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_ec2_startup_script_change.yml">aws_ec2_startup_script_change.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- eventSource: ec2.amazonaws.com</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_ec2_vm_export_failure.yml">aws_ec2_vm_export_failure.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">eventSource: 'ec2.amazonaws.com'</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_guardduty_disruption.yml">aws_guardduty_disruption.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- eventSource: guardduty.amazonaws.com</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_iam_backdoor_users_keys.yml">aws_iam_backdoor_users_keys.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- eventSource: iam.amazonaws.com</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_rds_change_master_password.yml">aws_rds_change_master_password.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- eventSource: rds.amazonaws.com</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_rds_public_db_restore.yml">aws_rds_public_db_restore.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- eventSource: rds.amazonaws.com</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/cloud/aws_update_login_profile.yml">aws_update_login_profile.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- eventSource: iam.amazonaws.com</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/ecs-cloudtrail.yml">ecs-cloudtrail.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">eventSource: event.provider</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/tools/config/stix.yml">stix.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">eventSource:</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -489,7 +387,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

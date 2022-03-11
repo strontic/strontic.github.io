@@ -687,52 +687,10 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/proxy/proxy_ua_apt.yml">proxy_ua_apt.yml</a></td>
-      <td><code class="language-plaintext highlighter-rouge">- 'Mozilla/5.0 (Windows NT 6.1; WOW64) WinHttp/1.6.3.8 (WinHTTP/5.1) like Gecko'  # Sofacy User-Agent https://researchcenter.paloaltonetworks.com/2018/06/unit42-sofacy-groups-parallel-attacks/</code></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/eset/malware-ioc">malware-ioc</a></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/rtm/README.adoc">rtm</a></td>
-      <td><code class="language-plaintext highlighter-rouge">winhttp.dll</code></td>
+      <td><code class="language-plaintext highlight language-cmhg highlighter-rouge"><span class="ni">winhttp</span><span class="err">.</span><span class="ni">dll</span></code></td>
       <td><a href="https://github.com/eset/malware-ioc/blob/master/LICENSE">© ESET 2014-2018</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.002/T1204.002.md">T1204.002.md</a></td>
-      <td>$sheet.Cells.Item(8,1) = “=FWRITELN(A5, <code class="language-plaintext highlighter-rouge">"Set winHttp = CreateObject(</code>”<code class="language-plaintext highlighter-rouge">"WinHTTP.WinHTTPrequest.5.1</code>”<code class="language-plaintext highlighter-rouge">")</code>”)”</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.002/T1204.002.md">T1204.002.md</a></td>
-      <td>$sheet.Cells.Item(9,1) = “=FWRITELN(A5, <code class="language-plaintext highlighter-rouge">"winHttp.Open </code>”<code class="language-plaintext highlighter-rouge">"GET</code>”<code class="language-plaintext highlighter-rouge">", url, False</code>”)”</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.002/T1204.002.md">T1204.002.md</a></td>
-      <td>$sheet.Cells.Item(10,1) = “=FWRITELN(A5, <code class="language-plaintext highlighter-rouge">"winHttp.Send</code>”)”</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.002/T1204.002.md">T1204.002.md</a></td>
-      <td>$sheet.Cells.Item(11,1) = “=FWRITELN(A5, <code class="language-plaintext highlighter-rouge">"If winHttp.Status = 200 Then</code>”)”</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team">atomic-red-team</a></td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1204.002/T1204.002.md">T1204.002.md</a></td>
-      <td>$sheet.Cells.Item(15,1) = “=FWRITELN(A5, <code class="language-plaintext highlighter-rouge">"oStream.Write winHttp.responseBody</code>”)”</td>
-      <td><a href="https://github.com/redcanaryco/atomic-red-team/blob/master/LICENSE.txt">MIT License. © 2018 Red Canary</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_ism_rat.yar">apt_ism_rat.yar</a></td>
-      <td>$s1 = “WinHTTP Example/1.0” wide</td>
-      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
@@ -740,10 +698,22 @@
       <td>$s1 = “Winhttp.dll” fullword ascii</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
     </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_icedid.yar">crime_icedid.yar</a></td>
+      <td>$string6 = “WINHTTP.dll” fullword</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/signature-base">signature-base</a></td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/crime_ransom_darkside.yar">crime_ransom_darkside.yar</a></td>
+      <td>$knownDLLs1 = “WINHTTP.dll” fullword</td>
+      <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
   </tbody>
 </table>
 
-<p>MIT License. Copyright (c) 2020 Strontic.</p>
+<p>MIT License. Copyright (c) 2020-2021 Strontic.</p>
 
 
     </section>
@@ -814,7 +784,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

@@ -489,8 +489,44 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
-      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/sysmon_registry_persistence_search_order.yml">sysmon_registry_persistence_search_order.yml</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_access/proc_access_win_susp_proc_access_lsass.yml">proc_access_win_susp_proc_access_lsass.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="c1"># Generic Filter for 0x1410 filter (caused by so many programs like DropBox updates etc.)</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_netsh_fw_add.yml">proc_creation_win_netsh_fw_add.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\netsh.exe</span><span class="nv"> </span><span class="s">advfirewall</span><span class="nv"> </span><span class="s">firewall</span><span class="nv"> </span><span class="s">add</span><span class="nv"> </span><span class="s">rule</span><span class="nv"> </span><span class="s">name=Dropbox</span><span class="nv"> </span><span class="s">dir=in</span><span class="nv"> </span><span class="s">action=allow</span><span class="nv"> </span><span class="s">"program=C:\Program</span><span class="nv"> </span><span class="s">Files</span><span class="nv"> </span><span class="s">(x86)\Dropbox\Client\Dropbox.exe"</span><span class="nv"> </span><span class="s">enable=yes</span><span class="nv"> </span><span class="s">profile=Any'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/process_creation/proc_creation_win_netsh_fw_add.yml">proc_creation_win_netsh_fw_add.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\netsh.exe</span><span class="nv"> </span><span class="s">advfirewall</span><span class="nv"> </span><span class="s">firewall</span><span class="nv"> </span><span class="s">add</span><span class="nv"> </span><span class="s">rule</span><span class="nv"> </span><span class="s">name=Dropbox</span><span class="nv"> </span><span class="s">dir=in</span><span class="nv"> </span><span class="s">action=allow</span><span class="nv"> </span><span class="s">"program=C:\Program</span><span class="nv"> </span><span class="s">Files\Dropbox\Client\Dropbox.exe"</span><span class="nv"> </span><span class="s">enable=yes</span><span class="nv"> </span><span class="s">profile=Any'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_asep_reg_keys_modification_wow6432node.yml">registry_event_asep_reg_keys_modification_wow6432node.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\Dropbox\Client\Dropbox.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_persistence_search_order.yml">registry_event_persistence_search_order.yml</a></td>
       <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="pi">-</span> <span class="s1">'</span><span class="s">\AppData\Roaming\Dropbox\'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_removal_com_hijacking_registry_key.yml">registry_event_removal_com_hijacking_registry_key.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">Image\|endswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">\Dropbox.exe'</span></code></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Neo23x0/sigma">sigma</a></td>
+      <td><a href="https://github.com/Neo23x0/sigma/blob/master/rules/windows/registry_event/registry_event_removal_com_hijacking_registry_key.yml">registry_event_removal_com_hijacking_registry_key.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">TargetObject\|startswith</span><span class="pi">:</span> <span class="s1">'</span><span class="s">HKCR\Dropbox.'</span></code></td>
       <td><a href="https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md">DRL 1.0</a></td>
     </tr>
     <tr>
@@ -552,6 +588,48 @@
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/yara/gen_mal_scripts.yar">gen_mal_scripts.yar</a></td>
       <td>$x2 = “script:https://www.dropbox.com” ascii</td>
       <td><a href="https://github.com/Neo23x0/signature-base/blob/master/LICENSE">CC BY-NC 4.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml">3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">name</span><span class="pi">:</span> <span class="s">Exfil Compressed Archive to Dropbox</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml">3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="na">description</span><span class="pi">:</span> <span class="s">This will exfiltrate an archive to Dropbox.</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml">3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">$TargetFilePath = "/#{dropbox.target.dir}/$RemoteName";</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml">3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">$ApiKey = "#{dropbox.api.key}";</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml">3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">$req.Headers.Add("Dropbox-API-Arg", $arg);</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml">3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">--header "Authorization</span><span class="pi">:</span> <span class="s">Bearer</span> <span class="c1">#{dropbox.api.key}"</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/mitre/stockpile">stockpile</a></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/data/abilities/exfiltration/3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml">3ce95a28-25fc-4a7e-a0cd-0fdb190e2081.yml</a></td>
+      <td><code class="language-plaintext highlight language-yaml highlighter-rouge"><span class="s">--header "Dropbox-API-Arg</span><span class="pi">:</span> <span class="pi">{</span><span class="nv">\"path\"</span><span class="pi">:</span> <span class="nv">\"/#</span><span class="pi">{</span><span class="nv">dropbox.target.dir</span><span class="pi">}</span><span class="nv">/$RemoteName\"</span><span class="pi">,</span><span class="nv">\"mode\"</span><span class="pi">:</span> <span class="nv">\"add\"</span><span class="pi">,</span><span class="nv">\"autorename\"</span><span class="pi">:</span> <span class="nv">true</span><span class="pi">,</span><span class="nv">\"mute\"</span><span class="pi">:</span> <span class="nv">false</span><span class="pi">,</span><span class="nv">\"strict_conflict\"</span><span class="pi">:</span> <span class="nv">false</span><span class="pi">}</span><span class="s2">"</span></code></td>
+      <td><a href="https://github.com/mitre/stockpile/blob/master/LICENSE">Apache-2.0</a></td>
     </tr>
   </tbody>
 </table>
@@ -627,7 +705,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 STRONTIC. Theme: <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
